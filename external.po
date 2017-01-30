@@ -5,15 +5,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2016-06-26 14:53+0200\n"
-"PO-Revision-Date: 2016-06-26 14:53+0200\n"
+"POT-Creation-Date: 2016-10-23 18:35+0200\n"
+"PO-Revision-Date: 2016-10-23 18:35+0200\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #. File www/class_StreamStatus.php:528
 #. Arguments: $this->str($this->bitrate)
@@ -60,10 +60,10 @@ msgstr ""
 msgid "%s (%s) requested \"%s - %s\"; unable to find corresponding track"
 msgstr ""
 
-#. File www/external/modules/class_Module_start.php:78
+#. File www/external/modules/class_Module_start.php:73
 #. Arguments: $account['maxbitrate']
 #.
-#: www/external/modules/class_Module_start.php:78
+#: www/external/modules/class_Module_start.php:73
 msgid "%s Kbps stream"
 msgstr ""
 
@@ -227,7 +227,7 @@ msgstr "Aug"
 #.
 #. File system/sources/sctrans/class_Sourcesctrans.php:202
 #.
-#. File system/sources/sctrans2/class_Sourcesctrans2.php:536
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:534
 #.
 #. File system/sources/liquidsoap/class_Sourceliquidsoap.php:177
 #.
@@ -259,7 +259,7 @@ msgstr "Aug"
 #: www/client/modules/class_Module_control.php:231
 #: www/client/modules/class_Module_importm3u.php:14
 #: system/sources/sctrans/class_Sourcesctrans.php:202
-#: system/sources/sctrans2/class_Sourcesctrans2.php:536
+#: system/sources/sctrans2/class_Sourcesctrans2.php:534
 #: system/sources/liquidsoap/class_Sourceliquidsoap.php:177
 #: system/sources/icessingleencoder/class_Sourceices.php:323
 #: system/sources/ices2/class_Ices2ServerInterface.php:213
@@ -440,7 +440,7 @@ msgid "Create and manage your playlists."
 msgstr "Erstllen und Verwalten Sie Ihre Playlisten."
 
 #. File www/system/templates/startpage_index.tpl:44
-#. Context: {check ($account.allowgmaps>0)}
+#. Context: {check ($showgmaps>0)}
 #. <h3>{="Current Listener Locations"}</h3>
 #.
 #: www/system/templates/startpage_index.tpl:44
@@ -544,7 +544,7 @@ msgstr "DJ Accounts"
 #. <td width="130">{="E-mail address"}:</td>
 #. <td colspan="4"><input type="text" name="config[email]" size="50" maxlength="255" value="{$config.email|htmlentities}"
 #.
-#. File system/class_AccountFields.php:815
+#. File system/class_AccountFields.php:824
 #.
 #. File system/class_AccountFields.php:343
 #.
@@ -552,7 +552,7 @@ msgstr "DJ Accounts"
 #: www/system/templates/staffaccount_edit.tpl:105
 #: www/system/templates/configuration_reseller_basic.tpl:17
 #: www/system/templates/configuration_client_basic.tpl:120
-#: system/class_AccountFields.php:815 system/class_AccountFields.php:343
+#: system/class_AccountFields.php:824 system/class_AccountFields.php:343
 msgid "E-mail address"
 msgstr "E-Mail-Adresse"
 
@@ -706,13 +706,13 @@ msgstr "Feb"
 
 #. File www/menu.php:337
 #.
-#. File system/class_AccountFields.php:875
+#. File system/class_AccountFields.php:884
 #.
 #. File system/servers/WindowsMedia/class_WindowsMediaConfig.php:25
 #.
 #. File system/servers/IceCast/class_IceCastConfig.php:66
 #.
-#: www/menu.php:337 system/class_AccountFields.php:875
+#: www/menu.php:337 system/class_AccountFields.php:884
 #: system/servers/WindowsMedia/class_WindowsMediaConfig.php:25
 #: system/servers/IceCast/class_IceCastConfig.php:66
 msgid "Files"
@@ -787,6 +787,9 @@ msgstr "FTP Username"
 
 #. File www/menu.php:202
 #.
+#. File www/system/templates/configuration_reseller_options.tpl:32
+#. Context: <h1>{="General"}</h1>
+#.
 #. File www/system/templates/configuration_client_widgets.tpl:6
 #. Context: <fieldset>
 #. <legend>{="General"}</legend>
@@ -808,21 +811,26 @@ msgstr "FTP Username"
 #. Context: <fieldset>
 #. <legend>{="General"}</legend>
 #.
-#. File www/system/templates/admin_settings.tpl:36
-#. Context: <fieldset>
-#. <legend>{="General"}</legend>
-#.
 #. File www/system/templates/admin_settings.tpl:189
 #. Context: <h1>{="General"}</h1>
 #. <table cellspacing="1" cellpadding="1" border="0">
 #.
-#: www/menu.php:202 www/system/templates/configuration_client_widgets.tpl:6
+#. File www/system/templates/admin_settings.tpl:36
+#. Context: <fieldset>
+#. <legend>{="General"}</legend>
+#.
+#. File www/system/templates/admin_settings.tpl:256
+#. Context: <h1>{="General"}</h1>
+#.
+#: www/menu.php:202 www/system/templates/configuration_reseller_options.tpl:32
+#: www/system/templates/configuration_client_widgets.tpl:6
 #: www/system/templates/library.tpl:23
 #: system/sources/ices/templates/configuration_source_singlemount.tpl:4
 #: system/sources/icescc/templates/configuration_source_singlemount.tpl:4
 #: system/sources/ices2/templates/configuration_source_singlemount.tpl:4
-#: www/system/templates/admin_settings.tpl:36
 #: www/system/templates/admin_settings.tpl:189
+#: www/system/templates/admin_settings.tpl:36
+#: www/system/templates/admin_settings.tpl:256
 msgid "General"
 msgstr "Allgemein"
 
@@ -886,9 +894,9 @@ msgstr ""
 msgid "insufficient staff privileges"
 msgstr ""
 
-#. File www/external/modules/class_Module_start.php:32
+#. File www/external/modules/class_Module_start.php:33
 #.
-#: www/external/modules/class_Module_start.php:32
+#: www/external/modules/class_Module_start.php:33
 msgid "Invalid account"
 msgstr ""
 
@@ -1330,9 +1338,9 @@ msgstr ""
 
 #. File www/class_StreamStatus.php:531
 #.
-#. File www/system/templates/configuration_client_widgets.tpl:23
-#. Context: mand>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.allowondemand==0} selected="selected"{/if}>{="No"}</option>
+#. File www/system/templates/configuration_client_widgets.tpl:14
+#. Context: tpage>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.usestartpage==0} selected="selected"{/if}>{="No"}</option>
 #. </select>
 #.
 #. File www/system/templates/configuration_client_source.tpl:62
@@ -1345,29 +1353,24 @@ msgstr ""
 #. <option value="0"{if $config.autorebuildlist==0} selected="selected"{/if}>{="No"}</option>
 #. </select>
 #.
-#. File www/system/templates/configuration_client_widgets.tpl:32
+#. File www/system/templates/configuration_client_widgets.tpl:102
+#. Context: recent>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.allowrecent==0} selected="selected"{/if}>{="No"}</option>
+#. </select>
+#.
+#. File www/system/templates/configuration_client_widgets.tpl:23
+#. Context: mand>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.allowondemand==0} selected="selected"{/if}>{="No"}</option>
+#. </select>
+#.
+#. File www/system/templates/configuration_reseller_options.tpl:57
 #. Context: owgmaps>0} selected="selected"{/if}>{="Yes"}</option>
 #. <option value="0"{if $config.allowgmaps==0} selected="selected"{/if}>{="No"}</option>
 #. </select>
 #.
-#. File www/system/templates/configuration_client_widgets.tpl:14
-#. Context: tpage>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.usestartpage==0} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
-#. File www/system/templates/configuration_client_widgets.tpl:52
-#. Context: ests>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.allowrequests==0} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
-#. File www/system/templates/configuration_client_widgets.tpl:85
-#. Context: selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.emailunknownrequests==0} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
-#. File www/system/templates/configuration_client_widgets.tpl:102
-#. Context: recent>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.allowrecent==0} selected="selected"{/if}>{="No"}</option>
+#. File www/system/templates/configuration_client_widgets.tpl:32
+#. Context: owgmaps>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.allowgmaps==0} selected="selected"{/if}>{="No"}</option>
 #. </select>
 #.
 #. File www/system/templates/configuration_client_widgets.tpl:61
@@ -1375,30 +1378,45 @@ msgstr ""
 #. <option value="0"{if $config.autoqueuerequests==0} selected="selected"{/if}>{="No"}</option>
 #. </select>
 #.
-#. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:26
-#. Context: nd>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.masterondemand==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.masterondemand|checkerror}
+#. File www/system/templates/configuration_client_widgets.tpl:85
+#. Context: selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.emailunknownrequests==0} selected="selected"{/if}>{="No"}</option>
+#. </select>
+#.
+#. File www/system/templates/configuration_client_widgets.tpl:52
+#. Context: ests>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.allowrequests==0} selected="selected"{/if}>{="No"}</option>
+#. </select>
 #.
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:8
 #. Context: <select name="config[autodumpusers]" size="1">
 #. <option value="0"{if $config.autodumpusers==0} selected="selected"{/if}>{="No"}</option>
 #. <option value="1"{if $config.autodumpusers>0} selected="selected"{/if}>{="Yes"}</option>
 #.
+#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:43
+#. Context: eserver>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
+#. </select> {$errors.useserver|checkerror}
+#.
+#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:43
+#. Context: laymeta>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.relaymeta==0} selected="selected"{/if}>{="No"}</option>
+#. </select> {$errors.relaymeta|checkerror}
+#.
 #. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:34
 #. Context: and>0} selected="selected"{/if}>{="Yes"}</option>
 #. <option value="0"{if $config.relayondemand==0} selected="selected"{/if}>{="No"}</option>
 #. </select> {$errors.relayondemand|checkerror}
 #.
+#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:52
+#. Context: bug>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
+#. </select> {$errors.nextsongdebug|checkerror}
+#.
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:72
 #. Context: ebug>0} selected="selected"{/if}>{="Yes"}</option>
 #. <option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
 #. </select> {$errors.nextsongdebug|checkerror}
-#.
-#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:43
-#. Context: eserver>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.useserver|checkerror}
 #.
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:63
 #. Context: seserver>0} selected="selected"{/if}>{="Yes"}</option>
@@ -1408,11 +1426,6 @@ msgstr ""
 #. File system/albumds/class_AlbumDataSource.php:279
 #.
 #. File system/albumds/class_AlbumDataSource_amazon.php:408
-#.
-#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:51
-#. Context: ect>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.burstonconnect==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.burstonconnect|checkerror}
 #.
 #. File system/albumds/class_AlbumDataSource_amazon.php:399
 #.
@@ -1426,25 +1439,19 @@ msgstr ""
 #. <option value="No"{if $config.allowrelay=="No"} selected="selected"{/if}>{="No"}</option>
 #. <option value="Yes"{if $config.allowrelay=="Yes"} selected="selected"{/if}>{="Yes"}</option>
 #.
-#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:52
-#. Context: bug>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.nextsongdebug|checkerror}
+#. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:26
+#. Context: nd>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.masterondemand==0} selected="selected"{/if}>{="No"}</option>
+#. </select> {$errors.masterondemand|checkerror}
 #.
-#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:43
-#. Context: laymeta>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.relaymeta==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.relaymeta|checkerror}
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:51
+#. Context: ect>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.burstonconnect==0} selected="selected"{/if}>{="No"}</option>
+#. </select> {$errors.burstonconnect|checkerror}
 #.
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:194
-#. Context: <option value="true">{="Yes"}</option>
-#. <option value="false">{="No"}</option>
-#. </select>
-#.
-#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:91
-#. Context: nfull]" size="1" class="list_editor_field">
-#. <option value="0"{if $config.fallbackwhenfull=="0"} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.fallbackwhenfull=="1"} selected="selected"{/if}>{="Yes"}</option>
+#. File system/sources/ices/templates/configuration_source_mountpoints.tpl:9
+#. Context: <td colspan="3"><select name="{$mpfieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
+#. </tr>
 #.
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:238
 #. Context: <select name="mountpoints_field[liqfdksbr_mode]" class="list_editor_field" size="1">
@@ -1456,18 +1463,9 @@ msgstr ""
 #. <option value="0"{if $config.replay_gain=="0"} selected="selected"{/if}>{="No"}</option>
 #. </select> {$errors.replay_gain|checkerror}
 #.
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:29
-#. Context: s="list_editor_field" size="1">
-#. <option value="false"{if $config.mountpoints.liqpublic!="true"} selected="selected"{/if}>{="No"}</option>
-#. <option value="true"{if $config.mountpoints.liqpublic=="true"} selected="selected"{/if}>{="Yes"}</option>
-#.
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:13
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:8
 #. Context: </td>
 #. <td><select name="mountpoints_field[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
-#. </tr>
-#.
-#. File system/sources/ices/templates/configuration_source_mountpoints.tpl:9
-#. Context: <td colspan="3"><select name="{$mpfieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
 #. </tr>
 #.
 #. File system/sources/ices/templates/configuration_source_mountpoints.tpl:28
@@ -1479,12 +1477,12 @@ msgstr ""
 #. Context: <td colspan="3"><select name="{$mpfieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
 #. </tr>
 #.
-#. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:28
-#. Context: c]" class="list_editor_field" size="1">
-#. <option value="0"{if $config.mountpoints.icespublic==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.mountpoints.icespublic>0} selected="selected"{/if}>{="Yes"}</option>
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:194
+#. Context: <option value="true">{="Yes"}</option>
+#. <option value="false">{="No"}</option>
+#. </select>
 #.
-#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:8
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:13
 #. Context: </td>
 #. <td><select name="mountpoints_field[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
 #. </tr>
@@ -1494,25 +1492,40 @@ msgstr ""
 #. <option value="false">{="No"}</option>
 #. <option value="true">{="Yes"}</option>
 #.
-#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:83
-#. Context: selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.fallbackoverride=="0"} selected="selected"{/if}>{="No"}</option>
-#. </select>
+#. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:28
+#. Context: c]" class="list_editor_field" size="1">
+#. <option value="0"{if $config.mountpoints.icespublic==0} selected="selected"{/if}>{="No"}</option>
+#. <option value="1"{if $config.mountpoints.icespublic>0} selected="selected"{/if}>{="Yes"}</option>
 #.
-#. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:25
-#. Context: ect name="config[allowpublicrelay]" size="1">
-#. <option value="0"{if $config.allowpublicrelay=="0"} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.allowpublicrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:29
+#. Context: s="list_editor_field" size="1">
+#. <option value="false"{if $config.mountpoints.liqpublic!="true"} selected="selected"{/if}>{="No"}</option>
+#. <option value="true"{if $config.mountpoints.liqpublic=="true"} selected="selected"{/if}>{="Yes"}</option>
+#.
+#. File system/sources/sctrans2/templates/configuration_source.tpl:33
+#. Context: <select name="config[sctransapplyrpg]" size="1">
+#. <option value="0"{if $config.sctransapplyrpg==0} selected="selected"{/if}>{="No"}</option>
+#. <option value="1"{if $config.sctransapplyrpg>0} selected="selected"{/if}>{="Yes"}</option>
 #.
 #. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:16
 #. Context: <select name="config[allowrelay]" size="1">
 #. <option value="0"{if $config.allowrelay=="0"} selected="selected"{/if}>{="No"}</option>
 #. <option value="1"{if $config.allowrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
 #.
-#. File system/sources/sctrans2/templates/configuration_source.tpl:33
-#. Context: <select name="config[sctransapplyrpg]" size="1">
-#. <option value="0"{if $config.sctransapplyrpg==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.sctransapplyrpg>0} selected="selected"{/if}>{="Yes"}</option>
+#. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:25
+#. Context: ect name="config[allowpublicrelay]" size="1">
+#. <option value="0"{if $config.allowpublicrelay=="0"} selected="selected"{/if}>{="No"}</option>
+#. <option value="1"{if $config.allowpublicrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:83
+#. Context: selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.fallbackoverride=="0"} selected="selected"{/if}>{="No"}</option>
+#. </select>
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:91
+#. Context: nfull]" size="1" class="list_editor_field">
+#. <option value="0"{if $config.fallbackwhenfull=="0"} selected="selected"{/if}>{="No"}</option>
+#. <option value="1"{if $config.fallbackwhenfull=="1"} selected="selected"{/if}>{="Yes"}</option>
 #.
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:67
 #. Context: <select name="config[yp2]" size="1">
@@ -1523,6 +1536,11 @@ msgstr ""
 #. Context: ebug>0} selected="selected"{/if}>{="Yes"}</option>
 #. <option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
 #. </select> {$errors.nextsongdebug|checkerror}
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:43
+#. Context: seserver>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
+#. </select> {$errors.useserver|checkerror}
 #.
 #. File system/sources/sctrans2/templates/configuration_source.tpl:46
 #. Context: <select name="config[sctranscalcrpg]" size="1">
@@ -1538,42 +1556,42 @@ msgstr ""
 #. <option value="0"{if $config.autodumpusers==0} selected="selected"{/if}>{="No"}</option>
 #. <option value="1"{if $config.autodumpusers>0} selected="selected"{/if}>{="Yes"}</option>
 #.
-#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:43
-#. Context: seserver>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.useserver|checkerror}
+#. File www/system/templates/admin_newsarticle_edit.tpl:38
+#. Context: sible>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $newsarticle.visible==0} selected="selected"{/if}>{="No"}</option>
+#. </select>
 #.
 #. File www/system/templates/admin_sourcetype_edit.tpl:28
 #. Context: <select name="sourcetype[enabled]" size="1">
 #. <option value="0"{if $sourcetype.enabled==0} selected="selected"{/if}>{="No"}</option>
 #. <option value="1"{if $sourcetype.enabled>0} selected="selected"{/if}>{="Yes"}</option>
 #.
-#. File www/system/templates/admin_newsarticle_edit.tpl:38
-#. Context: sible>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $newsarticle.visible==0} selected="selected"{/if}>{="No"}</option>
+#. File www/system/templates/admin_settings.tpl:263
+#. Context: name="settings[allowlogdownload]" size="1">
+#. <option value="0"{if $settings.allowlogdownload==0} selected="selected"{/if}>{="No"}</option>
+#. <option value="1"{if $settings.allowlogdownload>0} selected="selected"{/if}>{="Yes"}</option>
+#.
+#. File www/system/templates/admin_settings.tpl:290
+#. Context: maps>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $settings.allowgmaps==0} selected="selected"{/if}>{="No"}</option>
 #. </select>
+#.
+#. File www/system/templates/admin_settings.tpl:273
+#. Context: t name="settings[allowstreamlist]" size="1">
+#. <option value="0"{if $settings.allowstreamlist==0} selected="selected"{/if}>{="No"}</option>
+#. <option value="1"{if $settings.allowstreamlist>0} selected="selected"{/if}>{="Yes"}</option>
 #.
 #. File www/system/templates/admin_remoteserver_edit.tpl:29
 #. Context: elect name="remoteserver[apicluster]" size="1">
 #. <option value="0"{if $remoteserver.apicluster==0} selected="selected"{/if}>{="No"}</option>
 #. <option value="1"{if $remoteserver.apicluster>0} selected="selected"{/if}>{="Yes"}</option>
 #.
-#. File www/system/templates/admin_settings.tpl:271
-#. Context: t name="settings[allowstreamlist]" size="1">
-#. <option value="0"{if $settings.allowstreamlist==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $settings.allowstreamlist>0} selected="selected"{/if}>{="Yes"}</option>
-#.
-#. File www/system/templates/admin_settings.tpl:261
-#. Context: name="settings[allowlogdownload]" size="1">
-#. <option value="0"{if $settings.allowlogdownload==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $settings.allowlogdownload>0} selected="selected"{/if}>{="Yes"}</option>
-#.
-#. File www/system/templates/admin_settings.tpl:290
+#. File www/system/templates/admin_settings.tpl:315
 #. Context: es>0} selected="selected"{/if}>{="Yes"}</option>
 #. <option value="0"{if $settings.importimages==0} selected="selected"{/if}>{="No"}</option>
 #. </select>
 #.
-#. File www/system/templates/admin_settings.tpl:321
+#. File www/system/templates/admin_settings.tpl:346
 #. Context: <select name="settings[allowsso]" size="1">
 #. <option value="0"{if $settings.allowsso==0} selected="selected"{/if}>{="No"}</option>
 #. <option value="1"{if $settings.allowsso>0} selected="selected"{/if}>{="Yes"}</option>
@@ -1589,58 +1607,60 @@ msgstr ""
 #. </select> ({="only used for non-autoDJ streams"})
 #.
 #: www/class_StreamStatus.php:531
-#: www/system/templates/configuration_client_widgets.tpl:23
+#: www/system/templates/configuration_client_widgets.tpl:14
 #: www/system/templates/configuration_client_source.tpl:62
 #: www/system/templates/configuration_client_source.tpl:53
-#: www/system/templates/configuration_client_widgets.tpl:32
-#: www/system/templates/configuration_client_widgets.tpl:14
-#: www/system/templates/configuration_client_widgets.tpl:52
-#: www/system/templates/configuration_client_widgets.tpl:85
 #: www/system/templates/configuration_client_widgets.tpl:102
+#: www/system/templates/configuration_client_widgets.tpl:23
+#: www/system/templates/configuration_reseller_options.tpl:57
+#: www/system/templates/configuration_client_widgets.tpl:32
 #: www/system/templates/configuration_client_widgets.tpl:61
-#: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:26
+#: www/system/templates/configuration_client_widgets.tpl:85
+#: www/system/templates/configuration_client_widgets.tpl:52
 #: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:8
-#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:34
-#: system/servers/IceCast/templates/configuration_client_advanced.tpl:72
 #: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:43
+#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:43
+#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:34
+#: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:52
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:72
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:63
 #: system/albumds/class_AlbumDataSource.php:279
 #: system/albumds/class_AlbumDataSource_amazon.php:408
-#: system/servers/IceCast/templates/configuration_client_advanced.tpl:51
 #: system/albumds/class_AlbumDataSource_amazon.php:399
 #: system/servers/ShoutCast/templates/configuration_client_relay.tpl:19
 #: system/servers/ShoutCast/templates/configuration_client_relay.tpl:10
-#: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:52
-#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:43
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:194
-#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:91
+#: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:26
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:51
+#: system/sources/ices/templates/configuration_source_mountpoints.tpl:9
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:238
 #: system/sources/liquidsoap/templates/configuration_source.tpl:27
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:29
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:13
-#: system/sources/ices/templates/configuration_source_mountpoints.tpl:9
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:8
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:28
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:9
-#: system/sources/icescc/templates/configuration_source_mountpoints.tpl:28
-#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:8
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:194
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:13
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:203
-#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:83
-#: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:25
-#: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:16
+#: system/sources/icescc/templates/configuration_source_mountpoints.tpl:28
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:29
 #: system/sources/sctrans2/templates/configuration_source.tpl:33
+#: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:16
+#: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:25
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:83
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:91
 #: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:67
 #: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:52
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:43
 #: system/sources/sctrans2/templates/configuration_source.tpl:46
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:9
 #: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:17
-#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:43
-#: www/system/templates/admin_sourcetype_edit.tpl:28
 #: www/system/templates/admin_newsarticle_edit.tpl:38
-#: www/system/templates/admin_remoteserver_edit.tpl:29
-#: www/system/templates/admin_settings.tpl:271
-#: www/system/templates/admin_settings.tpl:261
+#: www/system/templates/admin_sourcetype_edit.tpl:28
+#: www/system/templates/admin_settings.tpl:263
 #: www/system/templates/admin_settings.tpl:290
-#: www/system/templates/admin_settings.tpl:321
+#: www/system/templates/admin_settings.tpl:273
+#: www/system/templates/admin_remoteserver_edit.tpl:29
+#: www/system/templates/admin_settings.tpl:315
+#: www/system/templates/admin_settings.tpl:346
 #: www/system/templates/admin_servertype_edit.tpl:28
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:27
 msgid "No"
@@ -1874,55 +1894,6 @@ msgstr "Okt"
 msgid "Offline"
 msgstr "Getrennt"
 
-#. File www/class_NextSongApplication.php:333
-#.
-#. File www/system/templates/filemanager.tpl:12
-#. Context: {language}
-#. ok: '{="OK"}',
-#. upload_here: '{="Upload here"}',
-#.
-#. File www/system/templates/filemanager.tpl:104
-#. Context: <input type="button" value="{="OK"}" id="rename_submit" onclick="window.fm.do_rename()" />
-#. <input type="button" value="{="Cancel"}" onclick="window.fm.close_
-#.
-#. File www/system/templates/client_directory_error.tpl:12
-#. Context: {
-#. caption: '{="OK"}',
-#. onclick: function() {
-#.
-#. File www/system/templates/uncaught_exception.tpl:67
-#. Context: <form>
-#. <input type="button" value="{="OK"}" onclick="window.location='../index.php'" />
-#. {check $exception.brief==0}
-#.
-#. File www/system/templates/library.tpl:188
-#. Context: <div id="tipbox_content"></div>
-#. <input type="button" class="tipbox_button" id="tipbox_ok" value="{="OK"}" /> <input type="button" class="tipbox_button" id="tipbox_cancel" value="{="Cancel"}" />
-#. </div>
-#.
-#. File www/system/templates/logmanager.tpl:11
-#. Context: {language}
-#. ok: '{="OK"}',
-#. log_manager: '{="Log Manager"}',
-#.
-#. File www/system/templates/admin_accounts.tpl:29
-#. Context: processing_close: '{="Close"}',
-#. processing_success: '{="OK"}',
-#. account_is_suspended: '{="Account is suspended"}.',
-#.
-#. File system/class_ServerControl.php:1629
-#.
-#: www/class_NextSongApplication.php:333
-#: www/system/templates/filemanager.tpl:12
-#: www/system/templates/filemanager.tpl:104
-#: www/system/templates/client_directory_error.tpl:12
-#: www/system/templates/uncaught_exception.tpl:67
-#: www/system/templates/library.tpl:188 www/system/templates/logmanager.tpl:11
-#: www/system/templates/admin_accounts.tpl:29
-#: system/class_ServerControl.php:1629
-msgid "OK"
-msgstr "Ok"
-
 #. File www/system/templates/startpage_index.tpl:33
 #. Context: {check $account.allowondemand>0}
 #. <h3>{="On-demand Content"}</h3>
@@ -1959,6 +1930,8 @@ msgstr "inhalte auf Abruf wurde f&uuml;r diesen Stream deaktiviert."
 msgid "Online"
 msgstr "Verbunden"
 
+#. File www/class_LiveStatistics.php:177
+#.
 #. File www/class_LiveStatistics.php:159
 #.
 #. File www/class_LiveStatistics.php:176
@@ -1978,15 +1951,15 @@ msgstr "Verbunden"
 #. other: 			'{="Other"}',
 #. pct_of_total_listeners: '{="%s%s%s listeners, %s%s%%%s of %s%s%s total listeners"}',
 #.
-#. File system/class_TuneIn.php:80
-#.
 #. File system/class_ReportFormat.php:46
 #.
-#: www/class_LiveStatistics.php:159 www/class_LiveStatistics.php:176
-#: www/system/templates/statistics.tpl:7
+#. File system/class_TuneIn.php:80
+#.
+#: www/class_LiveStatistics.php:177 www/class_LiveStatistics.php:159
+#: www/class_LiveStatistics.php:176 www/system/templates/statistics.tpl:7
 #: www/system/templates/client_head.tpl:27
-#: www/system/templates/livestats.tpl:10 system/class_TuneIn.php:80
-#: system/class_ReportFormat.php:46
+#: www/system/templates/livestats.tpl:10 system/class_ReportFormat.php:46
+#: system/class_TuneIn.php:80
 msgid "Other"
 msgstr "Sonstige"
 
@@ -2062,7 +2035,7 @@ msgstr "&Uuml;bergeordnetes Verzeichnis"
 #. Context: r><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate|htmlentities}</strong> {="kbps"}</td></tr>
 #. <tr><td>{="Password"}:&nbsp;</td><td>({="The 'Administrator password' value from your %sstream settings%s","<a href='index.php?page=configure'>","<
 #.
-#. File system/class_AccountFields.php:347
+#. File system/class_AccountFields.php:350
 #.
 #. File system/servers/WindowsMedia/templates/connection_details.tpl:22
 #. Context: r><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate|htmlentities}</strong> {="kbps"}</td></tr>
@@ -2084,7 +2057,7 @@ msgstr "&Uuml;bergeordnetes Verzeichnis"
 #: system/servers/ShoutCast2/templates/connection_details.tpl:38
 #: system/servers/IceCast/templates/connection_details.tpl:13
 #: system/servers/WindowsMedia/templates/connection_details.tpl:12
-#: system/class_AccountFields.php:347
+#: system/class_AccountFields.php:350
 #: system/servers/WindowsMedia/templates/connection_details.tpl:22
 #: system/servers/ShoutCast2/templates/connection_details.tpl:13
 msgid "Password"
@@ -2365,8 +2338,8 @@ msgid ""
 "Restarting your server will temporarily interrupt your stream and disconnect "
 "any listeners.  Are you sure you want to proceed?"
 msgstr ""
-"Das neustarten des Servers wird die Verbindung zum Streamserver kurz unterbrechen."
-"Sind Sie sicher, dass Sie fortfahren wollen?"
+"Das neustarten des Servers wird die Verbindung zum Streamserver kurz "
+"unterbrechen.Sind Sie sicher, dass Sie fortfahren wollen?"
 
 #. File www/menu.php:356
 #.
@@ -2520,7 +2493,8 @@ msgstr "Musiktitel"
 #.
 #: www/external/rpc/class_RPCrequest.php:18
 msgid "Sorry, song requests have been disabled for this stream."
-msgstr "Entschuldigung. Musikw&uuml;nsche sind f&uuml;r diesen Stream deaktiviert."
+msgstr ""
+"Entschuldigung. Musikw&uuml;nsche sind f&uuml;r diesen Stream deaktiviert."
 
 #. File www/external/rpc/class_RPCrequest.php:69
 #.
@@ -2588,7 +2562,7 @@ msgstr ""
 #.
 #. File www/client/modules/class_Module_statistics.php:18
 #.
-#. File www/client/modules/class_Module_livestats.php:12
+#. File www/client/modules/class_Module_livestats.php:13
 #.
 #. File www/reseller/modules/class_Module_accountstats.php:13
 #.
@@ -2598,7 +2572,7 @@ msgstr ""
 #: www/menu.php:444 www/menu.php:22 www/client/modules/class_Module_logs.php:10
 #: www/client/modules/class_Module_reportdownloads.php:17
 #: www/client/modules/class_Module_statistics.php:18
-#: www/client/modules/class_Module_livestats.php:12
+#: www/client/modules/class_Module_livestats.php:13
 #: www/reseller/modules/class_Module_accountstats.php:13
 #: www/admin/modules/class_Module_accountstats.php:15
 msgid "Statistics"
@@ -2855,10 +2829,10 @@ msgstr "Tipp"
 msgid "Today"
 msgstr "Heute"
 
-#. File www/class_NextSongApplication.php:172
+#. File www/class_NextSongApplication.php:194
 #. Arguments: $tm->queued_trackid, $tm->queued_playlistid
 #.
-#: www/class_NextSongApplication.php:172
+#: www/class_NextSongApplication.php:194
 msgid "Track #%s from playlist #%s"
 msgstr "Track #%s von Wiedergabeliste #%s"
 
@@ -2887,13 +2861,13 @@ msgstr "Dienstag"
 msgid "Tune-In Links"
 msgstr ""
 
+#. File www/class_NextSongApplication.php:82
+#.
 #. File www/class_NextSongApplication.php:84
 #.
-#. File www/class_NextSongApplication.php:86
+#. File www/class_LiveStatistics.php:208
 #.
-#. File www/class_LiveStatistics.php:207
-#.
-#. File www/class_NextSongApplication.php:85
+#. File www/class_NextSongApplication.php:83
 #.
 #. File www/system/templates/playlist_list.tpl:40
 #. Context: {elseif $playlist.type=="request"}{="Song Requests"}
@@ -2955,8 +2929,8 @@ msgstr ""
 #. {="Accounts:"} <span id="rowovertab_resaccts">{="Unknown"}</span><br />
 #. </div>
 #.
-#: www/class_NextSongApplication.php:84 www/class_NextSongApplication.php:86
-#: www/class_LiveStatistics.php:207 www/class_NextSongApplication.php:85
+#: www/class_NextSongApplication.php:82 www/class_NextSongApplication.php:84
+#: www/class_LiveStatistics.php:208 www/class_NextSongApplication.php:83
 #: www/system/templates/playlist_list.tpl:40
 #: www/system/templates/statistics_listeners.tpl:181
 #: www/system/templates/statistics_listeners.tpl:5
@@ -2971,9 +2945,9 @@ msgstr ""
 msgid "Unknown"
 msgstr "Unbekannt"
 
-#. File www/external/modules/class_Module_start.php:31
+#. File www/external/modules/class_Module_start.php:32
 #.
-#: www/external/modules/class_Module_start.php:31
+#: www/external/modules/class_Module_start.php:32
 msgid "Unknown stream"
 msgstr "Unbekannter Stream"
 
@@ -3032,7 +3006,7 @@ msgstr "Hochladen / Löschen von Dateien in Ihrer Medienbibliothek."
 #. <tr><td>{="Username"}:</td><td style="font-weight: bold">{$account.username}</td></tr>
 #. {if $account.reseller==0}
 #.
-#. File system/class_AccountFields.php:773
+#. File system/class_AccountFields.php:782
 #.
 #. File system/class_AccountFields.php:315
 #.
@@ -3076,7 +3050,7 @@ msgstr "Hochladen / Löschen von Dateien in Ihrer Medienbibliothek."
 #: www/system/templates/djaccount_list.tpl:23
 #: www/system/templates/djaccount_edit.tpl:37
 #: www/system/templates/account_created_details_basic.tpl:3
-#: system/class_AccountFields.php:773 system/class_AccountFields.php:315
+#: system/class_AccountFields.php:782 system/class_AccountFields.php:315
 #: www/system/templates/admin_accounts.tpl:153
 #: www/system/templates/admin_accounts.tpl:119
 #: www/system/templates/admin_sessions.tpl:23
@@ -3165,11 +3139,11 @@ msgstr "Mittwoch"
 #.
 #. File system/class_StreamingSource.php:283
 #.
-#. File system/class_AccountFields.php:872
+#. File system/class_AccountFields.php:881
 #.
 #: www/menu.php:478 www/menu.php:230
 #: www/client/modules/class_Module_widgets.php:15
-#: system/class_StreamingSource.php:283 system/class_AccountFields.php:872
+#: system/class_StreamingSource.php:283 system/class_AccountFields.php:881
 msgid "Widgets"
 msgstr "Widgets"
 
@@ -3179,6 +3153,11 @@ msgstr "Widgets"
 #. Context: <select name="config[allowondemand]" size="1">
 #. <option value="1"{if $config.allowondemand>0} selected="selected"{/if}>{="Yes"}</option>
 #. <option value="0"{if $config.allowondemand==0} selected="selected"{/if}>{="No"}</option>
+#.
+#. File www/system/templates/configuration_reseller_options.tpl:56
+#. Context: <select name="config[allowgmaps]" size="1">
+#. <option value="1"{if $config.allowgmaps>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.allowgmaps==0} selected="selected"{/if}>{="No"}</option>
 #.
 #. File www/system/templates/configuration_client_source.tpl:61
 #. Context: <select name="config[randomplaylist]" size="1">
@@ -3200,15 +3179,15 @@ msgstr "Widgets"
 #. <option value="1"{if $config.allowrequests>0} selected="selected"{/if}>{="Yes"}</option>
 #. <option value="0"{if $config.allowrequests==0} selected="selected"{/if}>{="No"}</option>
 #.
-#. File www/system/templates/configuration_client_widgets.tpl:101
-#. Context: <select name="config[allowrecent]" size="1">
-#. <option value="1"{if $config.allowrecent>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.allowrecent==0} selected="selected"{/if}>{="No"}</option>
-#.
 #. File www/system/templates/configuration_client_widgets.tpl:84
 #. Context: ame="config[emailunknownrequests]" size="1">
 #. <option value="1"{if $config.emailunknownrequests>0} selected="selected"{/if}>{="Yes"}</option>
 #. <option value="0"{if $config.emailunknownrequests==0} selected="selected"{/if}>{="No"}</option>
+#.
+#. File www/system/templates/configuration_client_widgets.tpl:101
+#. Context: <select name="config[allowrecent]" size="1">
+#. <option value="1"{if $config.allowrecent>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.allowrecent==0} selected="selected"{/if}>{="No"}</option>
 #.
 #. File www/system/templates/configuration_client_widgets.tpl:60
 #. Context: lect name="config[autoqueuerequests]" size="1">
@@ -3225,15 +3204,15 @@ msgstr "Widgets"
 #. <option value="1"{if $config.autodumpusers>0} selected="selected"{/if}>{="Yes"}</option>
 #. </select> {$errors.autodumpusers|checkerror}
 #.
-#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:42
-#. Context: <select name="config[relaymeta]" size="1">
-#. <option value="1"{if $config.relaymeta>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.relaymeta==0} selected="selected"{/if}>{="No"}</option>
+#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:33
+#. Context: <select name="config[relayondemand]" size="1">
+#. <option value="1"{if $config.relayondemand>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.relayondemand==0} selected="selected"{/if}>{="No"}</option>
 #.
-#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:50
-#. Context: <select name="config[burstonconnect]" size="1">
-#. <option value="1"{if $config.burstonconnect>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.burstonconnect==0} selected="selected"{/if}>{="No"}</option>
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:71
+#. Context: <select name="config[nextsongdebug]" size="1">
+#. <option value="1"{if $config.nextsongdebug>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
 #.
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:42
 #. Context: <select name="config[useserver]" size="1">
@@ -3245,19 +3224,14 @@ msgstr "Widgets"
 #. <option value="1"{if $config.useserver>0} selected="selected"{/if}>{="Yes"}</option>
 #. <option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
 #.
-#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:71
-#. Context: <select name="config[nextsongdebug]" size="1">
-#. <option value="1"{if $config.nextsongdebug>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
+#. File system/albumds/class_AlbumDataSource.php:279
 #.
 #. File system/albumds/class_AlbumDataSource_amazon.php:408
 #.
-#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:92
-#. Context: } selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.fallbackwhenfull=="1"} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
-#. File system/albumds/class_AlbumDataSource.php:279
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:50
+#. Context: <select name="config[burstonconnect]" size="1">
+#. <option value="1"{if $config.burstonconnect>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.burstonconnect==0} selected="selected"{/if}>{="No"}</option>
 #.
 #. File system/albumds/class_AlbumDataSource_amazon.php:399
 #.
@@ -3276,20 +3250,19 @@ msgstr "Widgets"
 #. <option value="1"{if $config.nextsongdebug>0} selected="selected"{/if}>{="Yes"}</option>
 #. <option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
 #.
-#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:33
-#. Context: <select name="config[relayondemand]" size="1">
-#. <option value="1"{if $config.relayondemand>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.relayondemand==0} selected="selected"{/if}>{="No"}</option>
+#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:42
+#. Context: <select name="config[relaymeta]" size="1">
+#. <option value="1"{if $config.relaymeta>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.relaymeta==0} selected="selected"{/if}>{="No"}</option>
 #.
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:193
-#. Context: <select name="mountpoints_field[liqaacadts]" class="list_editor_field" size="1">
-#. <option value="true">{="Yes"}</option>
-#. <option value="false">{="No"}</option>
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:92
+#. Context: } selected="selected"{/if}>{="No"}</option>
+#. <option value="1"{if $config.fallbackwhenfull=="1"} selected="selected"{/if}>{="Yes"}</option>
+#. </select>
 #.
-#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:82
-#. Context: rride]" size="1" class="list_editor_field">
-#. <option value="1"{if $config.fallbackoverride=="1"} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.fallbackoverride=="0"} selected="selected"{/if}>{="No"}</option>
+#. File system/sources/ices/templates/configuration_source_mountpoints.tpl:9
+#. Context: fieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
+#. </tr>
 #.
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:239
 #. Context: <option value="false">{="No"}</option>
@@ -3301,17 +3274,8 @@ msgstr "Widgets"
 #. <option value="1"{if $config.replay_gain!="0"} selected="selected"{/if}>{="Yes"}</option>
 #. <option value="0"{if $config.replay_gain=="0"} selected="selected"{/if}>{="No"}</option>
 #.
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:30
-#. Context: "selected"{/if}>{="No"}</option>
-#. <option value="true"{if $config.mountpoints.liqpublic=="true"} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:13
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:8
 #. Context: ints_field[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
-#. </tr>
-#.
-#. File system/sources/ices/templates/configuration_source_mountpoints.tpl:9
-#. Context: fieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
 #. </tr>
 #.
 #. File system/sources/ices/templates/configuration_source_mountpoints.tpl:29
@@ -3323,12 +3287,12 @@ msgstr "Widgets"
 #. Context: fieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
 #. </tr>
 #.
-#. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:29
-#. Context: elected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.mountpoints.icespublic>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:193
+#. Context: <select name="mountpoints_field[liqaacadts]" class="list_editor_field" size="1">
+#. <option value="true">{="Yes"}</option>
+#. <option value="false">{="No"}</option>
 #.
-#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:8
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:13
 #. Context: ints_field[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
 #. </tr>
 #.
@@ -3337,25 +3301,40 @@ msgstr "Widgets"
 #. <option value="true">{="Yes"}</option>
 #. </select>
 #.
-#. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:26
-#. Context: 0"} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.allowpublicrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
-#. </select> {$errors.allowpublicrelay|checkerror}
+#. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:29
+#. Context: elected="selected"{/if}>{="No"}</option>
+#. <option value="1"{if $config.mountpoints.icespublic>0} selected="selected"{/if}>{="Yes"}</option>
+#. </select>
 #.
-#. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:17
-#. Context: lay=="0"} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.allowrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
-#. </select> {$errors.allowrelay|checkerror}
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:30
+#. Context: "selected"{/if}>{="No"}</option>
+#. <option value="true"{if $config.mountpoints.liqpublic=="true"} selected="selected"{/if}>{="Yes"}</option>
+#. </select>
+#.
+#. File system/sources/sctrans2/templates/configuration_source.tpl:34
+#. Context: rpg==0} selected="selected"{/if}>{="No"}</option>
+#. <option value="1"{if $config.sctransapplyrpg>0} selected="selected"{/if}>{="Yes"}</option>
+#. </select> {$errors.sctransapplyrpg|checkerror}
 #.
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:68
 #. Context: {if $config.yp2==0} selected="selected"{/if}>{="No"}</option>
 #. <option value="1"{if $config.yp2>0} selected="selected"{/if}>{="Yes"}</option>
 #. </select> {$errors.yp2|checkerror}
 #.
-#. File system/sources/sctrans2/templates/configuration_source.tpl:34
-#. Context: rpg==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.sctransapplyrpg>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select> {$errors.sctransapplyrpg|checkerror}
+#. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:17
+#. Context: lay=="0"} selected="selected"{/if}>{="No"}</option>
+#. <option value="1"{if $config.allowrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
+#. </select> {$errors.allowrelay|checkerror}
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:26
+#. Context: 0"} selected="selected"{/if}>{="No"}</option>
+#. <option value="1"{if $config.allowpublicrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
+#. </select> {$errors.allowpublicrelay|checkerror}
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:82
+#. Context: rride]" size="1" class="list_editor_field">
+#. <option value="1"{if $config.fallbackoverride=="1"} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $config.fallbackoverride=="0"} selected="selected"{/if}>{="No"}</option>
 #.
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:51
 #. Context: <select name="config[nextsongdebug]" size="1">
@@ -3366,6 +3345,11 @@ msgstr "Widgets"
 #. Context: <select name="config[useserver]" size="1">
 #. <option value="1"{if $config.useserver>0} selected="selected"{/if}>{="Yes"}</option>
 #. <option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:18
+#. Context: users==0} selected="selected"{/if}>{="No"}</option>
+#. <option value="1"{if $config.autodumpusers>0} selected="selected"{/if}>{="Yes"}</option>
+#. </select> {$errors.autodumpusers|checkerror}
 #.
 #. File system/sources/sctrans2/templates/configuration_source.tpl:47
 #. Context: crpg==0} selected="selected"{/if}>{="No"}</option>
@@ -3381,42 +3365,42 @@ msgstr "Widgets"
 #. <option value="1"{if $config.mountpoints.icesmanaged==1} selected="selected"{/if}>{="Yes"}</option>
 #. </select>
 #.
-#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:18
-#. Context: users==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.autodumpusers>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select> {$errors.autodumpusers|checkerror}
+#. File www/system/templates/admin_newsarticle_edit.tpl:37
+#. Context: <select name="newsarticle[visible]" size="1">
+#. <option value="1"{if $newsarticle.visible>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $newsarticle.visible==0} selected="selected"{/if}>{="No"}</option>
 #.
 #. File www/system/templates/admin_sourcetype_edit.tpl:29
 #. Context: enabled==0} selected="selected"{/if}>{="No"}</option>
 #. <option value="1"{if $sourcetype.enabled>0} selected="selected"{/if}>{="Yes"}</option>
 #. </select>
 #.
-#. File www/system/templates/admin_newsarticle_edit.tpl:37
-#. Context: <select name="newsarticle[visible]" size="1">
-#. <option value="1"{if $newsarticle.visible>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $newsarticle.visible==0} selected="selected"{/if}>{="No"}</option>
+#. File www/system/templates/admin_settings.tpl:264
+#. Context: =0} selected="selected"{/if}>{="No"}</option>
+#. <option value="1"{if $settings.allowlogdownload>0} selected="selected"{/if}>{="Yes"}</option>
+#. </select>
+#.
+#. File www/system/templates/admin_settings.tpl:289
+#. Context: <select name="settings[allowgmaps]" size="1">
+#. <option value="1"{if $settings.allowgmaps>0} selected="selected"{/if}>{="Yes"}</option>
+#. <option value="0"{if $settings.allowgmaps==0} selected="selected"{/if}>{="No"}</option>
+#.
+#. File www/system/templates/admin_settings.tpl:274
+#. Context: =0} selected="selected"{/if}>{="No"}</option>
+#. <option value="1"{if $settings.allowstreamlist>0} selected="selected"{/if}>{="Yes"}</option>
+#. </select>
 #.
 #. File www/system/templates/admin_remoteserver_edit.tpl:30
 #. Context: er==0} selected="selected"{/if}>{="No"}</option>
 #. <option value="1"{if $remoteserver.apicluster>0} selected="selected"{/if}>{="Yes"}</option>
 #. </select>
 #.
-#. File www/system/templates/admin_settings.tpl:272
-#. Context: =0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $settings.allowstreamlist>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
-#. File www/system/templates/admin_settings.tpl:262
-#. Context: =0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $settings.allowlogdownload>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
-#. File www/system/templates/admin_settings.tpl:289
+#. File www/system/templates/admin_settings.tpl:314
 #. Context: <select name="settings[importimages]" size="1">
 #. <option value="1"{if $settings.importimages>0} selected="selected"{/if}>{="Yes"}</option>
 #. <option value="0"{if $settings.importimages==0} selected="selected"{/if}>{="No"}</option>
 #.
-#. File www/system/templates/admin_settings.tpl:322
+#. File www/system/templates/admin_settings.tpl:347
 #. Context: llowsso==0} selected="selected"{/if}>{="No"}</option>
 #. <option value="1"{if $settings.allowsso>0} selected="selected"{/if}>{="Yes"}</option>
 #. </select>
@@ -3433,57 +3417,59 @@ msgstr "Widgets"
 #.
 #: www/class_StreamStatus.php:531
 #: www/system/templates/configuration_client_widgets.tpl:22
+#: www/system/templates/configuration_reseller_options.tpl:56
 #: www/system/templates/configuration_client_source.tpl:61
 #: www/system/templates/configuration_client_widgets.tpl:31
 #: www/system/templates/configuration_client_widgets.tpl:13
 #: www/system/templates/configuration_client_widgets.tpl:51
-#: www/system/templates/configuration_client_widgets.tpl:101
 #: www/system/templates/configuration_client_widgets.tpl:84
+#: www/system/templates/configuration_client_widgets.tpl:101
 #: www/system/templates/configuration_client_widgets.tpl:60
 #: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:25
 #: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:9
-#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:42
-#: system/servers/IceCast/templates/configuration_client_advanced.tpl:50
+#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:33
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:71
 #: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:42
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:62
-#: system/servers/IceCast/templates/configuration_client_advanced.tpl:71
-#: system/albumds/class_AlbumDataSource_amazon.php:408
-#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:92
 #: system/albumds/class_AlbumDataSource.php:279
+#: system/albumds/class_AlbumDataSource_amazon.php:408
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:50
 #: system/albumds/class_AlbumDataSource_amazon.php:399
 #: system/servers/ShoutCast/templates/configuration_client_relay.tpl:20
 #: system/servers/ShoutCast/templates/configuration_client_relay.tpl:11
 #: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:51
-#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:33
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:193
-#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:82
+#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:42
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:92
+#: system/sources/ices/templates/configuration_source_mountpoints.tpl:9
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:239
 #: system/sources/liquidsoap/templates/configuration_source.tpl:26
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:30
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:13
-#: system/sources/ices/templates/configuration_source_mountpoints.tpl:9
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:8
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:29
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:9
-#: system/sources/icescc/templates/configuration_source_mountpoints.tpl:29
-#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:8
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:193
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:13
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:204
-#: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:26
-#: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:17
-#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:68
+#: system/sources/icescc/templates/configuration_source_mountpoints.tpl:29
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:30
 #: system/sources/sctrans2/templates/configuration_source.tpl:34
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:68
+#: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:17
+#: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:26
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:82
 #: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:51
 #: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:42
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:18
 #: system/sources/sctrans2/templates/configuration_source.tpl:47
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:9
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:44
-#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:18
-#: www/system/templates/admin_sourcetype_edit.tpl:29
 #: www/system/templates/admin_newsarticle_edit.tpl:37
-#: www/system/templates/admin_remoteserver_edit.tpl:30
-#: www/system/templates/admin_settings.tpl:272
-#: www/system/templates/admin_settings.tpl:262
+#: www/system/templates/admin_sourcetype_edit.tpl:29
+#: www/system/templates/admin_settings.tpl:264
 #: www/system/templates/admin_settings.tpl:289
-#: www/system/templates/admin_settings.tpl:322
+#: www/system/templates/admin_settings.tpl:274
+#: www/system/templates/admin_remoteserver_edit.tpl:30
+#: www/system/templates/admin_settings.tpl:314
+#: www/system/templates/admin_settings.tpl:347
 #: www/system/templates/admin_servertype_edit.tpl:29
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:26
 msgid "Yes"
@@ -3593,3 +3579,6 @@ msgstr "Streamserver Homepage"
 #: www/theme/templates/quick_links.tpl:6
 msgid "Your streaming server index page"
 msgstr "Streamserver Startseite"
+
+#~ msgid "OK"
+#~ msgstr "Ok"

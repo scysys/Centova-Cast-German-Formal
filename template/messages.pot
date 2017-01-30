@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2016-06-01 15:25-0700\n"
-"PO-Revision-Date: 2016-06-01 15:25-0700\n"
+"POT-Creation-Date: 2016-09-27 17:14-0700\n"
+"PO-Revision-Date: 2016-09-27 17:14-0700\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -14,10 +14,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. File system/class_ServerControl.php:2546
+#. File system/class_ServerControl.php:2548
 #. Arguments: ($this->application->usersession->actual_identity()->is_reseller() ? __('reseller') : ($this->application->usersession->actual_identity()->is_admin() ? __('administrator') : 'user'))
 #. 
-#: system/class_ServerControl.php:2546
+#: system/class_ServerControl.php:2548
 msgid "Account imported by %s"
 msgstr ""
 
@@ -27,10 +27,10 @@ msgstr ""
 msgid "Account is already in specified state"
 msgstr ""
 
-#. File system/class_ServerControl.php:2546
+#. File system/class_ServerControl.php:2548
 #. Arguments: ($this->application->usersession->actual_identity()->is_reseller() ? __('reseller') : ($this->application->usersession->actual_identity()->is_admin() ? __('administrator') : 'user'))
 #. 
-#: system/class_ServerControl.php:2546
+#: system/class_ServerControl.php:2548
 msgid "Account settings modified by %s"
 msgstr ""
 

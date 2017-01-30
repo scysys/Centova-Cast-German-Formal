@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2016-06-01 15:25-0700\n"
-"PO-Revision-Date: 2016-06-01 15:25-0700\n"
+"POT-Creation-Date: 2016-09-27 17:14-0700\n"
+"PO-Revision-Date: 2016-09-27 17:14-0700\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -200,12 +200,12 @@ msgstr ""
 msgid "After %s failed logins in %s minute(s), ban the user for %s minute(s)"
 msgstr ""
 
-#. File www/system/templates/admin_settings.tpl:303
+#. File www/system/templates/admin_settings.tpl:328
 #. Arguments: "<a style='color: #909090' href='http://www.centova.com/pages/faqs/display/can_i_display_my_own_cover_art_94' target='_blank'>","</a>"
 #. Context: <div class="info" style="margin-top: 8px">
 #.     	{="Album covers are shown in the media library and on the recent tracks list. %sClick here%s for more information.","<a style='color: #909090' href='http://www.centova.com/pages/faqs/display/can_i_display_my_own_cover_art_94' target='_blank'>
 #. 
-#: www/system/templates/admin_settings.tpl:303
+#: www/system/templates/admin_settings.tpl:328
 msgid "Album covers are shown in the media library and on the recent tracks list. %sClick here%s for more information."
 msgstr ""
 
@@ -273,21 +273,21 @@ msgstr ""
 msgid "All servers"
 msgstr ""
 
-#. File www/system/templates/admin_settings.tpl:258
+#. File www/system/templates/admin_settings.tpl:260
 #. Context: <tr>
-#.     		<td>{="Allow server log downloads"}:&nbsp;</td>
+#.     		<td width="220">{="Allow server log downloads"}:&nbsp;</td>
 #.     		<td>
 #. 
-#: www/system/templates/admin_settings.tpl:258
+#: www/system/templates/admin_settings.tpl:260
 msgid "Allow server log downloads"
 msgstr ""
 
-#. File www/system/templates/admin_settings.tpl:318
+#. File www/system/templates/admin_settings.tpl:343
 #. Context: <tr>
 #.     		<td width="220">{="Allow this server to be controlled remotely"}:&nbsp;</td>
 #.     		<td>
 #. 
-#: www/system/templates/admin_settings.tpl:318
+#: www/system/templates/admin_settings.tpl:343
 msgid "Allow this server to be controlled remotely"
 msgstr ""
 
@@ -306,12 +306,12 @@ msgstr ""
 msgid "Allows the user to edit the raw stream configuration files.  As this poses a potential security risk and allows the user to bypass many account limits, only trusted users should receive this privilege."
 msgstr ""
 
-#. File www/system/templates/admin_settings.tpl:266
+#. File www/system/templates/admin_settings.tpl:268
 #. Context: </tr>
 #.     	<tr><td></td><td class="info">{="Allows users to download their streaming server/source logs in ZIP or tarball format.  Note that log compression is very CPU-intensive."}</td></tr>
 #.     		<tr>
 #. 
-#: www/system/templates/admin_settings.tpl:266
+#: www/system/templates/admin_settings.tpl:268
 msgid "Allows users to download their streaming server/source logs in ZIP or tarball format.  Note that log compression is very CPU-intensive."
 msgstr ""
 
@@ -599,12 +599,12 @@ msgstr ""
 msgid "Centova Cast's cron job is starting normally on a regular basis, however it appears to be failing with an error before completing.  This may result in various Centova Cast problems ranging from statistics problems to licensing errors."
 msgstr ""
 
-#. File www/system/templates/admin_settings.tpl:337
+#. File www/system/templates/admin_settings.tpl:362
 #. Context: <input type="submit" name="emailtest" value="{="E-mail test"}" />
 #.     <input type="button" value="{="Change administrator password"}" onclick="window.location='index.php?page=adminpassword'" />
 #.     </div>
 #. 
-#: www/system/templates/admin_settings.tpl:337
+#: www/system/templates/admin_settings.tpl:362
 msgid "Change administrator password"
 msgstr ""
 
@@ -946,12 +946,12 @@ msgstr ""
 msgid "E-mail connectivity test"
 msgstr ""
 
-#. File www/system/templates/admin_settings.tpl:336
+#. File www/system/templates/admin_settings.tpl:361
 #. Context: <div style="float: right">
 #.     <input type="submit" name="emailtest" value="{="E-mail test"}" />
 #.     <input type="button" value="{="Change administrator password"}" onclick="window.location='index.php?page=adminpassword'"
 #. 
-#: www/system/templates/admin_settings.tpl:336
+#: www/system/templates/admin_settings.tpl:361
 msgid "E-mail test"
 msgstr ""
 
@@ -1053,11 +1053,11 @@ msgstr ""
 msgid "Enable re-encoding on new servers"
 msgstr ""
 
-#. File www/system/templates/admin_settings.tpl:276
+#. File www/system/templates/admin_settings.tpl:278
 #. Context: </tr>
 #.     		<tr><td></td><td class="info">{="Enables a widget which provides a directory of all streams hosted in Centova Cast."}</td></tr>
 #. 
-#: www/system/templates/admin_settings.tpl:276
+#: www/system/templates/admin_settings.tpl:278
 msgid "Enables a widget which provides a directory of all streams hosted in Centova Cast."
 msgstr ""
 
@@ -1364,12 +1364,12 @@ msgstr ""
 msgid "If you do not plan to use start page support, %sclick here%s to permanently dismiss this error message."
 msgstr ""
 
-#. File www/system/templates/admin_settings.tpl:286
+#. File www/system/templates/admin_settings.tpl:311
 #. Context: <tr>
 #.     		<td>{="Import album cover images when available"}:&nbsp;</td>
 #.     		<td>
 #. 
-#: www/system/templates/admin_settings.tpl:286
+#: www/system/templates/admin_settings.tpl:311
 msgid "Import album cover images when available"
 msgstr ""
 
@@ -1423,11 +1423,11 @@ msgstr ""
 msgid "Legacy Features"
 msgstr ""
 
-#. File www/system/templates/admin_settings.tpl:308
+#. File www/system/templates/admin_settings.tpl:333
 #. Context: <fieldset>
 #.     	<legend>{="Legacy SSO"}</legend>
 #. 
-#: www/system/templates/admin_settings.tpl:308
+#: www/system/templates/admin_settings.tpl:333
 msgid "Legacy SSO"
 msgstr ""
 
@@ -2125,12 +2125,12 @@ msgstr ""
 msgid "Prohibited (streams MUST use an offsite source)"
 msgstr ""
 
-#. File www/system/templates/admin_settings.tpl:268
+#. File www/system/templates/admin_settings.tpl:270
 #. Context: <tr>
 #.     			<td>{="Provide stream directory"}:&nbsp;</td>
 #.     			<td>
 #. 
-#: www/system/templates/admin_settings.tpl:268
+#: www/system/templates/admin_settings.tpl:270
 msgid "Provide stream directory"
 msgstr ""
 
@@ -2231,6 +2231,12 @@ msgstr ""
 msgid "Remote Server"
 msgstr ""
 
+#. File www/admin/modules/class_Module_remoteservers.php:18
+#. 
+#: www/admin/modules/class_Module_remoteservers.php:18
+msgid "Remote Servers"
+msgstr ""
+
 #. File www/system/templates/admin_remoteserver_list.tpl:5
 #. Context: </div>
 #.     <img src="../system/images/icons/models/rpchost.png" align="absmiddle" /> {="Remote servers"}:<br />
@@ -2238,12 +2244,6 @@ msgstr ""
 #. 
 #: www/system/templates/admin_remoteserver_list.tpl:5
 msgid "Remote servers"
-msgstr ""
-
-#. File www/admin/modules/class_Module_remoteservers.php:18
-#. 
-#: www/admin/modules/class_Module_remoteservers.php:18
-msgid "Remote Servers"
 msgstr ""
 
 #. File www/admin/modules/class_Module_manageaccount.php:26
