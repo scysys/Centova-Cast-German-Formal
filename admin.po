@@ -1,0 +1,3101 @@
+# Centova Cast translation - admin interface
+# Copyright 2014, Centova Technologies Inc.
+# This file is distributed under the same license terms as Centova Cast.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Centova Cast v3.0\n"
+"POT-Creation-Date: 2013-07-17 14\n"
+"PO-Revision-Date: 2013-07-17 14\n"
+"Last-Translator: Support <support at centova dot com>\n"
+"Language-Team: Andre Fichtner\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. File www/system/templates/admin_about.tpl:41
+#. Arguments: "SHOUTcast","America Online, Inc."
+#. Context: {="%s is a registered trademark of %s","SHOUTcast","America Online, Inc."}<br />
+#.     {="%s was designed by %s","Silk iconset","<a style='font-weight: normal; text-decora
+#. 
+#: www/system/templates/admin_about.tpl:41
+msgid "%s is a registered trademark of %s"
+msgstr "%s ist ein eingetragenes Warenzeichen von %s"
+
+#. File www/system/templates/admin_about.tpl:42
+#. Arguments: "Silk iconset","<a style='font-weight: normal; text-decoration: none' target='_blank' href='http://famfamfam.com/'>Mark James</a>"
+#. Context: {="%s is a registered trademark of %s","SHOUTcast","America Online, Inc."}<br />
+#.     {="%s was designed by %s","Silk iconset","<a style='font-weight: normal; text-decoration: none' target='_blank' href='http://famfamfam.com/'>Mark James<
+#. 
+#: www/system/templates/admin_about.tpl:42
+msgid "%s was designed by %s"
+msgstr "%s wurde erstellt von %s"
+
+#. File www/system/templates/admin_usage.tpl:9
+#. Arguments: $usage.useddisk,$usage.disklimit
+#. Context: ystem/images/icons/diskspace.png" align="absmiddle" /> {="Disk usage"}: <span style="font-weight: bold; white-space: nowrap">{="%s/%s MB",$usage.useddisk,$usage.disklimit}</span>
+#.     			{$usage.useddisk|ccmeter:$usage.disklimit}
+#. 
+#. File www/system/templates/admin_usage.tpl:4
+#. Arguments: $usage.usedxfer,$usage.xferlimit
+#. Context: le="font-weight: bold; white-space: nowrap">{if $usage.xferlimit<0}{="%s MB",$usage.usedxfer} ({="No limit specified"}){else}{="%s/%s MB",$usage.usedxfer,$usage.xferlimit}{/if}</span>
+#.     			{$usage.usedxfer|ccmeter:$usage.xferlimit}
+#. 
+#: www/system/templates/admin_usage.tpl:9
+#: www/system/templates/admin_usage.tpl:4
+msgid "%s/%s MB"
+msgstr "%s/%s MB"
+
+#. File www/system/templates/admin_region_edit.tpl:10
+#. Context: <input type="text" name="region[name]" size="16" maxlength="32" value="{$region.name|htmlentities}" />
+#.     		{tip type="icon"}{="A short identifier for this region, from 3 to 32 characters in length, using the characters A-Z, 0-9, underscore (_) or dash (-) only.  Examples might include 'eu-west' or 'van'."}{/tip}
+#.     	</td>
+#. 
+#: www/system/templates/admin_region_edit.tpl:10
+msgid "A short identifier for this region, from 3 to 32 characters in length, using the characters A-Z, 0-9, underscore (_) or dash (-) only.  Examples might include 'eu-west' or 'van'."
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:30
+#. Context: processing_success: '{="OK"}',
+#.     	account_is_suspended: '{="Account is suspended"}.',
+#.     	stream_is_offline: '{="Stream is offline"}.'
+#. 
+#: www/system/templates/admin_accounts.tpl:30
+msgid "Account is suspended"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:97
+#. Arguments: $remoteserver.title
+#. Context: {if $remoteserver}
+#.     			{="Accounts on %s",$remoteserver.title} [<a href="index.php?page={$accountsmodule}&action=manage&sid={$ssosid}">{="Manage server"}</a>]
+#.     		{else}
+#. 
+#: www/system/templates/admin_accounts.tpl:97
+msgid "Accounts on %s"
+msgstr "Konten auf %s"
+
+#. File www/system/templates/admin_accounts_javascript.tpl:54
+#. Context: <div id="rowovertab_resinfo">
+#.                     {="Accounts:"} <span id="rowovertab_resaccts">{="Unknown"}</span><br />
+#.                 </div>
+#. 
+#: www/system/templates/admin_accounts_javascript.tpl:54
+msgid "Accounts:"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:21
+#. Context: tal accounts"}</td>				<td class="rowodd" style="font-weight: bold">{$systeminfo.accounts}</td></tr>
+#.     <tr><td class="roweven">{="Active accounts"}</td>			<td class="roweven" style="font-weight: bold">{$systeminfo.activeaccounts}</td></tr>
+#.     {loop $other=$systeminfo.other}
+#. 
+#: www/system/templates/admin_about.tpl:21
+msgid "Active accounts"
+msgstr "Aktive Konten"
+
+#. File www/system/templates/admin_rpchost_list.tpl:3
+#. Context: loat: right">
+#.     	<img src="../system/images/icons/remoteserver_add.png" align="absmiddle" /> <a href="{$indexself}&action=add">{="Add hosting server"}</a>
+#.     </div>
+#. 
+#: www/system/templates/admin_rpchost_list.tpl:3
+msgid "Add hosting server"
+msgstr ""
+
+#. File www/system/templates/admin_region_list.tpl:4
+#. Context: yle="float: right">
+#.     		<img src="../system/images/icons/world_add.png" align="absmiddle" /> <a href="{$indexself}&action=add">{="Add region"}</a>
+#.     	</div>
+#. 
+#: www/system/templates/admin_region_list.tpl:4
+msgid "Add region"
+msgstr ""
+
+#. File www/system/templates/admin_remoteserver_list.tpl:3
+#. Context: loat: right">
+#.     	<img src="../system/images/icons/remoteserver_add.png" align="absmiddle" /> <a href="{$indexself}&action=add">{="Add remote server"}</a>
+#.     </div>
+#. 
+#: www/system/templates/admin_remoteserver_list.tpl:3
+msgid "Add remote server"
+msgstr "Entfernten Server hinzuf&uuml;gen"
+
+#. File www/system/templates/admin_rpchost_list.tpl:20
+#. Context: <th>{="Title"}</th>
+#.     	<th>{="Address"}</th>
+#.     	<th width="40" style="text-align: center">{="Master"}</th>
+#. 
+#: www/system/templates/admin_rpchost_list.tpl:20
+msgid "Address"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:49
+#. Context: </tr>
+#.     	<tr><td></td><td class="info">{="Administrative notices will be sent to the above address."}</td></tr>
+#.     	<tr>
+#. 
+#: www/system/templates/admin_settings.tpl:49
+msgid "Administrative notices will be sent to the above address."
+msgstr "Administrations-Hinweise werden an die obige Adresse verschickt."
+
+#. File www/admin/modules/class_Module_adminpassword.php:11
+#. 
+#: www/admin/modules/class_Module_adminpassword.php:11
+msgid "Administrator account password update"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:156
+#. Context: <td>
+#.     			{setlangfields name="logins"}{="After %s failed logins in %s minute(s), ban the user for %s minute(s)"}{/setlangfields}
+#.     			{getlangfield name="logins" index="1"}<input type="text" name="settings[maxfailedlogins]" size="3" maxleng
+#. 
+#: www/system/templates/admin_settings.tpl:156
+msgid "After %s failed logins in %s minute(s), ban the user for %s minute(s)"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:285
+#. Arguments: "<a style='color: #909090' href='http://www.centova.com/pages/faqs/display/can_i_display_my_own_cover_art_94' target='_blank'>","</a>"
+#. Context: <div class="info" style="margin-top: 8px">
+#.     	{="Album covers are shown in the media library and on the recent tracks list. %sClick here%s for more information.","<a style='color: #909090' href='http://www.centova.com/pages/faqs/display/can_i_display_my_own_cover_art_94' target='_blank'>
+#. 
+#: www/system/templates/admin_settings.tpl:285
+msgid "Album covers are shown in the media library and on the recent tracks list. %sClick here%s for more information."
+msgstr ""
+
+#. File www/system/templates/admin_ads_test.tpl:1
+#. Context: {box title="Album data source test"}
+#. 
+#: www/system/templates/admin_ads_test.tpl:1
+msgid "Album data source test"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_javascript.tpl:8
+#. Context: confirm_suspend: '{="Are you sure you want to disable this account?"}',
+#.     	confirm_suspend_reseller: '{="All of its client accounts will be disabled as well."}',
+#.     	confirm_unsuspend_reseller: '{="WARNING: This account was suspended because it exceeded its resource limits.  If you unsus
+#. 
+#: www/system/templates/admin_accounts_javascript.tpl:8
+msgid "All of its client accounts will be disabled as well."
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:62
+#. Context: {if $regions|count==0}
+#.     		{="All servers"}
+#.     		<input type="hidden" name="rpchost[regionid]" value="1" />
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:62
+msgid "All servers"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:240
+#. Context: <tr>
+#.     		<td>{="Allow server log downloads"}:&nbsp;</td>
+#.     		<td>
+#. 
+#: www/system/templates/admin_settings.tpl:240
+msgid "Allow server log downloads"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:300
+#. Context: <tr>
+#.     		<td width="220">{="Allow this server to be controlled remotely"}:&nbsp;</td>
+#.     		<td>
+#. 
+#: www/system/templates/admin_settings.tpl:300
+msgid "Allow this server to be controlled remotely"
+msgstr "Diesem Server die entfernte Verwaltung erlauben"
+
+#. File www/system/templates/configuration_client_limits.tpl:226
+#. Context: </select>
+#.     		{$errors.rawconfig|checkerror} {tip type="icon"}{="Allows the user to edit the raw stream configuration files.  As this poses a potential security risk and allows the user to bypass many account limits, only trusted users should receive this privilege."}{/tip}
+#.     	</td>
+#. 
+#. File www/system/templates/configuration_reseller_limits.tpl:92
+#. Context: </select>
+#.     		{$errors.rawconfig|checkerror} {tip type="icon"}{="Allows the user to edit the raw stream configuration files.  As this poses a potential security risk and allows the user to bypass many account limits, only trusted users should receive this privilege."}{/tip}
+#.     	</td>
+#. 
+#: www/system/templates/configuration_client_limits.tpl:226
+#: www/system/templates/configuration_reseller_limits.tpl:92
+msgid "Allows the user to edit the raw stream configuration files.  As this poses a potential security risk and allows the user to bypass many account limits, only trusted users should receive this privilege."
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:248
+#. Context: </tr>
+#.     	<tr><td></td><td class="info">{="Allows users to download their streaming server/source logs in ZIP or tarball format.  Note that log compression is very CPU-intensive."}</td></tr>
+#.     		<tr>
+#. 
+#: www/system/templates/admin_settings.tpl:248
+msgid "Allows users to download their streaming server/source logs in ZIP or tarball format.  Note that log compression is very CPU-intensive."
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:58
+#. Context: /span> <input class="filter_keyword filter_field" value="" /><br />
+#.     		<input type="button" class="filterdialog_apply" value="{="Apply"}" /> <input type="button" class="filterdialog_cancel" value="{="Cancel"}" />
+#.     	</form>
+#. 
+#: www/system/templates/admin_accounts.tpl:58
+msgid "Apply"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_javascript.tpl:7
+#. Context: unknown: '{="Unknown"}',
+#.     	confirm_suspend: '{="Are you sure you want to disable this account?"}',
+#.     	confirm_suspend_reseller: '{="All of its client accounts will be disabled as well."}',
+#. 
+#: www/system/templates/admin_accounts_javascript.tpl:7
+msgid "Are you sure you want to disable this account?"
+msgstr "Sind Sie sicher das Sie dieses Konto deaktivieren wollen?"
+
+#. File www/system/templates/admin_accounts.tpl:21
+#. Context: 'stop_selected_subtitle': '{="Stopping streams ..."}',
+#.     		'stop_selected_confirm': '{="Are you sure you want to stop the %s selected stream(s)?"}'
+#. 
+#: www/system/templates/admin_accounts.tpl:21
+msgid "Are you sure you want to stop the %s selected stream(s)?"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:5
+#. Context: 'suspend_selected_subtitle': '{="Suspending accounts ..."}',
+#.     		'suspend_selected_confirm': '{="Are you sure you want to suspend the %s selected account(s)?"}',
+#. 
+#: www/system/templates/admin_accounts.tpl:5
+msgid "Are you sure you want to suspend the %s selected account(s)?"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:9
+#. Context: 'unsuspend_selected_subtitle': '{="Unsuspending accounts ..."}',
+#.     		'unsuspend_selected_confirm': '{="Are you sure you want to unsuspend the %s selected account(s)?"}',
+#. 
+#: www/system/templates/admin_accounts.tpl:9
+msgid "Are you sure you want to unsuspend the %s selected account(s)?"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_javascript.tpl:42
+#. Context: tab_songtitle">{="Unknown"}</span><br />
+#.                     {="Listeners"}: <span id="rowovertab_listeners">{="Unknown"}</span> {="at"} <span id="rowovertab_bitrate">{="Unknown"}</span>
+#.                 </div>
+#. 
+#: www/system/templates/admin_accounts_javascript.tpl:42
+msgid "at"
+msgstr "bei"
+
+#. File www/system/templates/admin_rpchost_edit.tpl:22
+#. Context: <tr>
+#.     	<td>{="Authentication key"}: {$errors.authkey|checkerror}</td>
+#.     	<td><input type="password" name="rpchost[authkey]" size="40" maxlength="128" value="{$rpc
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:22
+msgid "Authentication key"
+msgstr ""
+
+#. File www/system/templates/configuration_reseller_limits.tpl:73
+#. Context: <tr>
+#.     	<td>{="AutoDJ capabilities"}:</td>
+#.     	<td colspan="2">
+#. 
+#: www/system/templates/configuration_reseller_limits.tpl:73
+msgid "AutoDJ capabilities"
+msgstr ""
+
+#. File www/admin/modules/class_Module_rpchosts.php:51
+#. 
+#: www/admin/modules/class_Module_rpchosts.php:51
+msgid "AutoDJ Software"
+msgstr ""
+
+#. File www/admin/modules/class_Module_sourcetypes.php:17
+#. 
+#: www/admin/modules/class_Module_sourcetypes.php:17
+msgid "AutoDJ source software management"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:113
+#. Context: <select name="settings[autounsuspend]" size="1">
+#.     			<option value="1"{if $settings.autounsuspend>0} selected="selected"{/if}>{="Automatically unsuspend it the following month"}</option>
+#.     			<option value="0"{if $settings.autounsuspend==0} selected="selected"{/if}>{="Leave it suspended until unsuspended
+#. 
+#: www/system/templates/admin_settings.tpl:113
+msgid "Automatically unsuspend it the following month"
+msgstr "Automatisch zu Beginn des neuen Monats reaktivieren"
+
+#. File www/system/templates/admin_about.tpl:14
+#. Context: d>		<td class="roweven" style="font-weight: bold">{$systeminfo.memcached|bytes}</td></tr>
+#.     <tr><td class="rowodd">&nbsp;&nbsp;{="Available memory"}</td><td class="rowodd" style="font-weight: bold">{$systeminfo.memavail|bytes}</td></tr>
+#.     <tr><td class="rowodd">&nbsp;&nbsp;{=
+#. 
+#: www/system/templates/admin_about.tpl:14
+msgid "Available memory"
+msgstr ""
+
+#. File www/system/templates/admin_servertype_list.tpl:3
+#. Context: <img src="../system/images/icons/servertype.png" align="absmiddle" /> {="Available server types"}:<br />
+#.     <div class="tablewrapper">
+#. 
+#: www/system/templates/admin_servertype_list.tpl:3
+msgid "Available server types"
+msgstr ""
+
+#. File www/system/templates/admin_sourcetype_list.tpl:3
+#. Context: <img src="../system/images/icons/sourcetype.png" align="absmiddle" /> {="Available source types"}:<br />
+#. 
+#: www/system/templates/admin_sourcetype_list.tpl:3
+msgid "Available source types"
+msgstr ""
+
+#. File www/system/templates/configuration_reseller_limits.tpl:65
+#. Context: <tr>
+#.     	<td>{="Bandwidth limit"}:</td>
+#.     	<td><input type="text" id="resellerbandwidth" name="config[resellerbandwidth]" size="7" maxlength="7" value="{$config
+#. 
+#: www/system/templates/configuration_reseller_limits.tpl:65
+msgid "Bandwidth limit"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_form.tpl:5
+#. Context: <p>
+#.     	{="Before you can use a server or autoDJ application, you must first install it on the server.  After installing it, you need to enter its path and filename here."}<br /><br />
+#.     	{="Note that if you are using Centova Cast on multiple clustered hosts, the server or autoDJ application must be
+#. 
+#: www/system/templates/admin_rpchost_form.tpl:5
+msgid "Before you can use a server or autoDJ application, you must first install it on the server.  After installing it, you need to enter its path and filename here."
+msgstr ""
+
+#. File www/system/templates/admin_accounts_list.tpl:38
+#. Context: ign: right" class="sorttable_numeric">{="Clients"}</th>
+#.     		<th width="55" style="text-align: right" class="sorttable_numeric">{="Bitrate"}</th>
+#.     		<th width="65" style="text-align: right" class="sorttable_numeric">{="Data Xfer"}</th>
+#. 
+#: www/system/templates/admin_accounts_list.tpl:38
+msgid "Bitrate"
+msgstr "Bitrate"
+
+#. File www/system/templates/admin_rpchost_edit.tpl:54
+#. Context: ="proxyipaddress" name="rpchost[proxyipaddress]" size="16" maxlength="15" value="{$rpchost.proxyipaddress|htmlentities}" /> ({="blank to use default stream IP address"})
+#.     		{tip type="icon"}{="This is the IP address (or hostname) on which you have configured your port 80 proxy to listen on this
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:54
+msgid "blank to use default stream IP address"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:39
+#. Context: <strong>{="Both"}</strong><br />
+#.     		{="If a server is configured for both roles, Centova Cast will use it both to host new streams and to relay
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:39
+msgid "Both"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:12
+#. Context: </td>	<td class="rowodd" style="font-weight: bold">{$systeminfo.memfree|bytes}</td></tr>
+#.     <tr><td class="roweven">&nbsp;&nbsp;{="Buffers"}</td>		<td class="roweven" style="font-weight: bold">{$systeminfo.buffers|bytes}</td></tr>
+#.     <tr><td class="roweven">&nbsp;&nbsp
+#. 
+#: www/system/templates/admin_about.tpl:12
+msgid "Buffers"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:5
+#. Context: number"}</td>	<td class="roweven" style="font-weight: bold">{$_CONSTANTS.PRODUCT_REVISION}</td></tr>
+#.     <tr><td class="rowodd">{="Build date"}</td>	<td class="rowodd" style="font-weight: bold">{$_CONSTANTS.BUILD_DATE}</td></tr>
+#.     <tr><td class="roweven">{="Hostname"}</t
+#. 
+#: www/system/templates/admin_about.tpl:5
+msgid "Build date"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:13
+#. Context: td>		<td class="roweven" style="font-weight: bold">{$systeminfo.buffers|bytes}</td></tr>
+#.     <tr><td class="roweven">&nbsp;&nbsp;{="Cached"}</td>		<td class="roweven" style="font-weight: bold">{$systeminfo.memcached|bytes}</td></tr>
+#.     <tr><td class="rowodd">&nbsp;&nbs
+#. 
+#: www/system/templates/admin_about.tpl:13
+msgid "Cached"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:31
+#. Context: <tr><th colspan="2">{="Web Interface Configuration"}</th></tr>
+#.     <tr><td width="150" class="rowodd">{="CAST_PATH"}</td>			<td class="rowodd" style="font-weight: bold">{$_CONSTANTS.CAST_PATH}</td></tr>
+#.     {loop $value=$config}
+#. 
+#: www/system/templates/admin_about.tpl:31
+msgid "CAST_PATH"
+msgstr ""
+
+#. File www/system/templates/admin_smtp_test.tpl:5
+#. Context: {if $testresult}
+#.     <span style="font-weight: bold; color: #009900">{="PASSED"}</span> - {="Centova Cast appears to be able to send E-mails.  A test message has been sent."}
+#.     {else}
+#. 
+#: www/system/templates/admin_smtp_test.tpl:5
+msgid "Centova Cast appears to be able to send E-mails.  A test message has been sent."
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:31
+#. Context: {tip type="icon" title="Host role"}
+#.     		{="Centova Cast can make use of your individual servers in different ways depending on your role configuration."}<br /><br />
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:31
+msgid "Centova Cast can make use of your individual servers in different ways depending on your role configuration."
+msgstr ""
+
+#. File www/system/templates/admin_license_test.tpl:6
+#. Context: {if $testresult}
+#.     <span style="font-weight: bold; color: #009900">{="PASSED"}</span> - {="Centova Cast can successfully communicate with the Centova Technologies license servers."}
+#.     {else}
+#. 
+#: www/system/templates/admin_license_test.tpl:6
+msgid "Centova Cast can successfully communicate with the Centova Technologies license servers."
+msgstr ""
+
+#. File www/system/templates/admin_license_test.tpl:8
+#. Context: {else}
+#.     <span style="font-weight: bold; color: #FF0000">{="FAILED"}</span> - {="Centova Cast CANNOT reach the Centova Technologies license servers."}<br /><br />
+#. 
+#: www/system/templates/admin_license_test.tpl:8
+msgid "Centova Cast CANNOT reach the Centova Technologies license servers."
+msgstr ""
+
+#. File www/system/templates/admin_output.tpl:5
+#. Context: <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+#.     	<title>{="Centova Cast Diagnostic Output"}</title>
+#. 
+#: www/system/templates/admin_output.tpl:5
+msgid "Centova Cast Diagnostic Output"
+msgstr ""
+
+#. File www/system/templates/admin_smtp_test.tpl:7
+#. Context: {else}
+#.     <span style="font-weight: bold; color: #FF0000">{="FAILED"}</span> - {="Centova Cast does NOT appear to be able to send E-mails; an error occurred while attempting to send a test message."}
+#.     {/if}
+#. 
+#: www/system/templates/admin_smtp_test.tpl:7
+msgid "Centova Cast does NOT appear to be able to send E-mails; an error occurred while attempting to send a test message."
+msgstr ""
+
+#. File www/admin/modules/class_Module_logs.php:6
+#. 
+#: www/admin/modules/class_Module_logs.php:6
+msgid "Centova Cast system management"
+msgstr ""
+
+#. File www/system/templates/admin_remoteserver_edit.tpl:17
+#. Context: <tr>
+#.     	<td>{="Centova Cast URL"}: {$errors.url|checkerror}</td>
+#.     	<td><input type="text" name="remoteserver[url]" size="50" maxlength="255" value="{$remoteserv
+#. 
+#: www/system/templates/admin_remoteserver_edit.tpl:17
+msgid "Centova Cast URL"
+msgstr "Centova Cast Internetadresse"
+
+#. File www/system/templates/admin_mailsystem_error.tpl:2
+#. Context: {adminwarning title="Mail system error"}
+#.     	{="Centova Cast was recently unable to send one or more E-mail messages to administrators and/or clients due to a possible mail system configuration problem.  The complete error details can be found in the Centova Cast Event Log to the left."}
+#.     	<br /><br />
+#. 
+#: www/system/templates/admin_mailsystem_error.tpl:2
+msgid "Centova Cast was recently unable to send one or more E-mail messages to administrators and/or clients due to a possible mail system configuration problem.  The complete error details can be found in the Centova Cast Event Log to the left."
+msgstr ""
+
+#. File www/system/templates/admin_cjtoolong_error.tpl:2
+#. Context: {adminwarning title="Cron job warning"}
+#.     	{="Centova Cast's cron job appears to be taking an unusually long time to run.  This does not necessarily represent a problem in itself, however it may indicate that your server load is too high and/or cannot handle the workload assigned to it.  Please consult with your systems administrator if you require further assistance in diagnosing this problem."}
+#.     {/adminwarning}
+#. 
+#: www/system/templates/admin_cjtoolong_error.tpl:2
+msgid "Centova Cast's cron job appears to be taking an unusually long time to run.  This does not necessarily represent a problem in itself, however it may indicate that your server load is too high and/or cannot handle the workload assigned to it.  Please consult with your systems administrator if you require further assistance in diagnosing this problem."
+msgstr ""
+
+#. File www/system/templates/admin_cjnotrunning_error.tpl:2
+#. Context: {adminwarning title="Cron job error"}
+#.     	{="Centova Cast's cron job is not running on schedule (possibly not at all).  This may result in various Centova Cast problems ranging from statistics problems to licensing errors.  Most often this is the result of a cron configuration error."}
+#.     	<br /><br />
+#. 
+#: www/system/templates/admin_cjnotrunning_error.tpl:2
+msgid "Centova Cast's cron job is not running on schedule (possibly not at all).  This may result in various Centova Cast problems ranging from statistics problems to licensing errors.  Most often this is the result of a cron configuration error."
+msgstr ""
+
+#. File www/system/templates/admin_cjnocomplete_error.tpl:2
+#. Context: {adminwarning title="Cron job error"}
+#.         {="Centova Cast's cron job is starting normally on a regular basis, however it appears to be failing with an error before completing.  This may result in various Centova Cast problems ranging from statistics problems to licensing errors."}
+#.         <br /><br />
+#. 
+#: www/system/templates/admin_cjnocomplete_error.tpl:2
+msgid "Centova Cast's cron job is starting normally on a regular basis, however it appears to be failing with an error before completing.  This may result in various Centova Cast problems ranging from statistics problems to licensing errors."
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:319
+#. Context: <input type="submit" name="emailtest" value="{="E-mail test"}" />
+#.     <input type="button" value="{="Change administrator password"}" onclick="window.location='index.php?page=adminpassword'" />
+#.     </div>
+#. 
+#: www/system/templates/admin_settings.tpl:319
+msgid "Change administrator password"
+msgstr "&Auml;ndern Sie das Administrator-Passwort"
+
+#. File www/admin/modules/class_Module_manageaccount.php:23
+#. 
+#: www/admin/modules/class_Module_manageaccount.php:23
+msgid "Change Reseller"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_list.tpl:37
+#. Context: t-align: center" class="sorttable_alpha">{="Type"}</th>
+#.     		<th width="40" style="text-align: right" class="sorttable_numeric">{="Clients"}</th>
+#.     		<th width="55" style="text-align: right" class="sorttable_numeric">{="Bitrate"}</th>
+#. 
+#: www/system/templates/admin_accounts_list.tpl:37
+msgid "Clients"
+msgstr ""
+
+#. File www/admin/modules/class_Module_rpchosts.php:18
+#. 
+#: www/admin/modules/class_Module_rpchosts.php:18
+msgid "Cluster host management"
+msgstr ""
+
+#. File www/system/templates/admin_utilities.tpl:47
+#. Context: {box title="Legacy Features"}
+#.     	<a href="?page=remoteservers">{="Configure single sign-on"}</a>
+#. 
+#: www/system/templates/admin_utilities.tpl:47
+msgid "Configure single sign-on"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_loadremote.tpl:39
+#. Context: {box title="Please wait"}
+#.         <div id="loadingmessage">{="Contacting remote servers ..."}</div>
+#.         {/box}
+#. 
+#: www/system/templates/admin_accounts_loadremote.tpl:39
+msgid "Contacting remote servers ..."
+msgstr "Verbinde zu entfernten Servern..."
+
+#. File www/system/templates/admin_accounts.tpl:68
+#. Context: <input type="button" id="confirmdialog_continue" value="{="Continue"}" /> <input type="button" id="confirmdialog_cancel" value="{="Cancel"}" />
+#.     	</form>
+#. 
+#. File www/system/templates/admin_accounts.tpl:84
+#. Context: delete">{="Delete the client accounts"}</label><br /><br />
+#.     		<input type="button" id="resellerdeletedialog_continue" value="{="Continue"}" /> <input type="button" id="resellerdeletedialog_cancel" value="{="Cancel"}" />
+#.     	</form>
+#. 
+#. File www/system/templates/installation_diagnostics_complete.tpl:4
+#. Context: <input type="hidden" name="step" value="settings" />
+#.     			<input type="submit" value="{="Continue"} &gt;" {if $errors>0}disabled="disabled" {/if}/>
+#.     			</form>
+#. 
+#: www/system/templates/admin_accounts.tpl:68
+#: www/system/templates/admin_accounts.tpl:84
+#: www/system/templates/installation_diagnostics_complete.tpl:4
+msgid "Continue"
+msgstr "Fortsetzen"
+
+#. File www/admin/rpc/class_RPClogmanager.php:109
+#. 
+#. File system/class_ServerControl.php:555
+#. 
+#: www/admin/rpc/class_RPClogmanager.php:109
+#: system/class_ServerControl.php:555
+msgid "Could not access log file"
+msgstr ""
+
+#. File www/system/templates/admin_utilities.tpl:36
+#. Context: <table cellsacing="0" cellpadding="0" border="0">
+#.     	<tr><td width="125">{="Sessions"}:</td>	<td><a href="?page=sessions">{="Current login sessions"}</a></td></tr>
+#.     	<tr><td colspan="2"><br /></td></tr>
+#. 
+#: www/system/templates/admin_utilities.tpl:36
+msgid "Current login sessions"
+msgstr ""
+
+#. File www/system/templates/admin_sessions.tpl:40
+#. Context: $session.username=="admin"}{="Administrator"}{else}{$session.organization}{/if}{if $session.sessionid==$current_sessionid} ({="current session"}){/if}</td>
+#.     	<td sortby="x{$session.email|strtolower}"><a href="mailto:{$session.email|htmlentities}">{$session.email|htmlenti
+#. 
+#: www/system/templates/admin_sessions.tpl:40
+msgid "current session"
+msgstr ""
+
+#. File www/admin/modules/class_Module_sessions.php:161
+#. 
+#: www/admin/modules/class_Module_sessions.php:161
+msgid "Current Users"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_javascript.tpl:45
+#. Context: <div id="rowovertab_offline">
+#.                     {="Currently offline"}.
+#.                 </div>
+#. 
+#: www/system/templates/admin_accounts_javascript.tpl:45
+msgid "Currently offline"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_list.tpl:39
+#. Context: ign: right" class="sorttable_numeric">{="Bitrate"}</th>
+#.     		<th width="65" style="text-align: right" class="sorttable_numeric">{="Data Xfer"}</th>
+#.     		<th width="65" style="text-align: right" class="sorttable_numeric">{="Disk Space"}</th>
+#. 
+#: www/system/templates/admin_accounts_list.tpl:39
+msgid "Data Xfer"
+msgstr "Datentransfer"
+
+#. File www/system/templates/admin_utilities.tpl:38
+#. Context: <tr><td colspan="2"><br /></td></tr>
+#.     	<tr><td width="125">{="Database"}:</td>	<td><a href="/admin/db/" target="_blank">{="Manage database"}</a></td></tr>
+#.     	<tr><td></td>							<td><a href="#" onclic
+#. 
+#: www/system/templates/admin_utilities.tpl:38
+msgid "Database"
+msgstr ""
+
+#. File www/system/templates/admin_emails.tpl:15
+#. Context: <td class="row{$_loop.oetxt}{$_loop.lasttxt}">{$email.title|htmlentities}{if $email.readonly} <span style="color: #909090">({="default"})</span>{/if}</td>
+#.     	<td class="row{$_loop.oetxt}{$_loop.lasttxt}">{$email.subject|htmlentities}</td>
+#. 
+#: www/system/templates/admin_emails.tpl:15
+msgid "default"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:206
+#. Context: <tr>
+#.     		<td>{="Default channels for re-encoding"}:&nbsp;</td>
+#.     		<td>
+#. 
+#: www/system/templates/admin_settings.tpl:206
+msgid "Default channels for re-encoding"
+msgstr "Standard Kan&auml;le f&uuml;r Rekodierung"
+
+#. File www/system/templates/admin_settings.tpl:229
+#. Context: <tr>
+#.     		<td>{="Default crossfade length for re-encoding"}:&nbsp;</td>
+#.     		<td><input id="reencode_crossfade" type="text" name="settings[defaultcrossfade]" size="5" maxlength="5" value="
+#. 
+#: www/system/templates/admin_settings.tpl:229
+msgid "Default crossfade length for re-encoding"
+msgstr "Standard-&Uuml;berblendl&auml;nge f&uuml;r Rekodierung"
+
+#. File www/system/templates/admin_settings.tpl:215
+#. Context: <tr>
+#.     		<td>{="Default sample rate for re-encoding"}:&nbsp;</td>
+#.     		<td>
+#. 
+#: www/system/templates/admin_settings.tpl:215
+msgid "Default sample rate for re-encoding"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:45
+#. Context: <tr>
+#.     	<td>{="Default stream IP address"}: {$errors.defaultip|checkerror}</td>
+#.     	<td>
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:45
+msgid "Default stream IP address"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:169
+#. Context: <fieldset>
+#.     	<legend>{="Defaults"}</legend>
+#. 
+#: www/system/templates/admin_settings.tpl:169
+msgid "Defaults"
+msgstr "Standards"
+
+#. File www/system/templates/admin_accounts.tpl:11
+#. Context: 'delete_selected_title': '{="Delete Accounts"}',
+#.     		'delete_selected_subtitle': '{="Deleting accounts ..."}',
+#. 
+#: www/system/templates/admin_accounts.tpl:11
+msgid "Delete Accounts"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_list.tpl:36
+#. Context: moteserver_edit.png" border="0" align="absmiddle" /></a>
+#.     		<a href="{$indexself}&action=delete&id={$rpchost.id}"><img title="{="Delete cluster server"}" src="../system/images/icons/delete.png" border="0" align="absmiddle" /></a>
+#.     	</td>
+#. 
+#: www/system/templates/admin_rpchost_list.tpl:36
+msgid "Delete cluster server"
+msgstr ""
+
+#. File www/system/templates/admin_region_list.tpl:34
+#. Context: ng" border="0" align="absmiddle" /></a>
+#.     		{if $region.id!=1}<a href="{$indexself}&action=delete&id={$region.id}"><img title="{="Delete region"}" src="../system/images/icons/delete.png" border="0" align="absmiddle" /></a>{/if}
+#.     	</td>
+#. 
+#: www/system/templates/admin_region_list.tpl:34
+msgid "Delete region"
+msgstr ""
+
+#. File www/system/templates/admin_remoteserver_list.tpl:32
+#. Context: erver_edit.png" border="0" align="absmiddle" /></a>
+#.     		<a href="{$indexself}&action=delete&id={$remoteserver.id}"><img title="{="Delete remote server"}" src="../system/images/icons/delete.png" border="0" align="absmiddle" /></a>
+#.     	</td>
+#. 
+#: www/system/templates/admin_remoteserver_list.tpl:32
+msgid "Delete remote server"
+msgstr "L&ouml;sche entfernten Server"
+
+#. File www/system/templates/admin_accounts.tpl:111
+#. Context: tton" value="{="Unuspend selected"}" id="unsuspend_selected" class="multiple_account_button" />
+#.     	<input type="button" value="{="Delete selected"}" id="delete_selected" class="multiple_account_button" />
+#.     </div>
+#. 
+#: www/system/templates/admin_accounts.tpl:111
+msgid "Delete selected"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:12
+#. Context: 'delete_selected_title': '{="Delete Accounts"}',
+#.     		'delete_selected_subtitle': '{="Deleting accounts ..."}',
+#.     		'delete_selected_confirm': '{="Are you sure you want to permanently delete the %s selected account(s)?"}',
+#. 
+#: www/system/templates/admin_accounts.tpl:12
+msgid "Deleting accounts ..."
+msgstr ""
+
+#. File www/system/templates/admin_output.tpl:91
+#. Context: <body>
+#.     	<button onclick="disable_logging()" id="disablebtn">{="Disable Logging"}</button>
+#.     	<div id="log"></div>
+#. 
+#: www/system/templates/admin_output.tpl:91
+msgid "Disable Logging"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_list.tpl:40
+#. Context: n: right" class="sorttable_numeric">{="Data Xfer"}</th>
+#.     		<th width="65" style="text-align: right" class="sorttable_numeric">{="Disk Space"}</th>
+#.     		<th width="50" class="sorttable_nosort">&nbsp;</th>
+#. 
+#: www/system/templates/admin_accounts_list.tpl:40
+msgid "Disk Space"
+msgstr "freier Festplattenplatz"
+
+#. File www/system/templates/admin_settings.tpl:62
+#. Context: <fieldset>
+#.     	<legend>{="E-mail"}</legend>
+#. 
+#. File www/system/templates/admin_sessions.tpl:25
+#. Context: <th class="sorttable_alpha">{="Title"}</th>
+#.     	<th class="sorttable_alpha">{="E-mail"}</th>
+#.     	<th class="sorttable_alpha">{="Login Time"}</th>
+#. 
+#: www/system/templates/admin_settings.tpl:62
+#: www/system/templates/admin_sessions.tpl:25
+msgid "E-mail"
+msgstr ""
+
+#. File www/system/templates/admin_smtp_test.tpl:1
+#. Context: {box title="E-mail connectivity test"}
+#. 
+#: www/system/templates/admin_smtp_test.tpl:1
+msgid "E-mail connectivity test"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:318
+#. Context: <div style="float: right">
+#.     <input type="submit" name="emailtest" value="{="E-mail test"}" />
+#.     <input type="button" value="{="Change administrator password"}" onclick="window.location='index.php?page=adminpassword'"
+#. 
+#: www/system/templates/admin_settings.tpl:318
+msgid "E-mail test"
+msgstr ""
+
+#. File www/system/templates/admin_sourcetype_list.tpl:31
+#. Context: source type"}" alt="{="Edit source type"}" src="../system/images/icons/sourcetype_edit.png" border="0" align="absmiddle" /> {="Edit"}</a>
+#.     	</td>
+#. 
+#. File www/system/templates/admin_sessions.tpl:50
+#. Context: username}"><img class="hastip" tip="#tip_edit" src="../system/images/icons/editserver.png" border="0" align="absmiddle" alt="{="Edit"}" /></a>
+#.     		{/if}
+#. 
+#. File www/system/templates/admin_servertype_list.tpl:31
+#. Context: server type"}" alt="{="Edit server type"}" src="../system/images/icons/servertype_edit.png" border="0" align="absmiddle" /> {="Edit"}</a>
+#.     	</td>
+#. 
+#. File www/system/templates/admin_email.tpl:30
+#. Context: {language}
+#.     edit: '{="Edit"}',
+#.     copy_to: {
+#. 
+#. File www/system/templates/admin_accounts_list.tpl:69
+#. Context: username}"><img class="hastip" tip="#tip_edit" src="../system/images/icons/editserver.png" border="0" align="absmiddle" alt="{="Edit"}" /></a>
+#.     		</td>
+#. 
+#: www/system/templates/admin_sourcetype_list.tpl:31
+#: www/system/templates/admin_sessions.tpl:50
+#: www/system/templates/admin_servertype_list.tpl:31
+#: www/system/templates/admin_email.tpl:30
+#: www/system/templates/admin_accounts_list.tpl:69
+msgid "Edit"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_javascript.tpl:19
+#. Context: ctip" id="tip_login"><h1>{="Log in"}</h1>{="Log in to the account as the client."}</div>
+#.     <div class="ctip" id="tip_edit"><h1>{="Edit account"}</h1>{="Edit the settings and limits for this account."}</div>
+#. 
+#: www/system/templates/admin_accounts_javascript.tpl:19
+msgid "Edit account"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_list.tpl:35
+#. Context: $_loop.oetxt}{$_loop.lasttxt}" style="text-align: center">
+#.     		<a href="{$indexself}&action=edit&id={$rpchost.id}"><img title="{="Edit cluster server"}" src="../system/images/icons/remoteserver_edit.png" border="0" align="absmiddle" /></a>
+#.     		<a href="{$indexself}&action=delete
+#. 
+#: www/system/templates/admin_rpchost_list.tpl:35
+msgid "Edit cluster server"
+msgstr ""
+
+#. File www/system/templates/admin_emails.tpl:18
+#. Context: op.oetxt}{$_loop.lasttxt}" align="center">
+#.     		<a href="index.php?page={$targetmodule}&action=edit&id={$email.id}"><img title="{="Edit message"}" src="../system/images/icons/editemails.png" border="0" align="absmiddle" /></a>
+#.     	</td>
+#. 
+#: www/system/templates/admin_emails.tpl:18
+msgid "Edit message"
+msgstr "Nachricht bearbeiten"
+
+#. File www/system/templates/admin_region_list.tpl:33
+#. Context: {$_loop.oetxt}{$_loop.lasttxt}" style="text-align: center">
+#.     		<a href="{$indexself}&action=edit&id={$region.id}"><img title="{="Edit region"}" src="../system/images/icons/world_edit.png" border="0" align="absmiddle" /></a>
+#.     		{if $region.id!=1}<a href="{$indexself}&ac
+#. 
+#: www/system/templates/admin_region_list.tpl:33
+msgid "Edit region"
+msgstr ""
+
+#. File www/system/templates/admin_remoteserver_list.tpl:31
+#. Context: s="row{$_loop.oetxt}{$_loop.lasttxt}" align="center">
+#.     		<a href="{$indexself}&action=edit&id={$remoteserver.id}"><img title="{="Edit remote server"}" src="../system/images/icons/remoteserver_edit.png" border="0" align="absmiddle" /></a>
+#.     		<a href="{$indexself}&action=delete
+#. 
+#: www/system/templates/admin_remoteserver_list.tpl:31
+msgid "Edit remote server"
+msgstr "Entfernten Server bearbeiten"
+
+#. File www/system/templates/admin_servertype_list.tpl:31
+#. Context: p.lasttxt}" align="center">
+#.     		<a href="{$indexself}&action=edit&id={$servertype.id}"><img title="{="Edit server type"}" alt="{="Edit server type"}" src="../system/images/icons/servertype_edit.png" border="0" align="absmiddle" /> {="Edit"}</a>
+#.     	</td>
+#. 
+#. File www/system/templates/admin_servertype_list.tpl:31
+#. Context: ass="row{$_loop.oetxt}{$_loop.lasttxt}" align="center">
+#.     		<a href="{$indexself}&action=edit&id={$servertype.id}"><img title="{="Edit server type"}" alt="{="Edit server type"}" src="../system/images/icons/servertype_edit.png" border="0" align="absmiddle" /> {="Edit"}</a>
+#. 
+#: www/system/templates/admin_servertype_list.tpl:31
+#: www/system/templates/admin_servertype_list.tpl:31
+msgid "Edit server type"
+msgstr ""
+
+#. File www/system/templates/admin_sourcetype_list.tpl:31
+#. Context: p.lasttxt}" align="center">
+#.     		<a href="{$indexself}&action=edit&id={$sourcetype.id}"><img title="{="Edit source type"}" alt="{="Edit source type"}" src="../system/images/icons/sourcetype_edit.png" border="0" align="absmiddle" /> {="Edit"}</a>
+#.     	</td>
+#. 
+#. File www/system/templates/admin_sourcetype_list.tpl:31
+#. Context: ass="row{$_loop.oetxt}{$_loop.lasttxt}" align="center">
+#.     		<a href="{$indexself}&action=edit&id={$sourcetype.id}"><img title="{="Edit source type"}" alt="{="Edit source type"}" src="../system/images/icons/sourcetype_edit.png" border="0" align="absmiddle" /> {="Edit"}</a>
+#. 
+#: www/system/templates/admin_sourcetype_list.tpl:31
+#: www/system/templates/admin_sourcetype_list.tpl:31
+msgid "Edit source type"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_javascript.tpl:19
+#. Context: h1>{="Log in"}</h1>{="Log in to the account as the client."}</div>
+#.     <div class="ctip" id="tip_edit"><h1>{="Edit account"}</h1>{="Edit the settings and limits for this account."}</div>
+#. 
+#: www/system/templates/admin_accounts_javascript.tpl:19
+msgid "Edit the settings and limits for this account."
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:197
+#. Context: <tr>
+#.     		<td width="220">{="Enable re-encoding on new servers"}:</td>
+#.     		<td>
+#. 
+#: www/system/templates/admin_settings.tpl:197
+msgid "Enable re-encoding on new servers"
+msgstr "Erlaube rekodieren bei neuen Servern"
+
+#. File www/system/templates/admin_settings.tpl:258
+#. Context: </tr>
+#.     		<tr><td></td><td class="info">{="Enables a widget which provides a directory of all streams hosted in Centova Cast."}</td></tr>
+#. 
+#: www/system/templates/admin_settings.tpl:258
+msgid "Enables a widget which provides a directory of all streams hosted in Centova Cast."
+msgstr ""
+
+#. File www/system/templates/admin_utilities.tpl:51
+#. Context: {box title="Experimental Features"}
+#.     	<a href="?page=regions">{="Region management"}</a><br />
+#. 
+#: www/system/templates/admin_utilities.tpl:51
+msgid "Experimental Features"
+msgstr ""
+
+#. File www/system/templates/admin_license_error.tpl:7
+#. Arguments: $expiration.remain|timetext:brief
+#. Context: <strong>{$expiration.title}</strong><br />
+#.     	{$expiration.hostname} - {if $expiration.remain>0}{="expires in %s",$expiration.remain|timetext:brief}{else}<span style="color: red">{="inactive"}</span><br /><span style="color: #505050">{$expi
+#. 
+#: www/system/templates/admin_license_error.tpl:7
+msgid "expires in %s"
+msgstr ""
+
+#. File www/system/templates/admin_smtp_test.tpl:7
+#. Context: {else}
+#.     <span style="font-weight: bold; color: #FF0000">{="FAILED"}</span> - {="Centova Cast does NOT appear to be able to send E-mails; an error occurred while attempting to send a test messag
+#. 
+#. File www/system/templates/admin_license_test.tpl:8
+#. Context: {else}
+#.     <span style="font-weight: bold; color: #FF0000">{="FAILED"}</span> - {="Centova Cast CANNOT reach the Centova Technologies license servers."}<br /><br />
+#. 
+#. File www/system/templates/admin_ads_test.tpl:9
+#. Context: {else}
+#.     <span style="font-weight: bold; color: #FF0000">{="FAILED"}</span>
+#.     {/if} - {$result}
+#. 
+#: www/system/templates/admin_smtp_test.tpl:7
+#: www/system/templates/admin_license_test.tpl:8
+#: www/system/templates/admin_ads_test.tpl:9
+msgid "FAILED"
+msgstr ""
+
+#. File www/admin/rpc/class_RPCremoteservers.php:26
+#. 
+#: www/admin/rpc/class_RPCremoteservers.php:26
+msgid "Failed..."
+msgstr "Fehlgeschlagen..."
+
+#. File www/system/templates/admin_settings.tpl:236
+#. Context: <fieldset>
+#.     	<legend>{="Features"}</legend>
+#. 
+#: www/system/templates/admin_settings.tpl:236
+msgid "Features"
+msgstr "Eigenschaften"
+
+#. File www/system/templates/admin_accounts.tpl:92
+#. Context: <div style="float: right">
+#.     			<a id="filter_accounts_link" href="#" onclick="show_filter_accounts(this); return false">{="Filter"}</a> <span class="accounts_link_sep">|</span>
+#.     			<a id="new_account_link" href="#" onclick="window.centovacast.newaccount.show
+#. 
+#: www/system/templates/admin_accounts.tpl:92
+msgid "Filter"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:53
+#. Context: <div id="filterdialog" style="display: none">
+#.     	<h1>{="Filter By"}</h1>
+#.     	<form>
+#. 
+#: www/system/templates/admin_accounts.tpl:53
+msgid "Filter By"
+msgstr ""
+
+#. File www/system/templates/admin_cjnotrunning_error.tpl:4
+#. Arguments: "<a target='_blank' href='http://www.centova.com/faq/cast3/troubleshooting/diagnosing_cron_job_problems'>","</a>"
+#. Context: <br /><br />
+#.     	{="For assistance in diagnosing this problem, please consult the %sCron Job Problems article%s in the Centova Cast knowledge base.","<a target='_blank' href='http://www.centova.com/faq/cast3/troubleshooting/diagnosing_cron_job_problems'>","</a>"}
+#.     {/adminwarn
+#. 
+#. File www/system/templates/admin_cjnocomplete_error.tpl:4
+#. Arguments: "<a target='_blank' href='http://www.centova.com/pages/faqs/display/diagnosing_cron_job_problems_113'>","</a>"
+#. Context: <br /><br />
+#.         {="For assistance in diagnosing this problem, please consult the %sCron Job Problems article%s in the Centova Cast knowledge base.","<a target='_blank' href='http://www.centova.com/pages/faqs/display/diagnosing_cron_job_problems_113'>","</a>"}
+#.     {/adminwarning
+#. 
+#: www/system/templates/admin_cjnotrunning_error.tpl:4
+#: www/system/templates/admin_cjnocomplete_error.tpl:4
+msgid "For assistance in diagnosing this problem, please consult the %sCron Job Problems article%s in the Centova Cast knowledge base."
+msgstr ""
+
+#. File www/system/templates/admin_mailsystem_error.tpl:4
+#. Arguments: "<a target='_blank' href='http://www.centova.com/pages/faqs/display/centova_cast_is_not_sending_112'>","</a>"
+#. Context: <br /><br />
+#.     	{="For assistance in diagnosing this problem, please consult the %sE-mail Notifications article%s in the Centova Cast knowledge base.","<a target='_blank' href='http://www.centova.com/pages/faqs/display/centova_cast_is_not_sending_112'>","</a>"}
+#.     {/adminwarning}
+#. 
+#: www/system/templates/admin_mailsystem_error.tpl:4
+msgid "For assistance in diagnosing this problem, please consult the %sE-mail Notifications article%s in the Centova Cast knowledge base."
+msgstr ""
+
+#. File www/system/templates/admin_license_error.tpl:15
+#. Arguments: "<a target='_blank' href='http://www.centova.com/faq/cast3/troubleshooting/license_expiration_warning_for_an_active_license'>","</a>"
+#. Context: {/if}
+#.     	{="For assistance in diagnosing this problem, please consult the %sLicense Expiration article%s in the Centova Cast knowledge base.","<a target='_blank' href='http://www.centova.com/faq/cast3/troubleshooting/license_expiration_warning_for_an_active_license'>"
+#. 
+#: www/system/templates/admin_license_error.tpl:15
+msgid "For assistance in diagnosing this problem, please consult the %sLicense Expiration article%s in the Centova Cast knowledge base."
+msgstr ""
+
+#. File www/system/templates/admin_startpage_error.tpl:4
+#. Arguments: "<a target='_blank' href='http://www.centova.com/pages/faqs/display/errors_on_stream_start_pages_66'>","</a>"
+#. Context: <br /><br />
+#.         {="For assistance in diagnosing this problem, please consult the %sStream Start Pages article%s in the Centova Cast knowledge base.","<a target='_blank' href='http://www.centova.com/pages/faqs/display/errors_on_stream_start_pages_66'>","</a>"}
+#. 
+#: www/system/templates/admin_startpage_error.tpl:4
+msgid "For assistance in diagnosing this problem, please consult the %sStream Start Pages article%s in the Centova Cast knowledge base."
+msgstr ""
+
+#. File www/admin/modules/class_Module_remoteservers.php:17
+#. 
+#: www/admin/modules/class_Module_remoteservers.php:17
+msgid "For single sign-on"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:10
+#. Context: al());" />
+#.     		{tip type="icon"}{="This is the IP address on which the Centova Cast control daemon will be running."}<br/><br/>{="For standalone configurations (or for the master in master/slave configurations), this will usually be '127.0.0.1'.  For slave servers in master/slave configurations, this will usually be the slave server's primary IP address."}{/tip}
+#.     	</td>
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:10
+msgid "For standalone configurations (or for the master in master/slave configurations), this will usually be '127.0.0.1'.  For slave servers in master/slave configurations, this will usually be the slave server's primary IP address."
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:43
+#. Arguments: "<a href='http://www.centova.com' target='_blank'>www.centova.com</a>."
+#. Context: style='font-weight: normal; text-decoration: none' target='_blank' href='http://famfamfam.com/'>Mark James</a>"}<br /><br />
+#.     {="For support and updates, please visit %s","<a href='http://www.centova.com' target='_blank'>www.centova.com</a>."}
+#. 
+#: www/system/templates/admin_about.tpl:43
+msgid "For support and updates, please visit %s"
+msgstr "F&uuml;r UnterstÃŒtzung und Updates besuchen Sie %s"
+
+#. File www/system/templates/admin_email.tpl:98
+#. Context: <table cellspacing="0" cellpadding="0" border="0">
+#.     	<tr><td>{="From"}:</td><td><strong>{$settings.sitename|htmlentities} &lt;{$settings.senderemail|htmlentities}&gt;</strong></td></tr>
+#.     	<tr><td>{
+#. 
+#: www/system/templates/admin_email.tpl:98
+msgid "From"
+msgstr ""
+
+#. File www/system/templates/admin_index.tpl:3
+#. Context: ge=accounts&hidenews=1"><img src="../system/images/icons/playlist-cancel.png" border="0" alt="{="Hide this news box."}" {tip}{="Hide this news box."}{/tip}/></a></div>
+#.     	<strong>{$newsdate}</strong><br />
+#. 
+#. File www/system/templates/admin_index.tpl:3
+#. Context: t: right"><a href="index.php?page=accounts&hidenews=1"><img src="../system/images/icons/playlist-cancel.png" border="0" alt="{="Hide this news box."}" {tip}{="Hide this news box."}{/tip}/></a></div>
+#.     	<strong>{$newsdate}</strong><br />
+#. 
+#: www/system/templates/admin_index.tpl:3
+#: www/system/templates/admin_index.tpl:3
+msgid "Hide this news box."
+msgstr ""
+
+#. File www/admin/modules/class_Module_rpchosts.php:18
+#. 
+#: www/admin/modules/class_Module_rpchosts.php:18
+msgid "Host Manager"
+msgstr ""
+
+#. File www/admin/modules/class_Module_regions.php:18
+#. 
+#: www/admin/modules/class_Module_regions.php:18
+msgid "Host region management"
+msgstr ""
+
+#. File www/system/templates/admin_region_list.tpl:6
+#. Context: </div>
+#.     	<img src="../system/images/icons/world.png" align="absmiddle" /> {="Host regions"}:<br />
+#.     </div>
+#. 
+#: www/system/templates/admin_region_list.tpl:6
+msgid "Host regions"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:30
+#. Context: ay]" value="1" {if $rpchost.isrelay}checked="checked" {/if}/> {="Relay"} {$errors.isrelay|checkerror}
+#.     		{tip type="icon" title="Host role"}
+#.     		{="Centova Cast can make use of your individual servers in different ways depending on your role configuration."}<br /><br
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:30
+msgid "Host role"
+msgstr ""
+
+#. File www/system/templates/admin_region_edit.tpl:16
+#. Context: et" name="region[target]" size="1">
+#.     		<option {if $region.target=="minaccounts"}selected="selected" {/if}value="minaccounts">{="Host with fewest accounts"}</option>
+#.     		<option {if $region.target=="minxferquota"}selected="selected" {/if}value="minxferquota">{="Host with lowest data
+#. 
+#: www/system/templates/admin_region_edit.tpl:16
+msgid "Host with fewest accounts"
+msgstr ""
+
+#. File www/system/templates/admin_region_edit.tpl:18
+#. Context: st data transfer quota"}</option>
+#.     		<option {if $region.target=="minxferusage"}selected="selected" {/if}value="minxferusage">{="Host with lowest actual data transfer"}</option>
+#.     		<option {if $region.target=="mindiskquota"}selected="selected" {/if}value="mindiskquota">{="Host with lowest disk
+#. 
+#: www/system/templates/admin_region_edit.tpl:18
+msgid "Host with lowest actual data transfer"
+msgstr ""
+
+#. File www/system/templates/admin_region_edit.tpl:20
+#. Context: with lowest disk quota"}</option>
+#.     		<option {if $region.target=="mindiskusage"}selected="selected" {/if}value="mindiskusage">{="Host with lowest actual disk usage"}</option>
+#.     		<option {if $region.target=="serverid"}selected="selected" {/if}value="serverid">{="Specific server"}</option>
+#. 
+#: www/system/templates/admin_region_edit.tpl:20
+msgid "Host with lowest actual disk usage"
+msgstr ""
+
+#. File www/system/templates/admin_region_edit.tpl:17
+#. Context: t with fewest accounts"}</option>
+#.     		<option {if $region.target=="minxferquota"}selected="selected" {/if}value="minxferquota">{="Host with lowest data transfer quota"}</option>
+#.     		<option {if $region.target=="minxferusage"}selected="selected" {/if}value="minxferusage">{="Host with lowest actua
+#. 
+#: www/system/templates/admin_region_edit.tpl:17
+msgid "Host with lowest data transfer quota"
+msgstr ""
+
+#. File www/system/templates/admin_region_edit.tpl:19
+#. Context: t actual data transfer"}</option>
+#.     		<option {if $region.target=="mindiskquota"}selected="selected" {/if}value="mindiskquota">{="Host with lowest disk quota"}</option>
+#.     		<option {if $region.target=="mindiskusage"}selected="selected" {/if}value="mindiskusage">{="Host with lowest actua
+#. 
+#: www/system/templates/admin_region_edit.tpl:19
+msgid "Host with lowest disk quota"
+msgstr ""
+
+#. File www/admin/modules/class_Module_rpchosts.php:39
+#. 
+#: www/admin/modules/class_Module_rpchosts.php:39
+msgid "Hosting server"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_list.tpl:5
+#. Context: </div>
+#.     <img src="../system/images/icons/remoteserver.png" align="absmiddle" /> {="Hosting servers"}:<br />
+#. 
+#: www/system/templates/admin_rpchost_list.tpl:5
+msgid "Hosting servers"
+msgstr ""
+
+#. File www/system/templates/admin_email.tpl:105
+#. Context: <div class="preview_info">
+#.     			<div id="html_preview" class="preview_heading">{="HTML Preview"}</div>
+#.     		</div>
+#. 
+#: www/system/templates/admin_email.tpl:105
+msgid "HTML Preview"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:40
+#. Context: <strong>{="Both"}</strong><br />
+#.     		{="If a server is configured for both roles, Centova Cast will use it both to host new streams and to relay streams hosted on other machines in your cluster."}
+#.     		{/tip}
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:40
+msgid "If a server is configured for both roles, Centova Cast will use it both to host new streams and to relay streams hosted on other machines in your cluster."
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:34
+#. Context: <strong>{="Master"}</strong><br />
+#.     		{="If a server is configured with a master role, it will be used to host new streaming servers and their autoDJs."}<br /><br />
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:34
+msgid "If a server is configured with a master role, it will be used to host new streaming servers and their autoDJs."
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:37
+#. Context: <strong>{="Relay"}</strong><br />
+#.     		{="If a server is configured with a relay role, it will be used to relay streams hosted on other servers in your cluster (if server multihoming is enabled for those streams).  This is useful for bandwidth distribution and redundancy."}<br /><br />
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:37
+msgid "If a server is configured with a relay role, it will be used to relay streams hosted on other servers in your cluster (if server multihoming is enabled for those streams).  This is useful for bandwidth distribution and redundancy."
+msgstr ""
+
+#. File www/system/templates/configuration_reseller_limits.tpl:80
+#. Context: {tip type="icon"}{="If enabled, your resellers' clients will be allowed to upload their media to your server and use Centova Cast's autoDJ system to source their streams.  If disabled, an off-site source (i.e., on the client's home PC) must be used instead."}{/tip}
+#.     	</td>
+#. 
+#: www/system/templates/configuration_reseller_limits.tpl:80
+msgid "If enabled, your resellers' clients will be allowed to upload their media to your server and use Centova Cast's autoDJ system to source their streams.  If disabled, an off-site source (i.e., on the client's home PC) must be used instead."
+msgstr ""
+
+#. File www/system/templates/configuration_reseller_limits.tpl:103
+#. Context: </select>
+#.     		{tip type="icon"}{="If enabled, your resellers' clients will be permitted to use Centova Cast's port-80 proxy to access streams from behind restrictive firewalls.<br /><br />Note that enabling this feature may dramatically affect your server's performance if used on busy streams; consult the documentation for more information."}{/tip}
+#.     	</td>
+#. 
+#: www/system/templates/configuration_reseller_limits.tpl:103
+msgid "If enabled, your resellers' clients will be permitted to use Centova Cast's port-80 proxy to access streams from behind restrictive firewalls.<br /><br />Note that enabling this feature may dramatically affect your server's performance if used on busy streams; consult the documentation for more information."
+msgstr ""
+
+#. File www/system/templates/admin_startpage_error.tpl:6
+#. Arguments: "<a href='index.php?page=accounts&nostartpagecheck=1'>","</a>"
+#. Context: {="If you do not plan to use start page support, %sclick here%s to permanently dismiss this error message.","<a href='index.php?page=accounts&nostartpagecheck=1'>","</a>"}
+#.     {/adminwarning}
+#. 
+#: www/system/templates/admin_startpage_error.tpl:6
+msgid "If you do not plan to use start page support, %sclick here%s to permanently dismiss this error message."
+msgstr "Wenn Sie nicht planen, Anfangsseitenunterst&uuml;tzung zu benutzen, %sKlicken Sie hier%s, um diese Fehlermeldung dauerhaft zur&uuml;ckzuweisen."
+
+#. File www/system/templates/admin_settings.tpl:268
+#. Context: <tr>
+#.     		<td>{="Import album cover images when available"}:&nbsp;</td>
+#.     		<td>
+#. 
+#: www/system/templates/admin_settings.tpl:268
+msgid "Import album cover images when available"
+msgstr ""
+
+#. File www/system/templates/admin_license_error.tpl:7
+#. Context: tion.hostname} - {if $expiration.remain>0}{="expires in %s",$expiration.remain|timetext:brief}{else}<span style="color: red">{="inactive"}</span><br /><span style="color: #505050">{$expiration.status.licerror}</span>{/if}<br />
+#.     	{/loop}
+#. 
+#: www/system/templates/admin_license_error.tpl:7
+msgid "inactive"
+msgstr ""
+
+#. File www/system/templates/admin_remoteserver_edit.tpl:26
+#. Context: <tr>
+#.     	<td>{="Include in API cluster"}: {$errors.apicluster|checkerror}</td>
+#.     	<td>
+#. 
+#: www/system/templates/admin_remoteserver_edit.tpl:26
+msgid "Include in API cluster"
+msgstr ""
+
+#. File www/system/templates/admin_utilities.tpl:33
+#. Context: vanced administrators only and/or for the use of Centova Technologies staff when troubleshooting your server."}<br /><br />
+#.     	{="Incorrect use of these utilities is likely to permanently damage your Centova Cast installation."}<br /><br />
+#. 
+#: www/system/templates/admin_utilities.tpl:33
+msgid "Incorrect use of these utilities is likely to permanently damage your Centova Cast installation."
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:19
+#. Context: ="System load"}</td>				<td class="rowodd" style="font-weight: bold">{$systeminfo.cpuload}</td></tr>
+#.     <tr><td class="roweven">{="Last cron job"}</td>				<td class="roweven" style="font-weight: bold">{="Started %s, completed %s",$settings.lastcjstart,$settings.lastcjcomp
+#. 
+#: www/system/templates/admin_about.tpl:19
+msgid "Last cron job"
+msgstr "Letzter cron Job"
+
+#. File www/system/templates/admin_settings.tpl:114
+#. Context: lly unsuspend it the following month"}</option>
+#.     			<option value="0"{if $settings.autounsuspend==0} selected="selected"{/if}>{="Leave it suspended until unsuspended by an administrator"}</option>
+#.     			</select>
+#. 
+#: www/system/templates/admin_settings.tpl:114
+msgid "Leave it suspended until unsuspended by an administrator"
+msgstr "Belassen Sie es deaktiviert bis zur Aufhebung durch einen Administrator"
+
+#. File www/system/templates/admin_utilities.tpl:46
+#. Context: {box title="Legacy Features"}
+#.     	<a href="?page=remoteservers">{="Configure single sign-on"}</a>
+#. 
+#: www/system/templates/admin_utilities.tpl:46
+msgid "Legacy Features"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:290
+#. Context: <fieldset>
+#.     	<legend>{="Legacy SSO"}</legend>
+#. 
+#: www/system/templates/admin_settings.tpl:290
+msgid "Legacy SSO"
+msgstr ""
+
+#. File www/system/templates/admin_license_test.tpl:1
+#. Context: {box title="Licensing server connectivity test"}
+#. 
+#: www/system/templates/admin_license_test.tpl:1
+msgid "Licensing server connectivity test"
+msgstr ""
+
+#. File www/system/templates/configuration_reseller_limits.tpl:55
+#. Context: <tr>
+#.     	<td>{="Listener slots (total)"}:</td>
+#.     	<td><input type="text" id="maxclients" name="config[maxclients]" size="5" maxlength="5" value="{$config.maxclients|ht
+#. 
+#: www/system/templates/configuration_reseller_limits.tpl:55
+msgid "Listener slots (total)"
+msgstr ""
+
+#. File www/system/templates/admin_serverstatus.tpl:18
+#. Context: <th width="55" style="text-align: center">{="Uptime"}</th>
+#.         <th width="55" style="text-align: center">{="Load"}</th>
+#.         <th width="65" style="text-align: right">{="Mem Used"}</th>
+#. 
+#: www/system/templates/admin_serverstatus.tpl:18
+msgid "Load"
+msgstr ""
+
+#. File www/admin/rpc/class_RPClogmanager.php:98
+#. 
+#. File system/class_ServerControl.php:544
+#. 
+#: www/admin/rpc/class_RPClogmanager.php:98
+#: system/class_ServerControl.php:544
+msgid "Log file does not exist"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_javascript.tpl:18
+#. Context: <div class="ctip" id="tip_login"><h1>{="Log in"}</h1>{="Log in to the account as the client."}</div>
+#.     <div class="ctip" id="tip_edit"><h1>{="Edit account"}</h1>{="Edit the set
+#. 
+#: www/system/templates/admin_accounts_javascript.tpl:18
+msgid "Log in"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_javascript.tpl:18
+#. Context: <div class="ctip" id="tip_login"><h1>{="Log in"}</h1>{="Log in to the account as the client."}</div>
+#.     <div class="ctip" id="tip_edit"><h1>{="Edit account"}</h1>{="Edit the settings and limits for this account."}</div>
+#. 
+#: www/system/templates/admin_accounts_javascript.tpl:18
+msgid "Log in to the account as the client."
+msgstr ""
+
+#. File www/system/templates/admin_sessions.tpl:64
+#. Context: <input type="hidden" name="action" value="logout" />
+#.     <input type="submit" value="{="Log out selected"}" />
+#. 
+#: www/system/templates/admin_sessions.tpl:64
+msgid "Log out selected"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:154
+#. Context: <tr>
+#.     		<td width="220">{="Login failures"}:</td>
+#.     		<td>
+#. 
+#: www/system/templates/admin_settings.tpl:154
+msgid "Login failures"
+msgstr ""
+
+#. File www/admin/modules/class_Module_sessions.php:161
+#. 
+#: www/admin/modules/class_Module_sessions.php:161
+msgid "Login Sessions"
+msgstr ""
+
+#. File www/system/templates/admin_sessions.tpl:26
+#. Context: <th class="sorttable_alpha">{="E-mail"}</th>
+#.     	<th class="sorttable_alpha">{="Login Time"}</th>
+#.     	<th class="sorttable_numeric">{="Duration"}</th>
+#. 
+#: www/system/templates/admin_sessions.tpl:26
+msgid "Login Time"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:150
+#. Context: <h1>{="Logins"}</h1>
+#. 
+#: www/system/templates/admin_settings.tpl:150
+msgid "Logins"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:8
+#. Context: <td class="rowodd" style="font-weight: bold">{$systeminfo.osbrief} {$systeminfo.osdetails}</td></tr>
+#.     <tr><td class="rowodd">{="Machine"}</td>					<td class="rowodd" style="font-weight: bold">{$systeminfo.machine}</td></tr>
+#. 
+#: www/system/templates/admin_about.tpl:8
+msgid "Machine"
+msgstr ""
+
+#. File www/system/templates/admin_utilities.tpl:38
+#. Context: <tr><td colspan="2"><br /></td></tr>
+#.     	<tr><td width="125">{="Database"}:</td>	<td><a href="/admin/db/" target="_blank">{="Manage database"}</a></td></tr>
+#.     	<tr><td></td>							<td><a href="#" onclick="optimize_database()">{="Optimize database"}</a></td></tr>
+#. 
+#: www/system/templates/admin_utilities.tpl:38
+msgid "Manage database"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:97
+#. Context: teserver}
+#.     			{="Accounts on %s",$remoteserver.title} [<a href="index.php?page={$accountsmodule}&action=manage&sid={$ssosid}">{="Manage server"}</a>]
+#.     		{else}
+#. 
+#: www/system/templates/admin_accounts.tpl:97
+msgid "Manage server"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_list.tpl:21
+#. Context: <th>{="Address"}</th>
+#.     	<th width="40" style="text-align: center">{="Master"}</th>
+#.     	<th width="40" style="text-align: center">{="Relay"}</th>
+#. 
+#. File www/system/templates/admin_rpchost_edit.tpl:33
+#. Context: <strong>{="Master"}</strong><br />
+#.     		{="If a server is configured with a master role, it will be used to host new streaming servers and their aut
+#. 
+#. File www/system/templates/admin_rpchost_edit.tpl:28
+#. Context: <td>
+#.     		<input type="checkbox" name="rpchost[ismaster]" value="1" {if $rpchost.ismaster}checked="checked" {/if}/> {="Master"} {$errors.ismaster|checkerror}
+#.     		<input type="checkbox" name="rpchost[isrelay]" value="1" {if $rpchost.isrelay}checked="checke
+#. 
+#: www/system/templates/admin_rpchost_list.tpl:21
+#: www/system/templates/admin_rpchost_edit.tpl:33
+#: www/system/templates/admin_rpchost_edit.tpl:28
+msgid "Master"
+msgstr ""
+
+#. File www/system/templates/configuration_reseller_limits.tpl:49
+#. Context: " name="config[diskquota]" size="8" maxlength="8" value="{$config.diskquota|htmlentities}" /> {$errors.diskquota|checkerror} {="MB (soft quota)"}</td>
+#.     	<td>
+#. 
+#: www/system/templates/configuration_reseller_limits.tpl:49
+msgid "MB (soft quota)"
+msgstr "MB (soft quota)"
+
+#. File www/system/templates/configuration_client_limits.tpl:169
+#. Context: ig[transferlimit]" size="8" maxlength="8" value="{$config.transferlimit|htmlentities}" /> {$errors.transferlimit|checkerror} {="MB/month"}&nbsp;</td>
+#.     </tr>
+#. 
+#. File www/system/templates/configuration_reseller_limits.tpl:61
+#. Context: ig[transferlimit]" size="8" maxlength="8" value="{$config.transferlimit|htmlentities}" /> {$errors.transferlimit|checkerror} {="MB/month"} {tip type="icon"}{="Specifies a monthly data transfer limit (in megabytes) for this reseller account.<br /><br />If you want
+#. 
+#. File www/system/templates/admin_settings.tpl:121
+#. Context: ferlimit]" size="10" maxlength="16" value="{$settings.serverxferlimit|htmlentities}" /> {$errors.serverxferlimit|checkerror} {="MB/month"}
+#.     		</td>
+#. 
+#. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:16
+#. Context: centovacast_account[transferlimit]" id="transferlimit" size="5" value="{$centovacast_account.transferlimit|htmlentities}" /> {="MB/month"} ({="blank to use template setting"})</td>
+#.     	</tr>
+#. 
+#: www/system/templates/configuration_client_limits.tpl:169
+#: www/system/templates/configuration_reseller_limits.tpl:61
+#: www/system/templates/admin_settings.tpl:121
+#: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:16
+msgid "MB/month"
+msgstr ""
+
+#. File www/system/templates/admin_serverstatus.tpl:19
+#. Context: <th width="55" style="text-align: center">{="Load"}</th>
+#.         <th width="65" style="text-align: right">{="Mem Used"}</th>
+#.         <th width="65" style="text-align: right">{="Swap"}</th>
+#. 
+#: www/system/templates/admin_serverstatus.tpl:19
+msgid "Mem Used"
+msgstr ""
+
+#. File www/system/templates/admin_emails.tpl:7
+#. Context: <th width="21" align="center"></td>
+#.     	<th>{="Message"}</th>
+#.     	<th>{="Subject"}</th>
+#. 
+#: www/system/templates/admin_emails.tpl:7
+msgid "Message"
+msgstr "Nachricht"
+
+#. File www/system/templates/admin_email.tpl:132
+#. Context: <tr valign="top">
+#.     	<td>{="Message HTML (optional)"}: {$errors.htmlmessage|checkerror}&nbsp;</td>
+#.     	<td><textarea name="email[htmlmessage]" id="html_message" rows="10" cols="50">{
+#. 
+#: www/system/templates/admin_email.tpl:132
+msgid "Message HTML (optional)"
+msgstr "HTML-Nachricht (optional)"
+
+#. File www/system/templates/admin_email.tpl:128
+#. Context: <tr valign="top">
+#.     	<td>{="Message text"}: {$errors.textmessage|checkerror}</td>
+#.     	<td><textarea name="email[textmessage]" id="text_message" rows="10" cols="50">{$email
+#. 
+#: www/system/templates/admin_email.tpl:128
+msgid "Message text"
+msgstr ""
+
+#. File www/system/templates/configuration_client_limits.tpl:202
+#. Context: ue="{$config.mountlimit|htmlentities}" {if $config.mountlimit==0}disabled="disabled" {/if}/> {$errors.mountlimit|checkerror} {="mount points"}&nbsp;</td>
+#.     </tr>
+#. 
+#: www/system/templates/configuration_client_limits.tpl:202
+msgid "mount points"
+msgstr ""
+
+#. File www/system/templates/admin_index.tpl:2
+#. Context: {if $news!=""}
+#.     {box title="News"}
+#.     	<div style="float: right"><a href="index.php?page=accounts&hidenews=1"><img src="../system/images/icons/playlist-cancel.png"
+#. 
+#: www/system/templates/admin_index.tpl:2
+msgid "News"
+msgstr ""
+
+#. File www/system/templates/admin_sessions.tpl:17
+#. Context: <td class="rowodd tdlast">
+#.     		{="No active sessions"}.
+#.     	</td>
+#. 
+#: www/system/templates/admin_sessions.tpl:17
+msgid "No active sessions"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_list.tpl:12
+#. Context: <td class="rowodd tdlast">
+#.     		{="No cluster servers have been configured."}
+#.     	</td>
+#. 
+#: www/system/templates/admin_rpchost_list.tpl:12
+msgid "No cluster servers have been configured."
+msgstr ""
+
+#. File www/system/templates/admin_region_edit.tpl:29
+#. Context: {if $hosts|count==0}
+#.     		{="No hosts assigned to this region."}
+#.     		<input type="hidden" name="region[targetid]" value="0" />
+#. 
+#: www/system/templates/admin_region_edit.tpl:29
+msgid "No hosts assigned to this region."
+msgstr ""
+
+#. File www/system/templates/admin_usage.tpl:4
+#. Context: {="Data transfer"}: <span style="font-weight: bold; white-space: nowrap">{if $usage.xferlimit<0}{="%s MB",$usage.usedxfer} ({="No limit specified"}){else}{="%s/%s MB",$usage.usedxfer,$usage.xferlimit}{/if}</span>
+#.     			{$usage.usedxfer|ccmeter:$usage.xferlimit}
+#. 
+#: www/system/templates/admin_usage.tpl:4
+msgid "No limit specified"
+msgstr ""
+
+#. File www/system/templates/admin_region_list.tpl:14
+#. Context: <td class="rowodd tdlast">
+#.     		{="No regions have been configured."}
+#.     	</td>
+#. 
+#: www/system/templates/admin_region_list.tpl:14
+msgid "No regions have been configured."
+msgstr ""
+
+#. File www/system/templates/admin_remoteserver_list.tpl:12
+#. Context: <td class="rowodd tdlast">
+#.     		{="No remote servers have been configured."}
+#.     	</td>
+#. 
+#: www/system/templates/admin_remoteserver_list.tpl:12
+msgid "No remote servers have been configured."
+msgstr ""
+
+#. File www/system/templates/admin_servertype_list.tpl:10
+#. Context: <td class="tdlast">
+#.     		{="No server types exist."}
+#.     	</td>
+#. 
+#: www/system/templates/admin_servertype_list.tpl:10
+msgid "No server types exist."
+msgstr ""
+
+#. File www/system/templates/admin_sourcetype_list.tpl:10
+#. Context: <td class="tdlast">
+#.     		{="No source types exist."}
+#.     	</td>
+#. 
+#: www/system/templates/admin_sourcetype_list.tpl:10
+msgid "No source types exist."
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:201
+#. Context: re-encode media to stream bit rate"}</option>
+#.     			<option value="0"{if $settings.defaultreencode==0} selected="selected"{/if}>{="No, disable re-encoding (if supported by source)"}</option>
+#.     			</select>
+#. 
+#: www/system/templates/admin_settings.tpl:201
+msgid "No, disable re-encoding (if supported by source)"
+msgstr "Nein, deaktiviere das rekodieren (Wenn die Quelle dies unterst&uuml;tzt)"
+
+#. File www/system/templates/admin_rpchost_form.tpl:6
+#. Context: you must first install it on the server.  After installing it, you need to enter its path and filename here."}<br /><br />
+#.     	{="Note that if you are using Centova Cast on multiple clustered hosts, the server or autoDJ application must be installed on the REMOTE host, and the pathname you enter here needs to specify the path to the application on the REMOTE host (not the main web interface server)."}
+#.     	</p>
+#. 
+#: www/system/templates/admin_rpchost_form.tpl:6
+msgid "Note that if you are using Centova Cast on multiple clustered hosts, the server or autoDJ application must be installed on the REMOTE host, and the pathname you enter here needs to specify the path to the application on the REMOTE host (not the main web interface server)."
+msgstr ""
+
+#. File www/system/templates/admin_license_test.tpl:10
+#. Context: <span class="info">{="Note: if you host your Centova Cast web interface on a different server than your actual streams, this error may not actually represent a problem.  This licensing test is being performed from your web interface server, but only your stream hosting server(s) need to be able to contact the licensing servers for validation."}</span>
+#.     {/if}
+#. 
+#: www/system/templates/admin_license_test.tpl:10
+msgid "Note: if you host your Centova Cast web interface on a different server than your actual streams, this error may not actually represent a problem.  This licensing test is being performed from your web interface server, but only your stream hosting server(s) need to be able to contact the licensing servers for validation."
+msgstr ""
+
+#. File www/system/templates/admin_servertype_edit.tpl:23
+#. Arguments: $servertype.name
+#. Context: </tr>
+#.     <tr><td></td><td class="note">{="Note: this must specify the full path and filename to the %s server software on your server.  If you have not yet installed the software, you will need to do so before configuring this option.",$servertype.name}</td></tr>
+#.     <tr>
+#. 
+#: www/system/templates/admin_servertype_edit.tpl:23
+msgid "Note: this must specify the full path and filename to the %s server software on your server.  If you have not yet installed the software, you will need to do so before configuring this option."
+msgstr ""
+
+#. File www/system/templates/admin_sourcetype_edit.tpl:23
+#. Arguments: $sourcetype.name
+#. Context: </tr>
+#.     <tr><td></td><td class="note">{="Note: this must specify the full path and filename to the %s source software on your source.  If you have not yet installed the software, you will need to do so before configuring this option.",$sourcetype.name}</td></tr>
+#.     <tr>
+#. 
+#: www/system/templates/admin_sourcetype_edit.tpl:23
+msgid "Note: this must specify the full path and filename to the %s source software on your source.  If you have not yet installed the software, you will need to do so before configuring this option."
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:44
+#. Context: <tr>
+#.     		<td>{="Notification E-mail address"}:&nbsp;</td>
+#.     		<td>
+#. 
+#: www/system/templates/admin_settings.tpl:44
+msgid "Notification E-mail address"
+msgstr "Benachrichtigungs-E-Mail Adresse"
+
+#. File www/system/templates/admin_settings.tpl:132
+#. Context: <tr>
+#.     		<td width="220">{="Notify clients via E-mail when"}:</td>
+#.     		<td>
+#. 
+#. File www/system/templates/admin_settings.tpl:95
+#. Context: <tr>
+#.     		<td width="220">{="Notify clients via E-mail when"}:</td>
+#.     		<td>
+#. 
+#: www/system/templates/admin_settings.tpl:132
+#: www/system/templates/admin_settings.tpl:95
+msgid "Notify clients via E-mail when"
+msgstr "Benachrichtige Kunde per E-Mail wenn"
+
+#. File www/system/templates/admin_settings.tpl:97
+#. Context: tings[xferwarning]" size="3" maxlength="2" value="{$settings.xferwarning|htmlentities}" />% {$errors.xferwarning|checkerror} {="of data transfer limit is reached"}
+#.     		</td>
+#. 
+#: www/system/templates/admin_settings.tpl:97
+msgid "of data transfer limit is reached"
+msgstr "des Transferlimits wurde erreicht"
+
+#. File www/system/templates/admin_settings.tpl:134
+#. Context: gs[quotawarning]" size="3" maxlength="2" value="{$settings.quotawarning|htmlentities}" />% {$errors.quotawarning|checkerror} {="of disk quota is used"}
+#.     		</td>
+#. 
+#: www/system/templates/admin_settings.tpl:134
+msgid "of disk quota is used"
+msgstr "des Festplattenplatzes wird genutzt"
+
+#. File www/admin/modules/class_Module_about.php:69
+#. 
+#: www/admin/modules/class_Module_about.php:69
+msgid "Off"
+msgstr ""
+
+#. File www/admin/modules/class_Module_about.php:70
+#. 
+#: www/admin/modules/class_Module_about.php:70
+msgid "On"
+msgstr ""
+
+#. File www/system/templates/admin_utilities.tpl:41
+#. Context: ="Troubleshooting"}:</td>		<td><a href="?page=utilities&op=output" target="ccoutputlog" onclick="return diagnostic_window()">{="Open diagnostic window"}</a></td></tr>
+#.     	</table>
+#. 
+#: www/system/templates/admin_utilities.tpl:41
+msgid "Open diagnostic window"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:7
+#. Context: lass="roweven">{="Hostname"}</td>	<td class="roweven" style="font-weight: bold">{$hostname}</td></tr>
+#.     <tr><td class="rowodd">{="Operating system"}</td>			<td class="rowodd" style="font-weight: bold">{$systeminfo.osbrief} {$systeminfo.osdetails}</td></tr>
+#.     <tr><td class="ro
+#. 
+#: www/system/templates/admin_about.tpl:7
+msgid "Operating system"
+msgstr ""
+
+#. File www/system/templates/admin_utilities.tpl:39
+#. Context: n/db/" target="_blank">{="Manage database"}</a></td></tr>
+#.     	<tr><td></td>							<td><a href="#" onclick="optimize_database()">{="Optimize database"}</a></td></tr>
+#.     	<tr><td colspan="2"><br /></td></tr>
+#. 
+#: www/system/templates/admin_utilities.tpl:39
+msgid "Optimize database"
+msgstr ""
+
+#. File www/system/templates/admin_utilities.tpl:14
+#. Context: var progress_handler = new ProgressWindow($.extend({},window.lang.progressive,{
+#.     		title: "{="Optimizing Database"}",
+#.     		subtitle: "{="Please wait"}"
+#. 
+#: www/system/templates/admin_utilities.tpl:14
+msgid "Optimizing Database"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:15
+#. Context: td>
+#.     		<td><input type="text" name="rpchost[hostname]" size="32" maxlength="255" value="{$rpchost.hostname|htmlentities}" /> ({="optional"})</td>
+#.     	</tr>
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:15
+msgid "optional"
+msgstr ""
+
+#. File www/system/templates/admin_serverstatus.tpl:16
+#. Context: <th>{="Server"}</th>
+#.         <th>{="OS"}</th>
+#.         <th width="55" style="text-align: center">{="Uptime"}</th>
+#. 
+#: www/system/templates/admin_serverstatus.tpl:16
+msgid "OS"
+msgstr ""
+
+#. File www/system/templates/admin_smtp_test.tpl:5
+#. Context: {if $testresult}
+#.     <span style="font-weight: bold; color: #009900">{="PASSED"}</span> - {="Centova Cast appears to be able to send E-mails.  A test message has been sent."}
+#.     {else}
+#. 
+#. File www/system/templates/admin_license_test.tpl:6
+#. Context: {if $testresult}
+#.     <span style="font-weight: bold; color: #009900">{="PASSED"}</span> - {="Centova Cast can successfully communicate with the Centova Technologies license servers."}
+#.     {else}
+#. 
+#. File www/system/templates/admin_ads_test.tpl:7
+#. Context: {if $success}
+#.     <span style="font-weight: bold; color: #009900">{="PASSED"}</span>
+#.     {else}
+#. 
+#: www/system/templates/admin_smtp_test.tpl:5
+#: www/system/templates/admin_license_test.tpl:6
+#: www/system/templates/admin_ads_test.tpl:7
+msgid "PASSED"
+msgstr ""
+
+#. File www/system/templates/admin_sourcetype_edit.tpl:18
+#. Context: <tr>
+#.     	<td>{="Pathname"}: {$errors.pathname|checkerror}</td>
+#.     	<td>
+#. 
+#. File www/system/templates/admin_servertype_edit.tpl:18
+#. Context: <tr>
+#.     	<td>{="Pathname"}: {$errors.pathname|checkerror}</td>
+#.     	<td>
+#. 
+#. File www/system/templates/admin_rpchost_form.tpl:2
+#. Context: <div class="ctip" id="tip_pathname">
+#.     	<h1>{="Pathname"}</h1>
+#. 
+#: www/system/templates/admin_sourcetype_edit.tpl:18
+#: www/system/templates/admin_servertype_edit.tpl:18
+#: www/system/templates/admin_rpchost_form.tpl:2
+msgid "Pathname"
+msgstr ""
+
+#. File www/system/templates/configuration_client_limits.tpl:224
+#. Context: ected="selected"{/check}>{="Prohibited"}</option>
+#.     		<option value="1"{check $config.rawconfig>0} selected="selected"{/check}>{="Permitted"}</option>
+#.     		</select>
+#. 
+#. File www/system/templates/configuration_client_limits.tpl:238
+#. Context: cted="selected"{/check}>{="Prohibited"}</option>
+#.     		<option value="1"{check $config.allowproxy>0} selected="selected"{/check}>{="Permitted"}</option>
+#.     		</select>
+#. 
+#. File www/system/templates/configuration_reseller_limits.tpl:100
+#. Context: <select name="config[allowproxy]" size="1">
+#.     		<option value="1"{if $config.allowproxy==1} selected="selected"{/if}>{="Permitted"}</option>
+#.     		<option value="0"{if $config.allowproxy==0} selected="selected"{/if}>{="Prohibited"}</option>
+#. 
+#. File www/system/templates/configuration_reseller_limits.tpl:90
+#. Context: cted="selected"{/check}>{="Prohibited"}</option>
+#.     		<option value="1"{check $config.rawconfig>0} selected="selected"{/check}>{="Permitted"}</option>
+#.     		</select>
+#. 
+#. File www/system/templates/configuration_reseller_limits.tpl:76
+#. Context: <select name="config[usesource]" size="1">
+#.     		<option value="1"{if $config.usesource==1} selected="selected"{/if}>{="Permitted"}</option>
+#.     		<option value="0"{if $config.usesource==0} selected="selected"{/if}>{="Prohibited (streams MUST use an offsite so
+#. 
+#. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:40
+#. Context: {/if}>{="Use template setting"}</option>
+#.     			<option value="1"{if $centovacast_account.allowproxy>0} selected="selected"{/if}>{="Permitted"}</option>
+#.     			<option value="0"{if $centovacast_account.allowproxy==0} selected="selected"{/if}>{="Not permitted"}</option>
+#. 
+#: www/system/templates/configuration_client_limits.tpl:224
+#: www/system/templates/configuration_client_limits.tpl:238
+#: www/system/templates/configuration_reseller_limits.tpl:100
+#: www/system/templates/configuration_reseller_limits.tpl:90
+#: www/system/templates/configuration_reseller_limits.tpl:76
+#: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:40
+msgid "Permitted"
+msgstr "Erlaubt"
+
+#. File www/system/templates/admin_license_test.tpl:21
+#. Arguments: "<a target='_blank' href='http://www.centova.com/pages/faqs/display/unable_to_contact_licensing_58'>","</a>"
+#. Context: {if $testresult==0}
+#.     {="Please refer to the %slicensing server connectivity article%s in the Centova Cast knowledge base for assistance in diagnosing this problem.","<a target='_blank' href='http://www.centova.com/pages/faqs/display/unable_to_contact_licensing_58'>","</a>"}<br /><br />
+#.     {/if
+#. 
+#: www/system/templates/admin_license_test.tpl:21
+msgid "Please refer to the %slicensing server connectivity article%s in the Centova Cast knowledge base for assistance in diagnosing this problem."
+msgstr ""
+
+#. File www/system/templates/admin_smtp_test.tpl:20
+#. Arguments: "<a target='_blank' href='http://www.centova.com/pages/faqs/display/centova_cast_is_not_sending_112'>","</a>"
+#. Context: {if $testresult==0}
+#.     {="Please refer to the %sNotification E-mails article section%s in the Centova Cast knowledge base for assistance with setting up an SMTP server to resolve this problem.","<a target='_blank' href='http://www.centova.com/pages/faqs/display/centova_cast_is_not_sending_112'>","</a>"}<br /><br />
+#.     {/i
+#. 
+#: www/system/templates/admin_smtp_test.tpl:20
+msgid "Please refer to the %sNotification E-mails article section%s in the Centova Cast knowledge base for assistance with setting up an SMTP server to resolve this problem."
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:25
+#. Context: multiple_accounts_summary: '{="Processed %d accounts, %d successful, %d errors"}',
+#.     	select_an_account: '{="Please select at least one account first"}.',
+#.     	processing_account: '{="Processing account %s ..."}',
+#. 
+#: www/system/templates/admin_accounts.tpl:25
+msgid "Please select at least one account first"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_sourcetypes.tpl:1
+#. Context: {="Please select the autoDJ streaming source software which you have installed on this cluster server:"}<br /><br />
+#. 
+#: www/system/templates/admin_rpchost_sourcetypes.tpl:1
+msgid "Please select the autoDJ streaming source software which you have installed on this cluster server:"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_servertypes.tpl:1
+#. Context: {="Please select the streaming server software which you have installed on this cluster server:"}<br /><br />
+#. 
+#: www/system/templates/admin_rpchost_servertypes.tpl:1
+msgid "Please select the streaming server software which you have installed on this cluster server:"
+msgstr ""
+
+#. File www/admin/rpc/class_RPCserverstatus.php:11
+#. Arguments: $server['title']
+#. 
+#. File www/admin/rpc/class_RPCremoteservers.php:10
+#. Arguments: $server['title']
+#. 
+#: www/admin/rpc/class_RPCserverstatus.php:11
+#: www/admin/rpc/class_RPCremoteservers.php:10
+msgid "Polling %s"
+msgstr "Rufe %s ab"
+
+#. File www/system/templates/admin_rpchost_edit.tpl:52
+#. Context: <tr>
+#.     	<td>{="Port 80 proxy IP address"}: {$errors.proxyipaddress|checkerror}</td>
+#.     	<td>
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:52
+msgid "Port 80 proxy IP address"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:174
+#. Context: <tr>
+#.     		<td width="220">{="Port range for new servers"}:</td>
+#.     		<td>
+#. 
+#: www/system/templates/admin_settings.tpl:174
+msgid "Port range for new servers"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:24
+#. Context: },
+#.     	multiple_accounts_summary: '{="Processed %d accounts, %d successful, %d errors"}',
+#.     	select_an_account: '{="Please select at least one account first"}.',
+#. 
+#: www/system/templates/admin_accounts.tpl:24
+msgid "Processed %d accounts, %d successful, %d errors"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:26
+#. Context: select_an_account: '{="Please select at least one account first"}.',
+#.     	processing_account: '{="Processing account %s ..."}',
+#.     	processing_complete: '{="Complete"}',
+#. 
+#: www/system/templates/admin_accounts.tpl:26
+msgid "Processing account %s ..."
+msgstr ""
+
+#. File www/system/templates/configuration_reseller_limits.tpl:77
+#. Context: ==1} selected="selected"{/if}>{="Permitted"}</option>
+#.     		<option value="0"{if $config.usesource==0} selected="selected"{/if}>{="Prohibited (streams MUST use an offsite source)"}</option>
+#.     		</select>
+#. 
+#: www/system/templates/configuration_reseller_limits.tpl:77
+msgid "Prohibited (streams MUST use an offsite source)"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:250
+#. Context: <tr>
+#.     			<td>{="Provide stream directory"}:&nbsp;</td>
+#.     			<td>
+#. 
+#: www/system/templates/admin_settings.tpl:250
+msgid "Provide stream directory"
+msgstr ""
+
+#. File www/system/templates/admin_region_edit.tpl:13
+#. Context: <tr>
+#.     	<td>{="Provision to"}:</td>
+#.     	<td>
+#. 
+#: www/system/templates/admin_region_edit.tpl:13
+msgid "Provision to"
+msgstr ""
+
+#. File www/system/templates/admin_utilities.tpl:52
+#. Context: {box title="Experimental Features"}
+#.     	<a href="?page=regions">{="Region management"}</a><br />
+#.     {/box}
+#. 
+#: www/system/templates/admin_utilities.tpl:52
+msgid "Region management"
+msgstr ""
+
+#. File www/admin/modules/class_Module_regions.php:18
+#. 
+#: www/admin/modules/class_Module_regions.php:18
+msgid "Region Manager"
+msgstr ""
+
+#. File www/system/templates/admin_region_edit.tpl:7
+#. Context: <tr>
+#.     	<td>{="Region name"}: {$errors.name|checkerror}</td>
+#.     	<td>
+#. 
+#: www/system/templates/admin_region_edit.tpl:7
+msgid "Region name"
+msgstr ""
+
+#. File www/system/templates/admin_region_edit.tpl:3
+#. Context: <tr>
+#.     	<td width="140">{="Region title"}: {$errors.title|checkerror}</td>
+#.     	<td><input type="text" name="region[title]" size="50" maxlength="255" value="{$region.title
+#. 
+#: www/system/templates/admin_region_edit.tpl:3
+msgid "Region title"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_list.tpl:22
+#. Context: <th width="40" style="text-align: center">{="Master"}</th>
+#.     	<th width="40" style="text-align: center">{="Relay"}</th>
+#.     	<th width="50">&nbsp;</th>
+#. 
+#. File www/system/templates/admin_rpchost_edit.tpl:36
+#. Context: <strong>{="Relay"}</strong><br />
+#.     		{="If a server is configured with a relay role, it will be used to relay streams hosted on other servers in
+#. 
+#. File www/system/templates/admin_rpchost_edit.tpl:29
+#. Context: master|checkerror}
+#.     		<input type="checkbox" name="rpchost[isrelay]" value="1" {if $rpchost.isrelay}checked="checked" {/if}/> {="Relay"} {$errors.isrelay|checkerror}
+#.     		{tip type="icon" title="Host role"}
+#. 
+#: www/system/templates/admin_rpchost_list.tpl:22
+#: www/system/templates/admin_rpchost_edit.tpl:36
+#: www/system/templates/admin_rpchost_edit.tpl:29
+msgid "Relay"
+msgstr ""
+
+#. File www/system/templates/admin_remoteserver_edit.tpl:10
+#. Context: {box title="Remote Server"}
+#.     <table cellspacing="1" cellpadding="1" border="0">
+#. 
+#: www/system/templates/admin_remoteserver_edit.tpl:10
+msgid "Remote Server"
+msgstr ""
+
+#. File www/system/templates/admin_remoteserver_list.tpl:5
+#. Context: </div>
+#.     <img src="../system/images/icons/remoteserver.png" align="absmiddle" /> {="Remote servers"}:<br />
+#. 
+#. File www/system/templates/admin_accounts_loadremote.tpl:35
+#. Context: <img src="../system/images/icons/remoteserver.png" align="absmiddle" /> 
+#.             {="Remote servers"}:<br />
+#.         </div>
+#. 
+#: www/system/templates/admin_remoteserver_list.tpl:5
+#: www/system/templates/admin_accounts_loadremote.tpl:35
+msgid "Remote servers"
+msgstr "Entfernte Server"
+
+#. File www/admin/modules/class_Module_remoteservers.php:17
+#. 
+#: www/admin/modules/class_Module_remoteservers.php:17
+msgid "Remote Servers"
+msgstr ""
+
+#. File www/admin/modules/class_Module_manageaccount.php:23
+#. Arguments: strip_tags($_REQUEST['username'])
+#. 
+#: www/admin/modules/class_Module_manageaccount.php:23
+msgid "Reparent account %s"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_list.tpl:54
+#. Context: {check $account.reseller>0}		<td></td>
+#.     		<td colspan="3" style="color: #909090; text-align: center">{="Reseller account"}</td>
+#.     {otherwise}		<td>{$account.title}</td>
+#. 
+#. File www/system/templates/admin_accounts_javascript.tpl:51
+#. Context: <div id="rowovertab_isreseller">{="Reseller account"}.</div>
+#. 
+#: www/system/templates/admin_accounts_list.tpl:54
+#: www/system/templates/admin_accounts_javascript.tpl:51
+msgid "Reseller account"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:73
+#. Context: <div id="resellerdeletedialog" style="display: none">
+#.     	<h1>{="Reseller Deletion"}</h1>
+#.     	<form>
+#. 
+#: www/system/templates/admin_accounts.tpl:73
+msgid "Reseller Deletion"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:26
+#. Context: <tr>
+#.     	<td>{="Role"}:</td>
+#.     	<td>
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:26
+msgid "Role"
+msgstr ""
+
+#. File www/system/templates/admin_emails.tpl:1
+#. Context: <img src="../system/images/icons/editemails.png" align="absmiddle" /> {="Select a message"}:<br />
+#. 
+#: www/system/templates/admin_emails.tpl:1
+msgid "Select a message"
+msgstr "W&auml;hlen Sie eine Nachricht"
+
+#. File www/system/templates/admin_servertype_edit.tpl:8
+#. Context: {box title="Server Configuration"}
+#. 
+#: www/system/templates/admin_servertype_edit.tpl:8
+msgid "Server Configuration"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_list.tpl:25
+#. Arguments: $servererror
+#. Context: <td class="rowodd tdlast">
+#.     			{if $servererror}{="Server error: %s",$servererror}{else}{="No items have been created"}.{/if}
+#.     		</td>
+#. 
+#: www/system/templates/admin_accounts_list.tpl:25
+msgid "Server error: %s"
+msgstr ""
+
+#. File www/admin/modules/class_Module_settings.php:8
+#. 
+#: www/admin/modules/class_Module_settings.php:8
+msgid "Server Settings"
+msgstr ""
+
+#. File www/admin/modules/class_Module_servertypes.php:17
+#. 
+#. File www/admin/modules/class_Module_rpchosts.php:45
+#. 
+#: www/admin/modules/class_Module_servertypes.php:17
+#: www/admin/modules/class_Module_rpchosts.php:45
+msgid "Server Software"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:3
+#. Context: <tr>
+#.     	<td width="140">{="Server title"}: {$errors.title|checkerror}</td>
+#.     	<td><input type="text" name="rpchost[title]" size="50" maxlength="255" value="{$rpchost.tit
+#. 
+#. File www/system/templates/admin_remoteserver_edit.tpl:13
+#. Context: <tr>
+#.     	<td>{="Server title"}: {$errors.title|checkerror}</td>
+#.     	<td><input type="text" name="remoteserver[title]" size="50" maxlength="255" value="{$remote
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:3
+#: www/system/templates/admin_remoteserver_edit.tpl:13
+msgid "Server title"
+msgstr "Server Titel"
+
+#. File www/admin/modules/class_Module_accountstats.php:13
+#. 
+#: www/admin/modules/class_Module_accountstats.php:13
+msgid "Server-wide Totals"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:28
+#. Context: {check $successful}
+#.     {box title="Update Successful"}{="Settings updated successfully."}{/box}<br />
+#.     {otherwisecheck $failure}
+#. 
+#: www/system/templates/admin_settings.tpl:28
+msgid "Settings updated successfully."
+msgstr "Einstellungen erfogreich aktualisiert."
+
+#. File www/system/templates/admin_settings.tpl:141
+#. Context: e="settings[quotaexceed]" size="1">
+#.     			<option value="suspend"{if $settings.quotaexceed=="suspend"} selected="selected"{/if}>{="Shutdown streaming server and suspend account"}</option>
+#.     			<option value="none"{if $settings.quotaexceed=="none"} selected="selected"{/if}>{="Take no action"}</option>
+#. 
+#. File www/system/templates/admin_settings.tpl:104
+#. Context: ame="settings[xferexceed]" size="1">
+#.     			<option value="suspend"{if $settings.xferexceed=="suspend"} selected="selected"{/if}>{="Shutdown streaming server and suspend account"}</option>
+#.     			<option value="none"{if $settings.xferexceed=="none"} selected="selected"{/if}>{="Take no action"}</option>
+#. 
+#: www/system/templates/admin_settings.tpl:141
+#: www/system/templates/admin_settings.tpl:104
+msgid "Shutdown streaming server and suspend account"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:40
+#. Context: <tr>
+#.     		<td width="150">{="Site name"}:</td>
+#.     		<td><input type="text" name="settings[sitename]" size="50" maxlength="255" value="{$settings.sitename|htmlentities}"
+#. 
+#: www/system/templates/admin_settings.tpl:40
+msgid "Site name"
+msgstr ""
+
+#. File www/system/templates/configuration_client_limits.tpl:147
+#. Context: lentities}" onchange="{check $resellerlimits.maxbandwidth>0}update_bandwidth(this);{otherwise}check_limits(this){/check}" /> {="slots"} {$errors.maxclients|checkerror}</td>
+#.     </tr>
+#. 
+#: www/system/templates/configuration_client_limits.tpl:147
+msgid "slots"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:81
+#. Context: <tr>
+#.     		<td>{="SMTP password"}:</td>
+#.     		<td><input type="password" name="settings[smtppass]" value="{$settings.smtppass}" size="15" maxlength="128" /></td>
+#. 
+#: www/system/templates/admin_settings.tpl:81
+msgid "SMTP password"
+msgstr "SMTP Passwort"
+
+#. File www/system/templates/admin_settings.tpl:73
+#. Context: <tr>
+#.     		<td>{="SMTP port"}:</td>
+#.     		<td><input type="text" name="settings[smtpport]" value="{$settings.smtpport}" size="6" maxlength="5" /></td>
+#. 
+#: www/system/templates/admin_settings.tpl:73
+msgid "SMTP port"
+msgstr "SMTP Port"
+
+#. File www/system/templates/admin_settings.tpl:69
+#. Context: <tr>
+#.     		<td width="220">{="SMTP server"}:</td>
+#.     		<td><input type="text" name="settings[smtphost]" value="{$settings.smtphost}" size="30" maxlength="128" /></td>
+#. 
+#: www/system/templates/admin_settings.tpl:69
+msgid "SMTP server"
+msgstr "SMTP Server"
+
+#. File www/system/templates/admin_settings.tpl:77
+#. Context: <tr>
+#.     		<td>{="SMTP username"}:</td>
+#.     		<td><input type="text" name="settings[smtpuser]" value="{$settings.smtpuser}" size="15" maxlength="128" /></td>
+#. 
+#: www/system/templates/admin_settings.tpl:77
+msgid "SMTP username"
+msgstr ""
+
+#. File www/admin/modules/class_Module_sourcetypes.php:16
+#. 
+#. File www/admin/modules/class_Module_servertypes.php:16
+#. 
+#: www/admin/modules/class_Module_sourcetypes.php:16
+#: www/admin/modules/class_Module_servertypes.php:16
+msgid "Software Management"
+msgstr ""
+
+#. File www/system/templates/admin_sourcetype_edit.tpl:8
+#. Context: {box title="Source Configuration"}
+#. 
+#: www/system/templates/admin_sourcetype_edit.tpl:8
+msgid "Source Configuration"
+msgstr ""
+
+#. File www/admin/modules/class_Module_sourcetypes.php:17
+#. 
+#: www/admin/modules/class_Module_sourcetypes.php:17
+msgid "Source Software"
+msgstr ""
+
+#. File www/system/templates/admin_region_edit.tpl:21
+#. Context: with lowest actual disk usage"}</option>
+#.     		<option {if $region.target=="serverid"}selected="selected" {/if}value="serverid">{="Specific server"}</option>
+#.     		</select>
+#. 
+#: www/system/templates/admin_region_edit.tpl:21
+msgid "Specific server"
+msgstr ""
+
+#. File www/system/templates/admin_region_edit.tpl:4
+#. Context: td><input type="text" name="region[title]" size="50" maxlength="255" value="{$region.title|htmlentities}" />{tip type="icon"}{="Specifies a descriptive title for this region.  Examples might include 'Europe West' or 'Vancouver'."}{/tip}</td>
+#.     </tr>
+#. 
+#: www/system/templates/admin_region_edit.tpl:4
+msgid "Specifies a descriptive title for this region.  Examples might include 'Europe West' or 'Vancouver'."
+msgstr ""
+
+#. File www/system/templates/configuration_reseller_limits.tpl:61
+#. Context: length="8" value="{$config.transferlimit|htmlentities}" /> {$errors.transferlimit|checkerror} {="MB/month"} {tip type="icon"}{="Specifies a monthly data transfer limit (in megabytes) for this reseller account.<br /><br />If you want to limit traffic based on bandwidth (in Kbps) instead, use the 'Bandwidth limit' option below."}{/tip}</td>
+#.     	<td><input type="checkbox" id="noxferlimit" name="config[noxferlimit]" value="1" {compare $config.noxferlimit,0,
+#. 
+#: www/system/templates/configuration_reseller_limits.tpl:61
+msgid "Specifies a monthly data transfer limit (in megabytes) for this reseller account.<br /><br />If you want to limit traffic based on bandwidth (in Kbps) instead, use the 'Bandwidth limit' option below."
+msgstr ""
+
+#. File www/system/templates/configuration_client_limits.tpl:186
+#. Context: length="8" value="{$config.diskquota|htmlentities}" /> {$errors.diskquota|checkerror} {="%s MB",""}&nbsp;
+#.     		{tip type="icon"}{="Specifies the amount of disk space allocated to this client.  Note that this includes any media uploaded for the autoDJ as well as any logs, configuration files, and so-on for this account."}{/tip}
+#.     	</td>
+#. 
+#: www/system/templates/configuration_client_limits.tpl:186
+msgid "Specifies the amount of disk space allocated to this client.  Note that this includes any media uploaded for the autoDJ as well as any logs, configuration files, and so-on for this account."
+msgstr ""
+
+#. File www/system/templates/configuration_reseller_limits.tpl:40
+#. Context: ze="5" maxlength="5" value="{$config.maxbitrate|htmlentities}" /> {$errors.maxbitrate|checkerror} {="Kbps"} {tip type="icon"}{="Specifies the maximum bit rate that this reseller can assign to each client account.  (Note that this is a per-client limit, not a combined total.)"}{/tip}</td>
+#.     </tr>
+#. 
+#: www/system/templates/configuration_reseller_limits.tpl:40
+msgid "Specifies the maximum bit rate that this reseller can assign to each client account.  (Note that this is a per-client limit, not a combined total.)"
+msgstr ""
+
+#. File www/system/templates/configuration_reseller_limits.tpl:44
+#. Context: " size="5" maxlength="5" value="{$config.resellerusers|htmlentities}" /> {$errors.resellerusers|checkerror} {tip type="icon"}{="Specifies the maximum number of client accounts (i.e., streaming servers) the reseller can create."}{/tip}</td>
+#.     	<td><input type="checkbox" id="nouserlimit" name="config[nouserlimit]" value="1" {compare $config.resellerusers,
+#. 
+#: www/system/templates/configuration_reseller_limits.tpl:44
+msgid "Specifies the maximum number of client accounts (i.e., streaming servers) the reseller can create."
+msgstr ""
+
+#. File www/system/templates/configuration_reseller_limits.tpl:66
+#. Context: th="7" value="{$config.resellerbandwidth|htmlentities}" /> {="Kbps"} {$errors.resellerbandwidth|checkerror} {tip type="icon"}{="Specifies the total amount of bandwidth (in Kbps -- NOT data transfer) which this reseller can allocate.  This is an alternative to specifying a data transfer limit.<br /><br />For example, 10 listener slots at 128Kbps would use 1280Kbps of bandwidth (10 x 128 = 1280).  5 slots at 128Kbps and 8 slots at 64Kbps would use<br />1152Kbps of bandwidth (5 x 128 + 8 x 64 = 1152).<br /><br />If you do not fully understand this feature, leave it set to 'Unlimited' and assign limits for the values above instead."}{/tip}</td>
+#. 
+#: www/system/templates/configuration_reseller_limits.tpl:66
+msgid "Specifies the total amount of bandwidth (in Kbps -- NOT data transfer) which this reseller can allocate.  This is an alternative to specifying a data transfer limit.<br /><br />For example, 10 listener slots at 128Kbps would use 1280Kbps of bandwidth (10 x 128 = 1280).  5 slots at 128Kbps and 8 slots at 64Kbps would use<br />1152Kbps of bandwidth (5 x 128 + 8 x 64 = 1152).<br /><br />If you do not fully understand this feature, leave it set to 'Unlimited' and assign limits for the values above instead."
+msgstr ""
+
+#. File www/system/templates/configuration_reseller_limits.tpl:56
+#. Context: ients]" size="5" maxlength="5" value="{$config.maxclients|htmlentities}" /> {$errors.maxclients|checkerror} {tip type="icon"}{="Specifies the total number of potential listeners this reseller can host. This is a combined total limit for all client accounts created by this reseller."}{/tip}</td>
+#.     	<td><input type="checkbox" id="noclientlimit" name="config[noclientlimit]" value="1" {compare $config.maxclients
+#. 
+#: www/system/templates/configuration_reseller_limits.tpl:56
+msgid "Specifies the total number of potential listeners this reseller can host. This is a combined total limit for all client accounts created by this reseller."
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:114
+#. Context: utton" class="multiple_account_button" onclick="MAADCallbacks.magic_wonder_button(this)" />{/if}
+#.     <input type="button" value="{="Start selected"}" id="start_selected" class="multiple_account_button" />
+#.     <input type="button" value="{="Stop selected"}" id="stop_selected" cl
+#. 
+#: www/system/templates/admin_accounts.tpl:114
+msgid "Start selected"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:15
+#. Context: 'start_selected_title': '{="Start Streams"}',
+#.     		'start_selected_subtitle': '{="Starting streams ..."}',
+#. 
+#: www/system/templates/admin_accounts.tpl:15
+msgid "Start Streams"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:17
+#. Context: 'start_selected_subtitle': '{="Starting streams ..."}',
+#.     		'start_selected_confirm': '{="Start the %s selected stream(s) now?"}',
+#. 
+#: www/system/templates/admin_accounts.tpl:17
+msgid "Start the %s selected stream(s) now?"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:19
+#. Arguments: $settings.lastcjstart,$settings.lastcjcomplete
+#. Context: steminfo.cpuload}</td></tr>
+#.     <tr><td class="roweven">{="Last cron job"}</td>				<td class="roweven" style="font-weight: bold">{="Started %s, completed %s",$settings.lastcjstart,$settings.lastcjcomplete}</td></tr>
+#.     <tr><td class="rowodd">{="Total accounts"}</td>				<td class="rowodd
+#. 
+#: www/system/templates/admin_about.tpl:19
+msgid "Started %s, completed %s"
+msgstr "Begonnen %s, abgeschlossen %s"
+
+#. File www/system/templates/admin_accounts.tpl:16
+#. Context: 'start_selected_title': '{="Start Streams"}',
+#.     		'start_selected_subtitle': '{="Starting streams ..."}',
+#.     		'start_selected_confirm': '{="Start the %s selected stream(s) now?"}',
+#. 
+#: www/system/templates/admin_accounts.tpl:16
+msgid "Starting streams ..."
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:115
+#. Context: type="button" value="{="Start selected"}" id="start_selected" class="multiple_account_button" />
+#.     <input type="button" value="{="Stop selected"}" id="stop_selected" class="multiple_account_button" />
+#. 
+#: www/system/templates/admin_accounts.tpl:115
+msgid "Stop selected"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:19
+#. Context: 'stop_selected_title': '{="Stop Streams"}',
+#.     		'stop_selected_subtitle': '{="Stopping streams ..."}',
+#. 
+#: www/system/templates/admin_accounts.tpl:19
+msgid "Stop Streams"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:20
+#. Context: 'stop_selected_title': '{="Stop Streams"}',
+#.     		'stop_selected_subtitle': '{="Stopping streams ..."}',
+#.     		'stop_selected_confirm': '{="Are you sure you want to stop the %s selected stream(s)?"}'
+#. 
+#: www/system/templates/admin_accounts.tpl:20
+msgid "Stopping streams ..."
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:31
+#. Context: account_is_suspended: '{="Account is suspended"}.',
+#.     	stream_is_offline: '{="Stream is offline"}.'
+#.     {/language}
+#. 
+#: www/system/templates/admin_accounts.tpl:31
+msgid "Stream is offline"
+msgstr ""
+
+#. File www/admin/modules/class_Module_servertypes.php:17
+#. 
+#: www/admin/modules/class_Module_servertypes.php:17
+msgid "Streaming server management"
+msgstr ""
+
+#. File www/system/templates/admin_emails.tpl:8
+#. Context: <th>{="Message"}</th>
+#.     	<th>{="Subject"}</th>
+#.     	<th width="50">&nbsp;</th>
+#. 
+#. File www/system/templates/admin_email.tpl:124
+#. Context: <tr>
+#.     	<td>{="Subject"}: {$errors.subject|checkerror}</td>
+#.     	<td><input type="text" name="email[subject]" size="50" maxlength="255" value="{$email.sub
+#. 
+#. File www/system/templates/admin_email.tpl:99
+#. Context: :</td><td><strong>{$settings.sitename|htmlentities} &lt;{$settings.senderemail|htmlentities}&gt;</strong></td></tr>
+#.     	<tr><td>{="Subject"}:&nbsp;&nbsp;</td><td><strong>{$email.subject|htmlentities}</strong></td></tr>
+#.     	</table>
+#. 
+#: www/system/templates/admin_emails.tpl:8
+#: www/system/templates/admin_email.tpl:124
+#: www/system/templates/admin_email.tpl:99
+msgid "Subject"
+msgstr "Betreff"
+
+#. File www/system/templates/admin_accounts.tpl:3
+#. Context: multiple_accounts: {
+#.     		'suspend_selected_title': '{="Suspend Accounts"}',
+#.     		'suspend_selected_subtitle': '{="Suspending accounts ..."}',
+#. 
+#: www/system/templates/admin_accounts.tpl:3
+msgid "Suspend Accounts"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:109
+#. Context: <div style="float: right">
+#.     	<input type="button" value="{="Suspend selected"}" id="suspend_selected" class="multiple_account_button" />
+#.     	<input type="button" value="{="Unuspend selected"}" id="unsuspend_
+#. 
+#: www/system/templates/admin_accounts.tpl:109
+msgid "Suspend selected"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:4
+#. Context: 'suspend_selected_title': '{="Suspend Accounts"}',
+#.     		'suspend_selected_subtitle': '{="Suspending accounts ..."}',
+#.     		'suspend_selected_confirm': '{="Are you sure you want to suspend the %s selected account(s)?"}',
+#. 
+#: www/system/templates/admin_accounts.tpl:4
+msgid "Suspending accounts ..."
+msgstr ""
+
+#. File www/system/templates/admin_serverstatus.tpl:20
+#. Context: <th width="65" style="text-align: right">{="Mem Used"}</th>
+#.         <th width="65" style="text-align: right">{="Swap"}</th>
+#.     </tr>
+#. 
+#: www/system/templates/admin_serverstatus.tpl:20
+msgid "Swap"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:15
+#. Context: }</td><td class="rowodd" style="font-weight: bold">{$systeminfo.memavail|bytes}</td></tr>
+#.     <tr><td class="rowodd">&nbsp;&nbsp;{="Swap free"}</td>		<td class="rowodd" style="font-weight: bold">{$systeminfo.swapfree|bytes}/{$systeminfo.swaptotal|bytes}</td></tr>
+#. 
+#: www/system/templates/admin_about.tpl:15
+msgid "Swap free"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:18
+#. Context: en">{="Uptime"}</td>					<td class="roweven" style="font-weight: bold">{$systeminfo.uptime}</td></tr>
+#.     <tr><td class="rowodd">{="System load"}</td>				<td class="rowodd" style="font-weight: bold">{$systeminfo.cpuload}</td></tr>
+#.     <tr><td class="roweven">{="Last cron job
+#. 
+#: www/system/templates/admin_about.tpl:18
+msgid "System load"
+msgstr ""
+
+#. File www/system/templates/admin_utilities.tpl:31
+#. Context: {box title="System Management Utilities"}
+#.     	{="Warning: These utilities are intended for advanced administrators only and/or for the use of Centova Technologies staff w
+#. 
+#: www/system/templates/admin_utilities.tpl:31
+msgid "System Management Utilities"
+msgstr ""
+
+#. File www/admin/modules/class_Module_diagnostics.php:10
+#. 
+#: www/admin/modules/class_Module_diagnostics.php:10
+msgid "System Tests and Diagnostics"
+msgstr ""
+
+#. File www/admin/modules/class_Module_utilities.php:11
+#. 
+#. File www/admin/modules/class_Module_utilities.php:10
+#. 
+#. File www/admin/modules/class_Module_sessions.php:160
+#. 
+#: www/admin/modules/class_Module_utilities.php:11
+#: www/admin/modules/class_Module_utilities.php:10
+#: www/admin/modules/class_Module_sessions.php:160
+msgid "System Utilities"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:142
+#. Context: ing server and suspend account"}</option>
+#.     			<option value="none"{if $settings.quotaexceed=="none"} selected="selected"{/if}>{="Take no action"}</option>
+#.     			</select>
+#. 
+#. File www/system/templates/admin_settings.tpl:105
+#. Context: ming server and suspend account"}</option>
+#.     			<option value="none"{if $settings.xferexceed=="none"} selected="selected"{/if}>{="Take no action"}</option>
+#.     			</select>
+#. 
+#: www/system/templates/admin_settings.tpl:142
+#: www/system/templates/admin_settings.tpl:105
+msgid "Take no action"
+msgstr "Mache nichts"
+
+#. File www/system/templates/admin_region_edit.tpl:26
+#. Context: <tr id="region_targethost">
+#.     	<td>{="Target host"}:</td>
+#.     	<td>
+#. 
+#: www/system/templates/admin_region_edit.tpl:26
+msgid "Target host"
+msgstr ""
+
+#. File www/system/templates/admin_ads_form.tpl:10
+#. Arguments: $ads.title
+#. Context: {if $ads.testable}<br /><input type="submit" name="adstest[{$ads.name}]" value="{="Test %s integration",$ads.title}" />{/if}
+#.     </fieldset>
+#. 
+#: www/system/templates/admin_ads_form.tpl:10
+msgid "Test %s integration"
+msgstr ""
+
+#. File www/system/templates/admin_smtp_test.tpl:3
+#. Context: {="Test result"}:
+#.     {if $testresult}
+#. 
+#. File www/system/templates/admin_license_test.tpl:4
+#. Context: {="Test result"}:
+#.     {if $testresult}
+#. 
+#. File www/system/templates/admin_ads_test.tpl:4
+#. Context: Module: <strong>{$module}</strong><br />
+#.     {="Test result"}:
+#. 
+#: www/system/templates/admin_smtp_test.tpl:3
+#: www/system/templates/admin_license_test.tpl:4
+#: www/system/templates/admin_ads_test.tpl:4
+msgid "Test result"
+msgstr ""
+
+#. File www/system/templates/admin_email.tpl:111
+#. Context: <div class="preview_info">
+#.     			<div id="text_preview" class="preview_heading">{="Text Preview"}</div>
+#.     		</div>
+#. 
+#: www/system/templates/admin_email.tpl:111
+msgid "Text Preview"
+msgstr ""
+
+#. File www/system/templates/admin_license_error.tpl:2
+#. Context: {adminwarning title="Licensing warning"}
+#.     	{="The license data for the following server(s) is nearing or has reached its expiration date:"}
+#.     	<br /><br />
+#. 
+#: www/system/templates/admin_license_error.tpl:2
+msgid "The license data for the following server(s) is nearing or has reached its expiration date:"
+msgstr ""
+
+#. File www/admin/modules/class_Module_singlesignon.php:123
+#. Arguments: '<br/><br/>',$error
+#. 
+#. File www/admin/modules/class_Module_singlesignon.php:82
+#. Arguments: '<br/><br/>',$error
+#. 
+#: www/admin/modules/class_Module_singlesignon.php:123
+#: www/admin/modules/class_Module_singlesignon.php:82
+msgid "The remote server returned the following error:%s%s"
+msgstr ""
+
+#. File www/system/templates/admin_images_error.tpl:5
+#. Context: {="The specific problems detected included:"}<br />
+#.     <ul>
+#. 
+#: www/system/templates/admin_images_error.tpl:5
+msgid "The specific problems detected included:"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:64
+#. Context: <div class="info">{="These settings are required if you want Centova Cast to send notification emails."}</div>
+#.     	<br />
+#. 
+#: www/system/templates/admin_settings.tpl:64
+msgid "These settings are required if you want Centova Cast to send notification emails."
+msgstr ""
+
+#. File www/admin/modules/class_Module_sourcetypes.php:16
+#. 
+#. File www/admin/modules/class_Module_servertypes.php:16
+#. 
+#: www/admin/modules/class_Module_sourcetypes.php:16
+#: www/admin/modules/class_Module_servertypes.php:16
+msgid "Third-party Software Integration"
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:48
+#. Context: efaultip" name="rpchost[defaultip]" size="16" maxlength="15" value="{$rpchost.defaultip|htmlentities}" />
+#.     		{tip type="icon"}{="This is the default IP address which will be assigned to streams created on this server.  In most cases this will be the primary IP public address of the server."}{/tip}
+#.     	</td>
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:48
+msgid "This is the default IP address which will be assigned to streams created on this server.  In most cases this will be the primary IP public address of the server."
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:55
+#. Context: ngth="15" value="{$rpchost.proxyipaddress|htmlentities}" /> ({="blank to use default stream IP address"})
+#.     		{tip type="icon"}{="This is the IP address (or hostname) on which you have configured your port 80 proxy to listen on this host (if enabled).  In most cases this will be the primary public IP address of the server, and will be the same address as the 'default stream IP address' above."}{/tip}
+#.     	</td>
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:55
+msgid "This is the IP address (or hostname) on which you have configured your port 80 proxy to listen on this host (if enabled).  In most cases this will be the primary public IP address of the server, and will be the same address as the 'default stream IP address' above."
+msgstr ""
+
+#. File www/system/templates/admin_rpchost_edit.tpl:10
+#. Context: ress|htmlentities}" onchange="if($('#rpcdefaultip').val()=='') $('#rpcdefaultip').val($(this).val());" />
+#.     		{tip type="icon"}{="This is the IP address on which the Centova Cast control daemon will be running."}<br/><br/>{="For standalone configurations (or for the master in master/slave configurations), this will usually be '127.0.0.1
+#. 
+#: www/system/templates/admin_rpchost_edit.tpl:10
+msgid "This is the IP address on which the Centova Cast control daemon will be running."
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:124
+#. Context: </tr>
+#.     	<tr><td></td><td class="info">{="This is used only to display the server's data transfer usage graph on the administrator's accounts page."}</td></tr>
+#.     	</table>
+#. 
+#: www/system/templates/admin_settings.tpl:124
+msgid "This is used only to display the server's data transfer usage graph on the administrator's accounts page."
+msgstr ""
+
+#. File www/system/templates/admin_images_error.tpl:12
+#. Context: {="This message will stop appearing (and the graphs will appear) when your server configuration is corrected."}
+#. 
+#: www/system/templates/admin_images_error.tpl:12
+msgid "This message will stop appearing (and the graphs will appear) when your server configuration is corrected."
+msgstr ""
+
+#. File www/system/templates/admin_email.tpl:37
+#. Context: his will copy your message text into the message HTML field, converting newlines to HTML line breaks.  Continue?"}',
+#.     	text: '{="This will copy your message HTML into the message text field, converting HTML line breaks to newlines and stripping all other HTML code.  Continue?"}'
+#.     }
+#. 
+#: www/system/templates/admin_email.tpl:37
+msgid "This will copy your message HTML into the message text field, converting HTML line breaks to newlines and stripping all other HTML code.  Continue?"
+msgstr ""
+
+#. File www/system/templates/admin_email.tpl:36
+#. Context: copy_to_help: {
+#.     	html: '{="This will copy your message text into the message HTML field, converting newlines to HTML line breaks.  Continue?"}',
+#.     	text: '{="This will copy your message HTML into the message text field, converting HTML line breaks to newlines and stripp
+#. 
+#: www/system/templates/admin_email.tpl:36
+msgid "This will copy your message text into the message HTML field, converting newlines to HTML line breaks.  Continue?"
+msgstr ""
+
+#. File www/system/templates/admin_usage.tpl:8
+#. Arguments: "<br />","<br />","<br />"
+#. Context: <td style="font-size: 0px; width: 5px">&nbsp;</td>
+#.     	<td width="33%" {tip}{if $usage.useddisk>$usage.disklimit}{="Tip: This is the free space available on the partition holding Centova Cast's 'vhosts' %sdirectory.  If you have created symbolic links pointing to media on a different partition, %s the reported disk usage may appear to exceed the available disk space.","<br />","<br />","<br />"}{else}{="Total: %s%.1f%%%s.%sThis is the combined total of the disk space used by all of your strea
+#. 
+#: www/system/templates/admin_usage.tpl:8
+msgid "Tip: This is the free space available on the partition holding Centova Cast's 'vhosts' %sdirectory.  If you have created symbolic links pointing to media on a different partition, %s the reported disk usage may appear to exceed the available disk space."
+msgstr ""
+
+#. File www/system/templates/admin_usage.tpl:3
+#. Context: <tr>
+#.     	<td width="33%" {tip}{if $usage.xferlimit<0}{="Tip: You can set your server's total data transfer limit under 'Settings' if you want your data transfer usage to be graphed."}{else}{="Total: %s%.1f%%%s.%sThis is the combined total of the data transfer used by all of your streams this month. %sNote th
+#. 
+#. File www/system/templates/admin_index.tpl:11
+#. Context: <div class="headermetergroup">
+#.     			<div {tip addclass="headermeter" title="Data transfer" style="wide"}{if $usage.xferlimit<0}{="Tip: You can set your server's total data transfer limit under 'Settings' if you want your data transfer usage to be graphed."}{else}{="Total: %s%.1f%%%s.%sThis is the combined total of the data transfer used by all of your streams this month. %sNote th
+#. 
+#: www/system/templates/admin_usage.tpl:3
+#: www/system/templates/admin_index.tpl:11
+msgid "Tip: You can set your server's total data transfer limit under 'Settings' if you want your data transfer usage to be graphed."
+msgstr ""
+
+#. File www/system/templates/admin_email.tpl:33
+#. Context: html: '{="To text"}',
+#.     	text: '{="To HTML"}'
+#.     },
+#. 
+#: www/system/templates/admin_email.tpl:33
+msgid "To HTML"
+msgstr ""
+
+#. File www/system/templates/admin_email.tpl:32
+#. Context: copy_to: {
+#.     	html: '{="To text"}',
+#.     	text: '{="To HTML"}'
+#. 
+#: www/system/templates/admin_email.tpl:32
+msgid "To text"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:20
+#. Context: -weight: bold">{="Started %s, completed %s",$settings.lastcjstart,$settings.lastcjcomplete}</td></tr>
+#.     <tr><td class="rowodd">{="Total accounts"}</td>				<td class="rowodd" style="font-weight: bold">{$systeminfo.accounts}</td></tr>
+#.     <tr><td class="roweven">{="Active accou
+#. 
+#: www/system/templates/admin_about.tpl:20
+msgid "Total accounts"
+msgstr "Gesamt Konten"
+
+#. File www/system/templates/admin_settings.tpl:119
+#. Context: <tr>
+#.     		<td>{="Total data transfer limit for this server"}:</td>
+#.     		<td>
+#. 
+#: www/system/templates/admin_settings.tpl:119
+msgid "Total data transfer limit for this server"
+msgstr ""
+
+#. File www/system/templates/admin_usage.tpl:26
+#. Context: </div>
+#.     	{="Total listener slots"}: <strong>{="%s",$usage.listenerslots}</strong>
+#.     </div>
+#. 
+#. File www/system/templates/admin_index.tpl:29
+#. Context: {="Projected data transfer"}:&nbsp; <strong>{="%s MB",$usage.estimatedtransfer}</strong> {="total this month"}<br />
+#.     		{="Total listener slots"}: <strong>{$usage.listenerslots}</strong>
+#.     	</div>
+#. 
+#: www/system/templates/admin_usage.tpl:26
+#: www/system/templates/admin_index.tpl:29
+msgid "Total listener slots"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:10
+#. Context: <tr><td class="roweven">{="Total memory"}</td>				<td class="roweven" style="font-weight: bold">{$systeminfo.memtotal|bytes}</td></tr>
+#.     <tr><td class="rowodd">&nbsp;&nb
+#. 
+#: www/system/templates/admin_about.tpl:10
+msgid "Total memory"
+msgstr ""
+
+#. File www/system/templates/admin_usage.tpl:15
+#. Context: rlimit,"</strong>","<br />","<br />"}{/tip}{/check}>
+#.     			<img src="../system/images/icons/listeners.png" align="absmiddle" /> {="Total streams"}: <span style="font-weight: bold; white-space: nowrap">{if $usage.userlimit<0}{$usage.usedusers} ({="Unlimited"}){else}{="%s/%
+#. 
+#. File www/system/templates/admin_index.tpl:20
+#. Context: >"}{else}{="You have no stream limit."}{/if}{/tip}>
+#.     				<img src="../system/images/icons/listeners.png" align="absmiddle" /> {="Total streams"}: <span style="font-weight: bold; white-space: nowrap">{if $usage.userlimit<0}{$usage.usedusers} ({="UNL"}){elseif $usage.user
+#. 
+#. File www/system/templates/admin_index.tpl:19
+#. Context: </div>
+#.     			<div {tip addclass="headermeter last" title="Total streams" style="wide"}{if $usage.userlimit>0}{="Total: %s%.1f%%%s.%sThis is the total number of streams currently managed by%sCentova C
+#. 
+#: www/system/templates/admin_usage.tpl:15
+#: www/system/templates/admin_index.tpl:20
+#: www/system/templates/admin_index.tpl:19
+msgid "Total streams"
+msgstr ""
+
+#. File www/system/templates/admin_usage.tpl:3
+#. Arguments: "<strong>",$usage.usedxfer|mul:100|div:$usage.xferlimit,"</strong>","<br />","<br /><br />","<br />"
+#. Context: can set your server's total data transfer limit under 'Settings' if you want your data transfer usage to be graphed."}{else}{="Total: %s%.1f%%%s.%sThis is the combined total of the data transfer used by all of your streams this month. %sNote that this only includes data transfer from Centova Cast streams; data transfer %sused by other services on the server (if any) is not included.","<strong>",$usage.usedxfer|mul:100|div:$usage.xferlimit,"</strong>","<br />","<br /><br />","<br />"}{/if}{/tip}>
+#.     			<img src=
+#. 
+#: www/system/templates/admin_usage.tpl:3
+msgid "Total: %s%.1f%%%s.%sThis is the combined total of the data transfer used by all of your streams this month. %sNote that this only includes data transfer from Centova Cast streams; data transfer %sused by other services on the server (if any) is not included."
+msgstr ""
+
+#. File www/system/templates/admin_index.tpl:11
+#. Arguments: "<strong>",$usage.usedxfer|mul:100|div:$usage.xferlimit,"</strong>","<br />","<br /><br />"
+#. Context: can set your server's total data transfer limit under 'Settings' if you want your data transfer usage to be graphed."}{else}{="Total: %s%.1f%%%s.%sThis is the combined total of the data transfer used by all of your streams this month. %sNote that this only includes data transfer from Centova Cast streams; data transfer used by other services on the server (if any) is not included.","<strong>",$usage.usedxfer|mul:100|div:$usage.xferlimit,"</strong>","<br />","<br /><br />"}{/if}{/tip}>
+#.     				<img src="../syst
+#. 
+#: www/system/templates/admin_index.tpl:11
+msgid "Total: %s%.1f%%%s.%sThis is the combined total of the data transfer used by all of your streams this month. %sNote that this only includes data transfer from Centova Cast streams; data transfer used by other services on the server (if any) is not included."
+msgstr ""
+
+#. File www/system/templates/admin_index.tpl:15
+#. Arguments: "<strong>",$usage.useddisk|mul:100|div:$usage.disklimit,"</strong>","<br />","<br /><br />"
+#. Context: </div>
+#.     			<div {tip addclass="headermeter" title="Disk usage" style="wide"}{="Total: %s%.1f%%%s.%sThis is the combined total of the disk space used by all of your streams. %sNote that the total available space does not represent your total disk size; it represents the sum of the disk quotas allocated for all of your streams.","<strong>",$usage.useddisk|mul:100|div:$usage.disklimit,"</strong>","<br />","<br /><br />"}{/tip}>
+#.     				<img src="../system/im
+#. 
+#: www/system/templates/admin_index.tpl:15
+msgid "Total: %s%.1f%%%s.%sThis is the combined total of the disk space used by all of your streams. %sNote that the total available space does not represent your total disk size; it represents the sum of the disk quotas allocated for all of your streams."
+msgstr ""
+
+#. File www/system/templates/admin_usage.tpl:8
+#. Arguments: "<strong>",$usage.useddisk|mul:100|div:$usage.disklimit,"</strong>","<br />","<br /><br />","<br />","<br />"
+#. Context: erent partition, %s the reported disk usage may appear to exceed the available disk space.","<br />","<br />","<br />"}{else}{="Total: %s%.1f%%%s.%sThis is the combined total of the disk space used by all of your streams. %sNote that the total available space does not represent your total disk%s size; it represents the total remaining space available to Centova Cast %s(excluding OS files, etc.)","<strong>",$usage.useddisk|mul:100|div:$usage.disklimit,"</strong>","<br />","<br /><br />","<br />","<br />"}{/if}{/tip}>
+#. 
+#: www/system/templates/admin_usage.tpl:8
+msgid "Total: %s%.1f%%%s.%sThis is the combined total of the disk space used by all of your streams. %sNote that the total available space does not represent your total disk%s size; it represents the total remaining space available to Centova Cast %s(excluding OS files, etc.)"
+msgstr ""
+
+#. File www/system/templates/admin_usage.tpl:14
+#. Arguments: "<strong>",$usage.usedusers|mul:100|div:$usage.userlimit,"</strong>","<br />","<br />"
+#. Context: <td width="33%" {check $usage.userlimit>0}{tip}{="Total: %s%.1f%%%s.%sThis is the total number of streams currently managed by%sCentova Cast versus your licensed stream limit.","<strong>",$usage.usedusers|mul:100|div:$usage.userlimit,"</strong>","<br />","<br />"}{/tip}{/check}>
+#.     			<img src="../system/
+#. 
+#. File www/system/templates/admin_index.tpl:19
+#. Arguments: "<strong>",$usage.usedusers|mul:100|div:$usage.userlimit,"</strong>","<br />","<br />"
+#. Context: </div>
+#.     			<div {tip addclass="headermeter last" title="Total streams" style="wide"}{if $usage.userlimit>0}{="Total: %s%.1f%%%s.%sThis is the total number of streams currently managed by%sCentova Cast versus your licensed stream limit.","<strong>",$usage.usedusers|mul:100|div:$usage.userlimit,"</strong>","<br />","<br />"}{else}{="You have no stream limit."}{/i
+#. 
+#: www/system/templates/admin_usage.tpl:14
+#: www/system/templates/admin_index.tpl:19
+msgid "Total: %s%.1f%%%s.%sThis is the total number of streams currently managed by%sCentova Cast versus your licensed stream limit."
+msgstr ""
+
+#. File www/system/templates/admin_accounts_javascript.tpl:39
+#. Context: </div>
+#.                 <div id="rowovertab_streamtitle">{="Track details unavailable"}.</div>
+#.                 <div id="rowovertab_online">
+#. 
+#: www/system/templates/admin_accounts_javascript.tpl:39
+msgid "Track details unavailable"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:91
+#. Context: <h1>{="Transfer limits"}</h1>
+#. 
+#: www/system/templates/admin_settings.tpl:91
+msgid "Transfer limits"
+msgstr ""
+
+#. File www/system/templates/admin_utilities.tpl:41
+#. Context: <tr><td colspan="2"><br /></td></tr>
+#.     	<tr><td>{="Troubleshooting"}:</td>		<td><a href="?page=utilities&op=output" target="ccoutputlog" onclick="return diagnostic_window()">{="Open diagnostic w
+#. 
+#: www/system/templates/admin_utilities.tpl:41
+msgid "Troubleshooting"
+msgstr ""
+
+#. File www/system/templates/admin_license_error.tpl:12
+#. Context: {if $expiration.0.remain>0}
+#.     	{="Typically a renewal should have been received by this time; this may indicate a problem with your license(s) or a problem communicating with the Centova Technologies licensing servers."}
+#.     	<br /><br />
+#. 
+#: www/system/templates/admin_license_error.tpl:12
+msgid "Typically a renewal should have been received by this time; this may indicate a problem with your license(s) or a problem communicating with the Centova Technologies licensing servers."
+msgstr ""
+
+#. File www/system/templates/admin_setuid_failed.tpl:2
+#. Arguments: $error
+#. Context: {box title="Error"}
+#.     	{="Unable to login to account: %s",$error}<br /><br />
+#. 
+#: www/system/templates/admin_setuid_failed.tpl:2
+msgid "Unable to login to account: %s"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:7
+#. Context: 'unsuspend_selected_title': '{="Unsuspend Accounts"}',
+#.     		'unsuspend_selected_subtitle': '{="Unsuspending accounts ..."}',
+#. 
+#: www/system/templates/admin_accounts.tpl:7
+msgid "Unsuspend Accounts"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:8
+#. Context: 'unsuspend_selected_title': '{="Unsuspend Accounts"}',
+#.     		'unsuspend_selected_subtitle': '{="Unsuspending accounts ..."}',
+#.     		'unsuspend_selected_confirm': '{="Are you sure you want to unsuspend the %s selected account(s)?"}',
+#. 
+#: www/system/templates/admin_accounts.tpl:8
+msgid "Unsuspending accounts ..."
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:11
+#. Context: >				<td class="roweven" style="font-weight: bold">{$systeminfo.memtotal|bytes}</td></tr>
+#.     <tr><td class="rowodd">&nbsp;&nbsp;{="Unused memory"}</td>	<td class="rowodd" style="font-weight: bold">{$systeminfo.memfree|bytes}</td></tr>
+#.     <tr><td class="roweven">&nbsp;&nbsp;{
+#. 
+#: www/system/templates/admin_about.tpl:11
+msgid "Unused memory"
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:110
+#. Context: "button" value="{="Suspend selected"}" id="suspend_selected" class="multiple_account_button" />
+#.     	<input type="button" value="{="Unuspend selected"}" id="unsuspend_selected" class="multiple_account_button" />
+#.     	<input type="button" value="{="Delete selected"}" id="delete_sel
+#. 
+#: www/system/templates/admin_accounts.tpl:110
+msgid "Unuspend selected"
+msgstr ""
+
+#. File www/system/templates/admin_serverstatus.tpl:17
+#. Context: <th>{="OS"}</th>
+#.         <th width="55" style="text-align: center">{="Uptime"}</th>
+#.         <th width="55" style="text-align: center">{="Load"}</th>
+#. 
+#. File www/system/templates/admin_about.tpl:17
+#. Context: <tr><td class="roweven">{="Uptime"}</td>					<td class="roweven" style="font-weight: bold">{$systeminfo.uptime}</td></tr>
+#.     <tr><td class="rowodd">{="System load"}
+#. 
+#: www/system/templates/admin_serverstatus.tpl:17
+#: www/system/templates/admin_about.tpl:17
+msgid "Uptime"
+msgstr "Laufzeit"
+
+#. File www/system/templates/admin_remoteserver_list.tpl:20
+#. Context: <th>{="Title"}</th>
+#.     	<th>{="URL"}</th>
+#.     	<th width="50">&nbsp;</th>
+#. 
+#: www/system/templates/admin_remoteserver_list.tpl:20
+msgid "URL"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:4
+#. Context: <tr><th colspan="2">{="Web Interface System Information"}</th></tr>
+#.     <tr><td width="150" class="roweven">{="Version number"}</td>	<td class="roweven" style="font-weight: bold">{$_CONSTANTS.PRODUCT_REVISION}</td></tr>
+#.     <tr><td class="rowodd">{="Build d
+#. 
+#: www/system/templates/admin_about.tpl:4
+msgid "Version number"
+msgstr ""
+
+#. File www/system/templates/admin_utilities.tpl:32
+#. Context: {box title="System Management Utilities"}
+#.     	{="Warning: These utilities are intended for advanced administrators only and/or for the use of Centova Technologies staff when troubleshooting your server."}<br /><br />
+#.     	{="Incorrect use of these utilities is likely to permanently damage your Centova Cast installation."}<br /><br /
+#. 
+#: www/system/templates/admin_utilities.tpl:32
+msgid "Warning: These utilities are intended for advanced administrators only and/or for the use of Centova Technologies staff when troubleshooting your server."
+msgstr ""
+
+#. File www/system/templates/admin_accounts_javascript.tpl:10
+#. Context: nt accounts) will be suspended as a result.  Are you sure you want to unsuspend this account?"}',
+#.     	confirm_unsuspend_admin: '{="WARNING: This account was suspended because it exceeded its resource limits.  If you unsuspend this account now, and its further resource consumption causes its reseller to exceed its reseller account limits, the entire reseller account (including all of its client accounts) will be suspended as a result.  Are you sure you want to unsuspend this account?"}'
+#.     {/language}
+#. 
+#: www/system/templates/admin_accounts_javascript.tpl:10
+msgid "WARNING: This account was suspended because it exceeded its resource limits.  If you unsuspend this account now, and its further resource consumption causes its reseller to exceed its reseller account limits, the entire reseller account (including all of its client accounts) will be suspended as a result.  Are you sure you want to unsuspend this account?"
+msgstr ""
+
+#. File www/system/templates/admin_accounts_javascript.tpl:9
+#. Context: confirm_suspend_reseller: '{="All of its client accounts will be disabled as well."}',
+#.     	confirm_unsuspend_reseller: '{="WARNING: This account was suspended because it exceeded its resource limits.  If you unsuspend this account now, and its further resource consumption causes you to exceed the limits of your reseller account, your entire reseller account (including all of your client accounts) will be suspended as a result.  Are you sure you want to unsuspend this account?"}',
+#.     	confirm_unsuspend_admin: '{="WARNING: This account was suspended because it exceeded its resource limits.  If you unsuspen
+#. 
+#: www/system/templates/admin_accounts_javascript.tpl:9
+msgid "WARNING: This account was suspended because it exceeded its resource limits.  If you unsuspend this account now, and its further resource consumption causes you to exceed the limits of your reseller account, your entire reseller account (including all of your client accounts) will be suspended as a result.  Are you sure you want to unsuspend this account?"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:30
+#. Context: <table class="listtable" width="100%" cellspacing="1" cellpadding="2">
+#.     <tr><th colspan="2">{="Web Interface Configuration"}</th></tr>
+#.     <tr><td width="150" class="rowodd">{="CAST_PATH"}</td>			<td class="rowodd" style="font-weight: bold">{$_CONSTANTS.
+#. 
+#: www/system/templates/admin_about.tpl:30
+msgid "Web Interface Configuration"
+msgstr ""
+
+#. File www/system/templates/admin_about.tpl:3
+#. Context: <table class="listtable" width="100%" cellspacing="1" cellpadding="2">
+#.     <tr><th colspan="2">{="Web Interface System Information"}</th></tr>
+#.     <tr><td width="150" class="roweven">{="Version number"}</td>	<td class="roweven" style="font-weight: bold">{$_CONST
+#. 
+#: www/system/templates/admin_about.tpl:3
+msgid "Web Interface System Information"
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:110
+#. Context: <tr>
+#.     		<td>{="When an account has been suspended"}:&nbsp;</td>
+#.     		<td>
+#. 
+#: www/system/templates/admin_settings.tpl:110
+msgid "When an account has been suspended"
+msgstr "Wenn ein Account deaktiviert wurde"
+
+#. File www/system/templates/admin_settings.tpl:138
+#. Context: <tr>
+#.     		<td>{="When disk quota is exceeded"}:&nbsp;</td>
+#.     		<td>
+#. 
+#: www/system/templates/admin_settings.tpl:138
+msgid "When disk quota is exceeded"
+msgstr "Wenn der Speicherplatz ersch&ouml;pft ist"
+
+#. File www/system/templates/admin_settings.tpl:101
+#. Context: <tr>
+#.     		<td>{="When transfer limit is exceeded"}:&nbsp;</td>
+#.     		<td>
+#. 
+#: www/system/templates/admin_settings.tpl:101
+msgid "When transfer limit is exceeded"
+msgstr "Wenn das &Uuml;bertragungslimit erreicht wurde"
+
+#. File www/system/templates/configuration_client_limits.tpl:134
+#. Arguments: "<span id='bwbylisteners_slots' style='font-weight: bold'></span>","<span id='bwbylisteners_bitrate' style='font-weight: bold'></span>"
+#. Context: <div id="bwbylisteners" class="hide">
+#.     	{="With a listener limit of %s slots, this means that you can allocate a maximum bit rate of up to %s Kbps.","<span id='bwbylisteners_slots' style='font-weight: bold'></span>","<span id='bwbylisteners_bitrate' style='font-weight: bold'
+#. 
+#: www/system/templates/configuration_client_limits.tpl:134
+msgid "With a listener limit of %s slots, this means that you can allocate a maximum bit rate of up to %s Kbps."
+msgstr ""
+
+#. File www/system/templates/configuration_client_limits.tpl:137
+#. Arguments: "<span id='bwbybitrate_bitrate' style='font-weight: bold'></span>","<span id='bwbybitrate_slots' style='font-weight: bold'></span>"
+#. Context: <div id="bwbybitrate" class="hide">
+#.     	{="With bit rate limit of %s Kbps, this means that you can allocate up to %s listener slots.","<span id='bwbybitrate_bitrate' style='font-weight: bold'></span>","<span id='bwbybitrate_slots' style='font-weight: bold'></s
+#. 
+#: www/system/templates/configuration_client_limits.tpl:137
+msgid "With bit rate limit of %s Kbps, this means that you can allocate up to %s listener slots."
+msgstr ""
+
+#. File www/system/templates/admin_settings.tpl:200
+#. Context: nchange="set_reencode()" id="reencode_status">
+#.     			<option value="1"{if $settings.defaultreencode>0} selected="selected"{/if}>{="Yes, re-encode media to stream bit rate"}</option>
+#.     			<option value="0"{if $settings.defaultreencode==0} selected="selected"{/if}>{="No, disable re-encoding (if suppor
+#. 
+#: www/system/templates/admin_settings.tpl:200
+msgid "Yes, re-encode media to stream bit rate"
+msgstr ""
+
+#. File www/system/templates/configuration_client_limits.tpl:129
+#. Arguments: "<strong>",$resellerlimits.maxclients,"</strong>"
+#. Context: m bit rates of up to %s%s Kbps%s.","<strong>",$resellerlimits.maxbitrate,"</strong>"}{/if}
+#.     	{if $resellerlimits.maxclients>0}{="You have %s%s%s listener slots remaining from your reseller account limit.","<strong>",$resellerlimits.maxclients,"</strong>"}{/if}
+#. 
+#: www/system/templates/configuration_client_limits.tpl:129
+msgid "You have %s%s%s listener slots remaining from your reseller account limit."
+msgstr ""
+
+#. File www/system/templates/admin_index.tpl:19
+#. Context: us your licensed stream limit.","<strong>",$usage.usedusers|mul:100|div:$usage.userlimit,"</strong>","<br />","<br />"}{else}{="You have no stream limit."}{/if}{/tip}>
+#.     				<img src="../system/images/icons/listeners.png" align="absmiddle" /> {="Total streams"}: <span style="font-we
+#. 
+#: www/system/templates/admin_index.tpl:19
+msgid "You have no stream limit."
+msgstr ""
+
+#. File www/system/templates/admin_accounts.tpl:75
+#. Arguments: "<span id='resellerdeletecount'></span>"
+#. Context: <form>
+#.     		{="You have selected %s reseller account(s) for deletion.  How would you like to handle the resellers' client accounts?","<span id='resellerdeletecount'></span>"}
+#.     		<br /><br />
+#. 
+#: www/system/templates/admin_accounts.tpl:75
+msgid "You have selected %s reseller account(s) for deletion.  How would you like to handle the resellers' client accounts?"
+msgstr ""
+
+#. File www/system/templates/configuration_client_limits.tpl:126
+#. Arguments: "<strong>",$resellerlimits.maxbandwidth,"</strong>","<strong>",$resellerlimits.resellerbandwidth,"</strong>"
+#. Context: <td colspan="2">
+#.     	{="You may allocate up to %s%s Kbps%s from your %s%s Kbps%s reseller account limit.","<strong>",$resellerlimits.maxbandwidth,"</strong>","<strong>",$resellerlimits.resellerbandwidth,"</strong>"}
+#. 
+#: www/system/templates/configuration_client_limits.tpl:126
+msgid "You may allocate up to %s%s Kbps%s from your %s%s Kbps%s reseller account limit."
+msgstr ""
+
+#. File www/system/templates/configuration_client_limits.tpl:193
+#. Arguments: "<strong>",$resellerlimits.diskquota,"</strong>"
+#. Context: {check $resellerlimits.diskquota>0}
+#.     			{="You may allocate up to %s%s MB%s from your reseller account limit.","<strong>",$resellerlimits.diskquota,"</strong>"}
+#.     		{otherwise}
+#. 
+#. File www/system/templates/configuration_client_limits.tpl:175
+#. Arguments: "<strong>",$resellerlimits.transferlimit,"</strong>"
+#. Context: {check $resellerlimits.transferlimit>0}
+#.     			{="You may allocate up to %s%s MB%s from your reseller account limit.","<strong>",$resellerlimits.transferlimit,"</strong>"}
+#.     		{otherwise}
+#. 
+#: www/system/templates/configuration_client_limits.tpl:193
+#: www/system/templates/configuration_client_limits.tpl:175
+msgid "You may allocate up to %s%s MB%s from your reseller account limit."
+msgstr ""
+
+#. File www/system/templates/configuration_client_limits.tpl:152
+#. Arguments: "<strong>",$resellerlimits.maxclients,"</strong>"
+#. Context: <td></td>
+#.     	<td>{="You may allocate up to %s%s%s listener slots from your reseller account limit.","<strong>",$resellerlimits.maxclients,"</strong>"}</td>
+#.     </tr>
+#. 
+#: www/system/templates/configuration_client_limits.tpl:152
+msgid "You may allocate up to %s%s%s listener slots from your reseller account limit."
+msgstr ""
+
+#. File www/system/templates/configuration_client_limits.tpl:208
+#. Arguments: "<strong>",$resellerlimits.mountlimit,"</strong>"
+#. Context: {/check}{check ($usemountpoints>0) && ($resellerlimits.mountlimit>0)}
+#.     		{="You may allocate up to %s%s%s mount points from your reseller account limit.","<strong>",$resellerlimits.mountlimit,"</strong>"}
+#.     		{otherwisecheck $usemountpoints>0}
+#. 
+#: www/system/templates/configuration_client_limits.tpl:208
+msgid "You may allocate up to %s%s%s mount points from your reseller account limit."
+msgstr ""
+
+#. File www/system/templates/configuration_client_limits.tpl:163
+#. Arguments: "<strong>",$resellerlimits.maxbitrate,"</strong>"
+#. Context: <td></td>
+#.     	<td>{="You may assign a bit rate of up to %s%s Kbps%s.","<strong>",$resellerlimits.maxbitrate,"</strong>"}</td>
+#.     </tr>
+#. 
+#: www/system/templates/configuration_client_limits.tpl:163
+msgid "You may assign a bit rate of up to %s%s Kbps%s."
+msgstr ""
+
+#. File www/system/templates/configuration_client_limits.tpl:128
+#. Arguments: "<strong>",$resellerlimits.maxbitrate,"</strong>"
+#. Context: {if $resellerlimits.maxbitrate>0}{="You may create streams with maximum bit rates of up to %s%s Kbps%s.","<strong>",$resellerlimits.maxbitrate,"</strong>"}{/if}
+#.     	{if $resellerlimits.maxclients>0}{="You have %s%s%s listener slots re
+#. 
+#: www/system/templates/configuration_client_limits.tpl:128
+msgid "You may create streams with maximum bit rates of up to %s%s Kbps%s."
+msgstr ""
+
+#. File www/system/templates/admin_startpage_error.tpl:2
+#. Context: {adminwarning title="Start page error"}
+#.     	{="Your client start pages are not working at this time.  Please ensure that the Apache mod_rewrite module is installed on your server and .htaccess file support is not disabled for this web site.  This message will disappear when your server configuration is corrected."}
+#.         <br /><br />
+#. 
+#: www/system/templates/admin_startpage_error.tpl:2
+msgid "Your client start pages are not working at this time.  Please ensure that the Apache mod_rewrite module is installed on your server and .htaccess file support is not disabled for this web site.  This message will disappear when your server configuration is corrected."
+msgstr ""
+
+#. File www/system/templates/admin_images_error.tpl:3
+#. Context: {="Your statistics graphs are not working at this time.  Please ensure that PHP's GD extension is installed (including PNG and FreeType support)."}<br /><br />
+#. 
+#: www/system/templates/admin_images_error.tpl:3
+msgid "Your statistics graphs are not working at this time.  Please ensure that PHP's GD extension is installed (including PNG and FreeType support)."
+msgstr ""
+

@@ -1,0 +1,3200 @@
+# Centova Cast translation - common interface
+# Copyright 2014, Centova Technologies Inc.
+# This file is distributed under the same license terms as Centova Cast.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Centova Cast v3.0\n"
+"POT-Creation-Date: 2013-07-17 14\n"
+"PO-Revision-Date: 2014-03-16 17:00+0100\n"
+"Last-Translator: Sven Barthel <sven.barthel@gmail.com>\n"
+"Language-Team: Andre Fichtner\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#. Name of language (in target language, eg: Deutsch for German, Francais for French, etc.)
+msgid "_LANGUAGE"
+msgstr "Deutsch"
+
+#. Specify the format for dates; M=month (3-letter), F=month (full), d=day (2-digit), Y=year (4-digit)
+msgid "_DATEFORMAT"
+msgstr "d. M. Y"
+
+#. Specify the format for times; h=12-hour hour, H=24-hour hour, i=minutes, A=am/pm
+msgid "_TIMEFORMAT"
+msgstr "H:i"
+
+#. Specify the format for dates without the day number; M=month, Y=year
+msgid "_NODAYFORMAT"
+msgstr "M. Y"
+
+#. Specify the format for dates without the year; M=month, d=day
+msgid "_NOYEARFORMAT"
+msgstr "d. M."
+
+#. File system/plugins/-ads_amazon/hooks.php:147
+#. Arguments: 'Amazon Web Services&reg;'
+#.
+#. File system/plugins/-ads_amazon/hooks.php:125
+#. Arguments: 'Amazon Web Services&reg;'
+#.
+#. File system/albumds/class_AlbumDataSource_amazon.php:374
+#. Arguments: 'Amazon Web Services&reg;'
+#.
+#. File system/albumds/class_AlbumDataSource_amazon.php:340
+#. Arguments: 'Amazon Web Services&reg;'
+#.
+#: system/plugins/-ads_amazon/hooks.php:147
+#: system/plugins/-ads_amazon/hooks.php:125
+#: system/albumds/class_AlbumDataSource_amazon.php:374
+#: system/albumds/class_AlbumDataSource_amazon.php:340
+msgid "%s access key ID"
+msgstr ""
+
+#. File system/class_SystemControl.php:1756
+#. Arguments: $total
+#.
+#: system/class_SystemControl.php:1756
+msgid "%s account(s)"
+msgstr "%s Konto (/en)"
+
+#. File system/plugins/-ads_amazon/hooks.php:93
+#. Arguments: 'Amazon&reg;'
+#.
+#. File system/albumds/class_AlbumDataSource_amazon.php:388
+#. Arguments: 'Amazon&reg;'
+#.
+#: system/plugins/-ads_amazon/hooks.php:93
+#: system/albumds/class_AlbumDataSource_amazon.php:388
+msgid "%s affiliate ID"
+msgstr "%s Partner-ID"
+
+#. File system/albumds/class_AlbumDataSource_lastfm.php:103
+#. Arguments: 'last.fm'
+#.
+#: system/albumds/class_AlbumDataSource_lastfm.php:103
+msgid "%s API key"
+msgstr ""
+
+#. File system/plugins/-ads_amazon/hooks.php:152
+#. Arguments: 'Amazon Web Services&reg;'
+#.
+#. File system/plugins/-ads_amazon/hooks.php:130
+#. Arguments: 'Amazon Web Services&reg;'
+#.
+#. File system/albumds/class_AlbumDataSource_amazon.php:379
+#. Arguments: 'Amazon Web Services&reg;'
+#.
+#. File system/albumds/class_AlbumDataSource_amazon.php:345
+#. Arguments: 'Amazon Web Services&reg;'
+#.
+#: system/plugins/-ads_amazon/hooks.php:152
+#: system/plugins/-ads_amazon/hooks.php:130
+#: system/albumds/class_AlbumDataSource_amazon.php:379
+#: system/albumds/class_AlbumDataSource_amazon.php:345
+msgid "%s secret key"
+msgstr ""
+
+#. File system/cfr/class_CustomFieldRenderer_html.php:35
+#.
+#: system/cfr/class_CustomFieldRenderer_html.php:35
+msgid "(blank to leave unchanged)"
+msgstr "(leer um unver&auml;ndert zu lassen)"
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:121
+#. Context: put type="text" name="mountpoints_field[maxlistenerduration]" class="list_editor_field" size="5" value="" /> {="second(s)"} ({="0 = no limit"})</td>
+#. </tr>
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:117
+#. Context: ers"}:</td>
+#. <td><input type="text" name="mountpoints_field[maxlisteners]" class="list_editor_field" size="5" value="" /> ({="0 = no limit"})</td>
+#. </tr>
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:121
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:117
+msgid "0 = no limit"
+msgstr "0 = Unlimitiert"
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:125
+#. Context: input type="text" name="mountpoints_field[mp3metadatainterval]" class="list_editor_field" size="5" value="" /> {="byte(s)"} ({="0 = suppress metadata"})</td>
+#. </tr>
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:125
+msgid "0 = suppress metadata"
+msgstr "0 = Metadaten unterdr&uuml;cken"
+
+#. File system/class_AccountControl.php:76
+#.
+#. File system/class_AccountControl.php:59
+#.
+#: system/class_AccountControl.php:76 system/class_AccountControl.php:59
+msgid "A database error occurred"
+msgstr "Ein Datenbankfehler ist aufgetreten"
+
+#. File system/class_AccountControl.php:257
+#.
+#. File system/class_AccountControl.php:213
+#.
+#. File system/class_AccountControl.php:175
+#.
+#: system/class_AccountControl.php:257 system/class_AccountControl.php:213
+#: system/class_AccountControl.php:175
+msgid "A database error occurred while updating this account"
+msgstr ""
+"Ein Datenbankfehler ist w&auml;hrend dem &Auml;ndern Kontos aufgetreten"
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:8
+#. Context: fallback_file_set_title: '{="Fallback clip assigned"}',
+#. fallback_file_set_message: '{="A fallback clip has already been assigned for this mount point.  If you configure a fallback mount point instead, the fallback clip will be removed."}',
+#. {/language}
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:8
+msgid ""
+"A fallback clip has already been assigned for this mount point.  If you "
+"configure a fallback mount point instead, the fallback clip will be removed."
+msgstr ""
+"Ein Fallback Verzeichnis wurde bereits für diesem Verzeichnis zugewiesen. "
+"Wenn Sie ein neues Verzeichnis konfigurieren wird die alte Einstellung "
+"automatisch gel&ouml;scht."
+
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:14
+#. Context: <select name="mountpoints_field[sctencoder]" class="list_editor_field" size="1" id="sct2_encoder">
+#. <option value="aacp">{="AAC+"}</option>
+#. <option value="mp3">{="MP3"}</option>
+#.
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:14
+msgid "AAC+"
+msgstr ""
+
+#. File system/class_SystemControl.php:1279
+#.
+#: system/class_SystemControl.php:1279
+msgid "Account created"
+msgstr "Konto erstellt"
+
+#. File system/class_SystemControl.php:1279
+#.
+#: system/class_SystemControl.php:1279
+msgid "Account created successfully, but stream could not be started"
+msgstr ""
+"Konto erfolgreich erstellt, aber der Stream konnte nicht gestartet werden"
+
+#. File system/class_AccountControl.php:266
+#.
+#. File system/class_AccountControl.php:231
+#.
+#: system/class_AccountControl.php:266 system/class_AccountControl.php:231
+msgid "Account does not exist"
+msgstr "Konto existiert nicht"
+
+#. File system/class_AccountControl.php:195
+#.
+#. File system/class_AccountControl.php:167
+#.
+#. File system/import/class_ThirdPartyImport.php:55
+#.
+#: system/class_AccountControl.php:195 system/class_AccountControl.php:167
+#: system/import/class_ThirdPartyImport.php:55
+msgid "Account does not exist in database"
+msgstr "Konto existiert nicht in der Datenbank"
+
+#. File system/class_ServerControl.php:18
+#.
+#: system/class_ServerControl.php:18
+msgid "Account is disabled"
+msgstr "Konto ist inaktiv"
+
+#. File system/class_ServerControl.php:2429
+#.
+#: system/class_ServerControl.php:2429
+msgid "Account updated"
+msgstr "Konto aktualisiert"
+
+#. File system/class_AccountFields.php:760
+#.
+#: system/class_AccountFields.php:760
+msgid "Actiate start page"
+msgstr "Aktiviere pers&ouml;nliche Streamseite"
+
+#. File system/servers/WindowsMedia/class_WindowsMediaConfig.php:27
+#.
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:30
+#.
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:14
+#.
+#. File system/servers/IceCast/class_IceCastConfig.php:62
+#.
+#: system/servers/WindowsMedia/class_WindowsMediaConfig.php:27
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:30
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:14
+#: system/servers/IceCast/class_IceCastConfig.php:62
+msgid "Advanced"
+msgstr "Erweitert"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:33
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:98
+#. Context: <tr>
+#. <td width="130">{="Advertise in directory"}:</td>
+#. <td>
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:33
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:98
+msgid "Advertise in directory"
+msgstr "Werben im Verzeichnis"
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:151
+#. Context: <tr>
+#. <td>{="Advertised bit rate"}:</td>
+#. <td><input type="text" name="mountpoints_field[bitrate]" class="list_editor_field" size="5" value="" /> ({="blank =
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:151
+msgid "Advertised bit rate"
+msgstr "Bitrate der Werbung"
+
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:602
+#.
+#. File system/sources/sctrans2/templates/configuration_source.tpl:40
+#. Context: <tr>
+#. <td width="60">{="AIM"}:&nbsp;</td>
+#. <td><input type="text" name="config[sctransaim]" size="20" value="{$config.sctransaim|htmlentities}" /> {$errors
+#.
+#. File system/sources/sctrans/class_Sourcesctrans.php:238
+#.
+#. File system/sources/sctrans/templates/configuration_source.tpl:18
+#. Context: <td width="60" style="text-align: right">{="AIM"}:&nbsp;</td>
+#. <td><input type="text" name="config[sctransaim]" size="30" value="{$config.sctransaim|htmlentities}" /> {$error
+#.
+#: system/sources/sctrans2/class_Sourcesctrans2.php:602
+#: system/sources/sctrans2/templates/configuration_source.tpl:40
+#: system/sources/sctrans/class_Sourcesctrans.php:238
+#: system/sources/sctrans/templates/configuration_source.tpl:18
+msgid "AIM"
+msgstr ""
+
+#. File system/plugins/-ads_amazon/hooks.php:162
+#. Arguments: 'Amazon&reg;'
+#.
+#. File system/plugins/-ads_amazon/hooks.php:115
+#. Arguments: 'Amazon&reg;'
+#.
+#. File system/albumds/class_AlbumDataSource_amazon.php:364
+#. Arguments: 'Amazon&reg;'
+#.
+#. File system/albumds/class_AlbumDataSource_amazon.php:355
+#. Arguments: 'Amazon&reg;'
+#.
+#: system/plugins/-ads_amazon/hooks.php:162
+#: system/plugins/-ads_amazon/hooks.php:115
+#: system/albumds/class_AlbumDataSource_amazon.php:364
+#: system/albumds/class_AlbumDataSource_amazon.php:355
+msgid "Allow client-specified %s affiliate IDs"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:64
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:7
+#. Context: <tr>
+#. <td width="200">{="Allow other servers to relay stream"}:</td>
+#. <td>
+#.
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:48
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_relay.tpl:7
+#. Context: <tr>
+#. <td width="200">{="Allow other servers to relay stream"}:</td>
+#. <td>
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:64
+#: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:7
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:48
+#: system/servers/ShoutCast/templates/configuration_client_relay.tpl:7
+msgid "Allow other servers to relay stream"
+msgstr "Andere Streamserver k&ouml;nnen Ihr Programm empfangen"
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:65
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:16
+#. Context: <tr>
+#. <td>{="Allow relays to make stream public"}:</td>
+#. <td>
+#.
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:49
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_relay.tpl:16
+#. Context: <tr>
+#. <td>{="Allow relays to make stream public"}:</td>
+#. <td>
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:65
+#: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:16
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:49
+#: system/servers/ShoutCast/templates/configuration_client_relay.tpl:16
+msgid "Allow relays to make stream public"
+msgstr ""
+"Erlaube Relay Streams sich selber mit Ihren Programm &Ouml;ffentlich im "
+"Verzeichnis einzutragen"
+
+#. File system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:23
+#. Context: ed="selected"{/if}>{="Never"}</option>
+#. <option value="always"{if $config.publicserver=="always"} selected="selected"{/if}>{="Always"}</option>
+#. </select> {$errors.publicserver|checkerror}
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_overrides.tpl:23
+#. Context: ed="selected"{/if}>{="Never"}</option>
+#. <option value="always"{if $config.publicserver=="always"} selected="selected"{/if}>{="Always"}</option>
+#. </select> {$errors.publicserver|checkerror}
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:102
+#. Context: ed="selected"{/if}>{="Determined by source"}</option>
+#. <option value="1"{if $config.public=="1"} selected="selected"{/if}>{="Always"}</option>
+#. <option value="0"{if $config.public=="0"} selected="selected"{/if}>{="Never"}</option>
+#.
+#. File system/albumds/class_AlbumDataSource.php:277
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:23
+#: system/servers/ShoutCast/templates/configuration_client_overrides.tpl:23
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:102
+#: system/albumds/class_AlbumDataSource.php:277
+msgid "Always"
+msgstr "Immer"
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:59
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:22
+#. Context: <tr>
+#. <td>{="Always disconnect listeners after"}:</td>
+#. <td><input type="text" name="config[listenertimer]" size="5" value="{$config.listenertimer|htmlentities}" /> {="minute
+#.
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:43
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:18
+#. Context: <tr>
+#. <td>{="Always disconnect listeners after"}:</td>
+#. <td><input type="text" name="config[listenertimer]" size="5" value="{$config.listenertimer|htmlentities}" /> {="minut
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:59
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:22
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:43
+#: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:18
+msgid "Always disconnect listeners after"
+msgstr "Trennen Sie Zuhörer nach"
+
+#. File system/plugins/-ads_amazon/hooks.php:143
+#.
+#. File system/plugins/-ads_amazon/hooks.php:107
+#.
+#. File system/plugins/-ads_amazon/hooks.php:85
+#.
+#: system/plugins/-ads_amazon/hooks.php:143
+#: system/plugins/-ads_amazon/hooks.php:107
+#: system/plugins/-ads_amazon/hooks.php:85
+msgid "Amazon.com"
+msgstr ""
+
+#. File system/class_UserSession.php:488
+#.
+#: system/class_UserSession.php:488
+msgid "and"
+msgstr "und"
+
+#. File system/class_ServerControl.php:955
+#. Arguments: $app->type
+#.
+#. File system/class_ServerControl.php:940
+#. Arguments: $app->type
+#.
+#: system/class_ServerControl.php:955 system/class_ServerControl.php:940
+msgid "Application %s exited immediately after startup"
+msgstr "Anwendung %s wurde sofort nach dem Start beendet"
+
+#. File system/class_ServerControl.php:876
+#. Arguments: $app->type
+#.
+#: system/class_ServerControl.php:876
+msgid "Application %s is already running"
+msgstr "Die Anwendung %s wird bereits ausgef&uuml;hrt"
+
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:607
+#.
+#. File system/sources/sctrans2/templates/configuration_source.tpl:30
+#. Context: <td width="140" style="text-align: right">{="Apply replay gain"}:&nbsp;</td>
+#. <td>
+#.
+#: system/sources/sctrans2/class_Sourcesctrans2.php:607
+#: system/sources/sctrans2/templates/configuration_source.tpl:30
+msgid "Apply replay gain"
+msgstr ""
+
+#. File system/class_MIMETypes.php:44
+#.
+#: system/class_MIMETypes.php:44
+msgid "Archive"
+msgstr "Archiv"
+
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:614
+#.
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:553
+#.
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:11
+#. Context: <tr>
+#. <td>{="Audio encoder"}:&nbsp;</td>
+#. <td>
+#.
+#: system/sources/sctrans2/class_Sourcesctrans2.php:614
+#: system/sources/sctrans2/class_Sourcesctrans2.php:553
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:11
+msgid "Audio encoder"
+msgstr "Audio enkoder"
+
+#. File system/class_MIMETypes.php:40
+#.
+#. File system/class_MIMETypes.php:39
+#.
+#. File system/class_MIMETypes.php:38
+#.
+#: system/class_MIMETypes.php:40 system/class_MIMETypes.php:39
+#: system/class_MIMETypes.php:38
+msgid "Audio File"
+msgstr "Audiodatei"
+
+#. File system/class_ServerControl.php:2444
+#.
+#: system/class_ServerControl.php:2444
+msgid "Authenticated"
+msgstr "Beglaubigt"
+
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:4
+#. Context: <fieldset id="autodj_tab">
+#. <legend>{="AutoDJ Settings"}</legend>
+#. <table cellspacing="1" cellpadding="0" border="0">
+#.
+#. File system/sources/ices2/class_Ices2ServerInterface.php:249
+#.
+#. File system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:73
+#.
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:4
+#: system/sources/ices2/class_Ices2ServerInterface.php:249
+#: system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:73
+msgid "AutoDJ Settings"
+msgstr "AutoDJ Einstellungen"
+
+#. File system/class_SongRequest.php:49
+#.
+#: system/class_SongRequest.php:49
+msgid "Automated Song Requests"
+msgstr "Automatischer Song Wunsch"
+
+#. File system/servers/WindowsMedia/templates/configuration_client_encoder.tpl:6
+#. Context: {if $config.usesource==1}
+#. <input type="text" disabled="disabled" size="50" value="{="Automatic (AutoDJ enabled)"}" />
+#. <input type="hidden" name="config[path]" value="{$config.path|htmlentities}" />
+#.
+#: system/servers/WindowsMedia/templates/configuration_client_encoder.tpl:6
+msgid "Automatic (AutoDJ enabled)"
+msgstr "AutoDJ wurde automatisch aktiviert"
+
+#. File system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:21
+#. Context: ame="config[publicserver]" size="1">
+#. <option value="default"{if $config.publicserver=="default"} selected="selected"{/if}>{="Automatic (determined by source)"}</option>
+#. <option value="never"{if $config.publicserver=="never"} selected="selected"{/if}>{="Never"}</option>
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_overrides.tpl:21
+#. Context: ame="config[publicserver]" size="1">
+#. <option value="default"{if $config.publicserver=="default"} selected="selected"{/if}>{="Automatic (determined by source)"}</option>
+#. <option value="never"{if $config.publicserver=="never"} selected="selected"{/if}>{="Never"}</option>
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:21
+#: system/servers/ShoutCast/templates/configuration_client_overrides.tpl:21
+msgid "Automatic (determined by source)"
+msgstr "Automatisch (Streamserver bestimmt selber)"
+
+#. File system/class_ServerControl.php:1904
+#.
+#: system/class_ServerControl.php:1904
+msgid "Automatically unsuspending account after suspension from previous month"
+msgstr ""
+"Automatische entsperrung des Accounts im n&auml;chsten Monat nach der "
+"Sperrung"
+
+#. File system/class_AccountFields.php:359
+#.
+#: system/class_AccountFields.php:359
+msgid "Basic Configuration"
+msgstr "Grundlagen"
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:156
+#. Context: "MIME type"}:</td>
+#. <td><input type="text" name="mountpoints_field[type]" class="list_editor_field" size="20" value="" /> ({="blank = auto"})</td>
+#. </tr>
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:152
+#. Context: bit rate"}:</td>
+#. <td><input type="text" name="mountpoints_field[bitrate]" class="list_editor_field" size="5" value="" /> ({="blank = auto"})</td>
+#. </tr>
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:156
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:152
+msgid "blank = auto"
+msgstr "leerlassen = Automatisch"
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:144
+#. Context: m URL"}:</td>
+#. <td><input type="text" name="mountpoints_field[streamurl]" class="list_editor_field" size="20" value="" /> ({="blank = use master"})</td>
+#. </tr>
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:148
+#. Context: nre"}:</td>
+#. <td><input type="text" name="mountpoints_field[streamgenre]" class="list_editor_field" size="20" value="" /> ({="blank = use master"})</td>
+#. </tr>
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:140
+#. Context: </td>
+#. <td><input type="text" name="mountpoints_field[streamdescription]" class="list_editor_field" size="20" value="" /> ({="blank = use master"})</td>
+#. </tr>
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:136
+#. Context: name"}:</td>
+#. <td><input type="text" name="mountpoints_field[streamname]" class="list_editor_field" size="20" value="" /> ({="blank = use master"})</td>
+#. </tr>
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:113
+#. Context: ssword"}:</td>
+#. <td><input type="text" name="mountpoints_field[password]" class="list_editor_field" size="15" value="" /> ({="blank = use master"})</td>
+#. </tr>
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:109
+#. Context: ername"}:</td>
+#. <td><input type="text" name="mountpoints_field[username]" class="list_editor_field" size="15" value="" /> ({="blank = use master"})</td>
+#. </tr>
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:144
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:148
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:140
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:136
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:113
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:109
+msgid "blank = use master"
+msgstr "leerlassen = Hauptverzeichniss"
+
+#. File system/class_TrackManager.php:135
+#.
+#: system/class_TrackManager.php:135
+msgid "Building file list"
+msgstr "Liste wird erstellt"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:113
+#.
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:47
+#. Context: <tr>
+#. <td>{="Burst on connect"}:&nbsp;</td>
+#. <td>
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:113
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:47
+msgid "Burst on connect"
+msgstr ""
+
+#. File system/servers/IceCast/class_IceCastConfig.php:114
+#.
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:54
+#. Context: </td>
+#. <td>{="Burst size"}:</td>
+#. <td><input type="text" name="config[burstsize]" size="8" value="{$config.burstsize|htmlentities}" /> {$errors.burstsiz
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:114
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:54
+msgid "Burst size"
+msgstr ""
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:125
+#. Context: </td>
+#. <td><input type="text" name="mountpoints_field[mp3metadatainterval]" class="list_editor_field" size="5" value="" /> {="byte(s)"} ({="0 = suppress metadata"})</td>
+#. </tr>
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:125
+msgid "byte(s)"
+msgstr ""
+
+#. File system/servers/WindowsMedia/class_WindowsMediaConfig.php:38
+#.
+#. File system/servers/WindowsMedia/templates/configuration_client_advanced.tpl:11
+#. Context: <tr>
+#. <td>{="Cache delivery rate"}:</td>
+#. <td><input type="text" name="config[playercdr]" size="6" value="{$config.playercdr|htmlentities}" /> {$errors.playercd
+#.
+#: system/servers/WindowsMedia/class_WindowsMediaConfig.php:38
+#: system/servers/WindowsMedia/templates/configuration_client_advanced.tpl:11
+msgid "Cache delivery rate"
+msgstr "Cache-Übermittlungsrate"
+
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:608
+#.
+#. File system/sources/sctrans2/templates/configuration_source.tpl:43
+#. Context: <td width="140" style="text-align: right">{="Calculate replay gain"}:&nbsp;</td>
+#. <td>
+#.
+#: system/sources/sctrans2/class_Sourcesctrans2.php:608
+#: system/sources/sctrans2/templates/configuration_source.tpl:43
+msgid "Calculate replay gain"
+msgstr ""
+
+#. File system/class_MIMETypes.php:30
+#.
+#: system/class_MIMETypes.php:30
+msgid "Calendar File"
+msgstr "Kalenderdatei"
+
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:50
+#. Context: <select name="mountpoints_field[sctmp3mode]" class="list_editor_field" size="1">
+#. <option value="0">{="CBR"}</option>
+#. <option value="1">{="VBR High"}</option>
+#.
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:50
+msgid "CBR"
+msgstr ""
+
+#. File system/class_SystemControl.php:1668
+#. Arguments: $username,
+#. __($acctstatus),
+#. __($options['status']),
+#. ($options['cascading'] ? ' (' . __('triggered by reseller status change') . ')' : '')
+#.
+#: system/class_SystemControl.php:1668
+msgid "Changed status for account %s from %s to %s%s"
+msgstr "&Auml;ndere Status des Accounts %s von %s auf %s%s"
+
+#. File system/class_TrackManager.php:169
+#.
+#: system/class_TrackManager.php:169
+msgid "Checking for tracks without album data"
+msgstr "Suche nach Titel ohne Albumdaten"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:110
+#.
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:37
+#. Context: ext" name="config[queuesize]" size="8" value="{$config.queuesize|htmlentities}" /> {$errors.queuesize|checkerror} </td>
+#. <td>{="Client timeout"}:</td>
+#. <td><input type="text" name="config[clienttimeout]" size="8" value="{$config.clienttimeout|htmlentities}" /> {$errors.
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:110
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:37
+msgid "Client timeout"
+msgstr "Client timeout"
+
+#. File system/class_AccountFields.php:809
+#.
+#: system/class_AccountFields.php:809
+msgid "Cluster"
+msgstr ""
+
+#. File system/class_AccountFields.php:771
+#.
+#: system/class_AccountFields.php:771
+msgid "Cluster host"
+msgstr ""
+
+#. File system/servers/ShoutCast/templates/configuration_client_relay.tpl:26
+#. Context: <tr><td colspan="2"><br /><br /></td></tr>
+#. <tr><td colspan="2">{="Configures relaying of other streams by your server.  The remote server will act as a source for your stream."}<br /><br /></td></tr>
+#.
+#: system/servers/ShoutCast/templates/configuration_client_relay.tpl:26
+msgid ""
+"Configures relaying of other streams by your server.  The remote server will "
+"act as a source for your stream."
+msgstr ""
+"Steuern Sie hier ob Sie selber als Relay auftreten wollen und das Programm "
+"eines fremdem Senders abspielen wollen. (Beachten Sie bitte, dass die "
+"entfernte Quelle dies selber erlaubt haben muss, damit Sie das Programm "
+"empfangen k&ouml;nnen.)"
+
+#. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:4
+#. Context: <tr><td colspan="2">{="Configures relaying of your stream by other servers, where your stream will act as a source for the remote server."}<br /><br /></td></tr>
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:4
+msgid ""
+"Configures relaying of your stream by other servers, where your stream will "
+"act as a source for the remote server."
+msgstr ""
+"Steuert die weitergabe Ihres Streams an andere Sender, wann immer Sie als "
+"Quelle f&uuml;r den Remoteserver dienen."
+
+#. File system/servers/ShoutCast/templates/configuration_client_relay.tpl:4
+#. Context: <tr><td colspan="2">{="Configures relaying of your stream by other servers.  Your stream will act as a source for the remote server."}<br /><br /></td></tr>
+#.
+#: system/servers/ShoutCast/templates/configuration_client_relay.tpl:4
+msgid ""
+"Configures relaying of your stream by other servers.  Your stream will act "
+"as a source for the remote server."
+msgstr ""
+"Steuert die weitergabe Ihres Streams an andere Sender, wann immer Sie als "
+"Quelle f&uuml;r den Remoteserver dienen."
+
+#. File system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:4
+#. Context: <tr><td colspan="2">{="Controls the title and URL shown in media players.  Use %s to insert the title/URL provided by the source."}<br /><br /></td></tr>
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_overrides.tpl:4
+#. Context: <tr><td colspan="2">{="Controls the title and URL shown in media players.  Use %s to insert the title/URL provided by the source."}<br /><br /></td></tr>
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:4
+#: system/servers/ShoutCast/templates/configuration_client_overrides.tpl:4
+msgid ""
+"Controls the title and URL shown in media players.  Use %s to insert the "
+"title/URL provided by the source."
+msgstr ""
+"Geben Sie hier an was Ihre Zuh&ouml;rer in Ihren Playern zu sehen bekommen. "
+"Verwenden Sie %s um zum Beispiel den Titel und die URL welche Sie in den "
+"Einstellungen angegeben haben automatisch mit jedem Titel auszugeben."
+
+#. File system/class_ServerControl.php:930
+#. Arguments: $app->type
+#.
+#: system/class_ServerControl.php:930
+msgid "Could not start %s application"
+msgstr ""
+
+#. File system/class_ServerControl.php:815
+#.
+#. File system/class_ServerControl.php:804
+#.
+#: system/class_ServerControl.php:815 system/class_ServerControl.php:804
+msgid "Could not start server"
+msgstr "Konnte Server nicht starten"
+
+#. File system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:17
+#. Context: <input type="button" id="mountpoints_new" value="{="Create new"}" />
+#. <input type="button" id="mountpoints_remove" value="{="Remove"}" />
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:22
+#. Context: <input type="button" id="mountpoints_new" value="{="Create new"}" />
+#. <input type="button" id="mountpoints_remove" value="{="Remove"}" />
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:17
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:22
+msgid "Create new"
+msgstr "Neu erstellen"
+
+#. File system/sources/sctrans/class_Sourcesctrans.php:240
+#.
+#. File system/sources/sctrans/templates/configuration_source.tpl:4
+#. Context: <tr>
+#. <td width="140">{="Crossfade mode"}:&nbsp;</td>
+#. <td colspan="3">
+#.
+#: system/sources/sctrans/class_Sourcesctrans.php:240
+#: system/sources/sctrans/templates/configuration_source.tpl:4
+msgid "Crossfade mode"
+msgstr ""
+
+#. File system/sources/icescc/templates/configuration_source.tpl:5
+#. Context: <tr>
+#. <td width="140">{="Crossfade style"}:&nbsp;</td>
+#. <td>
+#.
+#: system/sources/icescc/templates/configuration_source.tpl:5
+msgid "Crossfade style"
+msgstr "Crossfade Style"
+
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:606
+#.
+#. File system/sources/sctrans2/templates/configuration_source.tpl:7
+#. Context: <tr>
+#. <td>{="Crossfade threshold"}:&nbsp;</td>
+#. <td><input type="text" name="config[sctransfadethreshold]" size="5" value="{$config.sctransfadethreshold|htmlent
+#.
+#: system/sources/sctrans2/class_Sourcesctrans2.php:606
+#: system/sources/sctrans2/templates/configuration_source.tpl:7
+msgid "Crossfade threshold"
+msgstr ""
+
+#. File system/class_MIMETypes.php:31
+#.
+#: system/class_MIMETypes.php:31
+msgid "CSS File"
+msgstr "CSS Datei"
+
+#. File system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:6
+#. Context: {="Current mount points"}:<br />
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:11
+#. Context: {="Current mount points"}:<br />
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:6
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:11
+msgid "Current mount points"
+msgstr "Aktuelle Mountpoints"
+
+#. File system/plugins/-ads_amazon/hooks.php:157
+#. Arguments: 'Amazon&reg;'
+#.
+#. File system/plugins/-ads_amazon/hooks.php:120
+#. Arguments: 'Amazon&reg;'
+#.
+#. File system/albumds/class_AlbumDataSource_amazon.php:369
+#. Arguments: 'Amazon&reg;'
+#.
+#. File system/albumds/class_AlbumDataSource_amazon.php:350
+#. Arguments: 'Amazon&reg;'
+#.
+#: system/plugins/-ads_amazon/hooks.php:157
+#: system/plugins/-ads_amazon/hooks.php:120
+#: system/albumds/class_AlbumDataSource_amazon.php:369
+#: system/albumds/class_AlbumDataSource_amazon.php:350
+msgid "Default %s affiliate ID"
+msgstr ""
+
+#. File system/class_AccountFields.php:335
+#.
+#. File www/system/templates/admin_settings.tpl:181
+#. Context: <tr>
+#. <td>{="Default character encoding for new servers"}:</td>
+#. <td>
+#.
+#: system/class_AccountFields.php:335
+#: www/system/templates/admin_settings.tpl:181
+msgid "Default character encoding for new servers"
+msgstr "Standard-Zeichenkodierung f&uuml;r neue Server"
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:101
+#. Context: _field[public]" size="1" class="list_editor_field">
+#. <option value="-1"{if $config.public=="-1"} selected="selected"{/if}>{="Determined by source"}</option>
+#. <option value="1"{if $config.public=="1"} selected="selected"{/if}>{="Always"}</option>
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:101
+msgid "Determined by source"
+msgstr ""
+
+#. File system/class_AccountFields.php:755
+#.
+#: system/class_AccountFields.php:755
+msgid "Diagnostic mode"
+msgstr ""
+
+#. File system/class_ServerControl.php:982
+#.
+#: system/class_ServerControl.php:982
+msgid "Diagnostic output from streaming software:"
+msgstr ""
+
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:59
+#. Context: <h1>{="Directory listings"}</h1>
+#. <table cellspacing="1" cellpadding="0" border="0">
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:59
+msgid "Directory listings"
+msgstr ""
+
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:52
+#.
+#. File system/servers/IceCast/class_IceCastConfig.php:117
+#.
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:8
+#. Context: <tr>
+#. <td>{="Directory listings timeout"}:</td>
+#. <td><input type="text" name="config[directorytimeout]" size="6" value="{$config.directorytimeout|htmlentities}" /> {$e
+#.
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:52
+#: system/servers/IceCast/class_IceCastConfig.php:117
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:8
+msgid "Directory listings timeout"
+msgstr "Timeout"
+
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:51
+#.
+#. File system/servers/IceCast/class_IceCastConfig.php:116
+#.
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:4
+#. Context: <tr>
+#. <td width="130">{="Directory listings URL"}:</td>
+#. <td><input type="text" name="config[directoryurl]" size="50" value="{$config.directoryurl|htmlentities}" /> {$errors.d
+#.
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:51
+#: system/servers/IceCast/class_IceCastConfig.php:116
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:4
+msgid "Directory listings URL"
+msgstr "URL für &Oouml;ffentliche Listung"
+
+#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:33
+#. Context: <tr>
+#. <td>{="Directory port (Yport)"}:</td>
+#. <td><input type="text" name="config[yport]" size="6" value="{$config.yport|htmlentities}" /> {$errors.yport|checkerro
+#.
+#: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:33
+msgid "Directory port (Yport)"
+msgstr ""
+
+#. File system/class_SystemControl.php:1662
+#.
+#: system/class_SystemControl.php:1662
+msgid "disabled"
+msgstr ""
+
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:31
+#. Context: <select name="config[namelookups]" size="1">
+#. <option value="0"{if $config.namelookups==0} selected="selected"{/if}>{="Disabled (use IP addresses only)"}</option>
+#. <option value="1"{if $config.namelookups>0} selected="selected"{/if}>{="Enabled (may cause delays)"}</option>
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:27
+#. Context: <select name="config[namelookups]" size="1">
+#. <option value="0"{if $config.namelookups==0} selected="selected"{/if}>{="Disabled (use IP addresses only)"}</option>
+#. <option value="1"{if $config.namelookups>0} selected="selected"{/if}>{="Enabled (may cause delays)"}</option>
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:31
+#: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:27
+msgid "Disabled (use IP addresses only)"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:58
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:9
+#. Context: <tr>
+#. <td>{="Disconnect idle sources after"}:</td>
+#. <td><input type="text" name="config[autodumpsourcetime]" size="6" value="{$config.autodumpsourcetime|htmlentities}" />
+#.
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:42
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:13
+#. Context: <tr>
+#. <td>{="Disconnect idle sources after"}:</td>
+#. <td><input type="text" name="config[autodumpsourcetime]" size="6" value="{$config.autodumpsourcetime|htmlentities}" /
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:58
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:9
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:42
+#: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:13
+msgid "Disconnect idle sources after"
+msgstr ""
+"Trennen Sie unt&auml;tige Verbindungen zum Streamserver automatisch nach"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:39
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:120
+#. Context: <tr>
+#. <td>{="Disconnect listeners after"}:</td>
+#. <td><input type="text" name="mountpoints_field[maxlistenerduration]" class="list_editor_field" size="5" value="" />
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:39
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:120
+msgid "Disconnect listeners after"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:57
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:13
+#. Context: <tr>
+#. <td>{="Disconnect listeners if source disconnects"}:&nbsp;</td>
+#. <td>
+#.
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:41
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:4
+#. Context: <tr>
+#. <td>{="Disconnect listeners if source disconnects"}:&nbsp;</td>
+#. <td>
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:57
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:13
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:41
+#: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:4
+msgid "Disconnect listeners if source disconnects"
+msgstr "Zuh&ouml;rer trennen wenn Streamserver nicht erreichbar"
+
+#. File system/class_ServerControl.php:2005
+#. Arguments: $action
+#.
+#: system/class_ServerControl.php:2005
+msgid "Disk quota exceeded; account has been automatically %s"
+msgstr ""
+
+#. File system/albumds/class_AlbumDataSource_custom.php:17
+#.
+#: system/albumds/class_AlbumDataSource_custom.php:17
+msgid "Displays any custom image that you may have configured for the album."
+msgstr ""
+"Bezieht die Bilddatei, welche Sie explizit beiden einzelnen Alben-/"
+"Musiktitel angegeben haben."
+
+#. File system/servers/WindowsMedia/class_WindowsMediaConfig.php:37
+#.
+#. File system/servers/WindowsMedia/templates/configuration_client_advanced.tpl:7
+#. Context: <tr>
+#. <td>{="Distribution bandwidth limit"}:</td>
+#. <td><input type="text" name="config[distbitrate]" size="6" value="{$config.distbitrate|htmlentities}" /> {$errors.dist
+#.
+#: system/servers/WindowsMedia/class_WindowsMediaConfig.php:37
+#: system/servers/WindowsMedia/templates/configuration_client_advanced.tpl:7
+msgid "Distribution bandwidth limit"
+msgstr ""
+
+#. File system/servers/WindowsMedia/class_WindowsMediaConfig.php:36
+#.
+#. File system/servers/WindowsMedia/templates/configuration_client_advanced.tpl:3
+#. Context: <tr>
+#. <td width="150">{="Distribution connection limit"}:</td>
+#. <td><input type="text" name="config[distmaxclients]" size="50" value="{$config.distmaxclients|htmlentities}" /> {$erro
+#.
+#: system/servers/WindowsMedia/class_WindowsMediaConfig.php:36
+#: system/servers/WindowsMedia/templates/configuration_client_advanced.tpl:3
+msgid "Distribution connection limit"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:69
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:69
+msgid "DNS lookups"
+msgstr ""
+
+#. File system/class_LogProcessor.php:610
+#.
+#. File system/class_LogProcessor.php:713
+#.
+#. File www/system/templates/admin_sessions.tpl:27
+#. Context: <th class="sorttable_alpha">{="Login Time"}</th>
+#. <th class="sorttable_numeric">{="Duration"}</th>
+#. <th class="sorttable_alpha">{="IP Address"}</th>
+#.
+#: system/class_LogProcessor.php:610 system/class_LogProcessor.php:713
+#: www/system/templates/admin_sessions.tpl:27
+msgid "Duration"
+msgstr ""
+
+#. File system/class_CastMailer.php:85
+#.
+#: system/class_CastMailer.php:85
+msgid "E-mail delivery test"
+msgstr ""
+
+#. File system/albumds/class_AlbumDataSource_embedded.php:9
+#.
+#: system/albumds/class_AlbumDataSource_embedded.php:9
+msgid "Embedded (ID3/metadata)"
+msgstr "Musiktitel (Metadaten/ID3)"
+
+#. File system/class_SystemControl.php:1662
+#.
+#: system/class_SystemControl.php:1662
+msgid "enabled"
+msgstr "aktiviert"
+
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:32
+#. Context: "{/if}>{="Disabled (use IP addresses only)"}</option>
+#. <option value="1"{if $config.namelookups>0} selected="selected"{/if}>{="Enabled (may cause delays)"}</option>
+#. </select> {$errors.namelookups|checkerror}
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:28
+#. Context: {/if}>{="Disabled (use IP addresses only)"}</option>
+#. <option value="1"{if $config.namelookups>0} selected="selected"{/if}>{="Enabled (may cause delays)"}</option>
+#. </select> {$errors.namelookups|checkerror}
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:32
+#: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:28
+msgid "Enabled (may cause delays)"
+msgstr ""
+
+#. File system/sources/ices/srvintf/class_SingleMountIcesServerInterface.php:66
+#.
+#. File system/servers/WindowsMedia/class_WindowsMediaConfig.php:26
+#.
+#: system/sources/ices/srvintf/class_SingleMountIcesServerInterface.php:66
+#: system/servers/WindowsMedia/class_WindowsMediaConfig.php:26
+msgid "Encoder"
+msgstr "Enkoder"
+
+#. File system/class_LogProcessor.php:610
+#.
+#: system/class_LogProcessor.php:610
+msgid "End time"
+msgstr ""
+
+#. File system/pluginapi/class_PluginHooks.php:89
+#. Arguments: $pluginname
+#.
+#: system/pluginapi/class_PluginHooks.php:89
+msgid "Error in %s"
+msgstr ""
+
+#. File system/class_CastMailer.php:160
+#. Arguments: $this->settings['senderemail'],$firstrecipient
+#.
+#: system/class_CastMailer.php:160
+msgid "Error sending message from %s to %s"
+msgstr ""
+
+#. File system/class_CastMailer.php:164
+#. Arguments: $message->error
+#.
+#: system/class_CastMailer.php:164
+msgid "Error: %s"
+msgstr ""
+
+#. File system/sources/icescc/templates/configuration_source.tpl:8
+#. Context: <select name="config[icescrossmix]" size="1">
+#. <option value="0"{if $config.icescrossmix==0} selected="selected"{/if}>{="Fade current track out, fade next in"}</option>
+#. <option value="1"{if $config.icescrossmix>0} selected="selected"{/if}>{="Mix only (full volume, no fading)"}</opti
+#.
+#: system/sources/icescc/templates/configuration_source.tpl:8
+msgid "Fade current track out, fade next in"
+msgstr "Fade bei Titelende und Start (sanfter &Uuml;bergang)"
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:45
+#. Context: <tr>
+#. <td>{="Fallback clip"}:</td>
+#. <td>
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:45
+msgid "Fallback clip"
+msgstr "Fallback Datei"
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:7
+#. Context: {language}
+#. fallback_file_set_title: '{="Fallback clip assigned"}',
+#. fallback_file_set_message: '{="A fallback clip has already been assigned for this mount point.  If you configure a fallback
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:7
+msgid "Fallback clip assigned"
+msgstr ""
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:60
+#. Context: <fieldset>
+#. <legend>{="Fallback Mount"}</legend>
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:60
+msgid "Fallback Mount"
+msgstr "Fallback Mountpoint"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:30
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:65
+#. Context: <tr>
+#. <td width="130">{="Fallback mount point"}:</td>
+#. <td>
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:30
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:65
+msgid "Fallback mount point"
+msgstr ""
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:63
+#. Context: <table cellspacing="1" cellpadding="0" border="0">
+#. <tr id="ic_fallback_disabled"><td colspan="2">{="Fallback mount points are configured automatically for seamless live/autoDJ switching when the autoDJ is enabled."}</td></tr>
+#. <tr>
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:63
+msgid ""
+"Fallback mount points are configured automatically for seamless live/autoDJ "
+"switching when the autoDJ is enabled."
+msgstr "Fallback Mountpoints werden automatisch für den nahtlose Live / AutoDJ &uuml;bergang konfiguriert, wenn der AutoDJ aktiviert ist."
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:69
+#. Context: {tip type="icon"}
+#. {="Fallback mounts are used to move listeners to an alternate mount point if no source is connected to this mount point.  Be sure to create the mount point to be used as a fallback before entering it here."}<br /><br />
+#. {/tip}
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:69
+msgid ""
+"Fallback mounts are used to move listeners to an alternate mount point if no "
+"source is connected to this mount point.  Be sure to create the mount point "
+"to be used as a fallback before entering it here."
+msgstr ""
+
+#. File system/servers/IceCast/class_IceCastConfig.php:31
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:74
+#. Context: <tr>
+#. <td>{="Fallback override"}:</td>
+#. <td>
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:31
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:74
+msgid "Fallback override"
+msgstr ""
+
+#. File system/servers/IceCast/class_IceCastConfig.php:32
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:83
+#. Context: <tr>
+#. <td>{="Fallback when full"}:</td>
+#. <td>
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:32
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:83
+msgid "Fallback when full"
+msgstr ""
+
+#. File system/servers/WindowsMedia/class_WindowsMediaConfig.php:39
+#.
+#. File system/servers/WindowsMedia/templates/configuration_client_advanced.tpl:15
+#. Context: <tr>
+#. <td>{="FEC packet span"}:</td>
+#. <td><input type="text" name="config[fecpktspan]" size="6" value="{$config.fecpktspan|htmlentities}" /> {$errors.fecpkt
+#.
+#: system/servers/WindowsMedia/class_WindowsMediaConfig.php:39
+#: system/servers/WindowsMedia/templates/configuration_client_advanced.tpl:15
+msgid "FEC packet span"
+msgstr ""
+
+#. File system/class_ServerControl.php:502
+#.
+#: system/class_ServerControl.php:502
+msgid "File copied successfully"
+msgstr "Datei erfolgreich kopiert"
+
+#. File system/class_ServerControl.php:1989
+#.
+#. File system/class_ServerControl.php:1849
+#.
+#: system/class_ServerControl.php:1989 system/class_ServerControl.php:1849
+msgid "forwarded to an administrator for review"
+msgstr "An einen Administrator weitergeleitet"
+
+#. File system/class_LogProcessor.php:713
+#.
+#: system/class_LogProcessor.php:713
+msgid "Frequency"
+msgstr ""
+
+#. File system/class_MIMETypes.php:51
+#.
+#: system/class_MIMETypes.php:51
+msgid "GZipped Archive"
+msgstr "GZIP Archiv"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:111
+#.
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:41
+#. Context: <tr>
+#. <td>{="Header timeout"}:</td>
+#. <td><input type="text" name="config[headertimeout]" size="8" value="{$config.headertimeout|htmlentities}" /> {$errors.
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:111
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:41
+msgid "Header timeout"
+msgstr ""
+
+#. File system/upgradeutil.php:459
+#.
+#. File system/class_AccountControl.php:84
+#.
+#. File system/upgrade/updates/2.0.0b1.inc.php:6
+#.
+#: system/upgradeutil.php:459 system/class_AccountControl.php:84
+#: system/upgrade/updates/2.0.0b1.inc.php:6
+msgid "Heavy Rotation"
+msgstr "Starke Abwechslung"
+
+#. File system/import/class_ThirdPartyImport.php:68
+#.
+#: system/import/class_ThirdPartyImport.php:68
+msgid "Host directory does not exist; aborting"
+msgstr "Host-Verzeichnis existiert nicht, breche ab"
+
+#. File system/class_AccountControl.php:508
+#.
+#: system/class_AccountControl.php:508
+msgid "hostname"
+msgstr ""
+
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:28
+#. Context: <tr>
+#. <td>{="Hostname lookups"}:&nbsp;</td>
+#. <td>
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:24
+#. Context: <tr>
+#. <td>{="Hostname lookups"}:&nbsp;</td>
+#. <td>
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:28
+#: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:24
+msgid "Hostname lookups"
+msgstr ""
+
+#. File system/class_MIMETypes.php:32
+#.
+#: system/class_MIMETypes.php:32
+msgid "HTML File"
+msgstr "HTML Datei"
+
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:20
+#. Arguments: "<br /><br />"
+#. Context: "4" value="{$config.songlengthlimit|htmlentities}" /> {="second(s)"} {$errors.songlengthlimit|checkerror}
+#. {tip type="icon"}{="IceCast's logs only include the start time of each track; they do not provide information about the length of each song.  As such, Centova Cast must determine the length by checking the duration between the start times of each song.  If the server is stopped between songs, however, the song will appear to last for the duration of the outage.%sThis limit is used to ensure that if any song 'appears' to last longer than a certain number of minutes, it will not be included in the track statistics.","<br /><br />"}{/tip}
+#. </td>
+#.
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:20
+msgid ""
+"IceCast's logs only include the start time of each track; they do not "
+"provide information about the length of each song.  As such, Centova Cast "
+"must determine the length by checking the duration between the start times "
+"of each song.  If the server is stopped between songs, however, the song "
+"will appear to last for the duration of the outage.%sThis limit is used to "
+"ensure that if any song 'appears' to last longer than a certain number of "
+"minutes, it will not be included in the track statistics."
+msgstr ""
+
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:601
+#.
+#. File system/sources/sctrans2/templates/configuration_source.tpl:27
+#. Context: <tr>
+#. <td width="140">{="ICQ"}:&nbsp;</td>
+#. <td><input type="text" name="config[sctransicq]" size="20" value="{$config.sctransicq|htmlentities}" /> {$errors
+#.
+#. File system/sources/sctrans/class_Sourcesctrans.php:237
+#.
+#. File system/sources/sctrans/templates/configuration_source.tpl:15
+#. Context: <tr>
+#. <td width="140">{="ICQ"}:&nbsp;</td>
+#. <td><input type="text" name="config[sctransicq]" size="30" value="{$config.sctransicq|htmlentities}" /> {$error
+#.
+#: system/sources/sctrans2/class_Sourcesctrans2.php:601
+#: system/sources/sctrans2/templates/configuration_source.tpl:27
+#: system/sources/sctrans/class_Sourcesctrans.php:237
+#: system/sources/sctrans/templates/configuration_source.tpl:15
+msgid "ICQ"
+msgstr ""
+
+#. File system/class_MIMETypes.php:37
+#.
+#. File system/class_MIMETypes.php:36
+#.
+#. File system/class_MIMETypes.php:35
+#.
+#. File system/class_MIMETypes.php:34
+#.
+#. File system/class_MIMETypes.php:33
+#.
+#: system/class_MIMETypes.php:37 system/class_MIMETypes.php:36
+#: system/class_MIMETypes.php:35 system/class_MIMETypes.php:34
+#: system/class_MIMETypes.php:33
+msgid "Image File"
+msgstr "Bilddatei"
+
+#. File system/class_TrackManager.php:158
+#.
+#: system/class_TrackManager.php:158
+msgid "Import complete, checking for removed tracks"
+msgstr ""
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:37
+#. Context: <tr>
+#. <td>{="Intro clip"}:</td>
+#. <td>
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:37
+msgid "Intro clip"
+msgstr "Intro Datei"
+
+#. File system/class_AccountControl.php:681
+#.
+#: system/class_AccountControl.php:681
+msgid "Invalid listener limit"
+msgstr ""
+
+#. File system/class_ApplicationList.php:91
+#. Arguments: $apptype
+#.
+#: system/class_ApplicationList.php:91
+msgid "Invalid software application type: %s"
+msgstr ""
+
+#. File system/class_UserSession.php:656
+#.
+#. File system/class_UserSession.php:609
+#.
+#: system/class_UserSession.php:656 system/class_UserSession.php:609
+msgid "Invalid username or password"
+msgstr ""
+
+#. File system/class_AccountControl.php:508
+#.
+#: system/class_AccountControl.php:508
+msgid "IP/port combination"
+msgstr ""
+
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:603
+#.
+#. File system/sources/sctrans2/templates/configuration_source.tpl:53
+#. Context: <tr>
+#. <td width="140">{="IRC"}:&nbsp;</td>
+#. <td colspan="3"><input type="text" name="config[sctransirc]" size="20" value="{$config.sctransirc|htmlentities}"
+#.
+#. File system/sources/sctrans/class_Sourcesctrans.php:239
+#.
+#. File system/sources/sctrans/templates/configuration_source.tpl:22
+#. Context: <tr>
+#. <td width="140">{="IRC"}:&nbsp;</td>
+#. <td colspan="3"><input type="text" name="config[sctransirc]" size="30" value="{$config.sctransirc|htmlentities}
+#.
+#: system/sources/sctrans2/class_Sourcesctrans2.php:603
+#: system/sources/sctrans2/templates/configuration_source.tpl:53
+#: system/sources/sctrans/class_Sourcesctrans.php:239
+#: system/sources/sctrans/templates/configuration_source.tpl:22
+msgid "IRC"
+msgstr ""
+
+#. File system/class_LogProcessor.php:713
+#.
+#. File system/class_LogProcessor.php:610
+#.
+#: system/class_LogProcessor.php:713 system/class_LogProcessor.php:610
+msgid "ISRC"
+msgstr ""
+
+#. File system/class_ServerControl.php:1042
+#. Arguments: $linecount
+#.
+#: system/class_ServerControl.php:1042
+msgid "Last %d lines from the relevant log file:"
+msgstr ""
+
+#. File system/upgradeutil.php:489
+#.
+#. File system/class_AccountControl.php:114
+#.
+#. File system/upgrade/updates/2.0.0b1.inc.php:36
+#.
+#: system/upgradeutil.php:489 system/class_AccountControl.php:114
+#: system/upgrade/updates/2.0.0b1.inc.php:36
+msgid "Light Rotation"
+msgstr ""
+
+#. File system/class_AccountFields.php:360
+#.
+#. File system/class_AccountFields.php:807
+#.
+#. File www/system/templates/admin_settings.tpl:89
+#. Context: <fieldset>
+#. <legend>{="Limits"}</legend>
+#.
+#: system/class_AccountFields.php:360 system/class_AccountFields.php:807
+#: www/system/templates/admin_settings.tpl:89
+msgid "Limits"
+msgstr ""
+
+#. File system/servers/WindowsMedia/class_ServerWindowsMedia.php:113
+#.
+#: system/servers/WindowsMedia/class_ServerWindowsMedia.php:113
+msgid "Live Broadcast"
+msgstr ""
+
+#. File system/servers/IceCast/class_IceCastConfig.php:95
+#.
+#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:18
+#. Context: <tr>
+#. <td>{="Local mount point"}:</td>
+#. <td><input type="text" name="config[relaylocalmount]" size="50" value="{$config.relaylocalmount|htmlentities}" /> {$e
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:95
+#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:18
+msgid "Local mount point"
+msgstr "Lokaler Mountpoint"
+
+#. File system/class_ServerControl.php:1026
+#. Arguments: "\n", "\n"
+#.
+#: system/class_ServerControl.php:1026
+msgid ""
+"Log has not been created, which may indicate a permissions problem or %san "
+"inability to run the external application.  Consult the Centova Cast "
+"%sknowledge base."
+msgstr ""
+
+#. File system/class_CastMailer.php:168
+#. Arguments: "\n\n".$message->debuglog
+#.
+#: system/class_CastMailer.php:168
+msgid "Log: %s"
+msgstr ""
+
+#. File system/class_ServerControl.php:2489
+#.
+#: system/class_ServerControl.php:2489
+msgid "Logs archived"
+msgstr "Logdateien archiviert"
+
+#. File system/sources/ices2/class_Ices2ServerInterface.php:219
+#.
+#. File system/sources/ices2/templates/configuration_source_mountpoints.tpl:40
+#. Context: on" value=$config.mountpoints.icesmaximumbitrate} {$errors.maxbitrate|checkerror}</td></td>
+#. <td width="130" align="right">{="Managed"}:&nbsp;</td>
+#. <td>
+#.
+#: system/sources/ices2/class_Ices2ServerInterface.php:219
+#: system/sources/ices2/templates/configuration_source_mountpoints.tpl:40
+msgid "Managed"
+msgstr ""
+
+#. File system/servers/IceCast/class_IceCastConfig.php:104
+#.
+#. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:18
+#. Context: <tr>
+#. <td>{="Master password"}:</td>
+#. <td><input type="password" name="config[masterpassword]" size="12" value="{$config.masterpassword|htmlentities}" /> {
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:104
+#: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:18
+msgid "Master password"
+msgstr "Server Passwort"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:102
+#.
+#. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:10
+#. Context: <tr>
+#. <td>{="Master port"}:</td>
+#. <td><input type="text" name="config[masterport]" size="6" value="{$config.masterport|htmlentities}" /> {$errors.maste
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:102
+#: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:10
+msgid "Master port"
+msgstr "Server Port"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:59
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:59
+msgid "Master Relaying"
+msgstr "Relay Einstellungen"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:101
+#.
+#. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:6
+#. Context: <tr>
+#. <td width="130">{="Master server"}:</td>
+#. <td><input type="text" name="config[masterserver]" size="50" value="{$config.masterserver|htmlentities}" /> {$errors.
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:101
+#: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:6
+msgid "Master server"
+msgstr "Server IP"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:103
+#.
+#. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:14
+#. Context: <tr>
+#. <td>{="Master update interval"}:</td>
+#. <td><input type="text" name="config[masterupdate]" size="6" value="{$config.masterupdate|htmlentities}" /> {$errors.m
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:103
+#: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:14
+msgid "Master update interval"
+msgstr "Update Intervall"
+
+#. File system/class_AccountFields.php:313
+#.
+#. File www/system/templates/configuration_reseller_limits.tpl:43
+#. Context: <tr>
+#. <td>{="Maximum accounts"}:</td>
+#. <td><input type="text" id="resellerusers" name="config[resellerusers]" size="5" maxlength="5" value="{$config.reselle
+#.
+#: system/class_AccountFields.php:313
+#: www/system/templates/configuration_reseller_limits.tpl:43
+msgid "Maximum accounts"
+msgstr ""
+
+#. File system/class_AccountFields.php:319
+#.
+#: system/class_AccountFields.php:319
+msgid "Maximum bandwidth"
+msgstr ""
+
+#. File system/servers/IceCast/class_IceCastConfig.php:107
+#.
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:29
+#. Context: <tr>
+#. <td width="130">{="Maximum sources"}:</td>
+#. <td width="100"><input type="text" name="config[maxsources]" size="8" value="{$config.maxsources|htmlentities}" /> {$e
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:107
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:29
+msgid "Maximum sources"
+msgstr ""
+
+#. File system/class_CastMailer.php:153
+#. Arguments: $this->settings['senderemail'],$firstrecipient
+#.
+#: system/class_CastMailer.php:153
+msgid "Message sent from %s to %s"
+msgstr ""
+
+#. File system/class_CastMailer.php:175
+#. Arguments: $message->text
+#.
+#: system/class_CastMailer.php:175
+msgid "Message: %s"
+msgstr ""
+
+#. File system/servers/IceCast/class_IceCastConfig.php:40
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:124
+#. Context: <tr>
+#. <td>{="Metadata interval"}:</td>
+#. <td><input type="text" name="mountpoints_field[mp3metadatainterval]" class="list_editor_field" size="5" value="" />
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:40
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:124
+msgid "Metadata interval"
+msgstr ""
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:131
+#. Context: <fieldset>
+#. <legend>{="Metadata Overrides"}</legend>
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:131
+msgid "Metadata Overrides"
+msgstr "Metadaten &uuml;berschreiben"
+
+#. File system/class_MIMETypes.php:47
+#.
+#: system/class_MIMETypes.php:47
+msgid "Microsoft Excel File"
+msgstr "Microsoft Exel Datei"
+
+#. File system/class_MIMETypes.php:48
+#.
+#: system/class_MIMETypes.php:48
+msgid "Microsoft Powerpoint File"
+msgstr "Microsoft Powerpoint Datei"
+
+#. File system/class_MIMETypes.php:46
+#.
+#: system/class_MIMETypes.php:46
+msgid "Microsoft Word File"
+msgstr ""
+
+#. File system/servers/IceCast/class_IceCastConfig.php:34
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:155
+#. Context: <tr>
+#. <td>{="MIME type"}:</td>
+#. <td><input type="text" name="mountpoints_field[type]" class="list_editor_field" size="20" value="" /> ({="blank = au
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:34
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:155
+msgid "MIME type"
+msgstr ""
+
+#. File system/sources/icescc/templates/configuration_source.tpl:14
+#. Context: <tr>
+#. <td>{="Minimum track length"}:&nbsp;</td>
+#. <td><input type="text" name="config[icesmincrossfade]" size="5" value="{$config.icesmincrossfade|htmlentities}"
+#.
+#: system/sources/icescc/templates/configuration_source.tpl:14
+msgid "Minimum track length"
+msgstr "Minimale l&auml;nge eines Titels"
+
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:23
+#. Context: after"}:</td>
+#. <td><input type="text" name="config[listenertimer]" size="5" value="{$config.listenertimer|htmlentities}" /> {="minute(s) (0 for never)"} {$errors.listenertimer|checkerror}</td>
+#. </tr>
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:19
+#. Context: after"}:</td>
+#. <td><input type="text" name="config[listenertimer]" size="5" value="{$config.listenertimer|htmlentities}" /> {="minute(s) (0 for never)"} {$errors.listenertimer|checkerror}</td>
+#. </tr>
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:23
+#: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:19
+msgid "minute(s) (0 for never)"
+msgstr "minute(n) (0 um diese Funktion abzuschalten)"
+
+#. File system/sources/icescc/templates/configuration_source.tpl:9
+#. Context: }>{="Fade current track out, fade next in"}</option>
+#. <option value="1"{if $config.icescrossmix>0} selected="selected"{/if}>{="Mix only (full volume, no fading)"}</option>
+#. </select>
+#.
+#: system/sources/icescc/templates/configuration_source.tpl:9
+msgid "Mix only (full volume, no fading)"
+msgstr "Mix only (volle Lautst&Aauml;rke, kein &Uuml;bergang)"
+
+#. File system/class_ServerControl.php:1864
+#. Arguments: $action
+#.
+#: system/class_ServerControl.php:1864
+msgid "Monthly data transfer limit exceeded; account has been automatically %s"
+msgstr ""
+
+#. File system/class_AccountFields.php:727
+#.
+#. File system/class_AccountFields.php:321
+#.
+#. File www/system/templates/configuration_client_limits.tpl:201
+#. Context: <tr>
+#. <td>{="Mount point limit"}:&nbsp;</td>
+#. <td><input type="text" id="mountlimit" name="config[mountlimit]" size="8" maxlength="8" value="{$config.mountlim
+#.
+#. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:32
+#. Context: <tr>
+#. <td><label for="centovacast_account[mountlimit]"{if $centovacast_account_fielderrors.mountlimit>0} class="error"{/if}>{="Mount point limit"}:</label></td>
+#. <td><input type="text" name="centovacast_account[mountlimit]" id="mountlimit" size="5" value="{$centovacast_a
+#.
+#. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:41
+#.
+#: system/class_AccountFields.php:727 system/class_AccountFields.php:321
+#: www/system/templates/configuration_client_limits.tpl:201
+#: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:32
+#: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:41
+msgid "Mount point limit"
+msgstr ""
+
+#. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:13
+#. Context: <tr>
+#. <td>{if $mpsinglemount}{="Stream name"}{else}{="Mount point name"}{/if}:&nbsp;</td>
+#. <td colspan="3"><input type="text" name="{$mpfieldname}[icesname]" class="list_editor_field" size="32" ma
+#.
+#. File system/sources/ices/templates/configuration_source_mountpoints.tpl:13
+#. Context: <tr>
+#. <td>{if $mpsinglemount}{="Stream name"}{else}{="Mount point name"}{/if}:&nbsp;</td>
+#. <td colspan="3"><input type="text" name="{$mpfieldname}[icesname]" class="list_editor_field" size="32" ma
+#.
+#. File system/sources/ices/srvintf/class_IcesServerInterface.php:166
+#.
+#: system/sources/icescc/templates/configuration_source_mountpoints.tpl:13
+#: system/sources/ices/templates/configuration_source_mountpoints.tpl:13
+#: system/sources/ices/srvintf/class_IcesServerInterface.php:166
+msgid "Mount point name"
+msgstr "Mountpoint Name"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:60
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:60
+msgid "Mountpoint Relaying"
+msgstr "Relay | Mountpoint"
+
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:15
+#. Context: <option value="aacp">{="AAC+"}</option>
+#. <option value="mp3">{="MP3"}</option>
+#. </select>
+#.
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:15
+msgid "MP3"
+msgstr ""
+
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:616
+#.
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:557
+#.
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:47
+#. Context: <tr>
+#. <td>{="MP3 CBR/VBR mode"}:&nbsp;</td>
+#. <td>
+#.
+#: system/sources/sctrans2/class_Sourcesctrans2.php:616
+#: system/sources/sctrans2/class_Sourcesctrans2.php:557
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:47
+msgid "MP3 CBR/VBR mode"
+msgstr ""
+
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:615
+#.
+#: system/sources/sctrans2/class_Sourcesctrans2.php:615
+msgid "MP3 quality"
+msgstr ""
+
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:611
+#.
+#. File system/sources/sctrans2/templates/configuration_source.tpl:18
+#. Context: <tr>
+#. <td>{="MP3 unlock code"}:&nbsp;</td>
+#. <td><input type="text" name="config[unlockkeycode]" id="sct2_unlock_code" size="30" maxlength="127" value="{$con
+#.
+#: system/sources/sctrans2/class_Sourcesctrans2.php:611
+#: system/sources/sctrans2/templates/configuration_source.tpl:18
+msgid "MP3 unlock code"
+msgstr ""
+
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:610
+#.
+#. File system/sources/sctrans2/templates/configuration_source.tpl:14
+#. Context: <tr>
+#. <td width="140">{="MP3 unlock name"}:&nbsp;</td>
+#. <td colspan="3"><input type="text" name="config[unlockkeyname]" id="sct2_unlock_name" size="30" maxlength="127"
+#.
+#: system/sources/sctrans2/class_Sourcesctrans2.php:610
+#: system/sources/sctrans2/templates/configuration_source.tpl:14
+msgid "MP3 unlock name"
+msgstr ""
+
+#. File system/class_SystemControl.php:1042
+#. Arguments: sprintf(
+#. '%s (%s)',
+#. $firstbadfield->text,
+#. $firstbadfield->name
+#. )
+#.
+#. File system/class_ServerControl.php:2338
+#. Arguments: sprintf(
+#. '%s (%s)',
+#. $firstbadfield->text,
+#. $firstbadfield->name
+#. )
+#.
+#: system/class_SystemControl.php:1042 system/class_ServerControl.php:2338
+msgid "Must specify a valid %s value"
+msgstr ""
+
+#. File system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:22
+#. Context: omatic (determined by source)"}</option>
+#. <option value="never"{if $config.publicserver=="never"} selected="selected"{/if}>{="Never"}</option>
+#. <option value="always"{if $config.publicserver=="always"} selected="selected"{/if}>{="Always"}</option>
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_overrides.tpl:22
+#. Context: omatic (determined by source)"}</option>
+#. <option value="never"{if $config.publicserver=="never"} selected="selected"{/if}>{="Never"}</option>
+#. <option value="always"{if $config.publicserver=="always"} selected="selected"{/if}>{="Always"}</option>
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:103
+#. Context: c=="1"} selected="selected"{/if}>{="Always"}</option>
+#. <option value="0"{if $config.public=="0"} selected="selected"{/if}>{="Never"}</option>
+#. </select>
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:22
+#: system/servers/ShoutCast/templates/configuration_client_overrides.tpl:22
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:103
+msgid "Never"
+msgstr "Niemals"
+
+#. File system/class_AccountControl.php:205
+#.
+#: system/class_AccountControl.php:205
+msgid "New parent account is not a reseller account"
+msgstr ""
+
+#. File system/class_AccountFields.php:741
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:47
+#. Context: <tr>
+#. <td>{="Nextsong debug"}:&nbsp;</td>
+#. <td colspan="3">
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:47
+#. Context: <tr>
+#. <td>{="Nextsong debug"}:&nbsp;</td>
+#. <td colspan="3">
+#.
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:68
+#. Context: <tr>
+#. <td>{="Nextsong debug"}:&nbsp;</td>
+#. <td colspan="3">
+#.
+#: system/class_AccountFields.php:741
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:47
+#: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:47
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:68
+msgid "Nextsong debug"
+msgstr ""
+
+#. File system/sources/ices2/templates/configuration_source_mountpoints.tpl:43
+#. Context: editor_field encoder_option" size="1">
+#. <option value="2"{if $config.mountpoints.icesmanaged!=1} selected="selected"{/if}>{="No (disables bitrate enforcement)"}</option>
+#. <option value="1"{if $config.mountpoints.icesmanaged==1} selected="selected"{/if}>{="Yes"}</option>
+#.
+#: system/sources/ices2/templates/configuration_source_mountpoints.tpl:43
+msgid "No (disables bitrate enforcement)"
+msgstr ""
+
+#. File system/class_ServerControl.php:24
+#.
+#: system/class_ServerControl.php:24
+msgid "Not applicable to this account type"
+msgstr ""
+
+#. File system/class_AccountControl.php:41
+#. Arguments: $dupeitems
+#.
+#. File system/class_AccountControl.php:37
+#. Arguments: __('username')
+#.
+#: system/class_AccountControl.php:41 system/class_AccountControl.php:37
+msgid "One or more accounts already exist with the specified %s"
+msgstr ""
+
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:558
+#.
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:60
+#. Context: <tr>
+#. <td>{="Optimize for"}:&nbsp;</td>
+#. <td>
+#.
+#: system/sources/sctrans2/class_Sourcesctrans2.php:558
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:60
+msgid "Optimize for"
+msgstr ""
+
+#. File system/class_MIMETypes.php:45
+#.
+#: system/class_MIMETypes.php:45
+msgid "PDF File"
+msgstr "PDF Datei"
+
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:63
+#. Context: <select name="mountpoints_field[sctmp3quality]" class="list_editor_field" size="1">
+#. <option value="0">{="Performance"}</option>
+#. <option value="1">{="Quality"}</option>
+#.
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:63
+msgid "Performance"
+msgstr ""
+
+#. File system/class_LogProcessor.php:713
+#.
+#: system/class_LogProcessor.php:713
+msgid "Performances"
+msgstr ""
+
+#. File system/class_UserSession.php:88
+#.
+#: system/class_UserSession.php:88
+msgid "Permitted login period for this DJ account has ended."
+msgstr ""
+
+#. File system/sysctrl/class_SystemControl_check.php:165
+#. Arguments: PluginHooks::get_error_string()
+#.
+#: system/sysctrl/class_SystemControl_check.php:165
+msgid "permitted to continue by plugin: %s"
+msgstr ""
+
+#. File system/class_ServerControl.php:1578
+#.
+#: system/class_ServerControl.php:1578
+msgid "Playlist rebuilt"
+msgstr "Wiedergabeliste neu erstellen"
+
+#. File system/class_AccountFields.php:725
+#.
+#. File system/class_AccountFields.php:330
+#.
+#. File www/system/templates/configuration_client_limits.tpl:234
+#. Context: <tr>
+#. <td width="100">{="Port 80 proxy"}:</td>
+#. <td>
+#.
+#. File www/system/templates/configuration_reseller_limits.tpl:97
+#. Context: <tr>
+#. <td>{="Port 80 proxy"}:</td>
+#. <td colspan="2">
+#.
+#. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:36
+#. Context: <tr>
+#. <td><label for="centovacast_account[allowproxy]"{if $centovacast_account_fielderrors.allowproxy>0} class="error"{/if}>{="Port 80 proxy"}:</label></td>
+#. <td>
+#.
+#. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:42
+#.
+#: system/class_AccountFields.php:725 system/class_AccountFields.php:330
+#: www/system/templates/configuration_client_limits.tpl:234
+#: www/system/templates/configuration_reseller_limits.tpl:97
+#: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:36
+#: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:42
+msgid "Port 80 proxy"
+msgstr ""
+
+#. File system/class_ServerControl.php:1305
+#.
+#: system/class_ServerControl.php:1305
+msgid "Preparing to import"
+msgstr ""
+
+#. File system/plugins/-test1/hooks.php:66
+#.
+#: system/plugins/-test1/hooks.php:66
+msgid "Private"
+msgstr "Privat"
+
+#. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:25
+#. Context: <tr>
+#. <td>{="Public"}:&nbsp;</td>
+#. <td colspan="3">
+#.
+#. File system/sources/ices/templates/configuration_source_mountpoints.tpl:25
+#. Context: <tr>
+#. <td>{="Public"}:&nbsp;</td>
+#. <td colspan="3">
+#.
+#. File system/sources/ices/srvintf/class_IcesServerInterface.php:167
+#.
+#: system/sources/icescc/templates/configuration_source_mountpoints.tpl:25
+#: system/sources/ices/templates/configuration_source_mountpoints.tpl:25
+#: system/sources/ices/srvintf/class_IcesServerInterface.php:167
+msgid "Public"
+msgstr "&Ouml;ffentlich"
+
+#. File system/sources/icessingleencoder/class_Sourceices.php:371
+#.
+#. File system/sources/sctrans/class_Sourcesctrans.php:236
+#.
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:600
+#.
+#. File system/sources/ezstream/class_Sourceezstream.php:359
+#.
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:63
+#.
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:47
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:18
+#. Context: <tr>
+#. <td>{="Public server"}:</td>
+#. <td>
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_overrides.tpl:18
+#. Context: <tr>
+#. <td>{="Public server"}:</td>
+#. <td>
+#.
+#: system/sources/icessingleencoder/class_Sourceices.php:371
+#: system/sources/sctrans/class_Sourcesctrans.php:236
+#: system/sources/sctrans2/class_Sourcesctrans2.php:600
+#: system/sources/ezstream/class_Sourceezstream.php:359
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:63
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:47
+#: system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:18
+#: system/servers/ShoutCast/templates/configuration_client_overrides.tpl:18
+msgid "Public server"
+msgstr "Öffentlicher Server"
+
+#. File system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:16
+#. Context: <tr><td colspan="2">{="Public server determines whether the stream will appear in public yellow-pages services."}<br /><br /></td></tr>
+#. <tr>
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_overrides.tpl:16
+#. Context: <tr><td colspan="2">{="Public server determines whether the stream will appear in public yellow-pages services."}<br /><br /></td></tr>
+#. <tr>
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:16
+#: system/servers/ShoutCast/templates/configuration_client_overrides.tpl:16
+msgid ""
+"Public server determines whether the stream will appear in public yellow-"
+"pages services."
+msgstr ""
+"Steuern Sie hier ob Ihr stream in &Oouml;ffentliche Verzeichnisse angezeigt "
+"werden kann."
+
+#. File system/servers/WindowsMedia/class_WindowsMediaConfig.php:33
+#.
+#. File system/servers/WindowsMedia/templates/configuration_client_encoder.tpl:3
+#. Context: <tr>
+#. <td width="130">{="Publishing point path"}:</td>
+#. <td>
+#.
+#: system/servers/WindowsMedia/class_WindowsMediaConfig.php:33
+#: system/servers/WindowsMedia/templates/configuration_client_encoder.tpl:3
+msgid "Publishing point path"
+msgstr ""
+
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:64
+#. Context: <option value="0">{="Performance"}</option>
+#. <option value="1">{="Quality"}</option>
+#. </select>
+#.
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:64
+msgid "Quality"
+msgstr ""
+
+#. File system/servers/IceCast/class_IceCastConfig.php:109
+#.
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:35
+#. Context: <tr>
+#. <td>{="Queue size"}:</td>
+#. <td><input type="text" name="config[queuesize]" size="8" value="{$config.queuesize|htmlentities}" /> {$errors.queuesiz
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:109
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:35
+msgid "Queue size"
+msgstr ""
+
+#. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:35
+#. Context: <tr>
+#. <td>{="Re-encoding"}:&nbsp;</td>
+#. <td>
+#.
+#. File system/sources/ices/templates/configuration_source_mountpoints.tpl:35
+#. Context: <tr>
+#. <td>{="Re-encoding"}:&nbsp;</td>
+#. <td>
+#.
+#. File system/sources/ices/srvintf/class_IcesServerInterface.php:170
+#.
+#: system/sources/icescc/templates/configuration_source_mountpoints.tpl:35
+#: system/sources/ices/templates/configuration_source_mountpoints.tpl:35
+#: system/sources/ices/srvintf/class_IcesServerInterface.php:170
+msgid "Re-encoding"
+msgstr ""
+
+#. File system/class_AccountFields.php:758
+#.
+#: system/class_AccountFields.php:758
+msgid "Rebuild playlist on startup"
+msgstr "Baue Wiedergabeliste beim Start neu auf"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:96
+#.
+#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:39
+#. Context: <tr>
+#. <td>{="Relay metadata"}:</td>
+#. <td>
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:96
+#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:39
+msgid "Relay metadata"
+msgstr "Metadaten"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:105
+#.
+#. File system/servers/IceCast/class_IceCastConfig.php:99
+#.
+#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:30
+#. Context: <tr>
+#. <td>{="Relay on demand"}:</td>
+#. <td>
+#.
+#. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:22
+#. Context: <tr>
+#. <td>{="Relay on demand"}:</td>
+#. <td>
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:105
+#: system/servers/IceCast/class_IceCastConfig.php:99
+#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:30
+#: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:22
+msgid "Relay on demand"
+msgstr "On Demand"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:120
+#.
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:12
+#. Context: <tr>
+#. <td>{="Relay password"}:</td>
+#. <td><input type="password" name="config[relaypassword]" size="12" value="{$config.relaypassword|htmlentities}" /> {$er
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:120
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:12
+msgid "Relay password"
+msgstr "Ihr Streamserver Passwort"
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:22
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:40
+#. Context: <tr>
+#. <td>{="Relay URL"}:</td>
+#. <td><input type="text" name="mountpoints_field[streamrelayurl]" class="list_editor_field" size="50" value="" /></td>
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:22
+#: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:40
+msgid "Relay URL"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:28
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:36
+#. Context: <fieldset id="mountpoint_relay_tab" class="accordion_active">
+#. <legend>{="Relaying"}</legend>
+#. <table cellspacing="1" cellpadding="0" border="0">
+#.
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:13
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:28
+#: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:36
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:13
+msgid "Relaying"
+msgstr "Weiterleitung / Relay"
+
+#. File system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:38
+#. Context: <table cellspacing="1" cellpadding="0" border="0">
+#. <tr id="sc_relay_disabled"><td colspan="2">{="Relaying cannot be used on mount points for which the autoDJ is enabled."}</td></tr>
+#. <tr>
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:38
+msgid ""
+"Relaying cannot be used on mount points for which the autoDJ is enabled."
+msgstr ""
+
+#. File system/class_AccountControl.php:204
+#.
+#: system/class_AccountControl.php:204
+msgid "Reseller account does not exist in database"
+msgstr ""
+
+#. File system/class_AccountControl.php:197
+#.
+#: system/class_AccountControl.php:197
+msgid "Reseller accounts cannot be reparented"
+msgstr ""
+
+#. File system/class_AccountFields.php:362
+#.
+#: system/class_AccountFields.php:362
+msgid "Reseller Options"
+msgstr ""
+
+#. File system/albumds/class_AlbumDataSource_folder.php:16
+#.
+#: system/albumds/class_AlbumDataSource_folder.php:16
+msgid "Retrieves any image files that may exist in your media folders."
+msgstr ""
+"Bezieht alle Bilddateien die bereits in Ihrer Bibliothek enthalten sind."
+
+#. File system/albumds/class_AlbumDataSource_embedded.php:13
+#.
+#: system/albumds/class_AlbumDataSource_embedded.php:13
+msgid "Retrieves any images that may be embedded in your media files."
+msgstr ""
+"Kann alle Image-Informationen abrufen die in den Metadaten Ihrer Musiktitel "
+"hinterlegt sind."
+
+#. File system/albumds/class_AlbumDataSource_lastfm.php:18
+#.
+#: system/albumds/class_AlbumDataSource_lastfm.php:18
+msgid "Retrieves images from last.fm."
+msgstr "Bezieht Coverinformationen aus der last.fm API"
+
+#. File system/albumds/class_AlbumDataSource_amazon.php:45
+#.
+#: system/albumds/class_AlbumDataSource_amazon.php:45
+msgid "Retrieves images from the Amazon online store."
+msgstr "Bezieht Coverinformationen aus dem Amazon.com Marktplatz."
+
+#. File system/albumds/class_AlbumDataSource_itunes.php:20
+#.
+#: system/albumds/class_AlbumDataSource_itunes.php:20
+msgid "Retrieves images from the iTunes online store."
+msgstr "Bezieht Coverinformationen aus den iTunes-Store."
+
+#. File system/class_AccountFields.php:756
+#.
+#: system/class_AccountFields.php:756
+msgid "Royalty reporting mode"
+msgstr ""
+
+#. File system/sources/sctrans2/templates/configuration_source.tpl:15
+#. Context: ize="30" maxlength="127" value="{$config.unlockkeyname|htmlentities}" /> {$errors.unlockkeyname|checkerror} {tip type="icon"}{="sc_trans v2 allows broadcasting in AAC+ format free of charge, but requires a license key to broadcast in MP3 format.  If you have purchased an MP3 broadcasting license key, enter the unlock name and code here."}{/tip}</td>
+#. </tr>
+#.
+#: system/sources/sctrans2/templates/configuration_source.tpl:15
+msgid ""
+"sc_trans v2 allows broadcasting in AAC+ format free of charge, but requires "
+"a license key to broadcast in MP3 format.  If you have purchased an MP3 "
+"broadcasting license key, enter the unlock name and code here."
+msgstr ""
+
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:10
+#. Context: /td>
+#. <td><input type="text" name="config[autodumpsourcetime]" size="6" value="{$config.autodumpsourcetime|htmlentities}" /> {="second(s) (0 for never)"} {$errors.autodumpsourcetime|checkerror} </td>
+#. </tr>
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:14
+#. Context: td>
+#. <td><input type="text" name="config[autodumpsourcetime]" size="6" value="{$config.autodumpsourcetime|htmlentities}" /> {="second(s) (0 for never)"} {$errors.autodumpsourcetime|checkerror} </td>
+#. </tr>
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:10
+#: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:14
+msgid "second(s) (0 for never)"
+msgstr "sekunde/n (0 um diese Funktion abzuschalten)"
+
+#. File system/sysctrl/class_SystemControl_check.php:158
+#. Arguments: $account['username'], $actualbitrate, $expectedbitrate
+#.
+#: system/sysctrl/class_SystemControl_check.php:158
+msgid "Server %s is broadcasting at %skbps, exceeding limit of %skbps"
+msgstr ""
+
+#. File system/sysctrl/class_SystemControl_check.php:255
+#. Arguments: $account['username']
+#.
+#: system/sysctrl/class_SystemControl_check.php:255
+msgid ""
+"Server %s is up and autoDJ is deactivated, but no live source is connected; "
+"automatically reactivating autoDJ"
+msgstr ""
+
+#. File system/class_ServerControl.php:826
+#.
+#: system/class_ServerControl.php:826
+msgid "Server exited immediately after startup"
+msgstr "Server unittelbar nach dem Start beendet"
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:27
+#.
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:12
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:27
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:12
+msgid "Server Overrides"
+msgstr "Streamserver Anpassung"
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:95
+#. Context: <fieldset>
+#. <legend>{="Setting Overrides"}</legend>
+#. <table cellspacing="1" cellpadding="0" border="0">
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:95
+msgid "Setting Overrides"
+msgstr "Einstellungen &uuml;berschreiben"
+
+#. File system/sources/icescc/templates/configuration_source.tpl:15
+#. Context: nput type="text" name="config[icesmincrossfade]" size="5" value="{$config.icesmincrossfade|htmlentities}" /> {="second(s)"} ({="shorter tracks will not be crossfaded; min. 10 sec"}) {$errors.icesmincrossfade|checkerror}</td>
+#. </tr>
+#.
+#: system/sources/icescc/templates/configuration_source.tpl:15
+msgid "shorter tracks will not be crossfaded; min. 10 sec"
+msgstr ""
+"bei k&uuml;rzeren Titel funktioniert die Fade-Funktion nicht: mindestens 10 "
+"Sekunden"
+
+#. File system/class_AccountFields.php:769
+#.
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:17
+#. Context: <tr>
+#. <td>{="Song length detect limit"}:&nbsp;</td>
+#. <td colspan="3">
+#.
+#: system/class_AccountFields.php:769
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:17
+msgid "Song length detect limit"
+msgstr "Limit der Songl&auml;ngen erkennung"
+
+#. File system/class_ServerControl.php:1064
+#.
+#. File system/class_ServerControl.php:1162
+#.
+#. File system/class_ServerControl.php:1103
+#.
+#: system/class_ServerControl.php:1064 system/class_ServerControl.php:1162
+#: system/class_ServerControl.php:1103
+msgid "Source is not running"
+msgstr "SQuelle l&auml;uft nicht"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:112
+#.
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:43
+#. Context: onfig[headertimeout]" size="8" value="{$config.headertimeout|htmlentities}" /> {$errors.headertimeout|checkerror} </td>
+#. <td>{="Source timeout"}:</td>
+#. <td><input type="text" name="config[sourcetimeout]" size="8" value="{$config.sourcetimeout|htmlentities}" /> {$errors.
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:112
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:43
+msgid "Source timeout"
+msgstr ""
+
+#. File system/servers/IceCast/class_IceCastConfig.php:35
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:108
+#. Context: <tr>
+#. <td>{="Source username"}:</td>
+#. <td><input type="text" name="mountpoints_field[username]" class="list_editor_field" size="15" value="" /> ({="blank
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:35
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:108
+msgid "Source username"
+msgstr ""
+
+#. File system/class_AccountControl.php:687
+#. Arguments: $requestedbitrate,$limits['maxbitrate']
+#.
+#: system/class_AccountControl.php:687
+msgid "Specified bit rate exceeds (%d kbps) reseller bitrate limit (%d kbps)"
+msgstr ""
+
+#. File system/class_AccountControl.php:692
+#. Arguments: $requestedbandwidth,$limits['maxbandwidth']
+#.
+#: system/class_AccountControl.php:692
+msgid ""
+"Specified combination of bit rate and listener limit (%d kbps) exceeds "
+"reseller bandwidth limit (%d kbps)"
+msgstr ""
+
+#. File system/class_AccountControl.php:685
+#. Arguments: $requesteddiskquota,$limits['diskquota']
+#.
+#: system/class_AccountControl.php:685
+msgid "Specified disk quota (%d MB) exceeds reseller limits (%d MB remain)"
+msgstr ""
+
+#. File system/class_AccountControl.php:683
+#. Arguments: $requestedclients,$limits['maxclients']
+#.
+#: system/class_AccountControl.php:683
+msgid "Specified listener limit (%d) exceeds reseller limits (%d remain)"
+msgstr ""
+
+#. File system/class_AccountControl.php:689
+#. Arguments: $requestedmountlimit,$limits['mountlimit']
+#.
+#: system/class_AccountControl.php:689
+msgid ""
+"Specified mount point limit (%d) exceeds reseller mount point limit (%d)"
+msgstr ""
+
+#. File system/class_AccountControl.php:684
+#. Arguments: $requestedxferlimit,$limits['transferlimit']
+#.
+#: system/class_AccountControl.php:684
+msgid "Specified transfer limit (%d MB) exceeds reseller limits (%d MB remain)"
+msgstr ""
+
+#. File system/upgradeutil.php:474
+#.
+#. File system/class_AccountControl.php:99
+#.
+#. File system/upgrade/updates/2.0.0b1.inc.php:21
+#.
+#: system/upgradeutil.php:474 system/class_AccountControl.php:99
+#: system/upgrade/updates/2.0.0b1.inc.php:21
+msgid "Standard Rotation"
+msgstr "Standard-Abwechslung"
+
+#. File system/class_LogProcessor.php:610
+#.
+#: system/class_LogProcessor.php:610
+msgid "Start time"
+msgstr ""
+
+#. File system/upgradeutil.php:504
+#.
+#. File system/class_AccountControl.php:129
+#.
+#. File system/upgrade/updates/2.0.0b1.inc.php:51
+#.
+#: system/upgradeutil.php:504 system/class_AccountControl.php:129
+#: system/upgrade/updates/2.0.0b1.inc.php:51
+msgid "Station identification"
+msgstr "Identifizierung"
+
+#. File system/class_ServerControl.php:996
+#. Arguments: $error_message
+#.
+#: system/class_ServerControl.php:996
+msgid "Stream control issue detected (%s); log attached"
+msgstr ""
+
+#. File system/servers/IceCast/class_IceCastConfig.php:42
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:139
+#. Context: <tr>
+#. <td>{="Stream description"}:</td>
+#. <td><input type="text" name="mountpoints_field[streamdescription]" class="list_editor_field" size="20" value="" /> (
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:42
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:139
+msgid "Stream description"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:21
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:21
+msgid "Stream ID"
+msgstr ""
+
+#. File system/servers/IceCast/class_IceCastConfig.php:94
+#.
+#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:14
+#. Context: <tr>
+#. <td>{="Stream mount point"}:</td>
+#. <td><input type="text" name="config[relaymount]" size="50" value="{$config.relaymount|htmlentities}" /> {$errors.rela
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:94
+#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:14
+msgid "Stream mount point"
+msgstr "Streamserver Mountpoint"
+
+#. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:13
+#. Context: <tr>
+#. <td>{if $mpsinglemount}{="Stream name"}{else}{="Mount point name"}{/if}:&nbsp;</td>
+#. <td colspan="3"><input type="text" name="{$mpfieldname}[icesname]" class="list
+#.
+#. File system/sources/ices/templates/configuration_source_mountpoints.tpl:13
+#. Context: <tr>
+#. <td>{if $mpsinglemount}{="Stream name"}{else}{="Mount point name"}{/if}:&nbsp;</td>
+#. <td colspan="3"><input type="text" name="{$mpfieldname}[icesname]" class="list
+#.
+#. File system/servers/IceCast/class_IceCastConfig.php:41
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:135
+#. Context: <tr>
+#. <td width="130">{="Stream name"}:</td>
+#. <td><input type="text" name="mountpoints_field[streamname]" class="list_editor_field" size="20" value="" /> ({="blan
+#.
+#: system/sources/icescc/templates/configuration_source_mountpoints.tpl:13
+#: system/sources/ices/templates/configuration_source_mountpoints.tpl:13
+#: system/servers/IceCast/class_IceCastConfig.php:41
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:135
+msgid "Stream name"
+msgstr "Stream-Name"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:98
+#.
+#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:26
+#. Context: <tr>
+#. <td>{="Stream password"}:</td>
+#. <td><input type="password" name="config[relaymntpassword]" size="12" value="{$config.relaymntpassword|htmlentities}"
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:98
+#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:26
+msgid "Stream password"
+msgstr "Passwort"
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:20
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:27
+#. Context: <tr>
+#. <td width="130">{="Stream path"}:</td>
+#. <td><input type="text" name="mountpoints_field[streampath]" class="list_editor_field" size="30" value="" /></td>
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:20
+#: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:27
+msgid "Stream path"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:55
+#.
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:39
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_relay.tpl:33
+#. Context: <tr>
+#. <td>{="Stream port"}:</td>
+#. <td><input type="text" name="config[relayport]" size="6" value="{$config.relayport|htmlentities}" /> {$errors.relaypo
+#.
+#. File system/servers/IceCast/class_IceCastConfig.php:93
+#.
+#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:10
+#. Context: <tr>
+#. <td>{="Stream port"}:</td>
+#. <td><input type="text" name="config[relayport]" size="6" value="{$config.relayport|htmlentities}" /> {$errors.relaypo
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:55
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:39
+#: system/servers/ShoutCast/templates/configuration_client_relay.tpl:33
+#: system/servers/IceCast/class_IceCastConfig.php:93
+#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:10
+msgid "Stream port"
+msgstr "Streamserver Port"
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:54
+#.
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:38
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_relay.tpl:29
+#. Context: <tr>
+#. <td>{="Stream server"}:</td>
+#. <td><input type="text" name="config[relayserver]" size="50" value="{$config.relayserver|htmlentities}" /> {$errors.re
+#.
+#. File system/servers/IceCast/class_IceCastConfig.php:92
+#.
+#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:6
+#. Context: <tr>
+#. <td width="130">{="Stream server"}:</td>
+#. <td><input type="text" name="config[relayserver]" size="50" value="{$config.relayserver|htmlentities}" /> {$errors.re
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:54
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:38
+#: system/servers/ShoutCast/templates/configuration_client_relay.tpl:29
+#: system/servers/IceCast/class_IceCastConfig.php:92
+#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:6
+msgid "Stream server"
+msgstr "Streamserver"
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:61
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:7
+#. Context: <tr>
+#. <td width="110">{="Stream title format"}:</td>
+#. <td><input type="text" name="config[titleformat]" size="50" value="{$config.titleformat|htmlentities}" /> {$errors.ti
+#.
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:45
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_overrides.tpl:7
+#. Context: <tr>
+#. <td width="110">{="Stream title format"}:</td>
+#. <td><input type="text" name="config[titleformat]" size="50" value="{$config.titleformat|htmlentities}" /> {$errors.ti
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:61
+#: system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:7
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:45
+#: system/servers/ShoutCast/templates/configuration_client_overrides.tpl:7
+msgid "Stream title format"
+msgstr "Stream-Titel"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:43
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:143
+#. Context: <tr>
+#. <td>{="Stream URL"}:</td>
+#. <td><input type="text" name="mountpoints_field[streamurl]" class="list_editor_field" size="20" value="" /> ({="blank
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:43
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:143
+msgid "Stream URL"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:62
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:11
+#. Context: <tr>
+#. <td>{="Stream URL format"}:</td>
+#. <td><input type="text" name="config[urlformat]" size="50" value="{$config.urlformat|htmlentities}" /> {$errors.urlfor
+#.
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:46
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_overrides.tpl:11
+#. Context: <tr>
+#. <td>{="Stream URL format"}:</td>
+#. <td><input type="text" name="config[urlformat]" size="50" value="{$config.urlformat|htmlentities}" /> {$errors.urlfor
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:62
+#: system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:11
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:46
+#: system/servers/ShoutCast/templates/configuration_client_overrides.tpl:11
+msgid "Stream URL format"
+msgstr "Stream-URL"
+
+#. File system/servers/IceCast/class_IceCastConfig.php:97
+#.
+#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:22
+#. Context: <tr>
+#. <td>{="Stream username"}:</td>
+#. <td><input type="text" name="config[relaymntusername]" size="12" value="{$config.relaymntusername|htmlentities}" /> {
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:97
+#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:22
+msgid "Stream username"
+msgstr "Username"
+
+#. File system/class_ServerControl.php:970
+#.
+#: system/class_ServerControl.php:970
+msgid "Streaming applications started successfully"
+msgstr ""
+
+#. File system/class_ServerControl.php:845
+#.
+#: system/class_ServerControl.php:845
+msgid "Streaming server started successfully"
+msgstr "Der Streamserver wurde erfolgreich gestartet"
+
+#. File system/class_ServerControl.php:883
+#.
+#: system/class_ServerControl.php:883
+msgid "Streaming source not enabled"
+msgstr ""
+
+#. File system/class_CastMailer.php:166
+#. Arguments: $message->subject
+#.
+#. File system/class_CastMailer.php:155
+#. Arguments: $message->subject
+#.
+#: system/class_CastMailer.php:166 system/class_CastMailer.php:155
+msgid "Subject: %s"
+msgstr ""
+
+#. File system/sysctrl/class_SystemControl_check.php:113
+#.
+#. File system/sysctrl/class_SystemControl_check.php:112
+#.
+#. File system/sysctrl/class_SystemControl_check.php:39
+#.
+#. File system/sysctrl/class_SystemControl_check.php:38
+#.
+#: system/sysctrl/class_SystemControl_check.php:113
+#: system/sysctrl/class_SystemControl_check.php:112
+#: system/sysctrl/class_SystemControl_check.php:39
+#: system/sysctrl/class_SystemControl_check.php:38
+msgid "successful"
+msgstr ""
+
+#. File system/class_SystemControl.php:1662
+#.
+#: system/class_SystemControl.php:1662
+msgid "suspended"
+msgstr "Deaktiviert"
+
+#. File system/class_ServerControl.php:1985
+#.
+#. File system/class_ServerControl.php:1845
+#.
+#: system/class_ServerControl.php:1985 system/class_ServerControl.php:1845
+msgid "suspended until further notice"
+msgstr ""
+
+#. File system/class_MIMETypes.php:29
+#.
+#: system/class_MIMETypes.php:29
+msgid "Text File"
+msgstr "Textdatei"
+
+#. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:3
+#. Context: <table cellspacing="1" cellpadding="0" border="0">
+#. <tr><td colspan="2">{="The following master server relay settings control relaying all mount points on an entire remote IceCast server."}<br /><br /></td></tr>
+#.
+#: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:3
+msgid ""
+"The following master server relay settings control relaying all mount points "
+"on an entire remote IceCast server."
+msgstr "Die folgenden Einstellungen leiten Ihren gesamten Streamserven samt aller Mountpoints, auf einen entfernten Icecast Server weiter."
+
+#. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:3
+#. Context: <table cellspacing="1" cellpadding="0" border="0">
+#. <tr><td colspan="2">{="The following mountpoint relay settings control relaying a single, specific mount point on a remote server."}<br /><br /></td></tr>
+#.
+#: system/servers/IceCast/templates/configuration_client_relaymount.tpl:3
+msgid ""
+"The following mountpoint relay settings control relaying a single, specific "
+"mount point on a remote server."
+msgstr "Die folgenden Einstellungen steuern die Weiterleitung eines einzelnen bestimmten Mounpoints auf oder von einem entfernten Streamserver."
+
+#. File system/class_UserSession.php:668
+#.
+#. File system/class_UserSession.php:614
+#.
+#: system/class_UserSession.php:668 system/class_UserSession.php:614
+msgid "This account has been suspended"
+msgstr ""
+
+#. File system/class_CastMailer.php:87
+#.
+#: system/class_CastMailer.php:87
+msgid ""
+"This message was sent as part of the Centova Cast E-mail test.  If you are "
+"receiving this message, your Centova Cast server can send E-mail correctly."
+msgstr ""
+
+#. File system/servers/IceCast/class_IceCastConfig.php:108
+#.
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:31
+#. Context: ig[maxsources]" size="8" value="{$config.maxsources|htmlentities}" /> {$errors.maxsources|checkerror} </td>
+#. <td width="130">{="Thread pool"}:</td>
+#. <td><input type="text" name="config[threadpool]" size="8" value="{$config.threadpool|htmlentities}" /> {$errors.thread
+#.
+#: system/servers/IceCast/class_IceCastConfig.php:108
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:31
+msgid "Thread pool"
+msgstr ""
+
+#. File system/sources/sctrans2/templates/configuration_source.tpl:59
+#. Arguments: "<a href='#' onclick='go_mp_tab(); return false'>","</a>"
+#. Context: <br />
+#. {="Tip: Use the %sMount Points%s tab to configure settings for your individual autoDJ encoders.","<a href='#' onclick='go_mp_tab(); return false'>","</a>"}
+#.
+#: system/sources/sctrans2/templates/configuration_source.tpl:59
+msgid ""
+"Tip: Use the %sMount Points%s tab to configure settings for your individual "
+"autoDJ encoders."
+msgstr ""
+
+#. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:27
+#. Arguments: "<a href='#' onclick='go_mp_tab(); return false'>","</a>"
+#. Context: <br />
+#. {="Tip: Use the %sMount Points%s tab to configure your server to relay a remote stream.","<a href='#' onclick='go_mp_tab(); return false'>","</a>"}
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:27
+msgid ""
+"Tip: Use the %sMount Points%s tab to configure your server to relay a remote "
+"stream."
+msgstr ""
+
+#. File system/class_LogProcessor.php:713
+#.
+#. File system/class_LogProcessor.php:610
+#.
+#: system/class_LogProcessor.php:713 system/class_LogProcessor.php:610
+msgid "TLH"
+msgstr ""
+
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:220
+#. Arguments: $combinedbitrate,$maxbitrate
+#.
+#. File system/sources/ices2/class_Ices2ServerInterface.php:206
+#. Arguments: $combinedbitrate,$maxbitrate
+#.
+#. File system/sources/ices/srvintf/class_IcesServerInterface.php:154
+#. Arguments: $combinedbitrate,$maxbitrate
+#.
+#: system/sources/sctrans2/class_Sourcesctrans2.php:220
+#: system/sources/ices2/class_Ices2ServerInterface.php:206
+#: system/sources/ices/srvintf/class_IcesServerInterface.php:154
+msgid ""
+"Total combined bit rate of mount points is %dkbps, which exceeds the stream "
+"limit of %dkbps"
+msgstr ""
+
+#. File system/class_DiskUsage.php:205
+#. Arguments: $usage->usage_mb
+#.
+#: system/class_DiskUsage.php:205
+msgid "Total disk usage: %0.02f MB"
+msgstr ""
+
+#. File system/class_LogProcessor.php:713
+#.
+#. File system/class_LogProcessor.php:610
+#.
+#: system/class_LogProcessor.php:713 system/class_LogProcessor.php:610
+msgid "Track title"
+msgstr ""
+
+#. File system/class_AccountFields.php:315
+#.
+#. File system/class_AccountFields.php:721
+#.
+#. File www/system/templates/configuration_client_limits.tpl:168
+#. Context: <tr>
+#. <td>{="Transfer limit"}:&nbsp;</td>
+#. <td><input type="text" id="transferlimit" name="config[transferlimit]" size="8" maxlength="8" value="{$config.tr
+#.
+#: system/class_AccountFields.php:315 system/class_AccountFields.php:721
+#: www/system/templates/configuration_client_limits.tpl:168
+msgid "Transfer limit"
+msgstr ""
+
+#. File system/class_SystemControl.php:1672
+#.
+#: system/class_SystemControl.php:1672
+msgid "triggered by reseller status change"
+msgstr ""
+
+#. File system/class_ServerControl.php:1131
+#.
+#: system/class_ServerControl.php:1131
+msgid "Unable to restart server"
+msgstr ""
+
+#. File system/class_MIMETypes.php:50
+#.
+#. File system/class_MIMETypes.php:28
+#.
+#: system/class_MIMETypes.php:50 system/class_MIMETypes.php:28
+msgid "Unknown/Binary File"
+msgstr "Unbekannte oder bin&auml;re Datei"
+
+#. File system/class_AccountControl.php:679
+#.
+#: system/class_AccountControl.php:679
+msgid "Unlimited disk quota not permitted for this reseller account"
+msgstr ""
+
+#. File system/class_AccountControl.php:680
+#.
+#: system/class_AccountControl.php:680
+msgid "Unlimited transfer not permitted for this reseller account"
+msgstr ""
+
+#. File system/sources/sctrans2/templates/configuration_source.tpl:21
+#. Arguments: "<a style='color: #909090' href='http://wiki.winamp.com/wiki/SHOUTcast_DNAS_Transcoder_2#Registering_for_MP3_Stream_Encoding' target='_blank'>","</a>"
+#. Context: </tr>
+#. <tr><td></td><td class="info">{="Unlock code details and purchase information %savailable here%s.","<a style='color: #909090' href='http://wiki.winamp.com/wiki/SHOUTcast_DNAS_Transcoder_2#Registering_for_MP3_Stream_Encoding'
+#.
+#: system/sources/sctrans2/templates/configuration_source.tpl:21
+msgid "Unlock code details and purchase information %savailable here%s."
+msgstr ""
+
+#. File system/class_AccountFields.php:734
+#.
+#: system/class_AccountFields.php:734
+msgid "Unspecified"
+msgstr "nicht angegeben"
+
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:49
+#. Context: alue="{="Remove"}" id="mount_upload_fallback_remove" />
+#. <input type="button" id="mount_upload_fallback_button" value="{="Upload a file ..."}" /><input type="file" name="_fallbackfile" id="mount_upload_fallback" />
+#. </td>
+#.
+#. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:41
+#. Context: ton" value="{="Remove"}" id="mount_upload_intro_remove" />
+#. <input type="button" id="mount_upload_intro_button" value="{="Upload a file ..."}" /><input type="file" name="_introfile" id="mount_upload_intro" />
+#. </td>
+#.
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:49
+#: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:41
+msgid "Upload a file ..."
+msgstr ""
+
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:7
+#. Context: <tr>
+#. <td width="130">{="Use autoDJ"}:</td>
+#. <td><select name="mountpoints_field[sctuseautodj]" class="list_editor_field" size="1" id="useautodj"><option value="
+#.
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:552
+#.
+#. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:8
+#. Context: <tr>
+#. <td width="130">{="Use autoDJ"}:</td>
+#. <td colspan="3"><select name="{$mpfieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option v
+#.
+#. File system/sources/ices2/class_Ices2ServerInterface.php:214
+#.
+#. File system/sources/ices/templates/configuration_source_mountpoints.tpl:8
+#. Context: <tr>
+#. <td width="130">{="Use autoDJ"}:</td>
+#. <td colspan="3"><select name="{$mpfieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option v
+#.
+#. File system/sources/ices2/templates/configuration_source_mountpoints.tpl:8
+#. Context: <tr>
+#. <td width="130">{="Use autoDJ"}:</td>
+#. <td colspan="3"><select name="{$mpfieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option v
+#.
+#. File system/sources/ices/srvintf/class_IcesServerInterface.php:165
+#.
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:7
+#: system/sources/sctrans2/class_Sourcesctrans2.php:552
+#: system/sources/icescc/templates/configuration_source_mountpoints.tpl:8
+#: system/sources/ices2/class_Ices2ServerInterface.php:214
+#: system/sources/ices/templates/configuration_source_mountpoints.tpl:8
+#: system/sources/ices2/templates/configuration_source_mountpoints.tpl:8
+#: system/sources/ices/srvintf/class_IcesServerInterface.php:165
+msgid "Use autoDJ"
+msgstr "AutoDJ verwenden"
+
+#. File system/class_AccountFields.php:740
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:38
+#. Context: <tr>
+#. <td>{="Use server"}:&nbsp;</td>
+#. <td>
+#.
+#. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:38
+#. Context: <tr>
+#. <td>{="Use server"}:&nbsp;</td>
+#. <td>
+#.
+#. File system/servers/IceCast/templates/configuration_client_advanced.tpl:59
+#. Context: <tr>
+#. <td>{="Use server"}:&nbsp;</td>
+#. <td colspan="3">
+#.
+#: system/class_AccountFields.php:740
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:38
+#: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:38
+#: system/servers/IceCast/templates/configuration_client_advanced.tpl:59
+msgid "Use server"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:71
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:63
+#. Context: <tr>
+#. <td>{="Use YP v2"}:&nbsp;</td>
+#. <td>
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:71
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:63
+msgid "Use YP v2"
+msgstr ""
+
+#. File system/class_AccountControl.php:37
+#.
+#. File system/class_AccountControl.php:507
+#.
+#. File system/include_console.php:5
+#.
+#: system/class_AccountControl.php:37 system/class_AccountControl.php:507
+#: system/include_console.php:5
+msgid "username"
+msgstr ""
+
+#. File system/class_CastMailer.php:165
+#. Arguments: strlen($this->settings['smtphost']) ? 'Yes' : 'No'
+#.
+#. File system/class_CastMailer.php:154
+#. Arguments: strlen($this->settings['smtphost']) ? 'Yes' : 'No'
+#.
+#: system/class_CastMailer.php:165 system/class_CastMailer.php:154
+msgid "Using SMTP: %s"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:67
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:4
+#. Context: <tr>
+#. <td>{="UVOX cipher key"}:</td>
+#. <td><input type="text" name="config[uvoxcipherkey]" size="40" value="{$config.uvoxcipherkey|htmlentities}" /> {$errors
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:67
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:4
+msgid "UVOX cipher key"
+msgstr ""
+
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:51
+#. Context: <option value="0">{="CBR"}</option>
+#. <option value="1">{="VBR High"}</option>
+#. <option value="2">{="VBR Medium-High"}</option>
+#.
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:51
+msgid "VBR High"
+msgstr ""
+
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:55
+#. Context: <option value="4">{="VBR Medium-Low"}</option>
+#. <option value="5">{="VBR Low"}</option>
+#. </select>
+#.
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:55
+msgid "VBR Low"
+msgstr ""
+
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:53
+#. Context: <option value="2">{="VBR Medium-High"}</option>
+#. <option value="3">{="VBR Medium"}</option>
+#. <option value="4">{="VBR Medium-Low"}</option>
+#.
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:53
+msgid "VBR Medium"
+msgstr ""
+
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:52
+#. Context: <option value="1">{="VBR High"}</option>
+#. <option value="2">{="VBR Medium-High"}</option>
+#. <option value="3">{="VBR Medium"}</option>
+#.
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:52
+msgid "VBR Medium-High"
+msgstr ""
+
+#. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:54
+#. Context: <option value="3">{="VBR Medium"}</option>
+#. <option value="4">{="VBR Medium-Low"}</option>
+#. <option value="5">{="VBR Low"}</option>
+#.
+#: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:54
+msgid "VBR Medium-Low"
+msgstr ""
+
+#. File system/class_MIMETypes.php:43
+#.
+#. File system/class_MIMETypes.php:42
+#.
+#. File system/class_MIMETypes.php:41
+#.
+#: system/class_MIMETypes.php:43 system/class_MIMETypes.php:42
+#: system/class_MIMETypes.php:41
+msgid "Video File"
+msgstr "Videodatei"
+
+#. File system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:29
+#. Context: <br />
+#. {="Warning: if your stream is made public but the directory server cannot reach it, ShoutCast DNAS may shut itself down without warning."}<br /><br />
+#. </td></tr>
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:29
+msgid ""
+"Warning: if your stream is made public but the directory server cannot reach "
+"it, ShoutCast DNAS may shut itself down without warning."
+msgstr ""
+
+#. File system/class_AccountFields.php:742
+#.
+#: system/class_AccountFields.php:742
+msgid "Web player"
+msgstr ""
+
+#. File system/class_TuneIn.php:68
+#.
+#: system/class_TuneIn.php:68
+msgid "Web Proxy"
+msgstr ""
+
+#. File system/upgradeutil.php:519
+#.
+#. File system/class_AccountControl.php:144
+#.
+#. File system/upgrade/updates/2.0.0b1.inc.php:66
+#.
+#: system/upgradeutil.php:519 system/class_AccountControl.php:144
+#: system/upgrade/updates/2.0.0b1.inc.php:66
+msgid "Weekly Top 10 Countdown"
+msgstr "W&ouml;chentlicher Top 10 Countdown"
+
+#. File system/class_MIMETypes.php:49
+#.
+#: system/class_MIMETypes.php:49
+msgid "Windows Binary File"
+msgstr "Windows bin&auml;re Datei"
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:78
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:88
+#. Context: reportinterval]" size="6" value="{$config.ypreportinterval|htmlentities}" /> {$errors.ypreportinterval|checkerror}</td>
+#. <td>{="YP minimum report interval"}:&nbsp;</td>
+#. <td><input type="text" name="config[ypminreportinterval]" size="6" value="{$config.ypminreportinterval|htmlentit
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:78
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:88
+msgid "YP minimum report interval"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:77
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:86
+#. Context: <tr>
+#. <td>{="YP report interval"}:&nbsp;</td>
+#. <td><input type="text" name="config[ypreportinterval]" size="6" value="{$config.ypreportinterval|htmlentities}"
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:77
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:86
+msgid "YP report interval"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:76
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:70
+#. Context: </td>
+#. <td>{="YP request retries"}:&nbsp;</td>
+#. <td><input type="text" name="config[ypmaxretries]" size="6" value="{$config.ypmaxretries|htmlentities}" /> {$err
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:76
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:70
+msgid "YP request retries"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:75
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:82
+#. Context: t type="text" name="config[yppath]" size="30" value="{$config.yppath|htmlentities}" /> {$errors.yppath|checkerror}</td>
+#. <td>{="YP request timeout"}:&nbsp;</td>
+#. <td><input type="text" name="config[yptimeout]" size="6" value="{$config.yptimeout|htmlentities}" /> {$errors.yp
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:75
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:82
+msgid "YP request timeout"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:72
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:74
+#. Context: <tr>
+#. <td>{="YP server address"}:&nbsp;</td>
+#. <td><input type="text" name="config[ypaddr]" size="30" value="{$config.ypaddr|htmlentities}" /> {$errors.ypaddr|
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:72
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:74
+msgid "YP server address"
+msgstr ""
+
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:80
+#. Context: <tr>
+#. <td>{="YP server path"}:&nbsp;</td>
+#. <td><input type="text" name="config[yppath]" size="30" value="{$config.yppath|htmlentities}" /> {$errors.yppath|
+#.
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:80
+msgid "YP server path"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:73
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:76
+#. Context: " name="config[ypaddr]" size="30" value="{$config.ypaddr|htmlentities}" /> {$errors.ypaddr|checkerror}&nbsp;&nbsp;</td>
+#. <td>{="YP server port"}:&nbsp;</td>
+#. <td><input type="text" name="config[ypport]" size="6" value="{$config.ypport|htmlentities}" /> {$errors.ypport|c
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:73
+#: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:76
+msgid "YP server port"
+msgstr ""
+
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:74
+#.
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:74
+msgid "YP services path"
+msgstr ""
