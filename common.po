@@ -5,15 +5,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2016-01-27 02:55+0100\n"
-"PO-Revision-Date: 2016-01-27 02:55+0100\n"
+"POT-Creation-Date: 2016-02-27 00:00+0100\n"
+"PO-Revision-Date: 2016-02-27 00:00+0100\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #. Name of language (in target language, eg: Deutsch for German, Francais for French, etc.)
 msgid "_LANGUAGE"
@@ -46,10 +46,10 @@ msgstr "d. M."
 msgid "%s access key ID"
 msgstr ""
 
-#. File system/class_SystemControl.php:2130
+#. File system/class_SystemControl.php:2128
 #. Arguments: $total
 #.
-#: system/class_SystemControl.php:2130
+#: system/class_SystemControl.php:2128
 msgid "%s account(s)"
 msgstr "%s Account(s)"
 
@@ -164,15 +164,15 @@ msgstr ""
 msgid "AAC+"
 msgstr ""
 
-#. File system/class_SystemControl.php:1518
+#. File system/class_SystemControl.php:1516
 #.
-#: system/class_SystemControl.php:1518
+#: system/class_SystemControl.php:1516
 msgid "Account created"
 msgstr "Konto erstellt"
 
-#. File system/class_SystemControl.php:1518
+#. File system/class_SystemControl.php:1516
 #.
-#: system/class_SystemControl.php:1518
+#: system/class_SystemControl.php:1516
 msgid "Account created successfully, but stream could not be started"
 msgstr ""
 "Konto erfolgreich erstellt, aber der Stream konnte nicht gestartet werden"
@@ -211,9 +211,9 @@ msgstr "Konto ist inaktiv"
 msgid "Account is not authorized to perform this action"
 msgstr ""
 
-#. File system/class_ServerControl.php:2542
+#. File system/class_ServerControl.php:2549
 #.
-#: system/class_ServerControl.php:2542
+#: system/class_ServerControl.php:2549
 msgid "Account updated"
 msgstr "Konto aktualisiert"
 
@@ -436,11 +436,11 @@ msgstr "Zuhörer immer trennen nach"
 msgid "An account with the specified username already exists"
 msgstr ""
 
-#. File system/class_ServerControl.php:1153
+#. File system/class_ServerControl.php:1155
 #.
 #. File system/class_UserSession.php:558
 #.
-#: system/class_ServerControl.php:1153 system/class_UserSession.php:558
+#: system/class_ServerControl.php:1155 system/class_UserSession.php:558
 msgid "and"
 msgstr "und"
 
@@ -473,20 +473,20 @@ msgstr "und Sie auf allen Mountpoints senden wollen"
 msgid "Application"
 msgstr ""
 
-#. File system/class_ServerControl.php:1014
+#. File system/class_ServerControl.php:1016
 #. Arguments: $app->type
 #.
-#. File system/class_ServerControl.php:999
+#. File system/class_ServerControl.php:1001
 #. Arguments: $app->type
 #.
-#: system/class_ServerControl.php:1014 system/class_ServerControl.php:999
+#: system/class_ServerControl.php:1016 system/class_ServerControl.php:1001
 msgid "Application %s exited immediately after startup"
 msgstr ""
 
-#. File system/class_ServerControl.php:931
+#. File system/class_ServerControl.php:933
 #. Arguments: $app->type
 #.
-#: system/class_ServerControl.php:931
+#: system/class_ServerControl.php:933
 msgid "Application %s is already running"
 msgstr ""
 
@@ -599,9 +599,9 @@ msgstr ""
 msgid "Audio sync stream (LOAS)"
 msgstr ""
 
-#. File system/class_ServerControl.php:2611
+#. File system/class_ServerControl.php:2666
 #.
-#: system/class_ServerControl.php:2611
+#: system/class_ServerControl.php:2666
 msgid "Authenticated"
 msgstr "Beglaubigt"
 
@@ -840,13 +840,13 @@ msgstr "Kalenderdatei"
 msgid "CBR"
 msgstr ""
 
-#. File system/class_SystemControl.php:2042
+#. File system/class_SystemControl.php:2040
 #. Arguments: $username,
 #. __($acctstatus),
 #. __($options['status']),
 #. ($options['cascading'] ? ' (' . __('triggered by reseller status change') . ')' : '')
 #.
-#: system/class_SystemControl.php:2042
+#: system/class_SystemControl.php:2040
 msgid "Changed status for account %s from %s to %s%s"
 msgstr ""
 
@@ -854,7 +854,7 @@ msgstr ""
 #.
 #: system/class_TrackManager.php:169
 msgid "Checking for tracks without album data"
-msgstr "Prüfe nach titel ohne Album Informationen"
+msgstr "Prüfe nach Titel ohne Album Informationen"
 
 #. File system/servers/IceCast/class_IceCastConfig.php:111
 #.
@@ -892,26 +892,26 @@ msgstr ""
 msgid "Complexity"
 msgstr ""
 
-#. File system/class_ServerControl.php:2645
+#. File system/class_ServerControl.php:2700
 #. Arguments: basename($archname)
 #.
-#: system/class_ServerControl.php:2645
+#: system/class_ServerControl.php:2700
 msgid "Compressing %s ..."
 msgstr "Komprimiere %s..."
 
-#. File system/class_ServerControl.php:1160
+#. File system/class_ServerControl.php:1162
 #. Arguments: $make_text_list($successes),$make_text_list($failures)
 #.
-#: system/class_ServerControl.php:1160
+#: system/class_ServerControl.php:1162
 msgid ""
 "Configuration reloaded gracefully for %s, but %s requires a full restart."
-msgstr ""
+msgstr "Die Konfiguration für Ihren %s Server, wurde neu eingespielt. %s benötigt jedoch einen kompletten Neustart Ihre Streamservers."
 
-#. File system/class_ServerControl.php:1162
+#. File system/class_ServerControl.php:1164
 #.
-#: system/class_ServerControl.php:1162
+#: system/class_ServerControl.php:1164
 msgid "Configuration reloaded gracefully."
-msgstr ""
+msgstr "Die Konfiguration für Ihren Streamserver, wurde erfolgreich neu eingespielt."
 
 #. File system/AccountManagerDrivers/types/class_ClientType.php:210
 #. Arguments: $servertype
@@ -985,18 +985,18 @@ msgstr ""
 "Steuert die Titel und die URL Anzeige im MediaPlayer. Verwenden Sie %s, um "
 "den Titel oder die URL vom Streamserver einzufügen."
 
-#. File system/class_ServerControl.php:989
+#. File system/class_ServerControl.php:991
 #. Arguments: $app->type
 #.
-#: system/class_ServerControl.php:989
+#: system/class_ServerControl.php:991
 msgid "Could not start %s application"
 msgstr ""
 
-#. File system/class_ServerControl.php:857
+#. File system/class_ServerControl.php:859
 #.
-#. File system/class_ServerControl.php:846
+#. File system/class_ServerControl.php:848
 #.
-#: system/class_ServerControl.php:857 system/class_ServerControl.php:846
+#: system/class_ServerControl.php:859 system/class_ServerControl.php:848
 msgid "Could not start server"
 msgstr "Konnte Server nicht starten"
 
@@ -1119,6 +1119,18 @@ msgstr ""
 msgid "Default character encoding for new servers"
 msgstr "Standard-Zeichenkodierung f&uuml;r neue Server"
 
+#. File system/class_ReportFormat.php:27
+#.
+#: system/class_ReportFormat.php:27
+msgid "Default performance report"
+msgstr ""
+
+#. File system/class_ReportFormat.php:26
+#.
+#: system/class_ReportFormat.php:26
+msgid "Default playlist report"
+msgstr ""
+
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:106
 #. Context: _field[public]" size="1" class="list_editor_field">
 #. <option value="-1"{if $config.public=="-1"} selected="selected"{/if}>{="Determined by source"}</option>
@@ -1134,9 +1146,9 @@ msgstr ""
 msgid "Diagnostic mode"
 msgstr ""
 
-#. File system/class_ServerControl.php:1041
+#. File system/class_ServerControl.php:1043
 #.
-#: system/class_ServerControl.php:1041
+#: system/class_ServerControl.php:1043
 msgid "Diagnostic output from streaming software:"
 msgstr ""
 
@@ -1189,9 +1201,9 @@ msgstr ""
 msgid "Directory port (Yport)"
 msgstr ""
 
-#. File system/class_SystemControl.php:2036
+#. File system/class_SystemControl.php:2034
 #.
-#: system/class_SystemControl.php:2036
+#: system/class_SystemControl.php:2034
 msgid "disabled"
 msgstr ""
 
@@ -1264,10 +1276,10 @@ msgstr ""
 msgid "Disconnect listeners if source disconnects"
 msgstr "Trennen der Zuhörer, wenn Streamserver Offline"
 
-#. File system/class_ServerControl.php:2075
+#. File system/class_ServerControl.php:2082
 #. Arguments: $action
 #.
-#: system/class_ServerControl.php:2075
+#: system/class_ServerControl.php:2082
 msgid "Disk quota exceeded; account has been automatically %s"
 msgstr ""
 
@@ -1307,18 +1319,23 @@ msgstr ""
 msgid "DNS lookups"
 msgstr ""
 
-#. File system/class_LogProcessor.php:695
-#.
-#. File system/class_LogProcessor.php:813
+#. File system/class_ReportFormat.php:41
 #.
 #. File www/system/templates/admin_sessions.tpl:27
 #. Context: <th class="sorttable_alpha">{="Login Time"}</th>
 #. <th class="sorttable_numeric">{="Duration"}</th>
 #. <th class="sorttable_alpha">{="IP Address"}</th>
 #.
-#: system/class_LogProcessor.php:695 system/class_LogProcessor.php:813
-#: www/system/templates/admin_sessions.tpl:27
+#: system/class_ReportFormat.php:41 www/system/templates/admin_sessions.tpl:27
 msgid "Duration"
+msgstr ""
+
+#. File system/class_ReportFormat.php:66
+#.
+#: system/class_ReportFormat.php:66
+msgid ""
+"Duration of the track (if available; otherwise, greatest duration of the "
+"track that was heard by any listener)"
 msgstr ""
 
 #. File system/class_CastMailer.php:88
@@ -1333,9 +1350,9 @@ msgstr ""
 msgid "Embedded (ID3/metadata)"
 msgstr "Eingebettete (ID3/Metadaten)"
 
-#. File system/class_SystemControl.php:2036
+#. File system/class_SystemControl.php:2034
 #.
-#: system/class_SystemControl.php:2036
+#: system/class_SystemControl.php:2034
 msgid "enabled"
 msgstr "aktiviert"
 
@@ -1383,9 +1400,9 @@ msgstr ""
 msgid "Encoding type"
 msgstr ""
 
-#. File system/class_LogProcessor.php:693
+#. File system/class_ReportFormat.php:39
 #.
-#: system/class_LogProcessor.php:693
+#: system/class_ReportFormat.php:39
 msgid "End time"
 msgstr ""
 
@@ -1538,9 +1555,9 @@ msgstr ""
 msgid "FEC packet span"
 msgstr ""
 
-#. File system/class_ServerControl.php:522
+#. File system/class_ServerControl.php:524
 #.
-#: system/class_ServerControl.php:522
+#: system/class_ServerControl.php:524
 msgid "File copied successfully"
 msgstr "Datei erfolgreich kopiert"
 
@@ -1552,7 +1569,7 @@ msgstr "Datei erfolgreich kopiert"
 msgid ""
 "For all mount points, use the 'Source password' value from your %sstream "
 "settings%s when prompted for a password"
-msgstr ""
+msgstr "Für alle Mountpoints, nutzen Sie immer das 'Source Passwort' aus Ihren %sStreamserver Einstellungen%s wenn Sie nach einem Passwort gefragt werden."
 
 #. File system/servers/IceCast/templates/connection_details.tpl:26
 #. Arguments: "<strong>",$mount.mountname,"</strong>"
@@ -1584,17 +1601,17 @@ msgstr ""
 msgid "Format"
 msgstr ""
 
-#. File system/class_ServerControl.php:2059
+#. File system/class_ServerControl.php:2066
 #.
-#. File system/class_ServerControl.php:1907
+#. File system/class_ServerControl.php:1914
 #.
-#: system/class_ServerControl.php:2059 system/class_ServerControl.php:1907
+#: system/class_ServerControl.php:2066 system/class_ServerControl.php:1914
 msgid "forwarded to an administrator for review"
 msgstr "An einen Administrator weitergeleitet"
 
-#. File system/class_LogProcessor.php:814
+#. File system/class_ReportFormat.php:42
 #.
-#: system/class_LogProcessor.php:814
+#: system/class_ReportFormat.php:42
 msgid "Frequency"
 msgstr ""
 
@@ -1642,9 +1659,9 @@ msgstr "Starke Rotation"
 msgid "Host directory does not exist; aborting"
 msgstr "Host-Verzeichnis existiert nicht, breche ab"
 
-#. File system/class_AccountControl.php:719
+#. File system/class_AccountControl.php:721
 #.
-#: system/class_AccountControl.php:719
+#: system/class_AccountControl.php:721
 msgid "hostname"
 msgstr ""
 
@@ -1733,7 +1750,7 @@ msgstr "Bilddatei"
 #.
 #: system/class_TrackManager.php:158
 msgid "Import complete, checking for removed tracks"
-msgstr ""
+msgstr "Import erfolgreich, suche nach entfernte Musiktitel"
 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:42
 #. Context: <tr>
@@ -1744,9 +1761,9 @@ msgstr ""
 msgid "Intro clip"
 msgstr ""
 
-#. File system/class_AccountControl.php:952
+#. File system/class_AccountControl.php:954
 #.
-#: system/class_AccountControl.php:952
+#: system/class_AccountControl.php:954
 msgid "Invalid listener limit"
 msgstr ""
 
@@ -1765,9 +1782,9 @@ msgstr ""
 msgid "Invalid username or password"
 msgstr "Falscher Username oder Passwort"
 
-#. File system/class_AccountControl.php:719
+#. File system/class_AccountControl.php:721
 #.
-#: system/class_AccountControl.php:719
+#: system/class_AccountControl.php:721
 msgid "IP/port combination"
 msgstr ""
 
@@ -1792,11 +1809,9 @@ msgstr ""
 msgid "IRC"
 msgstr ""
 
-#. File system/class_LogProcessor.php:812
+#. File system/class_ReportFormat.php:37
 #.
-#. File system/class_LogProcessor.php:691
-#.
-#: system/class_LogProcessor.php:812 system/class_LogProcessor.php:691
+#: system/class_ReportFormat.php:37
 msgid "ISRC"
 msgstr ""
 
@@ -1809,10 +1824,10 @@ msgstr ""
 msgid "Joint Stereo"
 msgstr ""
 
-#. File system/class_ServerControl.php:1101
+#. File system/class_ServerControl.php:1103
 #. Arguments: $linecount
 #.
-#: system/class_ServerControl.php:1101
+#: system/class_ServerControl.php:1103
 msgid "Last %d lines from the relevant log file:"
 msgstr ""
 
@@ -1870,10 +1885,10 @@ msgstr ""
 msgid "Local mount point"
 msgstr ""
 
-#. File system/class_ServerControl.php:1085
+#. File system/class_ServerControl.php:1087
 #. Arguments: "\n", "\n"
 #.
-#: system/class_ServerControl.php:1085
+#: system/class_ServerControl.php:1087
 msgid ""
 "Log has not been created, which may indicate a permissions problem or %san "
 "inability to run the external application.  Consult the Centova Cast "
@@ -1887,9 +1902,9 @@ msgstr ""
 msgid "Log: %s"
 msgstr ""
 
-#. File system/class_ServerControl.php:2709
+#. File system/class_ServerControl.php:2764
 #.
-#: system/class_ServerControl.php:2709
+#: system/class_ServerControl.php:2764
 msgid "Logs archived"
 msgstr "Logdateien archiviert"
 
@@ -2057,6 +2072,12 @@ msgstr ""
 #.
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:140
 msgid "Metadata Overrides"
+msgstr ""
+
+#. File system/class_ReportFormat.php:70
+#.
+#: system/class_ReportFormat.php:70
+msgid "Method by which the track metadata was identified (see manual)"
 msgstr ""
 
 #. File system/class_MIMETypes.php:47
@@ -2250,22 +2271,34 @@ msgstr "MP3 Lizenz Code"
 msgid "MP3 unlock name"
 msgstr "MP3 Lizenz Name"
 
-#. File system/class_ServerControl.php:2439
+#. File system/class_ServerControl.php:2446
 #. Arguments: sprintf(
 #. '%s (%s)',
 #. $firstbadfield->text,
 #. $firstbadfield->name
 #. )
 #.
-#. File system/class_SystemControl.php:1261
+#. File system/class_SystemControl.php:1259
 #. Arguments: sprintf(
 #. '%s (%s)',
 #. $firstbadfield->text,
 #. $firstbadfield->name
 #. )
 #.
-#: system/class_ServerControl.php:2439 system/class_SystemControl.php:1261
+#: system/class_ServerControl.php:2446 system/class_SystemControl.php:1259
 msgid "Must specify a valid %s value"
+msgstr ""
+
+#. File system/class_ReportFormat.php:60
+#.
+#: system/class_ReportFormat.php:60
+msgid "Name of the track album"
+msgstr ""
+
+#. File system/class_ReportFormat.php:59
+#.
+#: system/class_ReportFormat.php:59
+msgid "Name of the track artist"
 msgstr ""
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:146
@@ -2352,11 +2385,23 @@ msgstr ""
 msgid "Not applicable to this account type"
 msgstr ""
 
-#. File system/class_ServerControl.php:914
+#. File system/class_ServerControl.php:916
 #. Arguments: $sourcetype
 #.
-#: system/class_ServerControl.php:914
+#: system/class_ServerControl.php:916
 msgid "Not starting source %s with no autoDJ-based mount points configured"
+msgstr ""
+
+#. File system/class_ReportFormat.php:68
+#.
+#: system/class_ReportFormat.php:68
+msgid "Number of times the track was heard by an individual listener"
+msgstr ""
+
+#. File system/class_ReportFormat.php:67
+#.
+#: system/class_ReportFormat.php:67
+msgid "Number of times the track was played"
 msgstr ""
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:40
@@ -2412,6 +2457,41 @@ msgstr "Optimiert für"
 msgid "or you want to broadcast live to a %snon-autoDJ mount point%s"
 msgstr "oder Sie auf %skeinen AutoDJ Mointpoint senden wollen%s"
 
+#. File system/class_ReportFormat.php:71
+#.
+#: system/class_ReportFormat.php:71
+msgid "Other comments associated with this track"
+msgstr ""
+
+#. File system/class_ReportFormat.php:49
+#.
+#. File www/system/templates/admin_sourcetype_edit.tpl:18
+#. Context: <tr>
+#. <td>{="Pathname"}: {$errors.pathname|checkerror}</td>
+#. <td>
+#.
+#. File www/system/templates/admin_rpchost_form.tpl:2
+#. Context: <div class="ctip" id="tip_pathname">
+#. <h1>{="Pathname"}</h1>
+#.
+#. File www/system/templates/admin_servertype_edit.tpl:18
+#. Context: <tr>
+#. <td>{="Pathname"}: {$errors.pathname|checkerror}</td>
+#. <td>
+#.
+#: system/class_ReportFormat.php:49
+#: www/system/templates/admin_sourcetype_edit.tpl:18
+#: www/system/templates/admin_rpchost_form.tpl:2
+#: www/system/templates/admin_servertype_edit.tpl:18
+msgid "Pathname"
+msgstr ""
+
+#. File system/class_ReportFormat.php:74
+#.
+#: system/class_ReportFormat.php:74
+msgid "Pathname for the track on disk"
+msgstr ""
+
 #. File system/class_MIMETypes.php:45
 #.
 #: system/class_MIMETypes.php:45
@@ -2427,9 +2507,9 @@ msgstr "PDF Datei"
 msgid "Performance"
 msgstr ""
 
-#. File system/class_LogProcessor.php:815
+#. File system/class_ReportFormat.php:43
 #.
-#: system/class_LogProcessor.php:815
+#: system/class_ReportFormat.php:43
 msgid "Performances"
 msgstr ""
 
@@ -2446,9 +2526,9 @@ msgstr ""
 msgid "permitted to continue by plugin: %s"
 msgstr ""
 
-#. File system/class_ServerControl.php:1626
+#. File system/class_ServerControl.php:1638
 #.
-#: system/class_ServerControl.php:1626
+#: system/class_ServerControl.php:1638
 msgid "Playlist rebuilt"
 msgstr "Wiedergabeliste neu erstellen"
 
@@ -2481,9 +2561,9 @@ msgstr "Wiedergabeliste neu erstellen"
 msgid "Port 80 proxy"
 msgstr ""
 
-#. File system/class_ServerControl.php:1384
+#. File system/class_ServerControl.php:1386
 #.
-#: system/class_ServerControl.php:1384
+#: system/class_ServerControl.php:1386
 msgid "Preparing to import"
 msgstr "Import vorbereiten"
 
@@ -2633,11 +2713,9 @@ msgstr ""
 msgid "Raw"
 msgstr ""
 
-#. File system/class_LogProcessor.php:819
+#. File system/class_ReportFormat.php:47
 #.
-#. File system/class_LogProcessor.php:699
-#.
-#: system/class_LogProcessor.php:819 system/class_LogProcessor.php:699
+#: system/class_ReportFormat.php:47
 msgid "Raw meta"
 msgstr ""
 
@@ -2749,6 +2827,12 @@ msgstr ""
 "Relaying kann diesen Mountpoint nicht verwendet werden wenn der AutoDJ "
 "aktiviert ist."
 
+#. File system/class_ReportFormat.php:48
+#.
+#: system/class_ReportFormat.php:48
+msgid "Release year"
+msgstr ""
+
 #. File system/servers/ShoutCast2/templates/connection_details.tpl:40
 #. Arguments: "<a href='index.php?page=configure'>","</a>",$mount.streamid
 #. Context: <tr><td></td><td>
@@ -2767,11 +2851,11 @@ msgstr ""
 msgid "Reseller account does not exist in database"
 msgstr ""
 
-#. File system/class_AccountControl.php:901
+#. File system/class_AccountControl.php:903
 #.
 #. File system/AccountEditorDrivers/bytype/class_ClientTypeEditor.php:156
 #.
-#: system/class_AccountControl.php:901
+#: system/class_AccountControl.php:903
 #: system/AccountEditorDrivers/bytype/class_ClientTypeEditor.php:156
 msgid "Reseller account has reached its client account limit"
 msgstr ""
@@ -2894,9 +2978,9 @@ msgid ""
 "automatically reactivating autoDJ"
 msgstr ""
 
-#. File system/class_ServerControl.php:868
+#. File system/class_ServerControl.php:870
 #.
-#: system/class_ServerControl.php:868
+#: system/class_ServerControl.php:870
 msgid "Server exited immediately after startup"
 msgstr "Server unittelbar nach dem Start beendet"
 
@@ -2993,14 +3077,14 @@ msgid ""
 "your request at this time.  Please try again later."
 msgstr ""
 
-#. File system/class_ServerControl.php:1124
+#. File system/class_ServerControl.php:1126
 #.
-#. File system/class_ServerControl.php:1242
+#. File system/class_ServerControl.php:1244
 #.
-#. File system/class_ServerControl.php:1181
+#. File system/class_ServerControl.php:1183
 #.
-#: system/class_ServerControl.php:1124 system/class_ServerControl.php:1242
-#: system/class_ServerControl.php:1181
+#: system/class_ServerControl.php:1126 system/class_ServerControl.php:1244
+#: system/class_ServerControl.php:1183
 msgid "Source is not running"
 msgstr "SQuelle l&auml;uft nicht"
 
@@ -3028,48 +3112,48 @@ msgstr ""
 msgid "Source username"
 msgstr ""
 
-#. File system/class_AccountControl.php:958
+#. File system/class_AccountControl.php:960
 #. Arguments: $requestedbitrate,$limits['maxbitrate']
 #.
-#: system/class_AccountControl.php:958
+#: system/class_AccountControl.php:960
 msgid "Specified bit rate exceeds (%d kbps) reseller bitrate limit (%d kbps)"
 msgstr ""
 
-#. File system/class_AccountControl.php:963
+#. File system/class_AccountControl.php:965
 #. Arguments: $requestedbandwidth,$limits['maxbandwidth']
 #.
-#: system/class_AccountControl.php:963
+#: system/class_AccountControl.php:965
 msgid ""
 "Specified combination of bit rate and listener limit (%d kbps) exceeds "
 "reseller bandwidth limit (%d kbps)"
 msgstr ""
 
-#. File system/class_AccountControl.php:956
+#. File system/class_AccountControl.php:958
 #. Arguments: $requesteddiskquota,$limits['diskquota']
 #.
-#: system/class_AccountControl.php:956
+#: system/class_AccountControl.php:958
 msgid "Specified disk quota (%d MB) exceeds reseller limits (%d MB remain)"
 msgstr ""
 
-#. File system/class_AccountControl.php:954
+#. File system/class_AccountControl.php:956
 #. Arguments: $requestedclients,$limits['maxclients']
 #.
-#: system/class_AccountControl.php:954
+#: system/class_AccountControl.php:956
 msgid "Specified listener limit (%d) exceeds reseller limits (%d remain)"
 msgstr ""
 
-#. File system/class_AccountControl.php:960
+#. File system/class_AccountControl.php:962
 #. Arguments: $requestedmountlimit,$limits['mountlimit']
 #.
-#: system/class_AccountControl.php:960
+#: system/class_AccountControl.php:962
 msgid ""
 "Specified mount point limit (%d) exceeds reseller mount point limit (%d)"
 msgstr ""
 
-#. File system/class_AccountControl.php:955
+#. File system/class_AccountControl.php:957
 #. Arguments: $requestedxferlimit,$limits['transferlimit']
 #.
-#: system/class_AccountControl.php:955
+#: system/class_AccountControl.php:957
 msgid "Specified transfer limit (%d MB) exceeds reseller limits (%d MB remain)"
 msgstr ""
 
@@ -3084,9 +3168,9 @@ msgstr ""
 msgid "Standard Rotation"
 msgstr "Standard Rotation"
 
-#. File system/class_LogProcessor.php:692
+#. File system/class_ReportFormat.php:38
 #.
-#: system/class_LogProcessor.php:692
+#: system/class_ReportFormat.php:38
 msgid "Start time"
 msgstr ""
 
@@ -3113,10 +3197,10 @@ msgstr "Identifizierung"
 msgid "Stereo mode"
 msgstr ""
 
-#. File system/class_ServerControl.php:1055
+#. File system/class_ServerControl.php:1057
 #. Arguments: $error_message
 #.
-#: system/class_ServerControl.php:1055
+#: system/class_ServerControl.php:1057
 msgid "Stream control issue detected (%s); log attached"
 msgstr ""
 
@@ -3318,21 +3402,21 @@ msgstr "Streamserver URL Format"
 msgid "Stream username"
 msgstr ""
 
-#. File system/class_ServerControl.php:1029
+#. File system/class_ServerControl.php:1031
 #.
-#: system/class_ServerControl.php:1029
+#: system/class_ServerControl.php:1031
 msgid "Streaming applications started successfully"
 msgstr ""
 
-#. File system/class_ServerControl.php:887
+#. File system/class_ServerControl.php:889
 #.
-#: system/class_ServerControl.php:887
+#: system/class_ServerControl.php:889
 msgid "Streaming server started successfully"
 msgstr ""
 
-#. File system/class_ServerControl.php:940
+#. File system/class_ServerControl.php:942
 #.
-#: system/class_ServerControl.php:940
+#: system/class_ServerControl.php:942
 msgid "Streaming source not enabled"
 msgstr ""
 
@@ -3361,6 +3445,12 @@ msgstr ""
 msgid "successful"
 msgstr ""
 
+#. File system/class_ReportGenerator.php:656
+#.
+#: system/class_ReportGenerator.php:656
+msgid "Summary"
+msgstr ""
+
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:143
 #. Context: <option value="full_band">{="Full band"}</option>
 #. <option value="super_wide_band">{="Super wide band"}</option>
@@ -3370,17 +3460,17 @@ msgstr ""
 msgid "Super wide band"
 msgstr ""
 
-#. File system/class_SystemControl.php:2036
+#. File system/class_SystemControl.php:2034
 #.
-#: system/class_SystemControl.php:2036
+#: system/class_SystemControl.php:2034
 msgid "suspended"
 msgstr "Deaktiviert"
 
-#. File system/class_ServerControl.php:2055
+#. File system/class_ServerControl.php:2062
 #.
-#. File system/class_ServerControl.php:1903
+#. File system/class_ServerControl.php:1910
 #.
-#: system/class_ServerControl.php:2055 system/class_ServerControl.php:1903
+#: system/class_ServerControl.php:2062 system/class_ServerControl.php:1910
 msgid "suspended until further notice"
 msgstr ""
 
@@ -3437,19 +3527,25 @@ msgid ""
 "mount point on a remote server."
 msgstr ""
 
-#. File system/class_ServerControl.php:2416
+#. File system/class_ServerControl.php:2423
 #. Arguments: $nextport
 #.
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:458
 #. Arguments: $nextport
 #.
-#. File system/class_SystemControl.php:1211
+#. File system/class_SystemControl.php:1209
 #. Arguments: $nextport
 #.
-#: system/class_ServerControl.php:2416
+#: system/class_ServerControl.php:2423
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:458
-#: system/class_SystemControl.php:1211
+#: system/class_SystemControl.php:1209
 msgid "the next available port is %d"
+msgstr ""
+
+#. File system/class_ReportFormat.php:72
+#.
+#: system/class_ReportFormat.php:72
+msgid "The raw metadata string provided by the streaming server for this track"
 msgstr ""
 
 #. File system/class_UserSession.php:747
@@ -3478,6 +3574,18 @@ msgstr ""
 #: system/servers/IceCast/class_IceCastConfig.php:109
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:31
 msgid "Thread pool"
+msgstr ""
+
+#. File system/class_ReportFormat.php:64
+#.
+#: system/class_ReportFormat.php:64
+msgid "Time at which playback ended"
+msgstr ""
+
+#. File system/class_ReportFormat.php:63
+#.
+#: system/class_ReportFormat.php:63
+msgid "Time at which the track began playback"
 msgstr ""
 
 #. File system/sources/sctrans2/templates/configuration_source.tpl:59
@@ -3512,11 +3620,15 @@ msgstr ""
 "Tip: Verwenden Sie den %sMountpoints%s Tab um Ihren Streamserver als Relay "
 "einzurichten."
 
-#. File system/class_LogProcessor.php:816
+#. File system/class_ReportFormat.php:61
 #.
-#. File system/class_LogProcessor.php:696
+#: system/class_ReportFormat.php:61
+msgid "Title of the track"
+msgstr ""
+
+#. File system/class_ReportFormat.php:44
 #.
-#: system/class_LogProcessor.php:816 system/class_LogProcessor.php:696
+#: system/class_ReportFormat.php:44
 msgid "TLH"
 msgstr ""
 
@@ -3548,11 +3660,23 @@ msgstr ""
 msgid "Total disk usage: %0.02f MB"
 msgstr "Gesamte Festplattennutzung: %0.02f MB"
 
-#. File system/class_LogProcessor.php:811
+#. File system/class_ReportFormat.php:69
 #.
-#. File system/class_LogProcessor.php:690
+#: system/class_ReportFormat.php:69
+msgid ""
+"Total listening hours for the track (sum of the duration for which listeners "
+"heard the track)"
+msgstr ""
+
+#. File system/class_ReportFormat.php:65
 #.
-#: system/class_LogProcessor.php:811 system/class_LogProcessor.php:690
+#: system/class_ReportFormat.php:65
+msgid "Total number of listeners who heard any portion of the track"
+msgstr ""
+
+#. File system/class_ReportFormat.php:36
+#.
+#: system/class_ReportFormat.php:36
 msgid "Track title"
 msgstr ""
 
@@ -3582,15 +3706,15 @@ msgstr ""
 msgid "Transport type"
 msgstr ""
 
-#. File system/class_SystemControl.php:2046
+#. File system/class_SystemControl.php:2044
 #.
-#: system/class_SystemControl.php:2046
+#: system/class_SystemControl.php:2044
 msgid "triggered by reseller status change"
 msgstr ""
 
-#. File system/class_ServerControl.php:1209
+#. File system/class_ServerControl.php:1211
 #.
-#: system/class_ServerControl.php:1209
+#: system/class_ServerControl.php:1211
 msgid "Unable to restart server"
 msgstr ""
 
@@ -3611,15 +3735,15 @@ msgstr ""
 msgid "Unknown/Binary File"
 msgstr "Unbekannte oder bin&auml;re Datei"
 
-#. File system/class_AccountControl.php:950
+#. File system/class_AccountControl.php:952
 #.
-#: system/class_AccountControl.php:950
+#: system/class_AccountControl.php:952
 msgid "Unlimited disk quota not permitted for this reseller account"
 msgstr ""
 
-#. File system/class_AccountControl.php:951
+#. File system/class_AccountControl.php:953
 #.
-#: system/class_AccountControl.php:951
+#: system/class_AccountControl.php:953
 msgid "Unlimited transfer not permitted for this reseller account"
 msgstr ""
 
@@ -3765,11 +3889,11 @@ msgstr "Verwende YP V2"
 
 #. File system/class_AccountControl.php:62
 #.
-#. File system/class_AccountControl.php:718
+#. File system/class_AccountControl.php:720
 #.
 #. File system/include_console.php:5
 #.
-#: system/class_AccountControl.php:62 system/class_AccountControl.php:718
+#: system/class_AccountControl.php:62 system/class_AccountControl.php:720
 #: system/include_console.php:5
 msgid "username"
 msgstr ""
@@ -4031,6 +4155,12 @@ msgstr ""
 #: system/class_MIMETypes.php:49
 msgid "Windows Binary File"
 msgstr "Windows bin&auml;re Datei"
+
+#. File system/class_ReportFormat.php:73
+#.
+#: system/class_ReportFormat.php:73
+msgid "Year in which the track was released"
+msgstr ""
 
 #. File system/servers/WindowsMedia/templates/connection_details.tpl:26
 #. Arguments: "<a href='index.php?page=configure'>","</a>"

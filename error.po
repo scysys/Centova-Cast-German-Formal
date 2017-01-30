@@ -5,19 +5,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2016-01-27 02:55+0100\n"
-"PO-Revision-Date: 2016-01-27 02:55+0100\n"
+"POT-Creation-Date: 2016-02-27 00:00+0100\n"
+"PO-Revision-Date: 2016-02-27 00:00+0100\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 
-#. File www/client/modules/class_Module_library.php:77
+#. File www/client/modules/class_Module_library.php:73
 #.
-#: www/client/modules/class_Module_library.php:77
+#: www/client/modules/class_Module_library.php:73
 msgid "Access denied to selected playlist."
 msgstr "Zugriff auf gew&auml;hlte Abspielliste verweigert"
 
@@ -27,9 +27,9 @@ msgstr "Zugriff auf gew&auml;hlte Abspielliste verweigert"
 msgid "account limit reached"
 msgstr ""
 
-#. File system/class_ServerControl.php:519
+#. File system/class_ServerControl.php:521
 #.
-#: system/class_ServerControl.php:519
+#: system/class_ServerControl.php:521
 msgid "An error occurred while copying this file"
 msgstr "Beim kopieren der Datei trat ein Fehler auf"
 
@@ -63,17 +63,17 @@ msgstr ""
 msgid "Application binary has not been configured for %s on %s"
 msgstr ""
 
-#. File system/class_ServerControl.php:2699
+#. File system/class_ServerControl.php:2754
 #. Arguments: 'Unable to download archive from remote server: ' . $error
 #.
-#. File system/class_ServerControl.php:2681
+#. File system/class_ServerControl.php:2736
 #. Arguments: 'Archive not created by remote server'
 #.
-#. File system/class_ServerControl.php:2629
+#. File system/class_ServerControl.php:2684
 #. Arguments: $this->rpc->get_message()
 #.
-#: system/class_ServerControl.php:2699 system/class_ServerControl.php:2681
-#: system/class_ServerControl.php:2629
+#: system/class_ServerControl.php:2754 system/class_ServerControl.php:2736
+#: system/class_ServerControl.php:2684
 msgid "Archival failed: %s"
 msgstr ""
 
@@ -102,9 +102,9 @@ msgstr ""
 msgid "Back-end password update failed: %s"
 msgstr ""
 
-#. File system/class_ServerControl.php:1497
+#. File system/class_ServerControl.php:1509
 #.
-#: system/class_ServerControl.php:1497
+#: system/class_ServerControl.php:1509
 msgid ""
 "Bad secret.  Argument 2 must specify the \"secret\" column from the accounts "
 "database table."
@@ -116,9 +116,9 @@ msgstr "Falsches Passwort. Argument 2 muss das Passwort des Kontos sein."
 msgid "bandwidth limit reached"
 msgstr ""
 
-#. File system/class_SystemControl.php:1996
+#. File system/class_SystemControl.php:1994
 #.
-#: system/class_SystemControl.php:1996
+#: system/class_SystemControl.php:1994
 msgid "Cannot change status until parent reseller account is enabled"
 msgstr ""
 
@@ -128,54 +128,54 @@ msgstr ""
 msgid "Cannot open playlist file."
 msgstr "Kann Wiedergabeliste nicht &ouml;ffnen."
 
-#. File system/class_ServerControl.php:2239
+#. File system/class_ServerControl.php:2246
 #.
-#: system/class_ServerControl.php:2239
+#: system/class_ServerControl.php:2246
 msgid "Cannot operate on administrator account"
 msgstr ""
 
-#. File system/class_ServerControl.php:1145
+#. File system/class_ServerControl.php:1147
 #.
-#: system/class_ServerControl.php:1145
+#: system/class_ServerControl.php:1147
 msgid ""
 "Cannot reload configuration; you will need to restart the server instead."
 msgstr ""
 
-#. File system/class_RPCDaemonClient.php:1365
+#. File system/class_RPCDaemonClient.php:1394
 #. Arguments: $this->rpchosttitle,$this->get_error()
 #.
-#: system/class_RPCDaemonClient.php:1365
+#: system/class_RPCDaemonClient.php:1394
 msgid "Cluster host authentication failure for %s: %s"
 msgstr ""
 
-#. File system/class_RPCDaemonClient.php:1356
+#. File system/class_RPCDaemonClient.php:1385
 #. Arguments: $this->rpchosttitle,$this->get_error()
 #.
-#. File system/class_RPCDaemonClient.php:1346
+#. File system/class_RPCDaemonClient.php:1375
 #. Arguments: $this->rpchosttitle,'recursive send/connect'
 #.
-#: system/class_RPCDaemonClient.php:1356 system/class_RPCDaemonClient.php:1346
+#: system/class_RPCDaemonClient.php:1385 system/class_RPCDaemonClient.php:1375
 msgid "Cluster host connection failure for %s: %s"
 msgstr ""
 
-#. File system/class_SystemControl.php:2336
+#. File system/class_SystemControl.php:2334
 #. Arguments: $errors
 #.
-#: system/class_SystemControl.php:2336
+#: system/class_SystemControl.php:2334
 msgid "Completed with %d error(s)"
 msgstr ""
 
-#. File system/class_ServerControl.php:503
+#. File system/class_ServerControl.php:505
 #.
-#. File system/class_ServerControl.php:499
+#. File system/class_ServerControl.php:501
 #.
-#: system/class_ServerControl.php:503 system/class_ServerControl.php:499
+#: system/class_ServerControl.php:505 system/class_ServerControl.php:501
 msgid "Could not create reseller directory"
 msgstr ""
 
-#. File system/class_ServerControl.php:2608
+#. File system/class_ServerControl.php:2663
 #.
-#: system/class_ServerControl.php:2608
+#: system/class_ServerControl.php:2663
 msgid "Could not create token"
 msgstr "Konnte Merkmal nicht erstellen"
 
@@ -186,15 +186,15 @@ msgstr "Konnte Merkmal nicht erstellen"
 msgid "Could not identify a cluster host supporting %s and %s"
 msgstr ""
 
-#. File system/class_ServerControl.php:1312
+#. File system/class_ServerControl.php:1314
 #.
-#: system/class_ServerControl.php:1312
+#: system/class_ServerControl.php:1314
 msgid "Could not stop server"
 msgstr ""
 
-#. File system/class_ServerControl.php:2505
+#. File system/class_ServerControl.php:2512
 #.
-#: system/class_ServerControl.php:2505
+#: system/class_ServerControl.php:2512
 msgid "Could not update account"
 msgstr "Konnte Konto nicht aktualisieren"
 
@@ -210,16 +210,16 @@ msgstr ""
 msgid "Error accessing account"
 msgstr ""
 
-#. File system/class_ServerControl.php:1440
+#. File system/class_ServerControl.php:1442
 #.
-#: system/class_ServerControl.php:1440
+#: system/class_ServerControl.php:1442
 msgid "Error adding new tracks to playlist"
 msgstr "Fehler beim hinzuf&uuml;gen der neuen Titel zur Wiedergabeliste"
 
-#. File system/class_ServerControl.php:1668
+#. File system/class_ServerControl.php:1680
 #. Arguments: $tm->error
 #.
-#: system/class_ServerControl.php:1668
+#: system/class_ServerControl.php:1680
 msgid "Error creating playlist: %s"
 msgstr "Fehler beim Erstellen der Playlist: %s"
 
@@ -230,29 +230,29 @@ msgstr "Fehler beim Erstellen der Playlist: %s"
 msgid "Error re-loading account: %s"
 msgstr ""
 
-#. File system/class_ServerControl.php:2149
+#. File system/class_ServerControl.php:2156
 #. Arguments: $app->type
 #.
-#: system/class_ServerControl.php:2149
+#: system/class_ServerControl.php:2156
 msgid "Error saving settings for application %s"
 msgstr ""
 
-#. File system/class_ServerControl.php:2163
+#. File system/class_ServerControl.php:2170
 #.
-#: system/class_ServerControl.php:2163
+#: system/class_ServerControl.php:2170
 msgid "Error saving streaming server settings"
 msgstr "Fehler beim speichern der Einstellung f&uuml;r den Stream-Server"
 
-#. File system/class_ServerControl.php:2754
+#. File system/class_ServerControl.php:2809
 #.
-#. File system/class_ServerControl.php:2749
+#. File system/class_ServerControl.php:2804
 #.
-#. File system/class_SystemControl.php:1965
+#. File system/class_SystemControl.php:1963
 #.
-#. File system/class_SystemControl.php:1961
+#. File system/class_SystemControl.php:1959
 #.
-#: system/class_ServerControl.php:2754 system/class_ServerControl.php:2749
-#: system/class_SystemControl.php:1965 system/class_SystemControl.php:1961
+#: system/class_ServerControl.php:2809 system/class_ServerControl.php:2804
+#: system/class_SystemControl.php:1963 system/class_SystemControl.php:1959
 msgid "Error updating account settings"
 msgstr ""
 
@@ -264,9 +264,9 @@ msgid ""
 "symbol except space or any of #%&?+\\"
 msgstr ""
 
-#. File system/class_ServerControl.php:513
+#. File system/class_ServerControl.php:515
 #.
-#: system/class_ServerControl.php:513
+#: system/class_ServerControl.php:515
 msgid "Invalid destination path"
 msgstr "Ung&uuml;ltiger Zielpfad"
 
@@ -279,18 +279,18 @@ msgstr "Ung&uuml;ltige E-Mail-Adresse"
 #. File www/class_AccountEditor.php:450
 #. Arguments: $ext,$field_name
 #.
-#. File system/class_SystemControl.php:1578
+#. File system/class_SystemControl.php:1576
 #. Arguments: $ext,$fieldname
 #.
-#: www/class_AccountEditor.php:450 system/class_SystemControl.php:1578
+#: www/class_AccountEditor.php:450 system/class_SystemControl.php:1576
 msgid "Invalid file type (%s) for \"%s\" upload"
 msgstr ""
 
-#. File system/class_TrackManager.php:833
+#. File system/class_TrackManager.php:908
 #.
 #. File system/class_TrackManager.php:80
 #.
-#: system/class_TrackManager.php:833 system/class_TrackManager.php:80
+#: system/class_TrackManager.php:908 system/class_TrackManager.php:80
 msgid "Invalid media path"
 msgstr "Ung&uuml;ltiger Medienpfad"
 
@@ -306,22 +306,22 @@ msgstr "Ung&uuml;ltiger Passwort-Reset Code"
 msgid "Invalid server type"
 msgstr ""
 
-#. File system/class_ServerControl.php:2258
+#. File system/class_ServerControl.php:2265
 #. Arguments: $servertype
 #.
-#: system/class_ServerControl.php:2258
+#: system/class_ServerControl.php:2265
 msgid "Invalid server type: %s"
 msgstr ""
 
-#. File system/class_ServerControl.php:1348
+#. File system/class_ServerControl.php:1350
 #.
-#: system/class_ServerControl.php:1348
+#: system/class_ServerControl.php:1350
 msgid "Invalid state for source"
 msgstr "Ung&uuml;ltiger Status f&uuml;r Quelle"
 
-#. File system/class_ServerControl.php:1490
+#. File system/class_ServerControl.php:1502
 #.
-#: system/class_ServerControl.php:1490
+#: system/class_ServerControl.php:1502
 msgid "Invalid username."
 msgstr "Ung&uuml;ltiger Benutzername."
 
@@ -348,9 +348,9 @@ msgstr ""
 msgid "Media must be added to a playlist before starting stream."
 msgstr ""
 
-#. File system/class_SystemControl.php:1860
+#. File system/class_SystemControl.php:1858
 #.
-#: system/class_SystemControl.php:1860
+#: system/class_SystemControl.php:1858
 msgid "Must specify a new parent reseller"
 msgstr ""
 
@@ -360,9 +360,9 @@ msgstr ""
 msgid "must specify a username"
 msgstr ""
 
-#. File system/class_ServerControl.php:1647
+#. File system/class_ServerControl.php:1659
 #.
-#: system/class_ServerControl.php:1647
+#: system/class_ServerControl.php:1659
 msgid "Must specify a valid action"
 msgstr "Es muss eine g&uuml;ltige Aktion angegeben werden"
 
@@ -378,9 +378,9 @@ msgstr ""
 msgid "Must specify a valid username"
 msgstr ""
 
-#. File system/class_ServerControl.php:489
+#. File system/class_ServerControl.php:491
 #.
-#: system/class_ServerControl.php:489
+#: system/class_ServerControl.php:491
 msgid "Must specify source file"
 msgstr ""
 
@@ -403,35 +403,38 @@ msgstr ""
 msgid "No DJ account exists with the specified username"
 msgstr ""
 
-#. File system/class_ServerControl.php:1588
+#. File system/class_ServerControl.php:2639
 #.
-#. File system/class_ServerControl.php:1581
+#. File system/class_ServerControl.php:1600
 #.
-#: system/class_ServerControl.php:1588 system/class_ServerControl.php:1581
+#. File system/class_ServerControl.php:1593
+#.
+#: system/class_ServerControl.php:2639 system/class_ServerControl.php:1600
+#: system/class_ServerControl.php:1593
 msgid "No matching playlist found"
 msgstr "Keine &uuml;bereinstimmenden Wiedergabelisten gefunden"
 
-#. File system/class_ServerControl.php:1603
+#. File system/class_ServerControl.php:1615
 #.
-#: system/class_ServerControl.php:1603
+#: system/class_ServerControl.php:1615
 msgid "No matching tracks found"
 msgstr "Keine &uuml;bereinstimmenden Titel gefunden"
 
-#. File system/class_TrackManager.php:868
+#. File system/class_TrackManager.php:943
 #.
-#: system/class_TrackManager.php:868
+#: system/class_TrackManager.php:943
 msgid "No playlists are active for this account"
 msgstr "F&uuml;r diesen Account sind keine Wiedergabelisten aktiviert"
 
-#. File system/class_ServerControl.php:1338
+#. File system/class_ServerControl.php:1340
 #.
-#: system/class_ServerControl.php:1338
+#: system/class_ServerControl.php:1340
 msgid "No source is configured for this stream"
 msgstr ""
 
-#. File system/class_TrackManager.php:1152
+#. File system/class_TrackManager.php:1227
 #.
-#: system/class_TrackManager.php:1152
+#: system/class_TrackManager.php:1227
 msgid "No tracks exist in the active playlists for this account"
 msgstr ""
 "Es existieren keine Titel in den aktiven Playlisten f&uuml;r dieses Konto"
@@ -514,20 +517,20 @@ msgstr ""
 "Die Plisten Rechte müssen korrigiert werden bevor der Streamserver gestartet "
 "werden kann."
 
-#. File system/class_ServerControl.php:1608
+#. File system/class_ServerControl.php:1620
 #.
-#. File system/class_ServerControl.php:1606
+#. File system/class_ServerControl.php:1618
 #.
-#. File system/class_ServerControl.php:1581
+#. File system/class_ServerControl.php:1593
 #.
-#: system/class_ServerControl.php:1608 system/class_ServerControl.php:1606
-#: system/class_ServerControl.php:1581
+#: system/class_ServerControl.php:1620 system/class_ServerControl.php:1618
+#: system/class_ServerControl.php:1593
 msgid "Playlist updated"
 msgstr ""
 
-#. File system/ccmanage.php:270
+#. File system/ccmanage.php:272
 #.
-#: system/ccmanage.php:270
+#: system/ccmanage.php:272
 msgid "Reseller access denied for this operation"
 msgstr ""
 
@@ -549,14 +552,14 @@ msgstr ""
 msgid "Reseller account has reached its transfer limit"
 msgstr ""
 
-#. File system/class_ServerControl.php:1231
+#. File system/class_ServerControl.php:1233
 #.
-#. File system/class_ServerControl.php:1178
+#. File system/class_ServerControl.php:1180
 #.
-#. File system/class_ServerControl.php:1133
+#. File system/class_ServerControl.php:1135
 #.
-#: system/class_ServerControl.php:1231 system/class_ServerControl.php:1178
-#: system/class_ServerControl.php:1133
+#: system/class_ServerControl.php:1233 system/class_ServerControl.php:1180
+#: system/class_ServerControl.php:1135
 msgid "Server is not running"
 msgstr "Server ist aus"
 
@@ -580,51 +583,51 @@ msgstr ""
 msgid "Sorry, your song request could not be submitted at this time."
 msgstr ""
 
-#. File system/class_ServerControl.php:492
+#. File system/class_ServerControl.php:494
 #.
-#: system/class_ServerControl.php:492
+#: system/class_ServerControl.php:494
 msgid "Source file does not exist or is not readable"
 msgstr "Quelle - Datei existiert nicht oder ist nicht lesbar"
 
-#. File system/class_ServerControl.php:1680
+#. File system/class_ServerControl.php:1692
 #.
-#. File system/class_ServerControl.php:1616
+#. File system/class_ServerControl.php:1628
 #.
-#: system/class_ServerControl.php:1680 system/class_ServerControl.php:1616
+#: system/class_ServerControl.php:1692 system/class_ServerControl.php:1628
 msgid "Source support is not enabled for this host"
 msgstr ""
 
-#. File system/class_ServerControl.php:1689
+#. File system/class_ServerControl.php:1701
 #.
-#: system/class_ServerControl.php:1689
+#: system/class_ServerControl.php:1701
 msgid "Streaming source is not running"
 msgstr ""
 
-#. File system/class_ServerControl.php:2414
+#. File system/class_ServerControl.php:2421
 #. Arguments: $e->getSelectedPorts()
 #.
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:454
 #. Arguments: $e->getSelectedPorts()
 #.
-#. File system/class_SystemControl.php:1209
+#. File system/class_SystemControl.php:1207
 #. Arguments: $e->getSelectedPorts()
 #.
-#: system/class_ServerControl.php:2414
+#: system/class_ServerControl.php:2421
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:454
-#: system/class_SystemControl.php:1209
+#: system/class_SystemControl.php:1207
 msgid "The selected port number %s is in use"
 msgstr ""
 
-#. File system/class_ServerControl.php:1417
+#. File system/class_ServerControl.php:1419
 #.
-#: system/class_ServerControl.php:1417
+#: system/class_ServerControl.php:1419
 msgid "The specified playlist does not exist."
 msgstr "Die angegebene Wiedergabeliste existiert nicht."
 
-#. File system/class_SystemControl.php:1099
+#. File system/class_SystemControl.php:1097
 #. Arguments: $servertype,implode(', ',$apptypes)
 #.
-#: system/class_SystemControl.php:1099
+#: system/class_SystemControl.php:1097
 msgid ""
 "The specified region does not host any available servers with the server "
 "type \"%s\" and the application(s) \"%s\""
@@ -636,9 +639,9 @@ msgstr ""
 msgid "the specified username is reserved"
 msgstr "Der angegebene Username ist reserviert."
 
-#. File system/class_ServerControl.php:1402
+#. File system/class_ServerControl.php:1404
 #.
-#: system/class_ServerControl.php:1402
+#: system/class_ServerControl.php:1404
 msgid "There is no playlist that matches the specified keyword."
 msgstr "Es existiert keine Playliste die auf dieses Keywort zutrifft."
 
@@ -688,15 +691,21 @@ msgstr ""
 "Nicht imstande, Konto zu identifizierenen, um Wiedergabelistenzustand zu "
 "&uuml;berpr&uuml;fen."
 
-#. File system/class_ServerControl.php:964
+#. File system/class_ServerControl.php:966
 #.
-#: system/class_ServerControl.php:964
+#: system/class_ServerControl.php:966
 msgid "Unable to prepare playlist for source startup"
 msgstr "Die Playliste konnte für den Start nicht vorbereitet werden"
 
-#. File system/class_ServerControl.php:1622
+#. File system/class_PlaylistFileImporter.php:73
 #.
-#: system/class_ServerControl.php:1622
+#: system/class_PlaylistFileImporter.php:73
+msgid "Unable to read playlist file"
+msgstr ""
+
+#. File system/class_ServerControl.php:1634
+#.
+#: system/class_ServerControl.php:1634
 msgid "Unable to rebuild playlist"
 msgstr "Fehler beim aktualisieren der Playliste"
 
@@ -706,9 +715,9 @@ msgstr "Fehler beim aktualisieren der Playliste"
 msgid "Unable to save template"
 msgstr ""
 
-#. File system/class_ServerControl.php:973
+#. File system/class_ServerControl.php:975
 #.
-#: system/class_ServerControl.php:973
+#: system/class_ServerControl.php:975
 msgid "Unable to verify playlist"
 msgstr "Die playliste konnte nicht überprüft werden"
 

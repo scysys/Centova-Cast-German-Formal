@@ -20,7 +20,7 @@ msgstr ""
 #.
 #: billing/ihost/centovacast/class_BackendCentovaCast.php:126
 msgid "%s Stream"
-msgstr ""
+msgstr "%s Stream"
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:33
 #. Context: " name="centovacast_account[mountlimit]" id="mountlimit" size="5" value="{$centovacast_account.mountlimit|htmlentities}" /> ({="0 for unlimited"}, {="blank to use template setting"})</td>
@@ -28,13 +28,13 @@ msgstr ""
 #.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:33
 msgid "0 for unlimited"
-msgstr ""
+msgstr "0 für unbegrenzt"
 
 #. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:34
 #.
 #: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:34
 msgid "Account template"
-msgstr ""
+msgstr "Account Template"
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:3
 #. Context: td width="150"><label for="centovacast_account[template]"{if $centovacast_account_fielderrors.template>0} class="error"{/if}>{="Account template name"}:</label></td>
@@ -42,7 +42,7 @@ msgstr ""
 #.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:3
 msgid "Account template name"
-msgstr ""
+msgstr "Account Templat Name"
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:46
 #. Context: <tr>
@@ -54,7 +54,7 @@ msgstr ""
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:46
 #: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:43
 msgid "AutoDJ support"
-msgstr ""
+msgstr "AutoDJ Support"
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:57
 #. Context: ers]" id="resellerusers" size="5" value="{$centovacast_account.resellerusers|htmlentities}" /> ({="reseller accounts only"}, {="blank to use template setting"})</td>
@@ -155,7 +155,7 @@ msgstr ""
 #.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:41
 msgid "Not permitted"
-msgstr ""
+msgstr "Nicht erlaubt"
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:28
 #. Context: <option value="0"{if $centovacast_account.startserver==0} selected="selected"{/if}>{="No"}</option>

@@ -5,20 +5,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2016-01-27 02:55+0100\n"
-"PO-Revision-Date: 2016-01-27 02:55+0100\n"
+"POT-Creation-Date: 2016-02-27 00:00+0100\n"
+"PO-Revision-Date: 2016-02-27 00:00+0100\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #. File www/class_StreamStatus.php:517
 #. Arguments: $this->str($this->bitrate)
 #.
-#. File www/class_CCTemplate.php:571
+#. File www/class_CCTemplate.php:574
 #. Arguments: $i
 #.
 #. File www/system/templates/index_heading.tpl:3
@@ -30,7 +30,7 @@ msgstr ""
 #. File www/client/class_ClientApplication.php:157
 #. Arguments: $this->streamstatus->bitrate
 #.
-#: www/class_StreamStatus.php:517 www/class_CCTemplate.php:571
+#: www/class_StreamStatus.php:517 www/class_CCTemplate.php:574
 #: www/system/templates/index_heading.tpl:3
 #: www/client/class_ClientApplication.php:157
 msgid "%d Kbps"
@@ -218,9 +218,9 @@ msgstr ""
 #.
 #. File www/class_AccountTemplateEditor.php:96
 #.
-#. File system/class_ServerControl.php:1606
+#. File system/class_ServerControl.php:1618
 #.
-#. File system/class_ServerControl.php:1608
+#. File system/class_ServerControl.php:1620
 #.
 #. File system/AccountManagerDrivers/mutators/class_TemplateMutator.php:46
 #.
@@ -231,8 +231,8 @@ msgstr ""
 #: www/system/templates/admin_settings.tpl:30
 #: www/system/templates/admin_servertype_edit.tpl:5
 #: www/system/templates/admin_email.tpl:89
-#: www/class_AccountTemplateEditor.php:96 system/class_ServerControl.php:1606
-#: system/class_ServerControl.php:1608
+#: www/class_AccountTemplateEditor.php:96 system/class_ServerControl.php:1618
+#: system/class_ServerControl.php:1620
 #: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:46
 #: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:117
 msgid "An error occurred while attempting to save this update"
@@ -256,12 +256,12 @@ msgstr "Aug"
 
 #. File www/menu.php:410
 #.
-#. File www/menu.php:312
-#.
 #. File www/theme/templates/m/role-footer.tpl:6
 #. Context: on="custom" href="index.php#index">{="Server"}</a></li>
 #. <li><a id="btn-autodj" data-icon="custom" href="index.php#autodj"">{="AutoDJ"}</a></li>
 #. <li><a id="btn-statistics" data-icon="custom" href="index.php#statistics">{="Statistics"}</a></li>
+#.
+#. File www/menu.php:312
 #.
 #. File www/client/modules/class_Module_library.php:14
 #.
@@ -285,7 +285,7 @@ msgstr "Aug"
 #.
 #. File www/client/modules/class_Module_control.php:231
 #.
-#. File system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:53
+#. File www/client/modules/class_Module_importm3u.php:14
 #.
 #. File system/sources/sctrans/class_Sourcesctrans.php:206
 #.
@@ -295,20 +295,22 @@ msgstr "Aug"
 #.
 #. File system/sources/icessingleencoder/class_Sourceices.php:326
 #.
-#. File system/sources/ices/srvintf/class_SingleMountIcesServerInterface.php:47
-#.
 #. File system/sources/ices2/class_Ices2ServerInterface.php:227
 #.
-#. File system/class_StreamingSource.php:267
-#.
 #. File system/sources/ices2/class_Sourceices2.php:202
+#.
+#. File system/sources/ices/srvintf/class_SingleMountIcesServerInterface.php:47
+#.
+#. File system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:53
+#.
+#. File system/class_StreamingSource.php:267
 #.
 #. File system/sources/ezstream/class_Sourceezstream.php:331
 #.
 #. File www/system/templates/admin_settings.tpl:211
 #. Context: <h1>{="AutoDJ"}</h1>
 #.
-#: www/menu.php:410 www/menu.php:312 www/theme/templates/m/role-footer.tpl:6
+#: www/menu.php:410 www/theme/templates/m/role-footer.tpl:6 www/menu.php:312
 #: www/client/modules/class_Module_library.php:14
 #: www/client/modules/class_Module_filemanager.php:13
 #: www/client/modules/class_Module_playlists.php:19
@@ -317,23 +319,24 @@ msgstr "Aug"
 #: www/system/templates/autodj_control.tpl:10
 #: www/system/templates/configuration_form.tpl:18
 #: www/client/modules/class_Module_control.php:231
-#: system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:53
+#: www/client/modules/class_Module_importm3u.php:14
 #: system/sources/sctrans/class_Sourcesctrans.php:206
 #: system/sources/sctrans2/class_Sourcesctrans2.php:566
 #: system/sources/liquidsoap/class_Sourceliquidsoap.php:172
 #: system/sources/icessingleencoder/class_Sourceices.php:326
-#: system/sources/ices/srvintf/class_SingleMountIcesServerInterface.php:47
 #: system/sources/ices2/class_Ices2ServerInterface.php:227
-#: system/class_StreamingSource.php:267
 #: system/sources/ices2/class_Sourceices2.php:202
+#: system/sources/ices/srvintf/class_SingleMountIcesServerInterface.php:47
+#: system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:53
+#: system/class_StreamingSource.php:267
 #: system/sources/ezstream/class_Sourceezstream.php:331
 #: www/system/templates/admin_settings.tpl:211
 msgid "AutoDJ"
 msgstr ""
 
-#. File www/class_NextSongApplication.php:36
+#. File www/class_NextSongApplication.php:38
 #.
-#: www/class_NextSongApplication.php:36
+#: www/class_NextSongApplication.php:38
 msgid "Bad username or secret."
 msgstr ""
 
@@ -484,9 +487,9 @@ msgstr ""
 msgid "Copyright"
 msgstr "Copyright"
 
-#. File www/modules/class_base_Module_editor.php:41
+#. File www/modules/class_base_Module_editor.php:43
 #.
-#: www/modules/class_base_Module_editor.php:41
+#: www/modules/class_base_Module_editor.php:43
 msgid "Could not locate the requested item."
 msgstr "Konnte das angeforderte Objekt nicht finden."
 
@@ -496,7 +499,7 @@ msgstr "Konnte das angeforderte Objekt nicht finden."
 #.
 #: www/menu.php:429 www/menu.php:326
 msgid "Create and manage your playlists."
-msgstr ""
+msgstr "Erstllen und Verwalten Sie Ihre Playlisten."
 
 #. File www/system/templates/startpage_index.tpl:44
 #. Context: {check ($account.allowgmaps>0)}
@@ -504,7 +507,7 @@ msgstr ""
 #.
 #: www/system/templates/startpage_index.tpl:44
 msgid "Current Listener Locations"
-msgstr ""
+msgstr "Aktuelle Standorte der Zuhörer"
 
 #. File www/class_CCTemplate.php:94
 #.
@@ -656,20 +659,15 @@ msgstr "Geben Sie Ihre E-Mail Adresse ein, um fortzufahren."
 #. $('#nowplaying').text('{="Error"}: '+msg);
 #. }
 #.
-#. File www/system/templates/staffaccount_edit.tpl:76
-#. Context: {elseif $error}
-#. {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
-#. {/if}
+#. File www/system/templates/import_m3u_result.tpl:4
+#. Context: {check $error!=""}
+#. <strong>{="Error"}: </strong>{$error}<br /><br />
+#. {otherwise}
 #.
 #. File www/system/templates/configuration_form.tpl:25
 #. Context: {check ($errors|count>0) or ($fatal!="")}
 #. {box title="Error"}
 #. {if $fatal!=""}
-#.
-#. File www/system/templates/import_m3u_result.tpl:4
-#. Context: {check $error!=""}
-#. <strong>{="Error"}: </strong> {$error}<br /><br />
-#. {otherwise}
 #.
 #. File www/system/templates/invalid_account.tpl:1
 #. Context: {box title="Error"}
@@ -679,7 +677,30 @@ msgstr "Geben Sie Ihre E-Mail Adresse ein, um fortzufahren."
 #. Context: {if $errors|count}
 #. {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
 #.
+#. File www/system/templates/staffaccount_edit.tpl:76
+#. Context: {elseif $error}
+#. {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
+#. {/if}
+#.
+#. File www/system/templates/error.tpl:1
+#. Context: {box title="Error"}
+#. {="%sError%s: %s.","<strong>","</strong>",$error}<br /><br />
+#.
+#. File www/system/templates/reportformat_edit.tpl:18
+#. Context: {elseif $error}
+#. {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
+#. {/if}
+#.
 #. File www/system/templates/playlist_edit.tpl:79
+#. Context: {if $errors|count}
+#. {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
+#.
+#. File www/system/templates/djaccount_edit.tpl:31
+#. Context: {elseif $error}
+#. {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
+#. {/if}
+#.
+#. File www/system/templates/reportformat_edit.tpl:16
 #. Context: {if $errors|count}
 #. {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
 #.
@@ -689,23 +710,18 @@ msgstr "Geben Sie Ihre E-Mail Adresse ein, um fortzufahren."
 #.
 #. File www/client/modules/class_Module_preview.php:23
 #.
-#. File www/system/templates/djaccount_edit.tpl:29
-#. Context: {if $errors|count}
-#. {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
-#.
-#. File www/system/templates/djaccount_edit.tpl:31
-#. Context: {elseif $error}
-#. {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
-#. {/if}
-#.
-#. File www/system/templates/error.tpl:1
-#. Context: {box title="Error"}
-#. {="%sError%s: %s.","<strong>","</strong>",$error}<br /><br />
-#.
 #. File www/system/templates/playlist_edit.tpl:81
 #. Context: {elseif $error}
 #. {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
 #. {/if}
+#.
+#. File www/system/templates/djaccount_edit.tpl:29
+#. Context: {if $errors|count}
+#. {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
+#.
+#. File www/system/templates/admin_setuid_failed.tpl:1
+#. Context: {box title="Error"}
+#. {="Unable to login to account: %s",$error}<br /><br />
 #.
 #. File www/system/templates/admin_servertype_list.tpl:1
 #. Context: {if $show_error}{box title="Error"}<div style="color: red">{$show_error}</div>{/box}<br />{/if}
@@ -713,26 +729,25 @@ msgstr "Geben Sie Ihre E-Mail Adresse ein, um fortzufahren."
 #. File www/system/templates/admin_sourcetype_list.tpl:1
 #. Context: {if $show_error}{box title="Error"}<div style="color: red">{$show_error}</div>{/box}<br />{/if}
 #.
-#. File www/system/templates/admin_setuid_failed.tpl:1
-#. Context: {box title="Error"}
-#. {="Unable to login to account: %s",$error}<br /><br />
-#.
 #: www/external/modules/class_Module_preview.php:18
 #: www/theme/templates/m/page.tpl:29
-#: www/system/templates/staffaccount_edit.tpl:76
-#: www/system/templates/configuration_form.tpl:25
 #: www/system/templates/import_m3u_result.tpl:4
+#: www/system/templates/configuration_form.tpl:25
 #: www/system/templates/invalid_account.tpl:1
 #: www/system/templates/staffaccount_edit.tpl:74
+#: www/system/templates/staffaccount_edit.tpl:76
+#: www/system/templates/error.tpl:1
+#: www/system/templates/reportformat_edit.tpl:18
 #: www/system/templates/playlist_edit.tpl:79
+#: www/system/templates/djaccount_edit.tpl:31
+#: www/system/templates/reportformat_edit.tpl:16
 #: www/system/templates/no_such_report.tpl:1
 #: www/client/modules/class_Module_preview.php:23
-#: www/system/templates/djaccount_edit.tpl:29
-#: www/system/templates/djaccount_edit.tpl:31 www/system/templates/error.tpl:1
 #: www/system/templates/playlist_edit.tpl:81
+#: www/system/templates/djaccount_edit.tpl:29
+#: www/system/templates/admin_setuid_failed.tpl:1
 #: www/system/templates/admin_servertype_list.tpl:1
 #: www/system/templates/admin_sourcetype_list.tpl:1
-#: www/system/templates/admin_setuid_failed.tpl:1
 msgid "Error"
 msgstr "Fehler"
 
@@ -918,12 +933,12 @@ msgstr ""
 
 #. File www/class_RPCApplication.php:168
 #.
-#. File www/client/rpc/class_RPClibrary.php:781
+#. File www/client/rpc/class_RPClibrary.php:805
 #.
-#. File www/client/rpc/class_RPClibrary.php:713
+#. File www/client/rpc/class_RPClibrary.php:737
 #.
-#: www/class_RPCApplication.php:168 www/client/rpc/class_RPClibrary.php:781
-#: www/client/rpc/class_RPClibrary.php:713
+#: www/class_RPCApplication.php:168 www/client/rpc/class_RPClibrary.php:805
+#: www/client/rpc/class_RPClibrary.php:737
 msgid "insufficient DJ privileges"
 msgstr ""
 
@@ -987,7 +1002,7 @@ msgstr "Juli"
 msgid "Jun"
 msgstr ""
 
-#. File www/class_CCTemplate.php:578
+#. File www/class_CCTemplate.php:581
 #.
 #. File www/system/templates/configuration_client_source.tpl:71
 #. Context: colspan="3"><input type="text" name="config[maxbitrate]" size="5" maxlength="5" value="{$config.maxbitrate|htmlentities}" /> {="Kbps"} {$errors.maxbitrate|checkerror}</td>
@@ -1007,7 +1022,7 @@ msgstr ""
 #. Context: t" name="centovacast_account[maxbitrate]" id="maxbitrate" size="5" value="{$centovacast_account.maxbitrate|htmlentities}" /> {="Kbps"} ({="blank to use template setting"})</td>
 #. </tr>
 #.
-#: www/class_CCTemplate.php:578
+#: www/class_CCTemplate.php:581
 #: www/system/templates/configuration_client_source.tpl:71
 #: www/system/templates/configuration_reseller_limits.tpl:100
 #: www/system/templates/configuration_reseller_limits.tpl:74
@@ -1054,14 +1069,14 @@ msgstr ""
 #.
 #. File www/client/rpc/class_RPCstatistics_base.php:33
 #.
-#. File www/client/modules/class_Module_statistics.php:81
+#. File www/client/modules/class_Module_statistics.php:62
 #.
 #. File www/system/templates/statistics_recent.tpl:91
 #. Context: <td class="rowodd" style="font-weight: bold">{="Peak Period"}</td>
 #. <td class="rowodd">{="Listeners"}</td>
 #. <td class="rowodd" align="right" id="recentstats_mostlisteners_listeners">{="%s listener(s)",$zero}</td>
 #.
-#. File system/class_LogProcessor.php:694
+#. File system/class_ReportFormat.php:40
 #.
 #. File www/system/templates/admin_accounts_javascript.tpl:69
 #. Context: {="Now playing"}: <span id="rowovertab_songtitle">{="Unknown"}</span><br />
@@ -1073,9 +1088,9 @@ msgstr ""
 #: www/system/templates/statistics_recent.tpl:31
 #: www/system/templates/livestats.tpl:17
 #: www/client/rpc/class_RPCstatistics_base.php:33
-#: www/client/modules/class_Module_statistics.php:81
+#: www/client/modules/class_Module_statistics.php:62
 #: www/system/templates/statistics_recent.tpl:91
-#: system/class_LogProcessor.php:694
+#: system/class_ReportFormat.php:40
 #: www/system/templates/admin_accounts_javascript.tpl:69
 msgid "Listeners"
 msgstr "Zuhörer"
@@ -1090,12 +1105,12 @@ msgstr "Zuhörer"
 #. <div class="upload_file_name">{="Loading"} ...</div>
 #. <div class="upload_file_details">{="Please wait"} ...</div>
 #.
-#. File www/system/templates/library.tpl:120
+#. File www/system/templates/library.tpl:122
 #. Context: <select name="genre" id="genres" size="1" disabled="disabled">
 #. <option value="">{="Loading"} ...</option>
 #. </select>
 #.
-#. File www/system/templates/library.tpl:177
+#. File www/system/templates/library.tpl:179
 #. Context: <div id="panelloadingmsg">
 #. <span id="panelloading_load">{="Loading"} ...</span>
 #. <span id="panelloading_save">{="Saving, please wait"} ...</span><br />
@@ -1134,7 +1149,7 @@ msgstr "Zuhörer"
 #.
 #: www/theme/templates/m/role-header.tpl:6
 #: www/system/templates/upload_single.tpl:44
-#: www/system/templates/library.tpl:120 www/system/templates/library.tpl:177
+#: www/system/templates/library.tpl:122 www/system/templates/library.tpl:179
 #: www/system/templates/m/index.tpl:15
 #: www/client/modules/class_Module_widgets.php:200
 #: www/client/modules/class_Module_widgets.php:127
@@ -1303,10 +1318,10 @@ msgstr "März"
 #.
 #. File www/class_CCTemplate.php:94
 #.
-#. File www/client/modules/class_Module_statistics.php:34
+#. File www/client/modules/class_Module_statistics.php:30
 #.
 #: www/class_Template.php:1506 www/class_CCTemplate.php:94
-#: www/client/modules/class_Module_statistics.php:34
+#: www/client/modules/class_Module_statistics.php:30
 msgid "May"
 msgstr "Mai"
 
@@ -1709,6 +1724,11 @@ msgstr "Es sind keine Tracks verfügbar"
 #.
 #. File www/class_StreamStatus.php:500
 #.
+#. File www/system/templates/statistics_downloads.tpl:24
+#. Context: <tbody>
+#. <tr><td class="rowodd" colspan="3" style="text-align: center">{="None"}</td></tr>
+#. </tbody>
+#.
 #. File www/system/templates/new_account_form.tpl:101
 #. Context: <option value="">{="Select autoDJ type..."}</option>
 #. <option value="none">{="None"}</option>
@@ -1722,10 +1742,6 @@ msgstr "Es sind keine Tracks verfügbar"
 #. File www/system/templates/livestats.tpl:82
 #. Context: <tbody>
 #. <tr><td class="rowodd" colspan="5" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
-#. File www/system/templates/livestats.tpl:63
-#. Context: seragent>0}{if $showduration>0}7{else}6{/if}{otherwise}{if $showduration>0}5{else}4{/if}{/check}" style="text-align: center">{="None"}</td></tr>
 #. </tbody>
 #.
 #. File www/system/templates/statistics_listeners.tpl:149
@@ -1748,29 +1764,13 @@ msgstr "Es sind keine Tracks verfügbar"
 #. <tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
 #. </tbody>
 #.
-#. File www/system/templates/livestats.tpl:9
-#. Context: {language}
-#. none:			'{="None"}',
-#. other: 			'{="Other"}',
+#. File www/system/templates/livestats.tpl:63
+#. Context: seragent>0}{if $showduration>0}7{else}6{/if}{otherwise}{if $showduration>0}5{else}4{/if}{/check}" style="text-align: center">{="None"}</td></tr>
+#. </tbody>
 #.
 #. File www/system/templates/statistics_agents.tpl:20
 #. Context: <tbody>
 #. <tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
-#. File www/system/templates/statistics_countries.tpl:19
-#. Context: <tbody>
-#. <tr><td class="rowodd" colspan="6" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
-#. File www/system/templates/statistics_tracks.tpl:87
-#. Context: <tbody>
-#. <tr><td class="rowodd" colspan="4" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
-#. File www/system/templates/statistics_tracks.tpl:67
-#. Context: <tbody>
-#. <tr><td class="rowodd" colspan="4" style="text-align: center">{="None"}</td></tr>
 #. </tbody>
 #.
 #. File www/system/templates/statistics_countries.tpl:41
@@ -1778,19 +1778,34 @@ msgstr "Es sind keine Tracks verfügbar"
 #. <tr><td class="rowodd" colspan="6" style="text-align: center">{="None"}</td></tr>
 #. </tbody>
 #.
-#. File www/system/templates/statistics_tracks.tpl:109
+#. File www/system/templates/statistics_tracks.tpl:82
+#. Context: <tbody>
+#. <tr><td class="rowodd" colspan="4" style="text-align: center">{="None"}</td></tr>
+#. </tbody>
+#.
+#. File www/system/templates/statistics_tracks.tpl:62
+#. Context: <tbody>
+#. <tr><td class="rowodd" colspan="4" style="text-align: center">{="None"}</td></tr>
+#. </tbody>
+#.
+#. File www/system/templates/livestats.tpl:9
+#. Context: {language}
+#. none:			'{="None"}',
+#. other: 			'{="Other"}',
+#.
+#. File www/system/templates/statistics_tracks.tpl:104
 #. Context: <tbody>
 #. <tr><td class="rowodd" colspan="2" style="text-align: center">{="None"}</td></tr>
 #. </tbody>
 #.
-#. File www/system/templates/statistics_tracks.tpl:127
+#. File www/system/templates/statistics_tracks.tpl:122
 #. Context: <tbody>
 #. <tr><td class="rowodd" colspan="2" style="text-align: center">{="None"}</td></tr>
 #. </tbody>
 #.
-#. File www/system/templates/statistics_tracks.tpl:149
+#. File www/system/templates/statistics_countries.tpl:19
 #. Context: <tbody>
-#. <tr><td class="rowodd" colspan="3" style="text-align: center">{="None"}</td></tr>
+#. <tr><td class="rowodd" colspan="6" style="text-align: center">{="None"}</td></tr>
 #. </tbody>
 #.
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:154
@@ -1808,22 +1823,22 @@ msgstr "Es sind keine Tracks verfügbar"
 #. File system/servers/IceCast/class_IceCastStatusParser.php:308
 #.
 #: www/external/rpc/class_RPCrequest.php:23 www/class_StreamStatus.php:500
+#: www/system/templates/statistics_downloads.tpl:24
 #: www/system/templates/new_account_form.tpl:101
 #: www/system/templates/livestats.tpl:100 www/system/templates/livestats.tpl:82
-#: www/system/templates/livestats.tpl:63
 #: www/system/templates/statistics_listeners.tpl:149
 #: www/system/templates/statistics_listeners.tpl:172
 #: www/system/templates/statistics.tpl:6
 #: www/system/templates/statistics_agents.tpl:43
-#: www/system/templates/livestats.tpl:9
+#: www/system/templates/livestats.tpl:63
 #: www/system/templates/statistics_agents.tpl:20
-#: www/system/templates/statistics_countries.tpl:19
-#: www/system/templates/statistics_tracks.tpl:87
-#: www/system/templates/statistics_tracks.tpl:67
 #: www/system/templates/statistics_countries.tpl:41
-#: www/system/templates/statistics_tracks.tpl:109
-#: www/system/templates/statistics_tracks.tpl:127
-#: www/system/templates/statistics_tracks.tpl:149
+#: www/system/templates/statistics_tracks.tpl:82
+#: www/system/templates/statistics_tracks.tpl:62
+#: www/system/templates/livestats.tpl:9
+#: www/system/templates/statistics_tracks.tpl:104
+#: www/system/templates/statistics_tracks.tpl:122
+#: www/system/templates/statistics_countries.tpl:19
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:154
 #: system/class_Statistics.php:490
 #: system/sources/sctrans/templates/configuration_source.tpl:7
@@ -1924,7 +1939,7 @@ msgstr "Okt"
 msgid "Offline"
 msgstr "Getrennt"
 
-#. File www/class_NextSongApplication.php:330
+#. File www/class_NextSongApplication.php:332
 #.
 #. File www/system/templates/filemanager.tpl:12
 #. Context: {language}
@@ -1945,7 +1960,7 @@ msgstr "Getrennt"
 #. ok: '{="OK"}',
 #. log_manager: '{="Log Manager"}',
 #.
-#. File www/system/templates/library.tpl:186
+#. File www/system/templates/library.tpl:188
 #. Context: <div id="tipbox_content"></div>
 #. <input type="button" class="tipbox_button" id="tipbox_ok" value="{="OK"}" /> <input type="button" class="tipbox_button" id="tipbox_cancel" value="{="Cancel"}" />
 #. </div>
@@ -1955,15 +1970,15 @@ msgstr "Getrennt"
 #. processing_success: '{="OK"}',
 #. account_is_suspended: '{="Account is suspended"}.',
 #.
-#. File system/class_ServerControl.php:1612
+#. File system/class_ServerControl.php:1624
 #.
-#: www/class_NextSongApplication.php:330
+#: www/class_NextSongApplication.php:332
 #: www/system/templates/filemanager.tpl:12
 #: www/system/templates/filemanager.tpl:103
 #: www/system/templates/uncaught_exception.tpl:67
-#: www/system/templates/logmanager.tpl:11 www/system/templates/library.tpl:186
+#: www/system/templates/logmanager.tpl:11 www/system/templates/library.tpl:188
 #: www/system/templates/admin_accounts.tpl:29
-#: system/class_ServerControl.php:1612
+#: system/class_ServerControl.php:1624
 msgid "OK"
 msgstr "Ok"
 
@@ -2003,36 +2018,34 @@ msgstr "inhalte auf Abruf wurde f&uuml;r diesen Stream deaktiviert."
 msgid "Online"
 msgstr "Verbunden"
 
-#. File www/class_LiveStatistics.php:179
-#.
 #. File www/class_LiveStatistics.php:162
 #.
-#. File www/system/templates/client_head.tpl:27
-#. Context: notrunning: '{="The server is not currently running.  Please start the server, then try again."}',
-#. other: '{="Other"}',
-#. tuneinwith: '{="Tune in with ..."}'
+#. File www/class_LiveStatistics.php:179
 #.
 #. File www/system/templates/statistics.tpl:7
 #. Context: none: 			'{="None"}',
 #. other: 			'{="Other"}',
 #. {/language}
 #.
+#. File www/system/templates/client_head.tpl:27
+#. Context: notrunning: '{="The server is not currently running.  Please start the server, then try again."}',
+#. other: '{="Other"}',
+#. tuneinwith: '{="Tune in with ..."}'
+#.
 #. File www/system/templates/livestats.tpl:10
 #. Context: none:			'{="None"}',
 #. other: 			'{="Other"}',
 #. pct_of_total_listeners: '{="%s%s%s listeners, %s%s%%%s of %s%s%s total listeners"}',
 #.
-#. File system/class_LogProcessor.php:698
-#.
 #. File system/class_TuneIn.php:80
 #.
-#. File system/class_LogProcessor.php:818
+#. File system/class_ReportFormat.php:46
 #.
-#: www/class_LiveStatistics.php:179 www/class_LiveStatistics.php:162
+#: www/class_LiveStatistics.php:162 www/class_LiveStatistics.php:179
+#: www/system/templates/statistics.tpl:7
 #: www/system/templates/client_head.tpl:27
-#: www/system/templates/statistics.tpl:7 www/system/templates/livestats.tpl:10
-#: system/class_LogProcessor.php:698 system/class_TuneIn.php:80
-#: system/class_LogProcessor.php:818
+#: www/system/templates/livestats.tpl:10 system/class_TuneIn.php:80
+#: system/class_ReportFormat.php:46
 msgid "Other"
 msgstr ""
 
@@ -2331,16 +2344,16 @@ msgstr "Einnere dich an mich"
 #.
 #. File www/menu.php:447
 #.
-#. File www/system/templates/statistics_tracks.tpl:143
+#. File www/system/templates/statistics_downloads.tpl:18
 #. Context: <tr>
 #. <th>{="Report"}</th>
 #. <th style="text-align: right" width="200">{="Size"}</th>
 #.
-#. File www/client/modules/class_Module_statistics.php:24
+#. File www/client/modules/class_Module_statistics.php:20
 #.
 #: www/menu.php:247 www/menu.php:447
-#: www/system/templates/statistics_tracks.tpl:143
-#: www/client/modules/class_Module_statistics.php:24
+#: www/system/templates/statistics_downloads.tpl:18
+#: www/client/modules/class_Module_statistics.php:20
 msgid "Report"
 msgstr "Bericht"
 
@@ -2616,34 +2629,36 @@ msgstr ""
 msgid "Start the autoDJ"
 msgstr ""
 
+#. File www/menu.php:242
+#.
 #. File www/theme/templates/m/role-footer.tpl:7
 #. Context: m" href="index.php#autodj"">{="AutoDJ"}</a></li>
 #. <li><a id="btn-statistics" data-icon="custom" href="index.php#statistics">{="Statistics"}</a></li>
 #. <li><a id="btn-setup" data-icon="custom" href="index.php#setup">{="Setup"}</a></li>
 #.
-#. File www/menu.php:444
-#.
 #. File www/menu.php:139
 #.
-#. File www/menu.php:242
+#. File www/menu.php:444
 #.
 #. File www/menu.php:22
 #.
-#. File www/client/modules/class_Module_statistics.php:22
+#. File www/client/modules/class_Module_logs.php:10
+#.
+#. File www/client/modules/class_Module_reportdownloads.php:17
+#.
+#. File www/client/modules/class_Module_statistics.php:18
 #.
 #. File www/client/modules/class_Module_livestats.php:12
-#.
-#. File www/client/modules/class_Module_logs.php:10
 #.
 #. File www/reseller/modules/class_Module_accountstats.php:13
 #.
 #. File www/admin/modules/class_Module_accountstats.php:15
 #.
-#: www/theme/templates/m/role-footer.tpl:7 www/menu.php:444 www/menu.php:139
-#: www/menu.php:242 www/menu.php:22
-#: www/client/modules/class_Module_statistics.php:22
+#: www/menu.php:242 www/theme/templates/m/role-footer.tpl:7 www/menu.php:139
+#: www/menu.php:444 www/menu.php:22 www/client/modules/class_Module_logs.php:10
+#: www/client/modules/class_Module_reportdownloads.php:17
+#: www/client/modules/class_Module_statistics.php:18
 #: www/client/modules/class_Module_livestats.php:12
-#: www/client/modules/class_Module_logs.php:10
 #: www/reseller/modules/class_Module_accountstats.php:13
 #: www/admin/modules/class_Module_accountstats.php:15
 msgid "Statistics"
@@ -2875,7 +2890,7 @@ msgstr ""
 #.
 #: www/menu.php:386 www/menu.php:280
 msgid "This will shut down your server and disconnect all listeners."
-msgstr ""
+msgstr "Dies wird Ihren Server abschalten und Ihre Zuhörer werden das Signal verlieren."
 
 #. File www/menu.php:423
 #.
@@ -2887,7 +2902,7 @@ msgstr ""
 msgid ""
 "This will shut down your server and disconnect any listeners.  Are you sure "
 "you want to proceed?"
-msgstr ""
+msgstr "Dies wird Ihren Server abschalten und Ihre Zuhörer werden das Signal verlieren. Sind Sie sicher, dass Sie fortfahren möchten?"
 
 #. File www/menu.php:379
 #.
@@ -2926,10 +2941,10 @@ msgstr "Tipp"
 msgid "Today"
 msgstr "Heute"
 
-#. File www/class_NextSongApplication.php:169
+#. File www/class_NextSongApplication.php:171
 #. Arguments: $tm->queued_trackid, $tm->queued_playlistid
 #.
-#: www/class_NextSongApplication.php:169
+#: www/class_NextSongApplication.php:171
 msgid "Track #%s from playlist #%s"
 msgstr "Track #%s von Wiedergabeliste #%s"
 
@@ -2967,13 +2982,13 @@ msgstr ""
 msgid "Unable to load template"
 msgstr ""
 
-#. File www/class_NextSongApplication.php:82
-#.
 #. File www/class_NextSongApplication.php:84
+#.
+#. File www/class_NextSongApplication.php:86
 #.
 #. File www/class_LiveStatistics.php:210
 #.
-#. File www/class_NextSongApplication.php:83
+#. File www/class_NextSongApplication.php:85
 #.
 #. File www/system/templates/playlist_list.tpl:40
 #. Context: {elseif $playlist.type=="request"}{="Song Requests"}
@@ -2994,13 +3009,13 @@ msgstr ""
 #. unknown: '{="Unknown"}',
 #. user_agent: '{="User agent: %s%s%s, type: %s%s%s"}',
 #.
-#. File system/class_TrackManager.php:579
+#. File system/class_TrackManager.php:652
 #.
 #. File system/class_Statistics.php:652
 #.
 #. File system/class_Statistics.php:750
 #.
-#. File system/class_TrackManager.php:651
+#. File system/class_TrackManager.php:724
 #.
 #. File system/class_RecentTracks.php:131
 #.
@@ -3035,13 +3050,13 @@ msgstr ""
 #. {="Accounts:"} <span id="rowovertab_resaccts">{="Unknown"}</span><br />
 #. </div>
 #.
-#: www/class_NextSongApplication.php:82 www/class_NextSongApplication.php:84
-#: www/class_LiveStatistics.php:210 www/class_NextSongApplication.php:83
+#: www/class_NextSongApplication.php:84 www/class_NextSongApplication.php:86
+#: www/class_LiveStatistics.php:210 www/class_NextSongApplication.php:85
 #: www/system/templates/playlist_list.tpl:40
 #: www/system/templates/statistics_listeners.tpl:181
 #: www/system/templates/statistics_listeners.tpl:5
-#: system/class_TrackManager.php:579 system/class_Statistics.php:652
-#: system/class_Statistics.php:750 system/class_TrackManager.php:651
+#: system/class_TrackManager.php:652 system/class_Statistics.php:652
+#: system/class_Statistics.php:750 system/class_TrackManager.php:724
 #: system/class_RecentTracks.php:131 system/class_RecentTracks.php:132
 #: system/class_Statistics.php:766 system/class_Statistics.php:634
 #: www/system/templates/admin_accounts_javascript.tpl:14
@@ -3061,7 +3076,7 @@ msgstr "Unbekannter Stream"
 #.
 #: www/menu.php:338
 msgid "Upload, rename, and delete files in your media library."
-msgstr ""
+msgstr "Hochladen / Löschen von Dateien in Ihrer Medienbibliothek."
 
 #. File www/system/templates/login_form.tpl:10
 #. Context: <table id="login_table" cellspacing="1" cellpadding="0" border="0">

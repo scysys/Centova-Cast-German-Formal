@@ -5,15 +5,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2016-01-27 02:56+0100\n"
-"PO-Revision-Date: 2016-01-27 02:56+0100\n"
+"POT-Creation-Date: 2016-02-27 00:01+0100\n"
+"PO-Revision-Date: 2016-02-27 00:01+0100\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #. File www/system/templates/statistics_listeners.tpl:190
 #. Arguments: $listener.bandwidth|div:1024
@@ -92,13 +92,13 @@ msgstr "%.2f"
 #. <td class="rowodd" align="right" id="recentstats_tracks_perhour">{="%.2f track(s)",$zero}</td>
 #. </tr>
 #.
-#. File www/system/templates/statistics_tracks.tpl:36
+#. File www/system/templates/statistics_tracks.tpl:31
 #. Arguments: $zero
 #. Context: <td class="rowodd">{="Average per hour"}</td>
 #. <td class="rowodd" align="right" id="tracks_tracks_perhour">{="%.2f track(s)",$zero}</td>
 #.
 #: www/system/templates/statistics_recent.tpl:81
-#: www/system/templates/statistics_tracks.tpl:36
+#: www/system/templates/statistics_tracks.tpl:31
 msgid "%.2f track(s)"
 msgstr "%.2f Titel"
 
@@ -323,23 +323,18 @@ msgstr "%s GB"
 msgid "%s Hz"
 msgstr "%s Hz"
 
-#. File www/system/templates/library.tpl:151
+#. File www/system/templates/library.tpl:153
 #. Arguments: "<span id='tracktime'>00:00:00</span>","<span id='trackcount'>0</span>"
 #. Context: <div style="float: right">
 #. {="%s in %s track(s)","<span id='tracktime'>00:00:00</span>","<span id='trackcount'>0</span>"}
 #. <input type="button" id="btn_save" name="save" v
 #.
-#: www/system/templates/library.tpl:151
+#: www/system/templates/library.tpl:153
 msgid "%s in %s track(s)"
 msgstr "%s in %s Titel(n)"
 
 #. File www/client/rpc/class_RPCfilemanager.php:571
 #. Arguments: 1
-#.
-#. File www/system/templates/import_m3u_result.tpl:6
-#. Arguments: $goodtracks
-#. Context: {otherwise}
-#. {="%s item(s) were processed successfully",$goodtracks}.<br /><br />
 #.
 #. File www/client/rpc/class_RPCfilemanager.php:554
 #. Arguments: 1
@@ -354,7 +349,6 @@ msgstr "%s in %s Titel(n)"
 #. Arguments: $copied
 #.
 #: www/client/rpc/class_RPCfilemanager.php:571
-#: www/system/templates/import_m3u_result.tpl:6
 #: www/client/rpc/class_RPCfilemanager.php:554
 #: www/client/rpc/class_RPCfilemanager.php:508
 #: www/client/rpc/class_RPCfilemanager.php:421
@@ -426,7 +420,7 @@ msgstr "%s Zuhörerkarte"
 #. <td class="rowodd" align="right" id="listeners_uniquelisteners">{="%s listener(s)",$zero}</td>
 #. </tr>
 #.
-#. File www/system/templates/statistics_tracks.tpl:25
+#. File www/system/templates/statistics_tracks.tpl:20
 #. Arguments: $zero
 #. Context: <td class="rowodd">{="Peak listeners"}</td>
 #. <td class="rowodd" align="right" id="tracks_mostlisteners_listeners">{="%s listener(s)",$zero}</td>
@@ -440,7 +434,7 @@ msgstr "%s Zuhörerkarte"
 #: www/system/templates/statistics_recent.tpl:38
 #: www/system/templates/statistics_recent.tpl:92
 #: www/system/templates/statistics_listeners.tpl:52
-#: www/system/templates/statistics_tracks.tpl:25
+#: www/system/templates/statistics_tracks.tpl:20
 msgid "%s listener(s)"
 msgstr "%s Zuhörer"
 
@@ -599,32 +593,22 @@ msgstr "%s TB"
 #. <td class="rowodd" align="right" id="recentstats_tracks_total">{="%s track(s)",$zero}</td>
 #. </tr>
 #.
-#. File www/system/templates/statistics_tracks.tpl:29
+#. File www/system/templates/statistics_tracks.tpl:24
 #. Arguments: $zero
 #. Context: <td class="roweven">{="Unique tracks"}</td>
 #. <td class="roweven" align="right" id="tracks_tracks_totalunique">{="%s track(s)",$zero}</td>
 #.
-#. File www/system/templates/statistics_tracks.tpl:22
+#. File www/system/templates/statistics_tracks.tpl:17
 #. Arguments: $zero
 #. Context: <td class="rowodd">{="Total tracks"}</td>
 #. <td class="rowodd" align="right" id="tracks_tracks_total">{="%s track(s)",$zero}</td>
 #.
 #: www/system/templates/statistics_recent.tpl:76
 #: www/system/templates/statistics_recent.tpl:71
-#: www/system/templates/statistics_tracks.tpl:29
-#: www/system/templates/statistics_tracks.tpl:22
+#: www/system/templates/statistics_tracks.tpl:24
+#: www/system/templates/statistics_tracks.tpl:17
 msgid "%s track(s)"
 msgstr "%s Titel"
-
-#. File www/system/templates/import_m3u_result.tpl:11
-#. Arguments: $badtracks|count
-#. Context: {else}
-#. {="%s track(s) were not found or could not be imported:",$badtracks|count}<br /><br />
-#.
-#: www/system/templates/import_m3u_result.tpl:11
-msgid "%s track(s) were not found or could not be imported:"
-msgstr ""
-"%s Titel wurde(n) nicht gefunden oder konnte(n) nicht importiert werden:"
 
 #. File www/system/templates/statistics_listeners.tpl:186
 #. Arguments: "<strong>",$listener.total|mul:100|div:$maxminutes,"</strong>"
@@ -654,6 +638,16 @@ msgstr ""
 msgid "%s%d%s sessions, comprising %s%.1f%%%s of %s%d%s total sessions"
 msgstr ""
 
+#. File www/system/templates/import_m3u_result.tpl:8
+#. Arguments: "<strong>",$deletedtracks,"</strong>","<strong>",$playlist.title,"</strong>"
+#. Context: %s%s%s playlist","<strong>",$skippedtracks,"</strong>","<strong>",$playlist.title,"</strong>"}.{/if}
+#. {if $deletedtracks>0}{="%s%s%s existing track(s) were deleted from the %s%s%s playlist","<strong>",$deletedtracks,"</strong>","<strong>",$playlist.title,"</strong>"}.{/if}
+#. <br /><br />
+#.
+#: www/system/templates/import_m3u_result.tpl:8
+msgid "%s%s%s existing track(s) were deleted from the %s%s%s playlist"
+msgstr ""
+
 #. File www/system/templates/livestats.tpl:11
 #. Context: other: 			'{="Other"}',
 #. pct_of_total_listeners: '{="%s%s%s listeners, %s%s%%%s of %s%s%s total listeners"}',
@@ -671,6 +665,39 @@ msgstr ""
 msgid ""
 "%s%s%s of your total listener sessions during the selected period were %s%s"
 "%s in length."
+msgstr ""
+
+#. File www/system/templates/import_m3u_result.tpl:13
+#. Arguments: "<strong>",$badtracks|count,"</strong>"
+#. Context: {if $badtracks|count>0}
+#. {="%s%s%s track(s) were not found in the media library and could not be imported:","<strong>",$badtracks|count,"</strong>"}<br /><br />
+#.
+#: www/system/templates/import_m3u_result.tpl:13
+msgid ""
+"%s%s%s track(s) were not found in the media library and could not be "
+"imported:"
+msgstr ""
+
+#. File www/system/templates/import_m3u_result.tpl:7
+#. Arguments: "<strong>",$skippedtracks,"</strong>","<strong>",$playlist.title,"</strong>"
+#. Context: into the %s%s%s playlist","<strong>",$goodtracks,"</strong>","<strong>",$playlist.title,"</strong>"}.
+#. {if $skippedtracks>0}{="%s%s%s track(s) were skipped because they already existed in the %s%s%s playlist","<strong>",$skippedtracks,"</strong>","<strong>",$playlist.title,"</strong>"}.{/if}
+#. {if $deletedtracks>0}{="%s%s%s existing
+#.
+#: www/system/templates/import_m3u_result.tpl:7
+msgid ""
+"%s%s%s track(s) were skipped because they already existed in the %s%s%s "
+"playlist"
+msgstr ""
+
+#. File www/system/templates/import_m3u_result.tpl:6
+#. Arguments: "<strong>",$goodtracks,"</strong>","<strong>",$playlist.title,"</strong>"
+#. Context: {otherwise}
+#. {="%s%s%s tracks(s) were successfully imported into the %s%s%s playlist","<strong>",$goodtracks,"</strong>","<strong>",$playlist.title,"</strong>"}.
+#. {if $skippedtracks>0}{="%s%s%s track(s) were ski
+#.
+#: www/system/templates/import_m3u_result.tpl:6
+msgid "%s%s%s tracks(s) were successfully imported into the %s%s%s playlist"
 msgstr ""
 
 #. File www/system/templates/reseller_index.tpl:43
@@ -709,9 +736,9 @@ msgstr "%s/%s"
 msgid "%sError%s: %s."
 msgstr "%sFehler%s: %s."
 
-#. File www/client/modules/class_Module_statistics.php:41
+#. File www/client/modules/class_Module_statistics.php:37
 #.
-#: www/client/modules/class_Module_statistics.php:41
+#: www/client/modules/class_Module_statistics.php:37
 msgid "0 - 30 sec"
 msgstr "0 - 30 Sek"
 
@@ -741,9 +768,9 @@ msgstr "0 zum Deaktivieren"
 msgid "0 to permit the use of your full quota"
 msgstr "0 um die Verwendung des gesamten Festplattenspeichers zuzulassen"
 
-#. File www/client/modules/class_Module_statistics.php:47
+#. File www/client/modules/class_Module_statistics.php:43
 #.
-#: www/client/modules/class_Module_statistics.php:47
+#: www/client/modules/class_Module_statistics.php:43
 msgid "1 hour - 4 hours"
 msgstr "1 Stunde - 4 Stunden"
 
@@ -756,15 +783,15 @@ msgstr "1 Stunde - 4 Stunden"
 msgid "14-day trend"
 msgstr "14 Tagestrend"
 
-#. File www/client/modules/class_Module_statistics.php:45
+#. File www/client/modules/class_Module_statistics.php:41
 #.
-#: www/client/modules/class_Module_statistics.php:45
+#: www/client/modules/class_Module_statistics.php:41
 msgid "15 - 30 min"
 msgstr "15 - 30 Min"
 
-#. File www/client/modules/class_Module_statistics.php:43
+#. File www/client/modules/class_Module_statistics.php:39
 #.
-#: www/client/modules/class_Module_statistics.php:43
+#: www/client/modules/class_Module_statistics.php:39
 msgid "2 - 5 min"
 msgstr "2 - 5 Min"
 
@@ -783,15 +810,15 @@ msgstr "2 - 5 Min"
 msgid "24-hour average"
 msgstr "24 Stunden durchschnitt"
 
-#. File www/client/modules/class_Module_statistics.php:46
-#.
-#: www/client/modules/class_Module_statistics.php:46
-msgid "30 min - 1 hour"
-msgstr "30 Min - 1 Stunde"
-
 #. File www/client/modules/class_Module_statistics.php:42
 #.
 #: www/client/modules/class_Module_statistics.php:42
+msgid "30 min - 1 hour"
+msgstr "30 Min - 1 Stunde"
+
+#. File www/client/modules/class_Module_statistics.php:38
+#.
+#: www/client/modules/class_Module_statistics.php:38
 msgid "30 sec - 2 min"
 msgstr "30 Sek - 2 Min"
 
@@ -804,9 +831,9 @@ msgstr "30 Sek - 2 Min"
 msgid "30-day trend"
 msgstr "30 Tagestrend"
 
-#. File www/client/modules/class_Module_statistics.php:48
+#. File www/client/modules/class_Module_statistics.php:44
 #.
-#: www/client/modules/class_Module_statistics.php:48
+#: www/client/modules/class_Module_statistics.php:44
 msgid "4 hours +"
 msgstr "4 Stunden +"
 
@@ -818,9 +845,9 @@ msgstr "4 Stunden +"
 msgid "48 Hour Overview"
 msgstr "48 Stunden Übersicht"
 
-#. File www/client/modules/class_Module_statistics.php:44
+#. File www/client/modules/class_Module_statistics.php:40
 #.
-#: www/client/modules/class_Module_statistics.php:44
+#: www/client/modules/class_Module_statistics.php:40
 msgid "5 - 15 min"
 msgstr "5 - 15 Min"
 
@@ -833,9 +860,9 @@ msgstr "5 - 15 Min"
 msgid "7-day trend"
 msgstr "7 Tagestrend"
 
-#. File www/client/modules/class_Module_statistics.php:25
+#. File www/client/modules/class_Module_statistics.php:21
 #.
-#: www/client/modules/class_Module_statistics.php:25
+#: www/client/modules/class_Module_statistics.php:21
 msgid "A detailed statistics report for your stream"
 msgstr "Eine detaillierte Statistikbericht für Ihren Streamserver"
 
@@ -1040,12 +1067,21 @@ msgstr "Aktiv von"
 msgid "Active until"
 msgstr "Aktiv bis"
 
+#. File www/system/templates/import_m3u.tpl:22
+#. Context: <select name="unique" size="1">
+#. <option value="0">{="Add duplicate tracks to target playlist"}</option>
+#. <option value="1">{="Skip tracks that already exist in target playlist"}</option>
+#.
+#: www/system/templates/import_m3u.tpl:22
+msgid "Add duplicate tracks to target playlist"
+msgstr ""
+
 #. File www/client/modules/class_Module_confeditor.php:75
 #.
-#. File system/class_ServerControl.php:2538
+#. File system/class_ServerControl.php:2545
 #.
 #: www/client/modules/class_Module_confeditor.php:75
-#: system/class_ServerControl.php:2538
+#: system/class_ServerControl.php:2545
 msgid "administrator"
 msgstr "administrator"
 
@@ -1158,12 +1194,12 @@ msgstr "Agent"
 msgid "Agent Type"
 msgstr "Type"
 
-#. File www/system/templates/statistics_tracks.tpl:123
+#. File www/system/templates/statistics_tracks.tpl:118
 #. Context: <th>{="Track"}</th>
 #. <th style="text-align: right" width="200">{="Airtime"}</th>
 #. </tr>
 #.
-#: www/system/templates/statistics_tracks.tpl:123
+#: www/system/templates/statistics_tracks.tpl:118
 msgid "Airtime"
 msgstr ""
 
@@ -1199,16 +1235,13 @@ msgstr "Albumcover"
 #. album_name: '{="Album name"}',
 #. album_cover_url: '{="Cover image URL"}',
 #.
-#. File system/class_LogProcessor.php:810
+#. File system/class_ReportFormat.php:35
 #.
-#. File system/class_LogProcessor.php:689
-#.
-#: www/system/templates/library.tpl:35 system/class_LogProcessor.php:810
-#: system/class_LogProcessor.php:689
+#: www/system/templates/library.tpl:35 system/class_ReportFormat.php:35
 msgid "Album name"
 msgstr "Albumname"
 
-#. File www/system/templates/library.tpl:114
+#. File www/system/templates/library.tpl:116
 #. Context: <option value="artists">{="Artists"}</option>
 #. <option value="albums">{="Albums"}</option>
 #. <option value="tracks">{="Tracks"}</option>
@@ -1226,7 +1259,7 @@ msgstr "Albumname"
 #. Context: <fieldset>
 #. <legend>{="Albums"}</legend>
 #.
-#: www/system/templates/library.tpl:114 www/system/templates/library.tpl:17
+#: www/system/templates/library.tpl:116 www/system/templates/library.tpl:17
 #: system/class_AccountFields.php:371 system/class_AccountFields.php:874
 #: www/system/templates/admin_settings.tpl:282
 msgid "Albums"
@@ -1252,7 +1285,7 @@ msgstr "Alben"
 #. <option value="-1">{="All"}</option>
 #. </select>
 #.
-#. File www/system/templates/library.tpl:116
+#. File www/system/templates/library.tpl:118
 #. Context: <option value="tracks">{="Tracks"}</option>
 #. <option value="all">{="All"}</option>
 #. </select>
@@ -1261,7 +1294,7 @@ msgstr "Alben"
 #: www/system/templates/statistics_listeners.tpl:213
 #: www/system/templates/livestats.tpl:32
 #: www/system/templates/statistics_countries.tpl:56
-#: www/system/templates/library.tpl:116
+#: www/system/templates/library.tpl:118
 msgid "All"
 msgstr "Alle"
 
@@ -1314,7 +1347,7 @@ msgstr "Erlaube von"
 #.
 #: www/system/templates/djaccount_edit.tpl:119
 msgid "Allow logins"
-msgstr ""
+msgstr "Erlaube Login"
 
 #. File www/system/templates/djaccount_edit.tpl:144
 #. Context: <tr>
@@ -1360,6 +1393,11 @@ msgstr "Alternatives Charakter Enkoding"
 #. {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
 #. {/if}
 #.
+#. File www/system/templates/reportformat_edit.tpl:18
+#. Context: {elseif $error}
+#. {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
+#. {/if}
+#.
 #. File www/system/templates/playlist_edit.tpl:81
 #. Context: {elseif $error}
 #. {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
@@ -1396,6 +1434,7 @@ msgstr "Alternatives Charakter Enkoding"
 #. {/if}
 #.
 #: www/system/templates/djaccount_edit.tpl:31
+#: www/system/templates/reportformat_edit.tpl:18
 #: www/system/templates/playlist_edit.tpl:81
 #: www/system/templates/staffaccount_edit.tpl:76
 #: www/system/templates/admin_newsarticle_edit.tpl:6
@@ -1431,9 +1470,9 @@ msgstr ""
 msgid "API access"
 msgstr ""
 
-#. File www/client/modules/class_Module_statistics.php:33
+#. File www/client/modules/class_Module_statistics.php:29
 #.
-#: www/client/modules/class_Module_statistics.php:33
+#: www/client/modules/class_Module_statistics.php:29
 msgid "April"
 msgstr "April"
 
@@ -1480,6 +1519,11 @@ msgstr ""
 #. <a href="{$indexself}&action=delete&id={$playlist.id}" onclick="return confirm('{="Are you sure you want to permanently delete this item?"}')"><img title="{="Delete playlist"}" src="../system/images/icons/delete.png" border="0" align="absmiddle" /></a>
 #. {/check}
 #.
+#. File www/system/templates/reportformat_list.tpl:35
+#. Context: etxt}{$_loop.lasttxt}" align="center">
+#. <a href="{$indexself}&action=delete&id={$reportformat.id}" onclick="return confirm('{="Are you sure you want to permanently delete this item?"}')"><img title="{="Delete"}" src="../system/images/icons/delete.png" border="0" align="absmiddle" /></a>
+#. <a href="{$indexsel
+#.
 #. File www/system/templates/djaccount_list.tpl:39
 #. Context: p.oetxt}{$_loop.lasttxt}" align="center">
 #. <a href="{$indexself}&action=delete&id={$djaccount.id}" onclick="return confirm('{="Are you sure you want to permanently delete this item?"}')"><img title="{="Delete Account"}" src="../system/images/icons/delete.png" border="0" align="absmiddle" /></a>
@@ -1487,6 +1531,7 @@ msgstr ""
 #.
 #: www/system/templates/staffaccount_list.tpl:37
 #: www/system/templates/playlist_list.tpl:48
+#: www/system/templates/reportformat_list.tpl:35
 #: www/system/templates/djaccount_list.tpl:39
 msgid "Are you sure you want to permanently delete this item?"
 msgstr ""
@@ -1520,21 +1565,18 @@ msgstr ""
 #. Context: edit_artist: '{="Rename artist"}',
 #. artist_name: '{="Artist name"}',
 #.
-#. File system/class_LogProcessor.php:809
+#. File system/class_ReportFormat.php:34
 #.
-#. File system/class_LogProcessor.php:688
-#.
-#: www/system/templates/library.tpl:30 system/class_LogProcessor.php:809
-#: system/class_LogProcessor.php:688
+#: www/system/templates/library.tpl:30 system/class_ReportFormat.php:34
 msgid "Artist name"
 msgstr ""
 
-#. File www/system/templates/library.tpl:113
+#. File www/system/templates/library.tpl:115
 #. Context: <select name="searchtype" id="search_type" size="1">
 #. <option value="artists">{="Artists"}</option>
 #. <option value="albums">{="Albums"}</option>
 #.
-#: www/system/templates/library.tpl:113
+#: www/system/templates/library.tpl:115
 msgid "Artists"
 msgstr "Interpreten"
 
@@ -1581,9 +1623,9 @@ msgstr "bei %skbps"
 msgid "Audio source"
 msgstr ""
 
-#. File www/client/modules/class_Module_statistics.php:34
+#. File www/client/modules/class_Module_statistics.php:30
 #.
-#: www/client/modules/class_Module_statistics.php:34
+#: www/client/modules/class_Module_statistics.php:30
 msgid "August"
 msgstr "August"
 
@@ -1648,8 +1690,11 @@ msgstr ""
 #.
 #. File www/client/modules/class_Module_playlists.php:19
 #.
+#. File www/client/modules/class_Module_importm3u.php:14
+#.
 #: www/client/modules/class_Module_importmedia.php:11
 #: www/client/modules/class_Module_playlists.php:19
+#: www/client/modules/class_Module_importm3u.php:14
 msgid "AutoDJ Management"
 msgstr "AutoDJ Verwaltung"
 
@@ -1753,6 +1798,15 @@ msgstr "Automatisch beste wählen"
 msgid "Automatically queue requests"
 msgstr "Automatische Verarbeitung des Musikwunsches"
 
+#. File www/system/templates/reportformat_edit.tpl:45
+#. Context: <div style="float: left; width: 60%">
+#. <h1>{="Available Columns"}</h1>
+#. </div>
+#.
+#: www/system/templates/reportformat_edit.tpl:45
+msgid "Available Columns"
+msgstr ""
+
 #. File www/system/templates/upload_multiple.tpl:51
 #. Context: <div id="avail_space">
 #. {="Available space"}:<br />
@@ -1760,7 +1814,7 @@ msgstr "Automatische Verarbeitung des Musikwunsches"
 #.
 #: www/system/templates/upload_multiple.tpl:51
 msgid "Available space"
-msgstr "Verfügbarer Speicherplatz"
+msgstr "Verfügbar"
 
 #. File www/system/templates/statistics_listeners.tpl:44
 #. Context: <td class="roweven">{="Average data transfer"}</td>
@@ -1775,13 +1829,13 @@ msgstr "Durchschnittlicher Datentransfer"
 #. <td class="roweven">{="Average length"}</td>
 #. <td class="roweven" align="right" id="recentstats_tracks_avglength"></td>
 #.
-#. File www/system/templates/statistics_tracks.tpl:42
+#. File www/system/templates/statistics_tracks.tpl:37
 #. Context: <tr>
 #. <td class="roweven">{="Average length"}</td>
 #. <td class="roweven" align="right" id="tracks_tracks_avglength"></td>
 #.
 #: www/system/templates/statistics_recent.tpl:85
-#: www/system/templates/statistics_tracks.tpl:42
+#: www/system/templates/statistics_tracks.tpl:37
 msgid "Average length"
 msgstr "Durchschnittliche Länge"
 
@@ -1805,13 +1859,13 @@ msgstr "Durchschnittliche Zuhörer per Stunde"
 #. <td class="rowodd">{="Average per hour"}</td>
 #. <td class="rowodd" align="right" id="recentstats_tracks_perhour">{="%.2f track(s)",$zero}</td>
 #.
-#. File www/system/templates/statistics_tracks.tpl:35
+#. File www/system/templates/statistics_tracks.tpl:30
 #. Context: <tr>
 #. <td class="rowodd">{="Average per hour"}</td>
 #. <td class="rowodd" align="right" id="tracks_tracks_perhour">{="%.2f track(s)",$zero}</td>
 #.
 #: www/system/templates/statistics_recent.tpl:80
-#: www/system/templates/statistics_tracks.tpl:35
+#: www/system/templates/statistics_tracks.tpl:30
 msgid "Average per hour"
 msgstr "Durchschnittlich pro Stunde"
 
@@ -1962,35 +2016,35 @@ msgstr ""
 msgid "Bit rate"
 msgstr "Bitrate"
 
-#. File www/system/templates/library.tpl:160
+#. File www/system/templates/library.tpl:162
 #. Context: " name="movedown" value="{="Down"}" />
 #. <input disabled="disabled" type="button" id="btn_bottom" name="movebottom" value="{="Bottom"}" />
 #. &nbsp;&nbsp;&nbsp;&nbsp;
 #.
-#: www/system/templates/library.tpl:160
+#: www/system/templates/library.tpl:162
 msgid "Bottom"
 msgstr "Ende"
 
-#. File www/system/templates/library.tpl:45
+#. File www/system/templates/library.tpl:48
 #. Context: import_m3u: '{="Import M3U playlist"}',
 #. folder_view: '{="Browse by folders"}',
 #. manual_library_update: '{="Manual library update"}',
 #.
-#: www/system/templates/library.tpl:45
+#: www/system/templates/library.tpl:48
 msgid "Browse by folders"
 msgstr "Navigiere nach Ordner"
 
-#. File www/system/templates/statistics_tracks.tpl:54
+#. File www/system/templates/statistics_tracks.tpl:49
 #. Context: <div style="text-align: center; font-weight: bold">{="Most Popular Tracks"} ({="by Connections per Minute"})</div>
 #.
-#: www/system/templates/statistics_tracks.tpl:54
+#: www/system/templates/statistics_tracks.tpl:49
 msgid "by Connections per Minute"
 msgstr ""
 
-#. File www/system/templates/statistics_tracks.tpl:74
+#. File www/system/templates/statistics_tracks.tpl:69
 #. Context: <div style="text-align: center; font-weight: bold">{="Least Popular Tracks"} ({="by Disconnections per Minute"})</div>
 #.
-#: www/system/templates/statistics_tracks.tpl:74
+#: www/system/templates/statistics_tracks.tpl:69
 msgid "by Disconnections per Minute"
 msgstr ""
 
@@ -2003,10 +2057,10 @@ msgstr ""
 #. Context: ck $cancreate==0}button{otherwise}submit{/check}" value="{="Create"}" />
 #. <input id="newacct_cancel" type="button" value="{="Cancel"}" />
 #.
-#. File www/system/templates/djaccount_edit.tpl:154
-#. Context: <input type="submit" name="update" value="{="Save"}" />
-#. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
-#. {/box}
+#. File www/system/templates/muses_skin_selector.tpl:6
+#. Context: select: '{="Select"}',
+#. cancel: '{="Cancel"}'
+#. },
 #.
 #. File www/system/templates/account_rename.tpl:28
 #. Context: <input type="submit" name="confirm" value="{="Change account username"}" />
@@ -2032,50 +2086,59 @@ msgstr ""
 #. <input type="button" value="{="Cancel"}" onclick="window.fm.close_dialog()" />
 #. </div>
 #.
+#. File www/system/templates/djaccount_edit.tpl:154
+#. Context: <input type="submit" name="update" value="{="Save"}" />
+#. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
+#. {/box}
+#.
 #. File www/system/templates/configuration_form.tpl:69
 #. Context: if $creating}create{else}update{/if}" value="{if $creating}{="Create"}{else}{="Update"}{/if}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='index.php?page={if $template_editor==0}accounts{else}accounttemplates{/if}'; return false" />
 #.
-#. File www/system/templates/muses_skin_selector.tpl:6
-#. Context: select: '{="Select"}',
-#. cancel: '{="Cancel"}'
-#. },
+#. File www/system/templates/library.tpl:188
+#. Context: class="tipbox_button" id="tipbox_ok" value="{="OK"}" /> <input type="button" class="tipbox_button" id="tipbox_cancel" value="{="Cancel"}" />
+#. </div>
 #.
 #. File www/system/templates/playlist_edit.tpl:333
 #. Context: <input type="submit" name="update" value="{="Save"}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
 #. {/box}
 #.
-#. File www/system/templates/library.tpl:186
-#. Context: class="tipbox_button" id="tipbox_ok" value="{="OK"}" /> <input type="button" class="tipbox_button" id="tipbox_cancel" value="{="Cancel"}" />
-#. </div>
+#. File www/system/templates/library.tpl:44
+#. Context: save: '{="Save"}',
+#. cancel: '{="Cancel"}',
 #.
-#. File www/system/templates/logs.tpl:12
-#. Context: download: '{="Download"}',
-#. cancel: '{="Cancel"}'
-#. }
+#. File www/system/templates/reportformat_edit.tpl:62
+#. Context: <input type="submit" name="update" value="{="Save"}" />
+#. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
+#. {/box}
 #.
-#. File www/system/templates/import_m3u.tpl:17
+#. File www/system/templates/import_m3u.tpl:41
 #. Context: <input type="submit" name="upload" value="{="Upload"}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='index.php?page=library'; return false" />
-#. <input type="hidden" name="playlistid" value="{$_REQUES
-#.
-#. File www/system/templates/upload_single.tpl:32
-#. Context: <a href="#" class="upload_file_remove">{="Close"}</a><br />
-#. <a href="#" class="upload_file_cancel">{="Cancel"}</a><br />
-#. <div class="progressmeterwrapper">
+#. <input type="hidden" name="playlistid" value="{$playlis
 #.
 #. File www/system/templates/account_delete_confirm.tpl:32
 #. Context: m" value="{if $deletingreseller}{="Delete reseller account"}{else}{="Delete Account"}{/if}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='index.php?page=accounts'; return false" />
 #. </form>
 #.
-#. File www/system/templates/admin_rpchost_form.tpl:21
+#. File www/system/templates/upload_single.tpl:32
+#. Context: <a href="#" class="upload_file_remove">{="Close"}</a><br />
+#. <a href="#" class="upload_file_cancel">{="Cancel"}</a><br />
+#. <div class="progressmeterwrapper">
+#.
+#. File www/system/templates/logs.tpl:12
+#. Context: download: '{="Download"}',
+#. cancel: '{="Cancel"}'
+#. }
+#.
+#. File www/system/templates/admin_newsarticle_edit.tpl:61
 #. Context: <input type="submit" name="update" value="{="Save"}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
 #. </form>
 #.
-#. File www/system/templates/admin_newsarticle_edit.tpl:61
+#. File www/system/templates/admin_rpchost_form.tpl:21
 #. Context: <input type="submit" name="update" value="{="Save"}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
 #. </form>
@@ -2085,8 +2148,8 @@ msgstr ""
 #. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
 #. </form>
 #.
-#. File www/system/templates/admin_accounts.tpl:73
-#. Context: on" id="resellerdeletedialog_continue" value="{="Continue"}" /> <input type="button" id="resellerdeletedialog_cancel" value="{="Cancel"}" />
+#. File www/system/templates/admin_accounts.tpl:57
+#. Context: put type="button" id="confirmdialog_continue" value="{="Continue"}" /> <input type="button" id="confirmdialog_cancel" value="{="Cancel"}" />
 #. </form>
 #.
 #. File www/system/templates/admin_email.tpl:141
@@ -2094,7 +2157,7 @@ msgstr ""
 #. <input type="button" value="{="Cancel"}" onclick="window.location='index.php?page={$targetmodule}'; return false" />
 #. </div>
 #.
-#. File www/system/templates/admin_region_form.tpl:12
+#. File www/system/templates/admin_servertype_edit.tpl:38
 #. Context: <input type="submit" name="update" value="{="Save"}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
 #. </form>
@@ -2104,39 +2167,41 @@ msgstr ""
 #. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
 #. </form>
 #.
-#. File www/system/templates/admin_accounts.tpl:57
-#. Context: put type="button" id="confirmdialog_continue" value="{="Continue"}" /> <input type="button" id="confirmdialog_cancel" value="{="Cancel"}" />
-#. </form>
-#.
-#. File www/system/templates/admin_servertype_edit.tpl:38
+#. File www/system/templates/admin_region_form.tpl:12
 #. Context: <input type="submit" name="update" value="{="Save"}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
 #. </form>
 #.
+#. File www/system/templates/admin_accounts.tpl:73
+#. Context: on" id="resellerdeletedialog_continue" value="{="Continue"}" /> <input type="button" id="resellerdeletedialog_cancel" value="{="Cancel"}" />
+#. </form>
+#.
 #: www/system/templates/account_reparent.tpl:19
 #: www/system/templates/new_account_form.tpl:112
-#: www/system/templates/djaccount_edit.tpl:154
+#: www/system/templates/muses_skin_selector.tpl:6
 #: www/system/templates/account_rename.tpl:28
 #: www/system/templates/filemanager.tpl:104
 #: www/system/templates/staffaccount_edit.tpl:164
 #: www/system/templates/statistics.tpl:49
 #: www/system/templates/filemanager.tpl:117
+#: www/system/templates/djaccount_edit.tpl:154
 #: www/system/templates/configuration_form.tpl:69
-#: www/system/templates/muses_skin_selector.tpl:6
+#: www/system/templates/library.tpl:188
 #: www/system/templates/playlist_edit.tpl:333
-#: www/system/templates/library.tpl:186 www/system/templates/logs.tpl:12
-#: www/system/templates/import_m3u.tpl:17
-#: www/system/templates/upload_single.tpl:32
+#: www/system/templates/library.tpl:44
+#: www/system/templates/reportformat_edit.tpl:62
+#: www/system/templates/import_m3u.tpl:41
 #: www/system/templates/account_delete_confirm.tpl:32
-#: www/system/templates/admin_rpchost_form.tpl:21
+#: www/system/templates/upload_single.tpl:32 www/system/templates/logs.tpl:12
 #: www/system/templates/admin_newsarticle_edit.tpl:61
+#: www/system/templates/admin_rpchost_form.tpl:21
 #: www/system/templates/admin_sourcetype_edit.tpl:38
-#: www/system/templates/admin_accounts.tpl:73
-#: www/system/templates/admin_email.tpl:141
-#: www/system/templates/admin_region_form.tpl:12
-#: www/system/templates/admin_remoteserver_edit.tpl:40
 #: www/system/templates/admin_accounts.tpl:57
+#: www/system/templates/admin_email.tpl:141
 #: www/system/templates/admin_servertype_edit.tpl:38
+#: www/system/templates/admin_remoteserver_edit.tpl:40
+#: www/system/templates/admin_region_form.tpl:12
+#: www/system/templates/admin_accounts.tpl:73
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -2183,14 +2248,6 @@ msgstr ""
 msgid "Change account statuses"
 msgstr ""
 
-#. File www/system/templates/account_rename.tpl:1
-#. Context: {box title="Change Account Username"}
-#. <form method="get" action="index.php">
-#.
-#: www/system/templates/account_rename.tpl:1
-msgid "Change Account Username"
-msgstr ""
-
 #. File www/system/templates/account_rename.tpl:27
 #. Context: <input type="hidden" name="username" value="{$old_username|htmlentities}" />
 #. <input type="submit" name="confirm" value="{="Change account username"}" />
@@ -2212,6 +2269,14 @@ msgstr ""
 #: www/system/templates/configuration_form.tpl:60
 #: www/reseller/modules/class_Module_manageaccount_base.php:20
 msgid "Change account username"
+msgstr ""
+
+#. File www/system/templates/account_rename.tpl:1
+#. Context: {box title="Change Account Username"}
+#. <form method="get" action="index.php">
+#.
+#: www/system/templates/account_rename.tpl:1
+msgid "Change Account Username"
 msgstr ""
 
 #. File www/system/templates/configuration_form.tpl:53
@@ -2340,6 +2405,16 @@ msgstr ""
 msgid "Choose a skin"
 msgstr "Wähle ein Design"
 
+#. File www/system/templates/reportformat_edit.tpl:56
+#. Context: <div class="info">{="Choose the columns to include in the report.  Drag column titles to add, remove, or reorder them."}</div>
+#. {/box}
+#.
+#: www/system/templates/reportformat_edit.tpl:56
+msgid ""
+"Choose the columns to include in the report.  Drag column titles to add, "
+"remove, or reorder them."
+msgstr ""
+
 #. File www/system/templates/widgets.tpl:66
 #. Context: {box title="Choose Widget"}
 #. <select style="width: 160px" size="{$widgets|count}" onchange="change_widget(this)">
@@ -2375,9 +2450,7 @@ msgstr ""
 #: www/system/templates/upload_multiple.tpl:13
 #: www/system/templates/upload_single.tpl:13
 msgid "Click 'Select files' to select one or more files to upload."
-msgstr ""
-"Klicken Sie auf 'Durchsuchen' um eine oder mehrere Dateien von Ihren Rechner "
-"aus hochzuladen."
+msgstr "Klicken Sie auf 'Durchsuchen' um eine oder mehrere Dateien von Ihren Rechner aus hochzuladen."
 
 #. File www/system/templates/reseller_index.tpl:43
 #. Context: {/tip}>
@@ -2390,7 +2463,7 @@ msgstr ""
 #: www/system/templates/reseller_index.tpl:43
 #: www/system/templates/reseller_index.tpl:40
 msgid "Client accounts"
-msgstr ""
+msgstr "Kundenaccounts"
 
 #. File www/reseller/modules/class_Module_accounts_base.php:159
 #.
@@ -2413,7 +2486,7 @@ msgstr "Kunden und Reseller"
 #. <input type="button" value="{="Preview"}" onclick="preview_widget(this,'{="Preview"}','{="Close"}')" />
 #. </div>
 #.
-#. File www/system/templates/library.tpl:56
+#. File www/system/templates/library.tpl:59
 #. Context: initializing: '{="Initializing"}',
 #. close: '{="Close"}'
 #. },
@@ -2430,7 +2503,7 @@ msgstr "Kunden und Reseller"
 #.
 #: www/system/templates/upload_multiple.tpl:47
 #: www/system/templates/upload_single.tpl:31
-#: www/system/templates/widgets.tpl:81 www/system/templates/library.tpl:56
+#: www/system/templates/widgets.tpl:81 www/system/templates/library.tpl:59
 #: www/system/templates/admin_accounts.tpl:28
 #: www/system/templates/admin_utilities.tpl:8
 msgid "Close"
@@ -2451,6 +2524,15 @@ msgstr ""
 #: www/system/templates/staffaccount_edit.tpl:153
 #: system/class_StaffAccount.php:123
 msgid "Command-line access"
+msgstr ""
+
+#. File www/system/templates/library.tpl:42
+#. Context: track_name: '{="Track name"}',
+#. comments: '{="Comments"}',
+#. save: '{="Save"}',
+#.
+#: www/system/templates/library.tpl:42
+msgid "Comments"
 msgstr ""
 
 #. File www/system/templates/configuration_reseller_basic.tpl:21
@@ -2478,16 +2560,16 @@ msgstr "Firma / Organisation"
 #. 'xfer_complete': '{="Complete"}.',
 #. 'xfer_cancelled': '{="Cancelled"}',
 #.
-#. File www/system/templates/library.tpl:54
+#. File www/system/templates/library.tpl:57
 #. Context: subtitle: '{="Performing manual update"}',
 #. complete: '{="Complete"}',
 #. initializing: '{="Initializing"}',
 #.
-#. File system/class_ServerControl.php:736
+#. File system/class_ServerControl.php:738
 #.
-#. File system/class_ServerControl.php:672
+#. File system/class_ServerControl.php:674
 #.
-#. File system/class_ServerControl.php:461
+#. File system/class_ServerControl.php:463
 #.
 #. File www/system/templates/admin_accounts.tpl:27
 #. Context: processing_account: '{="Processing account %s ..."}',
@@ -2499,19 +2581,19 @@ msgstr "Firma / Organisation"
 #. complete: '{="Complete"}',
 #. initializing: '{="Initializing"}',
 #.
-#. File system/class_ServerControl.php:755
+#. File system/class_ServerControl.php:757
 #.
-#. File system/class_ServerControl.php:288
+#. File system/class_ServerControl.php:290
 #.
-#. File system/class_ServerControl.php:1644
+#. File system/class_ServerControl.php:1656
 #.
-#: www/system/templates/upload_single.tpl:5 www/system/templates/library.tpl:54
-#: system/class_ServerControl.php:736 system/class_ServerControl.php:672
-#: system/class_ServerControl.php:461
+#: www/system/templates/upload_single.tpl:5 www/system/templates/library.tpl:57
+#: system/class_ServerControl.php:738 system/class_ServerControl.php:674
+#: system/class_ServerControl.php:463
 #: www/system/templates/admin_accounts.tpl:27
 #: www/system/templates/admin_utilities.tpl:6
-#: system/class_ServerControl.php:755 system/class_ServerControl.php:288
-#: system/class_ServerControl.php:1644
+#: system/class_ServerControl.php:757 system/class_ServerControl.php:290
+#: system/class_ServerControl.php:1656
 msgid "Complete"
 msgstr "Vollständig"
 
@@ -2557,7 +2639,7 @@ msgstr ""
 #.
 #: www/system/templates/account_updated.tpl:3
 msgid "Configuration updated successfully."
-msgstr ""
+msgstr "Einstellungen wurden erfolgreich gespeichert."
 
 #. File www/system/templates/autodj_control.tpl:10
 #. Context: ef="index.php?page=configure#tab:{="AutoDJ"}"><img class="autodj-control" src="/system/images/icons/source/control.png" alt="{="Configure"}"
@@ -2565,6 +2647,13 @@ msgstr ""
 #.
 #: www/system/templates/autodj_control.tpl:10
 msgid "Configure"
+msgstr ""
+
+#. File www/system/templates/statistics_downloads.tpl:33
+#. Context: style="float: right; margin-top: 4px"><a style="font-weight: normal; color: #666666" href='index.php?page=reportdownloads'">{="Configure custom reports"}</a> <img align="absmiddle" src="/system/images/csv.png" /></div>
+#.
+#: www/system/templates/statistics_downloads.tpl:33
+msgid "Configure custom reports"
 msgstr ""
 
 #. File www/client/modules/class_Module_djaccounts.php:21
@@ -2591,12 +2680,12 @@ msgstr ""
 msgid "Confirm new password"
 msgstr ""
 
-#. File www/system/templates/statistics_tracks.tpl:63
+#. File www/system/templates/statistics_tracks.tpl:58
 #. Context: <th style="text-align: right" width="70">{="Net Conn."}</th>
 #. <th style="text-align: right" width="70">{="Conn./Min"}</th>
 #. </tr>
 #.
-#: www/system/templates/statistics_tracks.tpl:63
+#: www/system/templates/statistics_tracks.tpl:58
 msgid "Conn./Min"
 msgstr ""
 
@@ -2651,9 +2740,9 @@ msgstr ""
 msgid "Could not update playlist."
 msgstr "Playliste kann nicht geupdatet werden."
 
-#. File www/client/modules/class_Module_statistics.php:83
+#. File www/client/modules/class_Module_statistics.php:64
 #.
-#: www/client/modules/class_Module_statistics.php:83
+#: www/client/modules/class_Module_statistics.php:64
 msgid "Countries"
 msgstr "Länder"
 
@@ -2738,6 +2827,15 @@ msgstr ""
 #: www/system/templates/staffaccount_edit.tpl:132
 #: system/class_StaffAccount.php:72
 msgid "Create accounts"
+msgstr ""
+
+#. File www/system/templates/reportformat_list.tpl:4
+#. Context: yle="float: right">
+#. <img src="../system/images/icons/add.png" align="absmiddle" /> <a href="{$indexself}&action=add">{="Create custom report"}</a>
+#. </div>
+#.
+#: www/system/templates/reportformat_list.tpl:4
+msgid "Create custom report"
 msgstr ""
 
 #. File www/system/templates/djaccount_list.tpl:4
@@ -2923,6 +3021,23 @@ msgstr "Benutzerdefiniert"
 msgid "Custom logo is active."
 msgstr ""
 
+#. File www/system/templates/reportformat_update.tpl:3
+#. Context: {check $saved}
+#. {="Custom report format saved successfully."}
+#. {otherwise}
+#.
+#: www/system/templates/reportformat_update.tpl:3
+msgid "Custom report format saved successfully."
+msgstr ""
+
+#. File www/system/templates/reportformat_update.tpl:1
+#. Context: {box title="Custom Report Format Update"}
+#. {check $saved}
+#.
+#: www/system/templates/reportformat_update.tpl:1
+msgid "Custom Report Format Update"
+msgstr ""
+
 #. File www/system/templates/filemanager.tpl:78
 #. Context: pboard(true)" value="{="Copy"}" />
 #. <input type="button" id="btn_cut" onclick="window.fm.populate_clipboard(false)" value="{="Cut"}" />
@@ -3084,9 +3199,9 @@ msgstr ""
 msgid "deactivated"
 msgstr ""
 
-#. File www/client/modules/class_Module_statistics.php:35
+#. File www/client/modules/class_Module_statistics.php:31
 #.
-#: www/client/modules/class_Module_statistics.php:35
+#: www/client/modules/class_Module_statistics.php:31
 msgid "December"
 msgstr "Dezember"
 
@@ -3114,22 +3229,27 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#. File www/system/templates/filemanager.tpl:80
-#. Context: ipboard()" value="{="Paste"}" /> &nbsp;
-#. <input type="button" id="btn_delete" onclick="window.fm.delete_selected()" value="{="Delete"}" />
-#. <input type="button" id="btn_rename" onclick="window.fm.rename_selected()" value="{="Rename"}" /> &nbsp;&nbsp;&nbsp;&n
-#.
 #. File www/system/templates/filemanager.tpl:36
 #. Context: tpaste: '{="Paste"}',
 #. tdelete: '{="Delete"}',
 #. trename: '{="Rename"}',
 #.
+#. File www/system/templates/reportformat_list.tpl:35
+#. Context: e&id={$reportformat.id}" onclick="return confirm('{="Are you sure you want to permanently delete this item?"}')"><img title="{="Delete"}" src="../system/images/icons/delete.png" border="0" align="absmiddle" /></a>
+#. <a href="{$indexself}&action=edit&id={$reportf
+#.
+#. File www/system/templates/filemanager.tpl:80
+#. Context: ipboard()" value="{="Paste"}" /> &nbsp;
+#. <input type="button" id="btn_delete" onclick="window.fm.delete_selected()" value="{="Delete"}" />
+#. <input type="button" id="btn_rename" onclick="window.fm.rename_selected()" value="{="Rename"}" /> &nbsp;&nbsp;&nbsp;&n
+#.
 #. File www/system/templates/admin_accounts.tpl:89
 #. Context: </div></li>
 #. <li id="delete_selected" class="btndelete multiple_account_button" data-perm="accounts_delete"><div><a href="#">{="Delete"}</a></div></li>
 #.
-#: www/system/templates/filemanager.tpl:80
 #: www/system/templates/filemanager.tpl:36
+#: www/system/templates/reportformat_list.tpl:35
+#: www/system/templates/filemanager.tpl:80
 #: www/system/templates/admin_accounts.tpl:89
 msgid "Delete"
 msgstr "Löschen"
@@ -3468,12 +3588,12 @@ msgstr "Deaktiviert"
 msgid "Discard"
 msgstr "Ausschuss"
 
-#. File www/system/templates/statistics_tracks.tpl:83
+#. File www/system/templates/statistics_tracks.tpl:78
 #. Context: <th style="text-align: right" width="70">{="Net Discon."}</th>
 #. <th style="text-align: right" width="70">{="Discon./Min"}</th>
 #. </tr>
 #.
-#: www/system/templates/statistics_tracks.tpl:83
+#: www/system/templates/statistics_tracks.tpl:78
 msgid "Discon./Min"
 msgstr ""
 
@@ -3658,7 +3778,7 @@ msgstr "DJ / Moderatoren Verwaltung"
 #. Context: .2f%%",$zero}</span> <img id="listeners_trend7_img" src="../system/images/icons/trend-up.png" align="absmiddle" alt="{="Up"}/{="Down"}" /></td>
 #. </tr>
 #.
-#. File www/system/templates/library.tpl:159
+#. File www/system/templates/library.tpl:161
 #. Context: ="btn_up" name="moveup" value="{="Up"}" />
 #. <input disabled="disabled" type="button" id="btn_down" name="movedown" value="{="Down"}" />
 #. <input disabled="disabled" type="button" id="btn_bottom" name="movebottom" value="{="Bottom"}" />
@@ -3666,10 +3786,24 @@ msgstr "DJ / Moderatoren Verwaltung"
 #: www/system/templates/statistics_listeners.tpl:92
 #: www/system/templates/statistics_listeners.tpl:88
 #: www/system/templates/statistics_listeners.tpl:84
-#: www/system/templates/library.tpl:159
+#: www/system/templates/library.tpl:161
 msgid "Down"
 msgstr ""
 
+#. File www/system/templates/statistics_historical.tpl:35
+#. Context: 666666" href='#' onclick="window.stats.get_page({$stats_tabid}).launch_period_csv('get_historical_listeners'); return false">{="Download"}</a> <img align="absmiddle" src="/system/images/csv.png" /></div>
+#. </td>
+#.
+#. File www/system/templates/statistics_downloads.tpl:20
+#. Context: <th style="text-align: right" width="200">{="Size"}</th>
+#. <th style="text-align: center" width="70">{="Download"}</th>
+#. </tr>
+#.
+#. File www/system/templates/statistics_downloads.tpl:3
+#. Context: {language}
+#. download:		'{="Download"}',
+#. {/language}
+#.
 #. File www/system/templates/logs.tpl:39
 #. Context: {if $allowlogdownload>0}
 #. {="Download"}: <a href="#" id="log_download">{="All logs"}</a><br />
@@ -3680,20 +3814,38 @@ msgstr ""
 #. download: '{="Download"}',
 #. cancel: '{="Cancel"}'
 #.
-#. File www/system/templates/statistics_tracks.tpl:145
-#. Context: <th style="text-align: right" width="200">{="Size"}</th>
-#. <th style="text-align: center" width="70">{="Download"}</th>
-#. </tr>
-#.
-#. File www/system/templates/statistics_tracks.tpl:3
-#. Context: {language}
-#. download:		'{="Download"}',
-#. {/language}
-#.
+#: www/system/templates/statistics_historical.tpl:35
+#: www/system/templates/statistics_downloads.tpl:20
+#: www/system/templates/statistics_downloads.tpl:3
 #: www/system/templates/logs.tpl:39 www/system/templates/logs.tpl:11
-#: www/system/templates/statistics_tracks.tpl:145
-#: www/system/templates/statistics_tracks.tpl:3
 msgid "Download"
+msgstr ""
+
+#. File www/client/modules/class_Module_reportdownloads.php:19
+#.
+#: www/client/modules/class_Module_reportdownloads.php:19
+msgid "Downloadable Reports"
+msgstr ""
+
+#. File www/client/modules/class_Module_reportdownloads.php:20
+#.
+#: www/client/modules/class_Module_reportdownloads.php:20
+msgid "Downloadable track reports for your stream"
+msgstr ""
+
+#. File www/client/modules/class_Module_statistics.php:70
+#.
+#: www/client/modules/class_Module_statistics.php:70
+msgid "Downloads"
+msgstr ""
+
+#. File www/system/templates/import_m3u.tpl:19
+#. Context: <tr>
+#. <td>{="Duplicate track handling"}:&nbsp;</td>
+#. <td>
+#.
+#: www/system/templates/import_m3u.tpl:19
+msgid "Duplicate track handling"
 msgstr ""
 
 #. File www/reseller/modules/class_Module_reselleremails.php:10
@@ -3716,6 +3868,46 @@ msgstr ""
 #: system/class_AccountFields.php:808
 msgid "E-mail unknown requests"
 msgstr "E-Mail bei unbekannten Musikwünschen?"
+
+#. File www/system/templates/reportformat_list.tpl:36
+#. Context: icons/delete.png" border="0" align="absmiddle" /></a>
+#. <a href="{$indexself}&action=edit&id={$reportformat.id}"><img title="{="Edit"}" src="../system/images/icons/edit.png" border="0" align="absmiddle" /></a>
+#. </td>
+#.
+#. File www/system/templates/admin_email.tpl:30
+#. Context: {language}
+#. edit: '{="Edit"}',
+#. copy_to: {
+#.
+#. File www/system/templates/admin_sourcetype_list.tpl:31
+#. Context: source type"}" alt="{="Edit source type"}" src="../system/images/icons/sourcetype_edit.png" border="0" align="absmiddle" /> {="Edit"}</a>
+#. </td>
+#.
+#. File www/system/templates/admin_servertype_list.tpl:31
+#. Context: server type"}" alt="{="Edit server type"}" src="../system/images/icons/servertype_edit.png" border="0" align="absmiddle" /> {="Edit"}</a>
+#. </td>
+#.
+#. File www/system/templates/admin_sessions.tpl:57
+#. Context: edit&username=${session.staffaccount.username}"><img src="../system/images/icons/edit.png" border="0" align="absmiddle" alt="{="Edit"}" /></a>
+#. {else}
+#.
+#. File www/system/templates/admin_accounts_javascript.tpl:124
+#. Context: t_edit" href="#"><img class="hastip" tip="#tip_edit" src="../system/images/icons/edit.png" border="0" align="absmiddle" alt="{="Edit"}" /></a>{/if}
+#. </td>
+#.
+#. File www/system/templates/admin_sessions.tpl:60
+#. Context: ounts&action=edit&username={$session.username}"><img src="../system/images/icons/edit.png" border="0" align="absmiddle" alt="{="Edit"}" /></a>
+#. {/if}
+#.
+#: www/system/templates/reportformat_list.tpl:36
+#: www/system/templates/admin_email.tpl:30
+#: www/system/templates/admin_sourcetype_list.tpl:31
+#: www/system/templates/admin_servertype_list.tpl:31
+#: www/system/templates/admin_sessions.tpl:57
+#: www/system/templates/admin_accounts_javascript.tpl:124
+#: www/system/templates/admin_sessions.tpl:60
+msgid "Edit"
+msgstr ""
 
 #. File www/system/templates/staffaccount_list.tpl:39
 #. Context: }enable{/if}.png" border="0" align="absmiddle" /></a>
@@ -3740,14 +3932,14 @@ msgstr "E-Mail bei unbekannten Musikwünschen?"
 #: www/reseller/modules/class_Module_manageaccount_base.php:20
 #: www/reseller/modules/class_Module_accounts_base.php:54
 msgid "Edit Account"
-msgstr ""
+msgstr "Bearbeite Account"
 
 #. File www/reseller/modules/class_Module_accounts_base.php:54
 #. Arguments: $username
 #.
 #: www/reseller/modules/class_Module_accounts_base.php:54
 msgid "Edit account %s"
-msgstr ""
+msgstr "Bearbeite Account: %s"
 
 #. File www/system/templates/account_template_list.tpl:46
 #. Context: ns/delete.png" border="0" align="absmiddle" /></a>
@@ -3794,11 +3986,11 @@ msgstr "Albumdetails editieren"
 msgid "Edit playlist"
 msgstr "Wiedergabeliste bearbeiten"
 
-#. File www/system/templates/library.tpl:62
+#. File www/system/templates/library.tpl:65
 #. Context: empty_playlist: '{="Empty playlist"}',
 #. {/language}
 #.
-#: www/system/templates/library.tpl:62
+#: www/system/templates/library.tpl:65
 msgid "Empty playlist"
 msgstr ""
 
@@ -3873,11 +4065,11 @@ msgstr "Letzte Titel - Widget aktivieren"
 msgid "Enable song request widget"
 msgstr "Musikwunsch Widget aktivieren"
 
-#. File www/system/templates/library.tpl:60
+#. File www/system/templates/library.tpl:63
 #. Context: listen_to_preview: '{="Listen to preview"}',
 #. enable_disable_playlist: '{="Enable/disable playlist"}',
 #.
-#: www/system/templates/library.tpl:60
+#: www/system/templates/library.tpl:63
 msgid "Enable/disable playlist"
 msgstr "Playliste aktivieren/deaktivieren"
 
@@ -4095,6 +4287,15 @@ msgstr ""
 msgid "Example: %sjsmith:secret%s"
 msgstr "Beispiel: %susername:passwort%s"
 
+#. File www/system/templates/import_m3u.tpl:28
+#. Context: <tr>
+#. <td>{="Existing track handling"}:&nbsp;</td>
+#. <td>
+#.
+#: www/system/templates/import_m3u.tpl:28
+msgid "Existing track handling"
+msgstr ""
+
 #. File www/system/templates/configuration_client_files.tpl:30
 #. Context: <tr>
 #. <td>{="Fallback file"}:</td>
@@ -4131,9 +4332,9 @@ msgstr "Backup Datei"
 msgid "Feature Management"
 msgstr ""
 
-#. File www/client/modules/class_Module_statistics.php:33
+#. File www/client/modules/class_Module_statistics.php:29
 #.
-#: www/client/modules/class_Module_statistics.php:33
+#: www/client/modules/class_Module_statistics.php:29
 msgid "February"
 msgstr "Februar"
 
@@ -4152,7 +4353,7 @@ msgstr "Februar"
 #. <h1>{="File Manager"}</h1>
 #. <h2 id="upload_subtitle"></h2>
 #.
-#. File www/system/templates/library.tpl:105
+#. File www/system/templates/library.tpl:107
 #. Context: div style="float: right; text-align: right">
 #. {if $allow_file_manager>0}<input type="button" id="btn_filemanager" value="{="File Manager"}" onclick="window.location.href='index.php?page=filemanager'" />{/if}
 #. <input type="button" value="{="Options"}" id="pulld
@@ -4160,7 +4361,7 @@ msgstr "Februar"
 #: www/system/templates/filemanager.tpl:109
 #: www/system/templates/filemanager.tpl:96
 #: www/system/templates/upload_multiple.tpl:37
-#: www/system/templates/library.tpl:105
+#: www/system/templates/library.tpl:107
 msgid "File Manager"
 msgstr "Dateimanager"
 
@@ -4307,9 +4508,9 @@ msgstr ""
 msgid "for your reference only"
 msgstr ""
 
-#. File www/client/modules/class_Module_statistics.php:38
+#. File www/client/modules/class_Module_statistics.php:34
 #.
-#: www/client/modules/class_Module_statistics.php:38
+#: www/client/modules/class_Module_statistics.php:34
 msgid "Friday"
 msgstr "Freitag"
 
@@ -4443,6 +4644,8 @@ msgstr ""
 #.
 #. File system/class_AccountFields.php:794
 #.
+#. File system/class_ReportFormat.php:50
+#.
 #. File system/servers/IceCast/class_IceCastConfig.php:44
 #.
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:156
@@ -4463,7 +4666,7 @@ msgstr ""
 #. <td colspan="3"><input type="text" name="{$mpfieldname}[icesgenre]" class="list_editor_field" size="32" maxlen
 #.
 #: www/system/templates/configuration_client_source.tpl:75
-#: system/class_AccountFields.php:794
+#: system/class_AccountFields.php:794 system/class_ReportFormat.php:50
 #: system/servers/IceCast/class_IceCastConfig.php:44
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:156
 #: system/sources/ices/srvintf/class_IcesServerInterface.php:170
@@ -4485,9 +4688,9 @@ msgstr "Genre"
 msgid "Graveyard"
 msgstr "Nachts"
 
-#. File www/client/modules/class_Module_statistics.php:87
+#. File www/client/modules/class_Module_statistics.php:68
 #.
-#: www/client/modules/class_Module_statistics.php:87
+#: www/client/modules/class_Module_statistics.php:68
 msgid "Historical"
 msgstr "History"
 
@@ -4782,15 +4985,29 @@ msgid ""
 "use, which does not support scheduling."
 msgstr ""
 
+#. File www/system/templates/import_m3u_result.tpl:27
+#. Context: "/system/images/icons/models/playlist.png" align="absmiddle" /> <a href="index.php?page=importm3u&playlistid={$playlist.id}">{="Import another playlist"}</a><br />
+#. <img src="/system/images/icons/return.png" align="absmiddle" /> <a href="index.php?page=library">{="Return to medi
+#.
+#: www/system/templates/import_m3u_result.tpl:27
+msgid "Import another playlist"
+msgstr ""
+
+#. File www/client/modules/class_Module_importm3u.php:16
+#.
+#: www/client/modules/class_Module_importm3u.php:16
+msgid "Import External Playlist"
+msgstr ""
+
 #. File www/system/templates/import_m3u.tpl:3
 #. Context: {box title="Import M3U playlist"}
 #.
-#. File www/system/templates/library.tpl:44
+#. File www/system/templates/library.tpl:47
 #. Context: show_album_covers: '{="Show album covers"}',
 #. import_m3u: '{="Import M3U playlist"}',
 #. folder_view: '{="Browse by folders"}',
 #.
-#: www/system/templates/import_m3u.tpl:3 www/system/templates/library.tpl:44
+#: www/system/templates/import_m3u.tpl:3 www/system/templates/library.tpl:47
 msgid "Import M3U playlist"
 msgstr ""
 
@@ -4807,6 +5024,15 @@ msgstr ""
 msgid "Import Results"
 msgstr ""
 
+#. File www/system/templates/reportformat_edit.tpl:42
+#. Context: <div style="float: left; width: 30%">
+#. <h1>{="Included Columns"}</h1>
+#. </div>
+#.
+#: www/system/templates/reportformat_edit.tpl:42
+msgid "Included Columns"
+msgstr ""
+
 #. File www/system/templates/configfile_editor.tpl:41
 #. Context: utton"><div id="tbreplace" title="{="Search and replace"}"></div></div>
 #. <div class="toolbutton"><div id="tbindent" title="{="Increase indent"}"></div></div>
@@ -4816,7 +5042,7 @@ msgstr ""
 msgid "Increase indent"
 msgstr ""
 
-#. File www/system/templates/library.tpl:55
+#. File www/system/templates/library.tpl:58
 #. Context: complete: '{="Complete"}',
 #. initializing: '{="Initializing"}',
 #. close: '{="Close"}'
@@ -4831,7 +5057,7 @@ msgstr ""
 #. initializing: '{="Initializing"}',
 #. close: '{="Close"}'
 #.
-#: www/system/templates/library.tpl:55 www/system/templates/logs.tpl:10
+#: www/system/templates/library.tpl:58 www/system/templates/logs.tpl:10
 #: www/system/templates/admin_utilities.tpl:7
 msgid "Initializing"
 msgstr ""
@@ -4929,26 +5155,17 @@ msgid ""
 "symbol except backslash or space"
 msgstr ""
 
+#. File www/client/modules/class_Module_importm3u.php:32
+#.
+#: www/client/modules/class_Module_importm3u.php:32
+msgid "Invalid playlist ID"
+msgstr ""
+
 #. File www/client/rpc/class_RPCplaylist.php:165
 #.
 #: www/client/rpc/class_RPCplaylist.php:165
 msgid "Invalid track addition request"
 msgstr "Ung&uuml;ltige Titel-hinzuf&uuml;ge-Operation"
-
-#. File www/system/templates/livestats.tpl:52
-#. Context: <th colspan="2">{="Location"}</th>
-#. <th>{="IP Address"}</th>
-#. {check $showuseragent>0}
-#.
-#. File www/system/templates/admin_sessions.tpl:28
-#. Context: <th class="sorttable_numeric">{="Duration"}</th>
-#. <th class="sorttable_alpha">{="IP Address"}</th>
-#. <th width="50" class="sorttable_nosort">&nbsp;</th>
-#.
-#: www/system/templates/livestats.tpl:52
-#: www/system/templates/admin_sessions.tpl:28
-msgid "IP Address"
-msgstr "IP-Adresse"
 
 #. File www/system/templates/account_created_details.tpl:6
 #. Context: {if $account.reseller==0}
@@ -4992,6 +5209,21 @@ msgstr "IP-Adresse"
 msgid "IP address"
 msgstr "IP Adresse"
 
+#. File www/system/templates/livestats.tpl:52
+#. Context: <th colspan="2">{="Location"}</th>
+#. <th>{="IP Address"}</th>
+#. {check $showuseragent>0}
+#.
+#. File www/system/templates/admin_sessions.tpl:28
+#. Context: <th class="sorttable_numeric">{="Duration"}</th>
+#. <th class="sorttable_alpha">{="IP Address"}</th>
+#. <th width="50" class="sorttable_nosort">&nbsp;</th>
+#.
+#: www/system/templates/livestats.tpl:52
+#: www/system/templates/admin_sessions.tpl:28
+msgid "IP Address"
+msgstr "IP-Adresse"
+
 #. File www/system/templates/filemanager.tpl:16
 #. Context: select_one_first: '{="Please select a file or folder first."}',
 #. items_on_clipboard: '{="item(s) on clipboard"}',
@@ -5001,21 +5233,21 @@ msgstr "IP Adresse"
 msgid "item(s) on clipboard"
 msgstr ""
 
-#. File www/client/modules/class_Module_statistics.php:33
+#. File www/client/modules/class_Module_statistics.php:29
 #.
-#: www/client/modules/class_Module_statistics.php:33
+#: www/client/modules/class_Module_statistics.php:29
 msgid "January"
 msgstr "Januar"
 
-#. File www/client/modules/class_Module_statistics.php:34
+#. File www/client/modules/class_Module_statistics.php:30
 #.
-#: www/client/modules/class_Module_statistics.php:34
+#: www/client/modules/class_Module_statistics.php:30
 msgid "July"
 msgstr "Juli"
 
-#. File www/client/modules/class_Module_statistics.php:34
+#. File www/client/modules/class_Module_statistics.php:30
 #.
-#: www/client/modules/class_Module_statistics.php:34
+#: www/client/modules/class_Module_statistics.php:30
 msgid "June"
 msgstr "Juni"
 
@@ -5056,11 +5288,11 @@ msgstr "kbps"
 #. keyword: '{="Keyword"}',
 #. trim_log: '{="Trim Log"}',
 #.
-#. File www/system/templates/library.tpl:110
+#. File www/system/templates/library.tpl:112
 #. Context: <div id="searchform">
 #. {="Keyword"}: <input type="text" name="keyword" id="search_keyword" value="" style="width: 120px">
 #.
-#: www/system/templates/logmanager.tpl:19 www/system/templates/library.tpl:110
+#: www/system/templates/logmanager.tpl:19 www/system/templates/library.tpl:112
 msgid "Keyword"
 msgstr "Keywort"
 
@@ -5104,12 +5336,21 @@ msgstr "Starte Dateimanager"
 msgid "Launch media library"
 msgstr "Starte Bibliothek"
 
-#. File www/system/templates/statistics_tracks.tpl:74
+#. File www/system/templates/statistics_tracks.tpl:69
 #. Context: <div style="text-align: center; font-weight: bold">{="Least Popular Tracks"} ({="by Disconnections per Minute"})</div>
 #.
-#: www/system/templates/statistics_tracks.tpl:74
+#: www/system/templates/statistics_tracks.tpl:69
 msgid "Least Popular Tracks"
 msgstr "Beliebteste Titel"
+
+#. File www/system/templates/import_m3u.tpl:31
+#. Context: <select name="exclusive" size="1">
+#. <option value="0">{="Leave any existing (non-duplicate) tracks in target playlist"}</option>
+#. <option value="1">{="Remove any existing (non-duplicate) tracks in target playlist"}</option>
+#.
+#: www/system/templates/import_m3u.tpl:31
+msgid "Leave any existing (non-duplicate) tracks in target playlist"
+msgstr ""
 
 #. File www/system/templates/staffaccount_edit.tpl:94
 #. Context: e="staffaccount[password1]" size="16" maxlength="32" value="{$staffaccount.password1|htmlentities}" /> {if $staffaccount.id}({="leave blank to remain unchanged"}){/if}</td>
@@ -5174,11 +5415,11 @@ msgstr ""
 msgid "Listen Time"
 msgstr "Verbunden seit"
 
-#. File www/system/templates/library.tpl:59
+#. File www/system/templates/library.tpl:62
 #. Context: listen_to_preview: '{="Listen to preview"}',
 #. enable_disable_playlist: '{="Enable/disable playlist"}',
 #.
-#: www/system/templates/library.tpl:59
+#: www/system/templates/library.tpl:62
 msgid "Listen to preview"
 msgstr "Anhören"
 
@@ -5388,18 +5629,18 @@ msgstr ""
 msgid "Lunch"
 msgstr "Mittags"
 
-#. File www/client/modules/class_Module_importm3u.php:39
+#. File www/client/modules/class_Module_importm3u.php:48
 #.
-#: www/client/modules/class_Module_importm3u.php:39
+#: www/client/modules/class_Module_importm3u.php:48
 msgid "M3U file not received."
 msgstr ""
 
-#. File www/system/templates/import_m3u.tpl:7
+#. File www/system/templates/import_m3u.tpl:14
 #. Context: <tr>
-#. <td width="110">{="M3U playlist file"}:&nbsp;</td>
-#. <td>
+#. <td>{="M3U playlist file"}:&nbsp;</td>
+#. <td><input type="file" name="m3ufile" /></td>
 #.
-#: www/system/templates/import_m3u.tpl:7
+#: www/system/templates/import_m3u.tpl:14
 msgid "M3U playlist file"
 msgstr ""
 
@@ -5471,12 +5712,12 @@ msgstr ""
 msgid "Manage playlist settings"
 msgstr "Verwalte Playlisten einstellungen"
 
-#. File www/system/templates/library.tpl:137
+#. File www/system/templates/library.tpl:139
 #. Context: tton" value="{="Return"}" onclick="window.location='index.php'" /> &nbsp;&nbsp;&nbsp;&nbsp;
 #. <input type="button" value="{="Manage playlists"}" onclick="window.location='index.php?page=playlists'" />
 #. </div>
 #.
-#: www/system/templates/library.tpl:137
+#: www/system/templates/library.tpl:139
 msgid "Manage playlists"
 msgstr "Playlisten verwalten"
 
@@ -5528,18 +5769,18 @@ msgstr "Verwalte %s"
 msgid "Manual entry"
 msgstr "Manuelle Auswahl"
 
-#. File www/system/templates/library.tpl:46
+#. File www/system/templates/library.tpl:49
 #. Context: folder_view: '{="Browse by folders"}',
 #. manual_library_update: '{="Manual library update"}',
 #. purge_library_update: '{="Purge library and update"}',
 #.
-#: www/system/templates/library.tpl:46
+#: www/system/templates/library.tpl:49
 msgid "Manual library update"
 msgstr "Bibliothek Updaten"
 
-#. File www/client/modules/class_Module_statistics.php:33
+#. File www/client/modules/class_Module_statistics.php:29
 #.
-#: www/client/modules/class_Module_statistics.php:33
+#: www/client/modules/class_Module_statistics.php:29
 msgid "March"
 msgstr "M&auml;rz"
 
@@ -5701,7 +5942,7 @@ msgstr ""
 msgid "Media Library"
 msgstr "Bibliothek"
 
-#. File www/system/templates/library.tpl:52
+#. File www/system/templates/library.tpl:55
 #. Context: library_update: {
 #. title: '{="Media Library Update"}',
 #. subtitle: '{="Performing manual update"}',
@@ -5713,9 +5954,16 @@ msgstr "Bibliothek"
 #.
 #. File www/client/modules/class_Module_importmedia.php:13
 #.
-#: www/system/templates/library.tpl:52 www/system/templates/library.tpl:20
+#: www/system/templates/library.tpl:55 www/system/templates/library.tpl:20
 #: www/client/modules/class_Module_importmedia.php:13
 msgid "Media Library Update"
+msgstr "Medienbibliothek Update"
+
+#. File www/client/modules/class_Module_reportdownloads.php:38
+#. Arguments: $tag
+#.
+#: www/client/modules/class_Module_reportdownloads.php:38
+msgid "Meta tag: %s"
 msgstr ""
 
 #. File www/system/templates/statistics_listeners.tpl:28
@@ -5738,12 +5986,12 @@ msgstr ""
 #. <th colspan="2">{="Metric"}</th>
 #. <th style="text-align: right">{="Value"}</th>
 #.
-#. File www/system/templates/statistics_tracks.tpl:17
+#. File www/system/templates/statistics_tracks.tpl:12
 #. Context: <th width="25%" style="text-align: right">{="Value"}</th>
 #. <th width="20%">{="Metric"}</th>
 #. <th width="30%" style="text-align: right">{="Value"}</th>
 #.
-#. File www/system/templates/statistics_tracks.tpl:15
+#. File www/system/templates/statistics_tracks.tpl:10
 #. Context: <tr>
 #. <th width="25%">{="Metric"}</th>
 #. <th width="25%" style="text-align: right">{="Value"}</th>
@@ -5752,8 +6000,8 @@ msgstr ""
 #: www/system/templates/statistics_listeners.tpl:30
 #: www/system/templates/statistics_recent.tpl:55
 #: www/system/templates/statistics_recent.tpl:12
-#: www/system/templates/statistics_tracks.tpl:17
-#: www/system/templates/statistics_tracks.tpl:15
+#: www/system/templates/statistics_tracks.tpl:12
+#: www/system/templates/statistics_tracks.tpl:10
 msgid "Metric"
 msgstr ""
 
@@ -5822,9 +6070,9 @@ msgstr "Minuten"
 msgid "minutes (0 to play to completion)"
 msgstr "Minuten (0 um bis zum Ende zu spielen)"
 
-#. File www/client/modules/class_Module_statistics.php:38
+#. File www/client/modules/class_Module_statistics.php:34
 #.
-#: www/client/modules/class_Module_statistics.php:38
+#: www/client/modules/class_Module_statistics.php:34
 msgid "Monday"
 msgstr "Montag"
 
@@ -5925,10 +6173,10 @@ msgstr ""
 msgid "Morning"
 msgstr "Morgens"
 
-#. File www/system/templates/statistics_tracks.tpl:54
+#. File www/system/templates/statistics_tracks.tpl:49
 #. Context: <div style="text-align: center; font-weight: bold">{="Most Popular Tracks"} ({="by Connections per Minute"})</div>
 #.
-#: www/system/templates/statistics_tracks.tpl:54
+#: www/system/templates/statistics_tracks.tpl:49
 msgid "Most Popular Tracks"
 msgstr ""
 
@@ -6112,21 +6360,21 @@ msgstr ""
 msgid "Name"
 msgstr "Name"
 
-#. File www/system/templates/statistics_tracks.tpl:62
+#. File www/system/templates/statistics_tracks.tpl:57
 #. Context: <th style="text-align: right" width="130">{="Total Airtime"}</th>
 #. <th style="text-align: right" width="70">{="Net Conn."}</th>
 #. <th style="text-align: right" width="70">{="Conn./Min"}</th>
 #.
-#: www/system/templates/statistics_tracks.tpl:62
+#: www/system/templates/statistics_tracks.tpl:57
 msgid "Net Conn."
 msgstr ""
 
-#. File www/system/templates/statistics_tracks.tpl:82
+#. File www/system/templates/statistics_tracks.tpl:77
 #. Context: <th style="text-align: right" width="130">{="Total Airtime"}</th>
 #. <th style="text-align: right" width="70">{="Net Discon."}</th>
 #. <th style="text-align: right" width="70">{="Discon./Min"}</th>
 #.
-#: www/system/templates/statistics_tracks.tpl:82
+#: www/system/templates/statistics_tracks.tpl:77
 msgid "Net Discon."
 msgstr ""
 
@@ -6167,6 +6415,13 @@ msgstr "Neuer Account"
 msgid "New account"
 msgstr "Neues Konto"
 
+#. File www/system/templates/account_template_created.tpl:1
+#. Context: {box title="New Account Template"}
+#.
+#: www/system/templates/account_template_created.tpl:1
+msgid "New Account Template"
+msgstr ""
+
 #. File www/system/templates/new_account_form.tpl:10
 #. Context: <h1>{="Feature Management"}</h1>
 #. <h2>{="New account template"}</h2>
@@ -6174,13 +6429,6 @@ msgstr "Neues Konto"
 #.
 #: www/system/templates/new_account_form.tpl:10
 msgid "New account template"
-msgstr ""
-
-#. File www/system/templates/account_template_created.tpl:1
-#. Context: {box title="New Account Template"}
-#.
-#: www/system/templates/account_template_created.tpl:1
-msgid "New Account Template"
 msgstr ""
 
 #. File www/system/templates/filemanager.tpl:26
@@ -6268,11 +6516,11 @@ msgstr ""
 #: www/system/templates/logmanager.tpl:54
 #: www/system/templates/installer_form.tpl:40
 msgid "Next"
-msgstr "N&auml;chste"
+msgstr "Weiter"
 
-#. File www/client/rpc/class_RPClibrary.php:449
+#. File www/client/rpc/class_RPClibrary.php:451
 #.
-#: www/client/rpc/class_RPClibrary.php:449
+#: www/client/rpc/class_RPClibrary.php:451
 msgid "No artists were modified."
 msgstr ""
 
@@ -6293,15 +6541,6 @@ msgstr ""
 #: www/system/templates/account_ads_form.tpl:11
 msgid "No configuration is required."
 msgstr "Es ist keine Konfiguration notwendig."
-
-#. File www/system/templates/import_m3u_result.tpl:9
-#. Context: {if $badtracks|count==0}
-#. {="No errors occurred."}<br /><br />
-#. {else}
-#.
-#: www/system/templates/import_m3u_result.tpl:9
-msgid "No errors occurred."
-msgstr "Es sind keine Fehler aufgetreten."
 
 #. File www/system/templates/staffaccount_list.tpl:13
 #. Context: <td class="tdlast">
@@ -6335,6 +6574,15 @@ msgstr "Bisher wurden keine DJ Accounts angelegt"
 #.
 #: www/system/templates/livestats_nolisteners.tpl:2
 msgid "No listeners"
+msgstr "Keine Zuhörer"
+
+#. File www/system/templates/reportformat_list.tpl:15
+#. Context: <td class="tdlast">
+#. <img src="../system/images/icons/models/reportformat.png" align="absmiddle" /> {="No report types have been created"}.
+#. </td>
+#.
+#: www/system/templates/reportformat_list.tpl:15
+msgid "No report types have been created"
 msgstr ""
 
 #. File www/system/templates/account_reparent.tpl:7
@@ -6350,13 +6598,13 @@ msgstr ""
 #: www/system/templates/account_reparent.tpl:7
 #: www/system/templates/account_delete_confirm.tpl:16
 msgid "no reseller"
-msgstr ""
+msgstr "Keine Reseller"
 
 #. File www/client/rpc/class_RPClivestats.php:28
 #.
 #: www/client/rpc/class_RPClivestats.php:28
 msgid "No reverse DNS"
-msgstr ""
+msgstr "Keine Reverse-DNS verfügbar"
 
 #. File www/system/templates/streamstatus.tpl:24
 #. Context: line}up{else}down{/if}.png" />{/check}
@@ -6378,12 +6626,6 @@ msgstr ""
 #.
 #: www/system/templates/no_such_report.tpl:2
 msgid "No such track report was found."
-msgstr ""
-
-#. File www/client/rpc/class_RPClibrary.php:579
-#.
-#: www/client/rpc/class_RPClibrary.php:579
-msgid "No tracks were modified."
 msgstr ""
 
 #. File www/system/templates/upload_multiple.tpl:67
@@ -6424,13 +6666,13 @@ msgstr "Nein, immer zuende Spielen oder nach der Angegebenen Zeit stoppen."
 #.
 #. File www/client/rpc/class_RPCplaylist.php:42
 #.
-#. File www/client/modules/class_Module_importm3u.php:30
+#. File system/class_PlaylistFileImporter.php:68
 #.
 #: www/client/rpc/class_RPCplaylist.php:311
 #: www/client/rpc/class_RPCplaylist.php:162
 #: www/client/rpc/class_RPCplaylist.php:92
 #: www/client/rpc/class_RPCplaylist.php:42
-#: www/client/modules/class_Module_importm3u.php:30
+#: system/class_PlaylistFileImporter.php:68
 msgid "Not authorized to access playlist."
 msgstr "Der Zugriff auf diese Wiedergabeliste wurde verweigert"
 
@@ -6529,7 +6771,7 @@ msgstr ""
 msgid ""
 "Note that you will need to restart your server for the changes to take "
 "effect."
-msgstr ""
+msgstr "Vergessen Sie nicht Ihren Streamserver bei gelegenheit neu zu starten um die Einstellungen / Änderungen anzuwenden."
 
 #. File www/system/templates/configuration_client_source.tpl:85
 #. Context: <td colspan="4">
@@ -6596,9 +6838,9 @@ msgstr ""
 msgid "Notification E-mail configuration"
 msgstr ""
 
-#. File www/client/modules/class_Module_statistics.php:35
+#. File www/client/modules/class_Module_statistics.php:31
 #.
-#: www/client/modules/class_Module_statistics.php:35
+#: www/client/modules/class_Module_statistics.php:31
 msgid "November"
 msgstr "November"
 
@@ -6623,9 +6865,9 @@ msgstr "Jetzt l&auml;uft"
 msgid "Number of recent tracks"
 msgstr "Anzahl der neuen Titel"
 
-#. File www/client/modules/class_Module_statistics.php:35
+#. File www/client/modules/class_Module_statistics.php:31
 #.
-#: www/client/modules/class_Module_statistics.php:35
+#: www/client/modules/class_Module_statistics.php:31
 msgid "October"
 msgstr "Oktober"
 
@@ -6639,6 +6881,11 @@ msgid "on %s"
 msgstr "auf %s"
 
 #. File www/system/templates/djaccount_edit.tpl:29
+#. Context: {if $errors|count}
+#. {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error">*</span>).{/box}<br />
+#. {elseif $error}
+#.
+#. File www/system/templates/reportformat_edit.tpl:16
 #. Context: {if $errors|count}
 #. {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error">*</span>).{/box}<br />
 #. {elseif $error}
@@ -6663,7 +6910,7 @@ msgstr "auf %s"
 #. {box title="Update Failed"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error">*</span>).{/box}
 #. {elseif $error}
 #.
-#. File www/system/templates/admin_servertype_edit.tpl:3
+#. File www/system/templates/admin_region_form.tpl:4
 #. Context: {if $errors|count}
 #. {box title="Update Failed"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error">*</span>).{/box}
 #. {elseif $error}
@@ -6673,7 +6920,7 @@ msgstr "auf %s"
 #. {box title="Update Failed"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error">*</span>).{/box}
 #. {elseif $error}
 #.
-#. File www/system/templates/admin_region_form.tpl:4
+#. File www/system/templates/admin_servertype_edit.tpl:3
 #. Context: {if $errors|count}
 #. {box title="Update Failed"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error">*</span>).{/box}
 #. {elseif $error}
@@ -6684,13 +6931,14 @@ msgstr "auf %s"
 #. {elseif $error}
 #.
 #: www/system/templates/djaccount_edit.tpl:29
+#: www/system/templates/reportformat_edit.tpl:16
 #: www/system/templates/playlist_edit.tpl:79
 #: www/system/templates/staffaccount_edit.tpl:74
 #: www/system/templates/admin_newsarticle_edit.tpl:4
 #: www/system/templates/admin_sourcetype_edit.tpl:3
-#: www/system/templates/admin_servertype_edit.tpl:3
-#: www/system/templates/admin_rpchost_form.tpl:13
 #: www/system/templates/admin_region_form.tpl:4
+#: www/system/templates/admin_rpchost_form.tpl:13
+#: www/system/templates/admin_servertype_edit.tpl:3
 #: www/system/templates/admin_remoteserver_edit.tpl:4
 msgid ""
 "One or more issues were found with your submission.  Please correct the "
@@ -6699,12 +6947,12 @@ msgstr ""
 "Ein oder mehrere Fehler wurden gefunden. Bitte berichtigen Sie die mit Stern "
 "(*) markierten Felder"
 
-#. File www/system/templates/library.tpl:106
+#. File www/system/templates/library.tpl:108
 #. Context: lue="{="File Manager"}" onclick="window.location.href='index.php?page=filemanager'" />{/if}
 #. <input type="button" value="{="Options"}" id="pulldownmenu" onclick="window.cclibrary.show_menu(this)" />
 #. </div>
 #.
-#: www/system/templates/library.tpl:106
+#: www/system/templates/library.tpl:108
 msgid "Options"
 msgstr "Optionen"
 
@@ -6731,13 +6979,13 @@ msgstr "Übersicht für Host %s"
 msgid "Overview for host %s port %s"
 msgstr "Übersicht für Host %s an Port %s"
 
+#. File www/system/templates/playlist_list.tpl:60
+#. Context: <div style="text-align: center; margin-top: 5px">{="Page"}: {$_multipage.nav}</div>
+#.
 #. File www/system/templates/staffaccount_list.tpl:46
 #. Context: <div style="text-align: center; margin-top: 5px">{="Page"}: {$_multipage.nav}</div>
 #.
 #. File www/system/templates/djaccount_list.tpl:48
-#. Context: <div style="text-align: center; margin-top: 5px">{="Page"}: {$_multipage.nav}</div>
-#.
-#. File www/system/templates/playlist_list.tpl:60
 #. Context: <div style="text-align: center; margin-top: 5px">{="Page"}: {$_multipage.nav}</div>
 #.
 #. File www/system/templates/logs.tpl:50
@@ -6749,6 +6997,9 @@ msgstr "Übersicht für Host %s an Port %s"
 #. <select class="pagenav" id="pageselect" size="1"><option value="0">{="Page"} ...</option></select> &nbsp;
 #. <input class="pagenav" type="button" id="btn_next" value="{="Next"} &gt;" /> &nbsp;
 #.
+#. File www/system/templates/reportformat_list.tpl:43
+#. Context: <div style="text-align: center; margin-top: 5px">{="Page"}: {$_multipage.nav}</div>
+#.
 #. File www/system/templates/admin_accounts.tpl:99
 #. Context: <select class="accountpage" style="width: 40px">
 #. <optgroup label="{="Page"}:">
@@ -6759,10 +7010,11 @@ msgstr "Übersicht für Host %s an Port %s"
 #. <optgroup label="{="Page"}:">
 #. <option value="0">1</option>
 #.
+#: www/system/templates/playlist_list.tpl:60
 #: www/system/templates/staffaccount_list.tpl:46
-#: www/system/templates/djaccount_list.tpl:48
-#: www/system/templates/playlist_list.tpl:60 www/system/templates/logs.tpl:50
+#: www/system/templates/djaccount_list.tpl:48 www/system/templates/logs.tpl:50
 #: www/system/templates/logmanager.tpl:53
+#: www/system/templates/reportformat_list.tpl:43
 #: www/system/templates/admin_accounts.tpl:99
 #: www/system/templates/admin_accounts.tpl:181
 msgid "Page"
@@ -6847,12 +7099,12 @@ msgstr "Einfügen"
 #. <td class="rowodd" width="50%">{="Peak listeners"}:</td>
 #. <td class="rowodd historical_value" id="historical_listeners_peak">0</td>
 #.
-#. File www/system/templates/statistics_tracks.tpl:24
+#. File www/system/templates/statistics_tracks.tpl:19
 #. Context: <td class="rowodd">{="Peak listeners"}</td>
 #. <td class="rowodd" align="right" id="tracks_mostlisteners_listeners">{="%s listener(s)",$zero}</td>
 #.
 #: www/system/templates/statistics_historical.tpl:25
-#: www/system/templates/statistics_tracks.tpl:24
+#: www/system/templates/statistics_tracks.tpl:19
 msgid "Peak listeners"
 msgstr "Höchste Zuhöreranzahl"
 
@@ -6871,19 +7123,19 @@ msgstr "Höchste Zuhöreranzahl"
 msgid "Peak Period"
 msgstr "Längste Periode"
 
-#. File www/system/templates/statistics_tracks.tpl:38
+#. File www/system/templates/statistics_tracks.tpl:33
 #. Context: <td class="rowodd">{="Peak time"}</td>
 #. <td class="rowodd" align="right" id="tracks_mostlisteners_starttime">-</td>
 #.
-#: www/system/templates/statistics_tracks.tpl:38
+#: www/system/templates/statistics_tracks.tpl:33
 msgid "Peak time"
 msgstr "Längste Zeit"
 
-#. File www/system/templates/statistics_tracks.tpl:31
+#. File www/system/templates/statistics_tracks.tpl:26
 #. Context: <td class="roweven">{="Peak track"}</td>
 #. <td class="roweven" align="right" id="tracks_mostlisteners_name"></td>
 #.
-#: www/system/templates/statistics_tracks.tpl:31
+#: www/system/templates/statistics_tracks.tpl:26
 msgid "Peak track"
 msgstr ""
 
@@ -6919,7 +7171,20 @@ msgstr "Prozent (0-100)"
 msgid "Perform full library update"
 msgstr "F&uuml;hren Sie ein vollst&auml;ndiges Bibliotheksupdate durch"
 
-#. File www/system/templates/library.tpl:53
+#. File www/system/templates/reportformat_edit.tpl:32
+#. Context: aylist report"}</option>
+#. <option value="performance"{if $reportformat.reporttype=="performance"} selected="selected"{/if}>{="Performance report"}</option>
+#. </select>
+#.
+#. File www/system/templates/reportformat_list.tpl:32
+#. Context: _loop.lasttxt}">{if $reportformat.reporttype=="playlist"}{="Playlist report"}{elseif $reportformat.reporttype=="performance"}{="Performance report"}{else}{$reportformat.reporttype}{/if}</td>
+#.
+#: www/system/templates/reportformat_edit.tpl:32
+#: www/system/templates/reportformat_list.tpl:32
+msgid "Performance report"
+msgstr ""
+
+#. File www/system/templates/library.tpl:56
 #. Context: title: '{="Media Library Update"}',
 #. subtitle: '{="Performing manual update"}',
 #. complete: '{="Complete"}',
@@ -6929,7 +7194,7 @@ msgstr "F&uuml;hren Sie ein vollst&auml;ndiges Bibliotheksupdate durch"
 #. performing_manual_update: '{="Performing manual update"}',
 #. playlist_type_text: {
 #.
-#: www/system/templates/library.tpl:53 www/system/templates/library.tpl:21
+#: www/system/templates/library.tpl:56 www/system/templates/library.tpl:21
 msgid "Performing manual update"
 msgstr "Manuelles Update ausführen"
 
@@ -6967,19 +7232,13 @@ msgstr "Zeitraum vom"
 #. Context: <td width="70%" valign="top">
 #. <div style="text-align: center; font-weight: bold">{="Period Overview"}</div>
 #.
-#. File www/system/templates/statistics_tracks.tpl:10
+#. File www/system/templates/statistics_tracks.tpl:5
 #. Context: <div style="text-align: center; font-weight: bold">{="Period Overview"}</div>
 #.
 #: www/system/templates/statistics_listeners.tpl:23
-#: www/system/templates/statistics_tracks.tpl:10
+#: www/system/templates/statistics_tracks.tpl:5
 msgid "Period Overview"
 msgstr "Zeitraum Übersicht"
-
-#. File www/client/modules/class_Module_statistics.php:80
-#.
-#: www/client/modules/class_Module_statistics.php:80
-msgid "Period Summary"
-msgstr "Zeitraum Zusammenfassung"
 
 #. File www/system/templates/statistics_historical.tpl:91
 #. Context: <tr>
@@ -7197,12 +7456,12 @@ msgstr "Wiedergabestil"
 msgid "Playback weight"
 msgstr "Wiedergabe - Gewichtung"
 
-#. File www/system/templates/statistics_tracks.tpl:105
+#. File www/system/templates/statistics_tracks.tpl:100
 #. Context: <th>{="Track"}</th>
 #. <th style="text-align: right" width="200">{="Playbacks"}</th>
 #. </tr>
 #.
-#: www/system/templates/statistics_tracks.tpl:105
+#: www/system/templates/statistics_tracks.tpl:100
 msgid "Playbacks"
 msgstr "Playbacks"
 
@@ -7274,6 +7533,20 @@ msgstr "Playlisten"
 #: www/client/modules/class_Module_playlists.php:21
 msgid "Playlist Management"
 msgstr "Playlisten Verwaltung"
+
+#. File www/system/templates/reportformat_edit.tpl:31
+#. Context: pe]" id="reporttype" size="1">
+#. <option value="playlist"{if $reportformat.reporttype=="playlist"} selected="selected"{/if}>{="Playlist report"}</option>
+#. <option value="performance"{if $reportformat.reporttype=="performance"} selected="selected"{/if}>{="Performance r
+#.
+#. File www/system/templates/reportformat_list.tpl:32
+#. Context: rmal">{$reportformat.title}</a></td>
+#. <td class="row{$_loop.oetxt}{$_loop.lasttxt}">{if $reportformat.reporttype=="playlist"}{="Playlist report"}{elseif $reportformat.reporttype=="performance"}{="Performance report"}{else}{$reportformat.reporttype}{/if}</td>
+#.
+#: www/system/templates/reportformat_edit.tpl:31
+#: www/system/templates/reportformat_list.tpl:32
+msgid "Playlist report"
+msgstr ""
 
 #. File www/system/templates/playlist_update.tpl:3
 #. Context: {check $saved}
@@ -7353,7 +7626,7 @@ msgstr ""
 #. <div class="upload_file_details">{="Please wait"} ...</div>
 #. </div>
 #.
-#. File www/system/templates/library.tpl:179
+#. File www/system/templates/library.tpl:181
 #. Context: <span id="panelloading_save">{="Saving, please wait"} ...</span><br />
 #. <img src="../system/images/loading.gif" alt="{="Please wait"}" />
 #. </div>
@@ -7364,7 +7637,7 @@ msgstr ""
 #. complete: '{="Complete"}',
 #.
 #: www/system/templates/upload_single.tpl:45
-#: www/system/templates/library.tpl:179
+#: www/system/templates/library.tpl:181
 #: www/system/templates/admin_utilities.tpl:5
 msgid "Please wait"
 msgstr "Bitte warten"
@@ -7462,12 +7735,12 @@ msgstr "Zurück"
 msgid "Preview"
 msgstr "Vorschau"
 
-#. File www/system/templates/library.tpl:133
+#. File www/system/templates/library.tpl:135
 #. Context: <div style="float: right">
 #. <input disabled="disabled" type="button" id="btn_preview" name="preview" value="{="Preview track(s)"}" onmouseup="return window.cclibrary.tracks.preview()" />
 #. </div>
 #.
-#: www/system/templates/library.tpl:133
+#: www/system/templates/library.tpl:135
 msgid "Preview track(s)"
 msgstr "Vorh&ouml;ren"
 
@@ -7642,11 +7915,11 @@ msgstr "Erzeugt eine Echtzeit Geographische Karte mit ihren Zuhörern"
 msgid "Purchase URL"
 msgstr "Album Kaufen URL"
 
-#. File www/system/templates/library.tpl:47
+#. File www/system/templates/library.tpl:50
 #. Context: manual_library_update: '{="Manual library update"}',
 #. purge_library_update: '{="Purge library and update"}',
 #.
-#: www/system/templates/library.tpl:47
+#: www/system/templates/library.tpl:50
 msgid "Purge library and update"
 msgstr "Lösche Bibliothek und Update"
 
@@ -7776,9 +8049,9 @@ msgstr ""
 msgid "Recalculating your disk usage, please wait ..."
 msgstr ""
 
-#. File www/client/modules/class_Module_statistics.php:79
+#. File www/client/modules/class_Module_statistics.php:61
 #.
-#: www/client/modules/class_Module_statistics.php:79
+#: www/client/modules/class_Module_statistics.php:61
 msgid "Recent Activity"
 msgstr "Letzte Aktivitäten"
 
@@ -7834,7 +8107,7 @@ msgstr ""
 msgid "reloaded"
 msgstr "neu geladen"
 
-#. File www/system/templates/library.tpl:162
+#. File www/system/templates/library.tpl:164
 #. Context: &nbsp;&nbsp;&nbsp;&nbsp;
 #. <input disabled="disabled" type="button" id="btn_remove" name="remove" value="{="Remove"}" />
 #. &nbsp;&nbsp;
@@ -7857,13 +8130,22 @@ msgstr "neu geladen"
 #. Context: <input type="button" id="mountpoints_new" value="{="Create new"}" />
 #. <input type="button" id="mountpoints_remove" value="{="Remove"}" />
 #.
-#: www/system/templates/library.tpl:162
+#: www/system/templates/library.tpl:164
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:53
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:45
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:28
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:24
 msgid "Remove"
 msgstr "Entfernen"
+
+#. File www/system/templates/import_m3u.tpl:32
+#. Context: <option value="0">{="Leave any existing (non-duplicate) tracks in target playlist"}</option>
+#. <option value="1">{="Remove any existing (non-duplicate) tracks in target playlist"}</option>
+#. </select>
+#.
+#: www/system/templates/import_m3u.tpl:32
+msgid "Remove any existing (non-duplicate) tracks in target playlist"
+msgstr ""
 
 #. File www/system/templates/library.tpl:33
 #. Context: edit_album: '{="Edit album details"}',
@@ -7933,14 +8215,6 @@ msgstr "Künstler umbennen"
 msgid "Rename file"
 msgstr "Datei umbennen"
 
-#. File www/system/templates/library.tpl:40
-#. Context: edit_track: '{="Rename track"}',
-#. track_name: '{="Track name"}',
-#.
-#: www/system/templates/library.tpl:40
-msgid "Rename track"
-msgstr "Titel umbennen"
-
 #. File www/system/templates/filemanager.tpl:27
 #. Context: rename_same: '{="New filename is identical to old filename, no changes made."}',
 #. renaming_file: '{="Renaming file"}',
@@ -7999,24 +8273,51 @@ msgstr "Wiederholung ein"
 msgid "Repeat schedule"
 msgstr ""
 
+#. File www/system/templates/reportformat_edit.tpl:39
+#. Context: {box title="Report Columns" class="reportcolumns"}
+#.
+#: www/system/templates/reportformat_edit.tpl:39
+msgid "Report Columns"
+msgstr ""
+
+#. File www/system/templates/reportformat_list.tpl:6
+#. Context: </div>
+#. <img src="../system/images/icons/models/reportformat.png" align="absmiddle" /> {="Report Formats"}<br />
+#. </div>
+#.
+#: www/system/templates/reportformat_list.tpl:6
+msgid "Report Formats"
+msgstr ""
+
+#. File www/system/templates/reportformat_edit.tpl:21
+#. Context: {box title="Report Settings"}
+#. <table cellspacing="1" cellpadding="1" border="0">
+#.
+#: www/system/templates/reportformat_edit.tpl:21
+msgid "Report Settings"
+msgstr ""
+
+#. File www/client/modules/class_Module_reportdownloads.php:17
+#.
 #. File www/client/modules/class_Module_logs.php:10
 #.
-#. File www/client/modules/class_Module_statistics.php:22
+#. File www/client/modules/class_Module_statistics.php:18
 #.
 #. File www/client/modules/class_Module_livestats.php:12
 #.
+#: www/client/modules/class_Module_reportdownloads.php:17
 #: www/client/modules/class_Module_logs.php:10
-#: www/client/modules/class_Module_statistics.php:22
+#: www/client/modules/class_Module_statistics.php:18
 #: www/client/modules/class_Module_livestats.php:12
 msgid "Reports and charts to monitor your stream activity"
 msgstr "Berichtsdaten / Charts zu Ihren Streamserver"
 
-#. File www/system/templates/statistics_tracks.tpl:155
+#. File www/system/templates/statistics_downloads.tpl:30
 #. Context: provide the track name, air time, and number of listeners for each track broadcasted during the reporting period."}<br />
 #. {="Reports are generated in CSV format on the first of each month, and may be useful for licensing/royalty reporting."}
 #. {/box}
 #.
-#: www/system/templates/statistics_tracks.tpl:155
+#: www/system/templates/statistics_downloads.tpl:30
 msgid ""
 "Reports are generated in CSV format on the first of each month, and may be "
 "useful for licensing/royalty reporting."
@@ -8066,10 +8367,10 @@ msgstr ""
 
 #. File www/client/modules/class_Module_confeditor.php:75
 #.
-#. File system/class_ServerControl.php:2538
+#. File system/class_ServerControl.php:2545
 #.
 #: www/client/modules/class_Module_confeditor.php:75
-#: system/class_ServerControl.php:2538
+#: system/class_ServerControl.php:2545
 msgid "reseller"
 msgstr ""
 
@@ -8126,11 +8427,19 @@ msgstr "neu gestartet"
 msgid "Retrieving current song..."
 msgstr "Empfange aktuellen Titel..."
 
-#. File www/system/templates/invalid_account.tpl:4
+#. File www/system/templates/reportformat_update.tpl:9
+#. Context: <a href="index.php?page=reportdownloads">{="Return"}</a>
+#. {/box}
+#.
+#. File www/system/templates/account_renamed.tpl:9
 #. Context: <a href="index.php?page=accounts">{="Return"}</a>
 #. {/box}
 #.
-#. File www/system/templates/status_updated.tpl:9
+#. File www/system/templates/not_running.tpl:4
+#. Context: <a href="index.php">{="Return"}</a>
+#. {/box}
+#.
+#. File www/system/templates/account_deleted.tpl:9
 #. Context: <a href="index.php?page=accounts">{="Return"}</a>
 #. {/box}
 #.
@@ -8138,7 +8447,15 @@ msgstr "Empfange aktuellen Titel..."
 #. Context: <a href="index.php?page=playlists">{="Return"}</a>
 #. {/box}
 #.
-#. File www/system/templates/account_renamed.tpl:9
+#. File www/system/templates/status_updated.tpl:9
+#. Context: <a href="index.php?page=accounts">{="Return"}</a>
+#. {/box}
+#.
+#. File www/system/templates/filemanager.tpl:75
+#. Context: <div id="options" class="statuscontents">
+#. <input type="button" onclick="window.location = 'index.php'" value="{="Return"}" /> &nbsp;&nbsp;&nbsp; &nbsp;
+#.
+#. File www/system/templates/account_created.tpl:10
 #. Context: <a href="index.php?page=accounts">{="Return"}</a>
 #. {/box}
 #.
@@ -8146,27 +8463,7 @@ msgstr "Empfange aktuellen Titel..."
 #. Context: <a href="{$indexself}">{="Return"}</a>
 #. {/box}
 #.
-#. File www/system/templates/account_created.tpl:10
-#. Context: <a href="index.php?page=accounts">{="Return"}</a>
-#. {/box}
-#.
-#. File www/system/templates/already_running.tpl:4
-#. Context: <a href="{$indexself}">{="Return"}</a>
-#. {/box}
-#.
-#. File www/system/templates/not_running.tpl:4
-#. Context: <a href="index.php">{="Return"}</a>
-#. {/box}
-#.
-#. File www/system/templates/filemanager.tpl:75
-#. Context: <div id="options" class="statuscontents">
-#. <input type="button" onclick="window.location = 'index.php'" value="{="Return"}" /> &nbsp;&nbsp;&nbsp; &nbsp;
-#.
-#. File www/system/templates/error.tpl:4
-#. Context: <a href="index.php?page=accounts">{="Return"}</a>
-#. {/box}
-#.
-#. File www/system/templates/account_deleted.tpl:9
+#. File www/system/templates/invalid_account.tpl:4
 #. Context: <a href="index.php?page=accounts">{="Return"}</a>
 #. {/box}
 #.
@@ -8178,48 +8475,56 @@ msgstr "Empfange aktuellen Titel..."
 #. Context: gure{elseif $privileged}index.php?page=accounts&action=edit&username={$account.username}{else}index.php?page=configure{/if}">{="Return"}</a>
 #. {/box}
 #.
-#. File www/system/templates/account_template_updated.tpl:4
-#. Context: <a href="index.php?page=accounttemplates">{="Return"}</a>
-#. {/box}
-#.
-#. File www/system/templates/library.tpl:155
-#. Context: </div>
+#. File www/system/templates/library.tpl:147
+#. Context: <div>
 #. <input type="button" value="{="Return"}" onclick="window.location='index.php'" /> &nbsp;&nbsp;&nbsp;&nbsp;
+#. </div>
 #.
-#. File www/system/templates/library.tpl:136
+#. File www/system/templates/library.tpl:138
 #. Context: <div>
 #. <input type="button" value="{="Return"}" onclick="window.location='index.php'" /> &nbsp;&nbsp;&nbsp;&nbsp;
 #. <input type="button" value="{="Manage playlists"}" on
-#.
-#. File www/system/templates/djaccount_update.tpl:9
-#. Context: <a href="index.php?page=djaccounts">{="Return"}</a>
-#. {/box}
-#.
-#. File www/system/templates/logmanager.tpl:57
-#. Context: <input type="button" onclick="window.location = 'index.php'" value="{="Return"}" /> &nbsp;&nbsp;&nbsp;&nbsp;
-#.
-#. File www/system/templates/no_such_report.tpl:4
-#. Context: <a href="index.php">{="Return"}</a>
-#. {/box}
 #.
 #. File www/system/templates/importmedia.tpl:54
 #. Context: </div>
 #. <input type="submit" value="{="Return"}" />
 #. </form>
 #.
+#. File www/system/templates/no_such_report.tpl:4
+#. Context: <a href="index.php">{="Return"}</a>
+#. {/box}
+#.
+#. File www/system/templates/library.tpl:157
+#. Context: </div>
+#. <input type="button" value="{="Return"}" onclick="window.location='index.php'" /> &nbsp;&nbsp;&nbsp;&nbsp;
+#.
+#. File www/system/templates/account_template_updated.tpl:4
+#. Context: <a href="index.php?page=accounttemplates">{="Return"}</a>
+#. {/box}
+#.
 #. File www/system/templates/account_template_created.tpl:5
 #. Context: <a href="index.php?page=accounttemplates">{="Return"}</a>
 #. {/box}
 #.
-#. File www/system/templates/library.tpl:145
-#. Context: <div>
-#. <input type="button" value="{="Return"}" onclick="window.location='index.php'" /> &nbsp;&nbsp;&nbsp;&nbsp;
-#. </div>
+#. File www/system/templates/logmanager.tpl:57
+#. Context: <input type="button" onclick="window.location = 'index.php'" value="{="Return"}" /> &nbsp;&nbsp;&nbsp;&nbsp;
 #.
-#. File www/system/templates/admin_ads_test.tpl:53
-#. Context: <a href="index.php?page=settings">{="Return"}</a>
+#. File www/system/templates/djaccount_update.tpl:9
+#. Context: <a href="index.php?page=djaccounts">{="Return"}</a>
+#. {/box}
+#.
+#. File www/system/templates/already_running.tpl:4
+#. Context: <a href="{$indexself}">{="Return"}</a>
+#. {/box}
+#.
+#. File www/system/templates/error.tpl:4
+#. Context: <a href="index.php?page=accounts">{="Return"}</a>
+#. {/box}
 #.
 #. File www/system/templates/admin_smtp_test.tpl:23
+#. Context: <a href="index.php?page=settings">{="Return"}</a>
+#.
+#. File www/system/templates/admin_ads_test.tpl:53
 #. Context: <a href="index.php?page=settings">{="Return"}</a>
 #.
 #. File www/system/templates/admin_setuid_failed.tpl:4
@@ -8229,28 +8534,29 @@ msgstr "Empfange aktuellen Titel..."
 #. File www/system/templates/admin_license_test.tpl:25
 #. Context: <a href="index.php?page=settings">{="Return"}</a>
 #.
-#: www/system/templates/invalid_account.tpl:4
-#: www/system/templates/status_updated.tpl:9
-#: www/system/templates/playlist_update.tpl:9
+#: www/system/templates/reportformat_update.tpl:9
 #: www/system/templates/account_renamed.tpl:9
-#: www/system/templates/state_changed.tpl:10
-#: www/system/templates/account_created.tpl:10
-#: www/system/templates/already_running.tpl:4
 #: www/system/templates/not_running.tpl:4
-#: www/system/templates/filemanager.tpl:75 www/system/templates/error.tpl:4
 #: www/system/templates/account_deleted.tpl:9
+#: www/system/templates/playlist_update.tpl:9
+#: www/system/templates/status_updated.tpl:9
+#: www/system/templates/filemanager.tpl:75
+#: www/system/templates/account_created.tpl:10
+#: www/system/templates/state_changed.tpl:10
+#: www/system/templates/invalid_account.tpl:4
 #: www/system/templates/staffaccount_update.tpl:9
 #: www/system/templates/account_updated.tpl:17
-#: www/system/templates/account_template_updated.tpl:4
-#: www/system/templates/library.tpl:155 www/system/templates/library.tpl:136
-#: www/system/templates/djaccount_update.tpl:9
-#: www/system/templates/logmanager.tpl:57
-#: www/system/templates/no_such_report.tpl:4
+#: www/system/templates/library.tpl:147 www/system/templates/library.tpl:138
 #: www/system/templates/importmedia.tpl:54
+#: www/system/templates/no_such_report.tpl:4
+#: www/system/templates/library.tpl:157
+#: www/system/templates/account_template_updated.tpl:4
 #: www/system/templates/account_template_created.tpl:5
-#: www/system/templates/library.tpl:145
-#: www/system/templates/admin_ads_test.tpl:53
+#: www/system/templates/logmanager.tpl:57
+#: www/system/templates/djaccount_update.tpl:9
+#: www/system/templates/already_running.tpl:4 www/system/templates/error.tpl:4
 #: www/system/templates/admin_smtp_test.tpl:23
+#: www/system/templates/admin_ads_test.tpl:53
 #: www/system/templates/admin_setuid_failed.tpl:4
 #: www/system/templates/admin_license_test.tpl:25
 msgid "Return"
@@ -8264,21 +8570,21 @@ msgstr "Zur&uuml;ck"
 msgid "Return to control server"
 msgstr ""
 
-#. File www/system/templates/import_m3u_result.tpl:21
-#. Context: <input type="hidden" name="page" value="library" />
-#. <input type="submit" value="{="Return to media library"}" />
-#. </form>
+#. File www/system/templates/import_m3u_result.tpl:28
+#. Context: other playlist"}</a><br />
+#. <img src="/system/images/icons/return.png" align="absmiddle" /> <a href="index.php?page=library">{="Return to media library"}</a>
+#. {/box}
 #.
-#: www/system/templates/import_m3u_result.tpl:21
+#: www/system/templates/import_m3u_result.tpl:28
 msgid "Return to media library"
 msgstr ""
 
-#. File www/system/templates/library.tpl:153
+#. File www/system/templates/library.tpl:155
 #. Context: type="button" id="btn_save" name="save" value="{="Save"}" />
 #. <input type="button" id="btn_revert" name="revert" value="{="Revert"}" />
 #. </div>
 #.
-#: www/system/templates/library.tpl:153
+#: www/system/templates/library.tpl:155
 msgid "Revert"
 msgstr ""
 
@@ -8367,9 +8673,9 @@ msgstr ""
 msgid "Sample rate"
 msgstr "Samplingrate"
 
-#. File www/client/modules/class_Module_statistics.php:38
+#. File www/client/modules/class_Module_statistics.php:34
 #.
-#: www/client/modules/class_Module_statistics.php:38
+#: www/client/modules/class_Module_statistics.php:34
 msgid "Saturday"
 msgstr "Samstag"
 
@@ -8377,32 +8683,31 @@ msgstr "Samstag"
 #. Context: {box title="Save"}
 #. <input type="submit" name="update" value="{="Save"}" />
 #.
-#. File www/system/templates/staffaccount_edit.tpl:162
-#. Context: {/box}
-#. {box title="Save"}
-#. <input type="submit" name="update" value="{="Save"}" />
+#. File www/system/templates/reportformat_edit.tpl:59
+#. Context: {box title="Save"}
+#. <input type="hidden" name="reportformat[columns]" id="reportcolumns" value="{$reportformat.columns|htmlentities}" />
 #.
 #. File www/system/templates/playlist.tpl:16
 #. Context: <input type="submit" name="save" value="{="Save"}" style="width: 50px"/>
 #. <input type="submit" name="cancel" value="{="Discard"}" style="width: 50px" onclick="return confirm
 #.
-#. File www/system/templates/library.tpl:152
+#. File www/system/templates/staffaccount_edit.tpl:162
+#. Context: {/box}
+#. {box title="Save"}
+#. <input type="submit" name="update" value="{="Save"}" />
+#.
+#. File www/system/templates/staffaccount_edit.tpl:163
+#. Context: {box title="Save"}
+#. <input type="submit" name="update" value="{="Save"}" />
+#. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
+#.
+#. File www/system/templates/library.tpl:154
 #. Context: id='tracktime'>00:00:00</span>","<span id='trackcount'>0</span>"}
 #. <input type="button" id="btn_save" name="save" value="{="Save"}" />
 #. <input type="button" id="btn_revert" name="revert" value="{="Revert"}" />
 #.
-#. File www/system/templates/playlist_edit.tpl:332
-#. Context: {box title="Save"}
-#. <input type="submit" name="update" value="{="Save"}" />
-#. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
-#.
-#. File www/system/templates/djaccount_edit.tpl:153
-#. Context: {box title="Save"}
-#. <input type="submit" name="update" value="{="Save"}" />
-#. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
-#.
-#. File www/system/templates/staffaccount_edit.tpl:163
-#. Context: {box title="Save"}
+#. File www/system/templates/reportformat_edit.tpl:61
+#. Context: rmat[columns]" id="reportcolumns" value="{$reportformat.columns|htmlentities}" />
 #. <input type="submit" name="update" value="{="Save"}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
 #.
@@ -8411,15 +8716,22 @@ msgstr "Samstag"
 #. {box title="Save"}
 #. <input type="submit" name="update" value="{="Save"}" />
 #.
+#. File www/system/templates/library.tpl:43
+#. Context: comments: '{="Comments"}',
+#. save: '{="Save"}',
+#. cancel: '{="Cancel"}',
+#.
+#. File www/system/templates/djaccount_edit.tpl:153
+#. Context: {box title="Save"}
+#. <input type="submit" name="update" value="{="Save"}" />
+#. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
+#.
+#. File www/system/templates/playlist_edit.tpl:332
+#. Context: {box title="Save"}
+#. <input type="submit" name="update" value="{="Save"}" />
+#. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
+#.
 #. File www/system/templates/admin_newsarticle_edit.tpl:60
-#. Context: <input type="submit" name="update" value="{="Save"}" />
-#. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
-#.
-#. File www/system/templates/admin_sourcetype_edit.tpl:37
-#. Context: <input type="submit" name="update" value="{="Save"}" />
-#. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
-#.
-#. File www/system/templates/admin_region_form.tpl:11
 #. Context: <input type="submit" name="update" value="{="Save"}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
 #.
@@ -8427,27 +8739,39 @@ msgstr "Samstag"
 #. Context: <input type="submit" name="update" value="{="Save"}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
 #.
-#. File www/system/templates/admin_servertype_edit.tpl:37
-#. Context: <input type="submit" name="update" value="{="Save"}" />
-#. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
-#.
 #. File www/system/templates/admin_remoteserver_edit.tpl:39
 #. Context: <input type="submit" name="update" value="{="Save"}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
 #.
+#. File www/system/templates/admin_region_form.tpl:11
+#. Context: <input type="submit" name="update" value="{="Save"}" />
+#. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
+#.
+#. File www/system/templates/admin_servertype_edit.tpl:37
+#. Context: <input type="submit" name="update" value="{="Save"}" />
+#. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
+#.
+#. File www/system/templates/admin_sourcetype_edit.tpl:37
+#. Context: <input type="submit" name="update" value="{="Save"}" />
+#. <input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
+#.
 #: www/system/templates/djaccount_edit.tpl:152
+#: www/system/templates/reportformat_edit.tpl:59
+#: www/system/templates/playlist.tpl:16
 #: www/system/templates/staffaccount_edit.tpl:162
-#: www/system/templates/playlist.tpl:16 www/system/templates/library.tpl:152
-#: www/system/templates/playlist_edit.tpl:332
-#: www/system/templates/djaccount_edit.tpl:153
 #: www/system/templates/staffaccount_edit.tpl:163
+#: www/system/templates/library.tpl:154
+#: www/system/templates/reportformat_edit.tpl:61
 #: www/system/templates/playlist_edit.tpl:331
+#: www/system/templates/library.tpl:43
+#: www/system/templates/djaccount_edit.tpl:153
+#: www/system/templates/playlist_edit.tpl:332
 #: www/system/templates/admin_newsarticle_edit.tpl:60
-#: www/system/templates/admin_sourcetype_edit.tpl:37
-#: www/system/templates/admin_region_form.tpl:11
 #: www/system/templates/admin_rpchost_form.tpl:20
-#: www/system/templates/admin_servertype_edit.tpl:37
 #: www/system/templates/admin_remoteserver_edit.tpl:39
+#: www/system/templates/admin_region_form.tpl:11
+#: www/system/templates/admin_servertype_edit.tpl:37
+#: www/system/templates/admin_sourcetype_edit.tpl:37
 msgid "Save"
 msgstr "Speichern"
 
@@ -8460,12 +8784,12 @@ msgstr "Speichern"
 msgid "Save changes"
 msgstr ""
 
-#. File www/system/templates/library.tpl:178
+#. File www/system/templates/library.tpl:180
 #. Context: <span id="panelloading_load">{="Loading"} ...</span>
 #. <span id="panelloading_save">{="Saving, please wait"} ...</span><br />
 #. <img src="../system/images/loading.gif" alt="{="Please wait"}" />
 #.
-#: www/system/templates/library.tpl:178
+#: www/system/templates/library.tpl:180
 msgid "Saving, please wait"
 msgstr ""
 
@@ -8473,7 +8797,7 @@ msgstr ""
 #.
 #: www/client/modules/class_Module_playlists.php:22
 msgid "Schedule media for playback"
-msgstr ""
+msgstr "Planen Sie Ihr Programm"
 
 #. File www/system/templates/playlist_list.tpl:36
 #. Context: {if $playlist.type=="general"}{="General Rotation"}
@@ -8561,7 +8885,7 @@ msgstr ""
 "im MP3 Format senden möchten.%sIhr Streamserver wird nicht starten, bis Sie "
 "in den Einstellungen eine Lizenz hinterlegt haben."
 
-#. File www/system/templates/library.tpl:123
+#. File www/system/templates/library.tpl:125
 #. Context: <input type="button" value="{="Search"}" onclick="window.cclibrary.search()" />
 #. </div>
 #.
@@ -8573,7 +8897,7 @@ msgstr ""
 #. File www/system/templates/admin_accounts.tpl:93
 #. Context: <li class="boxsearch buttonbar_box"><div><input id="accountsearch" type="text" value="{="Search"} ..." /></div></li>
 #.
-#: www/system/templates/library.tpl:123
+#: www/system/templates/library.tpl:125
 #: www/system/templates/configfile_editor.tpl:39
 #: www/system/templates/admin_accounts.tpl:93
 msgid "Search"
@@ -8713,6 +9037,15 @@ msgstr ""
 "Wiedergabelisten mit höherer Priorität spielen häufiger als Lieder in den "
 "Wiedergabelisten mit niedrigerer Priorität."
 
+#. File www/system/templates/import_m3u.tpl:5
+#. Context: {="Select an M3U playlist file to upload below.  Imported tracks will be added to the selected target playlist."}<br /><br />
+#.
+#: www/system/templates/import_m3u.tpl:5
+msgid ""
+"Select an M3U playlist file to upload below.  Imported tracks will be added "
+"to the selected target playlist."
+msgstr ""
+
 #. File www/system/templates/new_account_form.tpl:100
 #. Context: <select id="newacct_source" name="sourcetype">
 #. <option value="">{="Select autoDJ type..."}</option>
@@ -8785,9 +9118,9 @@ msgstr "Wähle aus Vorlage..."
 msgid "Sender E-mail address"
 msgstr "Absender E-Mail Adresse"
 
-#. File www/client/modules/class_Module_statistics.php:34
+#. File www/client/modules/class_Module_statistics.php:30
 #.
-#: www/client/modules/class_Module_statistics.php:34
+#: www/client/modules/class_Module_statistics.php:30
 msgid "September"
 msgstr "September"
 
@@ -9179,11 +9512,11 @@ msgstr ""
 msgid "Show"
 msgstr "Zeige"
 
-#. File www/system/templates/library.tpl:43
+#. File www/system/templates/library.tpl:46
 #. Context: show_album_covers: '{="Show album covers"}',
 #. import_m3u: '{="Import M3U playlist"}',
 #.
-#: www/system/templates/library.tpl:43
+#: www/system/templates/library.tpl:46
 msgid "Show album covers"
 msgstr "Zeige Albumcover"
 
@@ -9196,12 +9529,12 @@ msgstr "Zeige Albumcover"
 msgid "Single sign-on login active"
 msgstr "Einzelanmeldung aktiv"
 
-#. File www/system/templates/statistics_tracks.tpl:144
+#. File www/system/templates/statistics_downloads.tpl:19
 #. Context: <th>{="Report"}</th>
 #. <th style="text-align: right" width="200">{="Size"}</th>
 #. <th style="text-align: center" width="70">{="Download"}</th>
 #.
-#: www/system/templates/statistics_tracks.tpl:144
+#: www/system/templates/statistics_downloads.tpl:19
 msgid "Size"
 msgstr "Größe"
 
@@ -9226,6 +9559,15 @@ msgstr "Überspringe den Aktuellen Titel und starte den nächsten"
 #: www/system/templates/autodj_control.tpl:12
 msgid "Skip this song."
 msgstr "Musiktitel überspringen"
+
+#. File www/system/templates/import_m3u.tpl:23
+#. Context: <option value="0">{="Add duplicate tracks to target playlist"}</option>
+#. <option value="1">{="Skip tracks that already exist in target playlist"}</option>
+#. </select>
+#.
+#: www/system/templates/import_m3u.tpl:23
+msgid "Skip tracks that already exist in target playlist"
+msgstr ""
 
 #. File www/system/templates/configuration_client_widgets.tpl:44
 #. Context: <fieldset>
@@ -9273,6 +9615,15 @@ msgstr ""
 #: www/system/templates/playlist_edit.tpl:311
 msgid "Songs"
 msgstr "Titel"
+
+#. File www/system/templates/reportformat_update.tpl:5
+#. Context: {otherwise}
+#. {="Sorry, an error occurred while attempting to update this custom report"}: {$error}
+#. {/check}
+#.
+#: www/system/templates/reportformat_update.tpl:5
+msgid "Sorry, an error occurred while attempting to update this custom report"
+msgstr ""
 
 #. File www/system/templates/djaccount_update.tpl:5
 #. Context: {otherwise}
@@ -9720,9 +10071,9 @@ msgstr "Streamserver Zusammenfassung"
 msgid "Stream title"
 msgstr "Streamserver Titel"
 
-#. File www/client/modules/class_Module_statistics.php:38
+#. File www/client/modules/class_Module_statistics.php:34
 #.
-#: www/client/modules/class_Module_statistics.php:38
+#: www/client/modules/class_Module_statistics.php:34
 msgid "Sunday"
 msgstr "Sonntag"
 
@@ -9743,6 +10094,15 @@ msgstr ""
 #: www/system/templates/topbar.tpl:4
 msgid "Support"
 msgstr "Support"
+
+#. File www/system/templates/import_m3u.tpl:9
+#. Context: <tr>
+#. <td width="150">{="Target playlist"}:&nbsp;</td>
+#. <td><strong>{$playlist.title}</strong></td>
+#.
+#: www/system/templates/import_m3u.tpl:9
+msgid "Target playlist"
+msgstr ""
 
 #. File www/system/templates/new_account_form.tpl:44
 #. Context: <tr id="newacct_templaterow">
@@ -9945,12 +10305,12 @@ msgstr ""
 msgid "There are currently no listeners tuned-in to your stream."
 msgstr ""
 
-#. File www/system/templates/statistics_tracks.tpl:154
+#. File www/system/templates/statistics_downloads.tpl:29
 #. Context: {box}
 #. {="These reports provide the track name, air time, and number of listeners for each track broadcasted during the reporting period."}<br />
 #. {="Reports are generated in CSV format on the first of each month, and may be useful for licensing/royalty reporting.
 #.
-#: www/system/templates/statistics_tracks.tpl:154
+#: www/system/templates/statistics_downloads.tpl:29
 msgid ""
 "These reports provide the track name, air time, and number of listeners for "
 "each track broadcasted during the reporting period."
@@ -10052,10 +10412,10 @@ msgstr ""
 #. Context: {box title="Already running"}
 #. {="This server is already running."}<br /><br />
 #.
-#. File system/class_ServerControl.php:846
+#. File system/class_ServerControl.php:848
 #.
 #: www/system/templates/already_running.tpl:2
-#: system/class_ServerControl.php:846
+#: system/class_ServerControl.php:848
 msgid "This server is already running."
 msgstr "Der Server l&auml;uft bereits."
 
@@ -10063,9 +10423,9 @@ msgstr "Der Server l&auml;uft bereits."
 #. Context: {box title="Not running"}
 #. {="This server is not running."}<br /><br />
 #.
-#. File system/class_ServerControl.php:1312
+#. File system/class_ServerControl.php:1314
 #.
-#: www/system/templates/not_running.tpl:2 system/class_ServerControl.php:1312
+#: www/system/templates/not_running.tpl:2 system/class_ServerControl.php:1314
 msgid "This server is not running."
 msgstr "Der Server l&auml;uft nicht."
 
@@ -10174,16 +10534,16 @@ msgid ""
 msgstr ""
 "Dieses Widget stellt verschiedene Playerlinks für Ihren Streamserver bereit."
 
-#. File www/system/templates/library.tpl:49
+#. File www/system/templates/library.tpl:52
 #. Context: full_reindex_confirm: '{="This will purge all media information from your library and re-import all of your tracks.  Any customizations you may have made, including custom covers, artist/album/track names, and related data will be lost.  If you have a large media library, this may take a very long time.  Proceed?"}',
 #.
-#: www/system/templates/library.tpl:49
+#: www/system/templates/library.tpl:52
 msgid ""
 "This will purge all media information from your library and re-import all of "
 "your tracks.  Any customizations you may have made, including custom covers, "
 "artist/album/track names, and related data will be lost.  If you have a "
 "large media library, this may take a very long time.  Proceed?"
-msgstr ""
+msgstr "Diese Aktion wird alle Ihre Benutzerdefinierten Einstellungen löschen. Cover / Artists / Album und benutzerdefinierte titelnamen welche Sie über das Centova Interface gesetzt haben, gehen unwiederruflich verloren. Je nach größe Ihrer Musikbibliothek, dann dieser Vorgang einige Zeit dauern."
 
 #. File www/system/templates/playlist.tpl:12
 #. Context: {$playlistid}" />
@@ -10196,9 +10556,9 @@ msgid ""
 "the full editor, or Cancel to return."
 msgstr ""
 
-#. File www/client/modules/class_Module_statistics.php:38
+#. File www/client/modules/class_Module_statistics.php:34
 #.
-#: www/client/modules/class_Module_statistics.php:38
+#: www/client/modules/class_Module_statistics.php:34
 msgid "Thursday"
 msgstr "Donnerstag"
 
@@ -10252,6 +10612,16 @@ msgstr ""
 #. <th>{="Title"}</th>
 #. <th>{="Type"}</th>
 #.
+#. File www/system/templates/reportformat_list.tpl:22
+#. Context: <th width="21" align="center"></th>
+#. <th>{="Title"}</th>
+#. <th>{="Type"}</th>
+#.
+#. File www/system/templates/reportformat_edit.tpl:24
+#. Context: <tr>
+#. <td>{="Title"}: {$errors.title|checkerror}</td>
+#. <td><input type="text" name="reportformat[title]" size="50" maxlength="255" value="{$repor
+#.
 #. File www/system/templates/playlist_edit.tpl:103
 #. Context: <tr>
 #. <td>{="Title"}: {$errors.title|checkerror}</td>
@@ -10272,20 +10642,20 @@ msgstr ""
 #. <th>{="Title"}</th>
 #. <th width="100">{="Name"}</th>
 #.
-#. File www/system/templates/admin_sourcetype_edit.tpl:14
-#. Context: <tr>
-#. <td>{="Title"}: {$errors.title|checkerror}</td>
-#. <td><input type="text" name="sourcetype[title]" size="50" maxlength="255" value="{$sourcety
-#.
 #. File www/system/templates/admin_accounts.tpl:123
 #. Context: <option value="username">{="Username"}</option>
 #. <option value="title">{="Title"}</option>
 #. <option value="port">{="Port"}</option>
 #.
-#. File www/system/templates/admin_sourcetype_list.tpl:18
-#. Context: <th>{="Type"}</th>
-#. <th>{="Title"}</th>
-#. <th>{="Status"}</th>
+#. File www/system/templates/admin_sourcetype_edit.tpl:14
+#. Context: <tr>
+#. <td>{="Title"}: {$errors.title|checkerror}</td>
+#. <td><input type="text" name="sourcetype[title]" size="50" maxlength="255" value="{$sourcety
+#.
+#. File www/system/templates/admin_servertype_edit.tpl:14
+#. Context: <tr>
+#. <td>{="Title"}: {$errors.title|checkerror}</td>
+#. <td><input type="text" name="servertype[title]" size="50" maxlength="255" value="{$serverty
 #.
 #. File www/system/templates/admin_newsarticle_list.tpl:20
 #. Context: <th width="21" align="center"></th>
@@ -10297,15 +10667,15 @@ msgstr ""
 #. <th>{="Title"}</th>
 #. <th>{="Status"}</th>
 #.
-#. File www/system/templates/admin_servertype_edit.tpl:14
-#. Context: <tr>
-#. <td>{="Title"}: {$errors.title|checkerror}</td>
-#. <td><input type="text" name="servertype[title]" size="50" maxlength="255" value="{$serverty
-#.
 #. File www/system/templates/admin_sessions.tpl:24
 #. Context: <th width="100" class="sorttable_alpha">{="Username"}</th>
 #. <th class="sorttable_alpha">{="Title"}</th>
 #. <th class="sorttable_alpha">{="E-mail"}</th>
+#.
+#. File www/system/templates/admin_sourcetype_list.tpl:18
+#. Context: <th>{="Type"}</th>
+#. <th>{="Title"}</th>
+#. <th>{="Status"}</th>
 #.
 #. File www/system/templates/admin_remoteserver_list.tpl:20
 #. Context: <th width="21" align="center"></th>
@@ -10313,17 +10683,19 @@ msgstr ""
 #. <th>{="URL"}</th>
 #.
 #: www/system/templates/playlist_list.tpl:22
+#: www/system/templates/reportformat_list.tpl:22
+#: www/system/templates/reportformat_edit.tpl:24
 #: www/system/templates/playlist_edit.tpl:103
 #: www/system/templates/admin_rpchost_list.tpl:20
 #: www/system/templates/admin_accounts.tpl:154
 #: www/system/templates/admin_region_list.tpl:21
-#: www/system/templates/admin_sourcetype_edit.tpl:14
 #: www/system/templates/admin_accounts.tpl:123
-#: www/system/templates/admin_sourcetype_list.tpl:18
+#: www/system/templates/admin_sourcetype_edit.tpl:14
+#: www/system/templates/admin_servertype_edit.tpl:14
 #: www/system/templates/admin_newsarticle_list.tpl:20
 #: www/system/templates/admin_servertype_list.tpl:18
-#: www/system/templates/admin_servertype_edit.tpl:14
 #: www/system/templates/admin_sessions.tpl:24
+#: www/system/templates/admin_sourcetype_list.tpl:18
 #: www/system/templates/admin_remoteserver_list.tpl:20
 msgid "Title"
 msgstr ""
@@ -10399,11 +10771,11 @@ msgstr "bis Heute"
 msgid "To upload media for use on your stream, launch the file manager below."
 msgstr "Um Ihre Musikdateien hochzuladen, starten sie den Dateimanager."
 
-#. File www/system/templates/library.tpl:157
+#. File www/system/templates/library.tpl:159
 #. Context: <input disabled="disabled" type="button" id="btn_top" name="movetop" value="{="Top"}" />
 #. <input disabled="disabled" type="button" id="btn_up" name="moveup" value="{="Up"}" />
 #.
-#: www/system/templates/library.tpl:157
+#: www/system/templates/library.tpl:159
 msgid "Top"
 msgstr "Top"
 
@@ -10558,17 +10930,17 @@ msgstr "Top Zuhörer nach Minuten"
 msgid "Top Listeners by Listener Sessions"
 msgstr "Top Zuhörer nach Verbindungen"
 
-#. File www/system/templates/statistics_tracks.tpl:116
+#. File www/system/templates/statistics_tracks.tpl:111
 #. Context: <div style="text-align: center; font-weight: bold">{="Top Tracks by Airtime"}</div>
 #.
-#: www/system/templates/statistics_tracks.tpl:116
+#: www/system/templates/statistics_tracks.tpl:111
 msgid "Top Tracks by Airtime"
 msgstr "Top Musiktitel nach Airtime"
 
-#. File www/system/templates/statistics_tracks.tpl:98
+#. File www/system/templates/statistics_tracks.tpl:93
 #. Context: <div style="text-align: center; font-weight: bold">{="Top Tracks by Playbacks"}</div>
 #.
-#: www/system/templates/statistics_tracks.tpl:98
+#: www/system/templates/statistics_tracks.tpl:93
 msgid "Top Tracks by Playbacks"
 msgstr "Top Musiktitel gespielt"
 
@@ -10593,18 +10965,18 @@ msgstr "Top Musiktitel gespielt"
 msgid "Total"
 msgstr "Gesamt"
 
-#. File www/system/templates/statistics_tracks.tpl:81
+#. File www/system/templates/statistics_tracks.tpl:76
 #. Context: <th>{="Track"}</th>
 #. <th style="text-align: right" width="130">{="Total Airtime"}</th>
 #. <th style="text-align: right" width="70">{="Net Discon."}</th>
 #.
-#. File www/system/templates/statistics_tracks.tpl:61
+#. File www/system/templates/statistics_tracks.tpl:56
 #. Context: <th>{="Track"}</th>
 #. <th style="text-align: right" width="130">{="Total Airtime"}</th>
 #. <th style="text-align: right" width="70">{="Net Conn."}</th>
 #.
-#: www/system/templates/statistics_tracks.tpl:81
-#: www/system/templates/statistics_tracks.tpl:61
+#: www/system/templates/statistics_tracks.tpl:76
+#: www/system/templates/statistics_tracks.tpl:56
 msgid "Total Airtime"
 msgstr "Gesamte Onlinezeit"
 
@@ -10692,12 +11064,12 @@ msgstr "Gesamte Verbindungen"
 msgid "total this month"
 msgstr "insgesamt diesem Monat"
 
-#. File www/system/templates/statistics_tracks.tpl:21
+#. File www/system/templates/statistics_tracks.tpl:16
 #. Context: <tr>
 #. <td class="rowodd">{="Total tracks"}</td>
 #. <td class="rowodd" align="right" id="tracks_tracks_total">{="%s track(s)",$zero}</td>
 #.
-#: www/system/templates/statistics_tracks.tpl:21
+#: www/system/templates/statistics_tracks.tpl:16
 msgid "Total tracks"
 msgstr "Gesamte Musiktitel"
 
@@ -10748,39 +11120,38 @@ msgstr ""
 #. <td class="roweven">{="Track"}</td>
 #. <td class="roweven" align="right" id="recentstats_mostlisteners_name"></td>
 #.
-#. File www/system/templates/statistics_tracks.tpl:122
+#. File www/system/templates/statistics_tracks.tpl:117
 #. Context: <tr>
 #. <th>{="Track"}</th>
 #. <th style="text-align: right" width="200">{="Airtime"}</th>
 #.
-#. File www/system/templates/statistics_tracks.tpl:104
+#. File www/system/templates/statistics_tracks.tpl:99
 #. Context: <tr>
 #. <th>{="Track"}</th>
 #. <th style="text-align: right" width="200">{="Playbacks"}</th>
 #.
-#. File www/system/templates/statistics_tracks.tpl:80
+#. File www/system/templates/statistics_tracks.tpl:75
 #. Context: <tr>
 #. <th>{="Track"}</th>
 #. <th style="text-align: right" width="130">{="Total Airtime"}</th>
 #.
-#. File www/system/templates/statistics_tracks.tpl:60
+#. File www/system/templates/statistics_tracks.tpl:55
 #. Context: <tr>
 #. <th>{="Track"}</th>
 #. <th style="text-align: right" width="130">{="Total Airtime"}</th>
 #.
 #: www/system/templates/statistics_recent.tpl:96
-#: www/system/templates/statistics_tracks.tpl:122
-#: www/system/templates/statistics_tracks.tpl:104
-#: www/system/templates/statistics_tracks.tpl:80
-#: www/system/templates/statistics_tracks.tpl:60
+#: www/system/templates/statistics_tracks.tpl:117
+#: www/system/templates/statistics_tracks.tpl:99
+#: www/system/templates/statistics_tracks.tpl:75
+#: www/system/templates/statistics_tracks.tpl:55
 msgid "Track"
 msgstr "Titel"
 
-#. File www/system/templates/statistics_tracks.tpl:137
-#. Context: <div id="track_reports" style="display: none">
-#. <div style="text-align: center; font-weight: bold">{="Track Broadcast Reports"}</div>
+#. File www/system/templates/statistics_downloads.tpl:12
+#. Context: <div style="text-align: center; font-weight: bold">{="Track Broadcast Reports"}</div>
 #.
-#: www/system/templates/statistics_tracks.tpl:137
+#: www/system/templates/statistics_downloads.tpl:12
 msgid "Track Broadcast Reports"
 msgstr ""
 
@@ -10793,15 +11164,21 @@ msgstr ""
 msgid "Track cover"
 msgstr "Titelbild"
 
+#. File www/system/templates/library.tpl:40
+#. Context: edit_track: '{="Track details"}',
+#. track_name: '{="Track name"}',
+#.
 #. File www/client/modules/class_Module_widgets.php:112
 #.
+#: www/system/templates/library.tpl:40
 #: www/client/modules/class_Module_widgets.php:112
 msgid "Track details"
 msgstr "Titeldetails"
 
 #. File www/system/templates/library.tpl:41
-#. Context: edit_track: '{="Rename track"}',
+#. Context: edit_track: '{="Track details"}',
 #. track_name: '{="Track name"}',
+#. comments: '{="Comments"}',
 #.
 #: www/system/templates/library.tpl:41
 msgid "Track name"
@@ -10812,16 +11189,16 @@ msgstr "Titelname"
 #. <td class="rowodd" style="font-weight: bold">{="Tracks"}</td>
 #. <td class="rowodd">{="Total"}</td>
 #.
-#. File www/system/templates/library.tpl:115
+#. File www/system/templates/library.tpl:117
 #. Context: <option value="albums">{="Albums"}</option>
 #. <option value="tracks">{="Tracks"}</option>
 #. <option value="all">{="All"}</option>
 #.
-#. File www/client/modules/class_Module_statistics.php:85
+#. File www/client/modules/class_Module_statistics.php:66
 #.
 #: www/system/templates/statistics_recent.tpl:69
-#: www/system/templates/library.tpl:115
-#: www/client/modules/class_Module_statistics.php:85
+#: www/system/templates/library.tpl:117
+#: www/client/modules/class_Module_statistics.php:66
 msgid "Tracks"
 msgstr "Titel"
 
@@ -10863,9 +11240,9 @@ msgstr "Kürze Logs"
 msgid "Trimming log file, please wait"
 msgstr "Logfile wird gekürzt, bitte warten"
 
-#. File www/client/modules/class_Module_statistics.php:38
+#. File www/client/modules/class_Module_statistics.php:34
 #.
-#: www/client/modules/class_Module_statistics.php:38
+#: www/client/modules/class_Module_statistics.php:34
 msgid "Tuesday"
 msgstr "Dienstag"
 
@@ -10900,14 +11277,22 @@ msgstr "Tune In mit ..."
 #. <td>{="Type"}:</td>
 #. <td>
 #.
+#. File www/system/templates/reportformat_edit.tpl:28
+#. Context: <tr>
+#. <td>{="Type"}: {$errors.reporttype|checkerror}</td>
+#. <td>
+#.
+#. File www/system/templates/reportformat_list.tpl:23
+#. Context: <th>{="Title"}</th>
+#. <th>{="Type"}</th>
+#. <th width="60">&nbsp;</th>
+#.
 #. File www/system/templates/playlist_edit.tpl:116
 #. Context: <tr>
 #. <td>{="Type"}: {$errors.type|checkerror}</td>
 #. <td>
 #.
-#. File system/class_LogProcessor.php:697
-#.
-#. File system/class_LogProcessor.php:817
+#. File system/class_ReportFormat.php:45
 #.
 #. File www/system/templates/admin_accounts.tpl:157
 #. Context: 40" style="text-align: center" class="hdg_port">{="Port"}</th>
@@ -10926,8 +11311,9 @@ msgstr "Tune In mit ..."
 #.
 #: www/system/templates/playlist_list.tpl:23
 #: www/system/templates/new_account_form.tpl:21
-#: www/system/templates/playlist_edit.tpl:116 system/class_LogProcessor.php:697
-#: system/class_LogProcessor.php:817
+#: www/system/templates/reportformat_edit.tpl:28
+#: www/system/templates/reportformat_list.tpl:23
+#: www/system/templates/playlist_edit.tpl:116 system/class_ReportFormat.php:45
 #: www/system/templates/admin_accounts.tpl:157
 #: www/system/templates/admin_servertype_list.tpl:17
 #: www/system/templates/admin_sourcetype_list.tpl:17
@@ -10978,12 +11364,12 @@ msgstr "Einzigartige Länder"
 msgid "Unique listeners"
 msgstr "Einzigartige Zuhörer"
 
-#. File www/system/templates/statistics_tracks.tpl:28
+#. File www/system/templates/statistics_tracks.tpl:23
 #. Context: <tr>
 #. <td class="roweven">{="Unique tracks"}</td>
 #. <td class="roweven" align="right" id="tracks_tracks_totalunique">{="%s track(s)",$zero}</td>
 #.
-#: www/system/templates/statistics_tracks.tpl:28
+#: www/system/templates/statistics_tracks.tpl:23
 msgid "Unique tracks"
 msgstr ""
 
@@ -11104,7 +11490,7 @@ msgstr ""
 #. Context: d7">{="%.2f%%",$zero}</span> <img id="listeners_trend7_img" src="../system/images/icons/trend-up.png" align="absmiddle" alt="{="Up"}/{="Down"}" /></td>
 #. </tr>
 #.
-#. File www/system/templates/library.tpl:158
+#. File www/system/templates/library.tpl:160
 #. Context: d="btn_top" name="movetop" value="{="Top"}" />
 #. <input disabled="disabled" type="button" id="btn_up" name="moveup" value="{="Up"}" />
 #. <input disabled="disabled" type="button" id="btn_down" name="movedown" value="{="Down"}" />
@@ -11112,7 +11498,7 @@ msgstr ""
 #: www/system/templates/statistics_listeners.tpl:92
 #: www/system/templates/statistics_listeners.tpl:88
 #: www/system/templates/statistics_listeners.tpl:84
-#: www/system/templates/library.tpl:158
+#: www/system/templates/library.tpl:160
 msgid "Up"
 msgstr "Hoch"
 
@@ -11283,14 +11669,21 @@ msgstr ""
 #. Context: tupload: '{="Upload"}',
 #. tcopy: '{="Copy"}',
 #.
-#. File www/system/templates/import_m3u.tpl:16
+#. File www/system/templates/import_m3u.tpl:40
 #. Context: <input type="submit" name="upload" value="{="Upload"}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='index.php?page=library'; return false" />
 #.
 #: www/system/templates/filemanager.tpl:84
 #: www/system/templates/filemanager.tpl:32
-#: www/system/templates/import_m3u.tpl:16
+#: www/system/templates/import_m3u.tpl:40
 msgid "Upload"
+msgstr ""
+
+#. File www/client/modules/class_Module_importm3u.php:17
+#. Arguments: '.M3U/.PLS'
+#.
+#: www/client/modules/class_Module_importm3u.php:17
+msgid "Upload and import a %s playlist"
 msgstr ""
 
 #. File www/system/templates/upload_multiple.tpl:8
@@ -11431,9 +11824,9 @@ msgstr ""
 msgid "User agent: %s%s%s, type: %s%s%s"
 msgstr ""
 
-#. File www/client/modules/class_Module_statistics.php:82
+#. File www/client/modules/class_Module_statistics.php:63
 #.
-#: www/client/modules/class_Module_statistics.php:82
+#: www/client/modules/class_Module_statistics.php:63
 msgid "User Agents"
 msgstr "User-Agents"
 
@@ -11476,7 +11869,7 @@ msgstr ""
 #. <th style="text-align: right">{="Value"}</th>
 #. </tr>
 #.
-#. File www/system/templates/statistics_tracks.tpl:18
+#. File www/system/templates/statistics_tracks.tpl:13
 #. Context: <th width="20%">{="Metric"}</th>
 #. <th width="30%" style="text-align: right">{="Value"}</th>
 #. </tr>
@@ -11486,7 +11879,7 @@ msgstr ""
 #. <th style="text-align: right">{="Value"}</th>
 #. </tr>
 #.
-#. File www/system/templates/statistics_tracks.tpl:16
+#. File www/system/templates/statistics_tracks.tpl:11
 #. Context: <th width="25%">{="Metric"}</th>
 #. <th width="25%" style="text-align: right">{="Value"}</th>
 #. <th width="20%">{="Metric"}</th>
@@ -11495,9 +11888,9 @@ msgstr ""
 #: www/system/templates/statistics_listeners.tpl:80
 #: www/system/templates/statistics_listeners.tpl:29
 #: www/system/templates/statistics_recent.tpl:56
-#: www/system/templates/statistics_tracks.tpl:18
+#: www/system/templates/statistics_tracks.tpl:13
 #: www/system/templates/statistics_recent.tpl:13
-#: www/system/templates/statistics_tracks.tpl:16
+#: www/system/templates/statistics_tracks.tpl:11
 msgid "Value"
 msgstr "Wert"
 
@@ -11610,9 +12003,9 @@ msgstr "Webplayer"
 msgid "Website URL"
 msgstr "Webseite URL"
 
-#. File www/client/modules/class_Module_statistics.php:38
+#. File www/client/modules/class_Module_statistics.php:34
 #.
-#: www/client/modules/class_Module_statistics.php:38
+#: www/client/modules/class_Module_statistics.php:34
 msgid "Wednesday"
 msgstr "Mittwoch"
 
@@ -11774,7 +12167,7 @@ msgstr ""
 msgid "Your preferred character encoding has also been changed."
 msgstr ""
 
-#. File www/client/rpc/class_RPClibrary.php:387
+#. File www/client/rpc/class_RPClibrary.php:389
 #. Arguments: MAX_TRACK_RESULTS,MAX_TRACK_RESULTS
 #.
 #. File www/client/rpc/class_RPClibrary.php:242
@@ -11783,7 +12176,7 @@ msgstr ""
 #. File www/client/rpc/class_RPClibrary.php:190
 #. Arguments: MAX_ALBUM_RESULTS,MAX_ALBUM_RESULTS
 #.
-#: www/client/rpc/class_RPClibrary.php:387
+#: www/client/rpc/class_RPClibrary.php:389
 #: www/client/rpc/class_RPClibrary.php:242
 #: www/client/rpc/class_RPClibrary.php:190
 msgid ""
@@ -11853,3 +12246,16 @@ msgstr "Ihr Streamserver ist zurzeit Online und Betriebsbereit."
 #: www/system/templates/filemanager.tpl:47
 msgid "Your updated disk space usage is %s MB in %s file(s)."
 msgstr "Ihre aktualisierte Festplattennutzung beträgt %s MB bei %s Datei(en)."
+
+#~ msgid "%s track(s) were not found or could not be imported:"
+#~ msgstr ""
+#~ "%s Titel wurde(n) nicht gefunden oder konnte(n) nicht importiert werden:"
+
+#~ msgid "No errors occurred."
+#~ msgstr "Es sind keine Fehler aufgetreten."
+
+#~ msgid "Period Summary"
+#~ msgstr "Zeitraum Zusammenfassung"
+
+#~ msgid "Rename track"
+#~ msgstr "Titel umbennen"
