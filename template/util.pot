@@ -1,56 +1,56 @@
 # Centova Cast translation - util interface
-# Copyright 2015, Centova Technologies Inc.
+# Copyright 2016, Centova Technologies Inc.
 # This file is distributed under the same license terms as Centova Cast.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2016-06-26 14:54+0200\n"
-"PO-Revision-Date: 2016-06-26 14:54+0200\n"
+"Project-Id-Version: Centova Cast v3.x\n"
+"POT-Creation-Date: 2016-06-01 15:25-0700\n"
+"PO-Revision-Date: 2016-06-01 15:25-0700\n"
 "Last-Translator: Support <support at centova dot com>\n"
-"Language-Team: Andre Fichtner\n"
-"Language: de_DE\n"
+"Language-Team: Support <support at centova dot com>\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
 
 #. File www/system/templates/installer_form.tpl:14
 #. Context: <tr><td colspan="2" style="font-size: 2px">&nbsp;</td></tr>
-#. <tr><td width="150">{="Administrator E-mail address"}:&nbsp;</td><td><input type="text" name="settings[email]" value="{$settings.email|htmlentities}" size="30" maxlength="128" /><
-#.
+#.     		<tr><td width="150">{="Administrator E-mail address"}:&nbsp;</td><td><input type="text" name="settings[email]" value="{$settings.email|htmlentities}" size="30" maxlength="128" /><
+#. 
 #: www/system/templates/installer_form.tpl:14
 msgid "Administrator E-mail address"
-msgstr "Administrator E-Mail-Adresse"
+msgstr ""
 
 #. File www/system/templates/installer_form.tpl:23
 #. Context: <tr><td colspan="2" style="font-size: 2px">&nbsp;</td></tr>
-#. <tr><td>{="Database name"}:</td><td><input type="text" name="settings[dbname]" value="{$settings.dbname|htmlentities}" size="20" maxlength="64" /></td><
-#.
+#.     		<tr><td>{="Database name"}:</td><td><input type="text" name="settings[dbname]" value="{$settings.dbname|htmlentities}" size="20" maxlength="64" /></td><
+#. 
 #: www/system/templates/installer_form.tpl:23
 msgid "Database name"
-msgstr "Datenbankname"
+msgstr ""
 
 #. File www/system/templates/installer_form.tpl:26
 #. Context: e="password" name="settings[dbpass]" value="{$settings.dbpass|htmlentities}" size="20" maxlength="64" /></td></tr>
-#. <tr><td>{="MySQL hostname"}:</td><td><input type="text" name="settings[dbhost]" value="{if $settings.dbhost}{$settings.dbhost|htmlentities}{else}localhos
-#.
+#.     		<tr><td>{="MySQL hostname"}:</td><td><input type="text" name="settings[dbhost]" value="{if $settings.dbhost}{$settings.dbhost|htmlentities}{else}localhos
+#. 
 #: www/system/templates/installer_form.tpl:26
 msgid "MySQL hostname"
-msgstr "MYSQL Hostname"
+msgstr ""
 
 #. File www/system/templates/installer_form.tpl:25
 #. Context: type="text" name="settings[dbuser]" value="{$settings.dbuser|htmlentities}" size="20" maxlength="64" /></td></tr>
-#. <tr><td>{="MySQL password"}:</td><td><input type="password" name="settings[dbpass]" value="{$settings.dbpass|htmlentities}" size="20" maxlength="64" /></
-#.
+#.     		<tr><td>{="MySQL password"}:</td><td><input type="password" name="settings[dbpass]" value="{$settings.dbpass|htmlentities}" size="20" maxlength="64" /></
+#. 
 #: www/system/templates/installer_form.tpl:25
 msgid "MySQL password"
-msgstr "MYSQL Passwort"
+msgstr ""
 
 #. File www/system/templates/installer_form.tpl:24
 #. Context: type="text" name="settings[dbname]" value="{$settings.dbname|htmlentities}" size="20" maxlength="64" /></td></tr>
-#. <tr><td>{="MySQL username"}:</td><td><input type="text" name="settings[dbuser]" value="{$settings.dbuser|htmlentities}" size="20" maxlength="64" /></td><
-#.
+#.     		<tr><td>{="MySQL username"}:</td><td><input type="text" name="settings[dbuser]" value="{$settings.dbuser|htmlentities}" size="20" maxlength="64" /></td><
+#. 
 #: www/system/templates/installer_form.tpl:24
 msgid "MySQL username"
-msgstr "MYSQL Benutzername"
+msgstr ""
+

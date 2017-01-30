@@ -1,36 +1,36 @@
 # Centova Cast translation - external interface
-# Copyright 2015, Centova Technologies Inc.
+# Copyright 2016, Centova Technologies Inc.
 # This file is distributed under the same license terms as Centova Cast.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2016-06-26 14:53+0200\n"
-"PO-Revision-Date: 2016-06-26 14:53+0200\n"
+"Project-Id-Version: Centova Cast v3.x\n"
+"POT-Creation-Date: 2016-06-01 15:25-0700\n"
+"PO-Revision-Date: 2016-06-01 15:25-0700\n"
 "Last-Translator: Support <support at centova dot com>\n"
-"Language-Team: Andre Fichtner\n"
-"Language: de_DE\n"
+"Language-Team: Support <support at centova dot com>\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
 
 #. File www/class_StreamStatus.php:528
 #. Arguments: $this->str($this->bitrate)
-#.
+#. 
 #. File www/class_CCTemplate.php:574
 #. Arguments: $i
-#.
+#. 
 #. File www/system/templates/index_heading.tpl:3
 #. Arguments: $account.maxbitrate
 #. Context: &nbsp; <strong>{="%s MB",$account.estimatedtransfer}</strong> {="total this month"}<br />
-#. {="Maximum bit rate"}: <strong>{="%d Kbps",$account.maxbitrate}</strong>
-#. </div>
-#.
+#.         {="Maximum bit rate"}: <strong>{="%d Kbps",$account.maxbitrate}</strong>
+#.         </div>
+#. 
 #. File www/client/class_ClientApplication.php:157
 #. Arguments: $this->streamstatus->bitrate
-#.
-#: www/class_StreamStatus.php:528 www/class_CCTemplate.php:574
+#. 
+#: www/class_StreamStatus.php:528
+#: www/class_CCTemplate.php:574
 #: www/system/templates/index_heading.tpl:3
 #: www/client/class_ClientApplication.php:157
 msgid "%d Kbps"
@@ -38,38 +38,38 @@ msgstr "%d Kbps"
 
 #. File www/external/rpc/class_RPCstreamlist.php:27
 #. Arguments: ?
-#.
+#. 
 #: www/external/rpc/class_RPCstreamlist.php:27
 msgid "%d listeners"
 msgstr ""
 
 #. File www/external/rpc/class_RPCrequest.php:46
 #. Arguments: $request['sender'],$request['email'],
-#. $request['artist'],$request['title'],
-#. $track['artist'],$track['title']
-#.
+#.     $request['artist'],$request['title'],
+#.     $track['artist'],$track['title']
+#. 
 #: www/external/rpc/class_RPCrequest.php:46
 msgid "%s (%s) requested \"%s - %s\"; queued track \"%s - %s\""
 msgstr ""
 
 #. File www/external/rpc/class_RPCrequest.php:59
 #. Arguments: $request['sender'],$request['email'],
-#. $request['artist'],$request['title']
-#.
+#.     $request['artist'],$request['title']
+#. 
 #: www/external/rpc/class_RPCrequest.php:59
 msgid "%s (%s) requested \"%s - %s\"; unable to find corresponding track"
 msgstr ""
 
 #. File www/external/modules/class_Module_start.php:78
 #. Arguments: $account['maxbitrate']
-#.
+#. 
 #: www/external/modules/class_Module_start.php:78
 msgid "%s Kbps stream"
 msgstr ""
 
 #. File www/external/modules/class_Module_recentfeed.php:57
 #. Arguments: $account['title']
-#.
+#. 
 #: www/external/modules/class_Module_recentfeed.php:57
 msgid "%s Recent Tracks"
 msgstr ""
@@ -77,73 +77,76 @@ msgstr ""
 #. File www/system/templates/login_form.tpl:29
 #. Arguments: "Centova Cast","Internet Explorer 7.0"
 #. Context: {="Please note that your browser is outdated and may not function correctly with %s.","Centova Cast"}<br />
-#. {="%s requires %s or greater, or another standards-compliant browser.","Centova Cast","Internet Explorer 7.0"}
-#. </div>
-#.
+#.     {="%s requires %s or greater, or another standards-compliant browser.","Centova Cast","Internet Explorer 7.0"}
+#.     </div>
+#. 
 #: www/system/templates/login_form.tpl:29
 msgid "%s requires %s or greater, or another standards-compliant browser."
 msgstr ""
 
 #. File www/class_RPCApplication.php:129
 #. Arguments: $exceptiontype,$message,$e->getFile(),$e->getLine()
-#.
+#. 
 #. File system/class_Application.php:215
 #. Arguments: $exceptiontype,$message,$e->getFile(),$e->getLine()
-#.
-#: www/class_RPCApplication.php:129 system/class_Application.php:215
+#. 
+#: www/class_RPCApplication.php:129
+#: system/class_Application.php:215
 msgid "%s: %s in %s:%i"
 msgstr ""
 
 #. File www/theme/templates/quick_links.tpl:37
 #. Context: {box title="Manuals"}
-#. {="Access the complete documentation for this control panel software"}:<br /><br />
-#.
+#.     	{="Access the complete documentation for this control panel software"}:<br /><br />
+#. 
 #: www/theme/templates/quick_links.tpl:37
 msgid "Access the complete documentation for this control panel software"
-msgstr "Hilfreiche verweise sowie nützliche Links die Ihnen helfen könnten"
+msgstr ""
 
 #. File www/menu.php:101
-#.
+#. 
 #: www/menu.php:101
 msgid "Access various system utilities."
 msgstr ""
 
 #. File www/menu.php:11
-#.
+#. 
 #. File www/menu.php:129
-#.
+#. 
 #. File www/system/templates/admin_accounts.tpl:143
 #. Context: {box id="no_accounts" title="Accounts"}
-#. {="No accounts have been created"}.
-#.
+#.     			{="No accounts have been created"}.
+#. 
 #. File www/system/templates/admin_sessions.tpl:12
 #. Context: <th width="24" align="center"></th>
-#. <th>{="Accounts"}</th>
-#. </tr>
-#.
-#: www/menu.php:11 www/menu.php:129 www/system/templates/admin_accounts.tpl:143
+#.     	<th>{="Accounts"}</th>
+#.     </tr>
+#. 
+#: www/menu.php:11
+#: www/menu.php:129
+#: www/system/templates/admin_accounts.tpl:143
 #: www/system/templates/admin_sessions.tpl:12
 msgid "Accounts"
 msgstr ""
 
 #. File www/menu.php:302
-#.
+#. 
 #: www/menu.php:302
 msgid "Admin"
 msgstr ""
 
 #. File www/class_WebApplication.php:206
-#.
+#. 
 #. File www/system/templates/admin_accounts_javascript.tpl:19
 #. Context: f its client accounts) will be suspended as a result.  Are you sure you want to unsuspend this account?"}',
-#. administrator: '{="Administrator"}',
-#. group_key: {
-#.
+#.     	administrator: '{="Administrator"}',
+#.     	group_key: {
+#. 
 #. File www/system/templates/admin_sessions.tpl:47
 #. Context: </td>
-#. <td>{if $session.staffaccount.id}{="Staff"}{elseif $session.username=="admin"}{="Administrator"}{else}{$session.organization|htmlentities}{/if}{if $session.sessionid==$current_sessionid} ({="current session"}){/if}</td>
-#. <
-#.
+#.     	<td>{if $session.staffaccount.id}{="Staff"}{elseif $session.username=="admin"}{="Administrator"}{else}{$session.organization|htmlentities}{/if}{if $session.sessionid==$current_sessionid} ({="current session"}){/if}</td>
+#.     	<
+#. 
 #: www/class_WebApplication.php:206
 #: www/system/templates/admin_accounts_javascript.tpl:19
 #: www/system/templates/admin_sessions.tpl:47
@@ -151,104 +154,109 @@ msgid "Administrator"
 msgstr ""
 
 #. File www/class_RPCApplication.php:150
-#.
+#. 
 #: www/class_RPCApplication.php:150
 msgid "administrator privileges required"
 msgstr ""
 
 #. File www/menu.php:303
-#.
+#. 
 #: www/menu.php:303
 msgid "Allows you to administer your server directly."
-msgstr "Erlaubt Ihnen Ihren Server direkt zu verwalten."
+msgstr ""
 
 #. File www/menu.php:484
-#.
+#. 
 #. File www/menu.php:236
-#.
-#: www/menu.php:484 www/menu.php:236
+#. 
+#: www/menu.php:484
+#: www/menu.php:236
 msgid "Allows you to provide limited stream control to your DJs."
 msgstr ""
 
 #. File www/class_Template.php:1632
-#.
+#. 
 #: www/class_Template.php:1632
 msgid "AM"
 msgstr ""
 
 #. File www/class_CCTemplate.php:94
-#.
+#. 
 #. File www/class_Template.php:1529
-#.
-#: www/class_CCTemplate.php:94 www/class_Template.php:1529
+#. 
+#: www/class_CCTemplate.php:94
+#: www/class_Template.php:1529
 msgid "Apr"
 msgstr ""
 
 #. File www/class_CCTemplate.php:94
-#.
+#. 
 #. File www/class_Template.php:1533
-#.
-#: www/class_CCTemplate.php:94 www/class_Template.php:1533
+#. 
+#: www/class_CCTemplate.php:94
+#: www/class_Template.php:1533
 msgid "Aug"
-msgstr "Aug"
+msgstr ""
 
 #. File www/menu.php:410
-#.
+#. 
 #. File www/theme/templates/m/role-footer.tpl:6
 #. Context: on="custom" href="index.php#index">{="Server"}</a></li>
-#. <li><a id="btn-autodj" data-icon="custom" href="index.php#autodj"">{="AutoDJ"}</a></li>
-#. <li><a id="btn-statistics" data-icon="custom" href="index.php#statistics">{="Statistics"}</a></li>
-#.
+#.     		<li><a id="btn-autodj" data-icon="custom" href="index.php#autodj"">{="AutoDJ"}</a></li>
+#.     		<li><a id="btn-statistics" data-icon="custom" href="index.php#statistics">{="Statistics"}</a></li>
+#. 
 #. File www/menu.php:312
-#.
+#. 
 #. File www/client/modules/class_Module_library.php:14
-#.
+#. 
 #. File www/client/modules/class_Module_filemanager.php:13
-#.
+#. 
 #. File www/client/modules/class_Module_playlists.php:19
-#.
+#. 
 #. File www/client/modules/class_Module_importmedia.php:11
-#.
+#. 
 #. File www/client/modules/class_Module_control.php:207
-#.
+#. 
 #. File www/system/templates/autodj_control.tpl:10
 #. Context: <div id="autodj_control_buttons">
-#. {if $isdj==0}<a href="index.php?page=configure#tab:{="AutoDJ"}"><img class="autodj-control" src="/system/images/icons/source/control.png" alt="{="Configure"}"
-#. />{/if}</a>{if ($sourceonli
-#.
+#.     	{if $isdj==0}<a href="index.php?page=configure#tab:{="AutoDJ"}"><img class="autodj-control" src="/system/images/icons/source/control.png" alt="{="Configure"}"
+#.     	/>{/if}</a>{if ($sourceonli
+#. 
 #. File www/system/templates/configuration_form.tpl:18
 #. Context: function go_autodj_tab() {
-#. if (window.centovacast.tabset) window.centovacast.tabset.select("{="AutoDJ"}");
-#. }
-#.
+#.     	if (window.centovacast.tabset) window.centovacast.tabset.select("{="AutoDJ"}");
+#.     }
+#. 
 #. File www/client/modules/class_Module_control.php:231
-#.
+#. 
 #. File www/client/modules/class_Module_importm3u.php:14
-#.
+#. 
 #. File system/sources/sctrans/class_Sourcesctrans.php:202
-#.
+#. 
 #. File system/sources/sctrans2/class_Sourcesctrans2.php:536
-#.
+#. 
 #. File system/sources/liquidsoap/class_Sourceliquidsoap.php:177
-#.
+#. 
 #. File system/sources/icessingleencoder/class_Sourceices.php:323
-#.
+#. 
 #. File system/sources/ices2/class_Ices2ServerInterface.php:213
-#.
+#. 
 #. File system/sources/ices2/class_Sourceices2.php:196
-#.
+#. 
 #. File system/sources/ices/srvintf/class_SingleMountIcesServerInterface.php:47
-#.
+#. 
 #. File system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:53
-#.
+#. 
 #. File system/class_StreamingSource.php:283
-#.
+#. 
 #. File system/sources/ezstream/class_Sourceezstream.php:332
-#.
+#. 
 #. File www/system/templates/admin_settings.tpl:211
 #. Context: <h1>{="AutoDJ"}</h1>
-#.
-#: www/menu.php:410 www/theme/templates/m/role-footer.tpl:6 www/menu.php:312
+#. 
+#: www/menu.php:410
+#: www/theme/templates/m/role-footer.tpl:6
+#: www/menu.php:312
 #: www/client/modules/class_Module_library.php:14
 #: www/client/modules/class_Module_filemanager.php:13
 #: www/client/modules/class_Module_playlists.php:19
@@ -273,400 +281,410 @@ msgid "AutoDJ"
 msgstr ""
 
 #. File www/class_NextSongApplication.php:38
-#.
+#. 
 #: www/class_NextSongApplication.php:38
 msgid "Bad username or secret."
 msgstr ""
 
 #. File www/external/rpc/class_RPCrecenttracks.php:35
-#.
+#. 
 #. File www/client/modules/class_Module_widgets.php:114
-#.
+#. 
 #: www/external/rpc/class_RPCrecenttracks.php:35
 #: www/client/modules/class_Module_widgets.php:114
 msgid "Buy this album"
-msgstr "Kaufe dieses Album"
+msgstr ""
 
 #. File www/system/templates/login_head.tpl:46
 #. Context: va Cast are case-sensitive so you may need to turn off caps lock in order to log in successfully."}',
-#. caps_lock_title: '{="Caps lock warning"}'
-#. });
-#.
+#.     	    caps_lock_title: '{="Caps lock warning"}'
+#.     	});
+#. 
 #: www/system/templates/login_head.tpl:46
 msgid "Caps lock warning"
 msgstr ""
 
 #. File www/class_WebApplication.php:208
-#.
+#. 
 #. File www/client/class_ClientApplication.php:58
-#.
-#: www/class_WebApplication.php:208 www/client/class_ClientApplication.php:58
+#. 
+#: www/class_WebApplication.php:208
+#: www/client/class_ClientApplication.php:58
 msgid "Client"
-msgstr "Kunde"
+msgstr ""
 
 #. File www/class_RPCApplication.php:152
-#.
+#. 
 #: www/class_RPCApplication.php:152
 msgid "client authentication required"
 msgstr ""
 
 #. File www/menu.php:219
-#.
+#. 
 #. File www/client/modules/class_Module_widgets.php:13
-#.
+#. 
 #. File www/client/modules/class_Module_configure.php:11
-#.
+#. 
 #. File www/client/modules/class_Module_djaccounts.php:18
-#.
+#. 
 #. File www/client/modules/class_Module_confeditor.php:11
-#.
+#. 
 #. File www/admin/modules/class_Module_staffaccounts.php:22
-#.
-#: www/menu.php:219 www/client/modules/class_Module_widgets.php:13
+#. 
+#: www/menu.php:219
+#: www/client/modules/class_Module_widgets.php:13
 #: www/client/modules/class_Module_configure.php:11
 #: www/client/modules/class_Module_djaccounts.php:18
 #: www/client/modules/class_Module_confeditor.php:11
 #: www/admin/modules/class_Module_staffaccounts.php:22
 msgid "Configuration"
-msgstr "Konfiguration"
+msgstr ""
 
 #. File www/menu.php:158
-#.
+#. 
 #: www/menu.php:158
 msgid "Configures the E-mail messages sent by your account."
 msgstr ""
 
 #. File www/menu.php:48
-#.
+#. 
 #: www/menu.php:48
 msgid "Configures the E-mail messages sent by your server."
-msgstr "Vom Server verschickbare E-Mail Nachrichten konfigurieren."
+msgstr ""
 
 #. File www/menu.php:153
-#.
+#. 
 #: www/menu.php:153
 msgid "Configures the settings for your account."
 msgstr ""
 
 #. File www/menu.php:42
-#.
+#. 
 #: www/menu.php:42
 msgid "Configures the settings for your server."
-msgstr "Bearbeiten Sie die Server-Einstellungen."
+msgstr ""
 
 #. File www/menu.php:474
-#.
+#. 
 #. File www/menu.php:226
-#.
-#: www/menu.php:474 www/menu.php:226
+#. 
+#: www/menu.php:474
+#: www/menu.php:226
 msgid "Configures your streaming server."
-msgstr "Ruft die Konfiguration Ihres Streamservers auf."
+msgstr ""
 
 #. File www/system/templates/forgotreset.tpl:12
 #. Context: {="Password"}:&nbsp;</td><td><input type="password" name="password1" value="" size="12" maxlength="32" /></td></tr>
-#. <tr><td>{="Confirm password"}:&nbsp;</td><td><input type="password" name="password2" value="" size="12" maxlength="32" /></td></tr>
-#. <tr><td></td><td></td>
-#.
+#.     	<tr><td>{="Confirm password"}:&nbsp;</td><td><input type="password" name="password2" value="" size="12" maxlength="32" /></td></tr>
+#.     	<tr><td></td><td></td>
+#. 
 #. File www/system/templates/djaccount_edit.tpl:52
 #. Context: <tr>
-#. <td>{="Confirm password"}: {$errors.password|checkerror}</td>
-#. <td><input type="password" name="djaccount[password2]" size="16" maxlength="32" v
-#.
+#.             <td>{="Confirm password"}: {$errors.password|checkerror}</td>
+#.             <td><input type="password" name="djaccount[password2]" size="16" maxlength="32" v
+#. 
 #. File www/system/templates/staffaccount_edit.tpl:97
 #. Context: <tr>
-#. <td>{="Confirm password"}: {$errors.password|checkerror}</td>
-#. <td><input type="password" name="staffaccount[password2]" size="16" maxlength="32
-#.
+#.             <td>{="Confirm password"}: {$errors.password|checkerror}</td>
+#.             <td><input type="password" name="staffaccount[password2]" size="16" maxlength="32
+#. 
 #. File www/system/templates/installer_form.tpl:16
 #. Context: sword" name="settings[password1]" value="{$settings.password1|htmlentities}" size="12" maxlength="32" /></td></tr>
-#. <tr><td>{="Confirm password"}:</td><td><input type="password" name="settings[password2]" value="{$settings.password2|htmlentities}" size="12" maxlength="32
-#.
+#.     		<tr><td>{="Confirm password"}:</td><td><input type="password" name="settings[password2]" value="{$settings.password2|htmlentities}" size="12" maxlength="32
+#. 
 #: www/system/templates/forgotreset.tpl:12
 #: www/system/templates/djaccount_edit.tpl:52
 #: www/system/templates/staffaccount_edit.tpl:97
 #: www/system/templates/installer_form.tpl:16
 msgid "Confirm password"
-msgstr "Passwort best&auml;tigen"
+msgstr ""
 
 #. File www/login/modules/class_Module_index.php:172
 #. Arguments: $_SERVER['REMOTE_ADDR'], $_SERVER['HTTP_USER_AGENT']
-#.
+#. 
 #: www/login/modules/class_Module_index.php:172
 msgid "Connecting client at %s (via %s)."
 msgstr ""
 
 #. File www/theme/templates/login.tpl:23
 #. Context: <a href="index.php?page=forgot">{="Forgot password?"}</a><br />
-#. {="Copyright"} 2006-{$_CONSTANTS.PRODUCT_YEAR}, Centova Technologies Inc.
-#. </div>
-#.
+#.     		{="Copyright"} 2006-{$_CONSTANTS.PRODUCT_YEAR}, Centova Technologies Inc.
+#.     	</div>
+#. 
 #. File www/theme/templates/page.tpl:131
 #. Context: ",$loginname|htmlentities} <span class="sep">|</span> Centova Cast v{$_CONSTANTS.PRODUCT_VERSION} <span class="sep">|</span> {="Copyright"} 2006-{$_CONSTANTS.PRODUCT_YEAR}, <a href="http://www.centova.com">Centova Technologies Inc.</a>
-#. </div>
-#.
+#.     	</div>
+#. 
 #. File www/system/templates/uncaught_exception.tpl:81
 #. Context: <div class="content">
-#. {="Copyright"} 2006-{$_CONSTANTS.PRODUCT_YEAR}, Centova Technologies Inc.
-#. </div>
-#.
+#.     		{="Copyright"} 2006-{$_CONSTANTS.PRODUCT_YEAR}, Centova Technologies Inc.
+#.     	</div>
+#. 
 #. File www/system/templates/topbar.tpl:3
 #. Context: <div id="topbar_admin">
-#. <div style="float: right">Centova Cast v{$_CONSTANTS.PRODUCT_VERSION} | {="Copyright"} 2006-{$_CONSTANTS.PRODUCT_YEAR}, <a href="http://www.centova.com">Centova Technologies Inc.</a></div>
-#. <a href="{if $admin>0}
-#.
+#.     	<div style="float: right">Centova Cast v{$_CONSTANTS.PRODUCT_VERSION} | {="Copyright"} 2006-{$_CONSTANTS.PRODUCT_YEAR}, <a href="http://www.centova.com">Centova Technologies Inc.</a></div>
+#.     	<a href="{if $admin>0}
+#. 
 #. File www/system/templates/install_footer.tpl:8
 #. Context: <div class="content">
-#. {="Copyright"} 2006-{$_CONSTANTS.PRODUCT_YEAR}, Centova Technologies Inc.
-#. </div>
-#.
-#: www/theme/templates/login.tpl:23 www/theme/templates/page.tpl:131
+#.     		{="Copyright"} 2006-{$_CONSTANTS.PRODUCT_YEAR}, Centova Technologies Inc.
+#.     	</div>
+#. 
+#: www/theme/templates/login.tpl:23
+#: www/theme/templates/page.tpl:131
 #: www/system/templates/uncaught_exception.tpl:81
-#: www/system/templates/topbar.tpl:3 www/system/templates/install_footer.tpl:8
+#: www/system/templates/topbar.tpl:3
+#: www/system/templates/install_footer.tpl:8
 msgid "Copyright"
-msgstr "Copyright"
+msgstr ""
 
 #. File www/modules/class_base_Module_editor.php:43
-#.
+#. 
 #: www/modules/class_base_Module_editor.php:43
 msgid "Could not locate the requested item."
-msgstr "Konnte das angeforderte Objekt nicht finden."
+msgstr ""
 
 #. File www/menu.php:429
-#.
+#. 
 #. File www/menu.php:326
-#.
-#: www/menu.php:429 www/menu.php:326
+#. 
+#: www/menu.php:429
+#: www/menu.php:326
 msgid "Create and manage your playlists."
-msgstr "Erstllen und Verwalten Sie Ihre Playlisten."
+msgstr ""
 
 #. File www/system/templates/startpage_index.tpl:44
 #. Context: {check ($account.allowgmaps>0)}
-#. <h3>{="Current Listener Locations"}</h3>
-#.
+#.     		<h3>{="Current Listener Locations"}</h3>
+#. 
 #: www/system/templates/startpage_index.tpl:44
 msgid "Current Listener Locations"
-msgstr "Aktuelle Standorte der Zuhörer"
+msgstr ""
 
 #. File www/class_CCTemplate.php:94
-#.
+#. 
 #. File www/class_Template.php:1537
-#.
-#: www/class_CCTemplate.php:94 www/class_Template.php:1537
+#. 
+#: www/class_CCTemplate.php:94
+#: www/class_Template.php:1537
 msgid "Dec"
 msgstr ""
 
 #. File www/system/templates/startpage_index.tpl:22
 #. Context: ="cc_req_title_{$username|htmlentities}{$charset|htmlentities}" name="request[title]" size="40" maxlength="127" /><br />
-#. {="Dedicated to"}: <input type="text" id="cc_req_dedi_{$username|htmlentities}{$charset|htmlentities}" name="request[dedication]" size="40" max
-#.
+#.     				{="Dedicated to"}: <input type="text" id="cc_req_dedi_{$username|htmlentities}{$charset|htmlentities}" name="request[dedication]" size="40" max
+#. 
 #. File www/client/modules/class_Module_widgets.php:165
-#.
+#. 
 #: www/system/templates/startpage_index.tpl:22
 #: www/client/modules/class_Module_widgets.php:165
 msgid "Dedicated to"
-msgstr "Widmung"
+msgstr ""
 
 #. File www/menu.php:448
-#.
+#. 
 #. File www/menu.php:248
-#.
-#: www/menu.php:448 www/menu.php:248
+#. 
+#: www/menu.php:448
+#: www/menu.php:248
 msgid "Displays a statistics report for your stream."
 msgstr ""
 
 #. File www/menu.php:208
-#.
+#. 
 #: www/menu.php:208
 msgid "Displays an overview of your stream."
-msgstr "Zeigt eine Übersicht Ihre Streamservers."
+msgstr ""
 
 #. File www/menu.php:454
-#.
+#. 
 #. File www/menu.php:254
-#.
-#: www/menu.php:454 www/menu.php:254
+#. 
+#: www/menu.php:454
+#: www/menu.php:254
 msgid "Displays current listener statistics for your stream."
 msgstr ""
 
 #. File www/menu.php:95
-#.
+#. 
 #: www/menu.php:95
 msgid "Displays the Centova Cast system logs."
 msgstr ""
 
 #. File www/menu.php:140
-#.
+#. 
 #. File www/menu.php:23
-#.
-#: www/menu.php:140 www/menu.php:23
+#. 
+#: www/menu.php:140
+#: www/menu.php:23
 msgid "Displays the overall statistics for your server."
-msgstr "Zeigt die Statistiken f&uuml;r alle Server."
+msgstr ""
 
 #. File www/menu.php:89
-#.
+#. 
 #: www/menu.php:89
 msgid "Displays the status of your servers."
 msgstr ""
 
 #. File www/menu.php:460
-#.
+#. 
 #. File www/menu.php:260
-#.
-#: www/menu.php:460 www/menu.php:260
+#. 
+#: www/menu.php:460
+#: www/menu.php:260
 msgid "Displays your server logs."
-msgstr "Zeigt Ihre Server-Logs."
+msgstr ""
 
 #. File www/menu.php:483
-#.
+#. 
 #. File www/menu.php:235
-#.
-#: www/menu.php:483 www/menu.php:235
+#. 
+#: www/menu.php:483
+#: www/menu.php:235
 msgid "DJs"
-msgstr "DJ Accounts"
+msgstr ""
 
 #. File www/system/templates/forgotform.tpl:13
 #. Context: <table id="login_table" cellspacing="1" cellpadding="0" border="0">
-#. <tr><th>{="E-mail address"}:&nbsp;</th><td><input type="text" name="email" id="emailfield" value="" size="15" maxlength="255" /></td></tr>
-#. </table>
-#.
+#.     	<tr><th>{="E-mail address"}:&nbsp;</th><td><input type="text" name="email" id="emailfield" value="" size="15" maxlength="255" /></td></tr>
+#.     	</table>
+#. 
 #. File www/system/templates/staffaccount_edit.tpl:105
 #. Context: <tr>
-#. <td>{="E-mail address"}: {$errors.email|checkerror}</td>
-#. <td><input type="text" name="staffaccount[email]" size="50" maxlength="255" value="{$staff
-#.
+#.     		<td>{="E-mail address"}: {$errors.email|checkerror}</td>
+#.     		<td><input type="text" name="staffaccount[email]" size="50" maxlength="255" value="{$staff
+#. 
 #. File www/system/templates/configuration_reseller_basic.tpl:17
 #. Context: <tr>
-#. <td width="130">{="E-mail address"}:</td>
-#. <td colspan="2"><input type="text" name="config[email]" size="50" maxlength="255" value="{$config.email|htmlentities}
-#.
+#.     	<td width="130">{="E-mail address"}:</td>
+#.     	<td colspan="2"><input type="text" name="config[email]" size="50" maxlength="255" value="{$config.email|htmlentities}
+#. 
 #. File www/system/templates/configuration_client_basic.tpl:120
 #. Context: <tr>
-#. <td width="130">{="E-mail address"}:</td>
-#. <td colspan="4"><input type="text" name="config[email]" size="50" maxlength="255" value="{$config.email|htmlentities}"
-#.
+#.     	<td width="130">{="E-mail address"}:</td>
+#.     	<td colspan="4"><input type="text" name="config[email]" size="50" maxlength="255" value="{$config.email|htmlentities}"
+#. 
 #. File system/class_AccountFields.php:815
-#.
+#. 
 #. File system/class_AccountFields.php:343
-#.
+#. 
 #: www/system/templates/forgotform.tpl:13
 #: www/system/templates/staffaccount_edit.tpl:105
 #: www/system/templates/configuration_reseller_basic.tpl:17
 #: www/system/templates/configuration_client_basic.tpl:120
-#: system/class_AccountFields.php:815 system/class_AccountFields.php:343
+#: system/class_AccountFields.php:815
+#: system/class_AccountFields.php:343
 msgid "E-mail address"
-msgstr "E-Mail-Adresse"
+msgstr ""
 
 #. File www/menu.php:157
-#.
+#. 
 #. File www/menu.php:47
-#.
-#: www/menu.php:157 www/menu.php:47
+#. 
+#: www/menu.php:157
+#: www/menu.php:47
 msgid "E-mails"
-msgstr "E-Mails"
+msgstr ""
 
 #. File www/system/templates/forgotreset.tpl:8
 #. Context: {="Enter a new password below."}<br /><br />
-#.
+#. 
 #: www/system/templates/forgotreset.tpl:8
 msgid "Enter a new password below."
-msgstr "Geben Sie ein neues Passwort ein"
+msgstr ""
 
 #. File www/theme/templates/quick_links.tpl:26
 #. Context: {box title="FTP Client Connections"}
-#. {="Enter this information into your FTP client software to upload your media for the autoDJ"}:<br /><br />
-#.
+#.     	{="Enter this information into your FTP client software to upload your media for the autoDJ"}:<br /><br />
+#. 
 #: www/theme/templates/quick_links.tpl:26
-msgid ""
-"Enter this information into your FTP client software to upload your media "
-"for the autoDJ"
+msgid "Enter this information into your FTP client software to upload your media for the autoDJ"
 msgstr ""
-"Um Dateien hochladen zu können, geben Sie diese Informationen in der FTP "
-"Software Ihrer Wahl ein"
 
 #. File www/system/templates/forgotform.tpl:10
 #. Context: {="Enter your E-mail address below continue."}<br /><br />
-#.
+#. 
 #: www/system/templates/forgotform.tpl:10
 msgid "Enter your E-mail address below continue."
-msgstr "Geben Sie Ihre E-Mail-Adresse ein, um fortzufahren."
+msgstr ""
 
 #. File www/external/modules/class_Module_preview.php:18
-#.
+#. 
 #. File www/theme/templates/m/page.tpl:29
 #. Context: error: function(msg) {
-#. $('#nowplaying').text('{="Error"}: '+msg);
-#. }
-#.
+#.     			$('#nowplaying').text('{="Error"}: '+msg);
+#.     		}
+#. 
 #. File www/system/templates/import_m3u_result.tpl:4
 #. Context: {check $error!=""}
-#. <strong>{="Error"}: </strong>{$error|htmlentities}<br /><br />
-#. {otherwise}
-#.
+#.     	<strong>{="Error"}: </strong>{$error|htmlentities}<br /><br />
+#.     {otherwise}
+#. 
 #. File www/system/templates/configuration_form.tpl:25
 #. Context: {check ($errors|count>0) or ($fatal!="")}
-#. {box title="Error"}
-#. {if $fatal!=""}
-#.
+#.     {box title="Error"}
+#.     {if $fatal!=""}
+#. 
 #. File www/system/templates/invalid_account.tpl:1
 #. Context: {box title="Error"}
-#. {="The specified account does not exist, or your do not have permission to access it."}<br /><br />
-#.
+#.     	{="The specified account does not exist, or your do not have permission to access it."}<br /><br />
+#. 
 #. File www/system/templates/staffaccount_edit.tpl:74
 #. Context: {if $errors|count}
-#. {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
-#.
+#.     {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
+#. 
 #. File www/system/templates/staffaccount_edit.tpl:76
 #. Context: {elseif $error}
-#. {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
-#. {/if}
-#.
+#.     {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
+#.     {/if}
+#. 
 #. File www/system/templates/error.tpl:1
 #. Context: {box title="Error"}
-#. {="%sError%s: %s.","<strong>","</strong>",$error}<br /><br />
-#.
+#.     	{="%sError%s: %s.","<strong>","</strong>",$error}<br /><br />
+#. 
 #. File www/system/templates/reportformat_edit.tpl:18
 #. Context: {elseif $error}
-#. {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
-#. {/if}
-#.
+#.     {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
+#.     {/if}
+#. 
 #. File www/system/templates/playlist_edit.tpl:79
 #. Context: {if $errors|count}
-#. {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
-#.
+#.     {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
+#. 
 #. File www/system/templates/djaccount_edit.tpl:31
 #. Context: {elseif $error}
-#. {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
-#. {/if}
-#.
+#.     {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
+#.     {/if}
+#. 
 #. File www/system/templates/reportformat_edit.tpl:16
 #. Context: {if $errors|count}
-#. {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
-#.
+#.     {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
+#. 
 #. File www/system/templates/no_such_report.tpl:1
 #. Context: {box title="Error"}
-#. {="No such track report was found."}<br /><br />
-#.
+#.     	{="No such track report was found."}<br /><br />
+#. 
 #. File www/client/modules/class_Module_preview.php:23
-#.
+#. 
 #. File www/system/templates/playlist_edit.tpl:81
 #. Context: {elseif $error}
-#. {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
-#. {/if}
-#.
+#.     {box title="Error"}{="An error occurred while attempting to save this update."}{/box}<br />
+#.     {/if}
+#. 
 #. File www/system/templates/djaccount_edit.tpl:29
 #. Context: {if $errors|count}
-#. {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
-#.
+#.     {box title="Error"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
+#. 
 #. File www/system/templates/admin_setuid_failed.tpl:1
 #. Context: {box title="Error"}
-#. {="Unable to login to account: %s",$error}<br /><br />
-#.
+#.     	{="Unable to login to account: %s",$error}<br /><br />
+#. 
 #. File www/system/templates/admin_servertype_list.tpl:1
 #. Context: {if $show_error}{box title="Error"}<div style="color: red">{$show_error|htmlentities}</div>{/box}<br />{/if}
-#.
+#. 
 #. File www/system/templates/admin_sourcetype_list.tpl:1
 #. Context: {if $show_error}{box title="Error"}<div style="color: red">{$show_error|htmlentities}</div>{/box}<br />{/if}
-#.
+#. 
 #: www/external/modules/class_Module_preview.php:18
 #: www/theme/templates/m/page.tpl:29
 #: www/system/templates/import_m3u_result.tpl:4
@@ -687,136 +705,141 @@ msgstr "Geben Sie Ihre E-Mail-Adresse ein, um fortzufahren."
 #: www/system/templates/admin_servertype_list.tpl:1
 #: www/system/templates/admin_sourcetype_list.tpl:1
 msgid "Error"
-msgstr "Fehler"
+msgstr ""
 
 #. File www/class_WebApplication.php:315
 #. Arguments: 'index'
-#.
+#. 
 #: www/class_WebApplication.php:315
 msgid "Error loading %s module."
-msgstr "Fehler beim laden des Moduls %s"
+msgstr ""
 
 #. File www/class_CCTemplate.php:94
-#.
+#. 
 #. File www/class_Template.php:1527
-#.
-#: www/class_CCTemplate.php:94 www/class_Template.php:1527
+#. 
+#: www/class_CCTemplate.php:94
+#: www/class_Template.php:1527
 msgid "Feb"
-msgstr "Feb"
+msgstr ""
 
 #. File www/menu.php:337
-#.
+#. 
 #. File system/class_AccountFields.php:875
-#.
+#. 
 #. File system/servers/WindowsMedia/class_WindowsMediaConfig.php:25
-#.
+#. 
 #. File system/servers/IceCast/class_IceCastConfig.php:66
-#.
-#: www/menu.php:337 system/class_AccountFields.php:875
+#. 
+#: www/menu.php:337
+#: system/class_AccountFields.php:875
 #: system/servers/WindowsMedia/class_WindowsMediaConfig.php:25
 #: system/servers/IceCast/class_IceCastConfig.php:66
 msgid "Files"
-msgstr "Dateiverwaltung"
+msgstr ""
 
 #. File www/theme/templates/m/login.tpl:22
 #. Context: <div data-role="footer">
-#. <h4><a href="index.php?page=forgot">{="Forgot password?"}</a></h4>
-#. </div>
-#.
+#.     			<h4><a href="index.php?page=forgot">{="Forgot password?"}</a></h4>
+#.     		</div>
+#. 
 #. File www/theme/templates/login.tpl:22
 #. Context: <div class="content">
-#. <a href="index.php?page=forgot">{="Forgot password?"}</a><br />
-#. {="Copyright"} 2006-{$_CONSTANTS.PRODUCT_YEAR}, Centova Technologies Inc.
-#.
-#: www/theme/templates/m/login.tpl:22 www/theme/templates/login.tpl:22
+#.     		<a href="index.php?page=forgot">{="Forgot password?"}</a><br />
+#.     		{="Copyright"} 2006-{$_CONSTANTS.PRODUCT_YEAR}, Centova Technologies Inc.
+#. 
+#: www/theme/templates/m/login.tpl:22
+#: www/theme/templates/login.tpl:22
 msgid "Forgot password?"
-msgstr "Passwort vergessen?"
+msgstr ""
 
 #. File www/class_CCTemplate.php:95
-#.
+#. 
 #. File www/system/templates/playlist_edit.tpl:262
 #. Context: cted"{/if}>{="Thu"}</option>
-#. <option value="fri"{if $playlist.scheduled_weekdays|contains:"fri"} selected="selected"{/if}>{="Fri"}</option>
-#. <option value="sat"{if $playlist.scheduled_weekdays|contains:"sat"} selected="selected"{/if}>{="Sat"}</option>
-#.
+#.     			<option value="fri"{if $playlist.scheduled_weekdays|contains:"fri"} selected="selected"{/if}>{="Fri"}</option>
+#.     			<option value="sat"{if $playlist.scheduled_weekdays|contains:"sat"} selected="selected"{/if}>{="Sat"}</option>
+#. 
 #. File www/system/templates/djaccount_edit.tpl:132
 #. Context: /if}>{="Thu"}</option>
-#. <option value="fri"{if $djaccount.login_weekdays|contains:"fri"} selected="selected"{/if}>{="Fri"}</option>
-#. <option value="sat"{if $djaccount.login_weekdays|contains:"sat"} selected="selected"{/if}>{="Sat"}</opti
-#.
-#: www/class_CCTemplate.php:95 www/system/templates/playlist_edit.tpl:262
+#.                 <option value="fri"{if $djaccount.login_weekdays|contains:"fri"} selected="selected"{/if}>{="Fri"}</option>
+#.                 <option value="sat"{if $djaccount.login_weekdays|contains:"sat"} selected="selected"{/if}>{="Sat"}</opti
+#. 
+#: www/class_CCTemplate.php:95
+#: www/system/templates/playlist_edit.tpl:262
 #: www/system/templates/djaccount_edit.tpl:132
 msgid "Fri"
-msgstr "Freitag"
+msgstr ""
 
 #. File www/theme/templates/quick_links.tpl:25
 #. Context: {if ($acctconfig.apptypes!="") and ($account.usesource!=2) and ($account.servertype!="WindowsMedia")}
-#. {box title="FTP Client Connections"}
-#. {="Enter this information into your FTP client software to upload your media for the autoDJ"}:<br /><br />
-#.
+#.     {box title="FTP Client Connections"}
+#.     	{="Enter this information into your FTP client software to upload your media for the autoDJ"}:<br /><br />
+#. 
 #: www/theme/templates/quick_links.tpl:25
 msgid "FTP Client Connections"
-msgstr "FTP Daten"
+msgstr ""
 
 #. File www/theme/templates/quick_links.tpl:29
 #. Context: <table cellspacing="1" cellpadding="1" border="0">
-#. <tr><td>{="FTP Hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
-#. <tr><td>{="FTP Username"}:&nbsp;</td><td><strong>{$
-#.
+#.     	<tr><td>{="FTP Hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
+#.     	<tr><td>{="FTP Username"}:&nbsp;</td><td><strong>{$
+#. 
 #: www/theme/templates/quick_links.tpl:29
 msgid "FTP Hostname"
-msgstr "FTP Hostname"
+msgstr ""
 
 #. File www/theme/templates/quick_links.tpl:31
 #. Context: <tr><td>{="FTP Username"}:&nbsp;</td><td><strong>{$account.username|htmlentities}</strong></td></tr>
-#. <tr><td>{="FTP Password"}:&nbsp;</td><td>({="Your administrator password"})</td></tr>
-#. </table>
-#.
+#.     	<tr><td>{="FTP Password"}:&nbsp;</td><td>({="Your administrator password"})</td></tr>
+#.     	</table>
+#. 
 #: www/theme/templates/quick_links.tpl:31
 msgid "FTP Password"
-msgstr "FTP Passwort"
+msgstr ""
 
 #. File www/theme/templates/quick_links.tpl:30
 #. Context: <tr><td>{="FTP Hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
-#. <tr><td>{="FTP Username"}:&nbsp;</td><td><strong>{$account.username|htmlentities}</strong></td></tr>
-#. <tr><td>{="FTP Password"}:&nbsp;</td><td>({="Your
-#.
+#.     	<tr><td>{="FTP Username"}:&nbsp;</td><td><strong>{$account.username|htmlentities}</strong></td></tr>
+#.     	<tr><td>{="FTP Password"}:&nbsp;</td><td>({="Your
+#. 
 #: www/theme/templates/quick_links.tpl:30
 msgid "FTP Username"
-msgstr "FTP Username"
+msgstr ""
 
 #. File www/menu.php:202
-#.
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:6
 #. Context: <fieldset>
-#. <legend>{="General"}</legend>
-#.
+#.     		<legend>{="General"}</legend>
+#. 
 #. File www/system/templates/library.tpl:23
 #. Context: playlist_type_text: {
-#. general: '{="General"}',
-#. scheduled: '{="Scheduled"}',
-#.
+#.     		general: '{="General"}',
+#.     		scheduled: '{="Scheduled"}',
+#. 
 #. File system/sources/ices/templates/configuration_source_singlemount.tpl:4
 #. Context: <fieldset>
-#. <legend>{="General"}</legend>
-#.
+#.     		<legend>{="General"}</legend>
+#. 
 #. File system/sources/icescc/templates/configuration_source_singlemount.tpl:4
 #. Context: <fieldset>
-#. <legend>{="General"}</legend>
-#.
+#.     		<legend>{="General"}</legend>
+#. 
 #. File system/sources/ices2/templates/configuration_source_singlemount.tpl:4
 #. Context: <fieldset>
-#. <legend>{="General"}</legend>
-#.
+#.     		<legend>{="General"}</legend>
+#. 
 #. File www/system/templates/admin_settings.tpl:36
 #. Context: <fieldset>
-#. <legend>{="General"}</legend>
-#.
+#.     	<legend>{="General"}</legend>
+#. 
 #. File www/system/templates/admin_settings.tpl:189
 #. Context: <h1>{="General"}</h1>
-#. <table cellspacing="1" cellpadding="1" border="0">
-#.
-#: www/menu.php:202 www/system/templates/configuration_client_widgets.tpl:6
+#.     	<table cellspacing="1" cellpadding="1" border="0">
+#. 
+#: www/menu.php:202
+#: www/system/templates/configuration_client_widgets.tpl:6
 #: www/system/templates/library.tpl:23
 #: system/sources/ices/templates/configuration_source_singlemount.tpl:4
 #: system/sources/icescc/templates/configuration_source_singlemount.tpl:4
@@ -824,37 +847,37 @@ msgstr "FTP Username"
 #: www/system/templates/admin_settings.tpl:36
 #: www/system/templates/admin_settings.tpl:189
 msgid "General"
-msgstr "Allgemein"
+msgstr ""
 
 #. File www/external/rpc/class_RPCgooglemaps.php:12
-#.
+#. 
 #: www/external/rpc/class_RPCgooglemaps.php:12
 msgid "Google Maps support is not available for this stream."
 msgstr ""
-"Die Google Maps unterstützung ist für diesen Streamserver nicht verfügbar."
 
 #. File www/menu.php:371
-#.
+#. 
 #. File www/system/templates/topbar.tpl:4
 #. Context: }, <a href="http://www.centova.com">Centova Technologies Inc.</a></div>
-#. <a href="{if $admin>0}/admin/{else}/reseller/{/if}">{="Home"}</a>{if $admin>0} | <a target="_blank" href="http://www.centova.com/pages/cast">{="Support"}</a> | <a href="{$selfuri}?page=ab
-#.
-#: www/menu.php:371 www/system/templates/topbar.tpl:4
+#.     	<a href="{if $admin>0}/admin/{else}/reseller/{/if}">{="Home"}</a>{if $admin>0} | <a target="_blank" href="http://www.centova.com/pages/cast">{="Support"}</a> | <a href="{$selfuri}?page=ab
+#. 
+#: www/menu.php:371
+#: www/system/templates/topbar.tpl:4
 msgid "Home"
-msgstr "Startseite"
+msgstr ""
 
 #. File www/theme/templates/startpage.tpl:43
 #. Arguments: $hostedby
 #. Context: <div style="float: right">{="Powered by "} <a target="_blank" href="http://www.centova.com">Centova Cast</a></div>
-#. {="Hosted by %s",$hostedby}
-#. </div>
-#.
+#.     		{="Hosted by %s",$hostedby}
+#.     	</div>
+#. 
 #: www/theme/templates/startpage.tpl:43
 msgid "Hosted by %s"
-msgstr "Streamserver by"
+msgstr ""
 
 #. File www/menu.php:62
-#.
+#. 
 #: www/menu.php:62
 msgid "Hosts"
 msgstr ""
@@ -862,104 +885,106 @@ msgstr ""
 #. File www/system/templates/forgotsent.tpl:4
 #. Arguments: "<br />"
 #. Context: {="Instructions for resetting your password%shave been sent via E-mail to","<br />"}:<br /><br />
-#.
+#. 
 #: www/system/templates/forgotsent.tpl:4
 msgid "Instructions for resetting your password%shave been sent via E-mail to"
 msgstr ""
-"Anweisungen wie Sie Ihr Passwort zur&uuml;cksetzen wurden Ihnen an %s per E-"
-"Mail zugeschickt"
 
 #. File www/class_RPCApplication.php:168
-#.
+#. 
 #. File www/client/rpc/class_RPClibrary.php:805
-#.
+#. 
 #. File www/client/rpc/class_RPClibrary.php:737
-#.
-#: www/class_RPCApplication.php:168 www/client/rpc/class_RPClibrary.php:805
+#. 
+#: www/class_RPCApplication.php:168
+#: www/client/rpc/class_RPClibrary.php:805
 #: www/client/rpc/class_RPClibrary.php:737
 msgid "insufficient DJ privileges"
 msgstr ""
 
 #. File www/class_RPCApplication.php:159
-#.
+#. 
 #: www/class_RPCApplication.php:159
 msgid "insufficient staff privileges"
 msgstr ""
 
 #. File www/external/modules/class_Module_start.php:32
-#.
+#. 
 #: www/external/modules/class_Module_start.php:32
 msgid "Invalid account"
 msgstr ""
 
 #. File www/login/modules/class_Module_index.php:90
-#.
+#. 
 #: www/login/modules/class_Module_index.php:90
 msgid "Invalid sign-on token."
-msgstr "Ung&uuml;ltiges Anmelde-Token."
+msgstr ""
 
 #. File www/external/modules/class_Module_recentfeed.php:36
-#.
+#. 
 #. File www/external/modules/class_Module_recentfeed.php:42
-#.
+#. 
 #. File system/AccountManagerDrivers/mutators/class_AccountMutator.php:52
-#.
+#. 
 #. File system/AccountManagerDrivers/mutators/class_AccountMutator.php:82
-#.
+#. 
 #. File system/AccountManagerDrivers/mutators/class_AccountMutator.php:77
-#.
+#. 
 #: www/external/modules/class_Module_recentfeed.php:36
 #: www/external/modules/class_Module_recentfeed.php:42
 #: system/AccountManagerDrivers/mutators/class_AccountMutator.php:52
 #: system/AccountManagerDrivers/mutators/class_AccountMutator.php:82
 #: system/AccountManagerDrivers/mutators/class_AccountMutator.php:77
 msgid "Invalid username"
-msgstr "Ung&uuml;ltiger Benutzername"
+msgstr ""
 
 #. File www/class_CCTemplate.php:94
-#.
+#. 
 #. File www/class_Template.php:1526
-#.
-#: www/class_CCTemplate.php:94 www/class_Template.php:1526
+#. 
+#: www/class_CCTemplate.php:94
+#: www/class_Template.php:1526
 msgid "Jan"
-msgstr "Jan"
+msgstr ""
 
 #. File www/class_CCTemplate.php:94
-#.
+#. 
 #. File www/class_Template.php:1532
-#.
-#: www/class_CCTemplate.php:94 www/class_Template.php:1532
+#. 
+#: www/class_CCTemplate.php:94
+#: www/class_Template.php:1532
 msgid "Jul"
-msgstr "Juli"
+msgstr ""
 
 #. File www/class_CCTemplate.php:94
-#.
+#. 
 #. File www/class_Template.php:1531
-#.
-#: www/class_CCTemplate.php:94 www/class_Template.php:1531
+#. 
+#: www/class_CCTemplate.php:94
+#: www/class_Template.php:1531
 msgid "Jun"
 msgstr ""
 
 #. File www/class_CCTemplate.php:581
-#.
+#. 
 #. File www/system/templates/configuration_client_source.tpl:71
 #. Context: colspan="3"><input type="text" name="config[maxbitrate]" size="5" maxlength="5" value="{$config.maxbitrate|htmlentities}" /> {="Kbps"} {$errors.maxbitrate|checkerror}</td>
-#. </tr>
-#.
+#.     </tr>
+#. 
 #. File www/system/templates/configuration_reseller_limits.tpl:100
 #. Context: sellerbandwidth" name="config[resellerbandwidth]" size="7" maxlength="7" value="{$config.resellerbandwidth|htmlentities}" /> {="Kbps"} {$errors.resellerbandwidth|checkerror} {tip type="icon"}{="Specifies the total amount of bandwidth (in Kbps -- NOT data trans
-#.
+#. 
 #. File www/system/templates/configuration_reseller_limits.tpl:74
 #. Context: ame="config[maxbitrate]" size="5" maxlength="5" value="{$config.maxbitrate|htmlentities}" /> {$errors.maxbitrate|checkerror} {="Kbps"} {tip type="icon"}{="Specifies the maximum bit rate that this reseller can assign to each client account.  (Note that this is
-#.
+#. 
 #. File www/system/templates/configuration_client_limits.tpl:156
 #. Context: ame="config[maxbitrate]" size="5" maxlength="5" value="{$config.maxbitrate|htmlentities}" /> {$errors.maxbitrate|checkerror} {="Kbps"}</td>
-#. </tr>
-#.
+#.     </tr>
+#. 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:12
 #. Context: t" name="centovacast_account[maxbitrate]" id="maxbitrate" size="5" value="{$centovacast_account.maxbitrate|htmlentities}" /> {="Kbps"} ({="blank to use template setting"})</td>
-#. </tr>
-#.
+#.     	</tr>
+#. 
 #: www/class_CCTemplate.php:581
 #: www/system/templates/configuration_client_source.tpl:71
 #: www/system/templates/configuration_reseller_limits.tpl:100
@@ -970,58 +995,60 @@ msgid "Kbps"
 msgstr ""
 
 #. File www/menu.php:357
-#.
+#. 
 #: www/menu.php:357
 msgid "Leaves this account and returns to the account list."
 msgstr ""
 
 #. File www/menu.php:189
-#.
+#. 
 #: www/menu.php:189
 msgid "Leaves this account and returns to the administrator account list."
 msgstr ""
 
 #. File www/menu.php:253
-#.
+#. 
 #. File www/menu.php:453
-#.
+#. 
 #. File www/system/templates/livestats.tpl:78
 #. Context: <th>{="Country"}</th>
-#. <th colspan="5" style="text-align: center">{="Listeners"}</th>
-#. </tr>
-#.
+#.     		<th colspan="5" style="text-align: center">{="Listeners"}</th>
+#.     	</tr>
+#. 
 #. File www/system/templates/livestats.tpl:96
 #. Context: <th>{="User Agent"}</th>
-#. <th colspan="5" style="text-align: center">{="Listeners"}</th>
-#. </tr>
-#.
+#.     		<th colspan="5" style="text-align: center">{="Listeners"}</th>
+#.     	</tr>
+#. 
 #. File www/system/templates/statistics_recent.tpl:31
 #. Context: <tr>
-#. <td class="roweven" style="font-weight: bold">{="Listeners"}</td>
-#. <td class="roweven">{="Total sessions"}</td>
-#.
+#.     				<td class="roweven" style="font-weight: bold">{="Listeners"}</td>
+#.     				<td class="roweven">{="Total sessions"}</td>
+#. 
 #. File www/system/templates/livestats.tpl:17
 #. Context: },
-#. listeners:		'{="Listeners"}'
-#. {/language}
-#.
+#.     listeners:		'{="Listeners"}'
+#.     {/language}
+#. 
 #. File www/client/rpc/class_RPCstatistics_base.php:33
-#.
+#. 
 #. File www/client/modules/class_Module_statistics.php:62
-#.
+#. 
 #. File www/system/templates/statistics_recent.tpl:91
 #. Context: <td class="rowodd" style="font-weight: bold">{="Peak Period"}</td>
-#. <td class="rowodd">{="Listeners"}</td>
-#. <td class="rowodd" align="right" id="recentstats_mostlisteners_listeners">{="%s listener(s)",$zero}</td>
-#.
+#.     				<td class="rowodd">{="Listeners"}</td>
+#.     				<td class="rowodd" align="right" id="recentstats_mostlisteners_listeners">{="%s listener(s)",$zero}</td>
+#. 
 #. File system/class_ReportFormat.php:40
-#.
+#. 
 #. File www/system/templates/admin_accounts_javascript.tpl:69
 #. Context: {="Now playing"}: <span id="rowovertab_songtitle">{="Unknown"}</span><br />
-#. {="Listeners"}: <span id="rowovertab_listeners">{="Unknown"}</span> {="at"} <span id="rowovertab_bitrate">{="Unknown"}</span>
-#. </
-#.
-#: www/menu.php:253 www/menu.php:453 www/system/templates/livestats.tpl:78
+#.                     {="Listeners"}: <span id="rowovertab_listeners">{="Unknown"}</span> {="at"} <span id="rowovertab_bitrate">{="Unknown"}</span>
+#.                 </
+#. 
+#: www/menu.php:253
+#: www/menu.php:453
+#: www/system/templates/livestats.tpl:78
 #: www/system/templates/livestats.tpl:96
 #: www/system/templates/statistics_recent.tpl:31
 #: www/system/templates/livestats.tpl:17
@@ -1031,63 +1058,64 @@ msgstr ""
 #: system/class_ReportFormat.php:40
 #: www/system/templates/admin_accounts_javascript.tpl:69
 msgid "Listeners"
-msgstr "Zuhörer"
+msgstr ""
 
 #. File www/theme/templates/m/role-header.tpl:6
 #. Context: <div id="subheader" class="ui-bar ui-bar-b subheader" data-role="navbar">
-#. <div class="subupper" id="nowplaying">{="Loading"} ...</div>
-#. <div class="sublower">
-#.
+#.     		<div class="subupper" id="nowplaying">{="Loading"} ...</div>
+#.     		<div class="sublower">
+#. 
 #. File www/system/templates/upload_single.tpl:44
 #. Context: <h1>{="File Upload"}</h1>
-#. <div class="upload_file_name">{="Loading"} ...</div>
-#. <div class="upload_file_details">{="Please wait"} ...</div>
-#.
+#.     			<div class="upload_file_name">{="Loading"} ...</div>
+#.     			<div class="upload_file_details">{="Please wait"} ...</div>
+#. 
 #. File www/system/templates/library.tpl:122
 #. Context: <select name="genre" id="genres" size="1" disabled="disabled">
-#. <option value="">{="Loading"} ...</option>
-#. </select>
-#.
+#.     					<option value="">{="Loading"} ...</option>
+#.     					</select>
+#. 
 #. File www/system/templates/library.tpl:179
 #. Context: <div id="panelloadingmsg">
-#. <span id="panelloading_load">{="Loading"} ...</span>
-#. <span id="panelloading_save">{="Saving, please wait"} ...</span><br />
-#.
+#.     			<span id="panelloading_load">{="Loading"} ...</span>
+#.     			<span id="panelloading_save">{="Saving, please wait"} ...</span><br />
+#. 
 #. File www/system/templates/m/index.tpl:15
 #. Context: <ul data-role="listview" id="recent_tracks_list">
-#. <li>{="Loading"} ...</li>
-#. </ul>
-#.
+#.     		<li>{="Loading"} ...</li>
+#.     		</ul>
+#. 
 #. File www/client/modules/class_Module_widgets.php:200
-#.
+#. 
 #. File www/client/modules/class_Module_widgets.php:127
-#.
+#. 
 #. File www/client/modules/class_Module_widgets.php:102
-#.
+#. 
 #. File www/client/modules/class_Module_widgets.php:186
-#.
+#. 
 #. File www/client/modules/class_Module_widgets.php:91
-#.
+#. 
 #. File www/client/modules/class_Module_widgets.php:151
-#.
+#. 
 #. File www/system/templates/admin_serverstatus.tpl:24
 #. Context: <tbody id="rowcontainer">
-#. <tr><td colspan="7" style="text-align: center">{="Loading"} ...</td></tr>
-#. </tbody>
-#.
+#.     <tr><td colspan="7" style="text-align: center">{="Loading"} ...</td></tr>
+#.     </tbody>
+#. 
 #. File www/system/templates/admin_accounts_javascript.tpl:55
 #. Context: <div id="rowovertab_loading">
-#. <img src="../system/images/ajax-loading.gif" align="absmiddle" /> &nbsp;{="Loading"} ...
-#. </div>
-#.
+#.             <img src="../system/images/ajax-loading.gif" align="absmiddle" /> &nbsp;{="Loading"} ...
+#.         </div>
+#. 
 #. File www/system/templates/admin_accounts_javascript.tpl:27
 #. Context: displaying_accounts: '{="Displaying %s-%s of %s account(s)"}',
-#. loading: '{="Loading"}',
-#. loading_accounts: '{="Loading accounts"}'
-#.
+#.     	loading: '{="Loading"}',
+#.     	loading_accounts: '{="Loading accounts"}'
+#. 
 #: www/theme/templates/m/role-header.tpl:6
 #: www/system/templates/upload_single.tpl:44
-#: www/system/templates/library.tpl:122 www/system/templates/library.tpl:179
+#: www/system/templates/library.tpl:122
+#: www/system/templates/library.tpl:179
 #: www/system/templates/m/index.tpl:15
 #: www/client/modules/class_Module_widgets.php:200
 #: www/client/modules/class_Module_widgets.php:127
@@ -1102,98 +1130,104 @@ msgid "Loading"
 msgstr ""
 
 #. File www/menu.php:350
-#.
+#. 
 #. File www/menu.php:182
-#.
+#. 
 #. File www/menu.php:114
-#.
+#. 
 #. File www/system/templates/m/menu.tpl:16
 #. Context: <a href="/m/login/index.php?logout=1" id="btn_prev">{="Log Out"}</a>
-#.
-#: www/menu.php:350 www/menu.php:182 www/menu.php:114
+#. 
+#: www/menu.php:350
+#: www/menu.php:182
+#: www/menu.php:114
 #: www/system/templates/m/menu.tpl:16
 msgid "Log Out"
-msgstr "Abmelden"
+msgstr ""
 
 #. File www/theme/templates/page.tpl:131
 #. Arguments: $loginname|htmlentities
 #. Context: <div id="footer_content">
-#. {="Logged in as: %s",$loginname|htmlentities} <span class="sep">|</span> Centova Cast v{$_CONSTANTS.PRODUCT_VERSION} <span class="sep">|</span> {="
-#.
+#.     	{="Logged in as: %s",$loginname|htmlentities} <span class="sep">|</span> Centova Cast v{$_CONSTANTS.PRODUCT_VERSION} <span class="sep">|</span> {="
+#. 
 #: www/theme/templates/page.tpl:131
 msgid "Logged in as: %s"
-msgstr "Eingeloggt als: %s"
+msgstr ""
 
 #. File www/theme/templates/m/login.tpl:4
 #. Context: <head>
-#. <title>{="Login"}</title>
-#. <meta name="viewport" content="width=device-width, initial-scale=1">
-#.
+#.     	<title>{="Login"}</title>
+#.         <meta name="viewport" content="width=device-width, initial-scale=1">
+#. 
 #. File www/system/templates/login_form.tpl:22
 #. Context: <div class="login_sep"></div>
-#. <input type="submit" name="login" value="{="Login"}" />
-#. </div>
-#.
+#.         <input type="submit" name="login" value="{="Login"}" />
+#.     </div>
+#. 
 #. File www/system/templates/admin_sessions.tpl:59
 #. Context: id&username={$session.username|htmlentities}"><img src="../system/images/icons/setuid.png" border="0" align="absmiddle" alt="{="Login"}" /></a>
-#. <a href="index.php?page=accounts&action=edit&username={$session.username|htmlentities}"><img src="../system/image
-#.
+#.     				<a href="index.php?page=accounts&action=edit&username={$session.username|htmlentities}"><img src="../system/image
+#. 
 #. File www/system/templates/admin_accounts_javascript.tpl:123
 #. Context: uid" href="#"><img class="hastip" tip="#tip_login" src="../system/images/icons/setuid.png" border="0" align="absmiddle" alt="{="Login"}" /></a>{/if}
-#. {if ($staff==0) or ($staffpermissions|contains:"accounts_edit")}<a class="acct_edit" href="#"><img class="has
-#.
-#: www/theme/templates/m/login.tpl:4 www/system/templates/login_form.tpl:22
+#.     			{if ($staff==0) or ($staffpermissions|contains:"accounts_edit")}<a class="acct_edit" href="#"><img class="has
+#. 
+#: www/theme/templates/m/login.tpl:4
+#: www/system/templates/login_form.tpl:22
 #: www/system/templates/admin_sessions.tpl:59
 #: www/system/templates/admin_accounts_javascript.tpl:123
 msgid "Login"
-msgstr "Anmelden"
+msgstr ""
 
 #. File www/menu.php:459
-#.
+#. 
 #. File www/menu.php:259
-#.
+#. 
 #. File www/menu.php:94
-#.
+#. 
 #. File www/client/modules/class_Module_logs.php:12
-#.
-#: www/menu.php:459 www/menu.php:259 www/menu.php:94
+#. 
+#: www/menu.php:459
+#: www/menu.php:259
+#: www/menu.php:94
 #: www/client/modules/class_Module_logs.php:12
 msgid "Logs"
 msgstr ""
 
 #. File www/menu.php:134
-#.
+#. 
 #. File www/menu.php:16
-#.
-#: www/menu.php:134 www/menu.php:16
+#. 
+#: www/menu.php:134
+#: www/menu.php:16
 msgid "Manage"
-msgstr "Verwalten"
+msgstr ""
 
 #. File www/menu.php:436
-#.
+#. 
 #. File www/menu.php:332
-#.
-#: www/menu.php:436 www/menu.php:332
+#. 
+#: www/menu.php:436
+#: www/menu.php:332
 msgid "Manage your media library and add tracks to playlists."
 msgstr ""
-"Verwalten Sie Ihre Bibliothek und f&uuml;gen Sie Titel zu den "
-"Wiedergabelisten hinzu"
 
 #. File www/menu.php:56
-#.
+#. 
 #. File www/menu.php:164
-#.
+#. 
 #. File www/reseller/modules/class_Module_accounttemplates_base.php:10
-#.
+#. 
 #. File www/admin/modules/class_Module_regions.php:18
-#.
+#. 
 #. File www/admin/modules/class_Module_news.php:18
-#.
+#. 
 #. File www/admin/modules/class_Module_remoteservers.php:17
-#.
+#. 
 #. File www/admin/modules/class_Module_rpchosts.php:18
-#.
-#: www/menu.php:56 www/menu.php:164
+#. 
+#: www/menu.php:56
+#: www/menu.php:164
 #: www/reseller/modules/class_Module_accounttemplates_base.php:10
 #: www/admin/modules/class_Module_regions.php:18
 #: www/admin/modules/class_Module_news.php:18
@@ -1203,391 +1237,399 @@ msgid "Management"
 msgstr ""
 
 #. File www/menu.php:63
-#.
+#. 
 #: www/menu.php:63
 msgid "Manages host servers in your cluster."
 msgstr ""
 
 #. File www/menu.php:75
-#.
+#. 
 #: www/menu.php:75
 msgid "Manages news displayed to clients."
 msgstr ""
 
 #. File www/menu.php:170
-#.
+#. 
 #. File www/menu.php:69
-#.
-#: www/menu.php:170 www/menu.php:69
+#. 
+#: www/menu.php:170
+#: www/menu.php:69
 msgid "Manages templates for creation of new accounts."
 msgstr ""
 
 #. File www/menu.php:29
-#.
+#. 
 #: www/menu.php:29
 msgid "Manages your staff accounts."
 msgstr ""
 
 #. File www/menu.php:135
-#.
+#. 
 #. File www/menu.php:17
-#.
-#: www/menu.php:135 www/menu.php:17
+#. 
+#: www/menu.php:135
+#: www/menu.php:17
 msgid "Manages your streaming server accounts."
-msgstr "Verwaltet Ihre Stream-Server-Konten."
+msgstr ""
 
 #. File www/theme/templates/quick_links.tpl:36
 #. Context: {box title="Manuals"}
-#. {="Access the complete documentation for this control panel software"}:<br /><br />
-#.
+#.     	{="Access the complete documentation for this control panel software"}:<br /><br />
+#. 
 #: www/theme/templates/quick_links.tpl:36
 msgid "Manuals"
-msgstr "Handbücher / Verweise"
+msgstr ""
 
 #. File www/class_CCTemplate.php:94
-#.
+#. 
 #. File www/class_Template.php:1528
-#.
-#: www/class_CCTemplate.php:94 www/class_Template.php:1528
+#. 
+#: www/class_CCTemplate.php:94
+#: www/class_Template.php:1528
 msgid "Mar"
-msgstr "März"
+msgstr ""
 
 #. File www/class_Template.php:1530
-#.
+#. 
 #. File www/class_CCTemplate.php:94
-#.
+#. 
 #. File www/client/modules/class_Module_statistics.php:30
-#.
-#: www/class_Template.php:1530 www/class_CCTemplate.php:94
+#. 
+#: www/class_Template.php:1530
+#: www/class_CCTemplate.php:94
 #: www/client/modules/class_Module_statistics.php:30
 msgid "May"
-msgstr "Mai"
+msgstr ""
 
 #. File www/menu.php:331
-#.
+#. 
 #. File www/menu.php:435
-#.
+#. 
 #. File www/system/templates/library.tpl:15
 #. Context: ?  Click OK to discard your changes and revert to the original, or Cancel to resume editing this playlist."}',
-#. media_text: '{="Media"}',
-#. medialib_text: '{="Media Library"}',
-#.
-#: www/menu.php:331 www/menu.php:435 www/system/templates/library.tpl:15
+#.     	media_text: '{="Media"}',
+#.     	medialib_text: '{="Media Library"}',
+#. 
+#: www/menu.php:331
+#: www/menu.php:435
+#: www/system/templates/library.tpl:15
 msgid "Media"
-msgstr "Bibliothek"
+msgstr ""
 
 #. File www/class_CCTemplate.php:95
-#.
+#. 
 #. File www/system/templates/playlist_edit.tpl:258
 #. Context: cted"{/if}>{="Sun"}</option>
-#. <option value="mon"{if $playlist.scheduled_weekdays|contains:"mon"} selected="selected"{/if}>{="Mon"}</option>
-#. <option value="tue"{if $playlist.scheduled_weekdays|contains:"tue"} selected="selected"{/if}>{="Tue"}</option>
-#.
+#.     			<option value="mon"{if $playlist.scheduled_weekdays|contains:"mon"} selected="selected"{/if}>{="Mon"}</option>
+#.     			<option value="tue"{if $playlist.scheduled_weekdays|contains:"tue"} selected="selected"{/if}>{="Tue"}</option>
+#. 
 #. File www/system/templates/djaccount_edit.tpl:128
 #. Context: /if}>{="Sun"}</option>
-#. <option value="mon"{if $djaccount.login_weekdays|contains:"mon"} selected="selected"{/if}>{="Mon"}</option>
-#. <option value="tue"{if $djaccount.login_weekdays|contains:"tue"} selected="selected"{/if}>{="Tue"}</opti
-#.
-#: www/class_CCTemplate.php:95 www/system/templates/playlist_edit.tpl:258
+#.                 <option value="mon"{if $djaccount.login_weekdays|contains:"mon"} selected="selected"{/if}>{="Mon"}</option>
+#.                 <option value="tue"{if $djaccount.login_weekdays|contains:"tue"} selected="selected"{/if}>{="Tue"}</opti
+#. 
+#: www/class_CCTemplate.php:95
+#: www/system/templates/playlist_edit.tpl:258
 #: www/system/templates/djaccount_edit.tpl:128
 msgid "Mon"
-msgstr "Montag"
+msgstr ""
 
 #. File www/external/modules/class_Module_recentfeed.php:64
-#.
+#. 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:184
 #. Context: <select name="mountpoints_field[liqopussignal]" class="list_editor_field" size="1">
-#. <option value="music">{="Music"}</option>
-#. <option value="voice">{="Voice"}</option>
-#.
+#.     					<option value="music">{="Music"}</option>
+#.     					<option value="voice">{="Voice"}</option>
+#. 
 #: www/external/modules/class_Module_recentfeed.php:64
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:184
 msgid "Music"
-msgstr "Musik"
+msgstr ""
 
 #. File www/class_StreamStatus.php:528
-#.
+#. 
 #: www/class_StreamStatus.php:528
 msgid "n/a"
-msgstr "n/a"
+msgstr ""
 
 #. File www/menu.php:74
-#.
+#. 
 #. File www/system/templates/news.tpl:6
 #. Context: tyle="float: right; margin-right: 8px"><a href="#" id="closenews"><img src="/system/images/icons/close.png" /></a></div>
-#. {="News"}
-#. </div>
-#.
+#.     				{="News"}
+#.     			</div>
+#. 
 #. File www/system/templates/admin_index.tpl:2
 #. Context: {if $news!=""}
-#. {box title="News"}
-#. <div style="float: right"><a href="index.php?page=accounts&hidenews=1"><img src="../system/images/icons/close.png" border="0
-#.
-#: www/menu.php:74 www/system/templates/news.tpl:6
+#.     {box title="News"}
+#.     	<div style="float: right"><a href="index.php?page=accounts&hidenews=1"><img src="../system/images/icons/close.png" border="0
+#. 
+#: www/menu.php:74
+#: www/system/templates/news.tpl:6
 #: www/system/templates/admin_index.tpl:2
 msgid "News"
 msgstr ""
 
 #. File www/class_StreamStatus.php:531
-#.
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:23
 #. Context: mand>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.allowondemand==0} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
+#.     		<option value="0"{if $config.allowondemand==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select>
+#. 
 #. File www/system/templates/configuration_client_source.tpl:62
 #. Context: ist>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.randomplaylist==0} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
+#.     		<option value="0"{if $config.randomplaylist==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select>
+#. 
 #. File www/system/templates/configuration_client_source.tpl:53
 #. Context: build playlist on each stream startup"}</option>
-#. <option value="0"{if $config.autorebuildlist==0} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
+#.     		<option value="0"{if $config.autorebuildlist==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select>
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:32
 #. Context: owgmaps>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.allowgmaps==0} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
+#.     		<option value="0"{if $config.allowgmaps==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select>
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:14
 #. Context: tpage>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.usestartpage==0} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
+#.     		<option value="0"{if $config.usestartpage==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select>
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:52
 #. Context: ests>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.allowrequests==0} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
+#.     		<option value="0"{if $config.allowrequests==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select>
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:85
 #. Context: selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.emailunknownrequests==0} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
+#.     		<option value="0"{if $config.emailunknownrequests==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select>
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:102
 #. Context: recent>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.allowrecent==0} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
+#.     		<option value="0"{if $config.allowrecent==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select>
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:61
 #. Context: >0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.autoqueuerequests==0} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
+#.     		<option value="0"{if $config.autoqueuerequests==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select>
+#. 
 #. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:26
 #. Context: nd>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.masterondemand==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.masterondemand|checkerror}
-#.
+#.     		<option value="0"{if $config.masterondemand==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select> {$errors.masterondemand|checkerror}
+#. 
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:8
 #. Context: <select name="config[autodumpusers]" size="1">
-#. <option value="0"{if $config.autodumpusers==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.autodumpusers>0} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     		<option value="0"{if $config.autodumpusers==0} selected="selected"{/if}>{="No"}</option>
+#.     		<option value="1"{if $config.autodumpusers>0} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:34
 #. Context: and>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.relayondemand==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.relayondemand|checkerror}
-#.
+#.     		<option value="0"{if $config.relayondemand==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select> {$errors.relayondemand|checkerror}
+#. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:72
 #. Context: ebug>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.nextsongdebug|checkerror}
-#.
+#.     		<option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select> {$errors.nextsongdebug|checkerror}
+#. 
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:43
 #. Context: eserver>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.useserver|checkerror}
-#.
+#.     		<option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select> {$errors.useserver|checkerror}
+#. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:63
 #. Context: seserver>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.useserver|checkerror}
-#.
+#.     		<option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select> {$errors.useserver|checkerror}
+#. 
 #. File system/albumds/class_AlbumDataSource.php:279
-#.
+#. 
 #. File system/albumds/class_AlbumDataSource_amazon.php:408
-#.
+#. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:51
 #. Context: ect>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.burstonconnect==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.burstonconnect|checkerror}
-#.
+#.     		<option value="0"{if $config.burstonconnect==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select> {$errors.burstonconnect|checkerror}
+#. 
 #. File system/albumds/class_AlbumDataSource_amazon.php:399
-#.
+#. 
 #. File system/servers/ShoutCast/templates/configuration_client_relay.tpl:19
 #. Context: name="config[allowpublicrelay]" size="1">
-#. <option value="No"{if $config.allowpublicrelay=="No"} selected="selected"{/if}>{="No"}</option>
-#. <option value="Yes"{if $config.allowpublicrelay=="Yes"} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     		<option value="No"{if $config.allowpublicrelay=="No"} selected="selected"{/if}>{="No"}</option>
+#.     		<option value="Yes"{if $config.allowpublicrelay=="Yes"} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File system/servers/ShoutCast/templates/configuration_client_relay.tpl:10
 #. Context: <select name="config[allowrelay]" size="1">
-#. <option value="No"{if $config.allowrelay=="No"} selected="selected"{/if}>{="No"}</option>
-#. <option value="Yes"{if $config.allowrelay=="Yes"} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     		<option value="No"{if $config.allowrelay=="No"} selected="selected"{/if}>{="No"}</option>
+#.     		<option value="Yes"{if $config.allowrelay=="Yes"} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:52
 #. Context: bug>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.nextsongdebug|checkerror}
-#.
+#.     		<option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select> {$errors.nextsongdebug|checkerror}
+#. 
 #. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:43
 #. Context: laymeta>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.relaymeta==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.relaymeta|checkerror}
-#.
+#.     		<option value="0"{if $config.relaymeta==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select> {$errors.relaymeta|checkerror}
+#. 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:194
 #. Context: <option value="true">{="Yes"}</option>
-#. <option value="false">{="No"}</option>
-#. </select>
-#.
+#.     					<option value="false">{="No"}</option>
+#.     					</select>
+#. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:91
 #. Context: nfull]" size="1" class="list_editor_field">
-#. <option value="0"{if $config.fallbackwhenfull=="0"} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.fallbackwhenfull=="1"} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     				<option value="0"{if $config.fallbackwhenfull=="0"} selected="selected"{/if}>{="No"}</option>
+#.     				<option value="1"{if $config.fallbackwhenfull=="1"} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:238
 #. Context: <select name="mountpoints_field[liqfdksbr_mode]" class="list_editor_field" size="1">
-#. <option value="false">{="No"}</option>
-#. <option value="true">{="Yes"}</option>
-#.
+#.     					<option value="false">{="No"}</option>
+#.     					<option value="true">{="Yes"}</option>
+#. 
 #. File system/sources/liquidsoap/templates/configuration_source.tpl:27
 #. Context: n!="0"} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.replay_gain=="0"} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.replay_gain|checkerror}
-#.
+#.     		<option value="0"{if $config.replay_gain=="0"} selected="selected"{/if}>{="No"}</option>
+#.     		</select> {$errors.replay_gain|checkerror}
+#. 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:29
 #. Context: s="list_editor_field" size="1">
-#. <option value="false"{if $config.mountpoints.liqpublic!="true"} selected="selected"{/if}>{="No"}</option>
-#. <option value="true"{if $config.mountpoints.liqpublic=="true"} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     				<option value="false"{if $config.mountpoints.liqpublic!="true"} selected="selected"{/if}>{="No"}</option>
+#.     				<option value="true"{if $config.mountpoints.liqpublic=="true"} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:13
 #. Context: </td>
-#. <td><select name="mountpoints_field[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
-#. </tr>
-#.
+#.     			<td><select name="mountpoints_field[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
+#.     		</tr>
+#. 
 #. File system/sources/ices/templates/configuration_source_mountpoints.tpl:9
 #. Context: <td colspan="3"><select name="{$mpfieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
-#. </tr>
-#.
+#.     		</tr>
+#. 
 #. File system/sources/ices/templates/configuration_source_mountpoints.tpl:28
 #. Context: c]" class="list_editor_field" size="1">
-#. <option value="0"{if $config.mountpoints.icespublic==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.mountpoints.icespublic>0} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     				<option value="0"{if $config.mountpoints.icespublic==0} selected="selected"{/if}>{="No"}</option>
+#.     				<option value="1"{if $config.mountpoints.icespublic>0} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:9
 #. Context: <td colspan="3"><select name="{$mpfieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
-#. </tr>
-#.
+#.     		</tr>
+#. 
 #. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:28
 #. Context: c]" class="list_editor_field" size="1">
-#. <option value="0"{if $config.mountpoints.icespublic==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.mountpoints.icespublic>0} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     				<option value="0"{if $config.mountpoints.icespublic==0} selected="selected"{/if}>{="No"}</option>
+#.     				<option value="1"{if $config.mountpoints.icespublic>0} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:8
 #. Context: </td>
-#. <td><select name="mountpoints_field[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
-#. </tr>
-#.
+#.     			<td><select name="mountpoints_field[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
+#.     		</tr>
+#. 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:203
 #. Context: <select name="mountpoints_field[liqfdkafterburner]" class="list_editor_field" size="1">
-#. <option value="false">{="No"}</option>
-#. <option value="true">{="Yes"}</option>
-#.
+#.     					<option value="false">{="No"}</option>
+#.     					<option value="true">{="Yes"}</option>
+#. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:83
 #. Context: selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.fallbackoverride=="0"} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
+#.     				<option value="0"{if $config.fallbackoverride=="0"} selected="selected"{/if}>{="No"}</option>
+#.     				</select>
+#. 
 #. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:25
 #. Context: ect name="config[allowpublicrelay]" size="1">
-#. <option value="0"{if $config.allowpublicrelay=="0"} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.allowpublicrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     		<option value="0"{if $config.allowpublicrelay=="0"} selected="selected"{/if}>{="No"}</option>
+#.     		<option value="1"{if $config.allowpublicrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:16
 #. Context: <select name="config[allowrelay]" size="1">
-#. <option value="0"{if $config.allowrelay=="0"} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.allowrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     		<option value="0"{if $config.allowrelay=="0"} selected="selected"{/if}>{="No"}</option>
+#.     		<option value="1"{if $config.allowrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File system/sources/sctrans2/templates/configuration_source.tpl:33
 #. Context: <select name="config[sctransapplyrpg]" size="1">
-#. <option value="0"{if $config.sctransapplyrpg==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.sctransapplyrpg>0} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     		<option value="0"{if $config.sctransapplyrpg==0} selected="selected"{/if}>{="No"}</option>
+#.     		<option value="1"{if $config.sctransapplyrpg>0} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:67
 #. Context: <select name="config[yp2]" size="1">
-#. <option value="0"{if $config.yp2==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.yp2>0} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     		<option value="0"{if $config.yp2==0} selected="selected"{/if}>{="No"}</option>
+#.     		<option value="1"{if $config.yp2>0} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:52
 #. Context: ebug>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.nextsongdebug|checkerror}
-#.
+#.     		<option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select> {$errors.nextsongdebug|checkerror}
+#. 
 #. File system/sources/sctrans2/templates/configuration_source.tpl:46
 #. Context: <select name="config[sctranscalcrpg]" size="1">
-#. <option value="0"{if $config.sctranscalcrpg==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.sctranscalcrpg>0} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     		<option value="0"{if $config.sctranscalcrpg==0} selected="selected"{/if}>{="No"}</option>
+#.     		<option value="1"{if $config.sctranscalcrpg>0} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File system/sources/ices2/templates/configuration_source_mountpoints.tpl:9
 #. Context: <td colspan="3"><select name="{$mpfieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
-#. </tr>
-#.
+#.     		</tr>
+#. 
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:17
 #. Context: <select name="config[autodumpusers]" size="1">
-#. <option value="0"{if $config.autodumpusers==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.autodumpusers>0} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     		<option value="0"{if $config.autodumpusers==0} selected="selected"{/if}>{="No"}</option>
+#.     		<option value="1"{if $config.autodumpusers>0} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:43
 #. Context: seserver>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
-#. </select> {$errors.useserver|checkerror}
-#.
+#.     		<option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select> {$errors.useserver|checkerror}
+#. 
 #. File www/system/templates/admin_sourcetype_edit.tpl:28
 #. Context: <select name="sourcetype[enabled]" size="1">
-#. <option value="0"{if $sourcetype.enabled==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $sourcetype.enabled>0} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     		<option value="0"{if $sourcetype.enabled==0} selected="selected"{/if}>{="No"}</option>
+#.     		<option value="1"{if $sourcetype.enabled>0} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File www/system/templates/admin_newsarticle_edit.tpl:38
 #. Context: sible>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $newsarticle.visible==0} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
+#.     		<option value="0"{if $newsarticle.visible==0} selected="selected"{/if}>{="No"}</option>
+#.     		</select>
+#. 
 #. File www/system/templates/admin_remoteserver_edit.tpl:29
 #. Context: elect name="remoteserver[apicluster]" size="1">
-#. <option value="0"{if $remoteserver.apicluster==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $remoteserver.apicluster>0} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     		<option value="0"{if $remoteserver.apicluster==0} selected="selected"{/if}>{="No"}</option>
+#.     		<option value="1"{if $remoteserver.apicluster>0} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File www/system/templates/admin_settings.tpl:271
 #. Context: t name="settings[allowstreamlist]" size="1">
-#. <option value="0"{if $settings.allowstreamlist==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $settings.allowstreamlist>0} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     				<option value="0"{if $settings.allowstreamlist==0} selected="selected"{/if}>{="No"}</option>
+#.     				<option value="1"{if $settings.allowstreamlist>0} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File www/system/templates/admin_settings.tpl:261
 #. Context: name="settings[allowlogdownload]" size="1">
-#. <option value="0"{if $settings.allowlogdownload==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $settings.allowlogdownload>0} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     			<option value="0"{if $settings.allowlogdownload==0} selected="selected"{/if}>{="No"}</option>
+#.     			<option value="1"{if $settings.allowlogdownload>0} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File www/system/templates/admin_settings.tpl:290
 #. Context: es>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $settings.importimages==0} selected="selected"{/if}>{="No"}</option>
-#. </select>
-#.
+#.     			<option value="0"{if $settings.importimages==0} selected="selected"{/if}>{="No"}</option>
+#.     			</select>
+#. 
 #. File www/system/templates/admin_settings.tpl:321
 #. Context: <select name="settings[allowsso]" size="1">
-#. <option value="0"{if $settings.allowsso==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $settings.allowsso>0} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     			<option value="0"{if $settings.allowsso==0} selected="selected"{/if}>{="No"}</option>
+#.     			<option value="1"{if $settings.allowsso>0} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File www/system/templates/admin_servertype_edit.tpl:28
 #. Context: <select name="servertype[enabled]" size="1">
-#. <option value="0"{if $servertype.enabled==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $servertype.enabled>0} selected="selected"{/if}>{="Yes"}</option>
-#.
+#.     		<option value="0"{if $servertype.enabled==0} selected="selected"{/if}>{="No"}</option>
+#.     		<option value="1"{if $servertype.enabled>0} selected="selected"{/if}>{="Yes"}</option>
+#. 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:27
 #. Context: cted="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $centovacast_account.startserver==0} selected="selected"{/if}>{="No"}</option>
-#. </select> ({="only used for non-autoDJ streams"})
-#.
+#.     			<option value="0"{if $centovacast_account.startserver==0} selected="selected"{/if}>{="No"}</option>
+#.     			</select> ({="only used for non-autoDJ streams"})
+#. 
 #: www/class_StreamStatus.php:531
 #: www/system/templates/configuration_client_widgets.tpl:23
 #: www/system/templates/configuration_client_source.tpl:62
@@ -1644,126 +1686,128 @@ msgstr ""
 #: www/system/templates/admin_servertype_edit.tpl:28
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:27
 msgid "No"
-msgstr "Nein"
+msgstr ""
 
 #. File www/external/rpc/class_RPCondemand.php:134
-#.
+#. 
 #: www/external/rpc/class_RPCondemand.php:134
 msgid "No on-demand content is available at this time."
-msgstr "Keine Inhalte verf&uuml;gbar"
+msgstr ""
 
 #. File www/external/rpc/class_RPCrecenttracks.php:37
-#.
+#. 
 #: www/external/rpc/class_RPCrecenttracks.php:37
 msgid "No recent tracks are available"
-msgstr "Es sind keine Tracks verfügbar"
+msgstr ""
 
 #. File www/class_StreamStatus.php:511
-#.
+#. 
 #. File www/external/rpc/class_RPCrequest.php:23
-#.
+#. 
 #. File www/system/templates/statistics_downloads.tpl:24
 #. Context: <tbody>
-#. <tr><td class="rowodd" colspan="3" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
+#.     		<tr><td class="rowodd" colspan="3" style="text-align: center">{="None"}</td></tr>
+#.     	</tbody>
+#. 
 #. File www/system/templates/new_account_form.tpl:101
 #. Context: <option value="">{="Select autoDJ type..."}</option>
-#. <option value="none">{="None"}</option>
-#. {loop $sourcetype=$sourcetypes}
-#.
+#.     			<option value="none">{="None"}</option>
+#.     			{loop $sourcetype=$sourcetypes}
+#. 
 #. File www/system/templates/livestats.tpl:82
 #. Context: <tbody>
-#. <tr><td class="rowodd" colspan="5" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
+#.     	<tr><td class="rowodd" colspan="5" style="text-align: center">{="None"}</td></tr>
+#.     </tbody>
+#. 
 #. File www/system/templates/statistics_listeners.tpl:149
 #. Context: <tbody>
-#. <tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
+#.     		    <tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
+#.     		</tbody>
+#. 
 #. File www/system/templates/livestats.tpl:100
 #. Context: <tbody>
-#. <tr><td class="rowodd" colspan="5" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
+#.     	<tr><td class="rowodd" colspan="5" style="text-align: center">{="None"}</td></tr>
+#.     </tbody>
+#. 
 #. File www/system/templates/statistics.tpl:6
 #. Context: {language}
-#. none: 			'{="None"}',
-#. other: 			'{="Other"}',
-#.
+#.     	none: 			'{="None"}',
+#.         other: 			'{="Other"}',
+#. 
 #. File www/system/templates/statistics_agents.tpl:43
 #. Context: <tbody>
-#. <tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
+#.         <tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
+#.     </tbody>
+#. 
 #. File www/system/templates/statistics_agents.tpl:20
 #. Context: <tbody>
-#. <tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
+#.         <tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
+#.     </tbody>
+#. 
 #. File www/system/templates/livestats.tpl:63
 #. Context: seragent>0}{if $showduration>0}7{else}6{/if}{otherwise}{if $showduration>0}5{else}4{/if}{/check}" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
+#.     </tbody>
+#. 
 #. File www/system/templates/statistics_listeners.tpl:172
 #. Context: <tbody>
-#. <tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
-#. {loop $listener=$toplistenerminutes onlast=" tdlast"}
-#.
+#.     		<tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
+#.     		{loop $listener=$toplistenerminutes onlast=" tdlast"}
+#. 
 #. File www/system/templates/statistics_countries.tpl:41
 #. Context: <tbody>
-#. <tr><td class="rowodd" colspan="6" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
+#.         <tr><td class="rowodd" colspan="6" style="text-align: center">{="None"}</td></tr>
+#.     </tbody>
+#. 
 #. File www/system/templates/statistics_tracks.tpl:82
 #. Context: <tbody>
-#. <tr><td class="rowodd" colspan="4" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
+#.         	<tr><td class="rowodd" colspan="4" style="text-align: center">{="None"}</td></tr>
+#.     	</tbody>
+#. 
 #. File www/system/templates/statistics_tracks.tpl:62
 #. Context: <tbody>
-#. <tr><td class="rowodd" colspan="4" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
+#.         	<tr><td class="rowodd" colspan="4" style="text-align: center">{="None"}</td></tr>
+#.     	</tbody>
+#. 
 #. File www/system/templates/livestats.tpl:9
 #. Context: {language}
-#. none:			'{="None"}',
-#. other: 			'{="Other"}',
-#.
+#.     none:			'{="None"}',
+#.     other: 			'{="Other"}',
+#. 
 #. File www/system/templates/statistics_tracks.tpl:104
 #. Context: <tbody>
-#. <tr><td class="rowodd" colspan="2" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
+#.         	<tr><td class="rowodd" colspan="2" style="text-align: center">{="None"}</td></tr>
+#.     	</tbody>
+#. 
 #. File www/system/templates/statistics_tracks.tpl:122
 #. Context: <tbody>
-#. <tr><td class="rowodd" colspan="2" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
+#.         	<tr><td class="rowodd" colspan="2" style="text-align: center">{="None"}</td></tr>
+#.     	</tbody>
+#. 
 #. File www/system/templates/statistics_countries.tpl:19
 #. Context: <tbody>
-#. <tr><td class="rowodd" colspan="6" style="text-align: center">{="None"}</td></tr>
-#. </tbody>
-#.
+#.         <tr><td class="rowodd" colspan="6" style="text-align: center">{="None"}</td></tr>
+#.     </tbody>
+#. 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:154
 #. Context: <select name="mountpoints_field[liqopusvbr]" class="list_editor_field" size="1">
-#. <option value="none">{="None"}</option>
-#. <option value="constrained">{="Constrained"}</option>
-#.
+#.     					<option value="none">{="None"}</option>
+#.     					<option value="constrained">{="Constrained"}</option>
+#. 
 #. File system/sources/sctrans/templates/configuration_source.tpl:7
 #. Context: select name="config[sccrossfademode]" size="1">
-#. <option value="0"{if $config.sccrossfademode==0} selected="selected"{/if}>{="None"}</option>
-#. <option value="1"{if $config.sccrossfademode==1} selected="selected"{/if}>100/100-&gt;100/0</option>
-#.
+#.     		<option value="0"{if $config.sccrossfademode==0} selected="selected"{/if}>{="None"}</option>
+#.     		<option value="1"{if $config.sccrossfademode==1} selected="selected"{/if}>100/100-&gt;100/0</option>
+#. 
 #. File system/class_Statistics.php:490
-#.
-#: www/class_StreamStatus.php:511 www/external/rpc/class_RPCrequest.php:23
+#. 
+#: www/class_StreamStatus.php:511
+#: www/external/rpc/class_RPCrequest.php:23
 #: www/system/templates/statistics_downloads.tpl:24
 #: www/system/templates/new_account_form.tpl:101
 #: www/system/templates/livestats.tpl:82
 #: www/system/templates/statistics_listeners.tpl:149
-#: www/system/templates/livestats.tpl:100 www/system/templates/statistics.tpl:6
+#: www/system/templates/livestats.tpl:100
+#: www/system/templates/statistics.tpl:6
 #: www/system/templates/statistics_agents.tpl:43
 #: www/system/templates/statistics_agents.tpl:20
 #: www/system/templates/livestats.tpl:63
@@ -1779,299 +1823,308 @@ msgstr "Es sind keine Tracks verfügbar"
 #: system/sources/sctrans/templates/configuration_source.tpl:7
 #: system/class_Statistics.php:490
 msgid "None"
-msgstr "Keine Daten"
+msgstr ""
 
 #. File www/rpc/class_RPCServer.php:218
 #. Arguments: is_null($details) ? '' : ' ('.$details.')'
-#.
+#. 
 #: www/rpc/class_RPCServer.php:218
 msgid "Not authenticated%s.  Please login again to continue."
 msgstr ""
 
 #. File www/system/templates/startpage_disabled.tpl:1
 #. Context: <h3>{="Not found"}</h3>
-#.
+#. 
 #: www/system/templates/startpage_disabled.tpl:1
 msgid "Not found"
 msgstr ""
 
 #. File www/class_WebApplication.php:212
-#.
+#. 
 #: www/class_WebApplication.php:212
 msgid "Not logged in"
 msgstr ""
 
 #. File www/class_RPCApplication.php:175
-#.
+#. 
 #: www/class_RPCApplication.php:175
 msgid "not logged in or session timed out"
 msgstr ""
 
 #. File www/class_CCTemplate.php:94
-#.
+#. 
 #. File www/class_Template.php:1536
-#.
-#: www/class_CCTemplate.php:94 www/class_Template.php:1536
+#. 
+#: www/class_CCTemplate.php:94
+#: www/class_Template.php:1536
 msgid "Nov"
-msgstr "Nov."
+msgstr ""
 
 #. File www/system/templates/startpage_nowplaying.tpl:4
 #. Context: <div style="white-space: nowrap; overflow: hidden; margin-right: 8px">
-#. {="Now playing"}: <a href="/tunein/{$username|htmlentities}.pls" id="cc_strinfo_summary_{$username|htmlentities}{$charset|htmlentities}" class
-#.
+#.     			{="Now playing"}: <a href="/tunein/{$username|htmlentities}.pls" id="cc_strinfo_summary_{$username|htmlentities}{$charset|htmlentities}" class
+#. 
 #. File www/theme/templates/m/page.tpl:22
 #. Context: if (streaminfo.serverstate && streaminfo.sourceconn) {
-#. $('#nowplaying').text('{="Now playing"}: ').append( $('<strong/>').text(streaminfo.song) );
-#. } else {
-#.
+#.     				$('#nowplaying').text('{="Now playing"}: ').append( $('<strong/>').text(streaminfo.song) );
+#.     			} else {
+#. 
 #. File www/external/rpc/class_RPCrecenttracks.php:36
-#.
+#. 
 #. File www/system/templates/admin_accounts_javascript.tpl:68
 #. Context: <div id="rowovertab_online">
-#. {="Now playing"}: <span id="rowovertab_songtitle">{="Unknown"}</span><br />
-#. {="Listeners"}: <span id="rowovertab_listeners">{=
-#.
+#.                     {="Now playing"}: <span id="rowovertab_songtitle">{="Unknown"}</span><br />
+#.                     {="Listeners"}: <span id="rowovertab_listeners">{=
+#. 
 #: www/system/templates/startpage_nowplaying.tpl:4
 #: www/theme/templates/m/page.tpl:22
 #: www/external/rpc/class_RPCrecenttracks.php:36
 #: www/system/templates/admin_accounts_javascript.tpl:68
 msgid "Now playing"
-msgstr "Spielt gerade"
+msgstr ""
 
 #. File www/class_CCTemplate.php:94
-#.
+#. 
 #. File www/class_Template.php:1535
-#.
-#: www/class_CCTemplate.php:94 www/class_Template.php:1535
+#. 
+#: www/class_CCTemplate.php:94
+#: www/class_Template.php:1535
 msgid "Oct"
-msgstr "Okt"
+msgstr ""
 
 #. File www/class_StreamStatus.php:529
-#.
+#. 
 #. File www/class_StreamStatus.php:530
-#.
+#. 
 #. File www/external/rpc/class_RPCaccountinfo.php:47
-#.
+#. 
 #. File www/class_StreamStatus.php:520
-#.
+#. 
 #. File www/theme/templates/m/page.tpl:24
 #. Context: } else {
-#. $('#nowplaying').text('{="Offline"}');
-#. }
-#.
+#.     				$('#nowplaying').text('{="Offline"}');
+#.     			}
+#. 
 #. File www/external/rpc/class_RPCaccountinfo.php:48
-#.
+#. 
 #. File www/client/class_ClientApplication.php:159
-#.
+#. 
 #. File www/client/class_ClientApplication.php:157
-#.
-#: www/class_StreamStatus.php:529 www/class_StreamStatus.php:530
-#: www/external/rpc/class_RPCaccountinfo.php:47 www/class_StreamStatus.php:520
+#. 
+#: www/class_StreamStatus.php:529
+#: www/class_StreamStatus.php:530
+#: www/external/rpc/class_RPCaccountinfo.php:47
+#: www/class_StreamStatus.php:520
 #: www/theme/templates/m/page.tpl:24
 #: www/external/rpc/class_RPCaccountinfo.php:48
 #: www/client/class_ClientApplication.php:159
 #: www/client/class_ClientApplication.php:157
 msgid "Offline"
-msgstr "Getrennt"
+msgstr ""
 
 #. File www/class_NextSongApplication.php:333
-#.
+#. 
 #. File www/system/templates/filemanager.tpl:12
 #. Context: {language}
-#. ok: '{="OK"}',
-#. upload_here: '{="Upload here"}',
-#.
+#.     	ok: '{="OK"}',
+#.     	upload_here: '{="Upload here"}',
+#. 
 #. File www/system/templates/filemanager.tpl:104
 #. Context: <input type="button" value="{="OK"}" id="rename_submit" onclick="window.fm.do_rename()" />
-#. <input type="button" value="{="Cancel"}" onclick="window.fm.close_
-#.
+#.         <input type="button" value="{="Cancel"}" onclick="window.fm.close_
+#. 
 #. File www/system/templates/client_directory_error.tpl:12
 #. Context: {
-#. caption: '{="OK"}',
-#. onclick: function() {
-#.
+#.     					caption: '{="OK"}',
+#.     					onclick: function() {
+#. 
 #. File www/system/templates/uncaught_exception.tpl:67
 #. Context: <form>
-#. <input type="button" value="{="OK"}" onclick="window.location='../index.php'" />
-#. {check $exception.brief==0}
-#.
+#.     	<input type="button" value="{="OK"}" onclick="window.location='../index.php'" />
+#.     {check $exception.brief==0}
+#. 
 #. File www/system/templates/library.tpl:188
 #. Context: <div id="tipbox_content"></div>
-#. <input type="button" class="tipbox_button" id="tipbox_ok" value="{="OK"}" /> <input type="button" class="tipbox_button" id="tipbox_cancel" value="{="Cancel"}" />
-#. </div>
-#.
+#.     		<input type="button" class="tipbox_button" id="tipbox_ok" value="{="OK"}" /> <input type="button" class="tipbox_button" id="tipbox_cancel" value="{="Cancel"}" />
+#.     	</div>
+#. 
 #. File www/system/templates/logmanager.tpl:11
 #. Context: {language}
-#. ok: '{="OK"}',
-#. log_manager: '{="Log Manager"}',
-#.
+#.     	ok: '{="OK"}',
+#.     	log_manager: '{="Log Manager"}',
+#. 
 #. File www/system/templates/admin_accounts.tpl:29
 #. Context: processing_close: '{="Close"}',
-#. processing_success: '{="OK"}',
-#. account_is_suspended: '{="Account is suspended"}.',
-#.
+#.     	processing_success: '{="OK"}',
+#.     	account_is_suspended: '{="Account is suspended"}.',
+#. 
 #. File system/class_ServerControl.php:1629
-#.
+#. 
 #: www/class_NextSongApplication.php:333
 #: www/system/templates/filemanager.tpl:12
 #: www/system/templates/filemanager.tpl:104
 #: www/system/templates/client_directory_error.tpl:12
 #: www/system/templates/uncaught_exception.tpl:67
-#: www/system/templates/library.tpl:188 www/system/templates/logmanager.tpl:11
+#: www/system/templates/library.tpl:188
+#: www/system/templates/logmanager.tpl:11
 #: www/system/templates/admin_accounts.tpl:29
 #: system/class_ServerControl.php:1629
 msgid "OK"
-msgstr "Ok"
+msgstr ""
 
 #. File www/system/templates/startpage_index.tpl:33
 #. Context: {check $account.allowondemand>0}
-#. <h3>{="On-demand Content"}</h3>
-#.
+#.     		<h3>{="On-demand Content"}</h3>
+#. 
 #. File www/client/modules/class_Module_widgets.php:146
-#.
+#. 
 #: www/system/templates/startpage_index.tpl:33
 #: www/client/modules/class_Module_widgets.php:146
 msgid "On-demand Content"
-msgstr "Inhalte Auf Abruf"
+msgstr ""
 
 #. File www/external/rpc/class_RPCondemand.php:30
-#.
+#. 
 #: www/external/rpc/class_RPCondemand.php:30
 msgid "On-demand content has been disabled for this stream."
-msgstr "inhalte auf Abruf wurde f&uuml;r diesen Stream deaktiviert."
+msgstr ""
 
 #. File www/class_StreamStatus.php:530
-#.
+#. 
 #. File www/external/rpc/class_RPCaccountinfo.php:47
-#.
+#. 
 #. File www/class_StreamStatus.php:529
-#.
+#. 
 #. File www/external/rpc/class_RPCaccountinfo.php:48
-#.
+#. 
 #. File www/client/class_ClientApplication.php:159
-#.
+#. 
 #. File www/client/class_ClientApplication.php:157
-#.
-#: www/class_StreamStatus.php:530 www/external/rpc/class_RPCaccountinfo.php:47
-#: www/class_StreamStatus.php:529 www/external/rpc/class_RPCaccountinfo.php:48
+#. 
+#: www/class_StreamStatus.php:530
+#: www/external/rpc/class_RPCaccountinfo.php:47
+#: www/class_StreamStatus.php:529
+#: www/external/rpc/class_RPCaccountinfo.php:48
 #: www/client/class_ClientApplication.php:159
 #: www/client/class_ClientApplication.php:157
 msgid "Online"
-msgstr "Verbunden"
+msgstr ""
 
 #. File www/class_LiveStatistics.php:159
-#.
+#. 
 #. File www/class_LiveStatistics.php:176
-#.
+#. 
 #. File www/system/templates/statistics.tpl:7
 #. Context: none: 			'{="None"}',
-#. other: 			'{="Other"}',
-#. {/language}
-#.
+#.         other: 			'{="Other"}',
+#.     {/language}
+#. 
 #. File www/system/templates/client_head.tpl:27
 #. Context: notrunning: '{="The server is not currently running.  Please start the server, then try again."}',
-#. other: '{="Other"}',
-#. tuneinwith: '{="Tune in with ..."}'
-#.
+#.     	other: '{="Other"}',
+#.     	tuneinwith: '{="Tune in with ..."}'
+#. 
 #. File www/system/templates/livestats.tpl:10
 #. Context: none:			'{="None"}',
-#. other: 			'{="Other"}',
-#. pct_of_total_listeners: '{="%s%s%s listeners, %s%s%%%s of %s%s%s total listeners"}',
-#.
+#.     other: 			'{="Other"}',
+#.     pct_of_total_listeners: '{="%s%s%s listeners, %s%s%%%s of %s%s%s total listeners"}',
+#. 
 #. File system/class_TuneIn.php:80
-#.
+#. 
 #. File system/class_ReportFormat.php:46
-#.
-#: www/class_LiveStatistics.php:159 www/class_LiveStatistics.php:176
+#. 
+#: www/class_LiveStatistics.php:159
+#: www/class_LiveStatistics.php:176
 #: www/system/templates/statistics.tpl:7
 #: www/system/templates/client_head.tpl:27
-#: www/system/templates/livestats.tpl:10 system/class_TuneIn.php:80
+#: www/system/templates/livestats.tpl:10
+#: system/class_TuneIn.php:80
 #: system/class_ReportFormat.php:46
 msgid "Other"
-msgstr "Sonstige"
+msgstr ""
 
 #. File www/class_RPCApplication.php:163
-#.
+#. 
 #: www/class_RPCApplication.php:163
 msgid "outside of permitted DJ login times"
-msgstr "ausserhalb der erlaubten Uhrzeiten des DJ-Accounts"
+msgstr ""
 
 #. File www/menu.php:207
-#.
+#. 
 #: www/menu.php:207
 msgid "Overview"
-msgstr "Übersicht"
+msgstr ""
 
 #. File www/external/rpc/class_RPCondemand.php:117
-#.
+#. 
 #: www/external/rpc/class_RPCondemand.php:117
 msgid "Parent folder"
-msgstr "&Uuml;bergeordnetes Verzeichnis"
+msgstr ""
 
 #. File www/system/templates/login_form.tpl:11
 #. Context: ="Please enter a valid username."}" value="{$_REQUEST.username|htmlentities}" size="12" maxlength="32" /></td></tr>
-#. <tr><th>{="Password"}:&nbsp;</th><td nowrap="nowrap">	<input type="password" name="password" id="passwordfield" class="loginfield" validate="/^[^\s
-#.
+#.     	<tr><th>{="Password"}:&nbsp;</th><td nowrap="nowrap">	<input type="password" name="password" id="passwordfield" class="loginfield" validate="/^[^\s
+#. 
 #. File www/system/templates/forgotreset.tpl:11
 #. Context: <table cellspacing="1" cellpadding="0" border="0">
-#. <tr><td>{="Password"}:&nbsp;</td><td><input type="password" name="password1" value="" size="12" maxlength="32" /></td></tr>
-#. <tr><td>{="Confirm pas
-#.
+#.     	<tr><td>{="Password"}:&nbsp;</td><td><input type="password" name="password1" value="" size="12" maxlength="32" /></td></tr>
+#.     	<tr><td>{="Confirm pas
+#. 
 #. File www/system/templates/connection_details.tpl:31
 #. Context: {/if}
-#. <tr><td>{="Password"}:&nbsp;</td><td>({="The 'Source password' value from your %sstream settings%s","<a href='index.php?page=configure'>","</a>"})<
-#.
+#.     		<tr><td>{="Password"}:&nbsp;</td><td>({="The 'Source password' value from your %sstream settings%s","<a href='index.php?page=configure'>","</a>"})<
+#. 
 #. File www/system/templates/connection_details.tpl:10
 #. Context: {/if}
-#. <tr><td>{="Password"}:&nbsp;</td><td>({="The username and password of one of your %sDJ accounts%s, separated by a colon","<a href='index.php?page=d
-#.
+#.     		<tr><td>{="Password"}:&nbsp;</td><td>({="The username and password of one of your %sDJ accounts%s, separated by a colon","<a href='index.php?page=d
+#. 
 #. File www/system/templates/configuration_reseller_basic.tpl:11
 #. Context: <tr>
-#. <td>{="Password"}:</td>
-#. <td colspan="2"><input type="password" name="config[adminpassword]" size="15" maxlength="32" value="{$config.adminpas
-#.
+#.     	<td>{="Password"}:</td>
+#.     	<td colspan="2"><input type="password" name="config[adminpassword]" size="15" maxlength="32" value="{$config.adminpas
+#. 
 #. File www/system/templates/staffaccount_edit.tpl:93
 #. Context: <tr>
-#. <td>{="Password"}: {$errors.password|checkerror}</td>
-#. <td><input type="password" name="staffaccount[password1]" size="16" maxlength="32
-#.
+#.             <td>{="Password"}: {$errors.password|checkerror}</td>
+#.             <td><input type="password" name="staffaccount[password1]" size="16" maxlength="32
+#. 
 #. File www/system/templates/m/login_form.tpl:13
 #. Context: <div class="row">
-#. <label>{="Password"}</label>
-#. <input type="password" name="password" id="passwordfield" sample="...." value="" size="12" maxlength="32" />
-#.
+#.     			<label>{="Password"}</label>
+#.     			<input type="password" name="password" id="passwordfield" sample="...." value="" size="12" maxlength="32" />
+#. 
 #. File www/system/templates/djaccount_edit.tpl:48
 #. Context: <tr>
-#. <td>{="Password"}: {$errors.password|checkerror}</td>
-#. <td><input type="password" name="djaccount[password1]" size="16" maxlength="32" v
-#.
+#.             <td>{="Password"}: {$errors.password|checkerror}</td>
+#.             <td><input type="password" name="djaccount[password1]" size="16" maxlength="32" v
+#. 
 #. File system/servers/ShoutCast2/templates/connection_details.tpl:43
 #. Context: {else}
-#. <tr><td>{="Password"}:&nbsp;</td><td><strong>({="The 'Source password' value from your %sstream settings%s","<a href='index.php?page=configure'>","
-#.
+#.     			<tr><td>{="Password"}:&nbsp;</td><td><strong>({="The 'Source password' value from your %sstream settings%s","<a href='index.php?page=configure'>","
+#. 
 #. File system/servers/ShoutCast2/templates/connection_details.tpl:38
 #. Context: {if $acctconfig.mountpoints|count>1}
-#. <tr><td>{="Password"}:&nbsp;</td><td><strong>secret:#{$mount.streamid|htmlentities}</strong></td></tr>
-#. <tr><td></td><td>
-#.
+#.     			<tr><td>{="Password"}:&nbsp;</td><td><strong>secret:#{$mount.streamid|htmlentities}</strong></td></tr>
+#.     			<tr><td></td><td>
+#. 
 #. File system/servers/IceCast/templates/connection_details.tpl:13
 #. Context: <tr><td>{="Bit rate"}:&nbsp;</td><td><strong>{$highestbitrate}</strong></td></tr>
-#. <tr><td valign="top">{="Password"}:&nbsp;</td><td>({="The username and password of one of your %sDJ accounts%s, separated by a colon","<a href='index.php?page=d
-#.
+#.     			<tr><td valign="top">{="Password"}:&nbsp;</td><td>({="The username and password of one of your %sDJ accounts%s, separated by a colon","<a href='index.php?page=d
+#. 
 #. File system/servers/WindowsMedia/templates/connection_details.tpl:12
 #. Context: r><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate|htmlentities}</strong> {="kbps"}</td></tr>
-#. <tr><td>{="Password"}:&nbsp;</td><td>({="The 'Administrator password' value from your %sstream settings%s","<a href='index.php?page=configure'>","<
-#.
+#.     		<tr><td>{="Password"}:&nbsp;</td><td>({="The 'Administrator password' value from your %sstream settings%s","<a href='index.php?page=configure'>","<
+#. 
 #. File system/class_AccountFields.php:347
-#.
+#. 
 #. File system/servers/WindowsMedia/templates/connection_details.tpl:22
 #. Context: r><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate|htmlentities}</strong> {="kbps"}</td></tr>
-#. <tr><td>{="Password"}:&nbsp;</td><td>({="The 'Administrator password' value from your %sstream settings%s","<a href='index.php?page=configure'>","<
-#.
+#.     		<tr><td>{="Password"}:&nbsp;</td><td>({="The 'Administrator password' value from your %sstream settings%s","<a href='index.php?page=configure'>","<
+#. 
 #. File system/servers/ShoutCast2/templates/connection_details.tpl:13
 #. Context: <tr><td>{="Bit rate"}:&nbsp;</td><td><strong>{$highestbitrate}</strong></td></tr>
-#. <tr><td valign="top">{="Password"}:&nbsp;</td><td>({="The username and password of one of your %sDJ accounts%s, separated by a colon","<a href='index.php?page=d
-#.
+#.     		<tr><td valign="top">{="Password"}:&nbsp;</td><td>({="The username and password of one of your %sDJ accounts%s, separated by a colon","<a href='index.php?page=d
+#. 
 #: www/system/templates/login_form.tpl:11
 #: www/system/templates/forgotreset.tpl:11
 #: www/system/templates/connection_details.tpl:31
@@ -2088,241 +2141,241 @@ msgstr "&Uuml;bergeordnetes Verzeichnis"
 #: system/servers/WindowsMedia/templates/connection_details.tpl:22
 #: system/servers/ShoutCast2/templates/connection_details.tpl:13
 msgid "Password"
-msgstr "Passwort"
+msgstr ""
 
 #. File www/login/modules/class_Module_forgot.php:89
-#.
+#. 
 #: www/login/modules/class_Module_forgot.php:89
 msgid "Password do not match."
-msgstr "Passw&ouml;rter stimmen nicht &uuml;berein"
+msgstr ""
 
 #. File www/login/modules/class_Module_forgot.php:87
-#.
+#. 
 #: www/login/modules/class_Module_forgot.php:87
 msgid "Password must be at least 4 characters long."
-msgstr "Das Passwort muss mindestens 4 Zeichen lang sein."
+msgstr ""
 
 #. File www/external/rpc/class_RPCondemand.php:132
-#.
+#. 
 #: www/external/rpc/class_RPCondemand.php:132
 msgid "Play selected files."
-msgstr "Spiele gew&auml;hlte Dateien."
+msgstr ""
 
 #. File www/menu.php:325
-#.
+#. 
 #. File www/menu.php:428
-#.
+#. 
 #. File www/system/templates/playlist_list.tpl:6
 #. Context: </div>
-#. <img src="../system/images/icons/models/playlist.png" align="absmiddle" /> {="Playlists"}<br />
-#. </div>
-#.
+#.         <img src="../system/images/icons/models/playlist.png" align="absmiddle" /> {="Playlists"}<br />
+#.     </div>
+#. 
 #. File www/system/templates/library.tpl:12
 #. Context: {language}
-#. playlists_text: '{="Playlists"}',
-#. playlist_modified_text: '{="You have not saved your changes to this playlist.  Click OK to discard your changes, or Cancel
-#.
-#: www/menu.php:325 www/menu.php:428 www/system/templates/playlist_list.tpl:6
+#.     	playlists_text: '{="Playlists"}',
+#.     	playlist_modified_text: '{="You have not saved your changes to this playlist.  Click OK to discard your changes, or Cancel
+#. 
+#: www/menu.php:325
+#: www/menu.php:428
+#: www/system/templates/playlist_list.tpl:6
 #: www/system/templates/library.tpl:12
 msgid "Playlists"
-msgstr "Playlisten"
+msgstr ""
 
 #. File www/system/templates/forgotsent.tpl:8
 #. Context: {="Please check your E-mail."}
-#. </div>
-#.
+#.     </div>
+#. 
 #: www/system/templates/forgotsent.tpl:8
 msgid "Please check your E-mail."
-msgstr "Bitte pr&uuml;fen Sie Ihre E-Mails."
+msgstr ""
 
 #. File www/external/rpc/class_RPCrequest.php:20
-#.
+#. 
 #: www/external/rpc/class_RPCrequest.php:20
 msgid "Please enter a valid E-mail address."
-msgstr "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+msgstr ""
 
 #. File www/system/templates/login_form.tpl:11
 #. Context: wrap="nowrap">	<input type="password" name="password" id="passwordfield" class="loginfield" validate="/^[^\s]{4,}$/" valmsg="{="Please enter a valid password."}" value="" size="12" maxlength="32" /></td></tr>
-#. </table>
-#.
+#.     	</table>
+#. 
 #: www/system/templates/login_form.tpl:11
 msgid "Please enter a valid password."
-msgstr "Bitte geben Sie ein gültiges Passwort ein."
+msgstr ""
 
 #. File www/system/templates/login_form.tpl:10
 #. Context: ><td>					<input type="text"     name="username" id="usernamefield" class="loginfield" validate="/^[a-z0-9_]{2,}$/i" valmsg="{="Please enter a valid username."}" value="{$_REQUEST.username|htmlentities}" size="12" maxlength="32" /></td></tr>
-#. <tr><th>{="Password"}:&nbsp;</th><td nowrap
-#.
+#.     	<tr><th>{="Password"}:&nbsp;</th><td nowrap
+#. 
 #: www/system/templates/login_form.tpl:10
 msgid "Please enter a valid username."
-msgstr "Bitte geben Sie einen gültigen Usernamen ein."
+msgstr ""
 
 #. File www/system/templates/login_form.tpl:28
 #. Arguments: "Centova Cast"
 #. Context: <div align="center">
-#. {="Please note that your browser is outdated and may not function correctly with %s.","Centova Cast"}<br />
-#. {="%s requires %s or greater, or another standards-compliant browser.","Centova Cast","Internet Explorer
-#.
+#.     {="Please note that your browser is outdated and may not function correctly with %s.","Centova Cast"}<br />
+#.     {="%s requires %s or greater, or another standards-compliant browser.","Centova Cast","Internet Explorer
+#. 
 #: www/system/templates/login_form.tpl:28
-msgid ""
-"Please note that your browser is outdated and may not function correctly "
-"with %s."
+msgid "Please note that your browser is outdated and may not function correctly with %s."
 msgstr ""
-"Ihr Browser ist veraltet und einige Funktionen werden unter Umständen mit %s "
-"nicht funktionieren."
 
 #. File www/external/rpc/class_RPCrequest.php:21
-#.
+#. 
 #: www/external/rpc/class_RPCrequest.php:21
 msgid "Please provide a valid song artist."
-msgstr "Bitte geben Sie einen gültigen Künstler ein."
+msgstr ""
 
 #. File www/external/rpc/class_RPCrequest.php:22
-#.
+#. 
 #: www/external/rpc/class_RPCrequest.php:22
 msgid "Please provide a valid song title."
-msgstr "Bitte geben Sie einen gültigen Songtitel ein."
+msgstr ""
 
 #. File www/external/rpc/class_RPCrequest.php:107
-#.
+#. 
 #: www/external/rpc/class_RPCrequest.php:107
 msgid "Please wait..."
-msgstr "Bitte warten..."
+msgstr ""
 
 #. File www/class_Template.php:1633
-#.
+#. 
 #: www/class_Template.php:1633
 msgid "PM"
-msgstr "PM"
+msgstr ""
 
 #. File www/theme/templates/startpage.tpl:42
 #. Context: <div class="content">
-#. <div style="float: right">{="Powered by "} <a target="_blank" href="http://www.centova.com">Centova Cast</a></div>
-#. {="Hosted by %s",$hostedby}
-#.
+#.     		<div style="float: right">{="Powered by "} <a target="_blank" href="http://www.centova.com">Centova Cast</a></div>
+#.     		{="Hosted by %s",$hostedby}
+#. 
 #: www/theme/templates/startpage.tpl:42
 msgid "Powered by "
-msgstr "Powered by "
+msgstr ""
 
 #. File www/menu.php:213
-#.
+#. 
 #: www/menu.php:213
 msgid "Provides helpful links and information for using your stream."
-msgstr "Enthält hilfreiche Informationen zur Verwendung Ihres Streamservers."
+msgstr ""
 
 #. File www/menu.php:479
-#.
+#. 
 #. File www/menu.php:231
-#.
-#: www/menu.php:479 www/menu.php:231
+#. 
+#: www/menu.php:479
+#: www/menu.php:231
 msgid "Provides widgets for you to use on your web site."
-msgstr "Enthält verschiedene Widgets für den Einsatz auf Ihrer Homepage."
+msgstr ""
 
 #. File www/theme/templates/quick_links.tpl:1
 #. Context: {box title="Quick Links"}
-#. {="Your stream start page"}:<br />
-#.
+#.     	{="Your stream start page"}:<br />
+#. 
 #. File www/menu.php:212
-#.
+#. 
 #. File www/client/modules/class_Module_quicklinks.php:14
-#.
-#: www/theme/templates/quick_links.tpl:1 www/menu.php:212
+#. 
+#: www/theme/templates/quick_links.tpl:1
+#: www/menu.php:212
 #: www/client/modules/class_Module_quicklinks.php:14
 msgid "Quick Links"
-msgstr "Informationen"
+msgstr ""
 
 #. File www/system/templates/startpage_recenttracks.tpl:2
 #. Context: {check $account.allowrecent>0}
-#. <h3>{="Recent Tracks"}</h3>
-#.
+#.     		<h3>{="Recent Tracks"}</h3>
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:94
 #. Context: <fieldset>
-#. <legend>{="Recent Tracks"}</legend>
-#.
+#.     		<legend>{="Recent Tracks"}</legend>
+#. 
 #. File www/client/modules/class_Module_widgets.php:122
-#.
+#. 
 #: www/system/templates/startpage_recenttracks.tpl:2
 #: www/system/templates/configuration_client_widgets.tpl:94
 #: www/client/modules/class_Module_widgets.php:122
 msgid "Recent Tracks"
-msgstr "Zuletzt gespielte Musiktitel"
+msgstr ""
 
 #. File www/external/rpc/class_RPCrecenttracks.php:12
-#.
+#. 
 #. File www/external/modules/class_Module_recentfeed.php:44
-#.
+#. 
 #: www/external/rpc/class_RPCrecenttracks.php:12
 #: www/external/modules/class_Module_recentfeed.php:44
 msgid "Recent tracks list has been disabled for this stream."
 msgstr ""
-"Die Liste der zuletzt gespielten Titel wurde f&uuml;r diesen Stream "
-"daktiviert."
 
 #. File www/class_RPCApplication.php:320
 #. Arguments: $classname
-#.
+#. 
 #: www/class_RPCApplication.php:320
 msgid "Reference to unknown class: %s"
 msgstr ""
 
 #. File www/menu.php:393
-#.
+#. 
 #. File www/menu.php:287
-#.
-#: www/menu.php:393 www/menu.php:287
+#. 
+#: www/menu.php:393
+#: www/menu.php:287
 msgid "Reload"
-msgstr "Neu laden"
+msgstr ""
 
 #. File www/system/templates/login_form.tpl:18
 #. Context: <div id="login_remember"><input type="checkbox" name="remember" {if $_REQUEST.remember}checked="checked" {/if}value="1" /> {="Remember me"}</div>
-#. {/check}
-#.
+#.     	{/check}
+#. 
 #: www/system/templates/login_form.tpl:18
 msgid "Remember me"
-msgstr "Einnere dich an mich"
+msgstr ""
 
 #. File www/menu.php:247
-#.
+#. 
 #. File www/menu.php:447
-#.
+#. 
 #. File www/system/templates/statistics_downloads.tpl:18
 #. Context: <tr>
-#. <th>{="Report"}</th>
-#. <th style="text-align: right" width="200">{="Size"}</th>
-#.
+#.     			<th>{="Report"}</th>
+#.     			<th style="text-align: right" width="200">{="Size"}</th>
+#. 
 #. File www/client/modules/class_Module_statistics.php:20
-#.
-#: www/menu.php:247 www/menu.php:447
+#. 
+#: www/menu.php:247
+#: www/menu.php:447
 #: www/system/templates/statistics_downloads.tpl:18
 #: www/client/modules/class_Module_statistics.php:20
 msgid "Report"
-msgstr "Bericht"
+msgstr ""
 
 #. File www/system/templates/startpage_index.tpl:13
 #. Context: {check $account.allowrequests>0}
-#. <h3>{="Request a song"}</h3>
-#.
+#.     		<h3>{="Request a song"}</h3>
+#. 
 #: www/system/templates/startpage_index.tpl:13
 msgid "Request a song"
-msgstr "Musiktitel wünschen"
+msgstr ""
 
 #. File www/class_WebApplication.php:207
-#.
+#. 
 #. File www/system/templates/new_account_form.tpl:26
 #. Context: <option value="user">{="User"}</option>
-#. <option value="reseller">{="Reseller"}</option>
-#. {else}
-#.
+#.     			<option value="reseller">{="Reseller"}</option>
+#.     			{else}
+#. 
 #. File www/system/templates/admin_accounts.tpl:119
 #. Context: <optgroup label="{="Sort by"}:">
-#. <option value="parentresellerid">{="Reseller"}/{="Username"}</option>
-#. <option value="rpchostid">{="Host"}/{="Username"}</option>
-#.
+#.     			<option value="parentresellerid">{="Reseller"}/{="Username"}</option>
+#.     			<option value="rpchostid">{="Host"}/{="Username"}</option>
+#. 
 #. File www/system/templates/admin_accounts_javascript.tpl:22
 #. Context: group: '{="Group"}',
-#. parentresellerid: '{="Reseller"}',
-#. rpchostid: '{="Host"}',
-#.
+#.     		parentresellerid: '{="Reseller"}',
+#.     		rpchostid: '{="Host"}',
+#. 
 #: www/class_WebApplication.php:207
 #: www/system/templates/new_account_form.tpl:26
 #: www/system/templates/admin_accounts.tpl:119
@@ -2331,322 +2384,340 @@ msgid "Reseller"
 msgstr ""
 
 #. File www/class_RPCApplication.php:151
-#.
+#. 
 #: www/class_RPCApplication.php:151
 msgid "reseller privileges required"
 msgstr ""
 
 #. File www/system/templates/forgotform.tpl:20
 #. Context: <input type="submit" name="login" value="{="Reset password"}" />
-#.
+#. 
 #. File www/system/templates/forgotreset.tpl:19
 #. Context: <input type="hidden" name="code" value="{$code|htmlentities}" />
-#. <input type="submit" name="login" value="{="Reset password"}" />
-#.
+#.     	<input type="submit" name="login" value="{="Reset password"}" />
+#. 
 #: www/system/templates/forgotform.tpl:20
 #: www/system/templates/forgotreset.tpl:19
 msgid "Reset password"
 msgstr ""
 
 #. File www/menu.php:400
-#.
+#. 
 #. File www/menu.php:294
-#.
-#: www/menu.php:400 www/menu.php:294
+#. 
+#: www/menu.php:400
+#: www/menu.php:294
 msgid "Restart"
-msgstr "Neu starten"
+msgstr ""
 
 #. File www/menu.php:403
-#.
+#. 
 #. File www/menu.php:297
-#.
-#: www/menu.php:403 www/menu.php:297
-msgid ""
-"Restarting your server will temporarily interrupt your stream and disconnect "
-"any listeners.  Are you sure you want to proceed?"
+#. 
+#: www/menu.php:403
+#: www/menu.php:297
+msgid "Restarting your server will temporarily interrupt your stream and disconnect any listeners.  Are you sure you want to proceed?"
 msgstr ""
-"Das neustarten des Servers wird die Verbindung zum Streamserver kurz unterbrechen."
-"Sind Sie sicher, dass Sie fortfahren wollen?"
 
 #. File www/menu.php:356
-#.
+#. 
 #: www/menu.php:356
 msgid "Return to accounts"
 msgstr ""
 
 #. File www/menu.php:188
-#.
+#. 
 #: www/menu.php:188
 msgid "Return to admin"
 msgstr ""
 
 #. File www/class_CCTemplate.php:95
-#.
+#. 
 #. File www/system/templates/playlist_edit.tpl:263
 #. Context: cted"{/if}>{="Fri"}</option>
-#. <option value="sat"{if $playlist.scheduled_weekdays|contains:"sat"} selected="selected"{/if}>{="Sat"}</option>
-#. </select>
-#.
+#.     			<option value="sat"{if $playlist.scheduled_weekdays|contains:"sat"} selected="selected"{/if}>{="Sat"}</option>
+#.     			</select>
+#. 
 #. File www/system/templates/djaccount_edit.tpl:133
 #. Context: /if}>{="Fri"}</option>
-#. <option value="sat"{if $djaccount.login_weekdays|contains:"sat"} selected="selected"{/if}>{="Sat"}</option>
-#. </select>
-#.
-#: www/class_CCTemplate.php:95 www/system/templates/playlist_edit.tpl:263
+#.                 <option value="sat"{if $djaccount.login_weekdays|contains:"sat"} selected="selected"{/if}>{="Sat"}</option>
+#.                 </select>
+#. 
+#: www/class_CCTemplate.php:95
+#: www/system/templates/playlist_edit.tpl:263
 #: www/system/templates/djaccount_edit.tpl:133
 msgid "Sat"
-msgstr "Samstag"
+msgstr ""
 
 #. File www/class_CCTemplate.php:94
-#.
+#. 
 #. File www/class_Template.php:1534
-#.
-#: www/class_CCTemplate.php:94 www/class_Template.php:1534
+#. 
+#: www/class_CCTemplate.php:94
+#: www/class_Template.php:1534
 msgid "Sep"
-msgstr "Sept"
+msgstr ""
 
 #. File www/theme/templates/m/role-footer.tpl:5
 #. Context: <ul>
-#. <li><a id="btn-server" data-icon="custom" href="index.php#index">{="Server"}</a></li>
-#. <li><a id="btn-autodj" data-icon="custom" href="index.php#autodj"">{="AutoDJ"}</a></li>
-#.
+#.     		<li><a id="btn-server" data-icon="custom" href="index.php#index">{="Server"}</a></li>
+#.     		<li><a id="btn-autodj" data-icon="custom" href="index.php#autodj"">{="AutoDJ"}</a></li>
+#. 
 #. File www/menu.php:375
-#.
+#. 
 #. File www/menu.php:267
-#.
+#. 
 #. File www/system/templates/admin_serverstatus.tpl:15
 #. Context: <th width="24" align="center" class="sorttable_reset"></th>
-#. <th>{="Server"}</th>
-#. <th>{="OS"}</th>
-#.
+#.         <th>{="Server"}</th>
+#.         <th>{="OS"}</th>
+#. 
 #. File www/system/templates/admin_accounts.tpl:155
 #. Context: <th class="hdg_titl">{="Title"}</th>
-#. <th width="80" style="text-align: center" class="hdg_host">{="Server"}</th>
-#. <th width="40" style="text-align: center" class="hdg_port">{="Port"}</th>
-#.
-#: www/theme/templates/m/role-footer.tpl:5 www/menu.php:375 www/menu.php:267
+#.     			<th width="80" style="text-align: center" class="hdg_host">{="Server"}</th>
+#.     			<th width="40" style="text-align: center" class="hdg_port">{="Port"}</th>
+#. 
+#: www/theme/templates/m/role-footer.tpl:5
+#: www/menu.php:375
+#: www/menu.php:267
 #: www/system/templates/admin_serverstatus.tpl:15
 #: www/system/templates/admin_accounts.tpl:155
 msgid "Server"
 msgstr ""
 
 #. File www/menu.php:345
-#.
+#. 
 #. File www/menu.php:177
-#.
+#. 
 #. File www/menu.php:109
-#.
-#: www/menu.php:345 www/menu.php:177 www/menu.php:109
+#. 
+#: www/menu.php:345
+#: www/menu.php:177
+#: www/menu.php:109
 msgid "Session"
-msgstr "Session"
+msgstr ""
 
 #. File www/menu.php:225
-#.
+#. 
 #. File www/menu.php:473
-#.
+#. 
 #. File www/menu.php:152
-#.
+#. 
 #. File www/menu.php:147
-#.
+#. 
 #. File www/menu.php:41
-#.
+#. 
 #. File www/menu.php:36
-#.
+#. 
 #. File www/system/templates/account_ads_settings.tpl:5
 #. Context: <fieldset>
-#. <legend>{="Settings"}</legend>
-#.
+#.     		<legend>{="Settings"}</legend>
+#. 
 #. File www/client/modules/class_Module_configure.php:13
-#.
+#. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:34
 #. Context: <fieldset id="mountpoint_settings_tab" class="accordion_active">
-#. <legend>{="Settings"}</legend>
-#. <table cellspacing="1" cellpadding="0" border="0">
-#.
+#.     		<legend>{="Settings"}</legend>
+#.     		<table cellspacing="1" cellpadding="0" border="0">
+#. 
 #. File system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:30
 #. Context: <fieldset id="mountpoint_settings_tab" class="accordion_active">
-#. <legend>{="Settings"}</legend>
-#. <table cellspacing="1" cellpadding="0" border="0">
-#.
-#: www/menu.php:225 www/menu.php:473 www/menu.php:152 www/menu.php:147
-#: www/menu.php:41 www/menu.php:36
+#.     		<legend>{="Settings"}</legend>
+#.     		<table cellspacing="1" cellpadding="0" border="0">
+#. 
+#: www/menu.php:225
+#: www/menu.php:473
+#: www/menu.php:152
+#: www/menu.php:147
+#: www/menu.php:41
+#: www/menu.php:36
 #: www/system/templates/account_ads_settings.tpl:5
 #: www/client/modules/class_Module_configure.php:13
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:34
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:30
 msgid "Settings"
-msgstr "Einstellungen"
+msgstr ""
 
 #. File www/menu.php:467
-#.
+#. 
 #. File www/theme/templates/m/role-footer.tpl:8
 #. Context: stom" href="index.php#statistics">{="Statistics"}</a></li>
-#. <li><a id="btn-setup" data-icon="custom" href="index.php#setup">{="Setup"}</a></li>
-#. </ul>
-#.
-#: www/menu.php:467 www/theme/templates/m/role-footer.tpl:8
+#.     		<li><a id="btn-setup" data-icon="custom" href="index.php#setup">{="Setup"}</a></li>
+#.     	</ul>
+#. 
+#: www/menu.php:467
+#: www/theme/templates/m/role-footer.tpl:8
 msgid "Setup"
 msgstr ""
 
 #. File www/login/modules/class_Module_index.php:79
-#.
+#. 
 #: www/login/modules/class_Module_index.php:79
 msgid "Single sign-on has not been enabled for this server."
-msgstr "Einzelanmeldung wurde f&uuml;r diesen Server deaktiviert."
+msgstr ""
 
 #. File www/system/templates/startpage_index.tpl:20
 #. Context: <form>
-#. {="Song artist"}: <input type="text" id="cc_req_artist_{$username|htmlentities}{$charset|htmlentities}" name="request[artist]" size="40" maxle
-#.
+#.     				{="Song artist"}: <input type="text" id="cc_req_artist_{$username|htmlentities}{$charset|htmlentities}" name="request[artist]" size="40" maxle
+#. 
 #. File www/client/modules/class_Module_widgets.php:163
-#.
+#. 
 #: www/system/templates/startpage_index.tpl:20
 #: www/client/modules/class_Module_widgets.php:163
 msgid "Song artist"
-msgstr "Künstler"
+msgstr ""
 
 #. File www/system/templates/startpage_index.tpl:21
 #. Context: cc_req_artist_{$username|htmlentities}{$charset|htmlentities}" name="request[artist]" size="40" maxlength="127" /><br />
-#. {="Song title"}: <input type="text" id="cc_req_title_{$username|htmlentities}{$charset|htmlentities}" name="request[title]" size="40" maxleng
-#.
+#.     				{="Song title"}: <input type="text" id="cc_req_title_{$username|htmlentities}{$charset|htmlentities}" name="request[title]" size="40" maxleng
+#. 
 #. File www/client/modules/class_Module_widgets.php:164
-#.
+#. 
 #: www/system/templates/startpage_index.tpl:21
 #: www/client/modules/class_Module_widgets.php:164
 msgid "Song title"
-msgstr "Musiktitel"
+msgstr ""
 
 #. File www/external/rpc/class_RPCrequest.php:18
-#.
+#. 
 #: www/external/rpc/class_RPCrequest.php:18
 msgid "Sorry, song requests have been disabled for this stream."
-msgstr "Entschuldigung. Musikw&uuml;nsche sind f&uuml;r diesen Stream deaktiviert."
+msgstr ""
 
 #. File www/external/rpc/class_RPCrequest.php:69
-#.
+#. 
 #: www/external/rpc/class_RPCrequest.php:69
 msgid "Sorry, the song you requested is not available."
 msgstr ""
 
 #. File www/menu.php:28
-#.
+#. 
 #. File www/system/templates/admin_sessions.tpl:47
 #. Context: </td>
-#. <td>{if $session.staffaccount.id}{="Staff"}{elseif $session.username=="admin"}{="Administrator"}{else}{$session.organization|htmlentities}{/if}{if $session.sessionid==$c
-#.
-#: www/menu.php:28 www/system/templates/admin_sessions.tpl:47
+#.     	<td>{if $session.staffaccount.id}{="Staff"}{elseif $session.username=="admin"}{="Administrator"}{else}{$session.organization|htmlentities}{/if}{if $session.sessionid==$c
+#. 
+#: www/menu.php:28
+#: www/system/templates/admin_sessions.tpl:47
 msgid "Staff"
 msgstr ""
 
 #. File www/menu.php:272
-#.
+#. 
 #. File www/menu.php:413
-#.
+#. 
 #. File www/menu.php:378
-#.
+#. 
 #. File www/system/templates/autodj_control.tpl:13
 #. Context: index.php?page=control&action=source&switch=up"><img class="autodj-control" src="/system/images/icons/source/start.png" alt="{="Start"}" title="{="Start the autoDJ"}"
-#. /></a>{/if}
-#.
+#.     	/></a>{/if}
+#. 
 #. File www/system/templates/admin_accounts.tpl:85
 #. Context: ghtbuttons">
-#. <li id="start_selected" class="btnstart multiple_account_button" data-perm="accounts_control"><div><a href="#">{="Start"}</a></div></li>
-#. <li id="stop_selected" class="btnstop multiple_account_button" data-perm="accounts_control"><div><a href="#">
-#.
-#: www/menu.php:272 www/menu.php:413 www/menu.php:378
+#.     	<li id="start_selected" class="btnstart multiple_account_button" data-perm="accounts_control"><div><a href="#">{="Start"}</a></div></li>
+#.     	<li id="stop_selected" class="btnstop multiple_account_button" data-perm="accounts_control"><div><a href="#">
+#. 
+#: www/menu.php:272
+#: www/menu.php:413
+#: www/menu.php:378
 #: www/system/templates/autodj_control.tpl:13
 #: www/system/templates/admin_accounts.tpl:85
 msgid "Start"
 msgstr ""
 
 #. File www/menu.php:414
-#.
+#. 
 #. File www/system/templates/autodj_control.tpl:13
 #. Context: rol&action=source&switch=up"><img class="autodj-control" src="/system/images/icons/source/start.png" alt="{="Start"}" title="{="Start the autoDJ"}"
-#. /></a>{/if}
-#.
-#: www/menu.php:414 www/system/templates/autodj_control.tpl:13
+#.     	/></a>{/if}
+#. 
+#: www/menu.php:414
+#: www/system/templates/autodj_control.tpl:13
 msgid "Start the autoDJ"
 msgstr ""
 
 #. File www/menu.php:242
-#.
+#. 
 #. File www/theme/templates/m/role-footer.tpl:7
 #. Context: m" href="index.php#autodj"">{="AutoDJ"}</a></li>
-#. <li><a id="btn-statistics" data-icon="custom" href="index.php#statistics">{="Statistics"}</a></li>
-#. <li><a id="btn-setup" data-icon="custom" href="index.php#setup">{="Setup"}</a></li>
-#.
+#.     		<li><a id="btn-statistics" data-icon="custom" href="index.php#statistics">{="Statistics"}</a></li>
+#.     		<li><a id="btn-setup" data-icon="custom" href="index.php#setup">{="Setup"}</a></li>
+#. 
 #. File www/menu.php:139
-#.
+#. 
 #. File www/menu.php:444
-#.
+#. 
 #. File www/menu.php:22
-#.
+#. 
 #. File www/client/modules/class_Module_logs.php:10
-#.
+#. 
 #. File www/client/modules/class_Module_reportdownloads.php:17
-#.
+#. 
 #. File www/client/modules/class_Module_statistics.php:18
-#.
+#. 
 #. File www/client/modules/class_Module_livestats.php:12
-#.
+#. 
 #. File www/reseller/modules/class_Module_accountstats.php:13
-#.
+#. 
 #. File www/admin/modules/class_Module_accountstats.php:15
-#.
-#: www/menu.php:242 www/theme/templates/m/role-footer.tpl:7 www/menu.php:139
-#: www/menu.php:444 www/menu.php:22 www/client/modules/class_Module_logs.php:10
+#. 
+#: www/menu.php:242
+#: www/theme/templates/m/role-footer.tpl:7
+#: www/menu.php:139
+#: www/menu.php:444
+#: www/menu.php:22
+#: www/client/modules/class_Module_logs.php:10
 #: www/client/modules/class_Module_reportdownloads.php:17
 #: www/client/modules/class_Module_statistics.php:18
 #: www/client/modules/class_Module_livestats.php:12
 #: www/reseller/modules/class_Module_accountstats.php:13
 #: www/admin/modules/class_Module_accountstats.php:15
 msgid "Statistics"
-msgstr "Statistiken"
+msgstr ""
 
 #. File www/menu.php:88
-#.
+#. 
 #. File www/system/templates/playlist_list.tpl:24
 #. Context: <th>{="Type"}</th>
-#. <th>{="Status"}</th>
-#. <th width="60">&nbsp;</th>
-#.
+#.     	<th>{="Status"}</th>
+#.     	<th width="60">&nbsp;</th>
+#. 
 #. File www/system/templates/staffaccount_edit.tpl:109
 #. Context: <tr>
-#. <td>{="Status"}: {$errors.status|checkerror}</td>
-#. <td>
-#.
+#.     		<td>{="Status"}: {$errors.status|checkerror}</td>
+#.     		<td>
+#. 
 #. File www/system/templates/playlist_edit.tpl:107
 #. Context: <tr>
-#. <td>{="Status"}: {$errors.status|checkerror}</td>
-#. <td>
-#.
+#.     		<td>{="Status"}: {$errors.status|checkerror}</td>
+#.     		<td>
+#. 
 #. File www/system/templates/djaccount_list.tpl:24
 #. Context: <th>{="Username"}</th>
-#. <th>{="Status"}</th>
-#. <th width="60">&nbsp;</th>
-#.
+#.     	<th>{="Status"}</th>
+#.     	<th width="60">&nbsp;</th>
+#. 
 #. File www/system/templates/djaccount_edit.tpl:60
 #. Context: <tr>
-#. <td>{="Status"}: {$errors.status|checkerror}</td>
-#. <td>
-#.
+#.     		<td>{="Status"}: {$errors.status|checkerror}</td>
+#.     		<td>
+#. 
 #. File www/system/templates/staffaccount_list.tpl:22
 #. Context: <th>{="Username"}</th>
-#. <th>{="Status"}</th>
-#. <th width="60">&nbsp;</th>
-#.
+#.     	<th>{="Status"}</th>
+#.     	<th width="60">&nbsp;</th>
+#. 
 #. File www/system/templates/admin_servertype_list.tpl:19
 #. Context: <th>{="Title"}</th>
-#. <th>{="Status"}</th>
-#. <th width="50">&nbsp;</th>
-#.
+#.     	<th>{="Status"}</th>
+#.     	<th width="50">&nbsp;</th>
+#. 
 #. File www/system/templates/admin_sourcetype_list.tpl:19
 #. Context: <th>{="Title"}</th>
-#. <th>{="Status"}</th>
-#. <th width="50">&nbsp;</th>
-#.
-#: www/menu.php:88 www/system/templates/playlist_list.tpl:24
+#.     	<th>{="Status"}</th>
+#.     	<th width="50">&nbsp;</th>
+#. 
+#: www/menu.php:88
+#: www/system/templates/playlist_list.tpl:24
 #: www/system/templates/staffaccount_edit.tpl:109
 #: www/system/templates/playlist_edit.tpl:107
 #: www/system/templates/djaccount_list.tpl:24
@@ -2658,414 +2729,429 @@ msgid "Status"
 msgstr ""
 
 #. File www/menu.php:279
-#.
+#. 
 #. File www/menu.php:420
-#.
+#. 
 #. File www/menu.php:385
-#.
+#. 
 #. File www/system/templates/autodj_control.tpl:11
 #. Context: ndex.php?page=control&action=source&switch=down"><img class="autodj-control" src="/system/images/icons/source/stop.png" alt="{="Stop"}" title="{="Stop the autoDJ"}"
-#. /></a>{/if}{if ($sourceonline>0) and ($autodjcaps|contains:"skip")}<a href="index.php?page=co
-#.
+#.     	/></a>{/if}{if ($sourceonline>0) and ($autodjcaps|contains:"skip")}<a href="index.php?page=co
+#. 
 #. File www/system/templates/admin_accounts.tpl:86
 #. Context: /a></div></li>
-#. <li id="stop_selected" class="btnstop multiple_account_button" data-perm="accounts_control"><div><a href="#">{="Stop"}</a></div></li>
-#. <li id="suspend_selected" class="btnsuspend multiple_account_button" data-perm="accounts_status"><div><a href
-#.
-#: www/menu.php:279 www/menu.php:420 www/menu.php:385
+#.     	<li id="stop_selected" class="btnstop multiple_account_button" data-perm="accounts_control"><div><a href="#">{="Stop"}</a></div></li>
+#.     	<li id="suspend_selected" class="btnsuspend multiple_account_button" data-perm="accounts_status"><div><a href
+#. 
+#: www/menu.php:279
+#: www/menu.php:420
+#: www/menu.php:385
 #: www/system/templates/autodj_control.tpl:11
 #: www/system/templates/admin_accounts.tpl:86
 msgid "Stop"
-msgstr "Stoppen"
+msgstr ""
 
 #. File www/menu.php:421
-#.
+#. 
 #. File www/system/templates/autodj_control.tpl:11
 #. Context: rol&action=source&switch=down"><img class="autodj-control" src="/system/images/icons/source/stop.png" alt="{="Stop"}" title="{="Stop the autoDJ"}"
-#. /></a>{/if}{if ($sourceonline>0) and ($autodjcaps|contains:"skip")}<a href="index.php?page=control&action=nextsong"><img c
-#.
-#: www/menu.php:421 www/system/templates/autodj_control.tpl:11
+#.     	/></a>{/if}{if ($sourceonline>0) and ($autodjcaps|contains:"skip")}<a href="index.php?page=control&action=nextsong"><img c
+#. 
+#: www/menu.php:421
+#: www/system/templates/autodj_control.tpl:11
 msgid "Stop the autoDJ"
-msgstr "AutoDJ stoppen"
+msgstr ""
 
 #. File www/system/templates/startpage_index.tpl:25
 #. Context: >
-#. <input type="button" id="cc_req_button_{$username|htmlentities}{$charset|htmlentities}" class="cc_request_form" value="{="Submit song request"}" /><br />
-#. </form>
-#.
+#.     				<input type="button" id="cc_req_button_{$username|htmlentities}{$charset|htmlentities}" class="cc_request_form" value="{="Submit song request"}" /><br />
+#.     				</form>
+#. 
 #. File www/client/modules/class_Module_widgets.php:168
-#.
+#. 
 #: www/system/templates/startpage_index.tpl:25
 #: www/client/modules/class_Module_widgets.php:168
 msgid "Submit song request"
-msgstr "Musikwunsch abschicken"
+msgstr ""
 
 #. File www/login/modules/class_Module_index.php:205
 #. Arguments: $username
-#.
+#. 
 #: www/login/modules/class_Module_index.php:205
 msgid "Successful login for account %s."
 msgstr ""
 
 #. File www/class_CCTemplate.php:95
-#.
+#. 
 #. File www/system/templates/playlist_edit.tpl:257
 #. Context: ize="7" multiple="multiple">
-#. <option value="sun"{if $playlist.scheduled_weekdays|contains:"sun"} selected="selected"{/if}>{="Sun"}</option>
-#. <option value="mon"{if $playlist.scheduled_weekdays|contains:"mon"} selected="selected"{/if}>{="Mon"}</option>
-#.
+#.     			<option value="sun"{if $playlist.scheduled_weekdays|contains:"sun"} selected="selected"{/if}>{="Sun"}</option>
+#.     			<option value="mon"{if $playlist.scheduled_weekdays|contains:"mon"} selected="selected"{/if}>{="Mon"}</option>
+#. 
 #. File www/system/templates/djaccount_edit.tpl:127
 #. Context: " multiple="multiple">
-#. <option value="sun"{if $djaccount.login_weekdays|contains:"sun"} selected="selected"{/if}>{="Sun"}</option>
-#. <option value="mon"{if $djaccount.login_weekdays|contains:"mon"} selected="selected"{/if}>{="Mon"}</opti
-#.
-#: www/class_CCTemplate.php:95 www/system/templates/playlist_edit.tpl:257
+#.                 <option value="sun"{if $djaccount.login_weekdays|contains:"sun"} selected="selected"{/if}>{="Sun"}</option>
+#.                 <option value="mon"{if $djaccount.login_weekdays|contains:"mon"} selected="selected"{/if}>{="Mon"}</opti
+#. 
+#: www/class_CCTemplate.php:95
+#: www/system/templates/playlist_edit.tpl:257
 #: www/system/templates/djaccount_edit.tpl:127
 msgid "Sun"
-msgstr "Sonntag"
+msgstr ""
 
 #. File www/menu.php:83
-#.
+#. 
 #. File www/system/templates/logmanager.tpl:15
 #. Context: server_logs: '{="Server Logs"}',
-#. system: '{="System"}',
-#. account: '{="Account"}',
-#.
+#.     	system: '{="System"}',
+#.     	account: '{="Account"}',
+#. 
 #. File www/admin/modules/class_Module_logs.php:8
-#.
-#: www/menu.php:83 www/system/templates/logmanager.tpl:15
+#. 
+#: www/menu.php:83
+#: www/system/templates/logmanager.tpl:15
 #: www/admin/modules/class_Module_logs.php:8
 msgid "System"
 msgstr ""
 
 #. File www/menu.php:169
-#.
+#. 
 #. File www/menu.php:68
-#.
-#: www/menu.php:169 www/menu.php:68
+#. 
+#: www/menu.php:169
+#: www/menu.php:68
 msgid "Templates"
 msgstr ""
 
 #. File www/external/rpc/class_RPCstreamlist.php:28
-#.
+#. 
 #: www/external/rpc/class_RPCstreamlist.php:28
 msgid "Temporarily unavailable"
 msgstr ""
 
 #. File www/menu.php:351
-#.
+#. 
 #. File www/menu.php:183
-#.
+#. 
 #. File www/menu.php:115
-#.
-#: www/menu.php:351 www/menu.php:183 www/menu.php:115
+#. 
+#: www/menu.php:351
+#: www/menu.php:183
+#: www/menu.php:115
 msgid "Terminates this administration session."
 msgstr ""
 
 #. File www/system/templates/startpage_disabled.tpl:6
 #. Context: {="The requested page could not be found."}
-#.
+#. 
 #: www/system/templates/startpage_disabled.tpl:6
 msgid "The requested page could not be found."
-msgstr "Die angeforderte Seite konnte nicht gefunden werden."
+msgstr ""
 
 #. File www/external/rpc/class_RPCstreamlist.php:13
-#.
+#. 
 #: www/external/rpc/class_RPCstreamlist.php:13
 msgid "This feature is not enabled."
 msgstr ""
 
 #. File www/menu.php:394
-#.
+#. 
 #. File www/menu.php:288
-#.
-#: www/menu.php:394 www/menu.php:288
-msgid ""
-"This will reload your server configuration without interrupting the stream."
+#. 
+#: www/menu.php:394
+#: www/menu.php:288
+msgid "This will reload your server configuration without interrupting the stream."
 msgstr ""
-"Dies wird die Server-Konfuguration neu laden, ohne den Stream zu "
-"unterbrechen."
 
 #. File www/menu.php:401
-#.
+#. 
 #. File www/menu.php:295
-#.
-#: www/menu.php:401 www/menu.php:295
+#. 
+#: www/menu.php:401
+#: www/menu.php:295
 msgid "This will restart your server to apply any configuration changes."
 msgstr ""
 
 #. File www/menu.php:386
-#.
+#. 
 #. File www/menu.php:280
-#.
-#: www/menu.php:386 www/menu.php:280
+#. 
+#: www/menu.php:386
+#: www/menu.php:280
 msgid "This will shut down your server and disconnect all listeners."
 msgstr ""
-"Dies wird Ihren Server abschalten und Ihre Zuhörer werden das Signal "
-"verlieren."
 
 #. File www/menu.php:423
-#.
+#. 
 #. File www/menu.php:388
-#.
+#. 
 #. File www/menu.php:282
-#.
-#: www/menu.php:423 www/menu.php:388 www/menu.php:282
-msgid ""
-"This will shut down your server and disconnect any listeners.  Are you sure "
-"you want to proceed?"
+#. 
+#: www/menu.php:423
+#: www/menu.php:388
+#: www/menu.php:282
+msgid "This will shut down your server and disconnect any listeners.  Are you sure you want to proceed?"
 msgstr ""
-"Dies wird Ihren Server abschalten und Ihre Zuhörer werden das Signal "
-"verlieren. Sind Sie sicher, dass Sie fortfahren möchten?"
 
 #. File www/menu.php:379
-#.
+#. 
 #. File www/menu.php:273
-#.
-#: www/menu.php:379 www/menu.php:273
+#. 
+#: www/menu.php:379
+#: www/menu.php:273
 msgid "This will start your server"
 msgstr ""
 
 #. File www/class_CCTemplate.php:95
-#.
+#. 
 #. File www/system/templates/playlist_edit.tpl:261
 #. Context: cted"{/if}>{="Wed"}</option>
-#. <option value="thu"{if $playlist.scheduled_weekdays|contains:"thu"} selected="selected"{/if}>{="Thu"}</option>
-#. <option value="fri"{if $playlist.scheduled_weekdays|contains:"fri"} selected="selected"{/if}>{="Fri"}</option>
-#.
+#.     			<option value="thu"{if $playlist.scheduled_weekdays|contains:"thu"} selected="selected"{/if}>{="Thu"}</option>
+#.     			<option value="fri"{if $playlist.scheduled_weekdays|contains:"fri"} selected="selected"{/if}>{="Fri"}</option>
+#. 
 #. File www/system/templates/djaccount_edit.tpl:131
 #. Context: /if}>{="Wed"}</option>
-#. <option value="thu"{if $djaccount.login_weekdays|contains:"thu"} selected="selected"{/if}>{="Thu"}</option>
-#. <option value="fri"{if $djaccount.login_weekdays|contains:"fri"} selected="selected"{/if}>{="Fri"}</opti
-#.
-#: www/class_CCTemplate.php:95 www/system/templates/playlist_edit.tpl:261
+#.                 <option value="thu"{if $djaccount.login_weekdays|contains:"thu"} selected="selected"{/if}>{="Thu"}</option>
+#.                 <option value="fri"{if $djaccount.login_weekdays|contains:"fri"} selected="selected"{/if}>{="Fri"}</opti
+#. 
+#: www/class_CCTemplate.php:95
+#: www/system/templates/playlist_edit.tpl:261
 #: www/system/templates/djaccount_edit.tpl:131
 msgid "Thu"
-msgstr "Donnerstag"
+msgstr ""
 
 #. File www/class_CCTemplate.php:117
-#.
+#. 
 #: www/class_CCTemplate.php:117
 msgid "Tip"
-msgstr "Tipp"
+msgstr ""
 
 #. File www/class_Template.php:1406
-#.
+#. 
 #: www/class_Template.php:1406
 msgid "Today"
-msgstr "Heute"
+msgstr ""
 
 #. File www/class_NextSongApplication.php:172
 #. Arguments: $tm->queued_trackid, $tm->queued_playlistid
-#.
+#. 
 #: www/class_NextSongApplication.php:172
 msgid "Track #%s from playlist #%s"
-msgstr "Track #%s von Wiedergabeliste #%s"
+msgstr ""
 
 #. File www/class_CCTemplate.php:95
-#.
+#. 
 #. File www/system/templates/playlist_edit.tpl:259
 #. Context: cted"{/if}>{="Mon"}</option>
-#. <option value="tue"{if $playlist.scheduled_weekdays|contains:"tue"} selected="selected"{/if}>{="Tue"}</option>
-#. <option value="wed"{if $playlist.scheduled_weekdays|contains:"wed"} selected="selected"{/if}>{="Wed"}</option>
-#.
+#.     			<option value="tue"{if $playlist.scheduled_weekdays|contains:"tue"} selected="selected"{/if}>{="Tue"}</option>
+#.     			<option value="wed"{if $playlist.scheduled_weekdays|contains:"wed"} selected="selected"{/if}>{="Wed"}</option>
+#. 
 #. File www/system/templates/djaccount_edit.tpl:129
 #. Context: /if}>{="Mon"}</option>
-#. <option value="tue"{if $djaccount.login_weekdays|contains:"tue"} selected="selected"{/if}>{="Tue"}</option>
-#. <option value="wed"{if $djaccount.login_weekdays|contains:"wed"} selected="selected"{/if}>{="Wed"}</opti
-#.
-#: www/class_CCTemplate.php:95 www/system/templates/playlist_edit.tpl:259
+#.                 <option value="tue"{if $djaccount.login_weekdays|contains:"tue"} selected="selected"{/if}>{="Tue"}</option>
+#.                 <option value="wed"{if $djaccount.login_weekdays|contains:"wed"} selected="selected"{/if}>{="Wed"}</opti
+#. 
+#: www/class_CCTemplate.php:95
+#: www/system/templates/playlist_edit.tpl:259
 #: www/system/templates/djaccount_edit.tpl:129
 msgid "Tue"
-msgstr "Dienstag"
+msgstr ""
 
 #. File www/theme/templates/quick_links.tpl:11
 #. Context: {box title="Tune-In Links"}
-#. <table cellsacing="0" cellpadding="0" border="0">
-#.
+#.     	<table cellsacing="0" cellpadding="0" border="0">
+#. 
 #: www/theme/templates/quick_links.tpl:11
 msgid "Tune-In Links"
 msgstr ""
 
 #. File www/class_NextSongApplication.php:84
-#.
+#. 
 #. File www/class_NextSongApplication.php:86
-#.
+#. 
 #. File www/class_LiveStatistics.php:207
-#.
+#. 
 #. File www/class_NextSongApplication.php:85
-#.
+#. 
 #. File www/system/templates/playlist_list.tpl:40
 #. Context: {elseif $playlist.type=="request"}{="Song Requests"}
-#. {else}{="Unknown"}{/if}
-#. </td>
-#.
+#.     		{else}{="Unknown"}{/if}
+#.     	</td>
+#. 
 #. File www/system/templates/statistics_listeners.tpl:181
 #. Context: ons/ua-hybrid.png" alt="{="Unknown"}" align="absmiddle" {tip}{="User agent: %s%s%s","<strong>",$listener.agent,"</strong>"} ({="Unknown"}){/tip} />
-#. {/if}
-#.
+#.     				{/if}
+#. 
 #. File www/system/templates/statistics_listeners.tpl:181
-#. Context: ",$listener.agent,"</strong>"} ({="Player/Ripper"}){/tip} />
-#. {else}<img src="../system/images/icons/ua-hybrid.png" alt="{="Unknown"}" align="absmiddle" {tip}{="User agent: %s%s%s","<strong>",$listener.agent,"</strong>"} ({="Unknown"}){/tip} />
-#. {/if}
-#.
+#. Context: ",$listener.agent,"</strong>"} ({="Player/Ripper"}){/tip} /> 
+#.     				{else}<img src="../system/images/icons/ua-hybrid.png" alt="{="Unknown"}" align="absmiddle" {tip}{="User agent: %s%s%s","<strong>",$listener.agent,"</strong>"} ({="Unknown"}){/tip} />
+#.     				{/if}
+#. 
 #. File www/system/templates/statistics_listeners.tpl:5
 #. Context: player_ripper: '{="Player/Ripper"}',
-#. unknown: '{="Unknown"}',
-#. user_agent: '{="User agent: %s%s%s, type: %s%s%s"}',
-#.
+#.         unknown: '{="Unknown"}',
+#.         user_agent: '{="User agent: %s%s%s, type: %s%s%s"}',
+#. 
 #. File system/class_TrackManager.php:650
-#.
+#. 
 #. File system/class_Statistics.php:652
-#.
+#. 
 #. File system/class_Statistics.php:750
-#.
+#. 
 #. File system/class_TrackManager.php:722
-#.
+#. 
 #. File system/class_RecentTracks.php:131
-#.
+#. 
 #. File system/class_RecentTracks.php:132
-#.
+#. 
 #. File system/class_Statistics.php:766
-#.
+#. 
 #. File system/class_Statistics.php:634
-#.
+#. 
 #. File www/system/templates/admin_accounts_javascript.tpl:14
 #. Context: sort: '{="Sort"}',
-#. unknown: '{="Unknown"}',
-#. confirm_suspend: '{="Are you sure you want to disable this account?"}',
-#.
+#.     	unknown: '{="Unknown"}',
+#.     	confirm_suspend: '{="Are you sure you want to disable this account?"}',
+#. 
 #. File www/system/templates/admin_accounts_javascript.tpl:68
 #. Context: <div id="rowovertab_online">
-#. {="Now playing"}: <span id="rowovertab_songtitle">{="Unknown"}</span><br />
-#. {="Listeners"}: <span id="rowovertab_listeners">{="Unknown"}</span> {="at"} <span id="rowovertab
-#.
+#.                     {="Now playing"}: <span id="rowovertab_songtitle">{="Unknown"}</span><br />
+#.                     {="Listeners"}: <span id="rowovertab_listeners">{="Unknown"}</span> {="at"} <span id="rowovertab
+#. 
 #. File www/system/templates/admin_accounts_javascript.tpl:69
 #. Context: }: <span id="rowovertab_songtitle">{="Unknown"}</span><br />
-#. {="Listeners"}: <span id="rowovertab_listeners">{="Unknown"}</span> {="at"} <span id="rowovertab_bitrate">{="Unknown"}</span>
-#. </div>
-#.
+#.                     {="Listeners"}: <span id="rowovertab_listeners">{="Unknown"}</span> {="at"} <span id="rowovertab_bitrate">{="Unknown"}</span>
+#.                 </div>
+#. 
 #. File www/system/templates/admin_accounts_javascript.tpl:69
 #. Context: />
-#. {="Listeners"}: <span id="rowovertab_listeners">{="Unknown"}</span> {="at"} <span id="rowovertab_bitrate">{="Unknown"}</span>
-#. </div>
-#.
+#.                     {="Listeners"}: <span id="rowovertab_listeners">{="Unknown"}</span> {="at"} <span id="rowovertab_bitrate">{="Unknown"}</span>
+#.                 </div>
+#. 
 #. File www/system/templates/admin_accounts_javascript.tpl:81
 #. Context: <div id="rowovertab_resinfo">
-#. {="Accounts:"} <span id="rowovertab_resaccts">{="Unknown"}</span><br />
-#. </div>
-#.
-#: www/class_NextSongApplication.php:84 www/class_NextSongApplication.php:86
-#: www/class_LiveStatistics.php:207 www/class_NextSongApplication.php:85
+#.                     {="Accounts:"} <span id="rowovertab_resaccts">{="Unknown"}</span><br />
+#.                 </div>
+#. 
+#: www/class_NextSongApplication.php:84
+#: www/class_NextSongApplication.php:86
+#: www/class_LiveStatistics.php:207
+#: www/class_NextSongApplication.php:85
 #: www/system/templates/playlist_list.tpl:40
 #: www/system/templates/statistics_listeners.tpl:181
+#: www/system/templates/statistics_listeners.tpl:181
 #: www/system/templates/statistics_listeners.tpl:5
-#: system/class_TrackManager.php:650 system/class_Statistics.php:652
-#: system/class_Statistics.php:750 system/class_TrackManager.php:722
-#: system/class_RecentTracks.php:131 system/class_RecentTracks.php:132
-#: system/class_Statistics.php:766 system/class_Statistics.php:634
+#: system/class_TrackManager.php:650
+#: system/class_Statistics.php:652
+#: system/class_Statistics.php:750
+#: system/class_TrackManager.php:722
+#: system/class_RecentTracks.php:131
+#: system/class_RecentTracks.php:132
+#: system/class_Statistics.php:766
+#: system/class_Statistics.php:634
 #: www/system/templates/admin_accounts_javascript.tpl:14
 #: www/system/templates/admin_accounts_javascript.tpl:68
 #: www/system/templates/admin_accounts_javascript.tpl:69
+#: www/system/templates/admin_accounts_javascript.tpl:69
 #: www/system/templates/admin_accounts_javascript.tpl:81
 msgid "Unknown"
-msgstr "Unbekannt"
+msgstr ""
 
 #. File www/external/modules/class_Module_start.php:31
-#.
+#. 
 #: www/external/modules/class_Module_start.php:31
 msgid "Unknown stream"
-msgstr "Unbekannter Stream"
+msgstr ""
 
 #. File www/menu.php:338
-#.
+#. 
 #: www/menu.php:338
 msgid "Upload, rename, and delete files in your media library."
-msgstr "Hochladen / Löschen von Dateien in Ihrer Medienbibliothek."
+msgstr ""
 
 #. File www/system/templates/login_form.tpl:10
 #. Context: <table id="login_table" cellspacing="1" cellpadding="0" border="0">
-#. <tr><th>{="Username"}:&nbsp;</th><td>					<input type="text"     name="username" id="usernamefield" class="loginfield" validate="/^[a-z0-9_]{2,}$/i
-#.
+#.     	<tr><th>{="Username"}:&nbsp;</th><td>					<input type="text"     name="username" id="usernamefield" class="loginfield" validate="/^[a-z0-9_]{2,}$/i
+#. 
 #. File www/system/templates/m/login_form.tpl:9
 #. Context: <div class="row">
-#. <label>{="Username"}</label>
-#. <input type="text" name="username" id="usernamefield" sample="jsmith" value="{$_REQUEST.username}" size="12" maxl
-#.
+#.     			<label>{="Username"}</label>
+#.     			<input type="text" name="username" id="usernamefield" sample="jsmith" value="{$_REQUEST.username}" size="12" maxl
+#. 
 #. File www/system/templates/staffaccount_list.tpl:21
 #. Context: <th>{="Real name"}</th>
-#. <th>{="Username"}</th>
-#. <th>{="Status"}</th>
-#.
+#.     	<th>{="Username"}</th>
+#.     	<th>{="Status"}</th>
+#. 
 #. File www/system/templates/configuration_reseller_basic.tpl:7
 #. Context: <tr>
-#. <td>{="Username"}:</td>
-#. <td colspan="2"><input type="text" name="config[username]" size="12" maxlength="20" value="{$config.username|htmlenti
-#.
+#.     	<td>{="Username"}:</td>
+#.     	<td colspan="2"><input type="text" name="config[username]" size="12" maxlength="20" value="{$config.username|htmlenti
+#. 
 #. File www/system/templates/account_created_details.tpl:3
 #. Context: <table cellspacing="0" cellpadding="1" border="0">
-#. <tr><td>{="Username"}:</td><td style="font-weight: bold">{$account.username}</td></tr>
-#. {if $account.hostname!=""}<tr><td>{="Hostname"}:</td><td st
-#.
+#.     	<tr><td>{="Username"}:</td><td style="font-weight: bold">{$account.username}</td></tr>
+#.     	{if $account.hostname!=""}<tr><td>{="Hostname"}:</td><td st
+#. 
 #. File www/system/templates/configuration_client_basic.tpl:76
 #. Context: <tr>
-#. <td>{="Username"}:</td>
-#. <td colspan="4">
-#.
+#.     	<td>{="Username"}:</td>
+#.     	<td colspan="4">
+#. 
 #. File www/system/templates/staffaccount_edit.tpl:82
 #. Context: <tr>
-#. <td>{="Username"}: {$errors.username|checkerror}</td>
-#. <td>
-#.
+#.             <td>{="Username"}: {$errors.username|checkerror}</td>
+#.             <td>
+#. 
 #. File www/system/templates/djaccount_list.tpl:23
 #. Context: <th>{="Real name"}</th>
-#. <th>{="Username"}</th>
-#. <th>{="Status"}</th>
-#.
+#.     	<th>{="Username"}</th>
+#.     	<th>{="Status"}</th>
+#. 
 #. File www/system/templates/djaccount_edit.tpl:37
 #. Context: <tr>
-#. <td>{="Username"}: {$errors.username|checkerror}</td>
-#. <td>
-#.
+#.             <td>{="Username"}: {$errors.username|checkerror}</td>
+#.             <td>
+#. 
 #. File www/system/templates/account_created_details_basic.tpl:3
 #. Context: <table cellspacing="0" cellpadding="1" border="0">
-#. <tr><td>{="Username"}:</td><td style="font-weight: bold">{$account.username}</td></tr>
-#. {if $account.reseller==0}
-#.
+#.     	<tr><td>{="Username"}:</td><td style="font-weight: bold">{$account.username}</td></tr>
+#.     	{if $account.reseller==0}
+#. 
 #. File system/class_AccountFields.php:773
-#.
+#. 
 #. File system/class_AccountFields.php:315
-#.
+#. 
 #. File www/system/templates/admin_accounts.tpl:153
 #. Context: <th width="20" align="center" class="hdg_icon sort_reset"></th>
-#. <th width="100" class="hdg_user">{="Username"}</th>
-#. <th class="hdg_titl">{="Title"}</th>
-#.
+#.     			<th width="100" class="hdg_user">{="Username"}</th>
+#.     			<th class="hdg_titl">{="Title"}</th>
+#. 
 #. File www/system/templates/admin_accounts.tpl:119
 #. Context: <optgroup label="{="Sort by"}:">
-#. <option value="parentresellerid">{="Reseller"}/{="Username"}</option>
-#. <option value="rpchostid">{="Host"}/{="Username"}</option>
-#.
+#.     			<option value="parentresellerid">{="Reseller"}/{="Username"}</option>
+#.     			<option value="rpchostid">{="Host"}/{="Username"}</option>
+#. 
 #. File www/system/templates/admin_sessions.tpl:23
 #. Context: ttable_nosort"><input type="checkbox" onclick="header_checkbox_click(this)" /></th>
-#. <th width="100" class="sorttable_alpha">{="Username"}</th>
-#. <th class="sorttable_alpha">{="Title"}</th>
-#.
+#.     	<th width="100" class="sorttable_alpha">{="Username"}</th>
+#.     	<th class="sorttable_alpha">{="Title"}</th>
+#. 
 #. File www/system/templates/admin_accounts.tpl:120
 #. Context: <option value="parentresellerid">{="Reseller"}/{="Username"}</option>
-#. <option value="rpchostid">{="Host"}/{="Username"}</option>
-#. <option value="servertype">{="Server type"}/{="Username"}</option>
-#.
+#.     			<option value="rpchostid">{="Host"}/{="Username"}</option>
+#.     			<option value="servertype">{="Server type"}/{="Username"}</option>
+#. 
 #. File www/system/templates/admin_accounts.tpl:121
 #. Context: <option value="rpchostid">{="Host"}/{="Username"}</option>
-#. <option value="servertype">{="Server type"}/{="Username"}</option>
-#. <option value="username">{="Username"}</option>
-#.
+#.     			<option value="servertype">{="Server type"}/{="Username"}</option>
+#.     			<option value="username">{="Username"}</option>
+#. 
 #. File www/system/templates/admin_accounts.tpl:122
 #. Context: <option value="servertype">{="Server type"}/{="Username"}</option>
-#. <option value="username">{="Username"}</option>
-#. <option value="title">{="Title"}</option>
-#.
+#.     			<option value="username">{="Username"}</option>
+#.     			<option value="title">{="Title"}</option>
+#. 
 #: www/system/templates/login_form.tpl:10
 #: www/system/templates/m/login_form.tpl:9
 #: www/system/templates/staffaccount_list.tpl:21
@@ -3076,7 +3162,8 @@ msgstr "Hochladen / Löschen von Dateien in Ihrer Medienbibliothek."
 #: www/system/templates/djaccount_list.tpl:23
 #: www/system/templates/djaccount_edit.tpl:37
 #: www/system/templates/account_created_details_basic.tpl:3
-#: system/class_AccountFields.php:773 system/class_AccountFields.php:315
+#: system/class_AccountFields.php:773
+#: system/class_AccountFields.php:315
 #: www/system/templates/admin_accounts.tpl:153
 #: www/system/templates/admin_accounts.tpl:119
 #: www/system/templates/admin_sessions.tpl:23
@@ -3084,32 +3171,33 @@ msgstr "Hochladen / Löschen von Dateien in Ihrer Medienbibliothek."
 #: www/system/templates/admin_accounts.tpl:121
 #: www/system/templates/admin_accounts.tpl:122
 msgid "Username"
-msgstr "Benutzername"
+msgstr ""
 
 #. File www/menu.php:100
-#.
+#. 
 #. File www/admin/modules/class_Module_utilities.php:11
-#.
-#: www/menu.php:100 www/admin/modules/class_Module_utilities.php:11
+#. 
+#: www/menu.php:100
+#: www/admin/modules/class_Module_utilities.php:11
 msgid "Utilities"
 msgstr ""
 
 #. File www/class_CCTemplate.php:136
-#.
+#. 
 #. File www/system/templates/shoutcast_config_lang.tpl:2
 #. Context: {language}
-#. warning: '{="Warning"}',
-#. idle_source_zero: '{="A value of 10 or above is recommended; setting this value to 0 may cause unexpected behavior.%sSpeci
-#.
+#.     	warning: '{="Warning"}',
+#.     	idle_source_zero: '{="A value of 10 or above is recommended; setting this value to 0 may cause unexpected behavior.%sSpeci
+#. 
 #. File www/system/templates/playlist_edit.tpl:195
 #. Context: {if $canschedule==0}
-#. {box title="Warning"}
-#. {="Immediate playlists are unavailable because the %s streaming source is in use, which does not support scheduling.",$sour
-#.
+#.     	{box title="Warning"}
+#.     		{="Immediate playlists are unavailable because the %s streaming source is in use, which does not support scheduling.",$sour
+#. 
 #. File www/system/templates/configfile_editor.tpl:27
 #. Context: {box title="Warning" id="warning" class="boxalert"}
-#. <div style="width: 300px; padding: 10px">
-#.
+#.     	<div style="width: 300px; padding: 10px">
+#. 
 #: www/class_CCTemplate.php:136
 #: www/system/templates/shoutcast_config_lang.tpl:2
 #: www/system/templates/playlist_edit.tpl:195
@@ -3118,319 +3206,320 @@ msgid "Warning"
 msgstr ""
 
 #. File www/class_RPCApplication.php:121
-#.
+#. 
 #. File www/system/templates/uncaught_exception.tpl:54
 #. Context: {otherwise}
-#. {="We apologize for the inconvenience, but an internal error has occurred.  Please try again later."}
-#.
+#.     	{="We apologize for the inconvenience, but an internal error has occurred.  Please try again later."}
+#. 
 #. File system/class_Application.php:214
-#.
+#. 
 #: www/class_RPCApplication.php:121
 #: www/system/templates/uncaught_exception.tpl:54
 #: system/class_Application.php:214
-msgid ""
-"We apologize for the inconvenience, but an internal error has occurred.  "
-"Please try again later."
+msgid "We apologize for the inconvenience, but an internal error has occurred.  Please try again later."
 msgstr ""
 
 #. File www/system/templates/startpage_index.tpl:1
 #. Context: <h3>{="Web Audio Player"}</h3>
-#.
+#. 
 #: www/system/templates/startpage_index.tpl:1
 msgid "Web Audio Player"
 msgstr ""
 
 #. File www/class_CCTemplate.php:95
-#.
+#. 
 #. File www/system/templates/playlist_edit.tpl:260
 #. Context: cted"{/if}>{="Tue"}</option>
-#. <option value="wed"{if $playlist.scheduled_weekdays|contains:"wed"} selected="selected"{/if}>{="Wed"}</option>
-#. <option value="thu"{if $playlist.scheduled_weekdays|contains:"thu"} selected="selected"{/if}>{="Thu"}</option>
-#.
+#.     			<option value="wed"{if $playlist.scheduled_weekdays|contains:"wed"} selected="selected"{/if}>{="Wed"}</option>
+#.     			<option value="thu"{if $playlist.scheduled_weekdays|contains:"thu"} selected="selected"{/if}>{="Thu"}</option>
+#. 
 #. File www/system/templates/djaccount_edit.tpl:130
 #. Context: /if}>{="Tue"}</option>
-#. <option value="wed"{if $djaccount.login_weekdays|contains:"wed"} selected="selected"{/if}>{="Wed"}</option>
-#. <option value="thu"{if $djaccount.login_weekdays|contains:"thu"} selected="selected"{/if}>{="Thu"}</opti
-#.
-#: www/class_CCTemplate.php:95 www/system/templates/playlist_edit.tpl:260
+#.                 <option value="wed"{if $djaccount.login_weekdays|contains:"wed"} selected="selected"{/if}>{="Wed"}</option>
+#.                 <option value="thu"{if $djaccount.login_weekdays|contains:"thu"} selected="selected"{/if}>{="Thu"}</opti
+#. 
+#: www/class_CCTemplate.php:95
+#: www/system/templates/playlist_edit.tpl:260
 #: www/system/templates/djaccount_edit.tpl:130
 msgid "Wed"
-msgstr "Mittwoch"
+msgstr ""
 
 #. File www/menu.php:478
-#.
+#. 
 #. File www/menu.php:230
-#.
+#. 
 #. File www/client/modules/class_Module_widgets.php:15
-#.
+#. 
 #. File system/class_StreamingSource.php:283
-#.
+#. 
 #. File system/class_AccountFields.php:872
-#.
-#: www/menu.php:478 www/menu.php:230
+#. 
+#: www/menu.php:478
+#: www/menu.php:230
 #: www/client/modules/class_Module_widgets.php:15
-#: system/class_StreamingSource.php:283 system/class_AccountFields.php:872
+#: system/class_StreamingSource.php:283
+#: system/class_AccountFields.php:872
 msgid "Widgets"
-msgstr "Widgets"
+msgstr ""
 
 #. File www/class_StreamStatus.php:531
-#.
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:22
 #. Context: <select name="config[allowondemand]" size="1">
-#. <option value="1"{if $config.allowondemand>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.allowondemand==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.allowondemand>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.allowondemand==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File www/system/templates/configuration_client_source.tpl:61
 #. Context: <select name="config[randomplaylist]" size="1">
-#. <option value="1"{if $config.randomplaylist>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.randomplaylist==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.randomplaylist>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.randomplaylist==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:31
 #. Context: <select name="config[allowgmaps]" size="1">
-#. <option value="1"{if $config.allowgmaps>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.allowgmaps==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.allowgmaps>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.allowgmaps==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:13
 #. Context: <select name="config[usestartpage]" size="1">
-#. <option value="1"{if $config.usestartpage>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.usestartpage==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.usestartpage>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.usestartpage==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:51
 #. Context: <select name="config[allowrequests]" size="1">
-#. <option value="1"{if $config.allowrequests>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.allowrequests==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.allowrequests>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.allowrequests==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:101
 #. Context: <select name="config[allowrecent]" size="1">
-#. <option value="1"{if $config.allowrecent>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.allowrecent==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.allowrecent>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.allowrecent==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:84
 #. Context: ame="config[emailunknownrequests]" size="1">
-#. <option value="1"{if $config.emailunknownrequests>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.emailunknownrequests==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.emailunknownrequests>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.emailunknownrequests==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File www/system/templates/configuration_client_widgets.tpl:60
 #. Context: lect name="config[autoqueuerequests]" size="1">
-#. <option value="1"{if $config.autoqueuerequests>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.autoqueuerequests==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.autoqueuerequests>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.autoqueuerequests==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:25
 #. Context: <select name="config[masterondemand]" size="1">
-#. <option value="1"{if $config.masterondemand>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.masterondemand==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.masterondemand>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.masterondemand==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:9
 #. Context: sers==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.autodumpusers>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select> {$errors.autodumpusers|checkerror}
-#.
+#.     		<option value="1"{if $config.autodumpusers>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		</select> {$errors.autodumpusers|checkerror}
+#. 
 #. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:42
 #. Context: <select name="config[relaymeta]" size="1">
-#. <option value="1"{if $config.relaymeta>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.relaymeta==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.relaymeta>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.relaymeta==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:50
 #. Context: <select name="config[burstonconnect]" size="1">
-#. <option value="1"{if $config.burstonconnect>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.burstonconnect==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.burstonconnect>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.burstonconnect==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:42
 #. Context: <select name="config[useserver]" size="1">
-#. <option value="1"{if $config.useserver>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.useserver>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:62
 #. Context: <select name="config[useserver]" size="1">
-#. <option value="1"{if $config.useserver>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.useserver>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:71
 #. Context: <select name="config[nextsongdebug]" size="1">
-#. <option value="1"{if $config.nextsongdebug>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.nextsongdebug>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File system/albumds/class_AlbumDataSource_amazon.php:408
-#.
+#. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:92
 #. Context: } selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.fallbackwhenfull=="1"} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
+#.     				<option value="1"{if $config.fallbackwhenfull=="1"} selected="selected"{/if}>{="Yes"}</option>
+#.     				</select>
+#. 
 #. File system/albumds/class_AlbumDataSource.php:279
-#.
+#. 
 #. File system/albumds/class_AlbumDataSource_amazon.php:399
-#.
+#. 
 #. File system/servers/ShoutCast/templates/configuration_client_relay.tpl:20
 #. Context: elected="selected"{/if}>{="No"}</option>
-#. <option value="Yes"{if $config.allowpublicrelay=="Yes"} selected="selected"{/if}>{="Yes"}</option>
-#. </select> {$errors.allowpublicrelay|checkerror}
-#.
+#.     		<option value="Yes"{if $config.allowpublicrelay=="Yes"} selected="selected"{/if}>{="Yes"}</option>
+#.     		</select> {$errors.allowpublicrelay|checkerror}
+#. 
 #. File system/servers/ShoutCast/templates/configuration_client_relay.tpl:11
 #. Context: No"} selected="selected"{/if}>{="No"}</option>
-#. <option value="Yes"{if $config.allowrelay=="Yes"} selected="selected"{/if}>{="Yes"}</option>
-#. </select> {$errors.allowrelay|checkerror}
-#.
+#.     		<option value="Yes"{if $config.allowrelay=="Yes"} selected="selected"{/if}>{="Yes"}</option>
+#.     		</select> {$errors.allowrelay|checkerror}
+#. 
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:51
 #. Context: <select name="config[nextsongdebug]" size="1">
-#. <option value="1"{if $config.nextsongdebug>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.nextsongdebug>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:33
 #. Context: <select name="config[relayondemand]" size="1">
-#. <option value="1"{if $config.relayondemand>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.relayondemand==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.relayondemand>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.relayondemand==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:193
 #. Context: <select name="mountpoints_field[liqaacadts]" class="list_editor_field" size="1">
-#. <option value="true">{="Yes"}</option>
-#. <option value="false">{="No"}</option>
-#.
+#.     					<option value="true">{="Yes"}</option>
+#.     					<option value="false">{="No"}</option>
+#. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:82
 #. Context: rride]" size="1" class="list_editor_field">
-#. <option value="1"{if $config.fallbackoverride=="1"} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.fallbackoverride=="0"} selected="selected"{/if}>{="No"}</option>
-#.
+#.     				<option value="1"{if $config.fallbackoverride=="1"} selected="selected"{/if}>{="Yes"}</option>
+#.     				<option value="0"{if $config.fallbackoverride=="0"} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:239
 #. Context: <option value="false">{="No"}</option>
-#. <option value="true">{="Yes"}</option>
-#. </select>
-#.
+#.     					<option value="true">{="Yes"}</option>
+#.     					</select>
+#. 
 #. File system/sources/liquidsoap/templates/configuration_source.tpl:26
 #. Context: <select name="config[replay_gain]" size="1">
-#. <option value="1"{if $config.replay_gain!="0"} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.replay_gain=="0"} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.replay_gain!="0"} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.replay_gain=="0"} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:30
 #. Context: "selected"{/if}>{="No"}</option>
-#. <option value="true"{if $config.mountpoints.liqpublic=="true"} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
+#.     				<option value="true"{if $config.mountpoints.liqpublic=="true"} selected="selected"{/if}>{="Yes"}</option>
+#.     				</select>
+#. 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:13
 #. Context: ints_field[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
-#. </tr>
-#.
+#.     		</tr>
+#. 
 #. File system/sources/ices/templates/configuration_source_mountpoints.tpl:9
 #. Context: fieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
-#. </tr>
-#.
+#.     		</tr>
+#. 
 #. File system/sources/ices/templates/configuration_source_mountpoints.tpl:29
 #. Context: elected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.mountpoints.icespublic>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
+#.     				<option value="1"{if $config.mountpoints.icespublic>0} selected="selected"{/if}>{="Yes"}</option>
+#.     				</select>
+#. 
 #. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:9
 #. Context: fieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
-#. </tr>
-#.
+#.     		</tr>
+#. 
 #. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:29
 #. Context: elected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.mountpoints.icespublic>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
+#.     				<option value="1"{if $config.mountpoints.icespublic>0} selected="selected"{/if}>{="Yes"}</option>
+#.     				</select>
+#. 
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:8
 #. Context: ints_field[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
-#. </tr>
-#.
+#.     		</tr>
+#. 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:204
 #. Context: <option value="false">{="No"}</option>
-#. <option value="true">{="Yes"}</option>
-#. </select>
-#.
+#.     					<option value="true">{="Yes"}</option>
+#.     					</select>
+#. 
 #. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:26
 #. Context: 0"} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.allowpublicrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
-#. </select> {$errors.allowpublicrelay|checkerror}
-#.
+#.     		<option value="1"{if $config.allowpublicrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
+#.     		</select> {$errors.allowpublicrelay|checkerror}
+#. 
 #. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:17
 #. Context: lay=="0"} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.allowrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
-#. </select> {$errors.allowrelay|checkerror}
-#.
+#.     		<option value="1"{if $config.allowrelay=="1"} selected="selected"{/if}>{="Yes"}</option>
+#.     		</select> {$errors.allowrelay|checkerror}
+#. 
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:68
 #. Context: {if $config.yp2==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.yp2>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select> {$errors.yp2|checkerror}
-#.
+#.     		<option value="1"{if $config.yp2>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		</select> {$errors.yp2|checkerror}
+#. 
 #. File system/sources/sctrans2/templates/configuration_source.tpl:34
 #. Context: rpg==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.sctransapplyrpg>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select> {$errors.sctransapplyrpg|checkerror}
-#.
+#.     		<option value="1"{if $config.sctransapplyrpg>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		</select> {$errors.sctransapplyrpg|checkerror}
+#. 
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:51
 #. Context: <select name="config[nextsongdebug]" size="1">
-#. <option value="1"{if $config.nextsongdebug>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.nextsongdebug>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.nextsongdebug==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:42
 #. Context: <select name="config[useserver]" size="1">
-#. <option value="1"{if $config.useserver>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $config.useserver>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $config.useserver==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File system/sources/sctrans2/templates/configuration_source.tpl:47
 #. Context: crpg==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.sctranscalcrpg>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select> {$errors.sctranscalcrpg|checkerror}
-#.
+#.     		<option value="1"{if $config.sctranscalcrpg>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		</select> {$errors.sctranscalcrpg|checkerror}
+#. 
 #. File system/sources/ices2/templates/configuration_source_mountpoints.tpl:9
 #. Context: fieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
-#. </tr>
-#.
+#.     		</tr>
+#. 
 #. File system/sources/ices2/templates/configuration_source_mountpoints.tpl:44
 #. Context: sables bitrate enforcement)"}</option>
-#. <option value="1"{if $config.mountpoints.icesmanaged==1} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
+#.     				<option value="1"{if $config.mountpoints.icesmanaged==1} selected="selected"{/if}>{="Yes"}</option>
+#.     				</select>
+#. 
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:18
 #. Context: users==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $config.autodumpusers>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select> {$errors.autodumpusers|checkerror}
-#.
+#.     		<option value="1"{if $config.autodumpusers>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		</select> {$errors.autodumpusers|checkerror}
+#. 
 #. File www/system/templates/admin_sourcetype_edit.tpl:29
 #. Context: enabled==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $sourcetype.enabled>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
+#.     		<option value="1"{if $sourcetype.enabled>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		</select>
+#. 
 #. File www/system/templates/admin_newsarticle_edit.tpl:37
 #. Context: <select name="newsarticle[visible]" size="1">
-#. <option value="1"{if $newsarticle.visible>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $newsarticle.visible==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     		<option value="1"{if $newsarticle.visible>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		<option value="0"{if $newsarticle.visible==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File www/system/templates/admin_remoteserver_edit.tpl:30
 #. Context: er==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $remoteserver.apicluster>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
+#.     		<option value="1"{if $remoteserver.apicluster>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		</select>
+#. 
 #. File www/system/templates/admin_settings.tpl:272
 #. Context: =0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $settings.allowstreamlist>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
+#.     				<option value="1"{if $settings.allowstreamlist>0} selected="selected"{/if}>{="Yes"}</option>
+#.     				</select>
+#. 
 #. File www/system/templates/admin_settings.tpl:262
 #. Context: =0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $settings.allowlogdownload>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
+#.     			<option value="1"{if $settings.allowlogdownload>0} selected="selected"{/if}>{="Yes"}</option>
+#.     			</select>
+#. 
 #. File www/system/templates/admin_settings.tpl:289
 #. Context: <select name="settings[importimages]" size="1">
-#. <option value="1"{if $settings.importimages>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $settings.importimages==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     			<option value="1"{if $settings.importimages>0} selected="selected"{/if}>{="Yes"}</option>
+#.     			<option value="0"{if $settings.importimages==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #. File www/system/templates/admin_settings.tpl:322
 #. Context: llowsso==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $settings.allowsso>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
+#.     			<option value="1"{if $settings.allowsso>0} selected="selected"{/if}>{="Yes"}</option>
+#.     			</select>
+#. 
 #. File www/system/templates/admin_servertype_edit.tpl:29
 #. Context: enabled==0} selected="selected"{/if}>{="No"}</option>
-#. <option value="1"{if $servertype.enabled>0} selected="selected"{/if}>{="Yes"}</option>
-#. </select>
-#.
+#.     		<option value="1"{if $servertype.enabled>0} selected="selected"{/if}>{="Yes"}</option>
+#.     		</select>
+#. 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:26
 #. Context: tartserver]" id="startserver" size="1">
-#. <option value="1"{if $centovacast_account.startserver>0} selected="selected"{/if}>{="Yes"}</option>
-#. <option value="0"{if $centovacast_account.startserver==0} selected="selected"{/if}>{="No"}</option>
-#.
+#.     			<option value="1"{if $centovacast_account.startserver>0} selected="selected"{/if}>{="Yes"}</option>
+#.     			<option value="0"{if $centovacast_account.startserver==0} selected="selected"{/if}>{="No"}</option>
+#. 
 #: www/class_StreamStatus.php:531
 #: www/system/templates/configuration_client_widgets.tpl:22
 #: www/system/templates/configuration_client_source.tpl:61
@@ -3487,109 +3576,108 @@ msgstr "Widgets"
 #: www/system/templates/admin_servertype_edit.tpl:29
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:26
 msgid "Yes"
-msgstr "Ja"
+msgstr ""
 
 #. File www/class_Template.php:1407
-#.
+#. 
 #. File www/system/templates/statistics.tpl:25
 #. Context: <div style="float: right">
-#. <a href="#" onclick="set_period(1); return false">{="Yesterday"}</a> |
-#. <a href="#" onclick="set_period(7); return false">{="%s days",7}</a> |
-#.
-#: www/class_Template.php:1407 www/system/templates/statistics.tpl:25
+#.     					<a href="#" onclick="set_period(1); return false">{="Yesterday"}</a> |
+#.     					<a href="#" onclick="set_period(7); return false">{="%s days",7}</a> |
+#. 
+#: www/class_Template.php:1407
+#: www/system/templates/statistics.tpl:25
 msgid "Yesterday"
-msgstr "Gestern"
+msgstr ""
 
 #. File www/system/templates/forgotcomplete.tpl:6
 #. Arguments: "<a href='index.php'>","</a>"
 #. Context: {="You may now %slogin%s.","<a href='index.php'>","</a>"}
-#.
+#. 
 #: www/system/templates/forgotcomplete.tpl:6
 msgid "You may now %slogin%s."
 msgstr ""
 
 #. File www/external/rpc/class_RPCondemand.php:133
-#.
+#. 
 #: www/external/rpc/class_RPCondemand.php:133
 msgid "You must select at least one item."
-msgstr "Sie m&uuml;ssen mindestens einen Eintrag ausw&auml;hlen"
+msgstr ""
 
 #. File www/theme/templates/quick_links.tpl:31
 #. Context: name"}:&nbsp;</td><td><strong>{$account.username|htmlentities}</strong></td></tr>
-#. <tr><td>{="FTP Password"}:&nbsp;</td><td>({="Your administrator password"})</td></tr>
-#. </table>
-#.
+#.     	<tr><td>{="FTP Password"}:&nbsp;</td><td>({="Your administrator password"})</td></tr>
+#.     	</table>
+#. 
 #: www/theme/templates/quick_links.tpl:31
 msgid "Your administrator password"
-msgstr "Das Administrator Passwort aus den Einstellungen"
+msgstr ""
 
 #. File www/system/templates/login_head.tpl:45
 #. Context: register_lang({
-#. caps_lock_warning: '{="Your caps lock key appears to be on.  Note that passwords in Centova Cast are case-sensitive so you may need to turn off caps lock in order to log in successfully."}',
-#. caps_lock_title: '{="Caps lock warning"}'
-#.
+#.     	    caps_lock_warning: '{="Your caps lock key appears to be on.  Note that passwords in Centova Cast are case-sensitive so you may need to turn off caps lock in order to log in successfully."}',
+#.     	    caps_lock_title: '{="Caps lock warning"}'
+#. 
 #: www/system/templates/login_head.tpl:45
-msgid ""
-"Your caps lock key appears to be on.  Note that passwords in Centova Cast "
-"are case-sensitive so you may need to turn off caps lock in order to log in "
-"successfully."
+msgid "Your caps lock key appears to be on.  Note that passwords in Centova Cast are case-sensitive so you may need to turn off caps lock in order to log in successfully."
 msgstr ""
 
 #. File www/system/templates/startpage_index.tpl:24
 #. Context: cc_req_sender_{$username|htmlentities}{$charset|htmlentities}" name="request[sender]" size="40" maxlength="127" /><br />
-#. {="Your E-mail"}: <input type="text" id="cc_req_email_{$username|htmlentities}{$charset|htmlentities}" name="request[email]" size="40" maxleng
-#.
+#.     				{="Your E-mail"}: <input type="text" id="cc_req_email_{$username|htmlentities}{$charset|htmlentities}" name="request[email]" size="40" maxleng
+#. 
 #. File www/client/modules/class_Module_widgets.php:167
-#.
+#. 
 #: www/system/templates/startpage_index.tpl:24
 #: www/client/modules/class_Module_widgets.php:167
 msgid "Your E-mail"
-msgstr "Deine E-Mail"
+msgstr ""
 
 #. File www/external/rpc/class_RPCgooglemaps.php:46
-#.
+#. 
 #: www/external/rpc/class_RPCgooglemaps.php:46
 msgid "Your location"
 msgstr ""
 
 #. File www/system/templates/startpage_index.tpl:23
 #. Context: _req_dedi_{$username|htmlentities}{$charset|htmlentities}" name="request[dedication]" size="40" maxlength="127" /><br />
-#. {="Your name"}: <input type="text" id="cc_req_sender_{$username|htmlentities}{$charset|htmlentities}" name="request[sender]" size="40" maxle
-#.
+#.     				{="Your name"}: <input type="text" id="cc_req_sender_{$username|htmlentities}{$charset|htmlentities}" name="request[sender]" size="40" maxle
+#. 
 #. File www/client/modules/class_Module_widgets.php:166
-#.
+#. 
 #: www/system/templates/startpage_index.tpl:23
 #: www/client/modules/class_Module_widgets.php:166
 msgid "Your name"
-msgstr "Dein Name"
+msgstr ""
 
 #. File www/system/templates/forgotcomplete.tpl:4
 #. Context: {="Your password has been reset successfully."}<br /><br />
-#.
+#. 
 #: www/system/templates/forgotcomplete.tpl:4
 msgid "Your password has been reset successfully."
-msgstr "Ihr Passwort wurde erfolgreich zur&uuml;ckgesetzt."
+msgstr ""
 
 #. File www/external/rpc/class_RPCrequest.php:94
-#.
+#. 
 #: www/external/rpc/class_RPCrequest.php:94
 msgid "Your song request has been submitted - thank you."
-msgstr "Ihr Musikwunsch wurde &uuml;bermittelt. Danke."
+msgstr ""
 
 #. File www/theme/templates/quick_links.tpl:2
 #. Context: {box title="Quick Links"}
-#. {="Your stream start page"}:<br />
-#. <a target="_blank" href="{$baseurl}start/{$account.username|htmlentities}">{$baseurl}start/{$account.username|htmlent
-#.
+#.     	{="Your stream start page"}:<br />
+#.     	<a target="_blank" href="{$baseurl}start/{$account.username|htmlentities}">{$baseurl}start/{$account.username|htmlent
+#. 
 #: www/theme/templates/quick_links.tpl:2
 msgid "Your stream start page"
-msgstr "Streamserver Homepage"
+msgstr ""
 
 #. File www/theme/templates/quick_links.tpl:6
 #. Context: <br /><br />
-#. {="Your streaming server index page"}:<br />
-#. <a target="_blank" href="{$serveradminpage|htmlentities}">{$serveradminpage|htmlentities}</a>
-#.
+#.     	{="Your streaming server index page"}:<br />
+#.     	<a target="_blank" href="{$serveradminpage|htmlentities}">{$serveradminpage|htmlentities}</a>
+#. 
 #: www/theme/templates/quick_links.tpl:6
 msgid "Your streaming server index page"
-msgstr "Streamserver Startseite"
+msgstr ""
+
