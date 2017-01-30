@@ -1,55 +1,56 @@
 # Centova Cast translation - billing interface
-# Copyright 2014, Centova Technologies Inc.
+# Copyright 2015, Centova Technologies Inc.
 # This file is distributed under the same license terms as Centova Cast.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2013-07-17 14\n"
-"PO-Revision-Date: 2013-07-17 14\n"
+"POT-Creation-Date: 2016-02-26 23:59+0100\n"
+"PO-Revision-Date: 2016-02-26 23:59+0100\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #. File billing/ihost/centovacast/class_BackendCentovaCast.php:126
 #. Arguments: strlen($account['company']) ? $account['company'] : $account['lastname']
-#. 
+#.
 #: billing/ihost/centovacast/class_BackendCentovaCast.php:126
 msgid "%s Stream"
 msgstr ""
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:33
 #. Context: " name="centovacast_account[mountlimit]" id="mountlimit" size="5" value="{$centovacast_account.mountlimit|htmlentities}" /> ({="0 for unlimited"}, {="blank to use template setting"})</td>
-#.     	</tr>
-#. 
+#. </tr>
+#.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:33
 msgid "0 for unlimited"
 msgstr ""
 
 #. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:34
-#. 
+#.
 #: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:34
 msgid "Account template"
 msgstr ""
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:3
 #. Context: td width="150"><label for="centovacast_account[template]"{if $centovacast_account_fielderrors.template>0} class="error"{/if}>{="Account template name"}:</label></td>
-#.     		<td><input type="text" name="centovacast_account[template]" id="template" size="30" value="{$centovacast_acco
-#. 
+#. <td><input type="text" name="centovacast_account[template]" id="template" size="30" value="{$centovacast_acco
+#.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:3
 msgid "Account template name"
 msgstr ""
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:46
 #. Context: <tr>
-#.     		<td><label for="centovacast_account[usesource]"{if $centovacast_account_fielderrors.usesource>0} class="error"{/if}>{="AutoDJ support"}:</label></td>
-#.     		<td>
-#. 
+#. <td><label for="centovacast_account[usesource]"{if $centovacast_account_fielderrors.usesource>0} class="error"{/if}>{="AutoDJ support"}:</label></td>
+#. <td>
+#.
 #. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:43
-#. 
+#.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:46
 #: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:43
 msgid "AutoDJ support"
@@ -57,32 +58,32 @@ msgstr ""
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:57
 #. Context: ers]" id="resellerusers" size="5" value="{$centovacast_account.resellerusers|htmlentities}" /> ({="reseller accounts only"}, {="blank to use template setting"})</td>
-#.     	</tr>
-#. 
+#. </tr>
+#.
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:61
 #. Context: bandwidth" size="5" value="{$centovacast_account.resellerbandwidth|htmlentities}" /> {="kbps"} ({="reseller accounts only"}, {="blank to use template setting"})</td>
-#.     	</tr>
-#. 
+#. </tr>
+#.
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:33
 #. Context: count[mountlimit]" id="mountlimit" size="5" value="{$centovacast_account.mountlimit|htmlentities}" /> ({="0 for unlimited"}, {="blank to use template setting"})</td>
-#.     	</tr>
-#. 
+#. </tr>
+#.
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:20
 #. Context: tovacast_account[diskquota]" id="diskquota" size="5" value="{$centovacast_account.diskquota|htmlentities}" /> {="%s MB",""} ({="blank to use template setting"})</td>
-#.     	</tr>
-#. 
+#. </tr>
+#.
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:12
 #. Context: ntovacast_account[maxbitrate]" id="maxbitrate" size="5" value="{$centovacast_account.maxbitrate|htmlentities}" /> {="Kbps"} ({="blank to use template setting"})</td>
-#.     	</tr>
-#. 
+#. </tr>
+#.
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:16
 #. Context: ount[transferlimit]" id="transferlimit" size="5" value="{$centovacast_account.transferlimit|htmlentities}" /> {="MB/month"} ({="blank to use template setting"})</td>
-#.     	</tr>
-#. 
+#. </tr>
+#.
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:8
 #. Context: " name="centovacast_account[maxclients]" id="maxclients" size="5" value="{$centovacast_account.maxclients|htmlentities}" /> ({="blank to use template setting"})</td>
-#.     	</tr>
-#. 
+#. </tr>
+#.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:57
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:61
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:33
@@ -94,32 +95,32 @@ msgid "blank to use template setting"
 msgstr ""
 
 #. File billing/ihost/centovacast/class_BackendCentovaCast.php:145
-#. 
+#.
 #: billing/ihost/centovacast/class_BackendCentovaCast.php:145
 msgid "Centova Cast package-type creation failure"
 msgstr ""
 
 #. File billing/ihost/centovacast/class_BackendCentovaCast.php:35
-#. 
+#.
 #: billing/ihost/centovacast/class_BackendCentovaCast.php:35
 msgid "Centova Cast URL must be specified."
 msgstr ""
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:4
 #. Context: "text" name="centovacast_account[template]" id="template" size="30" value="{$centovacast_account.template|htmlentities}" /> ({="create this in Centova Cast"})</td>
-#.     	</tr>
-#. 
+#. </tr>
+#.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:4
 msgid "create this in Centova Cast"
 msgstr ""
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:19
 #. Context: <tr>
-#.     		<td><label for="centovacast_account[diskquota]"{if $centovacast_account_fielderrors.diskquota>0} class="error"{/if}>{="Disk space quota"}:</label></td>
-#.     		<td><input type="text" name="centovacast_account[diskquota]" id="diskquota" size="5" value="{$centovacast_acc
-#. 
+#. <td><label for="centovacast_account[diskquota]"{if $centovacast_account_fielderrors.diskquota>0} class="error"{/if}>{="Disk space quota"}:</label></td>
+#. <td><input type="text" name="centovacast_account[diskquota]" id="diskquota" size="5" value="{$centovacast_acc
+#.
 #. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:38
-#. 
+#.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:19
 #: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:38
 msgid "Disk space quota"
@@ -127,10 +128,10 @@ msgstr ""
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:56
 #. Context: <td><label for="centovacast_account[resellerusers]"{if $centovacast_account_fielderrors.resellerusers>0} class="error"{/if}>{="Max accounts"}:</label></td>
-#.     		<td><input type="text" name="centovacast_account[resellerusers]" id="resellerusers" size="5" value="{$centova
-#. 
+#. <td><input type="text" name="centovacast_account[resellerusers]" id="resellerusers" size="5" value="{$centova
+#.
 #. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:44
-#. 
+#.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:56
 #: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:44
 msgid "Max accounts"
@@ -138,10 +139,10 @@ msgstr ""
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:60
 #. Context: bel for="centovacast_account[resellerbandwidth]"{if $centovacast_account_fielderrors.resellerbandwidth>0} class="error"{/if}>{="Max bandwidth"}:</label></td>
-#.     		<td><input type="text" name="centovacast_account[resellerbandwidth]" id="resellerbandwidth" size="5" value="{
-#. 
+#. <td><input type="text" name="centovacast_account[resellerbandwidth]" id="resellerbandwidth" size="5" value="{
+#.
 #. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:45
-#. 
+#.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:60
 #: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:45
 msgid "Max bandwidth"
@@ -149,30 +150,30 @@ msgstr ""
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:41
 #. Context: "selected"{/if}>{="Permitted"}</option>
-#.     			<option value="0"{if $centovacast_account.allowproxy==0} selected="selected"{/if}>{="Not permitted"}</option>
-#.     			</select>
-#. 
+#. <option value="0"{if $centovacast_account.allowproxy==0} selected="selected"{/if}>{="Not permitted"}</option>
+#. </select>
+#.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:41
 msgid "Not permitted"
 msgstr ""
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:28
 #. Context: <option value="0"{if $centovacast_account.startserver==0} selected="selected"{/if}>{="No"}</option>
-#.     			</select> ({="only used for non-autoDJ streams"})
-#.     		</td>
-#. 
+#. </select> ({="only used for non-autoDJ streams"})
+#. </td>
+#.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:28
 msgid "only used for non-autoDJ streams"
 msgstr ""
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:61
 #. Context: ellerbandwidth]" id="resellerbandwidth" size="5" value="{$centovacast_account.resellerbandwidth|htmlentities}" /> {="kbps"} ({="reseller accounts only"}, {="blank to use template setting"})</td>
-#.     	</tr>
-#. 
+#. </tr>
+#.
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:57
 #. Context: entovacast_account[resellerusers]" id="resellerusers" size="5" value="{$centovacast_account.resellerusers|htmlentities}" /> ({="reseller accounts only"}, {="blank to use template setting"})</td>
-#.     	</tr>
-#. 
+#. </tr>
+#.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:61
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:57
 msgid "reseller accounts only"
@@ -180,40 +181,39 @@ msgstr ""
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:23
 #. Context: r>
-#.     		<td><label for="centovacast_account[startserver]"{if $centovacast_account_fielderrors.startserver>0} class="error"{/if}>{="Start server"}:</label></td>
-#.     		<td>
-#. 
+#. <td><label for="centovacast_account[startserver]"{if $centovacast_account_fielderrors.startserver>0} class="error"{/if}>{="Start server"}:</label></td>
+#. <td>
+#.
 #. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:39
-#. 
+#.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:23
 #: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:39
 msgid "Start server"
-msgstr ""
+msgstr "Starte Server"
 
 #. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:9
-#. 
+#.
 #: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:9
 msgid "Streaming Radio (Centova Cast)"
 msgstr ""
 
 #. File billing/ihost/centovacast/class_BackendCentovaCast.php:22
-#. 
+#.
 #: billing/ihost/centovacast/class_BackendCentovaCast.php:22
 msgid "URL to Centova Cast"
 msgstr ""
 
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:49
 #. Context: nt[usesource]" id="usesource" size="1">
-#.     			<option value=""{if $centovacast_account.usesource===""} selected="selected"{/if}>{="Use template setting"}</option>
-#.     			<option value="2"{if $centovacast_account.usesource>=2} selected="selected"{/if}>{="Enabled"}</option>
-#. 
+#. <option value=""{if $centovacast_account.usesource===""} selected="selected"{/if}>{="Use template setting"}</option>
+#. <option value="2"{if $centovacast_account.usesource>=2} selected="selected"{/if}>{="Enabled"}</option>
+#.
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:39
 #. Context: allowproxy]" id="allowproxy" size="1">
-#.     			<option value=""{if $centovacast_account.allowproxy===""} selected="selected"{/if}>{="Use template setting"}</option>
-#.     			<option value="1"{if $centovacast_account.allowproxy>0} selected="selected"{/if}>{="Permitted"}</option>
-#. 
+#. <option value=""{if $centovacast_account.allowproxy===""} selected="selected"{/if}>{="Use template setting"}</option>
+#. <option value="1"{if $centovacast_account.allowproxy>0} selected="selected"{/if}>{="Permitted"}</option>
+#.
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:49
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:39
 msgid "Use template setting"
 msgstr ""
-

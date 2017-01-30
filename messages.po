@@ -1,560 +1,586 @@
 # Centova Cast translation - messages interface
-# Copyright 2014, Centova Technologies Inc.
+# Copyright 2015, Centova Technologies Inc.
 # This file is distributed under the same license terms as Centova Cast.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2013-07-17 14\n"
-"PO-Revision-Date: 2013-07-17 14\n"
+"POT-Creation-Date: 2016-01-27 02:56+0100\n"
+"PO-Revision-Date: 2016-01-27 02:56+0100\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
 
-#. File system/class_ServerControl.php:2507
+#. File system/class_ServerControl.php:2533
 #. Arguments: ($this->application->usersession->actual_identity()->is_reseller() ? __('reseller') : ($this->application->usersession->actual_identity()->is_admin() ? __('administrator') : 'user'))
-#. 
-#: system/class_ServerControl.php:2507
+#.
+#: system/class_ServerControl.php:2533
 msgid "Account imported by %s"
 msgstr ""
 
-#. File system/class_SystemControl.php:1876
-#. 
-#: system/class_SystemControl.php:1876
+#. File system/class_SystemControl.php:2016
+#.
+#: system/class_SystemControl.php:2016
 msgid "Account is already in specified state"
 msgstr ""
 
-#. File system/class_ServerControl.php:2507
+#. File system/class_ServerControl.php:2533
 #. Arguments: ($this->application->usersession->actual_identity()->is_reseller() ? __('reseller') : ($this->application->usersession->actual_identity()->is_admin() ? __('administrator') : 'user'))
-#. 
-#: system/class_ServerControl.php:2507
+#.
+#: system/class_ServerControl.php:2533
 msgid "Account settings modified by %s"
 msgstr ""
 
 #. File system/include_console.php:32
-#. 
+#.
 #: system/include_console.php:32
 msgid "activate or deactivate the autoDJ for an account"
 msgstr ""
 
 #. File system/include_console.php:41
-#. 
+#.
 #: system/include_console.php:41
 msgid "activate or deactivate the playlist"
 msgstr ""
 
 #. File system/include_console.php:35
-#. 
+#.
 #: system/include_console.php:35
 msgid "add new media to first playlist matching TEXT"
-msgstr "füge neue Medien zur ersten Wiedergabeliste, die mit TEXT übereinstimmt, hinzu"
+msgstr ""
+"f&uuml;ge neue Medien zur ersten Wiedergabeliste, die mit TEXT &uuml;"
+"bereinstimmt, hinzu"
 
 #. File system/include_console.php:36
-#. 
+#.
 #: system/include_console.php:36
 msgid "add new media to playlist with specified ID"
-msgstr "füge neue Medien zur Wiedergabeliste mit der angegebenen ID hinzu"
+msgstr "f&uuml;ge neue Medien zur Wiedergabeliste mit der angegebenen ID hinzu"
 
 #. File system/include_console.php:42
-#. 
+#.
 #: system/include_console.php:42
 msgid "add/remove tracks to/from the playlist"
 msgstr ""
 
-#. File system/class_ServerControl.php:1398
+#. File system/class_ServerControl.php:1442
 #. Arguments: count($newtracks), $intoplaylist
-#. 
-#: system/class_ServerControl.php:1398
+#.
+#: system/class_ServerControl.php:1442
 msgid "Added %s new tracks to playlist %d."
 msgstr ""
 
 #. File system/sysctrl/class_SystemControl_check.php:108
 #. Arguments: $app->type, $account['username']
-#. 
+#.
 #: system/sysctrl/class_SystemControl_check.php:108
 msgid "Application process %s for %s is down and should be up; restarting"
 msgstr ""
 
 #. File system/include_console.php:33
-#. 
+#.
 #: system/include_console.php:33
 msgid "autoDJ status"
 msgstr ""
 
+#. File system/class_ServerControl.php:1966
+#.
+#: system/class_ServerControl.php:1966
+msgid "Automatically unsuspending account after suspension from previous month"
+msgstr ""
+
 #. File system/include_console.php:9
-#. 
+#.
 #: system/include_console.php:9
 msgid "checks/restarts crashed servers (normally performed by cron job)"
 msgstr ""
 
 #. File system/include_console.php:5
-#. 
+#.
 #: system/include_console.php:5
 msgid "command"
 msgstr "Befehl"
 
-#. File system/class_ServerControl.php:2606
-#. Arguments: $this->logpath
-#. 
-#: system/class_ServerControl.php:2606
-msgid "Compressing %s ..."
-msgstr "Komprimiere %s..."
-
 #. File system/include_console.php:20
-#. 
+#.
 #: system/include_console.php:20
 msgid "displays the Centova Cast version"
 msgstr ""
 
 #. File system/class_DiskUsage.php:144
 #. Arguments: $djusername,$djusage->usage_mb
-#. 
+#.
 #: system/class_DiskUsage.php:144
 msgid "DJ %s disk usage: %0.02f MB"
 msgstr ""
 
-#. File system/ccmanage.php:170
+#. File system/ccmanage.php:171
 #. Arguments: $username
-#. 
-#: system/ccmanage.php:170
+#.
+#: system/ccmanage.php:171
 msgid "Enter password for %s"
-msgstr "Passwort f&uml;r %s eingeben"
+msgstr "Passwort für %s eingeben"
 
-#. File system/ccmanage.php:249
-#. 
-#: system/ccmanage.php:249
+#. File system/ccmanage.php:262
+#.
+#: system/ccmanage.php:262
 msgid "Enter password for admin"
-msgstr "Administrator-Paswort eingeben"
+msgstr "Administrator Passwort eingeben"
 
 #. File system/class_TrackManager.php:408
-#. 
+#.
 #: system/class_TrackManager.php:408
 msgid "Error reading track tags"
 msgstr ""
 
 #. File system/class_TrackManager.php:148
 #. Arguments: $pathnames[0],$pathcount-1
-#. 
+#.
 #: system/class_TrackManager.php:148
 msgid "Importing media | %s and %d more"
-msgstr ""
+msgstr "Importiere Musiktitel: %s sowie %d weitere"
 
 #. File www/login/modules/class_Module_index.php:183
 #. Arguments: $username, $this->reason
-#. 
+#.
 #: www/login/modules/class_Module_index.php:183
 msgid "Login failure for username %s: %s"
-msgstr ""
+msgstr "Fehlgeschlagener Login für username %s: %s"
 
 #. File system/include_console.php:30
-#. 
+#.
 #: system/include_console.php:30
 msgid "manage DJ accounts (see XML API documentation)"
 msgstr ""
 
 #. File system/include_console.php:38
-#. 
+#.
 #: system/include_console.php:38
 msgid "modify playlists for an account"
 msgstr ""
 
+#. File system/class_ServerControl.php:1922
+#. Arguments: $action
+#.
+#: system/class_ServerControl.php:1922
+msgid "Monthly data transfer limit exceeded; account has been automatically %s"
+msgstr ""
+
 #. File system/include_console.php:16
-#. 
+#.
 #: system/include_console.php:16
 msgid "only accounts with usernames matching TEXT"
 msgstr ""
 
-#. File system/class_SystemControl.php:2174
+#. File system/class_SystemControl.php:2324
 #. Arguments: $table
-#. 
-#: system/class_SystemControl.php:2174
+#.
+#: system/class_SystemControl.php:2324
 msgid "Optimizing %s ..."
 msgstr ""
 
 #. File system/include_console.php:5
-#. 
+#.
 #: system/include_console.php:5
 msgid "options"
 msgstr ""
 
 #. File system/include_console.php:54
-#. 
+#.
 #: system/include_console.php:54
 msgid "Output as a PHP array code block"
 msgstr ""
 
 #. File system/include_console.php:53
-#. 
+#.
 #: system/include_console.php:53
 msgid "Output as a PHP serialized array"
 msgstr ""
 
 #. File system/include_console.php:52
-#. 
+#.
 #: system/include_console.php:52
 msgid "Output as bash variable assignments"
 msgstr ""
 
 #. File system/include_console.php:51
-#. 
+#.
 #: system/include_console.php:51
 msgid "Output as human-readable text (default)"
 msgstr ""
 
 #. File system/include_console.php:57
-#. 
+#.
 #: system/include_console.php:57
 msgid "Output in CSV format (limited; see manual)"
 msgstr ""
 
 #. File system/include_console.php:55
-#. 
+#.
 #: system/include_console.php:55
 msgid "Output in JSON format"
 msgstr ""
 
 #. File system/include_console.php:56
-#. 
+#.
 #: system/include_console.php:56
 msgid "Output in XML format"
 msgstr ""
 
 #. File system/include_console.php:8
-#. 
+#.
 #: system/include_console.php:8
 msgid "processes all server logs (normally performed by cron job)"
 msgstr ""
 
-#. File system/class_SystemControl.php:1478
+#. File system/class_SystemControl.php:1515
 #. Arguments: $username, $servertype, $sourcetype
-#. 
-#: system/class_SystemControl.php:1478
+#.
+#: system/class_SystemControl.php:1515
 msgid "Provisioned account %s (server: %s; source: %s)"
 msgstr ""
 
-#. File system/class_SystemControl.php:1364
+#. File system/class_SystemControl.php:1398
 #. Arguments: $username
-#. 
-#: system/class_SystemControl.php:1364
+#.
+#: system/class_SystemControl.php:1398
 msgid "Provisioned reseller account %s"
 msgstr ""
 
 #. File system/include_console.php:11
-#. 
+#.
 #: system/include_console.php:11
 msgid "provisions a new account"
 msgstr ""
 
-#. File system/class_SystemControl.php:2151
-#. 
-#: system/class_SystemControl.php:2151
+#. File system/class_SystemControl.php:2313
+#.
+#: system/class_SystemControl.php:2313
 msgid "Purging event log"
 msgstr ""
 
 #. File system/include_console.php:37
-#. 
+#.
 #: system/include_console.php:37
 msgid "re-index known files even if unchanged"
 msgstr ""
 
-#. File system/class_ServerControl.php:1371
-#. 
-#. File system/class_ServerControl.php:1356
-#. 
-#: system/class_ServerControl.php:1371
-#: system/class_ServerControl.php:1356
-msgid "Re-indexing media without import as destination playlist does not exist..."
-msgstr "Die Neuindexierung von Medien ohne Import in eine Wiedergabeliste existiert nicht…"
+#. File system/class_ServerControl.php:1415
+#.
+#. File system/class_ServerControl.php:1400
+#.
+#: system/class_ServerControl.php:1415 system/class_ServerControl.php:1400
+msgid ""
+"Re-indexing media without import as destination playlist does not exist..."
+msgstr ""
+"Die Neuindexierung von Medien ohne Import in eine Wiedergabeliste existiert "
+"nicht…"
 
 #. File system/include_console.php:29
-#. 
+#.
 #: system/include_console.php:29
 msgid "reconfigure an account (see XML API documentation)"
 msgstr ""
 
 #. File system/include_console.php:34
-#. 
+#.
 #: system/include_console.php:34
 msgid "reindex the media library for an account"
 msgstr ""
 
 #. File system/include_console.php:26
-#. 
+#.
 #: system/include_console.php:26
 msgid "reload a stream"
 msgstr ""
 
-#. File system/class_SystemControl.php:1704
+#. File system/class_SystemControl.php:1844
 #. Arguments: $username
-#. 
-#: system/class_SystemControl.php:1704
+#.
+#: system/class_SystemControl.php:1844
 msgid "Removed account %s"
 msgstr ""
 
-#. File system/class_SystemControl.php:1704
+#. File system/class_SystemControl.php:1844
 #. Arguments: $username
-#. 
-#: system/class_SystemControl.php:1704
+#.
+#: system/class_SystemControl.php:1844
 msgid "Removed reseller account %s"
 msgstr ""
 
-#. File system/class_SystemControl.php:1734
+#. File system/sysctrl/class_SystemControl_rename.php:198
+#. Arguments: $old_username, $new_username
+#.
+#: system/sysctrl/class_SystemControl_rename.php:198
+msgid "Renamed account %s to %s"
+msgstr ""
+
+#. File system/sysctrl/class_SystemControl_rename.php:198
+#. Arguments: $old_username, $new_username
+#.
+#: system/sysctrl/class_SystemControl_rename.php:198
+msgid "Renamed reseller account %s to %s"
+msgstr ""
+
+#. File system/class_SystemControl.php:1874
 #. Arguments: $username, $settings['newreseller']
-#. 
-#: system/class_SystemControl.php:1734
+#.
+#: system/class_SystemControl.php:1874
 msgid "Reparented account %s to reseller %s"
 msgstr ""
 
 #. File system/include_console.php:25
-#. 
+#.
 #: system/include_console.php:25
 msgid "restart a stream"
 msgstr ""
 
 #. File system/include_console.php:27
-#. 
+#.
 #: system/include_console.php:27
 msgid "retrieve information about an account"
 msgstr ""
 
 #. File system/include_console.php:19
-#. 
+#.
 #: system/include_console.php:19
 msgid "retrieve last few songs played on a stream"
 msgstr ""
 
 #. File system/include_console.php:28
-#. 
+#.
 #: system/include_console.php:28
 msgid "retrieve song/listener information for an account"
 msgstr ""
 
 #. File system/include_console.php:15
-#. 
+#.
 #: system/include_console.php:15
 msgid "returns a list of all accounts and limited details for each"
 msgstr ""
 
 #. File system/include_console.php:10
-#. 
+#.
 #: system/include_console.php:10
 msgid "returns expected and actual account states"
 msgstr ""
 
 #. File system/include_console.php:60
-#. 
+#.
 #: system/include_console.php:60
 msgid "section of the manual for complete documentation."
 msgstr ""
 
 #. File system/include_console.php:50
-#. 
+#.
 #: system/include_console.php:50
 msgid "Selects an output mode, any one of:"
 msgstr ""
 
 #. File system/sysctrl/class_SystemControl_check.php:29
 #. Arguments: $account['username']
-#. 
+#.
 #: system/sysctrl/class_SystemControl_check.php:29
 msgid "Server %s is down and should be up; restarting"
 msgstr "Server %s ist aus, sollte an sein. Starte Server neu"
 
-#. File system/class_ServerControl.php:1118
-#. 
-#: system/class_ServerControl.php:1118
-msgid "Server restarted gracefully."
-msgstr "Server erfolgreich neu gestartet."
-
-#. File system/class_ServerControl.php:1160
-#. 
-#: system/class_ServerControl.php:1160
+#. File system/class_ServerControl.php:1205
+#.
+#: system/class_ServerControl.php:1205
 msgid "Server restarted successfully"
 msgstr ""
 
-#. File system/class_ServerControl.php:808
-#. 
-#: system/class_ServerControl.php:808
+#. File system/class_ServerControl.php:827
+#.
+#: system/class_ServerControl.php:827
 msgid "Server started successfully"
 msgstr "Server erfolgreich gestartet."
 
-#. File system/class_ServerControl.php:1205
-#. 
-#: system/class_ServerControl.php:1205
+#. File system/class_ServerControl.php:1250
+#.
+#: system/class_ServerControl.php:1250
 msgid "Server stopped"
 msgstr "Sterver gestoppt"
 
 #. File system/include_console.php:13
-#. 
+#.
 #: system/include_console.php:13
 msgid "sets the status of an account (enabled/disabled)"
 msgstr ""
 
 #. File system/include_console.php:49
-#. 
+#.
 #: system/include_console.php:49
 msgid "Show this help summary"
 msgstr "Zeige diese Hilfezusammenfassung"
 
 #. File system/include_console.php:31
-#. 
+#.
 #: system/include_console.php:31
 msgid "skips to the next song on a stream"
 msgstr ""
 
-#. File system/class_ServerControl.php:1685
-#. 
-#: system/class_ServerControl.php:1685
+#. File system/class_ServerControl.php:1698
+#.
+#: system/class_ServerControl.php:1698
 msgid "Song skipped"
-msgstr "Titel übersprungen"
+msgstr "Titel &uuml;bersprungen"
 
-#. File system/class_ServerControl.php:1311
-#. 
-#: system/class_ServerControl.php:1311
+#. File system/class_ServerControl.php:1356
+#.
+#: system/class_ServerControl.php:1356
 msgid "Source state changed"
 msgstr ""
 
 #. File system/include_console.php:14
-#. 
+#.
 #: system/include_console.php:14
 msgid "specifies new account status"
 msgstr "spezifiert neuen Kontostatus"
 
 #. File system/include_console.php:23
-#. 
+#.
 #: system/include_console.php:23
 msgid "start a stream"
 msgstr ""
 
 #. File system/include_console.php:24
-#. 
+#.
 #: system/include_console.php:24
 msgid "stop a stream"
 msgstr ""
 
 #. File system/sysctrl/class_SystemControl_check.php:186
-#. 
+#.
 #: system/sysctrl/class_SystemControl_check.php:186
 msgid "stopping stream"
 msgstr ""
 
+#. File system/class_SystemControl.php:2338
+#.
+#: system/class_SystemControl.php:2338
+msgid "Tables optimized"
+msgstr ""
+
 #. File system/include_console.php:12
-#. 
+#.
 #: system/include_console.php:12
 msgid "terminates (deletes) an existing account"
 msgstr ""
 
 #. File system/include_console.php:59
-#. 
+#.
 #: system/include_console.php:59
-msgid "This is a brief summary only; refer to the Management Utility Command Reference"
+msgid ""
+"This is a brief summary only; refer to the Management Utility Command "
+"Reference"
 msgstr ""
 
-#. File system/class_TrackManager.php:494
+#. File system/class_TrackManager.php:497
 #. Arguments: $track['pathname']
-#. 
-#: system/class_TrackManager.php:494
+#.
+#: system/class_TrackManager.php:497
 msgid "Track %s is missing; removing"
 msgstr ""
 
 #. File system/include_console.php:46
-#. 
+#.
 #: system/include_console.php:46
 msgid "tracks by artists whose names match TEXT"
-msgstr "Medien nach Interpret deren Namen mit TEXT übereinstimmen"
+msgstr "Medien nach Interpret deren Namen mit TEXT &uuml;bereinstimmen"
 
 #. File system/include_console.php:45
-#. 
+#.
 #: system/include_console.php:45
 msgid "tracks from albums whose names match TEXT"
-msgstr "Medien aus Alben deren Namen mit TEXT übereinstimmen"
+msgstr "Medien aus Alben deren Namen mit TEXT &uuml;bereinstimmen"
 
-#. File system/class_ServerControl.php:1409
-#. 
-#: system/class_ServerControl.php:1409
+#. File system/class_ServerControl.php:1453
+#.
+#: system/class_ServerControl.php:1453
 msgid "Tracks reindexed"
-msgstr ""
+msgstr "Musiktitel wurden neu indexiert"
 
 #. File system/include_console.php:44
-#. 
+#.
 #: system/include_console.php:44
 msgid "tracks whose filesystem paths match TEXT"
-msgstr "Medien deren Dateipfad mit TEXT übereinstimmen"
+msgstr "Medien deren Dateipfad mit TEXT &uuml;bereinstimmen"
 
 #. File system/include_console.php:43
-#. 
+#.
 #: system/include_console.php:43
 msgid "tracks whose titles match TEXT"
-msgstr "Medien deren Titel mit TEXT übereinstimmen"
+msgstr "Medien deren Titel mit TEXT &uuml;bereinstimmen"
 
 #. File www/client/modules/class_Module_importmedia.php:61
 #. Arguments: $res->getMessage()
-#. 
+#.
 #: www/client/modules/class_Module_importmedia.php:61
 msgid "Update completed successfully: %s"
 msgstr "Update erfolgreich abgeschlossen. %s"
 
-#. File system/class_ServerControl.php:1973
-#. 
-#: system/class_ServerControl.php:1973
+#. File system/class_ServerControl.php:1982
+#.
+#: system/class_ServerControl.php:1982
 msgid "Updated"
-msgstr ""
+msgstr "Geupdatet"
 
 #. File www/client/modules/class_Module_importmedia.php:65
 #. Arguments: $res->getMessage()
-#. 
+#.
 #: www/client/modules/class_Module_importmedia.php:65
 msgid "Updated failed: %s"
-msgstr ""
+msgstr "Update fehlgeschlagen: %s"
 
-#. File system/class_ServerControl.php:1336
-#. 
-#: system/class_ServerControl.php:1336
+#. File system/class_ServerControl.php:1380
+#.
+#: system/class_ServerControl.php:1380
 msgid "Updating disk usage"
-msgstr ""
+msgstr "Update Festplattennutzung"
 
 #. File system/include_console.php:5
-#. 
+#.
 #: system/include_console.php:5
 msgid "Usage"
 msgstr "Nutzung"
 
 #. File system/include_console.php:39
-#. 
+#.
 #: system/include_console.php:39
 msgid "use first playlist matching TEXT"
-msgstr "nutze die erste Wiedergabeliste die mit TEXT übereinstimmt"
+msgstr "nutze die erste Wiedergabeliste die mit TEXT &uuml;bereinstimmt"
 
 #. File system/include_console.php:40
-#. 
+#.
 #: system/include_console.php:40
 msgid "use first playlist with specified ID"
 msgstr ""
 
 #. File system/include_console.php:7
-#. 
+#.
 #: system/include_console.php:7
 msgid "Valid administrator commands include:"
-msgstr "Gültige Administratorbefehle enthalten:"
+msgstr "G&uuml;ltige Administratorbefehle enthalten:"
 
 #. File system/include_console.php:48
-#. 
+#.
 #: system/include_console.php:48
 msgid "Valid options include:"
-msgstr "Gültige Operationen enthalten:"
+msgstr "G&uuml;ltige Operationen enthalten:"
 
 #. File system/include_console.php:18
-#. 
+#.
 #: system/include_console.php:18
 msgid "Valid passwordless commands include:"
-msgstr "Gültige Passwortlose Befehle enthalten:"
+msgstr "G&uuml;ltige Passwortlose Befehle enthalten:"
 
 #. File system/include_console.php:22
-#. 
+#.
 #: system/include_console.php:22
 msgid "Valid user commands include"
-msgstr "Gültige Benutzerbefehle enthalten"
-
+msgstr "G&uuml;ltige Benutzerbefehle enthalten"
