@@ -5,15 +5,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2016-02-26 23:59+0100\n"
-"PO-Revision-Date: 2016-02-26 23:59+0100\n"
+"POT-Creation-Date: 2013-07-17 14\n"
+"PO-Revision-Date: 2016-06-01 12:28+0200\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #. File www/system/templates/admin_accounts.tpl:196
 #. Arguments: 100
@@ -733,10 +733,10 @@ msgstr "Fortsetzen"
 #.
 #. File www/admin/rpc/class_RPClogmanager.php:168
 #.
-#. File system/class_ServerControl.php:577
+#. File system/class_ServerControl.php:583
 #.
 #: www/admin/rpc/class_RPClogmanager.php:175
-#: www/admin/rpc/class_RPClogmanager.php:168 system/class_ServerControl.php:577
+#: www/admin/rpc/class_RPClogmanager.php:168 system/class_ServerControl.php:583
 msgid "Could not access log file"
 msgstr ""
 
@@ -759,8 +759,8 @@ msgid "Current login sessions"
 msgstr ""
 
 #. File www/system/templates/admin_sessions.tpl:47
-#. Context: $session.username=="admin"}{="Administrator"}{else}{$session.organization}{/if}{if $session.sessionid==$current_sessionid} ({="current session"}){/if}</td>
-#. <td sortby="x{$session.email|strtolower}"><a href="mailto:{$session.email|htmlentities}">{$session.email|htmlenti
+#. Context: rname=="admin"}{="Administrator"}{else}{$session.organization|htmlentities}{/if}{if $session.sessionid==$current_sessionid} ({="current session"}){/if}</td>
+#. <td sortby="x{$session.email|strtolower|htmlentities}"><a href="mailto:{$session.email|htmlentities}">{$session.e
 #.
 #: www/system/templates/admin_sessions.tpl:47
 msgid "current session"
@@ -956,8 +956,8 @@ msgstr ""
 
 #. File www/system/templates/admin_sessions.tpl:43
 #. Context: {otherwise}
-#. {if $session.djaccount.id}{$session.djaccount.username}<br />({="DJ for "}{/if}
-#. {if $session.editable}<a href="index.php?page=accounts&action=edit&username={$session.username}">{/if}{$session.userna
+#. {if $session.djaccount.id}{$session.djaccount.username|htmlentities}<br />({="DJ for "}{/if}
+#. {if $session.editable}<a href="index.php?page=accounts&action=edit&username={$session.username|htmlentities}">{/if}{$s
 #.
 #: www/system/templates/admin_sessions.tpl:43
 msgid "DJ for "
@@ -1550,9 +1550,9 @@ msgstr ""
 
 #. File www/admin/rpc/class_RPClogmanager.php:155
 #.
-#. File system/class_ServerControl.php:566
+#. File system/class_ServerControl.php:572
 #.
-#: www/admin/rpc/class_RPClogmanager.php:155 system/class_ServerControl.php:566
+#: www/admin/rpc/class_RPClogmanager.php:155 system/class_ServerControl.php:572
 msgid "Log file does not exist"
 msgstr ""
 
@@ -1626,26 +1626,6 @@ msgstr ""
 #.
 #: www/system/templates/admin_utilities.tpl:37
 msgid "Manage database"
-msgstr ""
-
-#. File www/system/templates/admin_rpchost_edit.tpl:33
-#. Context: <strong>{="Master"}</strong><br />
-#. {="If a server is configured with a master role, it will be used to host new streaming servers and their aut
-#.
-#. File www/system/templates/admin_rpchost_edit.tpl:28
-#. Context: <td>
-#. <input type="checkbox" name="rpchost[ismaster]" value="1" {if $rpchost.ismaster}checked="checked" {/if}/> {="Master"} {$errors.ismaster|checkerror}
-#. <input type="checkbox" name="rpchost[isrelay]" value="1" {if $rpchost.isrelay}checked="checke
-#.
-#. File www/system/templates/admin_rpchost_list.tpl:22
-#. Context: <th>{="Address"}</th>
-#. <th width="40" style="text-align: center">{="Master"}</th>
-#. <th width="40" style="text-align: center">{="Relay"}</th>
-#.
-#: www/system/templates/admin_rpchost_edit.tpl:33
-#: www/system/templates/admin_rpchost_edit.tpl:28
-#: www/system/templates/admin_rpchost_list.tpl:22
-msgid "Master"
 msgstr ""
 
 #. File www/system/templates/configuration_reseller_limits.tpl:88
@@ -1995,18 +1975,6 @@ msgstr "des Transferlimits wurde erreicht"
 msgid "of disk quota is used"
 msgstr "des Festplattenplatzes wird genutzt"
 
-#. File www/admin/modules/class_Module_about.php:72
-#.
-#: www/admin/modules/class_Module_about.php:72
-msgid "Off"
-msgstr ""
-
-#. File www/admin/modules/class_Module_about.php:73
-#.
-#: www/admin/modules/class_Module_about.php:73
-msgid "On"
-msgstr ""
-
 #. File www/system/templates/admin_about.tpl:114
 #. Context: lass="roweven">{="Hostname"}</td>	<td class="roweven" style="font-weight: bold">{$hostname}</td></tr>
 #. <tr><td class="rowodd">{="Operating system"}</td>			<td class="rowodd" style="font-weight: bold">{$systeminfo.osbrief} {$systeminfo.osdetails}</td></tr>
@@ -2139,9 +2107,8 @@ msgstr ""
 #. </select>
 #.
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:40
-#. Context: {/if}>{="Use template setting"}</option>
-#. <option value="1"{if $centovacast_account.allowproxy>0} selected="selected"{/if}>{="Permitted"}</option>
-#. <option value="0"{if $centovacast_account.allowproxy==0} selected="selected"{/if}>{="Not permitted"}</option>
+#. Context: option value="1"{if ($centovacast_account.allowproxy!=="") and ($centovacast_account.allowproxy>0)} selected="selected"{/if}>{="Permitted"}</option>
+#. <option value="0"{if ($centovacast_account.allowproxy!=="") and ($centovacast_account.allowproxy==0)} selected="s
 #.
 #: www/system/templates/configuration_reseller_limits.tpl:144
 #: www/system/templates/configuration_reseller_limits.tpl:153
@@ -2362,12 +2329,6 @@ msgstr ""
 msgid "Remote Server"
 msgstr ""
 
-#. File www/admin/modules/class_Module_remoteservers.php:18
-#.
-#: www/admin/modules/class_Module_remoteservers.php:18
-msgid "Remote Servers"
-msgstr ""
-
 #. File www/system/templates/admin_remoteserver_list.tpl:5
 #. Context: </div>
 #. <img src="../system/images/icons/models/rpchost.png" align="absmiddle" /> {="Remote servers"}:<br />
@@ -2376,6 +2337,12 @@ msgstr ""
 #: www/system/templates/admin_remoteserver_list.tpl:5
 msgid "Remote servers"
 msgstr "Entfernte Server"
+
+#. File www/admin/modules/class_Module_remoteservers.php:18
+#.
+#: www/admin/modules/class_Module_remoteservers.php:18
+msgid "Remote Servers"
+msgstr ""
 
 #. File www/admin/modules/class_Module_manageaccount.php:26
 #. Arguments: strip_tags($_REQUEST['username'])
@@ -2532,7 +2499,7 @@ msgstr ""
 #. File www/system/templates/admin_settings.tpl:81
 #. Context: <tr>
 #. <td>{="SMTP password"}:</td>
-#. <td><input type="password" name="settings[smtppass]" value="{$settings.smtppass}" size="15" maxlength="128" /></td>
+#. <td><input type="password" name="settings[smtppass]" value="{$settings.smtppass|htmlentities}" size="15" maxlength="1
 #.
 #: www/system/templates/admin_settings.tpl:81
 msgid "SMTP password"
@@ -2541,7 +2508,7 @@ msgstr "SMTP Passwort"
 #. File www/system/templates/admin_settings.tpl:73
 #. Context: <tr>
 #. <td>{="SMTP port"}:</td>
-#. <td><input type="text" name="settings[smtpport]" value="{$settings.smtpport}" size="6" maxlength="5" /></td>
+#. <td><input type="text" name="settings[smtpport]" value="{$settings.smtpport|htmlentities}" size="6" maxlength="5" /><
 #.
 #: www/system/templates/admin_settings.tpl:73
 msgid "SMTP port"
@@ -2550,7 +2517,7 @@ msgstr "SMTP Port"
 #. File www/system/templates/admin_settings.tpl:69
 #. Context: <tr>
 #. <td width="220">{="SMTP server"}:</td>
-#. <td><input type="text" name="settings[smtphost]" value="{$settings.smtphost}" size="30" maxlength="128" /></td>
+#. <td><input type="text" name="settings[smtphost]" value="{$settings.smtphost|htmlentities}" size="30" maxlength="128"
 #.
 #: www/system/templates/admin_settings.tpl:69
 msgid "SMTP server"
@@ -2559,7 +2526,7 @@ msgstr "SMTP Server"
 #. File www/system/templates/admin_settings.tpl:77
 #. Context: <tr>
 #. <td>{="SMTP username"}:</td>
-#. <td><input type="text" name="settings[smtpuser]" value="{$settings.smtpuser}" size="15" maxlength="128" /></td>
+#. <td><input type="text" name="settings[smtpuser]" value="{$settings.smtpuser|htmlentities}" size="15" maxlength="128"
 #.
 #: www/system/templates/admin_settings.tpl:77
 msgid "SMTP username"

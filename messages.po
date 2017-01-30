@@ -5,33 +5,33 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2016-02-27 00:01+0100\n"
-"PO-Revision-Date: 2016-02-27 00:01+0100\n"
+"POT-Creation-Date: 2013-07-17 14\n"
+"PO-Revision-Date: 2016-06-01 12:32+0200\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.8\n"
 
-#. File system/class_ServerControl.php:2540
+#. File system/class_ServerControl.php:2546
 #. Arguments: ($this->application->usersession->actual_identity()->is_reseller() ? __('reseller') : ($this->application->usersession->actual_identity()->is_admin() ? __('administrator') : 'user'))
 #.
-#: system/class_ServerControl.php:2540
+#: system/class_ServerControl.php:2546
 msgid "Account imported by %s"
 msgstr ""
 
-#. File system/class_SystemControl.php:2014
+#. File system/class_SystemControl.php:2013
 #.
-#: system/class_SystemControl.php:2014
+#: system/class_SystemControl.php:2013
 msgid "Account is already in specified state"
 msgstr ""
 
-#. File system/class_ServerControl.php:2540
+#. File system/class_ServerControl.php:2546
 #. Arguments: ($this->application->usersession->actual_identity()->is_reseller() ? __('reseller') : ($this->application->usersession->actual_identity()->is_admin() ? __('administrator') : 'user'))
 #.
-#: system/class_ServerControl.php:2540
+#: system/class_ServerControl.php:2546
 msgid "Account settings modified by %s"
 msgstr ""
 
@@ -67,10 +67,10 @@ msgstr "f&uuml;ge neue Medien zur Wiedergabeliste mit der angegebenen ID hinzu"
 msgid "add/remove tracks to/from the playlist"
 msgstr ""
 
-#. File system/class_ServerControl.php:1444
+#. File system/class_ServerControl.php:1451
 #. Arguments: count($newtracks), $intoplaylist
 #.
-#: system/class_ServerControl.php:1444
+#: system/class_ServerControl.php:1451
 msgid "Added %s new tracks to playlist %d."
 msgstr ""
 
@@ -87,9 +87,9 @@ msgstr ""
 msgid "autoDJ status"
 msgstr ""
 
-#. File system/class_ServerControl.php:1973
+#. File system/class_ServerControl.php:1980
 #.
-#: system/class_ServerControl.php:1973
+#: system/class_ServerControl.php:1980
 msgid "Automatically unsuspending account after suspension from previous month"
 msgstr ""
 
@@ -131,16 +131,16 @@ msgstr "Passwort für %s eingeben"
 msgid "Enter password for admin"
 msgstr "Administrator Passwort eingeben"
 
-#. File system/class_TrackManager.php:407
+#. File system/class_TrackManager.php:405
 #.
-#: system/class_TrackManager.php:407
+#: system/class_TrackManager.php:405
 msgid "Error reading track tags"
 msgstr ""
 
-#. File system/class_TrackManager.php:148
+#. File system/class_TrackManager.php:146
 #. Arguments: $pathnames[0],$pathcount-1
 #.
-#: system/class_TrackManager.php:148
+#: system/class_TrackManager.php:146
 msgid "Importing media | %s and %d more"
 msgstr "Importiere Musiktitel: %s sowie %d weitere"
 
@@ -163,10 +163,10 @@ msgstr ""
 msgid "modify playlists for an account"
 msgstr ""
 
-#. File system/class_ServerControl.php:1929
+#. File system/class_ServerControl.php:1936
 #. Arguments: $action
 #.
-#: system/class_ServerControl.php:1929
+#: system/class_ServerControl.php:1936
 msgid "Monthly data transfer limit exceeded; account has been automatically %s"
 msgstr ""
 
@@ -176,10 +176,10 @@ msgstr ""
 msgid "only accounts with usernames matching TEXT"
 msgstr ""
 
-#. File system/class_SystemControl.php:2322
+#. File system/class_SystemControl.php:2321
 #. Arguments: $table
 #.
-#: system/class_SystemControl.php:2322
+#: system/class_SystemControl.php:2321
 msgid "Optimizing %s ..."
 msgstr ""
 
@@ -237,17 +237,17 @@ msgstr ""
 msgid "processes all server logs (normally performed by cron job)"
 msgstr ""
 
-#. File system/class_SystemControl.php:1513
+#. File system/class_SystemControl.php:1512
 #. Arguments: $username, $servertype, $sourcetype
 #.
-#: system/class_SystemControl.php:1513
+#: system/class_SystemControl.php:1512
 msgid "Provisioned account %s (server: %s; source: %s)"
 msgstr ""
 
-#. File system/class_SystemControl.php:1396
+#. File system/class_SystemControl.php:1395
 #. Arguments: $username
 #.
-#: system/class_SystemControl.php:1396
+#: system/class_SystemControl.php:1395
 msgid "Provisioned reseller account %s"
 msgstr ""
 
@@ -257,9 +257,9 @@ msgstr ""
 msgid "provisions a new account"
 msgstr ""
 
-#. File system/class_SystemControl.php:2311
+#. File system/class_SystemControl.php:2310
 #.
-#: system/class_SystemControl.php:2311
+#: system/class_SystemControl.php:2310
 msgid "Purging event log"
 msgstr ""
 
@@ -269,11 +269,11 @@ msgstr ""
 msgid "re-index known files even if unchanged"
 msgstr ""
 
-#. File system/class_ServerControl.php:1417
+#. File system/class_ServerControl.php:1424
 #.
-#. File system/class_ServerControl.php:1402
+#. File system/class_ServerControl.php:1408
 #.
-#: system/class_ServerControl.php:1417 system/class_ServerControl.php:1402
+#: system/class_ServerControl.php:1424 system/class_ServerControl.php:1408
 msgid ""
 "Re-indexing media without import as destination playlist does not exist..."
 msgstr ""
@@ -298,17 +298,17 @@ msgstr ""
 msgid "reload a stream"
 msgstr ""
 
-#. File system/class_SystemControl.php:1842
+#. File system/class_SystemControl.php:1841
 #. Arguments: $username
 #.
-#: system/class_SystemControl.php:1842
+#: system/class_SystemControl.php:1841
 msgid "Removed account %s"
 msgstr ""
 
-#. File system/class_SystemControl.php:1842
+#. File system/class_SystemControl.php:1841
 #. Arguments: $username
 #.
-#: system/class_SystemControl.php:1842
+#: system/class_SystemControl.php:1841
 msgid "Removed reseller account %s"
 msgstr ""
 
@@ -326,10 +326,10 @@ msgstr ""
 msgid "Renamed reseller account %s to %s"
 msgstr ""
 
-#. File system/class_SystemControl.php:1872
+#. File system/class_SystemControl.php:1871
 #. Arguments: $username, $settings['newreseller']
 #.
-#: system/class_SystemControl.php:1872
+#: system/class_SystemControl.php:1871
 msgid "Reparented account %s to reseller %s"
 msgstr ""
 
@@ -388,21 +388,21 @@ msgstr ""
 msgid "Server %s is down and should be up; restarting"
 msgstr "Server %s ist aus, sollte an sein. Starte Server neu"
 
-#. File system/class_ServerControl.php:1207
+#. File system/class_ServerControl.php:1213
 #.
-#: system/class_ServerControl.php:1207
+#: system/class_ServerControl.php:1213
 msgid "Server restarted successfully"
 msgstr ""
 
-#. File system/class_ServerControl.php:829
+#. File system/class_ServerControl.php:835
 #.
-#: system/class_ServerControl.php:829
+#: system/class_ServerControl.php:835
 msgid "Server started successfully"
 msgstr "Server erfolgreich gestartet."
 
-#. File system/class_ServerControl.php:1252
+#. File system/class_ServerControl.php:1258
 #.
-#: system/class_ServerControl.php:1252
+#: system/class_ServerControl.php:1258
 msgid "Server stopped"
 msgstr "Sterver gestoppt"
 
@@ -424,15 +424,15 @@ msgstr "Zeige diese Hilfezusammenfassung"
 msgid "skips to the next song on a stream"
 msgstr ""
 
-#. File system/class_ServerControl.php:1710
+#. File system/class_ServerControl.php:1717
 #.
-#: system/class_ServerControl.php:1710
+#: system/class_ServerControl.php:1717
 msgid "Song skipped"
 msgstr "Titel &uuml;bersprungen"
 
-#. File system/class_ServerControl.php:1358
+#. File system/class_ServerControl.php:1364
 #.
-#: system/class_ServerControl.php:1358
+#: system/class_ServerControl.php:1364
 msgid "Source state changed"
 msgstr ""
 
@@ -460,9 +460,9 @@ msgstr ""
 msgid "stopping stream"
 msgstr ""
 
-#. File system/class_SystemControl.php:2336
+#. File system/class_SystemControl.php:2335
 #.
-#: system/class_SystemControl.php:2336
+#: system/class_SystemControl.php:2335
 msgid "Tables optimized"
 msgstr ""
 
@@ -480,10 +480,10 @@ msgid ""
 "Reference"
 msgstr ""
 
-#. File system/class_TrackManager.php:570
+#. File system/class_TrackManager.php:568
 #. Arguments: $track['pathname']
 #.
-#: system/class_TrackManager.php:570
+#: system/class_TrackManager.php:568
 msgid "Track %s is missing; removing"
 msgstr ""
 
@@ -499,9 +499,9 @@ msgstr "Medien nach Interpret deren Namen mit TEXT &uuml;bereinstimmen"
 msgid "tracks from albums whose names match TEXT"
 msgstr "Medien aus Alben deren Namen mit TEXT &uuml;bereinstimmen"
 
-#. File system/class_ServerControl.php:1455
+#. File system/class_ServerControl.php:1462
 #.
-#: system/class_ServerControl.php:1455
+#: system/class_ServerControl.php:1462
 msgid "Tracks reindexed"
 msgstr "Musiktitel wurden neu indexiert"
 
@@ -524,9 +524,9 @@ msgstr "Medien deren Titel mit TEXT &uuml;bereinstimmen"
 msgid "Update completed successfully: %s"
 msgstr "Update erfolgreich abgeschlossen. %s"
 
-#. File system/class_ServerControl.php:1989
+#. File system/class_ServerControl.php:1996
 #.
-#: system/class_ServerControl.php:1989
+#: system/class_ServerControl.php:1996
 msgid "Updated"
 msgstr "Geupdatet"
 
@@ -537,9 +537,9 @@ msgstr "Geupdatet"
 msgid "Updated failed: %s"
 msgstr "Update fehlgeschlagen: %s"
 
-#. File system/class_ServerControl.php:1382
+#. File system/class_ServerControl.php:1388
 #.
-#: system/class_ServerControl.php:1382
+#: system/class_ServerControl.php:1388
 msgid "Updating disk usage"
 msgstr "Update Festplattennutzung"
 

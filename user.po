@@ -5,15 +5,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2016-02-27 00:01+0100\n"
-"PO-Revision-Date: 2016-02-27 00:01+0100\n"
+"POT-Creation-Date: 2013-07-17 14\n"
+"PO-Revision-Date: 2016-06-01 12:33+0200\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #. File www/system/templates/statistics_listeners.tpl:190
 #. Arguments: $listener.bandwidth|div:1024
@@ -150,7 +150,7 @@ msgstr "%s"
 #. File www/system/templates/state_changed.tpl:3
 #. Arguments: $subject,$action
 #. Context: {check $successful}
-#. {if $message}{$message}{else}{="%s %s successfully.",$subject,$action}{/if}
+#. {if $message}{$message|htmlentities}{else}{="%s %s successfully.",$subject,$action}{/if}
 #. {otherwise}
 #.
 #: www/system/templates/state_changed.tpl:3
@@ -169,7 +169,7 @@ msgstr "%s B"
 #. File www/system/templates/state_changed.tpl:5
 #. Arguments: $subject,$action
 #. Context: {otherwise}
-#. {="%s could not be %s",$subject,$action}{if $reason}: {$reason}{/if}.
+#. {="%s could not be %s",$subject,$action}{if $reason}: {$reason|htmlentities}{/if}.
 #. {/check}
 #.
 #: www/system/templates/state_changed.tpl:5
@@ -932,7 +932,7 @@ msgstr "Konto"
 
 #. File www/system/templates/account_deleted.tpl:5
 #. Context: {otherwise}
-#. {="Account could not be deleted"}{if $reason}: {$reason}{/if}.
+#. {="Account could not be deleted"}{if $reason}: {$reason|htmlentities}{/if}.
 #. {/check}
 #.
 #: www/system/templates/account_deleted.tpl:5
@@ -1078,10 +1078,10 @@ msgstr ""
 
 #. File www/client/modules/class_Module_confeditor.php:75
 #.
-#. File system/class_ServerControl.php:2545
+#. File system/class_ServerControl.php:2551
 #.
 #: www/client/modules/class_Module_confeditor.php:75
-#: system/class_ServerControl.php:2545
+#: system/class_ServerControl.php:2551
 msgid "administrator"
 msgstr "administrator"
 
@@ -1105,7 +1105,7 @@ msgstr "Administrator Login"
 #. <td>{="Administrator password"}:</td>
 #. <td colspan="4"><input type="password" name="config[adminpassword]" size="15" maxlength="32" value="{$config.adminpass
 #.
-#. File system/class_AccountFields.php:810
+#. File system/class_AccountFields.php:812
 #.
 #. File www/system/templates/admin_remoteserver_edit.tpl:21
 #. Context: <tr>
@@ -1117,7 +1117,7 @@ msgstr "Administrator Login"
 #. <tr><td>{="Administrator password"}:</td><td><input type="password" name="settings[password1]" value="{$settings.password1|htmlentities}" size="12" maxlength="32
 #.
 #: www/system/templates/configuration_client_basic.tpl:139
-#: system/class_AccountFields.php:810
+#: system/class_AccountFields.php:812
 #: www/system/templates/admin_remoteserver_edit.tpl:21
 #: www/system/templates/installer_form.tpl:15
 msgid "Administrator password"
@@ -1253,14 +1253,14 @@ msgstr "Albumname"
 #.
 #. File system/class_AccountFields.php:371
 #.
-#. File system/class_AccountFields.php:874
+#. File system/class_AccountFields.php:876
 #.
 #. File www/system/templates/admin_settings.tpl:282
 #. Context: <fieldset>
 #. <legend>{="Albums"}</legend>
 #.
 #: www/system/templates/library.tpl:116 www/system/templates/library.tpl:17
-#: system/class_AccountFields.php:371 system/class_AccountFields.php:874
+#: system/class_AccountFields.php:371 system/class_AccountFields.php:876
 #: www/system/templates/admin_settings.tpl:282
 msgid "Albums"
 msgstr "Alben"
@@ -1387,6 +1387,44 @@ msgstr "Auch Verfügbar als"
 #: www/system/templates/widgets.tpl:39
 msgid "Alternate Character Encodings"
 msgstr "Alternatives Charakter Enkoding"
+
+#. File www/system/templates/change_password.tpl:18
+#. Context: {elseif $failure}
+#. {box title="Update Failed"}{="An error occurred while attempting to save this update"}. {="Please correct the fields marked below."}{/box}
+#. {/if}
+#.
+#. File www/system/templates/admin_settings.tpl:30
+#. Context: {otherwisecheck $failure}
+#. {box title="Update Failed"}{if $failure_reason!=""}{$failure_reason|htmlentities}{else}{="An error occurred while attempting to save this update"}.{/if}{/box}<br />
+#. {/check}
+#.
+#. File www/system/templates/admin_servertype_edit.tpl:5
+#. Context: {elseif $error}
+#. {box title="Update Failed"}{="An error occurred while attempting to save this update"}.{/box}
+#. {/if}
+#.
+#. File www/system/templates/admin_email.tpl:89
+#. Context: {if $failure}
+#. {box title="Update Failed"}{="An error occurred while attempting to save this update"}.{/box}
+#. {/if}
+#.
+#. File system/class_ServerControl.php:1625
+#.
+#. File system/AccountManagerDrivers/mutators/class_TemplateMutator.php:117
+#.
+#. File system/class_ServerControl.php:1623
+#.
+#. File system/AccountManagerDrivers/mutators/class_TemplateMutator.php:46
+#.
+#: www/system/templates/change_password.tpl:18
+#: www/system/templates/admin_settings.tpl:30
+#: www/system/templates/admin_servertype_edit.tpl:5
+#: www/system/templates/admin_email.tpl:89 system/class_ServerControl.php:1625
+#: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:117
+#: system/class_ServerControl.php:1623
+#: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:46
+msgid "An error occurred while attempting to save this update"
+msgstr ""
 
 #. File www/system/templates/djaccount_edit.tpl:31
 #. Context: {elseif $error}
@@ -1659,8 +1697,20 @@ msgstr ""
 #. <option value="0"{if $config.channels==0} selected="selected"{/if}>{="Auto"}</option>
 #. <option value="2"{if $config.channels>1} selected="selected"{/if}>{="Stereo"}</option>
 #.
+#. File system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:77
+#. Context: <select name="mountpoints_field[cdnslave]" class="list_editor_field" size="1">
+#. <option value="">{="Auto"} ({="based on master CDN mode setting"})</option>
+#. <option value="0">{="Off"}</option>
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:67
+#. Context: <select name="mountpoints_field[cdnmaster]" class="list_editor_field" size="1">
+#. <option value="">{="Auto"} ({="based on master CDN mode setting"})</option>
+#. <option value="0">{="Off"}</option>
+#.
 #: www/system/templates/configuration_client_source.tpl:107
 #: www/system/templates/configuration_client_source.tpl:93
+#: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:77
+#: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:67
 msgid "Auto"
 msgstr "Automatisch"
 
@@ -1746,14 +1796,14 @@ msgstr ""
 #.
 #. File www/client/modules/class_Module_widgets.php:108
 #.
-#. File system/class_AccountFields.php:815
+#. File system/class_AccountFields.php:817
 #.
 #. File system/class_AccountFields.php:340
 #.
 #: www/system/templates/streamstatus.tpl:10
 #: www/system/templates/configuration_client_source.tpl:10
 #: www/client/modules/class_Module_widgets.php:108
-#: system/class_AccountFields.php:815 system/class_AccountFields.php:340
+#: system/class_AccountFields.php:817 system/class_AccountFields.php:340
 msgid "AutoDJ status"
 msgstr "AutoDJ Status"
 
@@ -1791,10 +1841,10 @@ msgstr "Automatisch beste wählen"
 #. <td>{="Automatically queue requests"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:807
+#. File system/class_AccountFields.php:809
 #.
 #: www/system/templates/configuration_client_widgets.tpl:57
-#: system/class_AccountFields.php:807
+#: system/class_AccountFields.php:809
 msgid "Automatically queue requests"
 msgstr "Automatische Verarbeitung des Musikwunsches"
 
@@ -1935,18 +1985,18 @@ msgstr ""
 #. <tr><td>{="Bit rate"}:&nbsp;</td><td><strong>{$highestbitrate}</strong></td></tr>
 #. <tr><td valign="top">{="Password"}:&nbsp;</td><td>({="The usern
 #.
-#. File system/sources/ices2/class_Ices2ServerInterface.php:214
+#. File system/sources/ices2/class_Ices2ServerInterface.php:200
 #.
 #. File system/servers/ShoutCast2/templates/connection_details.tpl:34
-#. Context: contains:"aac"}AAC/AAC+{else}{$mount.liqencoder|strtoupper}{/if}</strong></td></tr>{/check}
+#. Context: "}AAC/AAC+{else}{$mount.liqencoder|strtoupper|htmlentities}{/if}</strong></td></tr>{/check}
 #. {if $mount.bitrate!=""}<tr><td>{="Bit rate"}:</td><td><strong>{="%s kbps",$mount.bitrate}</strong></td></tr>{/if}
 #.
 #. File system/servers/IceCast/class_IceCastConfig.php:29
 #.
-#. File system/sources/ices2/class_Ices2ServerInterface.php:213
+#. File system/sources/ices2/class_Ices2ServerInterface.php:199
 #.
 #. File system/servers/IceCast/templates/connection_details.tpl:33
-#. Context: ontains:"aac"}AAC/AAC+{else}{$mount.liqencoder|strtoupper}{/if}</strong></td></tr>{/check}
+#. Context: }AAC/AAC+{else}{$mount.liqencoder|strtoupper|htmlentities}{/if}</strong></td></tr>{/check}
 #. {if $mount.bitrate!=""}<tr><td>{="Bit rate"}:</td><td><strong>{="%s kbps",$mount.bitrate}</strong></td></tr>{/if}
 #. </table>
 #.
@@ -1977,16 +2027,16 @@ msgstr ""
 #. <td>{="Bit rate"}:&nbsp;</td>
 #. <td>{bitrate_field name="mountpoints_field[liqopusbitrate]" size="1" class="list_editor_field mpbitrate" value
 #.
-#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:603
+#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:604
 #.
-#. File system/sources/sctrans2/class_Sourcesctrans2.php:557
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:526
 #.
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:20
 #. Context: <tr>
 #. <td>{="Bit rate"}:&nbsp;</td>
 #. <td>{bitrate_field name="mountpoints_field[sctbitrate]" size="1" class="list_editor_field mpbitrate" value=$co
 #.
-#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:614
+#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:615
 #.
 #. File system/sources/ices/templates/configuration_source_mountpoints.tpl:69
 #. Context: <tr>
@@ -1997,10 +2047,10 @@ msgstr ""
 #: www/system/templates/autodj_mountpoint_lang.tpl:5
 #: www/system/templates/configuration_client_source.tpl:70
 #: system/servers/ShoutCast2/templates/connection_details.tpl:12
-#: system/sources/ices2/class_Ices2ServerInterface.php:214
+#: system/sources/ices2/class_Ices2ServerInterface.php:200
 #: system/servers/ShoutCast2/templates/connection_details.tpl:34
 #: system/servers/IceCast/class_IceCastConfig.php:29
-#: system/sources/ices2/class_Ices2ServerInterface.php:213
+#: system/sources/ices2/class_Ices2ServerInterface.php:199
 #: system/servers/IceCast/templates/connection_details.tpl:33
 #: system/servers/IceCast/templates/connection_details.tpl:12
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:38
@@ -2008,10 +2058,10 @@ msgstr ""
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:69
 #: system/sources/ices/srvintf/class_IcesServerInterface.php:166
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:62
-#: system/sources/liquidsoap/class_LiquidSoapSettings.php:603
-#: system/sources/sctrans2/class_Sourcesctrans2.php:557
+#: system/sources/liquidsoap/class_LiquidSoapSettings.php:604
+#: system/sources/sctrans2/class_Sourcesctrans2.php:526
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:20
-#: system/sources/liquidsoap/class_LiquidSoapSettings.php:614
+#: system/sources/liquidsoap/class_LiquidSoapSettings.php:615
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:69
 msgid "Bit rate"
 msgstr "Bitrate"
@@ -2067,7 +2117,7 @@ msgstr ""
 #. <input type="button" value="{="Cancel"}" onclick="window.location='index.php?page=accounts'; return false" />
 #. </form>
 #.
-#. File www/system/templates/filemanager.tpl:104
+#. File www/system/templates/filemanager.tpl:105
 #. Context: <input type="button" value="{="OK"}" id="rename_submit" onclick="window.fm.do_rename()" />
 #. <input type="button" value="{="Cancel"}" onclick="window.fm.close_dialog()" />
 #. </div>
@@ -2081,7 +2131,7 @@ msgstr ""
 #. Context: t type="button" value="{="Update"}" onclick="summarize_period();window.stats.change_period()" /> <input type="button" value="{="Cancel"}" onclick="summarize_period()" />
 #. </form>
 #.
-#. File www/system/templates/filemanager.tpl:117
+#. File www/system/templates/filemanager.tpl:118
 #. Context: <input type="button" value="{="Create"}" id="mkdir_submit" onclick="window.fm.do_mkdir()" />
 #. <input type="button" value="{="Cancel"}" onclick="window.fm.close_dialog()" />
 #. </div>
@@ -2180,10 +2230,10 @@ msgstr ""
 #: www/system/templates/new_account_form.tpl:112
 #: www/system/templates/muses_skin_selector.tpl:6
 #: www/system/templates/account_rename.tpl:28
-#: www/system/templates/filemanager.tpl:104
+#: www/system/templates/filemanager.tpl:105
 #: www/system/templates/staffaccount_edit.tpl:164
 #: www/system/templates/statistics.tpl:49
-#: www/system/templates/filemanager.tpl:117
+#: www/system/templates/filemanager.tpl:118
 #: www/system/templates/djaccount_edit.tpl:154
 #: www/system/templates/configuration_form.tpl:69
 #: www/system/templates/library.tpl:188
@@ -2248,6 +2298,14 @@ msgstr ""
 msgid "Change account statuses"
 msgstr ""
 
+#. File www/system/templates/account_rename.tpl:1
+#. Context: {box title="Change Account Username"}
+#. <form method="get" action="index.php">
+#.
+#: www/system/templates/account_rename.tpl:1
+msgid "Change Account Username"
+msgstr ""
+
 #. File www/system/templates/account_rename.tpl:27
 #. Context: <input type="hidden" name="username" value="{$old_username|htmlentities}" />
 #. <input type="submit" name="confirm" value="{="Change account username"}" />
@@ -2258,8 +2316,8 @@ msgstr ""
 #. {check $successful}
 #.
 #. File www/system/templates/configuration_form.tpl:60
-#. Context: nclick="window.location='index.php?page=accounts&action=setuid&username={$config.username}'" />
-#. <input type="button" value="{="Change account username"}" onclick="window.location='index.php?page=manageaccount&action=rename&username={$config.username}'" />
+#. Context: w.location='index.php?page=accounts&action=setuid&username={$config.username|htmlentities}'" />
+#. <input type="button" value="{="Change account username"}" onclick="window.location='index.php?page=manageaccount&action=rename&username={$config.username|htmlentities}'" />
 #. {/check}
 #.
 #. File www/reseller/modules/class_Module_manageaccount_base.php:20
@@ -2271,18 +2329,10 @@ msgstr ""
 msgid "Change account username"
 msgstr ""
 
-#. File www/system/templates/account_rename.tpl:1
-#. Context: {box title="Change Account Username"}
-#. <form method="get" action="index.php">
-#.
-#: www/system/templates/account_rename.tpl:1
-msgid "Change Account Username"
-msgstr ""
-
 #. File www/system/templates/configuration_form.tpl:53
 #. Context: {check ($reseller_editor>0) && ($creating==0) && ($template_editor==0)}
-#. <input type="button" value="{="Change password"}" onclick="window.location='index.php?page=resellerpassword{if $admin}&username={$config.username}{/if}'" />
-#. {otherwisecheck (
+#. <input type="button" value="{="Change password"}" onclick="window.location='index.php?page=resellerpassword{if $admin}&username={$config.username|htmlentities}{/if}'" />
+#. {oth
 #.
 #: www/system/templates/configuration_form.tpl:53
 msgid "Change password"
@@ -2303,23 +2353,23 @@ msgstr ""
 #. <td>{="Channels"}:&nbsp;</td>
 #. <td colspan="3">
 #.
-#. File system/sources/sctrans2/class_Sourcesctrans2.php:558
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:527
 #.
 #. File system/sources/ices2/templates/configuration_source_mountpoints.tpl:14
 #. Context: <tr>
 #. <td>{="Channels"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:789
+#. File system/class_AccountFields.php:791
 #.
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:24
 #. Context: <tr>
 #. <td>{="Channels"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/sources/ices2/class_Ices2ServerInterface.php:215
+#. File system/sources/ices2/class_Ices2ServerInterface.php:201
 #.
-#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:599
+#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:600
 #.
 #. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:45
 #. Context: <tr>
@@ -2338,7 +2388,7 @@ msgstr ""
 #. <td>{="Channels"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:598
+#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:599
 #.
 #. File system/sources/ices/templates/configuration_source_mountpoints.tpl:45
 #. Context: <tr>
@@ -2346,17 +2396,17 @@ msgstr ""
 #. <td>
 #.
 #: www/system/templates/configuration_client_source.tpl:90
-#: system/sources/sctrans2/class_Sourcesctrans2.php:558
+#: system/sources/sctrans2/class_Sourcesctrans2.php:527
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:14
-#: system/class_AccountFields.php:789
+#: system/class_AccountFields.php:791
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:24
-#: system/sources/ices2/class_Ices2ServerInterface.php:215
-#: system/sources/liquidsoap/class_LiquidSoapSettings.php:599
+#: system/sources/ices2/class_Ices2ServerInterface.php:201
+#: system/sources/liquidsoap/class_LiquidSoapSettings.php:600
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:45
 #: system/sources/ices/srvintf/class_IcesServerInterface.php:168
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:76
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:85
-#: system/sources/liquidsoap/class_LiquidSoapSettings.php:598
+#: system/sources/liquidsoap/class_LiquidSoapSettings.php:599
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:45
 msgid "Channels"
 msgstr "Channel"
@@ -2376,14 +2426,14 @@ msgstr "Channel"
 #. <td>{="Character encoding"}:&nbsp;</td>
 #. <td colspan="4">
 #.
-#. File system/class_AccountFields.php:797
+#. File system/class_AccountFields.php:799
 #.
 #. File system/class_AccountFields.php:337
 #.
 #: www/system/templates/configuration_reseller_basic.tpl:48
 #: www/system/templates/widgets.tpl:44
 #: www/system/templates/configuration_client_basic.tpl:167
-#: system/class_AccountFields.php:797 system/class_AccountFields.php:337
+#: system/class_AccountFields.php:799 system/class_AccountFields.php:337
 msgid "Character encoding"
 msgstr "Zeichenkodierung"
 
@@ -2450,7 +2500,9 @@ msgstr ""
 #: www/system/templates/upload_multiple.tpl:13
 #: www/system/templates/upload_single.tpl:13
 msgid "Click 'Select files' to select one or more files to upload."
-msgstr "Klicken Sie auf 'Durchsuchen' um eine oder mehrere Dateien von Ihren Rechner aus hochzuladen."
+msgstr ""
+"Klicken Sie auf 'Durchsuchen' um eine oder mehrere Dateien von Ihren Rechner "
+"aus hochzuladen."
 
 #. File www/system/templates/reseller_index.tpl:43
 #. Context: {/tip}>
@@ -2509,6 +2561,14 @@ msgstr "Kunden und Reseller"
 msgid "Close"
 msgstr "Schließen"
 
+#. File www/system/templates/client_directory_error.tpl:29
+#. Arguments: $directory.code,"<strong>",$directory.message,"</strong>"
+#. Context: {="Code %d: %s%s%s",$directory.code,"<strong>",$directory.message,"</strong>"}<br /><br />
+#.
+#: www/system/templates/client_directory_error.tpl:29
+msgid "Code %d: %s%s%s"
+msgstr ""
+
 #. File www/reseller/modules/class_Module_accountstats.php:13
 #.
 #: www/reseller/modules/class_Module_accountstats.php:13
@@ -2545,13 +2605,13 @@ msgstr ""
 #. <td>{="Company/organization"}:</td>
 #. <td colspan="4"><input type="text" name="config[organization]" size="50" maxlength="255" value="{$config.organization|
 #.
-#. File system/class_AccountFields.php:827
+#. File system/class_AccountFields.php:829
 #.
 #. File system/class_AccountFields.php:348
 #.
 #: www/system/templates/configuration_reseller_basic.tpl:21
 #: www/system/templates/configuration_client_basic.tpl:124
-#: system/class_AccountFields.php:827 system/class_AccountFields.php:348
+#: system/class_AccountFields.php:829 system/class_AccountFields.php:348
 msgid "Company/organization"
 msgstr "Firma / Organisation"
 
@@ -2565,11 +2625,11 @@ msgstr "Firma / Organisation"
 #. complete: '{="Complete"}',
 #. initializing: '{="Initializing"}',
 #.
-#. File system/class_ServerControl.php:738
+#. File system/class_ServerControl.php:744
 #.
-#. File system/class_ServerControl.php:674
+#. File system/class_ServerControl.php:680
 #.
-#. File system/class_ServerControl.php:463
+#. File system/class_ServerControl.php:469
 #.
 #. File www/system/templates/admin_accounts.tpl:27
 #. Context: processing_account: '{="Processing account %s ..."}',
@@ -2581,19 +2641,19 @@ msgstr "Firma / Organisation"
 #. complete: '{="Complete"}',
 #. initializing: '{="Initializing"}',
 #.
-#. File system/class_ServerControl.php:757
+#. File system/class_ServerControl.php:763
 #.
-#. File system/class_ServerControl.php:290
+#. File system/class_ServerControl.php:296
 #.
-#. File system/class_ServerControl.php:1656
+#. File system/class_ServerControl.php:1661
 #.
 #: www/system/templates/upload_single.tpl:5 www/system/templates/library.tpl:57
-#: system/class_ServerControl.php:738 system/class_ServerControl.php:674
-#: system/class_ServerControl.php:463
+#: system/class_ServerControl.php:744 system/class_ServerControl.php:680
+#: system/class_ServerControl.php:469
 #: www/system/templates/admin_accounts.tpl:27
 #: www/system/templates/admin_utilities.tpl:6
-#: system/class_ServerControl.php:757 system/class_ServerControl.php:290
-#: system/class_ServerControl.php:1656
+#: system/class_ServerControl.php:763 system/class_ServerControl.php:296
+#: system/class_ServerControl.php:1661
 msgid "Complete"
 msgstr "Vollständig"
 
@@ -2702,7 +2762,7 @@ msgstr ""
 "Erstellen Sie Ihre Playlist indem Sie Titel aus Ihrer Bibliothek in die "
 "Playlist kopieren."
 
-#. File www/system/templates/filemanager.tpl:77
+#. File www/system/templates/filemanager.tpl:78
 #. Context: <input type="button" id="btn_copy" onclick="window.fm.populate_clipboard(true)" value="{="Copy"}" />
 #. <input type="button" id="btn_cut" onclick="window.fm.populate_clipboard(false)" value="{="Cut"}" />
 #.
@@ -2711,7 +2771,7 @@ msgstr ""
 #. tcopy: '{="Copy"}',
 #. tcut: '{="Cut"}',
 #.
-#: www/system/templates/filemanager.tpl:77
+#: www/system/templates/filemanager.tpl:78
 #: www/system/templates/filemanager.tpl:33
 msgid "Copy"
 msgstr "Kopieren"
@@ -2776,7 +2836,7 @@ msgstr ""
 msgid "Cover image URL"
 msgstr "Cover URL"
 
-#. File www/system/templates/filemanager.tpl:116
+#. File www/system/templates/filemanager.tpl:117
 #. Context: <input type="button" value="{="Create"}" id="mkdir_submit" onclick="window.fm.do_mkdir()" />
 #. <input type="button" value="{="Cancel"}" onclick="window.fm.close_dialo
 #.
@@ -2788,7 +2848,7 @@ msgstr "Cover URL"
 #. Context: <input type="submit" name="{if $creating}create{else}update{/if}" value="{if $creating}{="Create"}{else}{="Update"}{/if}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='index.php?page={if $template_edi
 #.
-#: www/system/templates/filemanager.tpl:116
+#: www/system/templates/filemanager.tpl:117
 #: www/system/templates/new_account_form.tpl:111
 #: www/system/templates/configuration_form.tpl:68
 msgid "Create"
@@ -2887,9 +2947,9 @@ msgstr ""
 #. <td>{="Crossfade length"}:&nbsp;</td>
 #. <td colspan="3"><input type="text" name="config[crossfade]" size="5" maxlength="5" value="{$config.crossfade|htm
 #.
-#. File system/class_AccountFields.php:791
+#. File system/class_AccountFields.php:793
 #.
-#. File system/sources/sctrans2/class_Sourcesctrans2.php:608
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:578
 #.
 #. File system/sources/sctrans2/templates/configuration_source.tpl:3
 #. Context: <tr>
@@ -2897,8 +2957,8 @@ msgstr ""
 #. <td colspan="3"><input type="text" name="config[crossfade]" size="5" maxlength="5" value="{$config.crossfade|htm
 #.
 #: www/system/templates/configuration_client_source.tpl:119
-#: system/class_AccountFields.php:791
-#: system/sources/sctrans2/class_Sourcesctrans2.php:608
+#: system/class_AccountFields.php:793
+#: system/sources/sctrans2/class_Sourcesctrans2.php:578
 #: system/sources/sctrans2/templates/configuration_source.tpl:3
 msgid "Crossfade length"
 msgstr "Crossfade Länge"
@@ -2987,13 +3047,13 @@ msgstr "Aktueller Username"
 
 #. File www/system/templates/configuration_client_files.tpl:39
 #. Context: <td>
-#. {="Currently"}: <strong>{$config.fallbackfile}</strong><br />
-#. <input type="checkbox" name="removefile[fallbackfile]" value="1" /> {="Remo
+#. {="Currently"}: <strong>{$config.fallbackfile|htmlentities}</strong><br />
+#. <input type="checkbox" name="removefile[fallbackfile]" value="
 #.
 #. File www/system/templates/configuration_client_files.tpl:18
 #. Context: <td>
-#. {="Currently"}: <strong>{$config.introfile}</strong><br />
-#. <input type="checkbox" name="removefile[introfile]" value="1" /> {="Remove int
+#. {="Currently"}: <strong>{$config.introfile|htmlentities}</strong><br />
+#. <input type="checkbox" name="removefile[introfile]" value="1" />
 #.
 #: www/system/templates/configuration_client_files.tpl:39
 #: www/system/templates/configuration_client_files.tpl:18
@@ -3038,7 +3098,7 @@ msgstr ""
 msgid "Custom Report Format Update"
 msgstr ""
 
-#. File www/system/templates/filemanager.tpl:78
+#. File www/system/templates/filemanager.tpl:79
 #. Context: pboard(true)" value="{="Copy"}" />
 #. <input type="button" id="btn_cut" onclick="window.fm.populate_clipboard(false)" value="{="Cut"}" />
 #. <input type="button" id="btn_paste" onclick="window.fm.paste_clipboard()" value="{="Paste"}" /> &nbsp;
@@ -3048,7 +3108,7 @@ msgstr ""
 #. tcut: '{="Cut"}',
 #. tpaste: '{="Paste"}',
 #.
-#: www/system/templates/filemanager.tpl:78
+#: www/system/templates/filemanager.tpl:79
 #: www/system/templates/filemanager.tpl:34
 msgid "Cut"
 msgstr "Ausschneiden"
@@ -3238,7 +3298,7 @@ msgstr ""
 #. Context: e&id={$reportformat.id}" onclick="return confirm('{="Are you sure you want to permanently delete this item?"}')"><img title="{="Delete"}" src="../system/images/icons/delete.png" border="0" align="absmiddle" /></a>
 #. <a href="{$indexself}&action=edit&id={$reportf
 #.
-#. File www/system/templates/filemanager.tpl:80
+#. File www/system/templates/filemanager.tpl:81
 #. Context: ipboard()" value="{="Paste"}" /> &nbsp;
 #. <input type="button" id="btn_delete" onclick="window.fm.delete_selected()" value="{="Delete"}" />
 #. <input type="button" id="btn_rename" onclick="window.fm.rename_selected()" value="{="Rename"}" /> &nbsp;&nbsp;&nbsp;&n
@@ -3249,7 +3309,7 @@ msgstr ""
 #.
 #: www/system/templates/filemanager.tpl:36
 #: www/system/templates/reportformat_list.tpl:35
-#: www/system/templates/filemanager.tpl:80
+#: www/system/templates/filemanager.tpl:81
 #: www/system/templates/admin_accounts.tpl:89
 msgid "Delete"
 msgstr "Löschen"
@@ -3378,14 +3438,14 @@ msgstr ""
 #. <th>{="Description"}</th>
 #. <th width="50">&nbsp;</th>
 #.
-#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:595
+#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:596
 #.
 #. File system/sources/ices2/templates/configuration_source.tpl:3
 #. Context: <tr>
 #. <td width="140">{="Description"}:&nbsp;</td>
 #. <td><input type="text" name="config[description]" size="30" value="{$config.description|htmlentities}" /> {$erro
 #.
-#. File system/sources/ices2/class_Sourceices2.php:230
+#. File system/sources/ices2/class_Sourceices2.php:224
 #.
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:21
 #. Context: <tr>
@@ -3404,7 +3464,7 @@ msgstr ""
 #. <td width="140">{="Description"}:&nbsp;</td>
 #. <td><input type="text" name="config[description]" size="30" value="{$config.description|htmlentities}" /> {$err
 #.
-#. File system/sources/icessingleencoder/class_Sourceices.php:372
+#. File system/sources/icessingleencoder/class_Sourceices.php:369
 #.
 #. File system/sources/ices/templates/configuration_source_mountpoints.tpl:17
 #. Context: <tr>
@@ -3412,14 +3472,14 @@ msgstr ""
 #. <td colspan="3"><input type="text" name="{$mpfieldname}[icesdescription]" class="list_editor_field" size="32"
 #.
 #: www/system/templates/account_template_list.tpl:34
-#: system/sources/liquidsoap/class_LiquidSoapSettings.php:595
+#: system/sources/liquidsoap/class_LiquidSoapSettings.php:596
 #: system/sources/ices2/templates/configuration_source.tpl:3
-#: system/sources/ices2/class_Sourceices2.php:230
+#: system/sources/ices2/class_Sourceices2.php:224
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:21
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:17
 #: system/sources/ices/srvintf/class_IcesServerInterface.php:165
 #: system/sources/icessingleencoder/templates/configuration_source.tpl:8
-#: system/sources/icessingleencoder/class_Sourceices.php:372
+#: system/sources/icessingleencoder/class_Sourceices.php:369
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:17
 msgid "Description"
 msgstr ""
@@ -3467,6 +3527,15 @@ msgstr "Details"
 msgid "Diagnostics"
 msgstr "Diagnose"
 
+#. File www/system/templates/client_directory_error.tpl:24
+#. Context: <div id="directory_warning" style="display: none">
+#. <h1>{="Directory warning"}</h1>
+#. <p>
+#.
+#: www/system/templates/client_directory_error.tpl:24
+msgid "Directory warning"
+msgstr ""
+
 #. File www/system/templates/staffaccount_list.tpl:38
 #. Context: {$staffaccount.id}&status={if $staffaccount.status=="enabled"}0{else}1{/if}"><img title="{if $staffaccount.status=="enabled"}{="Disable account"}{else}{="Enable account"}{/if}" src="../system/images/icons/{if $staffaccount.status=="enabled"}disable{else}enable{/if}.png"
 #.
@@ -3513,14 +3582,14 @@ msgstr "Deaktiviere Wiedergabeliste"
 #. <option value="disabled"{if $staffaccount.status=="disabled"} selected="selected"{/if}>{="Disabled"}</option>
 #. </select>
 #.
+#. File www/system/templates/configuration_client_source.tpl:24
+#. Context: ption value="0"{if $config.usesource==0} selected="selected"{/if}>{if $actual_privileged>0}{="Permitted, but disabled"}{else}{="Disabled"}{/if}</option>
+#. </select>
+#.
 #. File www/system/templates/configuration_client_source.tpl:19
 #. Context: {otherwisecheck ($config.usesource==2) and ($actual_privileged==0)}
 #. {="Disabled"}
 #. {otherwise}
-#.
-#. File www/system/templates/configuration_client_source.tpl:24
-#. Context: ption value="0"{if $config.usesource==0} selected="selected"{/if}>{if $actual_privileged>0}{="Permitted, but disabled"}{else}{="Disabled"}{/if}</option>
-#. </select>
 #.
 #. File www/system/templates/djaccount_list.tpl:35
 #. Context: <td class="row{$_loop.oetxt}{$_loop.lasttxt}">
@@ -3535,7 +3604,10 @@ msgstr "Deaktiviere Wiedergabeliste"
 #. File www/system/templates/configuration_client_source.tpl:15
 #. Context: {elseif $config.usesource==1}{="Enabled"}
 #. {elseif $config.usesource==0}{="Disabled"}{/if}
-#. <input type="hidden" name="config[usesource]" value="{$config.usesource}" />
+#. <input type="hidden" name="config[usesource]" value="{$config.usesource|htmlentities}" />
+#.
+#. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:54
+#. Context: {tip type="icon"}<strong>{="Off"}</strong> - {="Disabled"}<br /><strong>{="On"}</strong> - {="Disabled by default; can be enabled per-mount point"}<br /><strong>{="Always"}</strong> -
 #.
 #. File system/sources/ices/templates/configuration_source_mountpoints.tpl:39
 #. Context: "selected"{/if}>{="Enabled"}</option>
@@ -3548,18 +3620,17 @@ msgstr "Deaktiviere Wiedergabeliste"
 #. </select>
 #.
 #. File www/system/templates/admin_servertype_list.tpl:29
-#. Context: servertype.title}</td>
+#. Context: tle|htmlentities}</td>
 #. <td class="row{$_loop.oetxt}{$_loop.lasttxt}" width="80">{if $servertype.enabled>0}{="Enabled"}{else}{="Disabled"}{/if}</td>
 #. <td class="row{$_loop.oetxt}{$_loop.lasttxt}" align="center">
 #.
 #. File www/system/templates/admin_sourcetype_list.tpl:29
-#. Context: sourcetype.title}</td>
+#. Context: tle|htmlentities}</td>
 #. <td class="row{$_loop.oetxt}{$_loop.lasttxt}" width="80">{if $sourcetype.enabled>0}{="Enabled"}{else}{="Disabled"}{/if}</td>
 #. <td class="row{$_loop.oetxt}{$_loop.lasttxt}" align="center">
 #.
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:51
-#. Context: ted="selected"{/if}>{="Enabled"}</option>
-#. <option value="1"{if $centovacast_account.usesource<2} selected="selected"{/if}>{="Disabled"}</option>
+#. Context: <option value="1"{if ($centovacast_account.usesource!=="") and ($centovacast_account.usesource<2)} selected="selected"{/if}>{="Disabled"}</option>
 #. </select>
 #.
 #: www/system/templates/playlist_edit.tpl:111
@@ -3567,11 +3638,12 @@ msgstr "Deaktiviere Wiedergabeliste"
 #: www/system/templates/playlist_list.tpl:43
 #: www/system/templates/staffaccount_list.tpl:33
 #: www/system/templates/staffaccount_edit.tpl:113
-#: www/system/templates/configuration_client_source.tpl:19
 #: www/system/templates/configuration_client_source.tpl:24
+#: www/system/templates/configuration_client_source.tpl:19
 #: www/system/templates/djaccount_list.tpl:35
 #: www/system/templates/djaccount_edit.tpl:64
 #: www/system/templates/configuration_client_source.tpl:15
+#: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:54
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:39
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:39
 #: www/system/templates/admin_servertype_list.tpl:29
@@ -3602,7 +3674,7 @@ msgstr ""
 #. {="Disk quota"}: {$errors.diskquota|checkerror}
 #. </td>
 #.
-#. File system/class_AccountFields.php:779
+#. File system/class_AccountFields.php:781
 #.
 #. File system/class_AccountFields.php:323
 #.
@@ -3620,7 +3692,7 @@ msgstr ""
 #. <td>
 #.
 #: www/system/templates/djaccount_edit.tpl:102
-#: system/class_AccountFields.php:779 system/class_AccountFields.php:323
+#: system/class_AccountFields.php:781 system/class_AccountFields.php:323
 #: www/system/templates/configuration_reseller_limits.tpl:87
 #: www/system/templates/admin_settings.tpl:137
 #: www/system/templates/configuration_client_limits.tpl:181
@@ -3665,7 +3737,7 @@ msgstr ""
 #. Context: disk_usage: '{="Disk usage"}',
 #. disk_usage_tip: '{="This is your total disk space usage, including any media, logs, and configuration files used by your s
 #.
-#. File www/system/templates/filemanager.tpl:71
+#. File www/system/templates/filemanager.tpl:72
 #. Context: <div style="padding-top: 4px; text-align: right">{="Disk usage"}:</div>
 #. </div>
 #.
@@ -3700,7 +3772,7 @@ msgstr ""
 #. <div {tip addclass="headermeter" title="Disk usage" style="wide"}{="Total: %s%.1f%%%s.%sThis is the combined total of the disk space used by all of your streams. %sNote that the
 #.
 #: www/system/templates/filemanager.tpl:42
-#: www/system/templates/filemanager.tpl:71
+#: www/system/templates/filemanager.tpl:72
 #: www/system/templates/reseller_index.tpl:28
 #: www/system/templates/reseller_index.tpl:23
 #: www/system/templates/index_header.tpl:10
@@ -3862,10 +3934,10 @@ msgstr ""
 #. <td>{="E-mail unknown requests"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:808
+#. File system/class_AccountFields.php:810
 #.
 #: www/system/templates/configuration_client_widgets.tpl:81
-#: system/class_AccountFields.php:808
+#: system/class_AccountFields.php:810
 msgid "E-mail unknown requests"
 msgstr "E-Mail bei unbekannten Musikwünschen?"
 
@@ -3888,7 +3960,7 @@ msgstr "E-Mail bei unbekannten Musikwünschen?"
 #. </td>
 #.
 #. File www/system/templates/admin_sessions.tpl:57
-#. Context: edit&username=${session.staffaccount.username}"><img src="../system/images/icons/edit.png" border="0" align="absmiddle" alt="{="Edit"}" /></a>
+#. Context: =${session.staffaccount.username|htmlentities}"><img src="../system/images/icons/edit.png" border="0" align="absmiddle" alt="{="Edit"}" /></a>
 #. {else}
 #.
 #. File www/system/templates/admin_accounts_javascript.tpl:124
@@ -3896,7 +3968,7 @@ msgstr "E-Mail bei unbekannten Musikwünschen?"
 #. </td>
 #.
 #. File www/system/templates/admin_sessions.tpl:60
-#. Context: ounts&action=edit&username={$session.username}"><img src="../system/images/icons/edit.png" border="0" align="absmiddle" alt="{="Edit"}" /></a>
+#. Context: edit&username={$session.username|htmlentities}"><img src="../system/images/icons/edit.png" border="0" align="absmiddle" alt="{="Edit"}" /></a>
 #. {/if}
 #.
 #: www/system/templates/reportformat_list.tpl:36
@@ -4014,11 +4086,11 @@ msgstr ""
 #. <td>{="Enable Google Maps%s widget","&reg;"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:825
+#. File system/class_AccountFields.php:827
 #. Arguments: '&reg;'
 #.
 #: www/system/templates/configuration_client_widgets.tpl:28
-#: system/class_AccountFields.php:825
+#: system/class_AccountFields.php:827
 msgid "Enable Google Maps%s widget"
 msgstr "Aktiviere Google Maps%s Widget"
 
@@ -4027,10 +4099,10 @@ msgstr "Aktiviere Google Maps%s Widget"
 #. <td>{="Enable on-demand content widget"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:823
+#. File system/class_AccountFields.php:825
 #.
 #: www/system/templates/configuration_client_widgets.tpl:19
-#: system/class_AccountFields.php:823
+#: system/class_AccountFields.php:825
 msgid "Enable on-demand content widget"
 msgstr "Inhalte auf Abruf aktivieren"
 
@@ -4046,10 +4118,10 @@ msgstr ""
 #. <td>{="Enable recent tracks widget"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:824
+#. File system/class_AccountFields.php:826
 #.
 #: www/system/templates/configuration_client_widgets.tpl:98
-#: system/class_AccountFields.php:824
+#: system/class_AccountFields.php:826
 msgid "Enable recent tracks widget"
 msgstr "Letzte Titel - Widget aktivieren"
 
@@ -4058,10 +4130,10 @@ msgstr "Letzte Titel - Widget aktivieren"
 #. <td>{="Enable song request widget"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:822
+#. File system/class_AccountFields.php:824
 #.
 #: www/system/templates/configuration_client_widgets.tpl:48
-#: system/class_AccountFields.php:822
+#: system/class_AccountFields.php:824
 msgid "Enable song request widget"
 msgstr "Musikwunsch Widget aktivieren"
 
@@ -4140,19 +4212,18 @@ msgstr "Playliste aktivieren/deaktivieren"
 #. <td>
 #.
 #. File www/system/templates/admin_servertype_list.tpl:29
-#. Context: _loop.lasttxt}">{$servertype.title}</td>
+#. Context: }">{$servertype.title|htmlentities}</td>
 #. <td class="row{$_loop.oetxt}{$_loop.lasttxt}" width="80">{if $servertype.enabled>0}{="Enabled"}{else}{="Disabled"}{/if}</td>
 #. <td class="row{$_loop.oetxt}{$_loop.lasttxt}" align="center">
 #.
 #. File www/system/templates/admin_sourcetype_list.tpl:29
-#. Context: _loop.lasttxt}">{$sourcetype.title}</td>
+#. Context: }">{$sourcetype.title|htmlentities}</td>
 #. <td class="row{$_loop.oetxt}{$_loop.lasttxt}" width="80">{if $sourcetype.enabled>0}{="Enabled"}{else}{="Disabled"}{/if}</td>
 #. <td class="row{$_loop.oetxt}{$_loop.lasttxt}" align="center">
 #.
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:50
-#. Context: {/if}>{="Use template setting"}</option>
-#. <option value="2"{if $centovacast_account.usesource>=2} selected="selected"{/if}>{="Enabled"}</option>
-#. <option value="1"{if $centovacast_account.usesource<2} selected="selected"{/if}>{="Disabled"}</option>
+#. Context: <option value="2"{if ($centovacast_account.usesource!=="") and ($centovacast_account.usesource>=2)} selected="selected"{/if}>{="Enabled"}</option>
+#. <option value="1"{if ($centovacast_account.usesource!=="") and ($centovacast_account.usesource<2)} selected="sele
 #.
 #: www/system/templates/playlist_edit.tpl:110
 #: www/system/templates/configuration_client_source.tpl:23
@@ -4301,10 +4372,10 @@ msgstr ""
 #. <td>{="Fallback file"}:</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:829
+#. File system/class_AccountFields.php:831
 #.
 #: www/system/templates/configuration_client_files.tpl:30
-#: system/class_AccountFields.php:829
+#: system/class_AccountFields.php:831
 msgid "Fallback file"
 msgstr "Backup Datei"
 
@@ -4338,12 +4409,12 @@ msgstr ""
 msgid "February"
 msgstr "Februar"
 
-#. File www/system/templates/filemanager.tpl:109
+#. File www/system/templates/filemanager.tpl:110
 #. Context: <img class="dialogicon" src="../theme/images/subsections/files.png" />
 #. <h1>{="File Manager"}</h1>
 #. <h2>{="New folder"}</h2>
 #.
-#. File www/system/templates/filemanager.tpl:96
+#. File www/system/templates/filemanager.tpl:97
 #. Context: <img class="dialogicon" src="../theme/images/subsections/files.png" />
 #. <h1>{="File Manager"}</h1>
 #. <h2>{="Rename file"}</h2>
@@ -4358,8 +4429,8 @@ msgstr "Februar"
 #. {if $allow_file_manager>0}<input type="button" id="btn_filemanager" value="{="File Manager"}" onclick="window.location.href='index.php?page=filemanager'" />{/if}
 #. <input type="button" value="{="Options"}" id="pulld
 #.
-#: www/system/templates/filemanager.tpl:109
-#: www/system/templates/filemanager.tpl:96
+#: www/system/templates/filemanager.tpl:110
+#: www/system/templates/filemanager.tpl:97
 #: www/system/templates/upload_multiple.tpl:37
 #: www/system/templates/library.tpl:107
 msgid "File Manager"
@@ -4401,12 +4472,12 @@ msgstr "Erster Tag des Monats"
 msgid "Folder"
 msgstr "Ordner"
 
-#. File www/system/templates/filemanager.tpl:113
+#. File www/system/templates/filemanager.tpl:114
 #. Context: <p>
 #. {="Folder name"}: <input type="text" id="mkdir_name" name="mkdir_name" value="" size="30" />
 #. </p>
 #.
-#: www/system/templates/filemanager.tpl:113
+#: www/system/templates/filemanager.tpl:114
 msgid "Folder name"
 msgstr "Ordnername"
 
@@ -4642,7 +4713,7 @@ msgstr ""
 #. <td>{="Genre"}:&nbsp;</td>
 #. <td colspan="3"><input type="text" name="config[genre]" size="30" maxlength="127" value="{$config.genre|htmlenti
 #.
-#. File system/class_AccountFields.php:794
+#. File system/class_AccountFields.php:796
 #.
 #. File system/class_ReportFormat.php:50
 #.
@@ -4666,7 +4737,7 @@ msgstr ""
 #. <td colspan="3"><input type="text" name="{$mpfieldname}[icesgenre]" class="list_editor_field" size="32" maxlen
 #.
 #: www/system/templates/configuration_client_source.tpl:75
-#: system/class_AccountFields.php:794 system/class_ReportFormat.php:50
+#: system/class_AccountFields.php:796 system/class_ReportFormat.php:50
 #: system/servers/IceCast/class_IceCastConfig.php:44
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:156
 #: system/sources/ices/srvintf/class_IcesServerInterface.php:170
@@ -4730,7 +4801,7 @@ msgstr "Dr&uuml;cke STRG um mehrere %s auszuw&auml;hlen."
 #. <td>{="Host"}:</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:872
+#. File system/class_AccountFields.php:874
 #.
 #. File www/system/templates/admin_accounts.tpl:120
 #. Context: <option value="parentresellerid">{="Reseller"}/{="Username"}</option>
@@ -4745,7 +4816,7 @@ msgstr "Dr&uuml;cke STRG um mehrere %s auszuw&auml;hlen."
 #. File www/admin/rpc/class_RPClogmanager.php:212
 #.
 #: www/system/templates/new_account_form.tpl:61
-#: system/class_AccountFields.php:872
+#: system/class_AccountFields.php:874
 #: www/system/templates/admin_accounts.tpl:120
 #: www/system/templates/admin_accounts_javascript.tpl:23
 #: www/admin/rpc/class_RPClogmanager.php:212
@@ -4771,7 +4842,7 @@ msgstr ""
 #. <td>{="Hostname"}:</td>
 #. <td colspan="4">
 #.
-#. File system/class_AccountFields.php:773
+#. File system/class_AccountFields.php:775
 #.
 #. File www/system/templates/admin_rpchost_edit.tpl:14
 #. Context: <tr>
@@ -4785,7 +4856,7 @@ msgstr ""
 #.
 #: www/system/templates/account_created_details.tpl:4
 #: www/system/templates/configuration_client_basic.tpl:84
-#: system/class_AccountFields.php:773
+#: system/class_AccountFields.php:775
 #: www/system/templates/admin_rpchost_edit.tpl:14
 #: www/system/templates/admin_about.tpl:113
 msgid "Hostname"
@@ -5137,10 +5208,10 @@ msgstr ""
 #. <td width="110">{="Introduction file"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:828
+#. File system/class_AccountFields.php:830
 #.
 #: www/system/templates/configuration_client_files.tpl:9
-#: system/class_AccountFields.php:828
+#: system/class_AccountFields.php:830
 msgid "Introduction file"
 msgstr "Intro Datei"
 
@@ -5167,6 +5238,21 @@ msgstr ""
 msgid "Invalid track addition request"
 msgstr "Ung&uuml;ltige Titel-hinzuf&uuml;ge-Operation"
 
+#. File www/system/templates/livestats.tpl:52
+#. Context: <th colspan="2">{="Location"}</th>
+#. <th>{="IP Address"}</th>
+#. {check $showuseragent>0}
+#.
+#. File www/system/templates/admin_sessions.tpl:28
+#. Context: <th class="sorttable_numeric">{="Duration"}</th>
+#. <th class="sorttable_alpha">{="IP Address"}</th>
+#. <th width="50" class="sorttable_nosort">&nbsp;</th>
+#.
+#: www/system/templates/livestats.tpl:52
+#: www/system/templates/admin_sessions.tpl:28
+msgid "IP Address"
+msgstr "IP-Adresse"
+
 #. File www/system/templates/account_created_details.tpl:6
 #. Context: {if $account.reseller==0}
 #. <tr><td>{="IP address"}:&nbsp;</td><td style="font-weight: bold">{$account.ipaddress}</td></tr>
@@ -5192,7 +5278,7 @@ msgstr "Ung&uuml;ltige Titel-hinzuf&uuml;ge-Operation"
 #. <h1>{="IP address"}</h1>
 #. {="Set this to 'auto' (recommended) to use the default IP address configured for the target host."}
 #.
-#. File system/class_AccountFields.php:774
+#. File system/class_AccountFields.php:776
 #.
 #. File www/system/templates/admin_rpchost_edit.tpl:7
 #. Context: <tr>
@@ -5204,25 +5290,10 @@ msgstr "Ung&uuml;ltige Titel-hinzuf&uuml;ge-Operation"
 #: www/system/templates/configuration_client_basic.tpl:96
 #: www/system/templates/account_created_details_basic.tpl:5
 #: www/system/templates/configuration_client_basic.tpl:31
-#: system/class_AccountFields.php:774
+#: system/class_AccountFields.php:776
 #: www/system/templates/admin_rpchost_edit.tpl:7
 msgid "IP address"
 msgstr "IP Adresse"
-
-#. File www/system/templates/livestats.tpl:52
-#. Context: <th colspan="2">{="Location"}</th>
-#. <th>{="IP Address"}</th>
-#. {check $showuseragent>0}
-#.
-#. File www/system/templates/admin_sessions.tpl:28
-#. Context: <th class="sorttable_numeric">{="Duration"}</th>
-#. <th class="sorttable_alpha">{="IP Address"}</th>
-#. <th width="50" class="sorttable_nosort">&nbsp;</th>
-#.
-#: www/system/templates/livestats.tpl:52
-#: www/system/templates/admin_sessions.tpl:28
-msgid "IP Address"
-msgstr "IP-Adresse"
 
 #. File www/system/templates/filemanager.tpl:16
 #. Context: select_one_first: '{="Please select a file or folder first."}',
@@ -5253,22 +5324,22 @@ msgstr "Juni"
 
 #. File www/system/templates/connection_details.tpl:38
 #. Context: {/if}
-#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate}</strong> {="kbps"}</td></tr>
+#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate|htmlentities}</strong> {="kbps"}</td></tr>
 #. </table>
 #.
 #. File www/system/templates/connection_details.tpl:18
 #. Context: {/if}
-#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate}</strong> {="kbps"}</td></tr>
+#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate|htmlentities}</strong> {="kbps"}</td></tr>
 #. </table>
 #.
 #. File system/servers/WindowsMedia/templates/connection_details.tpl:21
-#. Context: >{$acctconfig.path}</strong></td></tr>
-#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate}</strong> {="kbps"}</td></tr>
+#. Context: ities}</strong></td></tr>
+#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate|htmlentities}</strong> {="kbps"}</td></tr>
 #. <tr><td>{="Password"}:&nbsp;</td><td>({="The 'Administrator password' value from your %sstream settings%s","<a hr
 #.
 #. File system/servers/WindowsMedia/templates/connection_details.tpl:11
-#. Context: {$account.username}</strong></td></tr>
-#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate}</strong> {="kbps"}</td></tr>
+#. Context: ities}</strong></td></tr>
+#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate|htmlentities}</strong> {="kbps"}</td></tr>
 #. <tr><td>{="Password"}:&nbsp;</td><td>({="The 'Administrator password' value from your %sstream settings%s","<a hr
 #.
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:61
@@ -5526,12 +5597,12 @@ msgstr "Broadcasting Daten"
 #. <td>{="Locale"}:&nbsp;</td>
 #. <td colspan="4">
 #.
-#. File system/class_AccountFields.php:798
+#. File system/class_AccountFields.php:800
 #.
 #. File system/class_AccountFields.php:338
 #.
 #: www/system/templates/configuration_client_basic.tpl:156
-#: system/class_AccountFields.php:798 system/class_AccountFields.php:338
+#: system/class_AccountFields.php:800 system/class_AccountFields.php:338
 msgid "Locale"
 msgstr "Sprache"
 
@@ -5597,8 +5668,8 @@ msgstr "Login Beschränkungen"
 
 #. File www/system/templates/configuration_form.tpl:59
 #. Context: {check ($privileged>0) and ($creating==0) and ($editingself==0) and ($template_editor==0)}
-#. <input type="button" value="{="Login to this account"}" onclick="window.location='index.php?page=accounts&action=setuid&username={$config.username}'" />
-#. <input type="button" value
+#. <input type="button" value="{="Login to this account"}" onclick="window.location='index.php?page=accounts&action=setuid&username={$config.username|htmlentities}'" />
+#. <input type="
 #.
 #: www/system/templates/configuration_form.tpl:59
 msgid "Login to this account"
@@ -5791,12 +5862,12 @@ msgstr "M&auml;rz"
 #.
 #. File www/system/templates/connection_details.tpl:18
 #. Context: {/if}
-#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate}</strong> {="kbps"}</td></tr>
+#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate|htmlentities}</strong> {="kbps"}</td></tr>
 #. </table>
 #.
 #. File www/system/templates/connection_details.tpl:38
 #. Context: {/if}
-#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate}</strong> {="kbps"}</td></tr>
+#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate|htmlentities}</strong> {="kbps"}</td></tr>
 #. </table>
 #.
 #. File www/system/templates/reseller_index.tpl:55
@@ -5806,7 +5877,7 @@ msgstr "M&auml;rz"
 #.
 #. File system/class_AccountFields.php:335
 #.
-#. File system/class_AccountFields.php:792
+#. File system/class_AccountFields.php:794
 #.
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:70
 #. Context: <tr>
@@ -5814,16 +5885,16 @@ msgstr "M&auml;rz"
 #. <td>{bitrate_field name="mountpoints_field[liqmax_bitrate]" size="1" class="list_editor_field mpbitrate mptipl
 #.
 #. File system/servers/WindowsMedia/templates/connection_details.tpl:11
-#. Context: <tr><td>{="Publishing point"}:</td><td><strong>{$account.username}</strong></td></tr>
-#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate}</strong> {="kbps"}</td></tr>
-#. <tr><td>{="Password"}:&nbsp;</td><td>({="The 'Adm
+#. Context: <tr><td>{="Publishing point"}:</td><td><strong>{$account.username|htmlentities}</strong></td></tr>
+#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate|htmlentities}</strong> {="kbps"}</td></tr>
+#. <tr><td>{="Password"}:&nbsp;</td><td
 #.
-#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:605
+#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:606
 #.
 #. File system/servers/WindowsMedia/templates/connection_details.tpl:21
-#. Context: <tr><td>{="Server pulls from"}:&nbsp;</td><td><strong>{$acctconfig.path}</strong></td></tr>
-#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate}</strong> {="kbps"}</td></tr>
-#. <tr><td>{="Password"}:&nbsp;</td><td>({="The 'Adm
+#. Context: <tr><td>{="Server pulls from"}:&nbsp;</td><td><strong>{$acctconfig.path|htmlentities}</strong></td></tr>
+#. <tr><td>{="Maximum bit rate"}:&nbsp;</td><td><strong>{$account.maxbitrate|htmlentities}</strong> {="kbps"}</td></tr>
+#. <tr><td>{="Password"}:&nbsp;</td><td
 #.
 #. File www/system/templates/configuration_reseller_limits.tpl:73
 #. Context: <tr>
@@ -5844,10 +5915,10 @@ msgstr "M&auml;rz"
 #: www/system/templates/connection_details.tpl:18
 #: www/system/templates/connection_details.tpl:38
 #: www/system/templates/reseller_index.tpl:55
-#: system/class_AccountFields.php:335 system/class_AccountFields.php:792
+#: system/class_AccountFields.php:335 system/class_AccountFields.php:794
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:70
 #: system/servers/WindowsMedia/templates/connection_details.tpl:11
-#: system/sources/liquidsoap/class_LiquidSoapSettings.php:605
+#: system/sources/liquidsoap/class_LiquidSoapSettings.php:606
 #: system/servers/WindowsMedia/templates/connection_details.tpl:21
 #: www/system/templates/configuration_reseller_limits.tpl:73
 #: www/system/templates/configuration_client_limits.tpl:155
@@ -5857,7 +5928,7 @@ msgstr "Maximale Bitrate"
 
 #. File www/client/modules/class_Module_widgets.php:106
 #.
-#. File system/class_AccountFields.php:777
+#. File system/class_AccountFields.php:779
 #.
 #. File system/class_AccountFields.php:317
 #.
@@ -5883,7 +5954,7 @@ msgstr "Maximale Bitrate"
 #. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:35
 #.
 #: www/client/modules/class_Module_widgets.php:106
-#: system/class_AccountFields.php:777 system/class_AccountFields.php:317
+#: system/class_AccountFields.php:779 system/class_AccountFields.php:317
 #: system/servers/IceCast/class_IceCastConfig.php:37
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:121
 #: www/system/templates/configuration_client_limits.tpl:144
@@ -5912,17 +5983,8 @@ msgstr "maximal %d"
 msgid "MB"
 msgstr ""
 
-#. File www/system/templates/m/index.tpl:23
-#. Context: <ul data-role="listview" id="recent_tracks_list">
-#. <li><a href="index.php?page=library">{="Media library"}</a></li>
-#. <li><a href="index.php?page=playlists">{="Configure playlists"}</a></li>
-#.
-#: www/system/templates/m/index.tpl:23
-msgid "Media library"
-msgstr ""
-
 #. File www/system/templates/playlist.tpl:2
-#. Context: <form action="{$_SERVER.REQUEST_URI}" method="post">
+#. Context: <form action="{$_SERVER.REQUEST_URI|htmlentities}" method="post">
 #. <div id="heading_library">{="Media Library"}</div>
 #. <div id="heading_playlist">{="Playlist"}</div>
 #.
@@ -5941,6 +6003,15 @@ msgstr ""
 #: www/system/templates/library.tpl:16
 msgid "Media Library"
 msgstr "Bibliothek"
+
+#. File www/system/templates/m/index.tpl:23
+#. Context: <ul data-role="listview" id="recent_tracks_list">
+#. <li><a href="index.php?page=library">{="Media library"}</a></li>
+#. <li><a href="index.php?page=playlists">{="Configure playlists"}</a></li>
+#.
+#: www/system/templates/m/index.tpl:23
+msgid "Media library"
+msgstr ""
 
 #. File www/system/templates/library.tpl:55
 #. Context: library_update: {
@@ -6182,7 +6253,7 @@ msgstr ""
 
 #. File www/system/templates/connection_details.tpl:14
 #. Context: {elseif $acctconfig.apptypes==""}
-#. <tr><td>{="Mount point"}:</td><td><strong>{$acctconfig.mountpoints.0.mountname}</strong></td></tr>
+#. <tr><td>{="Mount point"}:</td><td><strong>{$acctconfig.mountpoints.0.mountname|htmlentities}</strong></td></tr>
 #. {else}
 #.
 #. File www/system/templates/widgets.tpl:23
@@ -6197,7 +6268,7 @@ msgstr ""
 #.
 #. File www/system/templates/connection_details.tpl:34
 #. Context: {elseif $acctconfig.apptypes==""}
-#. <tr><td>{="Mount point"}:</td><td><strong>{$acctconfig.mountpoints.0.mountname}</strong></td></tr>
+#. <tr><td>{="Mount point"}:</td><td><strong>{$acctconfig.mountpoints.0.mountname|htmlentities}</strong></td></tr>
 #. {else}
 #.
 #. File www/system/templates/connection_details.tpl:36
@@ -6217,9 +6288,9 @@ msgstr ""
 #. <td width="140">{="Mount point"}:&nbsp;</td>
 #. <td><input type="text" name="config[icesmountpoint]" size="30" value="{$config.icesmountpoint|htmlentities}" />
 #.
-#. File system/sources/ezstream/class_Sourceezstream.php:359
+#. File system/sources/ezstream/class_Sourceezstream.php:360
 #.
-#. File system/sources/icessingleencoder/class_Sourceices.php:371
+#. File system/sources/icessingleencoder/class_Sourceices.php:368
 #.
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:37
 #. Context: <tr>
@@ -6227,7 +6298,7 @@ msgstr ""
 #. <td><input type="text" name="mountpoints_field[mountname]" id="activempname" class="list_editor_field" size="30" val
 #.
 #. File system/servers/IceCast/templates/connection_details.tpl:31
-#. Context: <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port}</strong></td></tr>
+#. Context: <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port|htmlentities}</strong></td></tr>
 #. <tr><td>{="Mount point"}:&nbsp;</td><td><strong>{if ($mount.fallbackmount=="/live") or ($mount.fallbackmount|substr:-5=="_live")}{$mount.fallbackmount
 #.
 #. File system/sources/ezstream/templates/configuration_source.tpl:6
@@ -6243,8 +6314,8 @@ msgstr ""
 #: www/system/templates/livestats.tpl:31
 #: system/servers/IceCast/class_IceCastConfig.php:28
 #: system/sources/icessingleencoder/templates/configuration_source.tpl:4
-#: system/sources/ezstream/class_Sourceezstream.php:359
-#: system/sources/icessingleencoder/class_Sourceices.php:371
+#: system/sources/ezstream/class_Sourceezstream.php:360
+#: system/sources/icessingleencoder/class_Sourceices.php:368
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:37
 #: system/servers/IceCast/templates/connection_details.tpl:31
 #: system/sources/ezstream/templates/configuration_source.tpl:6
@@ -6263,23 +6334,23 @@ msgstr ""
 #.
 #. File system/servers/IceCast/class_IceCastConfig.php:62
 #.
-#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:41
+#. File system/servers/ShoutCast2/class_ShoutCast2Config.php:43
 #.
-#. File system/sources/ices2/class_Ices2ServerInterface.php:236
+#. File system/sources/ices2/class_Ices2ServerInterface.php:222
 #.
-#. File system/sources/liquidsoap/class_Sourceliquidsoap.php:179
+#. File system/sources/liquidsoap/class_Sourceliquidsoap.php:184
 #.
-#. File system/sources/sctrans2/class_Sourcesctrans2.php:573
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:543
 #.
 #. File system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:62
 #.
 #: www/system/templates/widgets.tpl:18
 #: www/system/templates/configuration_form.tpl:15
 #: system/servers/IceCast/class_IceCastConfig.php:62
-#: system/servers/ShoutCast2/class_ShoutCast2Config.php:41
-#: system/sources/ices2/class_Ices2ServerInterface.php:236
-#: system/sources/liquidsoap/class_Sourceliquidsoap.php:179
-#: system/sources/sctrans2/class_Sourcesctrans2.php:573
+#: system/servers/ShoutCast2/class_ShoutCast2Config.php:43
+#: system/sources/ices2/class_Ices2ServerInterface.php:222
+#: system/sources/liquidsoap/class_Sourceliquidsoap.php:184
+#: system/sources/sctrans2/class_Sourcesctrans2.php:543
 #: system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:62
 msgid "Mount Points"
 msgstr "Mountpoints"
@@ -6309,8 +6380,8 @@ msgstr ""
 
 #. File www/system/templates/configuration_form.tpl:55
 #. Context: {otherwisecheck ($admin) && ($config.reseller==0) && ($creating==0) && ($template_editor==0)}
-#. <input type="button" value="{="Move to another reseller"}" onclick="window.location='index.php?page=manageaccount&action=reparent&username={$config.username}'" />
-#. {/check}
+#. <input type="button" value="{="Move to another reseller"}" onclick="window.location='index.php?page=manageaccount&action=reparent&username={$config.username|htmlentities}'" />
+#. {/check
 #.
 #: www/system/templates/configuration_form.tpl:55
 msgid "Move to another reseller"
@@ -6440,7 +6511,7 @@ msgstr ""
 msgid "New filename is identical to old filename, no changes made."
 msgstr ""
 
-#. File www/system/templates/filemanager.tpl:82
+#. File www/system/templates/filemanager.tpl:83
 #. Context: name"}" /> &nbsp;&nbsp;&nbsp;&nbsp;
 #. <input type="button" id="btn_newfolder" onclick="window.fm.create_directory()" value="{="New Folder"}" /> &nbsp;&nbsp;&nbsp;&nbsp;
 #. {check $canupload}
@@ -6449,25 +6520,25 @@ msgstr ""
 #. Context: trename: '{="Rename"}',
 #. tnewfolder: '{="New Folder"}',
 #.
-#: www/system/templates/filemanager.tpl:82
+#: www/system/templates/filemanager.tpl:83
 #: www/system/templates/filemanager.tpl:38
 msgid "New Folder"
 msgstr "Neuer Ordner"
 
-#. File www/system/templates/filemanager.tpl:110
+#. File www/system/templates/filemanager.tpl:111
 #. Context: <h1>{="File Manager"}</h1>
 #. <h2>{="New folder"}</h2>
 #.
-#: www/system/templates/filemanager.tpl:110
+#: www/system/templates/filemanager.tpl:111
 msgid "New folder"
 msgstr ""
 
-#. File www/system/templates/filemanager.tpl:100
+#. File www/system/templates/filemanager.tpl:101
 #. Context: <p>
 #. {="New name"}: <input type="text" id="rename_newname" name="rename_newname" value="" size="30" />
 #. </p>
 #.
-#: www/system/templates/filemanager.tpl:100
+#: www/system/templates/filemanager.tpl:101
 msgid "New name"
 msgstr "Neuer Name"
 
@@ -6771,7 +6842,9 @@ msgstr ""
 msgid ""
 "Note that you will need to restart your server for the changes to take "
 "effect."
-msgstr "Vergessen Sie nicht Ihren Streamserver bei gelegenheit neu zu starten um die Einstellungen / Änderungen anzuwenden."
+msgstr ""
+"Vergessen Sie nicht Ihren Streamserver bei gelegenheit neu zu starten um die "
+"Einstellungen / Änderungen anzuwenden."
 
 #. File www/system/templates/configuration_client_source.tpl:85
 #. Context: <td colspan="4">
@@ -6858,10 +6931,10 @@ msgstr "Jetzt l&auml;uft"
 #. <td>{="Number of recent tracks"}:</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:795
+#. File system/class_AccountFields.php:797
 #.
 #: www/system/templates/configuration_client_widgets.tpl:107
-#: system/class_AccountFields.php:795
+#: system/class_AccountFields.php:797
 msgid "Number of recent tracks"
 msgstr "Anzahl der neuen Titel"
 
@@ -7079,7 +7152,7 @@ msgstr ""
 msgid "Password updated successfully."
 msgstr ""
 
-#. File www/system/templates/filemanager.tpl:79
+#. File www/system/templates/filemanager.tpl:80
 #. Context: te_clipboard(false)" value="{="Cut"}" />
 #. <input type="button" id="btn_paste" onclick="window.fm.paste_clipboard()" value="{="Paste"}" /> &nbsp;
 #. <input type="button" id="btn_delete" onclick="window.fm.delete_selected()" value="{="Delete"}" />
@@ -7089,10 +7162,16 @@ msgstr ""
 #. tpaste: '{="Paste"}',
 #. tdelete: '{="Delete"}',
 #.
-#: www/system/templates/filemanager.tpl:79
+#: www/system/templates/filemanager.tpl:80
 #: www/system/templates/filemanager.tpl:35
 msgid "Paste"
 msgstr "Einfügen"
+
+#. File www/client/rpc/class_RPCstatistics_base.php:200
+#.
+#: www/client/rpc/class_RPCstatistics_base.php:200
+msgid "Peak Listeners"
+msgstr "Höchste Zuhöreranzahl"
 
 #. File www/system/templates/statistics_historical.tpl:25
 #. Context: <tr>
@@ -7106,12 +7185,6 @@ msgstr "Einfügen"
 #: www/system/templates/statistics_historical.tpl:25
 #: www/system/templates/statistics_tracks.tpl:19
 msgid "Peak listeners"
-msgstr "Höchste Zuhöreranzahl"
-
-#. File www/client/rpc/class_RPCstatistics_base.php:200
-#.
-#: www/client/rpc/class_RPCstatistics_base.php:200
-msgid "Peak Listeners"
 msgstr "Höchste Zuhöreranzahl"
 
 #. File www/system/templates/statistics_recent.tpl:90
@@ -7177,7 +7250,7 @@ msgstr "F&uuml;hren Sie ein vollst&auml;ndiges Bibliotheksupdate durch"
 #. </select>
 #.
 #. File www/system/templates/reportformat_list.tpl:32
-#. Context: _loop.lasttxt}">{if $reportformat.reporttype=="playlist"}{="Playlist report"}{elseif $reportformat.reporttype=="performance"}{="Performance report"}{else}{$reportformat.reporttype}{/if}</td>
+#. Context: _loop.lasttxt}">{if $reportformat.reporttype=="playlist"}{="Playlist report"}{elseif $reportformat.reporttype=="performance"}{="Performance report"}{else}{$reportformat.reporttype|htmlentities}{/if}</td>
 #.
 #: www/system/templates/reportformat_edit.tpl:32
 #: www/system/templates/reportformat_list.tpl:32
@@ -7540,8 +7613,8 @@ msgstr "Playlisten Verwaltung"
 #. <option value="performance"{if $reportformat.reporttype=="performance"} selected="selected"{/if}>{="Performance r
 #.
 #. File www/system/templates/reportformat_list.tpl:32
-#. Context: rmal">{$reportformat.title}</a></td>
-#. <td class="row{$_loop.oetxt}{$_loop.lasttxt}">{if $reportformat.reporttype=="playlist"}{="Playlist report"}{elseif $reportformat.reporttype=="performance"}{="Performance report"}{else}{$reportformat.reporttype}{/if}</td>
+#. Context: tformat.title|htmlentities}</a></td>
+#. <td class="row{$_loop.oetxt}{$_loop.lasttxt}">{if $reportformat.reporttype=="playlist"}{="Playlist report"}{elseif $reportformat.reporttype=="performance"}{="Performance report"}{else}{$reportformat.reporttype|htmlentities}{/if}</td>
 #.
 #: www/system/templates/reportformat_edit.tpl:31
 #: www/system/templates/reportformat_list.tpl:32
@@ -7583,6 +7656,16 @@ msgstr "Playlisten Sortierung"
 #.
 #: www/system/templates/playlist_update.tpl:1
 msgid "Playlist Update"
+msgstr ""
+
+#. File www/system/templates/client_directory_error.tpl:31
+#. Context: {="Please consult the manual for your streaming server for additional information about this error."}
+#. </p>
+#.
+#: www/system/templates/client_directory_error.tpl:31
+msgid ""
+"Please consult the manual for your streaming server for additional "
+"information about this error."
 msgstr ""
 
 #. File www/system/templates/change_password.tpl:18
@@ -7662,7 +7745,7 @@ msgstr "Bitte warten"
 #. <h1>{="Port"}</h1>
 #. {="Set this to 'auto' (recommended) to automatically choose an available port from the target host.  Note that specifyi
 #.
-#. File system/class_AccountFields.php:775
+#. File system/class_AccountFields.php:777
 #.
 #. File www/system/templates/admin_rpchost_edit.tpl:18
 #. Context: <tr>
@@ -7683,7 +7766,7 @@ msgstr "Bitte warten"
 #: www/system/templates/configuration_client_basic.tpl:98
 #: www/system/templates/configuration_client_basic.tpl:105
 #: www/system/templates/configuration_client_basic.tpl:35
-#: system/class_AccountFields.php:775
+#: system/class_AccountFields.php:777
 #: www/system/templates/admin_rpchost_edit.tpl:18
 #: www/system/templates/admin_accounts.tpl:124
 #: www/system/templates/admin_accounts.tpl:156
@@ -7860,18 +7943,18 @@ msgstr "Projizierter Datentransfer"
 
 #. File www/system/templates/connection_details.tpl:5
 #. Context: <table cellspacing="1" cellpadding="1" border="0">
-#. <tr><td>{="Protocol"}:&nbsp;</td><td><strong>{$account.servertype}</strong></td></tr>
-#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serve
+#. <tr><td>{="Protocol"}:&nbsp;</td><td><strong>{$account.servertype|htmlentities}</strong></td></tr>
+#. <tr><td>{="Server hostname"}:&nbsp;</td><td><s
 #.
 #. File www/system/templates/connection_details.tpl:26
 #. Context: <table cellspacing="1" cellpadding="1" border="0">
-#. <tr><td>{="Protocol"}:&nbsp;</td><td><strong>{$account.servertype}</strong></td></tr>
-#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serve
+#. <tr><td>{="Protocol"}:&nbsp;</td><td><strong>{$account.servertype|htmlentities}</strong></td></tr>
+#. <tr><td>{="Server hostname"}:&nbsp;</td><td><s
 #.
 #. File system/servers/IceCast/templates/connection_details.tpl:28
 #. Context: <table cellspacing="1" cellpadding="1" border="0" style="margin-left: 15px">
-#. <tr><td>{="Protocol"}:&nbsp;</td><td><strong>{$account.servertype}</strong></td></tr>
-#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serv
+#. <tr><td>{="Protocol"}:&nbsp;</td><td><strong>{$account.servertype|htmlentities}</strong></td></tr>
+#. <tr><td>{="Server hostname"}:&nbsp;</td><td><
 #.
 #. File system/servers/IceCast/templates/connection_details.tpl:9
 #. Context: <table cellspacing="1" cellpadding="1" border="0">
@@ -7945,10 +8028,10 @@ msgstr "Zuf&auml;llig (gemischt)"
 #. <td>{="Randomize playlist"}:&nbsp;</td>
 #. <td colspan="3">
 #.
-#. File system/class_AccountFields.php:820
+#. File system/class_AccountFields.php:822
 #.
 #: www/system/templates/configuration_client_source.tpl:58
-#: system/class_AccountFields.php:820
+#: system/class_AccountFields.php:822
 msgid "Randomize playlist"
 msgstr ""
 
@@ -7957,7 +8040,7 @@ msgstr ""
 #. <input type="button" value="{="Raw configuration"}" onclick="window.location='index.php?page=confeditor'" />
 #. {/check}
 #.
-#. File system/class_AccountFields.php:783
+#. File system/class_AccountFields.php:785
 #.
 #. File system/class_AccountFields.php:342
 #.
@@ -7972,7 +8055,7 @@ msgstr ""
 #. <td>
 #.
 #: www/system/templates/configuration_form.tpl:64
-#: system/class_AccountFields.php:783 system/class_AccountFields.php:342
+#: system/class_AccountFields.php:785 system/class_AccountFields.php:342
 #: www/system/templates/configuration_reseller_limits.tpl:140
 #: www/system/templates/configuration_client_limits.tpl:242
 msgid "Raw configuration"
@@ -8055,10 +8138,10 @@ msgstr ""
 msgid "Recent Activity"
 msgstr "Letzte Aktivitäten"
 
-#. File www/system/templates/index.tpl:3
+#. File www/system/templates/index.tpl:4
 #. Context: <img src="../system/images/icons/tracks.png" align="absmiddle" /> {="Recent tracks"}:<br />
 #.
-#: www/system/templates/index.tpl:3
+#: www/system/templates/index.tpl:4
 msgid "Recent tracks"
 msgstr "Zuletzt gespielte Titel"
 
@@ -8073,12 +8156,12 @@ msgstr "Rückgängig"
 
 #. File www/system/templates/new_account_form.tpl:70
 #. Context: {loop $region=$regions}
-#. <option value="rgn:{$region.id}">{="Region"}: {$region.title}</option>
+#. <option value="rgn:{$region.id}">{="Region"}: {$region.title|htmlentities}</option>
 #. {/loop}
 #.
 #. File www/system/templates/configuration_client_cluster.tpl:14
 #. Context: compatibleregions}
-#. <option value="rgn:{$region.id}"{if ($regionid>0) and ($regionid==$region.id)} selected="selected"{/if}>{="Region"}: {$region.title}</option>
+#. <option value="rgn:{$region.id}"{if ($regionid>0) and ($regionid==$region.id)} selected="selected"{/if}>{="Region"}: {$region.title|htmlentities}</option>
 #. {/loop}
 #.
 #. File www/system/templates/admin_rpchost_edit.tpl:59
@@ -8157,7 +8240,7 @@ msgid "Remove cover image"
 msgstr "Cover entfernen"
 
 #. File www/system/templates/configuration_client_files.tpl:40
-#. Context: ntly"}: <strong>{$config.fallbackfile}</strong><br />
+#. Context: ng>{$config.fallbackfile|htmlentities}</strong><br />
 #. <input type="checkbox" name="removefile[fallbackfile]" value="1" /> {="Remove fallback file"}
 #. </td>
 #.
@@ -8166,7 +8249,7 @@ msgid "Remove fallback file"
 msgstr "Entferne Backup Datei"
 
 #. File www/system/templates/configuration_client_files.tpl:19
-#. Context: "Currently"}: <strong>{$config.introfile}</strong><br />
+#. Context: <strong>{$config.introfile|htmlentities}</strong><br />
 #. <input type="checkbox" name="removefile[introfile]" value="1" /> {="Remove introduction file"}
 #. </td>
 #.
@@ -8183,7 +8266,7 @@ msgstr "Entferne Intro Datei"
 msgid "Remove logo image"
 msgstr ""
 
-#. File www/system/templates/filemanager.tpl:81
+#. File www/system/templates/filemanager.tpl:82
 #. Context: lete_selected()" value="{="Delete"}" />
 #. <input type="button" id="btn_rename" onclick="window.fm.rename_selected()" value="{="Rename"}" /> &nbsp;&nbsp;&nbsp;&nbsp;
 #. <input type="button" id="btn_newfolder" onclick="window.fm.create_directory()" value="{="New
@@ -8193,7 +8276,7 @@ msgstr ""
 #. trename: '{="Rename"}',
 #. tnewfolder: '{="New Folder"}',
 #.
-#: www/system/templates/filemanager.tpl:81
+#: www/system/templates/filemanager.tpl:82
 #: www/system/templates/filemanager.tpl:37
 msgid "Rename"
 msgstr "Umbennen"
@@ -8207,11 +8290,11 @@ msgstr "Umbennen"
 msgid "Rename artist"
 msgstr "Künstler umbennen"
 
-#. File www/system/templates/filemanager.tpl:97
+#. File www/system/templates/filemanager.tpl:98
 #. Context: <h1>{="File Manager"}</h1>
 #. <h2>{="Rename file"}</h2>
 #.
-#: www/system/templates/filemanager.tpl:97
+#: www/system/templates/filemanager.tpl:98
 msgid "Rename file"
 msgstr "Datei umbennen"
 
@@ -8328,10 +8411,10 @@ msgstr ""
 #. <td>{="Request delay"}:</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:806
+#. File system/class_AccountFields.php:808
 #.
 #: www/system/templates/configuration_client_widgets.tpl:67
-#: system/class_AccountFields.php:806
+#: system/class_AccountFields.php:808
 msgid "Request delay"
 msgstr "Anfrageverzögerung"
 
@@ -8340,10 +8423,10 @@ msgstr "Anfrageverzögerung"
 #. <td>{="Request probability"}:</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:805
+#. File system/class_AccountFields.php:807
 #.
 #: www/system/templates/configuration_client_widgets.tpl:74
-#: system/class_AccountFields.php:805
+#: system/class_AccountFields.php:807
 msgid "Request probability"
 msgstr "Anfragewahrscheinlichkeit"
 
@@ -8367,10 +8450,10 @@ msgstr ""
 
 #. File www/client/modules/class_Module_confeditor.php:75
 #.
-#. File system/class_ServerControl.php:2545
+#. File system/class_ServerControl.php:2551
 #.
 #: www/client/modules/class_Module_confeditor.php:75
-#: system/class_ServerControl.php:2545
+#: system/class_ServerControl.php:2551
 msgid "reseller"
 msgstr ""
 
@@ -8451,7 +8534,7 @@ msgstr "Empfange aktuellen Titel..."
 #. Context: <a href="index.php?page=accounts">{="Return"}</a>
 #. {/box}
 #.
-#. File www/system/templates/filemanager.tpl:75
+#. File www/system/templates/filemanager.tpl:76
 #. Context: <div id="options" class="statuscontents">
 #. <input type="button" onclick="window.location = 'index.php'" value="{="Return"}" /> &nbsp;&nbsp;&nbsp; &nbsp;
 #.
@@ -8528,7 +8611,7 @@ msgstr "Empfange aktuellen Titel..."
 #. Context: <a href="index.php?page=settings">{="Return"}</a>
 #.
 #. File www/system/templates/admin_setuid_failed.tpl:4
-#. Context: <a href="index.php?page=accounts&action=edit&username={$username}">{="Return"}</a>
+#. Context: <a href="index.php?page=accounts&action=edit&username={$username|htmlentities}">{="Return"}</a>
 #. {/box}
 #.
 #. File www/system/templates/admin_license_test.tpl:25
@@ -8540,7 +8623,7 @@ msgstr "Empfange aktuellen Titel..."
 #: www/system/templates/account_deleted.tpl:9
 #: www/system/templates/playlist_update.tpl:9
 #: www/system/templates/status_updated.tpl:9
-#: www/system/templates/filemanager.tpl:75
+#: www/system/templates/filemanager.tpl:76
 #: www/system/templates/account_created.tpl:10
 #: www/system/templates/state_changed.tpl:10
 #: www/system/templates/invalid_account.tpl:4
@@ -8618,22 +8701,22 @@ msgstr ""
 #. <td>{="Sample rate"}:&nbsp;</td>
 #. <td colspan="3">
 #.
-#. File system/sources/sctrans2/class_Sourcesctrans2.php:559
+#. File system/sources/sctrans2/class_Sourcesctrans2.php:528
 #.
 #. File system/sources/ices2/templates/configuration_source_mountpoints.tpl:22
 #. Context: <td width="130" align="right">{="Sample rate"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:790
+#. File system/class_AccountFields.php:792
 #.
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:33
 #. Context: <tr>
 #. <td>{="Sample rate"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/sources/ices2/class_Ices2ServerInterface.php:216
+#. File system/sources/ices2/class_Ices2ServerInterface.php:202
 #.
-#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:613
+#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:614
 #.
 #. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:53
 #. Context: <td width="130" align="right">{="Sample rate"}:&nbsp;</td>
@@ -8651,24 +8734,24 @@ msgstr ""
 #. <td>{="Sample rate"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:601
+#. File system/sources/liquidsoap/class_LiquidSoapSettings.php:602
 #.
 #. File system/sources/ices/templates/configuration_source_mountpoints.tpl:53
 #. Context: <td width="130" align="right">{="Sample rate"}:&nbsp;</td>
 #. <td>
 #.
 #: www/system/templates/configuration_client_source.tpl:100
-#: system/sources/sctrans2/class_Sourcesctrans2.php:559
+#: system/sources/sctrans2/class_Sourcesctrans2.php:528
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:22
-#: system/class_AccountFields.php:790
+#: system/class_AccountFields.php:792
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:33
-#: system/sources/ices2/class_Ices2ServerInterface.php:216
-#: system/sources/liquidsoap/class_LiquidSoapSettings.php:613
+#: system/sources/ices2/class_Ices2ServerInterface.php:202
+#: system/sources/liquidsoap/class_LiquidSoapSettings.php:614
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:53
 #: system/sources/ices/srvintf/class_IcesServerInterface.php:169
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:94
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:107
-#: system/sources/liquidsoap/class_LiquidSoapSettings.php:601
+#: system/sources/liquidsoap/class_LiquidSoapSettings.php:602
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:53
 msgid "Sample rate"
 msgstr "Samplingrate"
@@ -9176,39 +9259,39 @@ msgid "Server Error Log"
 msgstr "Server Fehler Log"
 
 #. File www/system/templates/connection_details.tpl:6
-#. Context: <tr><td>{="Protocol"}:&nbsp;</td><td><strong>{$account.servertype}</strong></td></tr>
-#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname}</strong></td></tr>
+#. Context: <tr><td>{="Protocol"}:&nbsp;</td><td><strong>{$account.servertype|htmlentities}</strong></td></tr>
+#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
 #. {if $account.port!=0}
 #.
 #. File www/system/templates/connection_details.tpl:27
-#. Context: <tr><td>{="Protocol"}:&nbsp;</td><td><strong>{$account.servertype}</strong></td></tr>
-#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname}</strong></td></tr>
+#. Context: <tr><td>{="Protocol"}:&nbsp;</td><td><strong>{$account.servertype|htmlentities}</strong></td></tr>
+#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
 #. {if $account.port!=0}
 #.
 #. File system/servers/WindowsMedia/templates/connection_details.tpl:9
 #. Context: <tr><td>{="Broadcast method"}:&nbsp;</td><td><strong>{="Push"}</td></tr>
-#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname}:8080</strong></td></tr>
-#. <tr><td>{="Publishing point"}:</td><td><strong>{$account.u
+#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}:8080</strong></td></tr>
+#. <tr><td>{="Publishing point"}:</td><td><stron
 #.
 #. File system/servers/IceCast/templates/connection_details.tpl:29
-#. Context: <tr><td>{="Protocol"}:&nbsp;</td><td><strong>{$account.servertype}</strong></td></tr>
-#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname}</strong></td></tr>
-#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port
+#. Context: <tr><td>{="Protocol"}:&nbsp;</td><td><strong>{$account.servertype|htmlentities}</strong></td></tr>
+#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
+#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{
 #.
 #. File system/servers/ShoutCast2/templates/connection_details.tpl:31
 #. Context: <tr><td>{="Protocol"}:&nbsp;</td><td><strong>SHOUTcast (v1)</strong></td></tr>
-#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname}</strong></td></tr>
-#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port}
+#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
+#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$
 #.
 #. File system/servers/IceCast/templates/connection_details.tpl:10
 #. Context: <tr><td>{="Protocol"}:&nbsp;</td><td><strong>SHOUTcast (v1)</strong></td></tr>
-#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname}</strong></td></tr>
-#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port
+#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
+#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{
 #.
 #. File system/servers/ShoutCast2/templates/connection_details.tpl:10
 #. Context: <tr><td>{="Protocol"}:&nbsp;</td><td><strong>SHOUTcast (v1)</strong></td></tr>
-#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname}</strong></td></tr>
-#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port|
+#. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
+#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$
 #.
 #: www/system/templates/connection_details.tpl:6
 #: www/system/templates/connection_details.tpl:27
@@ -9261,31 +9344,31 @@ msgstr ""
 
 #. File www/system/templates/connection_details.tpl:8
 #. Context: {if $account.port!=0}
-#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port|add:2}</strong></td></tr>
+#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port|add:2|htmlentities}</strong></td></tr>
 #. {/if}
 #.
 #. File www/system/templates/connection_details.tpl:29
 #. Context: {if $account.port!=0}
-#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port}</strong></td></tr>
+#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port|htmlentities}</strong></td></tr>
 #. {/if}
 #.
 #. File system/servers/IceCast/templates/connection_details.tpl:30
-#. Context: <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname}</strong></td></tr>
-#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port}</strong></td></tr>
-#. <tr><td>{="Mount point"}:&nbsp;</td><td><strong>{if ($mount.fall
+#. Context: <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
+#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port|htmlentities}</strong></td></tr>
+#. <tr><td>{="Mount point"}:&nbsp;</td><td><strong>{if
 #.
 #. File system/servers/IceCast/templates/connection_details.tpl:11
-#. Context: <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname}</strong></td></tr>
+#. Context: <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
 #. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port|add:1}</strong></td></tr>
 #. <tr><td>{="Bit rate"}:&nbsp;</td><td><strong>{$highestbitr
 #.
 #. File system/servers/ShoutCast2/templates/connection_details.tpl:32
-#. Context: <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname}</strong></td></tr>
-#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port}</strong></td></tr>
-#. {check $mount.liqencoder!=""}<tr><td>{="Format"}:</td><td><strong
+#. Context: <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
+#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port|htmlentities}</strong></td></tr>
+#. {check $mount.liqencoder!=""}<tr><td>{="Format"}:</t
 #.
 #. File system/servers/ShoutCast2/templates/connection_details.tpl:11
-#. Context: <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname}</strong></td></tr>
+#. Context: <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
 #. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port|add:2}</strong></td></tr>
 #. <tr><td>{="Bit rate"}:&nbsp;</td><td><strong>{$highestbitra
 #.
@@ -9315,10 +9398,10 @@ msgstr "Server neu starten"
 #. <div style="float: right; color: #808080; margin-left: 15px">{="Server software"}: <strong>{$servertype.title}</strong></div>
 #. <input type="text" name="config[hostname]" size="35" maxlength="255" value="{$c
 #.
-#. File system/class_AccountFields.php:862
+#. File system/class_AccountFields.php:864
 #.
 #: www/system/templates/configuration_client_basic.tpl:86
-#: system/class_AccountFields.php:862
+#: system/class_AccountFields.php:864
 msgid "Server software"
 msgstr ""
 
@@ -9523,7 +9606,7 @@ msgstr "Zeige Albumcover"
 #. File www/system/templates/sso_header.tpl:3
 #. Context: <div class="logobartip">
 #. <img src="../system/images/icons/information.png" alt="" align="absmiddle" /> {="Single sign-on login active"}
-#. <div style="margin-left: 20px; font-weight: bold">{$_SERVER.HTTP_HOST}</div>
+#. <div style="margin-left: 20px; font-weight: bold">{$_SERVER.HTTP_HOST|htmlentities}</div>
 #.
 #: www/system/templates/sso_header.tpl:3
 msgid "Single sign-on login active"
@@ -9618,7 +9701,7 @@ msgstr "Titel"
 
 #. File www/system/templates/reportformat_update.tpl:5
 #. Context: {otherwise}
-#. {="Sorry, an error occurred while attempting to update this custom report"}: {$error}
+#. {="Sorry, an error occurred while attempting to update this custom report"}: {$error|htmlentities}
 #. {/check}
 #.
 #: www/system/templates/reportformat_update.tpl:5
@@ -9627,7 +9710,7 @@ msgstr ""
 
 #. File www/system/templates/djaccount_update.tpl:5
 #. Context: {otherwise}
-#. {="Sorry, an error occurred while attempting to update this DJ account"}: {$error}
+#. {="Sorry, an error occurred while attempting to update this DJ account"}: {$error|htmlentities}
 #. {/check}
 #.
 #: www/system/templates/djaccount_update.tpl:5
@@ -9636,7 +9719,7 @@ msgstr ""
 
 #. File www/system/templates/staffaccount_update.tpl:5
 #. Context: {otherwise}
-#. {="Sorry, an error occurred while attempting to update this staff account"}: {$error}
+#. {="Sorry, an error occurred while attempting to update this staff account"}: {$error|htmlentities}
 #. {/check}
 #.
 #: www/system/templates/staffaccount_update.tpl:5
@@ -9645,7 +9728,7 @@ msgstr ""
 
 #. File www/system/templates/playlist_update.tpl:5
 #. Context: {otherwise}
-#. {="Sorry, an error occurred while attempting to update your playlist"}: {$error}
+#. {="Sorry, an error occurred while attempting to update your playlist"}: {$error|htmlentities}
 #. {/check}
 #.
 #: www/system/templates/playlist_update.tpl:5
@@ -9685,7 +9768,7 @@ msgstr "Source verbunden"
 #. <td>{="Source password"}:</td>
 #. <td colspan="4"><input type="password" name="config[sourcepassword]" size="15" maxlength="32" value="{$config.sourcepa
 #.
-#. File system/class_AccountFields.php:811
+#. File system/class_AccountFields.php:813
 #.
 #. File system/servers/IceCast/class_IceCastConfig.php:36
 #.
@@ -9695,7 +9778,7 @@ msgstr "Source verbunden"
 #. <td><input type="text" name="mountpoints_field[password]" class="list_editor_field" size="15" value="" /> ({="blank
 #.
 #: www/system/templates/configuration_client_basic.tpl:134
-#: system/class_AccountFields.php:811
+#: system/class_AccountFields.php:813
 #: system/servers/IceCast/class_IceCastConfig.php:36
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:117
 msgid "Source password"
@@ -9873,7 +9956,7 @@ msgstr "Status ändern"
 
 #. File www/system/templates/status_updated.tpl:5
 #. Context: {otherwise}
-#. {="Status could not be updated"}{if $reason}: {$reason}{/if}.
+#. {="Status could not be updated"}{if $reason}: {$reason|htmlentities}{/if}.
 #. {/check}
 #.
 #: www/system/templates/status_updated.tpl:5
@@ -9973,12 +10056,6 @@ msgstr ""
 msgid "Stop your streaming server"
 msgstr ""
 
-#. File www/client/modules/class_Module_control.php:176
-#.
-#: www/client/modules/class_Module_control.php:176
-msgid "stopped"
-msgstr "gestoppt"
-
 #. File www/system/templates/upload_multiple.tpl:7
 #. Context: xfer_cancelled: '{="Cancelled"}',
 #. xfer_stopped: '{="Stopped"}',
@@ -9994,6 +10071,12 @@ msgstr "gestoppt"
 msgid "Stopped"
 msgstr ""
 
+#. File www/client/modules/class_Module_control.php:176
+#.
+#: www/client/modules/class_Module_control.php:176
+msgid "stopped"
+msgstr "gestoppt"
+
 #. File www/client/modules/class_Module_control.php:193
 #.
 #. File www/client/modules/class_Module_control.php:184
@@ -10002,13 +10085,13 @@ msgstr ""
 #.
 #. File www/client/modules/class_Module_control.php:168
 #.
-#. File system/class_AccountFields.php:868
+#. File system/class_AccountFields.php:870
 #.
 #: www/client/modules/class_Module_control.php:193
 #: www/client/modules/class_Module_control.php:184
 #: www/client/modules/class_Module_control.php:176
 #: www/client/modules/class_Module_control.php:168
-#: system/class_AccountFields.php:868
+#: system/class_AccountFields.php:870
 msgid "Stream"
 msgstr ""
 
@@ -10063,11 +10146,11 @@ msgstr "Streamserver Zusammenfassung"
 #.
 #. File www/client/modules/class_Module_widgets.php:103
 #.
-#. File system/class_AccountFields.php:812
+#. File system/class_AccountFields.php:814
 #.
 #: www/system/templates/configuration_client_basic.tpl:116
 #: www/client/modules/class_Module_widgets.php:103
-#: system/class_AccountFields.php:812
+#: system/class_AccountFields.php:814
 msgid "Stream title"
 msgstr "Streamserver Titel"
 
@@ -10098,7 +10181,7 @@ msgstr "Support"
 #. File www/system/templates/import_m3u.tpl:9
 #. Context: <tr>
 #. <td width="150">{="Target playlist"}:&nbsp;</td>
-#. <td><strong>{$playlist.title}</strong></td>
+#. <td><strong>{$playlist.title|htmlentities}</strong></td>
 #.
 #: www/system/templates/import_m3u.tpl:9
 msgid "Target playlist"
@@ -10127,6 +10210,24 @@ msgstr "Template"
 #: www/system/templates/configuration_client_basic.tpl:68
 msgid "Template description"
 msgstr "Template Beschreibung"
+
+#. File www/system/templates/configuration_reseller_basic.tpl:26
+#. Context: <tr>
+#. <td width="130">{="Template name"}:</td>
+#. <td colspan="4"><input type="text" name="config[templatename]" size="32" maxlength="255" value="{$config.templatename
+#.
+#. File www/system/templates/configuration_client_basic.tpl:64
+#. Context: <tr>
+#. <td width="130">{="Template name"}:</td>
+#. <td colspan="4"><input type="text" name="config[templatename]" size="32" maxlength="255" value="{$config.templatename|
+#.
+#. File system/AccountManagerDrivers/mutators/class_TemplateMutator.php:14
+#.
+#: www/system/templates/configuration_reseller_basic.tpl:26
+#: www/system/templates/configuration_client_basic.tpl:64
+#: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:14
+msgid "Template name"
+msgstr ""
 
 #. File www/system/templates/connection_details.tpl:31
 #. Arguments: "<a href='index.php?page=configure'>","</a>"
@@ -10246,6 +10347,17 @@ msgid "The start page for this stream (if enabled) is available at: "
 msgstr ""
 "Die Startseite f&uuml;r diesen Streamserver (insoweit aktiviert), ist "
 "erreichbar unter:"
+
+#. File www/system/templates/client_directory_error.tpl:26
+#. Context: <p>
+#. {="The streaming server reports that your station could not be listed in the stream directory due to the following problem"}:
+#. <br /><br />
+#.
+#: www/system/templates/client_directory_error.tpl:26
+msgid ""
+"The streaming server reports that your station could not be listed in the "
+"stream directory due to the following problem"
+msgstr ""
 
 #. File www/system/templates/autodj_mountpoint_lang.tpl:3
 #. Context: insufficient_bandwidth: '{="Insufficient remaining bandwidth"}',
@@ -10412,10 +10524,10 @@ msgstr ""
 #. Context: {box title="Already running"}
 #. {="This server is already running."}<br /><br />
 #.
-#. File system/class_ServerControl.php:848
+#. File system/class_ServerControl.php:854
 #.
 #: www/system/templates/already_running.tpl:2
-#: system/class_ServerControl.php:848
+#: system/class_ServerControl.php:854
 msgid "This server is already running."
 msgstr "Der Server l&auml;uft bereits."
 
@@ -10423,9 +10535,9 @@ msgstr "Der Server l&auml;uft bereits."
 #. Context: {box title="Not running"}
 #. {="This server is not running."}<br /><br />
 #.
-#. File system/class_ServerControl.php:1314
+#. File system/class_ServerControl.php:1320
 #.
-#: www/system/templates/not_running.tpl:2 system/class_ServerControl.php:1314
+#: www/system/templates/not_running.tpl:2 system/class_ServerControl.php:1320
 msgid "This server is not running."
 msgstr "Der Server l&auml;uft nicht."
 
@@ -10543,7 +10655,11 @@ msgid ""
 "your tracks.  Any customizations you may have made, including custom covers, "
 "artist/album/track names, and related data will be lost.  If you have a "
 "large media library, this may take a very long time.  Proceed?"
-msgstr "Diese Aktion wird alle Ihre Benutzerdefinierten Einstellungen löschen. Cover / Artists / Album und benutzerdefinierte titelnamen welche Sie über das Centova Interface gesetzt haben, gehen unwiederruflich verloren. Je nach größe Ihrer Musikbibliothek, dann dieser Vorgang einige Zeit dauern."
+msgstr ""
+"Diese Aktion wird alle Ihre Benutzerdefinierten Einstellungen löschen. "
+"Cover / Artists / Album und benutzerdefinierte titelnamen welche Sie über "
+"das Centova Interface gesetzt haben, gehen unwiederruflich verloren. Je nach "
+"größe Ihrer Musikbibliothek, dann dieser Vorgang einige Zeit dauern."
 
 #. File www/system/templates/playlist.tpl:12
 #. Context: {$playlistid}" />
@@ -10581,13 +10697,13 @@ msgstr ""
 #. <td>{="Time zone"}:</td>
 #. <td colspan="4">
 #.
-#. File system/class_AccountFields.php:796
+#. File system/class_AccountFields.php:798
 #.
 #. File system/class_AccountFields.php:339
 #.
 #: www/system/templates/configuration_reseller_basic.tpl:37
 #: www/system/templates/configuration_client_basic.tpl:145
-#: system/class_AccountFields.php:796 system/class_AccountFields.php:339
+#: system/class_AccountFields.php:798 system/class_AccountFields.php:339
 msgid "Time zone"
 msgstr "Zeitzone"
 
@@ -11158,7 +11274,7 @@ msgstr ""
 #. File www/system/templates/js_recenttracks.tpl:3
 #. Context: <div class="track">
 #. <div class="cover"><img src="{$baseurl}theme/images/startpage/nocover.png" alt="{="Track cover"}" align="left" width="50" height="43" /></div>
-#. <span class="title nowplaying">{$track.title}</span><br />
+#. <span class="title nowplaying">{$track.title|htmlentities}</span><br />
 #.
 #: www/system/templates/js_recenttracks.tpl:3
 msgid "Track cover"
@@ -11202,15 +11318,6 @@ msgstr "Titelname"
 msgid "Tracks"
 msgstr "Titel"
 
-#. File www/system/templates/logmanager.tpl:40
-#. Context: <span id="purgelog">
-#. <input class="pagenav" type="button" id="logtrim" value="{="Trim log"}" />
-#. <select id="logtrimretain">
-#.
-#: www/system/templates/logmanager.tpl:40
-msgid "Trim log"
-msgstr "Kürze Log"
-
 #. File www/system/templates/logmanager.tpl:20
 #. Context: keyword: '{="Keyword"}',
 #. trim_log: '{="Trim Log"}',
@@ -11218,6 +11325,15 @@ msgstr "Kürze Log"
 #.
 #: www/system/templates/logmanager.tpl:20
 msgid "Trim Log"
+msgstr "Kürze Log"
+
+#. File www/system/templates/logmanager.tpl:40
+#. Context: <span id="purgelog">
+#. <input class="pagenav" type="button" id="logtrim" value="{="Trim log"}" />
+#. <select id="logtrimretain">
+#.
+#: www/system/templates/logmanager.tpl:40
+msgid "Trim log"
 msgstr "Kürze Log"
 
 #. File www/system/templates/staffaccount_edit.tpl:148
@@ -11568,8 +11684,7 @@ msgstr "Speichern"
 #.
 #. File www/system/templates/admin_settings.tpl:30
 #. Context: {otherwisecheck $failure}
-#. {box title="Update Failed"}{if $failure_reason!=""}{$failure_reason}{else}{="An error occurred while attempting to save this update"}.{/if}{/box}<br />
-#. {
+#. {box title="Update Failed"}{if $failure_reason!=""}{$failure_reason|htmlentities}{else}{="An error occurred while attempting to save this update"}.{/if}{
 #.
 #. File www/system/templates/admin_rpchost_form.tpl:15
 #. Context: {elseif $error}
@@ -11660,7 +11775,7 @@ msgstr "Aktualisiere Bibliothek. Bitte warten..."
 msgid "Updating usage"
 msgstr ""
 
-#. File www/system/templates/filemanager.tpl:84
+#. File www/system/templates/filemanager.tpl:85
 #. Context: {check $canupload}
 #. <input type="button" id="btn_upload" onclick="window.fm.show_upload()" value="{="Upload"}" /> &nbsp;
 #. {/check}
@@ -11673,7 +11788,7 @@ msgstr ""
 #. Context: <input type="submit" name="upload" value="{="Upload"}" />
 #. <input type="button" value="{="Cancel"}" onclick="window.location='index.php?page=library'; return false" />
 #.
-#: www/system/templates/filemanager.tpl:84
+#: www/system/templates/filemanager.tpl:85
 #: www/system/templates/filemanager.tpl:32
 #: www/system/templates/import_m3u.tpl:40
 msgid "Upload"
@@ -11832,7 +11947,7 @@ msgstr "User-Agents"
 
 #. File www/system/templates/account_renamed.tpl:5
 #. Context: {otherwise}
-#. {="Username could not be updated"}{if $reason}: {$reason}{/if}.
+#. {="Username could not be updated"}{if $reason}: {$reason|htmlentities}{/if}.
 #. {/check}
 #.
 #: www/system/templates/account_renamed.tpl:5
@@ -11996,10 +12111,10 @@ msgstr "Webplayer"
 #. <td>{="Website URL"}:</td>
 #. <td colspan="4"><input type="text" name="config[url]" size="50" maxlength="255" value="{$config.url|htmlentities}" />
 #.
-#. File system/class_AccountFields.php:799
+#. File system/class_AccountFields.php:801
 #.
 #: www/system/templates/configuration_client_basic.tpl:128
-#: system/class_AccountFields.php:799
+#: system/class_AccountFields.php:801
 msgid "Website URL"
 msgstr "Webseite URL"
 
