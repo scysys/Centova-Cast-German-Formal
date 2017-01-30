@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2016-10-23 18:32+0200\n"
-"PO-Revision-Date: 2016-10-23 18:33+0200\n"
+"POT-Creation-Date: 2017-01-29 04:20+0100\n"
+"PO-Revision-Date: 2017-01-29 04:20+0100\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
@@ -737,10 +737,10 @@ msgstr "Fortsetzen"
 #.
 #. File www/admin/rpc/class_RPClogmanager.php:168
 #.
-#. File system/class_ServerControl.php:583
+#. File system/class_ServerControl.php:588
 #.
 #: www/admin/rpc/class_RPClogmanager.php:175
-#: www/admin/rpc/class_RPClogmanager.php:168 system/class_ServerControl.php:583
+#: www/admin/rpc/class_RPClogmanager.php:168 system/class_ServerControl.php:588
 msgid "Could not access log file"
 msgstr ""
 
@@ -1554,9 +1554,9 @@ msgstr "Lade Accounts"
 
 #. File www/admin/rpc/class_RPClogmanager.php:155
 #.
-#. File system/class_ServerControl.php:572
+#. File system/class_ServerControl.php:577
 #.
-#: www/admin/rpc/class_RPClogmanager.php:155 system/class_ServerControl.php:572
+#: www/admin/rpc/class_RPClogmanager.php:155 system/class_ServerControl.php:577
 msgid "Log file does not exist"
 msgstr ""
 
@@ -1659,7 +1659,7 @@ msgstr "MB (soft quota)"
 #: www/system/templates/admin_settings.tpl:130
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:16
 msgid "MB/month"
-msgstr ""
+msgstr "MB / Month"
 
 #. File www/system/templates/admin_serverstatus.tpl:19
 #. Context: <th width="55" style="text-align: center">{="Load"}</th>
@@ -2498,7 +2498,7 @@ msgstr ""
 #.
 #: www/system/templates/configuration_client_limits.tpl:145
 msgid "slots"
-msgstr ""
+msgstr "Slots"
 
 #. File www/system/templates/admin_settings.tpl:81
 #. Context: <tr>
@@ -3227,7 +3227,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_accounts_javascript.tpl:66
 msgid "Track details unavailable"
-msgstr ""
+msgstr "Titeldetails nicht verfügbar"
 
 #. File www/system/templates/admin_settings.tpl:91
 #. Context: <h1>{="Transfer limits"}</h1>

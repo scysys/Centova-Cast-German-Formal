@@ -1,12 +1,12 @@
 # Centova Cast translation - admin interface
-# Copyright 2016, Centova Technologies Inc.
+# Copyright 2017, Centova Technologies Inc.
 # This file is distributed under the same license terms as Centova Cast.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2016-09-27 17:14-0700\n"
-"PO-Revision-Date: 2016-09-27 17:14-0700\n"
+"POT-Creation-Date: 2017-01-09 17:51-0800\n"
+"PO-Revision-Date: 2017-01-09 17:51-0800\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -694,11 +694,11 @@ msgstr ""
 #. 
 #. File www/admin/rpc/class_RPClogmanager.php:168
 #. 
-#. File system/class_ServerControl.php:583
+#. File system/class_ServerControl.php:588
 #. 
 #: www/admin/rpc/class_RPClogmanager.php:175
 #: www/admin/rpc/class_RPClogmanager.php:168
-#: system/class_ServerControl.php:583
+#: system/class_ServerControl.php:588
 msgid "Could not access log file"
 msgstr ""
 
@@ -1476,10 +1476,10 @@ msgstr ""
 
 #. File www/admin/rpc/class_RPClogmanager.php:155
 #. 
-#. File system/class_ServerControl.php:572
+#. File system/class_ServerControl.php:577
 #. 
 #: www/admin/rpc/class_RPClogmanager.php:155
-#: system/class_ServerControl.php:572
+#: system/class_ServerControl.php:577
 msgid "Log file does not exist"
 msgstr ""
 

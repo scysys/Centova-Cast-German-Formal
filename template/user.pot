@@ -1,12 +1,12 @@
 # Centova Cast translation - user interface
-# Copyright 2016, Centova Technologies Inc.
+# Copyright 2017, Centova Technologies Inc.
 # This file is distributed under the same license terms as Centova Cast.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2016-09-27 17:14-0700\n"
-"PO-Revision-Date: 2016-09-27 17:14-0700\n"
+"POT-Creation-Date: 2017-01-09 17:51-0800\n"
+"PO-Revision-Date: 2017-01-09 17:51-0800\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -1062,10 +1062,10 @@ msgstr ""
 
 #. File www/client/modules/class_Module_confeditor.php:75
 #. 
-#. File system/class_ServerControl.php:2553
+#. File system/class_ServerControl.php:2561
 #. 
 #: www/client/modules/class_Module_confeditor.php:75
-#: system/class_ServerControl.php:2553
+#: system/class_ServerControl.php:2561
 msgid "administrator"
 msgstr ""
 
@@ -1383,11 +1383,11 @@ msgstr ""
 #.     {box title="Update Failed"}{="An error occurred while attempting to save this update"}.{/box}
 #.     {/if}
 #. 
-#. File system/class_ServerControl.php:1625
+#. File system/class_ServerControl.php:1631
 #. 
 #. File system/AccountManagerDrivers/mutators/class_TemplateMutator.php:117
 #. 
-#. File system/class_ServerControl.php:1623
+#. File system/class_ServerControl.php:1629
 #. 
 #. File system/AccountManagerDrivers/mutators/class_TemplateMutator.php:46
 #. 
@@ -1395,9 +1395,9 @@ msgstr ""
 #: www/system/templates/admin_settings.tpl:30
 #: www/system/templates/admin_servertype_edit.tpl:5
 #: www/system/templates/admin_email.tpl:89
-#: system/class_ServerControl.php:1625
+#: system/class_ServerControl.php:1631
 #: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:117
-#: system/class_ServerControl.php:1623
+#: system/class_ServerControl.php:1629
 #: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:46
 msgid "An error occurred while attempting to save this update"
 msgstr ""
@@ -1602,12 +1602,12 @@ msgstr ""
 msgid "As a staff member you are not permitted to modify your own account permissions"
 msgstr ""
 
-#. File www/system/templates/client_head.tpl:22
+#. File www/system/templates/client_head.tpl:24
 #. Context: onstream: '{="on %s"}',
 #.     	atkbps: '{="at %skbps"}',
 #.     	songnotavail: '{="Current song not available"}',
 #. 
-#: www/system/templates/client_head.tpl:22
+#: www/system/templates/client_head.tpl:24
 msgid "at %skbps"
 msgstr ""
 
@@ -1946,7 +1946,7 @@ msgstr ""
 #. Context: "}AAC/AAC+{else}{$mount.liqencoder|strtoupper|htmlentities}{/if}</strong></td></tr>{/check}
 #.     		{if $mount.bitrate!=""}<tr><td>{="Bit rate"}:</td><td><strong>{="%s kbps",$mount.bitrate}</strong></td></tr>{/if}
 #. 
-#. File system/servers/IceCast/class_IceCastConfig.php:29
+#. File system/servers/IceCast/class_IceCastConfig.php:32
 #. 
 #. File system/sources/ices2/class_Ices2ServerInterface.php:199
 #. 
@@ -2004,7 +2004,7 @@ msgstr ""
 #: system/servers/ShoutCast2/templates/connection_details.tpl:12
 #: system/sources/ices2/class_Ices2ServerInterface.php:200
 #: system/servers/ShoutCast2/templates/connection_details.tpl:34
-#: system/servers/IceCast/class_IceCastConfig.php:29
+#: system/servers/IceCast/class_IceCastConfig.php:32
 #: system/sources/ices2/class_Ices2ServerInterface.php:199
 #: system/servers/IceCast/templates/connection_details.tpl:33
 #: system/servers/IceCast/templates/connection_details.tpl:12
@@ -2587,11 +2587,11 @@ msgstr ""
 #.     		complete: '{="Complete"}',
 #.     		initializing: '{="Initializing"}',
 #. 
-#. File system/class_ServerControl.php:744
+#. File system/class_ServerControl.php:750
 #. 
-#. File system/class_ServerControl.php:680
+#. File system/class_ServerControl.php:685
 #. 
-#. File system/class_ServerControl.php:469
+#. File system/class_ServerControl.php:474
 #. 
 #. File www/system/templates/admin_accounts.tpl:27
 #. Context: processing_account: '{="Processing account %s ..."}',
@@ -2603,22 +2603,22 @@ msgstr ""
 #.     		complete: '{="Complete"}',
 #.     		initializing: '{="Initializing"}',
 #. 
-#. File system/class_ServerControl.php:763
+#. File system/class_ServerControl.php:769
 #. 
 #. File system/class_ServerControl.php:296
 #. 
-#. File system/class_ServerControl.php:1661
+#. File system/class_ServerControl.php:1667
 #. 
 #: www/system/templates/upload_single.tpl:5
 #: www/system/templates/library.tpl:57
-#: system/class_ServerControl.php:744
-#: system/class_ServerControl.php:680
-#: system/class_ServerControl.php:469
+#: system/class_ServerControl.php:750
+#: system/class_ServerControl.php:685
+#: system/class_ServerControl.php:474
 #: www/system/templates/admin_accounts.tpl:27
 #: www/system/templates/admin_utilities.tpl:6
-#: system/class_ServerControl.php:763
+#: system/class_ServerControl.php:769
 #: system/class_ServerControl.php:296
-#: system/class_ServerControl.php:1661
+#: system/class_ServerControl.php:1667
 msgid "Complete"
 msgstr ""
 
@@ -2972,12 +2972,12 @@ msgstr ""
 msgid "Current song"
 msgstr ""
 
-#. File www/system/templates/client_head.tpl:23
+#. File www/system/templates/client_head.tpl:25
 #. Context: atkbps: '{="at %skbps"}',
 #.     	songnotavail: '{="Current song not available"}',
 #.     	stationoffline: '{="Station is offline"}',
 #. 
-#: www/system/templates/client_head.tpl:23
+#: www/system/templates/client_head.tpl:25
 msgid "Current song not available"
 msgstr ""
 
@@ -4655,7 +4655,7 @@ msgstr ""
 #. 
 #. File system/class_ReportFormat.php:50
 #. 
-#. File system/servers/IceCast/class_IceCastConfig.php:44
+#. File system/servers/IceCast/class_IceCastConfig.php:47
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:156
 #. Context: <tr>
@@ -4677,7 +4677,7 @@ msgstr ""
 #: www/system/templates/configuration_client_source.tpl:75
 #: system/class_AccountFields.php:805
 #: system/class_ReportFormat.php:50
-#: system/servers/IceCast/class_IceCastConfig.php:44
+#: system/servers/IceCast/class_IceCastConfig.php:47
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:156
 #: system/sources/ices/srvintf/class_IcesServerInterface.php:170
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:21
@@ -5870,7 +5870,7 @@ msgstr ""
 #. 
 #. File system/class_AccountFields.php:317
 #. 
-#. File system/servers/IceCast/class_IceCastConfig.php:37
+#. File system/servers/IceCast/class_IceCastConfig.php:40
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:121
 #. Context: <tr>
@@ -5894,7 +5894,7 @@ msgstr ""
 #: www/client/modules/class_Module_widgets.php:106
 #: system/class_AccountFields.php:788
 #: system/class_AccountFields.php:317
-#: system/servers/IceCast/class_IceCastConfig.php:37
+#: system/servers/IceCast/class_IceCastConfig.php:40
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:121
 #: www/system/templates/configuration_client_limits.tpl:144
 #: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:36
@@ -6221,7 +6221,7 @@ msgstr ""
 #.     	{="Mount point"}: <select id="mountpoint" size="1">
 #.     	<option value="">{="All"}</option>
 #. 
-#. File system/servers/IceCast/class_IceCastConfig.php:28
+#. File system/servers/IceCast/class_IceCastConfig.php:31
 #. 
 #. File system/sources/icessingleencoder/templates/configuration_source.tpl:4
 #. Context: <tr>
@@ -6252,7 +6252,7 @@ msgstr ""
 #: www/system/templates/connection_details.tpl:34
 #: www/system/templates/connection_details.tpl:36
 #: www/system/templates/livestats.tpl:31
-#: system/servers/IceCast/class_IceCastConfig.php:28
+#: system/servers/IceCast/class_IceCastConfig.php:31
 #: system/sources/icessingleencoder/templates/configuration_source.tpl:4
 #: system/sources/ezstream/class_Sourceezstream.php:360
 #: system/sources/icessingleencoder/class_Sourceices.php:368
@@ -6272,7 +6272,7 @@ msgstr ""
 #.     	if (window.centovacast.tabset) window.centovacast.tabset.select("{="Mount Points"}");
 #.     }
 #. 
-#. File system/servers/IceCast/class_IceCastConfig.php:62
+#. File system/servers/IceCast/class_IceCastConfig.php:65
 #. 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:43
 #. 
@@ -6286,7 +6286,7 @@ msgstr ""
 #. 
 #: www/system/templates/widgets.tpl:18
 #: www/system/templates/configuration_form.tpl:15
-#: system/servers/IceCast/class_IceCastConfig.php:62
+#: system/servers/IceCast/class_IceCastConfig.php:65
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:43
 #: system/sources/ices2/class_Ices2ServerInterface.php:222
 #: system/sources/liquidsoap/class_Sourceliquidsoap.php:184
@@ -6684,9 +6684,9 @@ msgstr ""
 msgid "Not authorized to access playlist."
 msgstr ""
 
-#. File www/client/modules/class_Module_widgets.php:246
+#. File www/client/modules/class_Module_widgets.php:248
 #. 
-#: www/client/modules/class_Module_widgets.php:246
+#: www/client/modules/class_Module_widgets.php:248
 msgid "Not available for your stream type"
 msgstr ""
 
@@ -6822,12 +6822,12 @@ msgstr ""
 msgid "November"
 msgstr ""
 
-#. File www/system/templates/client_head.tpl:20
+#. File www/system/templates/client_head.tpl:22
 #. Context: {language}
 #.     	nowplaying: '{="Now Playing"}',
 #.     	onstream: '{="on %s"}',
 #. 
-#: www/system/templates/client_head.tpl:20
+#: www/system/templates/client_head.tpl:22
 msgid "Now Playing"
 msgstr ""
 
@@ -6883,7 +6883,7 @@ msgstr ""
 #.     	processing_success: '{="OK"}',
 #.     	account_is_suspended: '{="Account is suspended"}.',
 #. 
-#. File system/class_ServerControl.php:1629
+#. File system/class_ServerControl.php:1635
 #. 
 #: www/system/templates/filemanager.tpl:12
 #: www/system/templates/filemanager.tpl:104
@@ -6892,16 +6892,16 @@ msgstr ""
 #: www/system/templates/library.tpl:188
 #: www/system/templates/logmanager.tpl:11
 #: www/system/templates/admin_accounts.tpl:29
-#: system/class_ServerControl.php:1629
+#: system/class_ServerControl.php:1635
 msgid "OK"
 msgstr ""
 
-#. File www/system/templates/client_head.tpl:21
+#. File www/system/templates/client_head.tpl:23
 #. Context: nowplaying: '{="Now Playing"}',
 #.     	onstream: '{="on %s"}',
 #.     	atkbps: '{="at %skbps"}',
 #. 
-#: www/system/templates/client_head.tpl:21
+#: www/system/templates/client_head.tpl:23
 msgid "on %s"
 msgstr ""
 
@@ -8379,10 +8379,10 @@ msgstr ""
 
 #. File www/client/modules/class_Module_confeditor.php:75
 #. 
-#. File system/class_ServerControl.php:2553
+#. File system/class_ServerControl.php:2561
 #. 
 #: www/client/modules/class_Module_confeditor.php:75
-#: system/class_ServerControl.php:2553
+#: system/class_ServerControl.php:2561
 msgid "reseller"
 msgstr ""
 
@@ -8430,12 +8430,12 @@ msgstr ""
 msgid "restarted"
 msgstr ""
 
-#. File www/system/templates/client_head.tpl:25
+#. File www/system/templates/client_head.tpl:27
 #. Context: stationoffline: '{="Station is offline"}',
 #.     	retrieving: '{="Retrieving current song..."}',
 #.     	notrunning: '{="The server is not currently running.  Please start the server, then try again."}',
 #. 
-#: www/system/templates/client_head.tpl:25
+#: www/system/templates/client_head.tpl:27
 msgid "Retrieving current song..."
 msgstr ""
 
@@ -9674,7 +9674,7 @@ msgstr ""
 #. 
 #. File system/class_AccountFields.php:822
 #. 
-#. File system/servers/IceCast/class_IceCastConfig.php:36
+#. File system/servers/IceCast/class_IceCastConfig.php:39
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:117
 #. Context: <tr>
@@ -9683,7 +9683,7 @@ msgstr ""
 #. 
 #: www/system/templates/configuration_client_basic.tpl:134
 #: system/class_AccountFields.php:822
-#: system/servers/IceCast/class_IceCastConfig.php:36
+#: system/servers/IceCast/class_IceCastConfig.php:39
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:117
 msgid "Source password"
 msgstr ""
@@ -9803,12 +9803,12 @@ msgstr ""
 msgid "started"
 msgstr ""
 
-#. File www/system/templates/client_head.tpl:24
+#. File www/system/templates/client_head.tpl:26
 #. Context: songnotavail: '{="Current song not available"}',
 #.     	stationoffline: '{="Station is offline"}',
 #.     	retrieving: '{="Retrieving current song..."}',
 #. 
-#: www/system/templates/client_head.tpl:24
+#: www/system/templates/client_head.tpl:26
 msgid "Station is offline"
 msgstr ""
 
@@ -10188,12 +10188,12 @@ msgstr ""
 msgid "The maximum bandwidth for your stream is %s kbps.  This leaves %s kbps available for the current mount point."
 msgstr ""
 
-#. File www/system/templates/client_head.tpl:26
+#. File www/system/templates/client_head.tpl:28
 #. Context: retrieving: '{="Retrieving current song..."}',
 #.     	notrunning: '{="The server is not currently running.  Please start the server, then try again."}',
 #.     	other: '{="Other"}',
 #. 
-#: www/system/templates/client_head.tpl:26
+#: www/system/templates/client_head.tpl:28
 msgid "The server is not currently running.  Please start the server, then try again."
 msgstr ""
 
@@ -10360,10 +10360,10 @@ msgstr ""
 #. Context: {box title="Already running"}
 #.     	{="This server is already running."}<br /><br />
 #. 
-#. File system/class_ServerControl.php:854
+#. File system/class_ServerControl.php:860
 #. 
 #: www/system/templates/already_running.tpl:2
-#: system/class_ServerControl.php:854
+#: system/class_ServerControl.php:860
 msgid "This server is already running."
 msgstr ""
 
@@ -10371,10 +10371,10 @@ msgstr ""
 #. Context: {box title="Not running"}
 #.     	{="This server is not running."}<br /><br />
 #. 
-#. File system/class_ServerControl.php:1320
+#. File system/class_ServerControl.php:1326
 #. 
 #: www/system/templates/not_running.tpl:2
-#: system/class_ServerControl.php:1320
+#: system/class_ServerControl.php:1326
 msgid "This server is not running."
 msgstr ""
 
@@ -11147,12 +11147,12 @@ msgstr ""
 msgid "Tune In"
 msgstr ""
 
-#. File www/system/templates/client_head.tpl:28
+#. File www/system/templates/client_head.tpl:30
 #. Context: other: '{="Other"}',
 #.     	tuneinwith: '{="Tune in with ..."}'
 #.     {/language}
 #. 
-#: www/system/templates/client_head.tpl:28
+#: www/system/templates/client_head.tpl:30
 msgid "Tune in with ..."
 msgstr ""
 

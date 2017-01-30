@@ -1,12 +1,12 @@
 # Centova Cast translation - common interface
-# Copyright 2016, Centova Technologies Inc.
+# Copyright 2017, Centova Technologies Inc.
 # This file is distributed under the same license terms as Centova Cast.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2016-09-27 17:14-0700\n"
-"PO-Revision-Date: 2016-09-27 17:14-0700\n"
+"POT-Creation-Date: 2017-01-09 17:51-0800\n"
+"PO-Revision-Date: 2017-01-09 17:51-0800\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -46,10 +46,10 @@ msgstr "M d"
 msgid "%s access key ID"
 msgstr ""
 
-#. File system/class_SystemControl.php:2127
+#. File system/class_SystemControl.php:2138
 #. Arguments: $total
 #. 
-#: system/class_SystemControl.php:2127
+#: system/class_SystemControl.php:2138
 msgid "%s account(s)"
 msgstr ""
 
@@ -117,16 +117,16 @@ msgstr ""
 msgid "A database error occurred"
 msgstr ""
 
-#. File system/class_AccountControl.php:330
+#. File system/class_AccountControl.php:332
 #. 
-#. File system/class_AccountControl.php:316
+#. File system/class_AccountControl.php:318
 #. 
 #. File system/class_AccountControl.php:272
 #. 
 #. File system/class_AccountControl.php:234
 #. 
-#: system/class_AccountControl.php:330
-#: system/class_AccountControl.php:316
+#: system/class_AccountControl.php:332
+#: system/class_AccountControl.php:318
 #: system/class_AccountControl.php:272
 #: system/class_AccountControl.php:234
 msgid "A database error occurred while updating this account"
@@ -177,14 +177,14 @@ msgstr ""
 msgid "Account created successfully, but stream could not be started"
 msgstr ""
 
-#. File system/class_AccountControl.php:339
+#. File system/class_AccountControl.php:341
 #. 
-#. File system/class_AccountControl.php:325
+#. File system/class_AccountControl.php:327
 #. 
 #. File system/class_AccountControl.php:290
 #. 
-#: system/class_AccountControl.php:339
-#: system/class_AccountControl.php:325
+#: system/class_AccountControl.php:341
+#: system/class_AccountControl.php:327
 #: system/class_AccountControl.php:290
 msgid "Account does not exist"
 msgstr ""
@@ -219,9 +219,9 @@ msgstr ""
 msgid "Account template saved successfully."
 msgstr ""
 
-#. File system/class_ServerControl.php:2557
+#. File system/class_ServerControl.php:2565
 #. 
-#: system/class_ServerControl.php:2557
+#: system/class_ServerControl.php:2565
 msgid "Account updated"
 msgstr ""
 
@@ -265,13 +265,13 @@ msgstr ""
 #. 
 #. File system/servers/ShoutCast/class_ShoutCastConfig.php:15
 #. 
-#. File system/servers/IceCast/class_IceCastConfig.php:63
+#. File system/servers/IceCast/class_IceCastConfig.php:66
 #. 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:44
 #. 
 #: system/servers/WindowsMedia/class_WindowsMediaConfig.php:23
 #: system/servers/ShoutCast/class_ShoutCastConfig.php:15
-#: system/servers/IceCast/class_IceCastConfig.php:63
+#: system/servers/IceCast/class_IceCastConfig.php:66
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:44
 msgid "Advanced"
 msgstr ""
@@ -285,14 +285,14 @@ msgstr ""
 msgid "Advanced settings"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:33
+#. File system/servers/IceCast/class_IceCastConfig.php:36
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:103
 #. Context: <tr>
 #.     			<td width="130">{="Advertise in directory"}:</td>
 #.     			<td>
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:33
+#: system/servers/IceCast/class_IceCastConfig.php:36
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:103
 msgid "Advertise in directory"
 msgstr ""
@@ -452,20 +452,20 @@ msgstr ""
 msgid "An account template with this name already exists."
 msgstr ""
 
-#. File system/class_DJManager.php:72
+#. File system/class_DJManager.php:73
 #. 
 #. File system/class_StaffManager.php:65
 #. 
-#: system/class_DJManager.php:72
+#: system/class_DJManager.php:73
 #: system/class_StaffManager.php:65
 msgid "An account with the specified username already exists"
 msgstr ""
 
-#. File system/class_ServerControl.php:1161
+#. File system/class_ServerControl.php:1167
 #. 
 #. File system/class_UserSession.php:558
 #. 
-#: system/class_ServerControl.php:1161
+#: system/class_ServerControl.php:1167
 #: system/class_UserSession.php:558
 msgid "and"
 msgstr ""
@@ -498,21 +498,21 @@ msgstr ""
 msgid "Application"
 msgstr ""
 
-#. File system/class_ServerControl.php:1022
+#. File system/class_ServerControl.php:1028
 #. Arguments: $app->type
 #. 
-#. File system/class_ServerControl.php:1007
+#. File system/class_ServerControl.php:1013
 #. Arguments: $app->type
 #. 
-#: system/class_ServerControl.php:1022
-#: system/class_ServerControl.php:1007
+#: system/class_ServerControl.php:1028
+#: system/class_ServerControl.php:1013
 msgid "Application %s exited immediately after startup"
 msgstr ""
 
-#. File system/class_ServerControl.php:939
+#. File system/class_ServerControl.php:945
 #. Arguments: $app->type
 #. 
-#: system/class_ServerControl.php:939
+#: system/class_ServerControl.php:945
 msgid "Application %s is already running"
 msgstr ""
 
@@ -626,9 +626,9 @@ msgstr ""
 msgid "Audio sync stream (LOAS)"
 msgstr ""
 
-#. File system/class_ServerControl.php:2674
+#. File system/class_ServerControl.php:2682
 #. 
-#: system/class_ServerControl.php:2674
+#: system/class_ServerControl.php:2682
 msgid "Authenticated"
 msgstr ""
 
@@ -811,26 +811,26 @@ msgstr ""
 msgid "Building file list"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:114
+#. File system/servers/IceCast/class_IceCastConfig.php:117
 #. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:47
 #. Context: <tr>
 #.     	<td>{="Burst on connect"}:&nbsp;</td>
 #.     	<td>
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:114
+#: system/servers/IceCast/class_IceCastConfig.php:117
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:47
 msgid "Burst on connect"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:115
+#. File system/servers/IceCast/class_IceCastConfig.php:118
 #. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:54
 #. Context: </td>
 #.     	<td>{="Burst size"}:</td>
 #.     	<td><input type="text" name="config[burstsize]" size="8" value="{$config.burstsize|htmlentities}" /> {$errors.burstsiz
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:115
+#: system/servers/IceCast/class_IceCastConfig.php:118
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:54
 msgid "Burst size"
 msgstr ""
@@ -927,13 +927,13 @@ msgstr ""
 msgid "CDN Slave"
 msgstr ""
 
-#. File system/class_SystemControl.php:2039
+#. File system/class_SystemControl.php:2050
 #. Arguments: $username,
 #.     __($acctstatus),
 #.     __($options['status']),
 #.     ($options['cascading'] ? ' (' . __('triggered by reseller status change') . ')' : '')
 #. 
-#: system/class_SystemControl.php:2039
+#: system/class_SystemControl.php:2050
 msgid "Changed status for account %s from %s to %s%s"
 msgstr ""
 
@@ -943,14 +943,14 @@ msgstr ""
 msgid "Checking for tracks without album data"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:111
+#. File system/servers/IceCast/class_IceCastConfig.php:114
 #. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:37
 #. Context: ext" name="config[queuesize]" size="8" value="{$config.queuesize|htmlentities}" /> {$errors.queuesize|checkerror} </td>
 #.     	<td>{="Client timeout"}:</td>
 #.     	<td><input type="text" name="config[clienttimeout]" size="8" value="{$config.clienttimeout|htmlentities}" /> {$errors.
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:111
+#: system/servers/IceCast/class_IceCastConfig.php:114
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:37
 msgid "Client timeout"
 msgstr ""
@@ -979,23 +979,23 @@ msgstr ""
 msgid "Complexity"
 msgstr ""
 
-#. File system/class_ServerControl.php:2708
+#. File system/class_ServerControl.php:2716
 #. Arguments: basename($archname)
 #. 
-#: system/class_ServerControl.php:2708
+#: system/class_ServerControl.php:2716
 msgid "Compressing %s ..."
 msgstr ""
 
-#. File system/class_ServerControl.php:1168
+#. File system/class_ServerControl.php:1174
 #. Arguments: $make_text_list($successes),$make_text_list($failures)
 #. 
-#: system/class_ServerControl.php:1168
+#: system/class_ServerControl.php:1174
 msgid "Configuration reloaded gracefully for %s, but %s requires a full restart."
 msgstr ""
 
-#. File system/class_ServerControl.php:1170
+#. File system/class_ServerControl.php:1176
 #. 
-#: system/class_ServerControl.php:1170
+#: system/class_ServerControl.php:1176
 msgid "Configuration reloaded gracefully."
 msgstr ""
 
@@ -1065,19 +1065,19 @@ msgstr ""
 msgid "Controls the title and URL shown in media players.  Use %s to insert the title/URL provided by the source."
 msgstr ""
 
-#. File system/class_ServerControl.php:997
+#. File system/class_ServerControl.php:1003
 #. Arguments: $app->type
 #. 
-#: system/class_ServerControl.php:997
+#: system/class_ServerControl.php:1003
 msgid "Could not start %s application"
 msgstr ""
 
-#. File system/class_ServerControl.php:865
+#. File system/class_ServerControl.php:871
 #. 
-#. File system/class_ServerControl.php:854
+#. File system/class_ServerControl.php:860
 #. 
-#: system/class_ServerControl.php:865
-#: system/class_ServerControl.php:854
+#: system/class_ServerControl.php:871
+#: system/class_ServerControl.php:860
 msgid "Could not start server"
 msgstr ""
 
@@ -1227,9 +1227,9 @@ msgstr ""
 msgid "Diagnostic mode"
 msgstr ""
 
-#. File system/class_ServerControl.php:1049
+#. File system/class_ServerControl.php:1055
 #. 
-#: system/class_ServerControl.php:1049
+#: system/class_ServerControl.php:1055
 msgid "Diagnostic output from streaming software:"
 msgstr ""
 
@@ -1243,7 +1243,7 @@ msgstr ""
 
 #. File system/servers/ShoutCast/class_ShoutCastConfig.php:53
 #. 
-#. File system/servers/IceCast/class_IceCastConfig.php:118
+#. File system/servers/IceCast/class_IceCastConfig.php:121
 #. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:8
 #. Context: <tr>
@@ -1251,14 +1251,14 @@ msgstr ""
 #.     	<td><input type="text" name="config[directorytimeout]" size="6" value="{$config.directorytimeout|htmlentities}" /> {$e
 #. 
 #: system/servers/ShoutCast/class_ShoutCastConfig.php:53
-#: system/servers/IceCast/class_IceCastConfig.php:118
+#: system/servers/IceCast/class_IceCastConfig.php:121
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:8
 msgid "Directory listings timeout"
 msgstr ""
 
 #. File system/servers/ShoutCast/class_ShoutCastConfig.php:52
 #. 
-#. File system/servers/IceCast/class_IceCastConfig.php:117
+#. File system/servers/IceCast/class_IceCastConfig.php:120
 #. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:4
 #. Context: <tr>
@@ -1266,7 +1266,7 @@ msgstr ""
 #.     	<td><input type="text" name="config[directoryurl]" size="50" value="{$config.directoryurl|htmlentities}" /> {$errors.d
 #. 
 #: system/servers/ShoutCast/class_ShoutCastConfig.php:52
-#: system/servers/IceCast/class_IceCastConfig.php:117
+#: system/servers/IceCast/class_IceCastConfig.php:120
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:4
 msgid "Directory listings URL"
 msgstr ""
@@ -1280,9 +1280,9 @@ msgstr ""
 msgid "Directory port (Yport)"
 msgstr ""
 
-#. File system/class_SystemControl.php:2033
+#. File system/class_SystemControl.php:2044
 #. 
-#: system/class_SystemControl.php:2033
+#: system/class_SystemControl.php:2044
 msgid "disabled"
 msgstr ""
 
@@ -1313,14 +1313,14 @@ msgstr ""
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:14
 #. Context: <tr>
 #.     	<td>{="Disconnect idle sources after"}:</td>
-#.     	<td><input type="text" name="config[autodumpsourcetime]" size="6" value="{$config.autodumpsourcetime|htmlentities}" /
+#.     	<td><input type="text" name="config[autodumptime]" size="6" value="{$config.autodumptime|htmlentities}" /> {="second(
 #. 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:68
 #. 
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:10
 #. Context: <tr>
 #.     	<td>{="Disconnect idle sources after"}:</td>
-#.     	<td><input type="text" name="config[autodumpsourcetime]" size="6" value="{$config.autodumpsourcetime|htmlentities}" />
+#.     	<td><input type="text" name="config[autodumptime]" size="6" value="{$config.autodumptime|htmlentities}" /> {="second(s
 #. 
 #: system/servers/ShoutCast/class_ShoutCastConfig.php:43
 #: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:14
@@ -1329,14 +1329,14 @@ msgstr ""
 msgid "Disconnect idle sources after"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:39
+#. File system/servers/IceCast/class_IceCastConfig.php:42
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:125
 #. Context: <tr>
 #.     			<td>{="Disconnect listeners after"}:</td>
 #.     			<td><input type="text" name="mountpoints_field[maxlistenerduration]" class="list_editor_field" size="5" value="" />
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:39
+#: system/servers/IceCast/class_IceCastConfig.php:42
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:125
 msgid "Disconnect listeners after"
 msgstr ""
@@ -1362,10 +1362,10 @@ msgstr ""
 msgid "Disconnect listeners if source disconnects"
 msgstr ""
 
-#. File system/class_ServerControl.php:2089
+#. File system/class_ServerControl.php:2097
 #. Arguments: $action
 #. 
-#: system/class_ServerControl.php:2089
+#: system/class_ServerControl.php:2097
 msgid "Disk quota exceeded; account has been automatically %s"
 msgstr ""
 
@@ -1435,9 +1435,9 @@ msgstr ""
 msgid "Embedded (ID3/metadata)"
 msgstr ""
 
-#. File system/class_SystemControl.php:2033
+#. File system/class_SystemControl.php:2044
 #. 
-#: system/class_SystemControl.php:2033
+#: system/class_SystemControl.php:2044
 msgid "enabled"
 msgstr ""
 
@@ -1567,14 +1567,14 @@ msgstr ""
 msgid "Fallback Mount"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:30
+#. File system/servers/IceCast/class_IceCastConfig.php:33
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:70
 #. Context: <tr>
 #.     			<td width="130">{="Fallback mount point"}:</td>
 #.     			<td>
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:30
+#: system/servers/IceCast/class_IceCastConfig.php:33
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:70
 msgid "Fallback mount point"
 msgstr ""
@@ -1597,26 +1597,26 @@ msgstr ""
 msgid "Fallback mounts are used to move listeners to an alternate mount point if no source is connected to this mount point.  Be sure to create the mount point to be used as a fallback before entering it here."
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:31
+#. File system/servers/IceCast/class_IceCastConfig.php:34
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:79
 #. Context: <tr>
 #.     			<td>{="Fallback override"}:</td>
 #.     			<td>
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:31
+#: system/servers/IceCast/class_IceCastConfig.php:34
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:79
 msgid "Fallback override"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:32
+#. File system/servers/IceCast/class_IceCastConfig.php:35
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:88
 #. Context: <tr>
 #.     			<td>{="Fallback when full"}:</td>
 #.     			<td>
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:32
+#: system/servers/IceCast/class_IceCastConfig.php:35
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:88
 msgid "Fallback when full"
 msgstr ""
@@ -1642,9 +1642,9 @@ msgstr ""
 msgid "FEC packet span"
 msgstr ""
 
-#. File system/class_ServerControl.php:530
+#. File system/class_ServerControl.php:535
 #. 
-#: system/class_ServerControl.php:530
+#: system/class_ServerControl.php:535
 msgid "File copied successfully"
 msgstr ""
 
@@ -1686,12 +1686,12 @@ msgstr ""
 msgid "Format"
 msgstr ""
 
-#. File system/class_ServerControl.php:2073
+#. File system/class_ServerControl.php:2081
 #. 
-#. File system/class_ServerControl.php:1921
+#. File system/class_ServerControl.php:1927
 #. 
-#: system/class_ServerControl.php:2073
-#: system/class_ServerControl.php:1921
+#: system/class_ServerControl.php:2081
+#: system/class_ServerControl.php:1927
 msgid "forwarded to an administrator for review"
 msgstr ""
 
@@ -1716,14 +1716,14 @@ msgstr ""
 msgid "GZipped Archive"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:112
+#. File system/servers/IceCast/class_IceCastConfig.php:115
 #. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:41
 #. Context: <tr>
 #.     	<td>{="Header timeout"}:</td>
 #.     	<td><input type="text" name="config[headertimeout]" size="8" value="{$config.headertimeout|htmlentities}" /> {$errors.
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:112
+#: system/servers/IceCast/class_IceCastConfig.php:115
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:41
 msgid "Header timeout"
 msgstr ""
@@ -1746,9 +1746,9 @@ msgstr ""
 msgid "Host directory does not exist; aborting"
 msgstr ""
 
-#. File system/class_AccountControl.php:746
+#. File system/class_AccountControl.php:755
 #. 
-#: system/class_AccountControl.php:746
+#: system/class_AccountControl.php:755
 msgid "hostname"
 msgstr ""
 
@@ -1850,9 +1850,9 @@ msgstr ""
 msgid "Intro clip"
 msgstr ""
 
-#. File system/class_AccountControl.php:998
+#. File system/class_AccountControl.php:1007
 #. 
-#: system/class_AccountControl.php:998
+#: system/class_AccountControl.php:1007
 msgid "Invalid listener limit"
 msgstr ""
 
@@ -1872,9 +1872,9 @@ msgstr ""
 msgid "Invalid username or password"
 msgstr ""
 
-#. File system/class_AccountControl.php:746
+#. File system/class_AccountControl.php:755
 #. 
-#: system/class_AccountControl.php:746
+#: system/class_AccountControl.php:755
 msgid "IP/port combination"
 msgstr ""
 
@@ -1914,10 +1914,10 @@ msgstr ""
 msgid "Joint Stereo"
 msgstr ""
 
-#. File system/class_ServerControl.php:1109
+#. File system/class_ServerControl.php:1115
 #. Arguments: $linecount
 #. 
-#: system/class_ServerControl.php:1109
+#: system/class_ServerControl.php:1115
 msgid "Last %d lines from the relevant log file:"
 msgstr ""
 
@@ -1965,22 +1965,22 @@ msgstr ""
 msgid "Live Broadcast"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:96
+#. File system/servers/IceCast/class_IceCastConfig.php:99
 #. 
 #. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:18
 #. Context: <tr>
 #.     	<td>{="Local mount point"}:</td>
 #.     	<td><input type="text" name="config[relaylocalmount]" size="50" value="{$config.relaylocalmount|htmlentities}" /> {$e
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:96
+#: system/servers/IceCast/class_IceCastConfig.php:99
 #: system/servers/IceCast/templates/configuration_client_relaymount.tpl:18
 msgid "Local mount point"
 msgstr ""
 
-#. File system/class_ServerControl.php:1093
+#. File system/class_ServerControl.php:1099
 #. Arguments: "\n", "\n"
 #. 
-#: system/class_ServerControl.php:1093
+#: system/class_ServerControl.php:1099
 msgid "Log has not been created, which may indicate a permissions problem or %san inability to run the external application.  Consult the Centova Cast %sknowledge base."
 msgstr ""
 
@@ -1991,9 +1991,9 @@ msgstr ""
 msgid "Log: %s"
 msgstr ""
 
-#. File system/class_ServerControl.php:2772
+#. File system/class_ServerControl.php:2780
 #. 
-#: system/class_ServerControl.php:2772
+#: system/class_ServerControl.php:2780
 msgid "Logs archived"
 msgstr ""
 
@@ -2039,56 +2039,56 @@ msgstr ""
 msgid "Master"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:105
+#. File system/servers/IceCast/class_IceCastConfig.php:108
 #. 
 #. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:18
 #. Context: <tr>
 #.     	<td>{="Master password"}:</td>
 #.     	<td><input type="password" name="config[masterpassword]" size="12" value="{$config.masterpassword|htmlentities}" /> {
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:105
+#: system/servers/IceCast/class_IceCastConfig.php:108
 #: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:18
 msgid "Master password"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:103
+#. File system/servers/IceCast/class_IceCastConfig.php:106
 #. 
 #. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:10
 #. Context: <tr>
 #.     	<td>{="Master port"}:</td>
 #.     	<td><input type="text" name="config[masterport]" size="6" value="{$config.masterport|htmlentities}" /> {$errors.maste
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:103
+#: system/servers/IceCast/class_IceCastConfig.php:106
 #: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:10
 msgid "Master port"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:60
+#. File system/servers/IceCast/class_IceCastConfig.php:63
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:60
+#: system/servers/IceCast/class_IceCastConfig.php:63
 msgid "Master Relaying"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:102
+#. File system/servers/IceCast/class_IceCastConfig.php:105
 #. 
 #. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:6
 #. Context: <tr>
 #.     	<td width="130">{="Master server"}:</td>
 #.     	<td><input type="text" name="config[masterserver]" size="50" value="{$config.masterserver|htmlentities}" /> {$errors.
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:102
+#: system/servers/IceCast/class_IceCastConfig.php:105
 #: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:6
 msgid "Master server"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:104
+#. File system/servers/IceCast/class_IceCastConfig.php:107
 #. 
 #. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:14
 #. Context: <tr>
 #.     	<td>{="Master update interval"}:</td>
 #.     	<td><input type="text" name="config[masterupdate]" size="6" value="{$config.masterupdate|htmlentities}" /> {$errors.m
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:104
+#: system/servers/IceCast/class_IceCastConfig.php:107
 #: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:14
 msgid "Master update interval"
 msgstr ""
@@ -2120,14 +2120,14 @@ msgstr ""
 msgid "Maximum bandwidth"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:108
+#. File system/servers/IceCast/class_IceCastConfig.php:111
 #. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:29
 #. Context: <tr>
 #.     	<td width="130">{="Maximum sources"}:</td>
 #.     	<td width="100"><input type="text" name="config[maxsources]" size="8" value="{$config.maxsources|htmlentities}" /> {$e
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:108
+#: system/servers/IceCast/class_IceCastConfig.php:111
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:29
 msgid "Maximum sources"
 msgstr ""
@@ -2161,26 +2161,26 @@ msgstr ""
 msgid "Metadata"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:45
+#. File system/servers/IceCast/class_IceCastConfig.php:48
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:133
 #. Context: <tr>
 #.     			<td>{="Metadata charset"}:</td>
 #.     			<td><input type="text" name="mountpoints_field[charset]" class="list_editor_field" size="15" value="" /> ({="blank =
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:45
+#: system/servers/IceCast/class_IceCastConfig.php:48
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:133
 msgid "Metadata charset"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:40
+#. File system/servers/IceCast/class_IceCastConfig.php:43
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:129
 #. Context: <tr>
 #.     			<td>{="Metadata interval"}:</td>
 #.     			<td><input type="text" name="mountpoints_field[mp3metadatainterval]" class="list_editor_field" size="5" value="" />
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:40
+#: system/servers/IceCast/class_IceCastConfig.php:43
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:129
 msgid "Metadata interval"
 msgstr ""
@@ -2217,14 +2217,14 @@ msgstr ""
 msgid "Microsoft Word File"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:34
+#. File system/servers/IceCast/class_IceCastConfig.php:37
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:164
 #. Context: <tr>
 #.     			<td>{="MIME type"}:</td>
 #.     			<td><input type="text" name="mountpoints_field[type]" class="list_editor_field" size="20" value="" /> ({="blank = au
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:34
+#: system/servers/IceCast/class_IceCastConfig.php:37
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:164
 msgid "MIME type"
 msgstr ""
@@ -2325,9 +2325,9 @@ msgstr ""
 msgid "Mount point name"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:61
+#. File system/servers/IceCast/class_IceCastConfig.php:64
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:61
+#: system/servers/IceCast/class_IceCastConfig.php:64
 msgid "Mountpoint Relaying"
 msgstr ""
 
@@ -2391,7 +2391,7 @@ msgstr ""
 msgid "MP3 unlock name"
 msgstr ""
 
-#. File system/class_ServerControl.php:2454
+#. File system/class_ServerControl.php:2462
 #. Arguments: sprintf(
 #.     '%s (%s)',
 #.     $firstbadfield->text,
@@ -2405,7 +2405,7 @@ msgstr ""
 #.     $firstbadfield->name
 #.     )
 #. 
-#: system/class_ServerControl.php:2454
+#: system/class_ServerControl.php:2462
 #: system/class_SystemControl.php:1258
 msgid "Must specify a valid %s value"
 msgstr ""
@@ -2506,10 +2506,10 @@ msgstr ""
 msgid "Not applicable to this account type"
 msgstr ""
 
-#. File system/class_ServerControl.php:922
+#. File system/class_ServerControl.php:928
 #. Arguments: $sourcetype
 #. 
-#: system/class_ServerControl.php:922
+#: system/class_ServerControl.php:928
 msgid "Not starting source %s with no autoDJ-based mount points configured"
 msgstr ""
 
@@ -2697,16 +2697,16 @@ msgstr ""
 msgid "Permitted login period for this DJ account has ended."
 msgstr ""
 
-#. File system/sysctrl/class_SystemControl_check.php:181
+#. File system/sysctrl/class_SystemControl_check.php:191
 #. Arguments: PluginHooks::get_error_string()
 #. 
-#: system/sysctrl/class_SystemControl_check.php:181
+#: system/sysctrl/class_SystemControl_check.php:191
 msgid "permitted to continue by plugin: %s"
 msgstr ""
 
-#. File system/class_ServerControl.php:1643
+#. File system/class_ServerControl.php:1649
 #. 
-#: system/class_ServerControl.php:1643
+#: system/class_ServerControl.php:1649
 msgid "Playlist rebuilt"
 msgstr ""
 
@@ -2740,9 +2740,9 @@ msgstr ""
 msgid "Port 80 proxy"
 msgstr ""
 
-#. File system/class_ServerControl.php:1392
+#. File system/class_ServerControl.php:1398
 #. 
-#: system/class_ServerControl.php:1392
+#: system/class_ServerControl.php:1398
 msgid "Preparing to import"
 msgstr ""
 
@@ -2867,14 +2867,14 @@ msgstr ""
 msgid "Quality"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:110
+#. File system/servers/IceCast/class_IceCastConfig.php:113
 #. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:35
 #. Context: <tr>
 #.     	<td>{="Queue size"}:</td>
 #.     	<td><input type="text" name="config[queuesize]" size="8" value="{$config.queuesize|htmlentities}" /> {$errors.queuesiz
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:110
+#: system/servers/IceCast/class_IceCastConfig.php:113
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:35
 msgid "Queue size"
 msgstr ""
@@ -2918,21 +2918,21 @@ msgstr ""
 msgid "Rebuild playlist on startup"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:97
+#. File system/servers/IceCast/class_IceCastConfig.php:100
 #. 
 #. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:39
 #. Context: <tr>
 #.     	<td>{="Relay metadata"}:</td>
 #.     	<td>
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:97
+#: system/servers/IceCast/class_IceCastConfig.php:100
 #: system/servers/IceCast/templates/configuration_client_relaymount.tpl:39
 msgid "Relay metadata"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:106
+#. File system/servers/IceCast/class_IceCastConfig.php:109
 #. 
-#. File system/servers/IceCast/class_IceCastConfig.php:100
+#. File system/servers/IceCast/class_IceCastConfig.php:103
 #. 
 #. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:22
 #. Context: <tr>
@@ -2944,21 +2944,21 @@ msgstr ""
 #.     	<td>{="Relay on demand"}:</td>
 #.     	<td>
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:106
-#: system/servers/IceCast/class_IceCastConfig.php:100
+#: system/servers/IceCast/class_IceCastConfig.php:109
+#: system/servers/IceCast/class_IceCastConfig.php:103
 #: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:22
 #: system/servers/IceCast/templates/configuration_client_relaymount.tpl:30
 msgid "Relay on demand"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:121
+#. File system/servers/IceCast/class_IceCastConfig.php:124
 #. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:12
 #. Context: <tr>
 #.     	<td>{="Relay password"}:</td>
 #.     	<td><input type="password" name="config[relaypassword]" size="12" value="{$config.relaypassword|htmlentities}" /> {$er
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:121
+#: system/servers/IceCast/class_IceCastConfig.php:124
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:12
 msgid "Relay password"
 msgstr ""
@@ -3016,11 +3016,11 @@ msgstr ""
 msgid "Reseller account does not exist in database"
 msgstr ""
 
-#. File system/class_AccountControl.php:947
+#. File system/class_AccountControl.php:956
 #. 
 #. File system/AccountEditorDrivers/bytype/class_ClientTypeEditor.php:156
 #. 
-#: system/class_AccountControl.php:947
+#: system/class_AccountControl.php:956
 #: system/AccountEditorDrivers/bytype/class_ClientTypeEditor.php:156
 msgid "Reseller account has reached its client account limit"
 msgstr ""
@@ -3109,13 +3109,13 @@ msgid "sc_trans v2 allows broadcasting in AAC+ format free of charge, but requir
 msgstr ""
 
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:15
-#. Context: td>
-#.     	<td><input type="text" name="config[autodumpsourcetime]" size="6" value="{$config.autodumpsourcetime|htmlentities}" /> {="second(s) (0 for never)"} {$errors.autodumpsourcetime|checkerror} </td>
+#. Context: s after"}:</td>
+#.     	<td><input type="text" name="config[autodumptime]" size="6" value="{$config.autodumptime|htmlentities}" /> {="second(s) (0 for never)"} {$errors.autodumptime|checkerror} </td>
 #.     </tr>
 #. 
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:11
-#. Context: /td>
-#.     	<td><input type="text" name="config[autodumpsourcetime]" size="6" value="{$config.autodumpsourcetime|htmlentities}" /> {="second(s) (0 for never)"} {$errors.autodumpsourcetime|checkerror} </td>
+#. Context: es after"}:</td>
+#.     	<td><input type="text" name="config[autodumptime]" size="6" value="{$config.autodumptime|htmlentities}" /> {="second(s) (0 for never)"} {$errors.autodumptime|checkerror} </td>
 #.     </tr>
 #. 
 #: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:15
@@ -3123,23 +3123,23 @@ msgstr ""
 msgid "second(s) (0 for never)"
 msgstr ""
 
-#. File system/sysctrl/class_SystemControl_check.php:174
+#. File system/sysctrl/class_SystemControl_check.php:184
 #. Arguments: $account['username'], $actualbitrate, $expectedbitrate
 #. 
-#: system/sysctrl/class_SystemControl_check.php:174
+#: system/sysctrl/class_SystemControl_check.php:184
 msgid "Server %s is broadcasting at %skbps, exceeding limit of %skbps"
 msgstr ""
 
-#. File system/sysctrl/class_SystemControl_check.php:271
+#. File system/sysctrl/class_SystemControl_check.php:281
 #. Arguments: $account['username']
 #. 
-#: system/sysctrl/class_SystemControl_check.php:271
+#: system/sysctrl/class_SystemControl_check.php:281
 msgid "Server %s is up and autoDJ is deactivated, but no live source is connected; automatically reactivating autoDJ"
 msgstr ""
 
-#. File system/class_ServerControl.php:876
+#. File system/class_ServerControl.php:882
 #. 
-#: system/class_ServerControl.php:876
+#: system/class_ServerControl.php:882
 msgid "Server exited immediately after startup"
 msgstr ""
 
@@ -3239,81 +3239,81 @@ msgstr ""
 msgid "Sorry, this server is currently experiencing heavy load and cannot process your request at this time.  Please try again later."
 msgstr ""
 
-#. File system/class_ServerControl.php:1132
+#. File system/class_ServerControl.php:1138
 #. 
-#. File system/class_ServerControl.php:1250
+#. File system/class_ServerControl.php:1256
 #. 
-#. File system/class_ServerControl.php:1189
+#. File system/class_ServerControl.php:1195
 #. 
-#: system/class_ServerControl.php:1132
-#: system/class_ServerControl.php:1250
-#: system/class_ServerControl.php:1189
+#: system/class_ServerControl.php:1138
+#: system/class_ServerControl.php:1256
+#: system/class_ServerControl.php:1195
 msgid "Source is not running"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:113
+#. File system/servers/IceCast/class_IceCastConfig.php:116
 #. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:43
 #. Context: onfig[headertimeout]" size="8" value="{$config.headertimeout|htmlentities}" /> {$errors.headertimeout|checkerror} </td>
 #.     	<td>{="Source timeout"}:</td>
 #.     	<td><input type="text" name="config[sourcetimeout]" size="8" value="{$config.sourcetimeout|htmlentities}" /> {$errors.
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:113
+#: system/servers/IceCast/class_IceCastConfig.php:116
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:43
 msgid "Source timeout"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:35
+#. File system/servers/IceCast/class_IceCastConfig.php:38
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:113
 #. Context: <tr>
 #.     			<td>{="Source username"}:</td>
 #.     			<td><input type="text" name="mountpoints_field[username]" class="list_editor_field" size="15" value="" /> ({="blank
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:35
+#: system/servers/IceCast/class_IceCastConfig.php:38
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:113
 msgid "Source username"
 msgstr ""
 
-#. File system/class_AccountControl.php:1004
+#. File system/class_AccountControl.php:1013
 #. Arguments: $requestedbitrate,$limits['maxbitrate']
 #. 
-#: system/class_AccountControl.php:1004
+#: system/class_AccountControl.php:1013
 msgid "Specified bit rate exceeds (%d kbps) reseller bitrate limit (%d kbps)"
 msgstr ""
 
-#. File system/class_AccountControl.php:1009
+#. File system/class_AccountControl.php:1018
 #. Arguments: $requestedbandwidth,$limits['maxbandwidth']
 #. 
-#: system/class_AccountControl.php:1009
+#: system/class_AccountControl.php:1018
 msgid "Specified combination of bit rate and listener limit (%d kbps) exceeds reseller bandwidth limit (%d kbps)"
 msgstr ""
 
-#. File system/class_AccountControl.php:1002
+#. File system/class_AccountControl.php:1011
 #. Arguments: $requesteddiskquota,$limits['diskquota']
 #. 
-#: system/class_AccountControl.php:1002
+#: system/class_AccountControl.php:1011
 msgid "Specified disk quota (%d MB) exceeds reseller limits (%d MB remain)"
 msgstr ""
 
-#. File system/class_AccountControl.php:1000
+#. File system/class_AccountControl.php:1009
 #. Arguments: $requestedclients,$limits['maxclients']
 #. 
-#: system/class_AccountControl.php:1000
+#: system/class_AccountControl.php:1009
 msgid "Specified listener limit (%d) exceeds reseller limits (%d remain)"
 msgstr ""
 
-#. File system/class_AccountControl.php:1006
+#. File system/class_AccountControl.php:1015
 #. Arguments: $requestedmountlimit,$limits['mountlimit']
 #. 
-#: system/class_AccountControl.php:1006
+#: system/class_AccountControl.php:1015
 msgid "Specified mount point limit (%d) exceeds reseller mount point limit (%d)"
 msgstr ""
 
-#. File system/class_AccountControl.php:1001
+#. File system/class_AccountControl.php:1010
 #. Arguments: $requestedxferlimit,$limits['transferlimit']
 #. 
-#: system/class_AccountControl.php:1001
+#: system/class_AccountControl.php:1010
 msgid "Specified transfer limit (%d MB) exceeds reseller limits (%d MB remain)"
 msgstr ""
 
@@ -3359,21 +3359,21 @@ msgstr ""
 msgid "Stereo mode"
 msgstr ""
 
-#. File system/class_ServerControl.php:1063
+#. File system/class_ServerControl.php:1069
 #. Arguments: $error_message
 #. 
-#: system/class_ServerControl.php:1063
+#: system/class_ServerControl.php:1069
 msgid "Stream control issue detected (%s); log attached"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:42
+#. File system/servers/IceCast/class_IceCastConfig.php:45
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:148
 #. Context: <tr>
 #.     			<td>{="Stream description"}:</td>
 #.     			<td><input type="text" name="mountpoints_field[streamdescription]" class="list_editor_field" size="20" value="" /> (
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:42
+#: system/servers/IceCast/class_IceCastConfig.php:45
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:148
 msgid "Stream description"
 msgstr ""
@@ -3384,19 +3384,19 @@ msgstr ""
 msgid "Stream ID"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:95
+#. File system/servers/IceCast/class_IceCastConfig.php:98
 #. 
 #. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:14
 #. Context: <tr>
 #.     	<td>{="Stream mount point"}:</td>
 #.     	<td><input type="text" name="config[relaymount]" size="50" value="{$config.relaymount|htmlentities}" /> {$errors.rela
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:95
+#: system/servers/IceCast/class_IceCastConfig.php:98
 #: system/servers/IceCast/templates/configuration_client_relaymount.tpl:14
 msgid "Stream mount point"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:41
+#. File system/servers/IceCast/class_IceCastConfig.php:44
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:144
 #. Context: <tr>
@@ -3418,7 +3418,7 @@ msgstr ""
 #.     			<td>{if $mpsinglemount}{="Stream name"}{else}{="Mount point name"}{/if}:&nbsp;</td>
 #.     			<td colspan="3"><input type="text" name="{$mpfieldname}[icesname]" class="list
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:41
+#: system/servers/IceCast/class_IceCastConfig.php:44
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:144
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:16
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:13
@@ -3426,14 +3426,14 @@ msgstr ""
 msgid "Stream name"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:99
+#. File system/servers/IceCast/class_IceCastConfig.php:102
 #. 
 #. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:26
 #. Context: <tr>
 #.     	<td>{="Stream password"}:</td>
 #.     	<td><input type="password" name="config[relaymntpassword]" size="12" value="{$config.relaymntpassword|htmlentities}"
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:99
+#: system/servers/IceCast/class_IceCastConfig.php:102
 #: system/servers/IceCast/templates/configuration_client_relaymount.tpl:26
 msgid "Stream password"
 msgstr ""
@@ -3457,7 +3457,7 @@ msgstr ""
 #.     	<td>{="Stream port"}:</td>
 #.     	<td><input type="text" name="config[relayport]" size="6" value="{$config.relayport|htmlentities}" /> {$errors.relaypo
 #. 
-#. File system/servers/IceCast/class_IceCastConfig.php:94
+#. File system/servers/IceCast/class_IceCastConfig.php:97
 #. 
 #. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:10
 #. Context: <tr>
@@ -3468,7 +3468,7 @@ msgstr ""
 #. 
 #: system/servers/ShoutCast/class_ShoutCastConfig.php:40
 #: system/servers/ShoutCast/templates/configuration_client_relay.tpl:33
-#: system/servers/IceCast/class_IceCastConfig.php:94
+#: system/servers/IceCast/class_IceCastConfig.php:97
 #: system/servers/IceCast/templates/configuration_client_relaymount.tpl:10
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:65
 msgid "Stream port"
@@ -3481,7 +3481,7 @@ msgstr ""
 #.     	<td>{="Stream server"}:</td>
 #.     	<td><input type="text" name="config[relayserver]" size="50" value="{$config.relayserver|htmlentities}" /> {$errors.re
 #. 
-#. File system/servers/IceCast/class_IceCastConfig.php:93
+#. File system/servers/IceCast/class_IceCastConfig.php:96
 #. 
 #. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:6
 #. Context: <tr>
@@ -3492,7 +3492,7 @@ msgstr ""
 #. 
 #: system/servers/ShoutCast/class_ShoutCastConfig.php:39
 #: system/servers/ShoutCast/templates/configuration_client_relay.tpl:29
-#: system/servers/IceCast/class_IceCastConfig.php:93
+#: system/servers/IceCast/class_IceCastConfig.php:96
 #: system/servers/IceCast/templates/configuration_client_relaymount.tpl:6
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:64
 msgid "Stream server"
@@ -3519,14 +3519,14 @@ msgstr ""
 msgid "Stream title format"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:43
+#. File system/servers/IceCast/class_IceCastConfig.php:46
 #. 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:152
 #. Context: <tr>
 #.     			<td>{="Stream URL"}:</td>
 #.     			<td><input type="text" name="mountpoints_field[streamurl]" class="list_editor_field" size="20" value="" /> ({="blank
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:43
+#: system/servers/IceCast/class_IceCastConfig.php:46
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:152
 msgid "Stream URL"
 msgstr ""
@@ -3552,33 +3552,33 @@ msgstr ""
 msgid "Stream URL format"
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:98
+#. File system/servers/IceCast/class_IceCastConfig.php:101
 #. 
 #. File system/servers/IceCast/templates/configuration_client_relaymount.tpl:22
 #. Context: <tr>
 #.     	<td>{="Stream username"}:</td>
 #.     	<td><input type="text" name="config[relaymntusername]" size="12" value="{$config.relaymntusername|htmlentities}" /> {
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:98
+#: system/servers/IceCast/class_IceCastConfig.php:101
 #: system/servers/IceCast/templates/configuration_client_relaymount.tpl:22
 msgid "Stream username"
 msgstr ""
 
-#. File system/class_ServerControl.php:1037
+#. File system/class_ServerControl.php:1043
 #. 
-#: system/class_ServerControl.php:1037
+#: system/class_ServerControl.php:1043
 msgid "Streaming applications started successfully"
 msgstr ""
 
-#. File system/class_ServerControl.php:895
+#. File system/class_ServerControl.php:901
 #. 
-#: system/class_ServerControl.php:895
+#: system/class_ServerControl.php:901
 msgid "Streaming server started successfully"
 msgstr ""
 
-#. File system/class_ServerControl.php:948
+#. File system/class_ServerControl.php:954
 #. 
-#: system/class_ServerControl.php:948
+#: system/class_ServerControl.php:954
 msgid "Streaming source not enabled"
 msgstr ""
 
@@ -3593,18 +3593,18 @@ msgstr ""
 msgid "Subject: %s"
 msgstr ""
 
-#. File system/sysctrl/class_SystemControl_check.php:128
+#. File system/sysctrl/class_SystemControl_check.php:131
 #. 
-#. File system/sysctrl/class_SystemControl_check.php:127
+#. File system/sysctrl/class_SystemControl_check.php:130
 #. 
-#. File system/sysctrl/class_SystemControl_check.php:45
+#. File system/sysctrl/class_SystemControl_check.php:48
 #. 
-#. File system/sysctrl/class_SystemControl_check.php:44
+#. File system/sysctrl/class_SystemControl_check.php:47
 #. 
-#: system/sysctrl/class_SystemControl_check.php:128
-#: system/sysctrl/class_SystemControl_check.php:127
-#: system/sysctrl/class_SystemControl_check.php:45
-#: system/sysctrl/class_SystemControl_check.php:44
+#: system/sysctrl/class_SystemControl_check.php:131
+#: system/sysctrl/class_SystemControl_check.php:130
+#: system/sysctrl/class_SystemControl_check.php:48
+#: system/sysctrl/class_SystemControl_check.php:47
 msgid "successful"
 msgstr ""
 
@@ -3623,18 +3623,18 @@ msgstr ""
 msgid "Super wide band"
 msgstr ""
 
-#. File system/class_SystemControl.php:2033
+#. File system/class_SystemControl.php:2044
 #. 
-#: system/class_SystemControl.php:2033
+#: system/class_SystemControl.php:2044
 msgid "suspended"
 msgstr ""
 
-#. File system/class_ServerControl.php:2069
+#. File system/class_ServerControl.php:2077
 #. 
-#. File system/class_ServerControl.php:1917
+#. File system/class_ServerControl.php:1923
 #. 
-#: system/class_ServerControl.php:2069
-#: system/class_ServerControl.php:1917
+#: system/class_ServerControl.php:2077
+#: system/class_ServerControl.php:1923
 msgid "suspended until further notice"
 msgstr ""
 
@@ -3691,7 +3691,7 @@ msgstr ""
 msgid "The following mountpoint relay settings control relaying a single, specific mount point on a remote server."
 msgstr ""
 
-#. File system/class_ServerControl.php:2431
+#. File system/class_ServerControl.php:2439
 #. Arguments: $nextport
 #. 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:460
@@ -3700,7 +3700,7 @@ msgstr ""
 #. File system/class_SystemControl.php:1208
 #. Arguments: $nextport
 #. 
-#: system/class_ServerControl.php:2431
+#: system/class_ServerControl.php:2439
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:460
 #: system/class_SystemControl.php:1208
 msgid "the next available port is %d"
@@ -3727,14 +3727,14 @@ msgstr ""
 msgid "This message was sent as part of the Centova Cast E-mail test.  If you are receiving this message, your Centova Cast server can send E-mail correctly."
 msgstr ""
 
-#. File system/servers/IceCast/class_IceCastConfig.php:109
+#. File system/servers/IceCast/class_IceCastConfig.php:112
 #. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:31
 #. Context: ig[maxsources]" size="8" value="{$config.maxsources|htmlentities}" /> {$errors.maxsources|checkerror} </td>
 #.     	<td width="130">{="Thread pool"}:</td>
 #.     	<td><input type="text" name="config[threadpool]" size="8" value="{$config.threadpool|htmlentities}" /> {$errors.thread
 #. 
-#: system/servers/IceCast/class_IceCastConfig.php:109
+#: system/servers/IceCast/class_IceCastConfig.php:112
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:31
 msgid "Thread pool"
 msgstr ""
@@ -3858,15 +3858,15 @@ msgstr ""
 msgid "Transport type"
 msgstr ""
 
-#. File system/class_SystemControl.php:2043
+#. File system/class_SystemControl.php:2054
 #. 
-#: system/class_SystemControl.php:2043
+#: system/class_SystemControl.php:2054
 msgid "triggered by reseller status change"
 msgstr ""
 
-#. File system/class_ServerControl.php:1217
+#. File system/class_ServerControl.php:1223
 #. 
-#: system/class_ServerControl.php:1217
+#: system/class_ServerControl.php:1223
 msgid "Unable to restart server"
 msgstr ""
 
@@ -3888,15 +3888,15 @@ msgstr ""
 msgid "Unknown/Binary File"
 msgstr ""
 
-#. File system/class_AccountControl.php:996
+#. File system/class_AccountControl.php:1005
 #. 
-#: system/class_AccountControl.php:996
+#: system/class_AccountControl.php:1005
 msgid "Unlimited disk quota not permitted for this reseller account"
 msgstr ""
 
-#. File system/class_AccountControl.php:997
+#. File system/class_AccountControl.php:1006
 #. 
-#: system/class_AccountControl.php:997
+#: system/class_AccountControl.php:1006
 msgid "Unlimited transfer not permitted for this reseller account"
 msgstr ""
 
@@ -4040,12 +4040,12 @@ msgstr ""
 
 #. File system/class_AccountControl.php:84
 #. 
-#. File system/class_AccountControl.php:745
+#. File system/class_AccountControl.php:754
 #. 
 #. File system/include_console.php:5
 #. 
 #: system/class_AccountControl.php:84
-#: system/class_AccountControl.php:745
+#: system/class_AccountControl.php:754
 #: system/include_console.php:5
 msgid "username"
 msgstr ""
@@ -4184,9 +4184,9 @@ msgstr ""
 msgid "Web player"
 msgstr ""
 
-#. File system/class_TuneIn.php:68
+#. File system/class_TuneIn.php:62
 #. 
-#: system/class_TuneIn.php:68
+#: system/class_TuneIn.php:62
 msgid "Web Proxy"
 msgstr ""
 

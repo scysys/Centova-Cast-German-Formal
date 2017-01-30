@@ -1,12 +1,12 @@
 # Centova Cast translation - external interface
-# Copyright 2016, Centova Technologies Inc.
+# Copyright 2017, Centova Technologies Inc.
 # This file is distributed under the same license terms as Centova Cast.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2016-09-27 17:14-0700\n"
-"PO-Revision-Date: 2016-09-27 17:14-0700\n"
+"POT-Creation-Date: 2017-01-09 17:51-0800\n"
+"PO-Revision-Date: 2017-01-09 17:51-0800\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. File www/class_StreamStatus.php:528
+#. File www/class_StreamStatus.php:547
 #. Arguments: $this->str($this->bitrate)
 #. 
 #. File www/class_CCTemplate.php:574
@@ -29,7 +29,7 @@ msgstr ""
 #. File www/client/class_ClientApplication.php:157
 #. Arguments: $this->streamstatus->bitrate
 #. 
-#: www/class_StreamStatus.php:528
+#: www/class_StreamStatus.php:547
 #: www/class_CCTemplate.php:574
 #: www/system/templates/index_heading.tpl:3
 #: www/client/class_ClientApplication.php:157
@@ -729,12 +729,12 @@ msgstr ""
 #. 
 #. File system/servers/WindowsMedia/class_WindowsMediaConfig.php:25
 #. 
-#. File system/servers/IceCast/class_IceCastConfig.php:66
+#. File system/servers/IceCast/class_IceCastConfig.php:69
 #. 
 #: www/menu.php:337
 #: system/class_AccountFields.php:884
 #: system/servers/WindowsMedia/class_WindowsMediaConfig.php:25
-#: system/servers/IceCast/class_IceCastConfig.php:66
+#: system/servers/IceCast/class_IceCastConfig.php:69
 msgid "Files"
 msgstr ""
 
@@ -1354,9 +1354,9 @@ msgstr ""
 msgid "Music"
 msgstr ""
 
-#. File www/class_StreamStatus.php:528
+#. File www/class_StreamStatus.php:547
 #. 
-#: www/class_StreamStatus.php:528
+#: www/class_StreamStatus.php:547
 msgid "n/a"
 msgstr ""
 
@@ -1378,7 +1378,7 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#. File www/class_StreamStatus.php:531
+#. File www/class_StreamStatus.php:550
 #. 
 #. File www/system/templates/configuration_client_widgets.tpl:14
 #. Context: tpage>0} selected="selected"{/if}>{="Yes"}</option>
@@ -1648,7 +1648,7 @@ msgstr ""
 #.     			<option value="0"{if $centovacast_account.startserver==0} selected="selected"{/if}>{="No"}</option>
 #.     			</select> ({="only used for non-autoDJ streams"})
 #. 
-#: www/class_StreamStatus.php:531
+#: www/class_StreamStatus.php:550
 #: www/system/templates/configuration_client_widgets.tpl:14
 #: www/system/templates/configuration_client_source.tpl:62
 #: www/system/templates/configuration_client_source.tpl:53
@@ -1720,9 +1720,9 @@ msgstr ""
 msgid "No recent tracks are available"
 msgstr ""
 
-#. File www/class_StreamStatus.php:511
-#. 
 #. File www/external/rpc/class_RPCrequest.php:23
+#. 
+#. File www/class_StreamStatus.php:530
 #. 
 #. File www/system/templates/statistics_downloads.tpl:24
 #. Context: <tbody>
@@ -1734,6 +1734,11 @@ msgstr ""
 #.     			<option value="none">{="None"}</option>
 #.     			{loop $sourcetype=$sourcetypes}
 #. 
+#. File www/system/templates/livestats.tpl:100
+#. Context: <tbody>
+#.     	<tr><td class="rowodd" colspan="5" style="text-align: center">{="None"}</td></tr>
+#.     </tbody>
+#. 
 #. File www/system/templates/livestats.tpl:82
 #. Context: <tbody>
 #.     	<tr><td class="rowodd" colspan="5" style="text-align: center">{="None"}</td></tr>
@@ -1744,10 +1749,10 @@ msgstr ""
 #.     		    <tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
 #.     		</tbody>
 #. 
-#. File www/system/templates/livestats.tpl:100
+#. File www/system/templates/statistics_listeners.tpl:172
 #. Context: <tbody>
-#.     	<tr><td class="rowodd" colspan="5" style="text-align: center">{="None"}</td></tr>
-#.     </tbody>
+#.     		<tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
+#.     		{loop $listener=$toplistenerminutes onlast=" tdlast"}
 #. 
 #. File www/system/templates/statistics.tpl:6
 #. Context: {language}
@@ -1759,19 +1764,14 @@ msgstr ""
 #.         <tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
 #.     </tbody>
 #. 
-#. File www/system/templates/statistics_agents.tpl:20
-#. Context: <tbody>
-#.         <tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
-#.     </tbody>
-#. 
 #. File www/system/templates/livestats.tpl:63
 #. Context: seragent>0}{if $showduration>0}7{else}6{/if}{otherwise}{if $showduration>0}5{else}4{/if}{/check}" style="text-align: center">{="None"}</td></tr>
 #.     </tbody>
 #. 
-#. File www/system/templates/statistics_listeners.tpl:172
+#. File www/system/templates/statistics_agents.tpl:20
 #. Context: <tbody>
-#.     		<tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
-#.     		{loop $listener=$toplistenerminutes onlast=" tdlast"}
+#.         <tr><td class="rowodd" colspan="7" style="text-align: center">{="None"}</td></tr>
+#.     </tbody>
 #. 
 #. File www/system/templates/statistics_countries.tpl:41
 #. Context: <tbody>
@@ -1813,25 +1813,27 @@ msgstr ""
 #.     					<option value="none">{="None"}</option>
 #.     					<option value="constrained">{="Constrained"}</option>
 #. 
+#. File system/class_Statistics.php:492
+#. 
 #. File system/sources/sctrans/templates/configuration_source.tpl:7
 #. Context: select name="config[sccrossfademode]" size="1">
 #.     		<option value="0"{if $config.sccrossfademode==0} selected="selected"{/if}>{="None"}</option>
 #.     		<option value="1"{if $config.sccrossfademode==1} selected="selected"{/if}>100/100-&gt;100/0</option>
 #. 
-#. File system/class_Statistics.php:490
+#. File system/class_Statistics.php:494
 #. 
-#: www/class_StreamStatus.php:511
 #: www/external/rpc/class_RPCrequest.php:23
+#: www/class_StreamStatus.php:530
 #: www/system/templates/statistics_downloads.tpl:24
 #: www/system/templates/new_account_form.tpl:101
+#: www/system/templates/livestats.tpl:100
 #: www/system/templates/livestats.tpl:82
 #: www/system/templates/statistics_listeners.tpl:149
-#: www/system/templates/livestats.tpl:100
+#: www/system/templates/statistics_listeners.tpl:172
 #: www/system/templates/statistics.tpl:6
 #: www/system/templates/statistics_agents.tpl:43
-#: www/system/templates/statistics_agents.tpl:20
 #: www/system/templates/livestats.tpl:63
-#: www/system/templates/statistics_listeners.tpl:172
+#: www/system/templates/statistics_agents.tpl:20
 #: www/system/templates/statistics_countries.tpl:41
 #: www/system/templates/statistics_tracks.tpl:82
 #: www/system/templates/statistics_tracks.tpl:62
@@ -1840,8 +1842,9 @@ msgstr ""
 #: www/system/templates/statistics_tracks.tpl:122
 #: www/system/templates/statistics_countries.tpl:19
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:154
+#: system/class_Statistics.php:492
 #: system/sources/sctrans/templates/configuration_source.tpl:7
-#: system/class_Statistics.php:490
+#: system/class_Statistics.php:494
 msgid "None"
 msgstr ""
 
@@ -1912,13 +1915,13 @@ msgstr ""
 msgid "Oct"
 msgstr ""
 
-#. File www/class_StreamStatus.php:529
+#. File www/class_StreamStatus.php:548
 #. 
-#. File www/class_StreamStatus.php:530
+#. File www/class_StreamStatus.php:549
 #. 
 #. File www/external/rpc/class_RPCaccountinfo.php:47
 #. 
-#. File www/class_StreamStatus.php:520
+#. File www/class_StreamStatus.php:539
 #. 
 #. File www/theme/templates/m/page.tpl:24
 #. Context: } else {
@@ -1931,10 +1934,10 @@ msgstr ""
 #. 
 #. File www/client/class_ClientApplication.php:157
 #. 
-#: www/class_StreamStatus.php:529
-#: www/class_StreamStatus.php:530
+#: www/class_StreamStatus.php:548
+#: www/class_StreamStatus.php:549
 #: www/external/rpc/class_RPCaccountinfo.php:47
-#: www/class_StreamStatus.php:520
+#: www/class_StreamStatus.php:539
 #: www/theme/templates/m/page.tpl:24
 #: www/external/rpc/class_RPCaccountinfo.php:48
 #: www/client/class_ClientApplication.php:159
@@ -1959,11 +1962,11 @@ msgstr ""
 msgid "On-demand content has been disabled for this stream."
 msgstr ""
 
-#. File www/class_StreamStatus.php:530
+#. File www/class_StreamStatus.php:549
 #. 
 #. File www/external/rpc/class_RPCaccountinfo.php:47
 #. 
-#. File www/class_StreamStatus.php:529
+#. File www/class_StreamStatus.php:548
 #. 
 #. File www/external/rpc/class_RPCaccountinfo.php:48
 #. 
@@ -1971,9 +1974,9 @@ msgstr ""
 #. 
 #. File www/client/class_ClientApplication.php:157
 #. 
-#: www/class_StreamStatus.php:530
+#: www/class_StreamStatus.php:549
 #: www/external/rpc/class_RPCaccountinfo.php:47
-#: www/class_StreamStatus.php:529
+#: www/class_StreamStatus.php:548
 #: www/external/rpc/class_RPCaccountinfo.php:48
 #: www/client/class_ClientApplication.php:159
 #: www/client/class_ClientApplication.php:157
@@ -1991,7 +1994,7 @@ msgstr ""
 #.         other: 			'{="Other"}',
 #.     {/language}
 #. 
-#. File www/system/templates/client_head.tpl:27
+#. File www/system/templates/client_head.tpl:29
 #. Context: notrunning: '{="The server is not currently running.  Please start the server, then try again."}',
 #.     	other: '{="Other"}',
 #.     	tuneinwith: '{="Tune in with ..."}'
@@ -2003,16 +2006,16 @@ msgstr ""
 #. 
 #. File system/class_ReportFormat.php:46
 #. 
-#. File system/class_TuneIn.php:80
+#. File system/class_TuneIn.php:74
 #. 
 #: www/class_LiveStatistics.php:177
 #: www/class_LiveStatistics.php:159
 #: www/class_LiveStatistics.php:176
 #: www/system/templates/statistics.tpl:7
-#: www/system/templates/client_head.tpl:27
+#: www/system/templates/client_head.tpl:29
 #: www/system/templates/livestats.tpl:10
 #: system/class_ReportFormat.php:46
-#: system/class_TuneIn.php:80
+#: system/class_TuneIn.php:74
 msgid "Other"
 msgstr ""
 
@@ -2967,9 +2970,9 @@ msgstr ""
 #. 
 #. File system/class_TrackManager.php:650
 #. 
-#. File system/class_Statistics.php:652
+#. File system/class_Statistics.php:656
 #. 
-#. File system/class_Statistics.php:750
+#. File system/class_Statistics.php:754
 #. 
 #. File system/class_TrackManager.php:722
 #. 
@@ -2977,9 +2980,9 @@ msgstr ""
 #. 
 #. File system/class_RecentTracks.php:132
 #. 
-#. File system/class_Statistics.php:766
+#. File system/class_Statistics.php:770
 #. 
-#. File system/class_Statistics.php:634
+#. File system/class_Statistics.php:638
 #. 
 #. File www/system/templates/admin_accounts_javascript.tpl:14
 #. Context: sort: '{="Sort"}',
@@ -3015,13 +3018,13 @@ msgstr ""
 #: www/system/templates/statistics_listeners.tpl:181
 #: www/system/templates/statistics_listeners.tpl:5
 #: system/class_TrackManager.php:650
-#: system/class_Statistics.php:652
-#: system/class_Statistics.php:750
+#: system/class_Statistics.php:656
+#: system/class_Statistics.php:754
 #: system/class_TrackManager.php:722
 #: system/class_RecentTracks.php:131
 #: system/class_RecentTracks.php:132
-#: system/class_Statistics.php:766
-#: system/class_Statistics.php:634
+#: system/class_Statistics.php:770
+#: system/class_Statistics.php:638
 #: www/system/templates/admin_accounts_javascript.tpl:14
 #: www/system/templates/admin_accounts_javascript.tpl:68
 #: www/system/templates/admin_accounts_javascript.tpl:69
@@ -3235,7 +3238,7 @@ msgstr ""
 msgid "Widgets"
 msgstr ""
 
-#. File www/class_StreamStatus.php:531
+#. File www/class_StreamStatus.php:550
 #. 
 #. File www/system/templates/configuration_client_widgets.tpl:22
 #. Context: <select name="config[allowondemand]" size="1">
@@ -3503,7 +3506,7 @@ msgstr ""
 #.     			<option value="1"{if $centovacast_account.startserver>0} selected="selected"{/if}>{="Yes"}</option>
 #.     			<option value="0"{if $centovacast_account.startserver==0} selected="selected"{/if}>{="No"}</option>
 #. 
-#: www/class_StreamStatus.php:531
+#: www/class_StreamStatus.php:550
 #: www/system/templates/configuration_client_widgets.tpl:22
 #: www/system/templates/configuration_reseller_options.tpl:56
 #: www/system/templates/configuration_client_source.tpl:61

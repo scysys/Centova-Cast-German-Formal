@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2016-10-23 18:36+0200\n"
-"PO-Revision-Date: 2016-10-23 18:36+0200\n"
+"POT-Creation-Date: 2017-01-29 04:22+0100\n"
+"PO-Revision-Date: 2017-01-29 04:22+0100\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
@@ -538,7 +538,7 @@ msgstr "%s weitere Fehler wurden aus gründen der Kürzung weggelassen"
 #.
 #: www/system/templates/statistics_listeners.tpl:55
 msgid "%s music sessions"
-msgstr "%s Musik sitzungen"
+msgstr "%s Musik Sitzungen"
 
 #. File www/system/templates/statistics_listeners.tpl:56
 #. Arguments: $zero
@@ -1078,10 +1078,10 @@ msgstr ""
 
 #. File www/client/modules/class_Module_confeditor.php:75
 #.
-#. File system/class_ServerControl.php:2553
+#. File system/class_ServerControl.php:2561
 #.
 #: www/client/modules/class_Module_confeditor.php:75
-#: system/class_ServerControl.php:2553
+#: system/class_ServerControl.php:2561
 msgid "administrator"
 msgstr "administrator"
 
@@ -1239,7 +1239,7 @@ msgstr "Albumcover"
 #.
 #: www/system/templates/library.tpl:35 system/class_ReportFormat.php:35
 msgid "Album name"
-msgstr "Albumname"
+msgstr "Album Name"
 
 #. File www/system/templates/library.tpl:116
 #. Context: <option value="artists">{="Artists"}</option>
@@ -1408,20 +1408,20 @@ msgstr "Alternatives Charakter Enkoding"
 #. {box title="Update Failed"}{="An error occurred while attempting to save this update"}.{/box}
 #. {/if}
 #.
-#. File system/class_ServerControl.php:1625
+#. File system/class_ServerControl.php:1631
 #.
 #. File system/AccountManagerDrivers/mutators/class_TemplateMutator.php:117
 #.
-#. File system/class_ServerControl.php:1623
+#. File system/class_ServerControl.php:1629
 #.
 #. File system/AccountManagerDrivers/mutators/class_TemplateMutator.php:46
 #.
 #: www/system/templates/change_password.tpl:18
 #: www/system/templates/admin_settings.tpl:30
 #: www/system/templates/admin_servertype_edit.tpl:5
-#: www/system/templates/admin_email.tpl:89 system/class_ServerControl.php:1625
+#: www/system/templates/admin_email.tpl:89 system/class_ServerControl.php:1631
 #: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:117
-#: system/class_ServerControl.php:1623
+#: system/class_ServerControl.php:1629
 #: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:46
 msgid "An error occurred while attempting to save this update"
 msgstr ""
@@ -1607,7 +1607,7 @@ msgstr ""
 #.
 #: www/system/templates/library.tpl:30 system/class_ReportFormat.php:34
 msgid "Artist name"
-msgstr ""
+msgstr "Künstler Name"
 
 #. File www/system/templates/library.tpl:115
 #. Context: <select name="searchtype" id="search_type" size="1">
@@ -1616,7 +1616,7 @@ msgstr ""
 #.
 #: www/system/templates/library.tpl:115
 msgid "Artists"
-msgstr "Interpreten"
+msgstr "Künstler"
 
 #. File www/system/templates/staffaccount_edit.tpl:50
 #. Arguments: "<span style='color: #990000'>","</span>"
@@ -1643,12 +1643,12 @@ msgid ""
 "permissions"
 msgstr ""
 
-#. File www/system/templates/client_head.tpl:22
+#. File www/system/templates/client_head.tpl:24
 #. Context: onstream: '{="on %s"}',
 #. atkbps: '{="at %skbps"}',
 #. songnotavail: '{="Current song not available"}',
 #.
-#: www/system/templates/client_head.tpl:22
+#: www/system/templates/client_head.tpl:24
 msgid "at %skbps"
 msgstr "bei %skbps"
 
@@ -1855,7 +1855,7 @@ msgstr "Automatische Verarbeitung des Musikwunsches"
 #.
 #: www/system/templates/reportformat_edit.tpl:45
 msgid "Available Columns"
-msgstr ""
+msgstr "Verfügbare Spalten"
 
 #. File www/system/templates/upload_multiple.tpl:51
 #. Context: <div id="avail_space">
@@ -1864,7 +1864,7 @@ msgstr ""
 #.
 #: www/system/templates/upload_multiple.tpl:51
 msgid "Available space"
-msgstr "Verfügbar"
+msgstr "Verfügbarer Speicherplatz"
 
 #. File www/system/templates/statistics_listeners.tpl:44
 #. Context: <td class="roweven">{="Average data transfer"}</td>
@@ -1993,7 +1993,7 @@ msgstr ""
 #. Context: "}AAC/AAC+{else}{$mount.liqencoder|strtoupper|htmlentities}{/if}</strong></td></tr>{/check}
 #. {if $mount.bitrate!=""}<tr><td>{="Bit rate"}:</td><td><strong>{="%s kbps",$mount.bitrate}</strong></td></tr>{/if}
 #.
-#. File system/servers/IceCast/class_IceCastConfig.php:29
+#. File system/servers/IceCast/class_IceCastConfig.php:32
 #.
 #. File system/sources/ices2/class_Ices2ServerInterface.php:199
 #.
@@ -2051,7 +2051,7 @@ msgstr ""
 #: system/servers/ShoutCast2/templates/connection_details.tpl:12
 #: system/sources/ices2/class_Ices2ServerInterface.php:200
 #: system/servers/ShoutCast2/templates/connection_details.tpl:34
-#: system/servers/IceCast/class_IceCastConfig.php:29
+#: system/servers/IceCast/class_IceCastConfig.php:32
 #: system/sources/ices2/class_Ices2ServerInterface.php:199
 #: system/servers/IceCast/templates/connection_details.tpl:33
 #: system/servers/IceCast/templates/connection_details.tpl:12
@@ -2294,7 +2294,7 @@ msgstr ""
 #.
 #: www/system/templates/configuration_client_source.tpl:27
 msgid "cannot be modified while stream is online"
-msgstr "‎kann nicht geändert werden, während der Streamserver Online ist.‎"
+msgstr "kann nicht geändert werden, während der Streamserver Online ist"
 
 #. File www/system/templates/staffaccount_edit.tpl:131
 #. Context: s_status"{if $staffaccount.permissions|contains:"accounts_status"} checked="checked"{/if}> <label for="perm_accounts_status">{="Change account statuses"}</label><br />
@@ -2634,11 +2634,11 @@ msgstr "Firma / Organisation"
 #. complete: '{="Complete"}',
 #. initializing: '{="Initializing"}',
 #.
-#. File system/class_ServerControl.php:744
+#. File system/class_ServerControl.php:750
 #.
-#. File system/class_ServerControl.php:680
+#. File system/class_ServerControl.php:685
 #.
-#. File system/class_ServerControl.php:469
+#. File system/class_ServerControl.php:474
 #.
 #. File www/system/templates/admin_accounts.tpl:27
 #. Context: processing_account: '{="Processing account %s ..."}',
@@ -2650,19 +2650,19 @@ msgstr "Firma / Organisation"
 #. complete: '{="Complete"}',
 #. initializing: '{="Initializing"}',
 #.
-#. File system/class_ServerControl.php:763
+#. File system/class_ServerControl.php:769
 #.
 #. File system/class_ServerControl.php:296
 #.
-#. File system/class_ServerControl.php:1661
+#. File system/class_ServerControl.php:1667
 #.
 #: www/system/templates/upload_single.tpl:5 www/system/templates/library.tpl:57
-#: system/class_ServerControl.php:744 system/class_ServerControl.php:680
-#: system/class_ServerControl.php:469
+#: system/class_ServerControl.php:750 system/class_ServerControl.php:685
+#: system/class_ServerControl.php:474
 #: www/system/templates/admin_accounts.tpl:27
 #: www/system/templates/admin_utilities.tpl:6
-#: system/class_ServerControl.php:763 system/class_ServerControl.php:296
-#: system/class_ServerControl.php:1661
+#: system/class_ServerControl.php:769 system/class_ServerControl.php:296
+#: system/class_ServerControl.php:1667
 msgid "Complete"
 msgstr "Vollständig"
 
@@ -2723,7 +2723,7 @@ msgstr "Konfigurieren"
 #.
 #: www/system/templates/statistics_downloads.tpl:33
 msgid "Configure custom reports"
-msgstr "‎Konfigurieren Sie benutzerdefinierte Berichte‎"
+msgstr "Konfigurieren Sie benutzerdefinierte Berichte"
 
 #. File www/client/modules/class_Module_djaccounts.php:21
 #.
@@ -2738,7 +2738,7 @@ msgstr "Erstellung / Verwaltung der DJ Accounts"
 #.
 #: www/system/templates/m/index.tpl:24
 msgid "Configure playlists"
-msgstr ""
+msgstr "Playlisten konfigurieren"
 
 #. File www/system/templates/change_password.tpl:41
 #. Context: <tr>
@@ -2905,7 +2905,7 @@ msgstr "Erstelle Accounts"
 #.
 #: www/system/templates/reportformat_list.tpl:4
 msgid "Create custom report"
-msgstr "‎Erstellen von benutzerdefinierten Bericht‎"
+msgstr "Erstellen von benutzerdefinierten Bericht"
 
 #. File www/system/templates/djaccount_list.tpl:4
 #. Context: yle="float: right">
@@ -3020,12 +3020,12 @@ msgstr "Aktuelle Playliste"
 msgid "Current song"
 msgstr "Aktueller Musiktitel"
 
-#. File www/system/templates/client_head.tpl:23
+#. File www/system/templates/client_head.tpl:25
 #. Context: atkbps: '{="at %skbps"}',
 #. songnotavail: '{="Current song not available"}',
 #. stationoffline: '{="Station is offline"}',
 #.
-#: www/system/templates/client_head.tpl:23
+#: www/system/templates/client_head.tpl:25
 msgid "Current song not available"
 msgstr "Aktueller Titel nicht verf&uuml;gbar"
 
@@ -3906,13 +3906,13 @@ msgstr "Download"
 #.
 #: www/client/modules/class_Module_reportdownloads.php:19
 msgid "Downloadable Reports"
-msgstr "‎Berichte zum herunterladen‎"
+msgstr "Berichte zum herunterladen"
 
 #. File www/client/modules/class_Module_reportdownloads.php:20
 #.
 #: www/client/modules/class_Module_reportdownloads.php:20
 msgid "Downloadable track reports for your stream"
-msgstr "‎Herunterladbare Berichte für Ihren Streamserver‎"
+msgstr "Herunterladbare Berichte für Ihren Streamserver"
 
 #. File www/client/modules/class_Module_statistics.php:70
 #.
@@ -4284,6 +4284,10 @@ msgid ""
 "and end a line with '/' to specify a Perl-compatible regular expression to "
 "match."
 msgstr ""
+"Geben Sie ein Wort / Zeichen pro Linie an. (Groß -/ Kleinschreibung wird beachtet.) "
+"Metadaten welche diese Angaben entsprechen werden von der Centova Statistik ausgeschlossen. "
+"Der Ausschluß von Metadaten kann Ihre Statistik erheblich verbessern.%s"
+"Optional: Beginnen und beenden Sie eine Reihe mit / um eine Perl-Kompatibel Expression sicherzustellen."
 
 #. File www/system/templates/connection_details.tpl:24
 #. Context: {box title="Live Source Connections"}
@@ -4743,7 +4747,7 @@ msgstr ""
 #.
 #. File system/class_ReportFormat.php:50
 #.
-#. File system/servers/IceCast/class_IceCastConfig.php:44
+#. File system/servers/IceCast/class_IceCastConfig.php:47
 #.
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:156
 #. Context: <tr>
@@ -4764,7 +4768,7 @@ msgstr ""
 #.
 #: www/system/templates/configuration_client_source.tpl:75
 #: system/class_AccountFields.php:805 system/class_ReportFormat.php:50
-#: system/servers/IceCast/class_IceCastConfig.php:44
+#: system/servers/IceCast/class_IceCastConfig.php:47
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:156
 #: system/sources/ices/srvintf/class_IcesServerInterface.php:170
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:21
@@ -5175,7 +5179,7 @@ msgstr ""
 #.
 #: www/system/templates/reportformat_edit.tpl:42
 msgid "Included Columns"
-msgstr ""
+msgstr "Vorhandene Spalten"
 
 #. File www/system/templates/configfile_editor.tpl:41
 #. Context: utton"><div id="tbreplace" title="{="Search and replace"}"></div></div>
@@ -6005,7 +6009,7 @@ msgstr "Maximale Bitrate"
 #.
 #. File system/class_AccountFields.php:317
 #.
-#. File system/servers/IceCast/class_IceCastConfig.php:37
+#. File system/servers/IceCast/class_IceCastConfig.php:40
 #.
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:121
 #. Context: <tr>
@@ -6028,7 +6032,7 @@ msgstr "Maximale Bitrate"
 #.
 #: www/client/modules/class_Module_widgets.php:106
 #: system/class_AccountFields.php:788 system/class_AccountFields.php:317
-#: system/servers/IceCast/class_IceCastConfig.php:37
+#: system/servers/IceCast/class_IceCastConfig.php:40
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:121
 #: www/system/templates/configuration_client_limits.tpl:144
 #: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:36
@@ -6354,7 +6358,7 @@ msgstr "Meist geh&ouml;rte Musiktitel"
 #. {="Mount point"}: <select id="mountpoint" size="1">
 #. <option value="">{="All"}</option>
 #.
-#. File system/servers/IceCast/class_IceCastConfig.php:28
+#. File system/servers/IceCast/class_IceCastConfig.php:31
 #.
 #. File system/sources/icessingleencoder/templates/configuration_source.tpl:4
 #. Context: <tr>
@@ -6385,7 +6389,7 @@ msgstr "Meist geh&ouml;rte Musiktitel"
 #: www/system/templates/connection_details.tpl:34
 #: www/system/templates/connection_details.tpl:36
 #: www/system/templates/livestats.tpl:31
-#: system/servers/IceCast/class_IceCastConfig.php:28
+#: system/servers/IceCast/class_IceCastConfig.php:31
 #: system/sources/icessingleencoder/templates/configuration_source.tpl:4
 #: system/sources/ezstream/class_Sourceezstream.php:360
 #: system/sources/icessingleencoder/class_Sourceices.php:368
@@ -6405,7 +6409,7 @@ msgstr "Mountpoint"
 #. if (window.centovacast.tabset) window.centovacast.tabset.select("{="Mount Points"}");
 #. }
 #.
-#. File system/servers/IceCast/class_IceCastConfig.php:62
+#. File system/servers/IceCast/class_IceCastConfig.php:65
 #.
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:43
 #.
@@ -6419,7 +6423,7 @@ msgstr "Mountpoint"
 #.
 #: www/system/templates/widgets.tpl:18
 #: www/system/templates/configuration_form.tpl:15
-#: system/servers/IceCast/class_IceCastConfig.php:62
+#: system/servers/IceCast/class_IceCastConfig.php:65
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:43
 #: system/sources/ices2/class_Ices2ServerInterface.php:222
 #: system/sources/liquidsoap/class_Sourceliquidsoap.php:184
@@ -6820,9 +6824,9 @@ msgstr "Nein, immer zuende Spielen oder nach der Angegebenen Zeit stoppen."
 msgid "Not authorized to access playlist."
 msgstr "Der Zugriff auf diese Wiedergabeliste wurde verweigert"
 
-#. File www/client/modules/class_Module_widgets.php:246
+#. File www/client/modules/class_Module_widgets.php:248
 #.
-#: www/client/modules/class_Module_widgets.php:246
+#: www/client/modules/class_Module_widgets.php:248
 msgid "Not available for your stream type"
 msgstr ""
 
@@ -6992,12 +6996,12 @@ msgstr ""
 msgid "November"
 msgstr "November"
 
-#. File www/system/templates/client_head.tpl:20
+#. File www/system/templates/client_head.tpl:22
 #. Context: {language}
 #. nowplaying: '{="Now Playing"}',
 #. onstream: '{="on %s"}',
 #.
-#: www/system/templates/client_head.tpl:20
+#: www/system/templates/client_head.tpl:22
 msgid "Now Playing"
 msgstr "Jetzt l&auml;uft"
 
@@ -7053,7 +7057,7 @@ msgstr "Oktober"
 #. processing_success: '{="OK"}',
 #. account_is_suspended: '{="Account is suspended"}.',
 #.
-#. File system/class_ServerControl.php:1629
+#. File system/class_ServerControl.php:1635
 #.
 #: www/system/templates/filemanager.tpl:12
 #: www/system/templates/filemanager.tpl:104
@@ -7061,16 +7065,16 @@ msgstr "Oktober"
 #: www/system/templates/uncaught_exception.tpl:67
 #: www/system/templates/library.tpl:188 www/system/templates/logmanager.tpl:11
 #: www/system/templates/admin_accounts.tpl:29
-#: system/class_ServerControl.php:1629
+#: system/class_ServerControl.php:1635
 msgid "OK"
 msgstr ""
 
-#. File www/system/templates/client_head.tpl:21
+#. File www/system/templates/client_head.tpl:23
 #. Context: nowplaying: '{="Now Playing"}',
 #. onstream: '{="on %s"}',
 #. atkbps: '{="at %skbps"}',
 #.
-#: www/system/templates/client_head.tpl:21
+#: www/system/templates/client_head.tpl:23
 msgid "on %s"
 msgstr "auf %s"
 
@@ -7271,7 +7275,7 @@ msgstr ""
 #.
 #: www/system/templates/change_password.tpl:16
 msgid "Password updated successfully."
-msgstr ""
+msgstr "Passwort wurde erfolgreich geupdate.t"
 
 #. File www/system/templates/filemanager.tpl:80
 #. Context: te_clipboard(false)" value="{="Cut"}" />
@@ -7376,7 +7380,7 @@ msgstr "F&uuml;hren Sie ein vollst&auml;ndiges Bibliotheksupdate durch"
 #: www/system/templates/reportformat_edit.tpl:32
 #: www/system/templates/reportformat_list.tpl:32
 msgid "Performance report"
-msgstr "‎Leistungsbericht‎"
+msgstr "Leistungsbericht"
 
 #. File www/system/templates/library.tpl:56
 #. Context: title: '{="Media Library Update"}',
@@ -7745,7 +7749,7 @@ msgstr "Playlisten Verwaltung"
 #: www/system/templates/reportformat_edit.tpl:31
 #: www/system/templates/reportformat_list.tpl:32
 msgid "Playlist report"
-msgstr "‎Playlisten Bericht‎"
+msgstr "Playlisten Bericht"
 
 #. File www/system/templates/playlist_update.tpl:3
 #. Context: {check $saved}
@@ -8471,7 +8475,7 @@ msgstr "Wiederhole alle"
 #: www/system/templates/playlist_edit.tpl:268
 #: www/system/templates/playlist_edit.tpl:249
 msgid "Repeat on"
-msgstr "Wiederholung ein"
+msgstr "Wiederholung am"
 
 #. File www/system/templates/playlist_edit.tpl:236
 #. Context: <tr>
@@ -8480,14 +8484,14 @@ msgstr "Wiederholung ein"
 #.
 #: www/system/templates/playlist_edit.tpl:236
 msgid "Repeat schedule"
-msgstr ""
+msgstr "Zeitplan wiederholen"
 
 #. File www/system/templates/reportformat_edit.tpl:39
 #. Context: {box title="Report Columns" class="reportcolumns"}
 #.
 #: www/system/templates/reportformat_edit.tpl:39
 msgid "Report Columns"
-msgstr ""
+msgstr "Berichtsspalten"
 
 #. File www/system/templates/reportformat_list.tpl:6
 #. Context: </div>
@@ -8496,7 +8500,7 @@ msgstr ""
 #.
 #: www/system/templates/reportformat_list.tpl:6
 msgid "Report Formats"
-msgstr "‎Berichtsformate‎"
+msgstr "Berichtsformate"
 
 #. File www/system/templates/reportformat_edit.tpl:21
 #. Context: {box title="Report Settings"}
@@ -8531,7 +8535,7 @@ msgid ""
 "Reports are generated in CSV format on the first of each month, and may be "
 "useful for licensing/royalty reporting."
 msgstr ""
-"‎Berichte werden im CSV-Format auf den ersten eines jeden Monats generiert "
+"Berichte werden im CSV-Format auf den ersten eines jeden Monats generiert "
 "und eignen sich möglicherweise auch für die Lizenzierung / Lizenzgebühren "
 "der jeweiluigen Verwertungsgesellschaften."
 
@@ -8579,10 +8583,10 @@ msgstr ""
 
 #. File www/client/modules/class_Module_confeditor.php:75
 #.
-#. File system/class_ServerControl.php:2553
+#. File system/class_ServerControl.php:2561
 #.
 #: www/client/modules/class_Module_confeditor.php:75
-#: system/class_ServerControl.php:2553
+#: system/class_ServerControl.php:2561
 msgid "reseller"
 msgstr ""
 
@@ -8630,12 +8634,12 @@ msgstr ""
 msgid "restarted"
 msgstr "neu gestartet"
 
-#. File www/system/templates/client_head.tpl:25
+#. File www/system/templates/client_head.tpl:27
 #. Context: stationoffline: '{="Station is offline"}',
 #. retrieving: '{="Retrieving current song..."}',
 #. notrunning: '{="The server is not currently running.  Please start the server, then try again."}',
 #.
-#: www/system/templates/client_head.tpl:25
+#: www/system/templates/client_head.tpl:27
 msgid "Retrieving current song..."
 msgstr "Empfange aktuellen Titel..."
 
@@ -9069,8 +9073,8 @@ msgstr ""
 "Zeitlich geplante Playlisten erlauben Ihnen, eine Liste der Titel "
 "festzulegen, die zu einem angegebenen Datum und zu einer angegebenen Zeit "
 "gespielt werden. Diese Wiedergabelisten können auch genutzt werden, um sie "
-"zu bestimmten Zeiten zu wiederholen und sie sind Ideal für tägliche/"
-"wöchentliche Countdowns oder aufgenommene Sendungen."
+"zu bestimmten Zeiten zu wiederholen und sie sind Ideal für Tägliche / "
+"Wöchentliche Countdowns oder aufgenommene Sendungen."
 
 #. File www/system/templates/playlist_edit.tpl:232
 #. Context: <tr>
@@ -9899,7 +9903,7 @@ msgstr "Source verbunden"
 #.
 #. File system/class_AccountFields.php:822
 #.
-#. File system/servers/IceCast/class_IceCastConfig.php:36
+#. File system/servers/IceCast/class_IceCastConfig.php:39
 #.
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:117
 #. Context: <tr>
@@ -9908,7 +9912,7 @@ msgstr "Source verbunden"
 #.
 #: www/system/templates/configuration_client_basic.tpl:134
 #: system/class_AccountFields.php:822
-#: system/servers/IceCast/class_IceCastConfig.php:36
+#: system/servers/IceCast/class_IceCastConfig.php:39
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:117
 msgid "Source password"
 msgstr "Source Passwort"
@@ -10041,12 +10045,12 @@ msgstr "Starten/Stoppen des Streamservers"
 msgid "started"
 msgstr "gestartet"
 
-#. File www/system/templates/client_head.tpl:24
+#. File www/system/templates/client_head.tpl:26
 #. Context: songnotavail: '{="Current song not available"}',
 #. stationoffline: '{="Station is offline"}',
 #. retrieving: '{="Retrieving current song..."}',
 #.
-#: www/system/templates/client_head.tpl:24
+#: www/system/templates/client_head.tpl:26
 msgid "Station is offline"
 msgstr "Station ist Offline"
 
@@ -10065,7 +10069,7 @@ msgstr "Streamserver Uhrzeit"
 #: www/system/templates/statistics.tpl:39
 msgid "Statistics can be reported for any period of up to %s days."
 msgstr ""
-"‎Statistiken können für einen Zeitraum von bis zu 90 Tagen abgerufen werden."
+"Statistiken können für einen Zeitraum von bis zu 90 Tagen abgerufen werden."
 
 #. File www/system/templates/statistics.tpl:31
 #. Context: </div>
@@ -10438,12 +10442,12 @@ msgid ""
 "available for the current mount point."
 msgstr ""
 
-#. File www/system/templates/client_head.tpl:26
+#. File www/system/templates/client_head.tpl:28
 #. Context: retrieving: '{="Retrieving current song..."}',
 #. notrunning: '{="The server is not currently running.  Please start the server, then try again."}',
 #. other: '{="Other"}',
 #.
-#: www/system/templates/client_head.tpl:26
+#: www/system/templates/client_head.tpl:28
 msgid ""
 "The server is not currently running.  Please start the server, then try "
 "again."
@@ -10539,13 +10543,14 @@ msgstr ""
 msgid ""
 "The username for an account can only be changed when its stream is offline"
 msgstr ""
+"Der Username für einen Account kann nur geändert werden, wenn der Streamserver ausgeschaltet ist."
 
 #. File www/system/templates/livestats_nolisteners.tpl:2
 #. Context: {box title="No listeners"}{="There are currently no listeners tuned-in to your stream."}{/box}
 #.
 #: www/system/templates/livestats_nolisteners.tpl:2
 msgid "There are currently no listeners tuned-in to your stream."
-msgstr ""
+msgstr "Aktuell befinden sich keine Zuhörer auf Ihren Streamserver."
 
 #. File www/system/templates/statistics_downloads.tpl:29
 #. Context: {box}
@@ -10557,8 +10562,8 @@ msgid ""
 "These reports provide the track name, air time, and number of listeners for "
 "each track broadcasted during the reporting period."
 msgstr ""
-"‎Diese Berichte enthalten die Titelnamen, Sendezeit und Anzahl der Listener "
-"für jeden Musiktitel welcher im Berichtszeitraum‎ gesendet wurde."
+"Diese Berichte enthalten die Titelnamen, Sendezeit und Anzahl der Listener "
+"für jeden Musiktitel welcher im Berichtszeitraum gesendet wurde."
 
 #. File www/system/templates/configfile_editor.tpl:29
 #. Context: <div style="width: 300px; padding: 10px">
@@ -10656,10 +10661,10 @@ msgstr ""
 #. Context: {box title="Already running"}
 #. {="This server is already running."}<br /><br />
 #.
-#. File system/class_ServerControl.php:854
+#. File system/class_ServerControl.php:860
 #.
 #: www/system/templates/already_running.tpl:2
-#: system/class_ServerControl.php:854
+#: system/class_ServerControl.php:860
 msgid "This server is already running."
 msgstr "Der Server l&auml;uft bereits."
 
@@ -10667,9 +10672,9 @@ msgstr "Der Server l&auml;uft bereits."
 #. Context: {box title="Not running"}
 #. {="This server is not running."}<br /><br />
 #.
-#. File system/class_ServerControl.php:1320
+#. File system/class_ServerControl.php:1326
 #.
-#: www/system/templates/not_running.tpl:2 system/class_ServerControl.php:1320
+#: www/system/templates/not_running.tpl:2 system/class_ServerControl.php:1326
 msgid "This server is not running."
 msgstr "Der Server l&auml;uft nicht."
 
@@ -11169,7 +11174,7 @@ msgstr "Top Länder nach Verbindungen"
 #.
 #: www/system/templates/statistics_listeners.tpl:160
 msgid "Top Listeners by Listener Minutes"
-msgstr "Top Zuhörer nach Minuten"
+msgstr "Top Zuhörer nach Zuhörer Minuten"
 
 #. File www/system/templates/statistics_listeners.tpl:137
 #. Context: <td valign="top" width="50%">
@@ -11507,12 +11512,12 @@ msgstr "Dienstag"
 msgid "Tune In"
 msgstr "Tune In"
 
-#. File www/system/templates/client_head.tpl:28
+#. File www/system/templates/client_head.tpl:30
 #. Context: other: '{="Other"}',
 #. tuneinwith: '{="Tune in with ..."}'
 #. {/language}
 #.
-#: www/system/templates/client_head.tpl:28
+#: www/system/templates/client_head.tpl:30
 msgid "Tune in with ..."
 msgstr "Tune In mit ..."
 
