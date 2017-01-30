@@ -125,14 +125,6 @@ msgstr ""
 msgid "Disk space quota"
 msgstr ""
 
-#. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:61
-#. Context: account[resellerbandwidth]" id="resellerbandwidth" size="5" value="{$centovacast_account.resellerbandwidth|htmlentities}" /> {="kbps"} ({="reseller accounts only"}, {="blank to use template setting"})</td>
-#.     	</tr>
-#. 
-#: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:61
-msgid "kbps"
-msgstr ""
-
 #. File billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:56
 #. Context: <td><label for="centovacast_account[resellerusers]"{if $centovacast_account_fielderrors.resellerusers>0} class="error"{/if}>{="Max accounts"}:</label></td>
 #.     		<td><input type="text" name="centovacast_account[resellerusers]" id="resellerusers" size="5" value="{$centova
