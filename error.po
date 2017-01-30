@@ -252,7 +252,7 @@ msgstr "Ungültiger Zielpfad"
 #. 
 #: www/login/modules/class_Module_forgot.php:49
 msgid "Invalid E-mail address."
-msgstr "Ungültige E-Mail-Adresse"
+msgstr "Ungültige E-Mail Adresse"
 
 #. File system/class_TrackManager.php:824
 #. 

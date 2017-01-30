@@ -947,7 +947,7 @@ msgstr "Startseite aktivieren"
 #. 
 #: www/system/templates/playlist_edit.tpl:174
 msgid "Active from"
-msgstr ""
+msgstr "Aktiv von"
 
 #. File www/system/templates/playlist_edit.tpl:182
 #. Context: <tr>
@@ -956,7 +956,7 @@ msgstr ""
 #. 
 #: www/system/templates/playlist_edit.tpl:182
 msgid "Active until"
-msgstr ""
+msgstr "Aktiv bis"
 
 #. File www/client/modules/class_Module_confeditor.php:57
 #. 
@@ -1003,7 +1003,7 @@ msgstr ""
 #: www/system/templates/admin_remoteserver_edit.tpl:21
 #: www/system/templates/installer_form.tpl:15
 msgid "Administrator password"
-msgstr "Administrator-Passwort"
+msgstr "Administrator Passwort"
 
 #. File www/client/modules/class_Module_control.php:89
 #. 
@@ -1622,7 +1622,7 @@ msgstr "Automatische Verarbeitung des Musikwunsches"
 #. 
 #: www/system/templates/upload_multiple.tpl:51
 msgid "Available space"
-msgstr ""
+msgstr "Speicherplatz"
 
 #. File www/system/templates/statistics_listeners.tpl:44
 #. Context: <td class="roweven">{="Average data transfer"}</td>
@@ -1957,7 +1957,7 @@ msgstr "Abbruch"
 #. 
 #: www/system/templates/upload_multiple.tpl:46
 msgid "Cancel all"
-msgstr ""
+msgstr "Alles abbrechen"
 
 #. File www/system/templates/upload_single.tpl:6
 #. Context: 'xfer_complete': '{="Complete"}.',
@@ -1972,7 +1972,7 @@ msgstr ""
 #: www/system/templates/upload_single.tpl:6
 #: www/system/templates/upload_multiple.tpl:6
 msgid "Cancelled"
-msgstr ""
+msgstr "Abgebrochen"
 
 #. File www/system/templates/configuration_client_source.tpl:27
 #. Context: {/check}
@@ -1980,7 +1980,7 @@ msgstr ""
 #. 
 #: www/system/templates/configuration_client_source.tpl:27
 msgid "cannot be modified while stream is online"
-msgstr ""
+msgstr "Kann nicht bearbeitet werden wenn Stream ist Online"
 
 #. File www/system/templates/configuration_form.tpl:45
 #. Context: {check ($reseller_editor>0) && ($creating==0) && ($template_editor==0)}
@@ -1989,7 +1989,7 @@ msgstr ""
 #. 
 #: www/system/templates/configuration_form.tpl:45
 msgid "Change password"
-msgstr ""
+msgstr "Passwort ändern"
 
 #. File www/system/templates/change_password.tpl:27
 #. Arguments: "<strong>",$reseller_username,"</strong>"
@@ -2129,7 +2129,7 @@ msgstr ""
 #: www/system/templates/upload_single.tpl:13
 #: www/system/templates/upload_multiple.tpl:13
 msgid "Click 'Select files' to select one or more files to upload."
-msgstr ""
+msgstr "Klicken Sie 'Durchsuchen' um eine oder mehrere Dateien von Ihren Rechner aus hochzuladen."
 
 #. File www/system/templates/reseller_index.tpl:43
 #. Context: {/tip}>
@@ -2187,7 +2187,7 @@ msgstr ""
 #: www/system/templates/admin_utilities.tpl:5
 #: www/system/templates/admin_accounts.tpl:28
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #. File www/reseller/modules/class_Module_accountstats.php:13
 #. 
@@ -2329,7 +2329,7 @@ msgstr ""
 #. 
 #: www/client/modules/class_Module_djaccounts.php:21
 msgid "Configure DJ access to your streams"
-msgstr "Erstellen und verwalten Sie die DJ-Zugänge zu Ihren Streamserver"
+msgstr "Verwaltung der DJ Zugänge."
 
 #. File www/system/templates/m/index.tpl:24
 #. Context: <li><a href="index.php?page=library">{="Media library"}</a></li>
@@ -2338,7 +2338,7 @@ msgstr "Erstellen und verwalten Sie die DJ-Zugänge zu Ihren Streamserver"
 #. 
 #: www/system/templates/m/index.tpl:24
 msgid "Configure playlists"
-msgstr ""
+msgstr "Bearbeite Playlisten"
 
 #. File www/system/templates/change_password.tpl:41
 #. Context: <tr>
@@ -2347,7 +2347,7 @@ msgstr ""
 #. 
 #: www/system/templates/change_password.tpl:41
 msgid "Confirm new password"
-msgstr ""
+msgstr "Bestätige neues Passwort"
 
 #. File www/system/templates/statistics_tracks.tpl:63
 #. Context: <th style="text-align: right" width="70">{="Net Conn."}</th>
@@ -2356,7 +2356,7 @@ msgstr ""
 #. 
 #: www/system/templates/statistics_tracks.tpl:63
 msgid "Conn./Min"
-msgstr ""
+msgstr "Verb./Min"
 
 #. File www/system/templates/playlist.tpl:19
 #. Context: </div>
@@ -3741,7 +3741,7 @@ msgstr "Dateimanager"
 #. 
 #: www/system/templates/upload_multiple.tpl:75
 msgid "File progress"
-msgstr ""
+msgstr "Datei Fortschritt"
 
 #. File www/system/templates/upload_single.tpl:43
 #. Context: <div class="upload_file_info">
@@ -3750,7 +3750,7 @@ msgstr ""
 #. 
 #: www/system/templates/upload_single.tpl:43
 msgid "File Upload"
-msgstr ""
+msgstr "Dateiupload"
 
 #. File www/system/templates/playlist_edit.tpl:272
 #. Context: f}>{="Scheduled date"}</option>
@@ -3966,7 +3966,7 @@ msgstr "Einzelheiten zur Allgemeinen rotierenden Playliste"
 #. 
 #: www/system/templates/playlist_edit.tpl:88
 msgid "General rotation playlists are used to play media from your library when no scheduled or interval playlists are due to be played.  Most stations spend the majority of their air time playing tracks from general rotation playlists."
-msgstr "Die allgemeinen rotierende Wiedergabelisten werden benutzt um Titel zu spielen wenn keine planmÃ€Ã�igen oder regelmÃ€Ã�igen Wiedergabelisten folgen."
+msgstr "Die allgemeinen rotierende Wiedergabelisten werden benutzt um Titel zu spielen wenn keine planmäßigen oder regelmäßigen Wiedergabelisten folgen."
 
 #. File www/system/templates/playlist_edit.tpl:166
 #. Context: <br />
@@ -3974,7 +3974,7 @@ msgstr "Die allgemeinen rotierende Wiedergabelisten werden benutzt um Titel zu s
 #. 
 #: www/system/templates/playlist_edit.tpl:166
 msgid "General rotation playlists can also be limited to a specific period of the day.  This can be used to play lighter songs in the morning and heavier songs in the afternoon, for example.  If no time period is selected, the playlist will be active for the entire day."
-msgstr ""
+msgstr "Eine Allgemeine Rotations Playliste kann auch auf eine spezifischen Zeit am Tag begrenzt werden. Als Beispiel könnte man dies nutzen um am Morgen ruhigere und gegen Abend eher aufregendere Musik zu spielen. Wenn keine Zeitangabe erfolgt, gilt die Playliste automatisch den ganzen Tag."
 
 #. File www/system/templates/playlist_edit.tpl:148
 #. Context: {="General rotation playlists can be 'weighted' to ensure that tracks from one general rotation playlist are played more or less frequently than tracks from other general rotation playlists.  This can be used to ensure that new releases are played more frequently than older tracks, for example."}<br /><br />
@@ -5531,7 +5531,7 @@ msgstr ""
 #. 
 #: www/system/templates/upload_multiple.tpl:67
 msgid "No uploads in progress"
-msgstr ""
+msgstr "Aktuell findet kein Upload statt"
 
 #. File www/system/templates/configfile_editor.tpl:30
 #. Context: llows advanced users to directly modified the raw configuration files for the underlying streaming software."}<br /><br />
@@ -5785,7 +5785,7 @@ msgstr ""
 #. 
 #: www/system/templates/upload_multiple.tpl:79
 msgid "Overall progress"
-msgstr ""
+msgstr "Gesamt Fortschritt"
 
 #. File www/client/modules/class_Module_index.php:18
 #. Arguments: '<strong>' . $account['hostname'] . '</strong>'
@@ -6646,7 +6646,7 @@ msgstr ""
 #. 
 #: www/system/templates/upload_multiple.tpl:54
 msgid "Queued"
-msgstr ""
+msgstr "Warteschlange"
 
 #. File www/system/templates/playlist_edit.tpl:138
 #. Context: "playlist[general_order]" size="1">
@@ -7637,7 +7637,7 @@ msgstr ""
 #. 
 #: www/system/templates/upload_multiple.tpl:45
 msgid "Select files"
-msgstr ""
+msgstr "Durchsuchen"
 
 #. File www/system/templates/new_account_form.tpl:83
 #. Context: <select id="newacct_server" name="servertype">
@@ -7906,7 +7906,7 @@ msgstr ""
 #. 
 #: www/client/modules/class_Module_quicklinks.php:17
 msgid "Settings and information for using your stream"
-msgstr "Einstellungen und Informationen zur Verwaltung ihres Streamservers"
+msgstr "Einstellungen zur Verwaltung ihres Streamservers"
 
 #. File www/reseller/modules/class_Module_reselleremails.php:9
 #. 
@@ -8222,7 +8222,7 @@ msgstr ""
 #. 
 #: www/system/templates/statistics.tpl:31
 msgid "Statistics for reporting period:"
-msgstr ""
+msgstr "Statistikzeitraum:"
 
 #. File www/system/templates/state_changed.tpl:1
 #. Context: {box title="Status change"}
@@ -8248,7 +8248,7 @@ msgstr "Status konnte nicht aktualisiert werden"
 #. 
 #: www/system/templates/status_updated.tpl:3
 msgid "Status updated successfully"
-msgstr ""
+msgstr "Status erfolgreich geupdatet"
 
 #. File www/system/templates/configuration_client_source.tpl:94
 #. Context: channels==0} selected="selected"{/if}>{="Auto"}</option>
@@ -8682,13 +8682,13 @@ msgstr "Dieses Stückchen ist dem oberen ähnlich, erlaubt aber die Platzierung 
 #. 
 #: www/client/modules/class_Module_widgets.php:129
 msgid "This widget will display a browser for your on-demand content, and allow your visitors to listen to and create playlists for your content."
-msgstr ""
+msgstr "Mit diesen Widget ist es möglich Ihren Besuchern, einen Download der hochgeladenen Dateien zu ermöglichen. Bitte lesen Sie vor dem Einsatz: https://doku.streampanel.de/streamserver/centova-cast/on-demand-widget-inhalte-auf-abruf/"
 
 #. File www/client/modules/class_Module_widgets.php:140
 #. 
 #: www/client/modules/class_Module_widgets.php:140
 msgid "This widget will display a form with which users can submit song requests.  Song requests are either processed automatically or E-mailed to the stream administrator depending on your widget configuration."
-msgstr ""
+msgstr "Dieses Widget stellt eine Musikwunsch Box bereit. Der AutoDJ verarbeitet eingehene Musikwünsche völlig automatisch und spielt Sie den Zuhörern entsprechend ab."
 
 #. File www/client/modules/class_Module_widgets.php:105
 #. 
@@ -9463,7 +9463,7 @@ msgstr "Auf Log-Datei %s kann nicht zugrgriffen werden."
 #. 
 #: www/system/templates/configfile_editor.tpl:43
 msgid "Undo"
-msgstr ""
+msgstr "Rückgängig"
 
 #. File www/system/templates/statistics_recent.tpl:42
 #. Context: <td class="roweven">&nbsp;</td>
@@ -9477,7 +9477,7 @@ msgstr ""
 #: www/system/templates/statistics_recent.tpl:42
 #: www/system/templates/statistics_listeners.tpl:58
 msgid "Unique countries"
-msgstr ""
+msgstr "Einzigartige Länder"
 
 #. File www/system/templates/statistics_recent.tpl:37
 #. Context: <td class="rowodd">&nbsp;</td>
@@ -9491,7 +9491,7 @@ msgstr ""
 #: www/system/templates/statistics_recent.tpl:37
 #: www/system/templates/statistics_listeners.tpl:51
 msgid "Unique listeners"
-msgstr ""
+msgstr "Einzigartige Zuhörer"
 
 #. File www/system/templates/statistics_tracks.tpl:28
 #. Context: <tr>
@@ -9500,7 +9500,7 @@ msgstr ""
 #. 
 #: www/system/templates/statistics_tracks.tpl:28
 msgid "Unique tracks"
-msgstr ""
+msgstr "Einzigartige Musikdateien"
 
 #. File www/system/templates/reseller_index.tpl:28
 #. Context: usage"}: <span style="font-weight: bold; white-space: nowrap">{if $account.nodiskquota}{$allocated.useddisk|bytes::1048576} ({="UNL"}){else}{$currentdisk|bytes:$diskquota:1048576}{/if}</span>
@@ -9543,7 +9543,7 @@ msgstr ""
 #: www/system/templates/admin_index.tpl:20
 #: www/system/templates/admin_accounts_javascript.tpl:7
 msgid "UNL"
-msgstr ""
+msgstr "UNL"
 
 #. File www/system/templates/filemanager.tpl:40
 #. Context: unlimited: '{="Unlimited"}',
@@ -9605,7 +9605,7 @@ msgstr "Unbegrenzt"
 #. 
 #: www/system/templates/autodj_mountpoint_lang.tpl:6
 msgid "Unlock key required"
-msgstr ""
+msgstr "MP3 Unlock Key benötigt"
 
 #. File www/system/templates/statistics_listeners.tpl:85
 #. Context: 0">{="%.2f%%",$zero}</span> <img id="listeners_trend30_img" src="../system/images/icons/trend_up.png" align="absmiddle" alt="{="Up"}/{="Down"}" /></td>
@@ -9739,7 +9739,7 @@ msgstr "Aktualisiere"
 #: www/system/templates/admin_remoteserver_edit.tpl:4
 #: www/system/templates/admin_email.tpl:89
 msgid "Update Failed"
-msgstr ""
+msgstr "Update fehlgeschlagen"
 
 #. File www/system/templates/change_password.tpl:49
 #. Context: {/if}
@@ -9811,7 +9811,7 @@ msgstr "Aktualisiere Nutzung"
 #: www/system/templates/filemanager.tpl:84
 #: www/system/templates/filemanager.tpl:32
 msgid "Upload"
-msgstr "Upload"
+msgstr "Hochladen"
 
 #. File www/system/templates/upload_single.tpl:8
 #. Context: 'xfer_stopped': '{="Stopped"}',
@@ -10063,7 +10063,7 @@ msgstr ""
 #: www/system/templates/configuration_client_basic.tpl:128
 #: system/class_AccountFields.php:772
 msgid "Website URL"
-msgstr "Webseite-URL"
+msgstr "URL Webseite"
 
 #. File www/client/modules/class_Module_statistics.php:45
 #. 

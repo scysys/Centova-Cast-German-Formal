@@ -599,7 +599,7 @@ msgstr ""
 #. 
 #: www/system/templates/admin_settings.tpl:319
 msgid "Change administrator password"
-msgstr "Ändern Sie das Administrator-Passwort"
+msgstr "Ändern Sie das Administrator Passwort"
 
 #. File www/admin/modules/class_Module_manageaccount.php:23
 #. 
@@ -3011,7 +3011,7 @@ msgstr ""
 #. 
 #: www/system/templates/admin_settings.tpl:91
 msgid "Transfer limits"
-msgstr ""
+msgstr "Transfer Limit"
 
 #. File www/system/templates/admin_utilities.tpl:41
 #. Context: <tr><td colspan="2"><br /></td></tr>

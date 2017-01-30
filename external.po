@@ -824,7 +824,7 @@ msgstr ""
 #: www/theme/templates/quick_links.tpl:90
 #: www/theme/templates/quick_links.tpl:70
 msgid "Example: %sjsmith:secret%s"
-msgstr ""
+msgstr "Example: %susername:passwort%s"
 
 #. File www/class_Template.php:1498
 #. 
@@ -1003,7 +1003,7 @@ msgstr ""
 #: www/theme/templates/quick_links.tpl:103
 #: www/theme/templates/quick_links.tpl:84
 msgid "If your live source client only supports old-style SHOUTcast v1-style source connections"
-msgstr ""
+msgstr "Wenn Ihr Broadcaster nur das alte Shoutcast V1 Protokoll erlaubt"
 
 #. File www/theme/templates/quick_links.tpl:94
 #. Context: {else}
@@ -1016,7 +1016,7 @@ msgstr ""
 #: www/theme/templates/quick_links.tpl:94
 #: www/theme/templates/quick_links.tpl:74
 msgid "If your live source client supports modern SHOUTcast v2-style source connections"
-msgstr ""
+msgstr "Wenn Ihr Broadcaster das moderne Shoutcast V2 Protokoll erlaubt"
 
 #. File www/system/templates/forgotsent.tpl:4
 #. Arguments: "<br />"
@@ -2019,7 +2019,7 @@ msgstr ""
 #: www/system/templates/admin_sourcetype_edit.tpl:28
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:27
 msgid "No"
-msgstr ""
+msgstr "Nein"
 
 #. File www/external/rpc/class_RPCondemand.php:134
 #. 
@@ -2159,7 +2159,7 @@ msgstr "Aktuell ist keine History gespielter Titel verfügbar."
 #: system/class_Statistics.php:443
 #: system/servers/IceCast/class_IceCastStatusParser.php:308
 msgid "None"
-msgstr "Leider gibt es aktuelle nichts zum Anzeigen. Wir wünschten es wäre anders :)"
+msgstr "Leider gibt es Aktuell nichts zum Anzeigen. Wir wünschten es wäre anders :)"
 
 #. File www/rpc/class_RPCServer.php:213
 #. Arguments: is_null($details) ? '' : ' ('.$details.')'
@@ -2529,7 +2529,7 @@ msgstr "Bitte prüfen Sie Ihre E-Mails."
 #. 
 #: www/external/rpc/class_RPCrequest.php:20
 msgid "Please enter a valid E-mail address."
-msgstr ""
+msgstr "Bitte geben Sie eine gültige E-Mail Adresse ein."
 
 #. File www/system/templates/login_form.tpl:11
 #. Context: wrap="nowrap">	<input type="password" name="password" id="passwordfield" class="loginfield" validate="/^[^\s]{4,}$/" valmsg="{="Please enter a valid password."}" value="" size="12" maxlength="32" /></td></tr>
@@ -3515,7 +3515,7 @@ msgstr "Die angeforderte Seite konnte nicht gefunden werden."
 #: www/theme/templates/quick_links.tpl:89
 #: www/theme/templates/quick_links.tpl:69
 msgid "The username and password of one of your %sDJ accounts%s, separated by a colon"
-msgstr ""
+msgstr "Der Username und das Passwort eines Ihrer %sDJ accounts%s."
 
 #. File www/theme/templates/quick_links.tpl:79
 #. Arguments: "<a href='index.php?page=djaccounts'>","</a>"
@@ -3525,13 +3525,13 @@ msgstr ""
 #. 
 #: www/theme/templates/quick_links.tpl:79
 msgid "The username of one of your %sDJ accounts%s"
-msgstr ""
+msgstr "Der Username eines Ihrer %sDJ accounts%s"
 
 #. File www/external/rpc/class_RPCstreamlist.php:13
 #. 
 #: www/external/rpc/class_RPCstreamlist.php:13
 msgid "This feature is not enabled."
-msgstr ""
+msgstr "Dieses Feature ist derzeit nicht aktiviert."
 
 #. File www/menu.php:371
 #. 

@@ -493,7 +493,7 @@ msgstr ""
 #: system/sources/liquidsoap/class_LiquidSoapSettingsConnector.php:448
 #: system/sources/liquidsoap/templates/configuration_source.tpl:14
 msgid "Apply replay gain"
-msgstr ""
+msgstr "Aktiviere Replay Gain"
 
 #. File system/class_MIMETypes.php:44
 #. 
@@ -874,7 +874,7 @@ msgstr ""
 #.     <tr><td colspan="2">{="Configures relaying of other streams by your server.  The remote server will act as a source for your stream."}<br /><br /></td></tr>
 #. 
 #: system/servers/ShoutCast/templates/configuration_client_relay.tpl:26
-msgid "Configures relaying of other streams by your server.  The remote server will act as a source for your stream."
+msgid "Configures relaying of other streams by your server. The remote server will act as a source for your stream."
 msgstr "Konfiguriert die Weiterleitung von einem anderen Streamserver an Ihren Streamserver. Der Remoteserver wird als Quelle für Ihren Streamserver dienen."
 
 #. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:4
@@ -882,7 +882,7 @@ msgstr "Konfiguriert die Weiterleitung von einem anderen Streamserver an Ihren S
 #. 
 #: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:4
 msgid "Configures relaying of your stream by other servers, where your stream will act as a source for the remote server."
-msgstr ""
+msgstr "Konfiguriert die Weiterleitung ihres Streamserver von anderen Servern. Ihr Stream wird als Quelle für den Remoteserver dienen."
 
 #. File system/servers/ShoutCast/templates/configuration_client_relay.tpl:4
 #. Context: <tr><td colspan="2">{="Configures relaying of your stream by other servers.  Your stream will act as a source for the remote server."}<br /><br /></td></tr>
@@ -947,7 +947,7 @@ msgstr "Konnte Server nicht starten"
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:23
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:27
 msgid "Create new"
-msgstr ""
+msgstr "Neu erstellen"
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettingsConnector.php:446
 #. 
@@ -1021,7 +1021,7 @@ msgstr "CSS Datei"
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:12
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:16
 msgid "Current mount points"
-msgstr ""
+msgstr "Aktuelle Mount Points"
 
 #. File system/plugins/-ads_amazon/hooks.php:157
 #. Arguments: 'Amazon&reg;'
@@ -1081,7 +1081,7 @@ msgstr ""
 #. 
 #: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:60
 msgid "Directory listings"
-msgstr ""
+msgstr "Shoutcast Directory Eintrag"
 
 #. File system/servers/ShoutCast/class_ShoutCastConfig.php:52
 #. 
@@ -2251,7 +2251,7 @@ msgstr ""
 #: system/sources/sctrans2/class_Sourcesctrans2.php:561
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:60
 msgid "Optimize for"
-msgstr ""
+msgstr "Optimiert für"
 
 #. File system/class_MIMETypes.php:45
 #. 
@@ -2553,7 +2553,7 @@ msgstr "Weiterleiten"
 #. 
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:50
 msgid "Relaying cannot be used on mount points for which the autoDJ is enabled."
-msgstr ""
+msgstr "Relaying kann in den Mount Points nicht verwendet werden wenn der AutoDJ aktiviert ist."
 
 #. File system/class_AccountControl.php:233
 #. 
@@ -2932,7 +2932,7 @@ msgstr ""
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:24
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:33
 msgid "Stream path"
-msgstr ""
+msgstr "Stream Pfad"
 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:61
 #. 
@@ -3193,7 +3193,7 @@ msgstr ""
 #: system/sources/sctrans2/templates/configuration_source.tpl:59
 #: system/sources/liquidsoap/templates/configuration_source.tpl:26
 msgid "Tip: Use the %sMount Points%s tab to configure settings for your individual autoDJ encoders."
-msgstr ""
+msgstr "Tip: Verwenden Sie den %sMount Points%s Tab um Ihren AutoDJ individuell zu konfigurieren."
 
 #. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:27
 #. Arguments: "<a href='#' onclick='go_mp_tab(); return false'>","</a>"
@@ -3202,7 +3202,7 @@ msgstr ""
 #. 
 #: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:27
 msgid "Tip: Use the %sMount Points%s tab to configure your server to relay a remote stream."
-msgstr ""
+msgstr "Tip: Verwenden Sie den %sMount Points%s Tab für den Relay eines entfernten Streamservers."
 
 #. File system/class_LogProcessor.php:752
 #. 
@@ -3261,7 +3261,7 @@ msgstr ""
 #: system/class_AccountFields.php:754
 #: www/system/templates/configuration_client_limits.tpl:166
 msgid "Transfer limit"
-msgstr ""
+msgstr "Transfer Limit"
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:586
 #. 
@@ -3578,7 +3578,7 @@ msgstr ""
 #. 
 #: system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:29
 msgid "Warning: if your stream is made public but the directory server cannot reach it, ShoutCast DNAS may shut itself down without warning."
-msgstr ""
+msgstr "Warnung: Das Veröffentlichen Ihres Shoutcast Servers kann negative auswirkungen haben, wenn der Öffentliche Shoutcast Service beeinträchtigt ist. Der Automatische Modus kann abhilfe schaffen."
 
 #. File system/class_AccountFields.php:775
 #. 
