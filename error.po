@@ -434,7 +434,7 @@ msgstr "Keine &uuml;bereinstimmenden Titel gefunden"
 #.
 #: system/class_TrackManager.php:941
 msgid "No playlists are active for this account"
-msgstr "F&uuml;r diesen Account sind keine Wiedergabelisten aktiviert"
+msgstr "Für diesen Account sind keine Wiedergabelisten aktiviert"
 
 #. File system/class_ServerControl.php:1352
 #.
