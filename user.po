@@ -5,15 +5,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2017-01-29 04:22+0100\n"
-"PO-Revision-Date: 2017-01-29 04:22+0100\n"
+"POT-Creation-Date: 2017-03-13 12:41+0100\n"
+"PO-Revision-Date: 2017-03-13 12:41+0100\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #. File www/system/templates/statistics_listeners.tpl:190
 #. Arguments: $listener.bandwidth|div:1024
@@ -2420,7 +2420,7 @@ msgstr ""
 msgid "Channels"
 msgstr "Channel"
 
-#. File www/system/templates/configuration_reseller_basic.tpl:48
+#. File www/system/templates/configuration_reseller_basic.tpl:59
 #. Context: <tr>
 #. <td>{="Character encoding"}:</td>
 #. <td colspan="2">
@@ -2439,7 +2439,7 @@ msgstr "Channel"
 #.
 #. File system/class_AccountFields.php:337
 #.
-#: www/system/templates/configuration_reseller_basic.tpl:48
+#: www/system/templates/configuration_reseller_basic.tpl:59
 #: www/system/templates/widgets.tpl:44
 #: www/system/templates/configuration_client_basic.tpl:167
 #: system/class_AccountFields.php:808 system/class_AccountFields.php:337
@@ -4284,10 +4284,11 @@ msgid ""
 "and end a line with '/' to specify a Perl-compatible regular expression to "
 "match."
 msgstr ""
-"Geben Sie ein Wort / Zeichen pro Linie an. (Groß -/ Kleinschreibung wird beachtet.) "
-"Metadaten welche diese Angaben entsprechen werden von der Centova Statistik ausgeschlossen. "
-"Der Ausschluß von Metadaten kann Ihre Statistik erheblich verbessern.%s"
-"Optional: Beginnen und beenden Sie eine Reihe mit / um eine Perl-Kompatibel Expression sicherzustellen."
+"Geben Sie ein Wort / Zeichen pro Linie an. (Groß -/ Kleinschreibung wird "
+"beachtet.) Metadaten welche diese Angaben entsprechen werden von der Centova "
+"Statistik ausgeschlossen. Der Ausschluß von Metadaten kann Ihre Statistik "
+"erheblich verbessern.%sOptional: Beginnen und beenden Sie eine Reihe mit / "
+"um eine Perl-Kompatibel Expression sicherzustellen."
 
 #. File www/system/templates/connection_details.tpl:24
 #. Context: {box title="Live Source Connections"}
@@ -5669,6 +5670,11 @@ msgstr "Livebericht Ihrer aktuellen Zuhörer"
 msgid "Live Source Connections"
 msgstr "Broadcasting Daten"
 
+#. File www/system/templates/configuration_reseller_basic.tpl:48
+#. Context: <tr>
+#. <td>{="Locale"}:&nbsp;</td>
+#. <td colspan="4">
+#.
 #. File www/system/templates/configuration_client_basic.tpl:156
 #. Context: <tr>
 #. <td>{="Locale"}:&nbsp;</td>
@@ -5678,6 +5684,7 @@ msgstr "Broadcasting Daten"
 #.
 #. File system/class_AccountFields.php:338
 #.
+#: www/system/templates/configuration_reseller_basic.tpl:48
 #: www/system/templates/configuration_client_basic.tpl:156
 #: system/class_AccountFields.php:809 system/class_AccountFields.php:338
 msgid "Locale"
@@ -9364,6 +9371,11 @@ msgstr ""
 msgid "Server Controls"
 msgstr "Streamserver Verwaltung"
 
+#. File www/system/templates/configuration_reseller_basic.tpl:51
+#. Context: <select name="config[locale]" size="1">
+#. <option value=""{if $config.locale=""} selected="selected"{/if}>{="Server default"} - {$locales[$_CONSTANTS.LOCALE]} ({$_CONSTANTS.LOCALE})</option>
+#. {loop $locale=$locales}
+#.
 #. File www/system/templates/configuration_reseller_basic.tpl:40
 #. Context: <select name="config[timezone]" size="1">
 #. <option value="127"{if $config.timezone==127} selected="selected"{/if}>{="Server default"} ({$defaulttimezone})</option>
@@ -9379,6 +9391,7 @@ msgstr "Streamserver Verwaltung"
 #. <option value="127"{if $config.timezone==127} selected="selected"{/if}>{="Server default"} ({$defaulttimezone})</option>
 #. {loop $description=$timezones}
 #.
+#: www/system/templates/configuration_reseller_basic.tpl:51
 #: www/system/templates/configuration_reseller_basic.tpl:40
 #: www/system/templates/configuration_client_basic.tpl:159
 #: www/system/templates/configuration_client_basic.tpl:148
@@ -10543,7 +10556,8 @@ msgstr ""
 msgid ""
 "The username for an account can only be changed when its stream is offline"
 msgstr ""
-"Der Username für einen Account kann nur geändert werden, wenn der Streamserver ausgeschaltet ist."
+"Der Username für einen Account kann nur geändert werden, wenn der "
+"Streamserver ausgeschaltet ist."
 
 #. File www/system/templates/livestats_nolisteners.tpl:2
 #. Context: {box title="No listeners"}{="There are currently no listeners tuned-in to your stream."}{/box}

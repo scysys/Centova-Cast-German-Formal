@@ -5,15 +5,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2017-01-29 04:21+0100\n"
-"PO-Revision-Date: 2017-01-29 04:21+0100\n"
+"POT-Creation-Date: 2017-03-13 12:40+0100\n"
+"PO-Revision-Date: 2017-03-13 12:40+0100\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #. Name of language (in target language, eg: Deutsch for German, Francais for French, etc.)
 msgid "_LANGUAGE"
@@ -139,8 +139,8 @@ msgid ""
 "A fallback clip has already been assigned for this mount point.  If you "
 "configure a fallback mount point instead, the fallback clip will be removed."
 msgstr ""
-"Ein Fallback Titel wurde bereits angelegt für diesen Mountpoint. "
-"Wenn Sie stattdessen einen Fallback Mountpoint erstellen, wird der Titel gelöscht."
+"Ein Fallback Titel wurde bereits angelegt für diesen Mountpoint. Wenn Sie "
+"stattdessen einen Fallback Mountpoint erstellen, wird der Titel gelöscht."
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:41
 #. Context: >{="Ogg/Opus"}</option>{/if}
@@ -176,7 +176,8 @@ msgstr "Konto erstellt"
 #.
 #: system/class_SystemControl.php:1515
 msgid "Account created successfully, but stream could not be started"
-msgstr "Konto erfolgreich erstellt, aber der Stream konnte nicht gestartet werden"
+msgstr ""
+"Konto erfolgreich erstellt, aber der Stream konnte nicht gestartet werden"
 
 #. File system/class_AccountControl.php:341
 #.
@@ -1329,7 +1330,7 @@ msgstr "Im Standard deaktiviert; Kann per Mountpoint aktiviert werden"
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:14
 #. Context: <tr>
 #. <td>{="Disconnect idle sources after"}:</td>
-#. <td><input type="text" name="config[autodumptime]" size="6" value="{$config.autodumptime|htmlentities}" /> {="second(
+#. <td><input type="text" name="config[autodumpsourcetime]" size="6" value="{$config.autodumpsourcetime|htmlentities}" /
 #.
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:68
 #.
@@ -3150,8 +3151,8 @@ msgid ""
 msgstr ""
 
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:15
-#. Context: s after"}:</td>
-#. <td><input type="text" name="config[autodumptime]" size="6" value="{$config.autodumptime|htmlentities}" /> {="second(s) (0 for never)"} {$errors.autodumptime|checkerror} </td>
+#. Context: td>
+#. <td><input type="text" name="config[autodumpsourcetime]" size="6" value="{$config.autodumpsourcetime|htmlentities}" /> {="second(s) (0 for never)"} {$errors.autodumpsourcetime|checkerror} </td>
 #. </tr>
 #.
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:11
