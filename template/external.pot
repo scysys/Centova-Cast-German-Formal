@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2017-01-09 17:51-0800\n"
-"PO-Revision-Date: 2017-01-09 17:51-0800\n"
+"POT-Creation-Date: 2017-03-09 17:15-0800\n"
+"PO-Revision-Date: 2017-03-09 17:15-0800\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. File www/class_StreamStatus.php:547
+#. File www/class_StreamStatus.php:551
 #. Arguments: $this->str($this->bitrate)
 #. 
 #. File www/class_CCTemplate.php:574
@@ -29,7 +29,7 @@ msgstr ""
 #. File www/client/class_ClientApplication.php:157
 #. Arguments: $this->streamstatus->bitrate
 #. 
-#: www/class_StreamStatus.php:547
+#: www/class_StreamStatus.php:551
 #: www/class_CCTemplate.php:574
 #: www/system/templates/index_heading.tpl:3
 #: www/client/class_ClientApplication.php:157
@@ -1354,9 +1354,9 @@ msgstr ""
 msgid "Music"
 msgstr ""
 
-#. File www/class_StreamStatus.php:547
+#. File www/class_StreamStatus.php:551
 #. 
-#: www/class_StreamStatus.php:547
+#: www/class_StreamStatus.php:551
 msgid "n/a"
 msgstr ""
 
@@ -1378,7 +1378,7 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#. File www/class_StreamStatus.php:550
+#. File www/class_StreamStatus.php:554
 #. 
 #. File www/system/templates/configuration_client_widgets.tpl:14
 #. Context: tpage>0} selected="selected"{/if}>{="Yes"}</option>
@@ -1648,7 +1648,7 @@ msgstr ""
 #.     			<option value="0"{if $centovacast_account.startserver==0} selected="selected"{/if}>{="No"}</option>
 #.     			</select> ({="only used for non-autoDJ streams"})
 #. 
-#: www/class_StreamStatus.php:550
+#: www/class_StreamStatus.php:554
 #: www/system/templates/configuration_client_widgets.tpl:14
 #: www/system/templates/configuration_client_source.tpl:62
 #: www/system/templates/configuration_client_source.tpl:53
@@ -1722,7 +1722,7 @@ msgstr ""
 
 #. File www/external/rpc/class_RPCrequest.php:23
 #. 
-#. File www/class_StreamStatus.php:530
+#. File www/class_StreamStatus.php:534
 #. 
 #. File www/system/templates/statistics_downloads.tpl:24
 #. Context: <tbody>
@@ -1823,7 +1823,7 @@ msgstr ""
 #. File system/class_Statistics.php:494
 #. 
 #: www/external/rpc/class_RPCrequest.php:23
-#: www/class_StreamStatus.php:530
+#: www/class_StreamStatus.php:534
 #: www/system/templates/statistics_downloads.tpl:24
 #: www/system/templates/new_account_form.tpl:101
 #: www/system/templates/livestats.tpl:100
@@ -1915,13 +1915,13 @@ msgstr ""
 msgid "Oct"
 msgstr ""
 
-#. File www/class_StreamStatus.php:548
+#. File www/class_StreamStatus.php:552
 #. 
-#. File www/class_StreamStatus.php:549
+#. File www/class_StreamStatus.php:553
 #. 
 #. File www/external/rpc/class_RPCaccountinfo.php:47
 #. 
-#. File www/class_StreamStatus.php:539
+#. File www/class_StreamStatus.php:543
 #. 
 #. File www/theme/templates/m/page.tpl:24
 #. Context: } else {
@@ -1934,10 +1934,10 @@ msgstr ""
 #. 
 #. File www/client/class_ClientApplication.php:157
 #. 
-#: www/class_StreamStatus.php:548
-#: www/class_StreamStatus.php:549
+#: www/class_StreamStatus.php:552
+#: www/class_StreamStatus.php:553
 #: www/external/rpc/class_RPCaccountinfo.php:47
-#: www/class_StreamStatus.php:539
+#: www/class_StreamStatus.php:543
 #: www/theme/templates/m/page.tpl:24
 #: www/external/rpc/class_RPCaccountinfo.php:48
 #: www/client/class_ClientApplication.php:159
@@ -1962,11 +1962,11 @@ msgstr ""
 msgid "On-demand content has been disabled for this stream."
 msgstr ""
 
-#. File www/class_StreamStatus.php:549
+#. File www/class_StreamStatus.php:553
 #. 
 #. File www/external/rpc/class_RPCaccountinfo.php:47
 #. 
-#. File www/class_StreamStatus.php:548
+#. File www/class_StreamStatus.php:552
 #. 
 #. File www/external/rpc/class_RPCaccountinfo.php:48
 #. 
@@ -1974,9 +1974,9 @@ msgstr ""
 #. 
 #. File www/client/class_ClientApplication.php:157
 #. 
-#: www/class_StreamStatus.php:549
+#: www/class_StreamStatus.php:553
 #: www/external/rpc/class_RPCaccountinfo.php:47
-#: www/class_StreamStatus.php:548
+#: www/class_StreamStatus.php:552
 #: www/external/rpc/class_RPCaccountinfo.php:48
 #: www/client/class_ClientApplication.php:159
 #: www/client/class_ClientApplication.php:157
@@ -3238,7 +3238,7 @@ msgstr ""
 msgid "Widgets"
 msgstr ""
 
-#. File www/class_StreamStatus.php:550
+#. File www/class_StreamStatus.php:554
 #. 
 #. File www/system/templates/configuration_client_widgets.tpl:22
 #. Context: <select name="config[allowondemand]" size="1">
@@ -3506,7 +3506,7 @@ msgstr ""
 #.     			<option value="1"{if $centovacast_account.startserver>0} selected="selected"{/if}>{="Yes"}</option>
 #.     			<option value="0"{if $centovacast_account.startserver==0} selected="selected"{/if}>{="No"}</option>
 #. 
-#: www/class_StreamStatus.php:550
+#: www/class_StreamStatus.php:554
 #: www/system/templates/configuration_client_widgets.tpl:22
 #: www/system/templates/configuration_reseller_options.tpl:56
 #: www/system/templates/configuration_client_source.tpl:61

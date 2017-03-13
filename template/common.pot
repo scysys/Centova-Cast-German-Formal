@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2017-01-09 17:51-0800\n"
-"PO-Revision-Date: 2017-01-09 17:51-0800\n"
+"POT-Creation-Date: 2017-03-09 17:15-0800\n"
+"PO-Revision-Date: 2017-03-09 17:15-0800\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -1313,7 +1313,7 @@ msgstr ""
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:14
 #. Context: <tr>
 #.     	<td>{="Disconnect idle sources after"}:</td>
-#.     	<td><input type="text" name="config[autodumptime]" size="6" value="{$config.autodumptime|htmlentities}" /> {="second(
+#.     	<td><input type="text" name="config[autodumpsourcetime]" size="6" value="{$config.autodumpsourcetime|htmlentities}" /
 #. 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:68
 #. 
@@ -3109,8 +3109,8 @@ msgid "sc_trans v2 allows broadcasting in AAC+ format free of charge, but requir
 msgstr ""
 
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:15
-#. Context: s after"}:</td>
-#.     	<td><input type="text" name="config[autodumptime]" size="6" value="{$config.autodumptime|htmlentities}" /> {="second(s) (0 for never)"} {$errors.autodumptime|checkerror} </td>
+#. Context: td>
+#.     	<td><input type="text" name="config[autodumpsourcetime]" size="6" value="{$config.autodumpsourcetime|htmlentities}" /> {="second(s) (0 for never)"} {$errors.autodumpsourcetime|checkerror} </td>
 #.     </tr>
 #. 
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:11

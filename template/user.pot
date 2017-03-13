@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2017-01-09 17:51-0800\n"
-"PO-Revision-Date: 2017-01-09 17:51-0800\n"
+"POT-Creation-Date: 2017-03-09 17:15-0800\n"
+"PO-Revision-Date: 2017-03-09 17:15-0800\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -2374,7 +2374,7 @@ msgstr ""
 msgid "Channels"
 msgstr ""
 
-#. File www/system/templates/configuration_reseller_basic.tpl:48
+#. File www/system/templates/configuration_reseller_basic.tpl:59
 #. Context: <tr>
 #.     	<td>{="Character encoding"}:</td>
 #.     	<td colspan="2">
@@ -2393,7 +2393,7 @@ msgstr ""
 #. 
 #. File system/class_AccountFields.php:337
 #. 
-#: www/system/templates/configuration_reseller_basic.tpl:48
+#: www/system/templates/configuration_reseller_basic.tpl:59
 #: www/system/templates/widgets.tpl:44
 #: www/system/templates/configuration_client_basic.tpl:167
 #: system/class_AccountFields.php:808
@@ -5528,6 +5528,11 @@ msgstr ""
 msgid "Live Source Connections"
 msgstr ""
 
+#. File www/system/templates/configuration_reseller_basic.tpl:48
+#. Context: <tr>
+#.     	<td>{="Locale"}:&nbsp;</td>
+#.     	<td colspan="4">
+#. 
 #. File www/system/templates/configuration_client_basic.tpl:156
 #. Context: <tr>
 #.     	<td>{="Locale"}:&nbsp;</td>
@@ -5537,6 +5542,7 @@ msgstr ""
 #. 
 #. File system/class_AccountFields.php:338
 #. 
+#: www/system/templates/configuration_reseller_basic.tpl:48
 #: www/system/templates/configuration_client_basic.tpl:156
 #: system/class_AccountFields.php:809
 #: system/class_AccountFields.php:338
@@ -9141,6 +9147,11 @@ msgstr ""
 msgid "Server Controls"
 msgstr ""
 
+#. File www/system/templates/configuration_reseller_basic.tpl:51
+#. Context: <select name="config[locale]" size="1">
+#.     		<option value=""{if $config.locale=""} selected="selected"{/if}>{="Server default"} - {$locales[$_CONSTANTS.LOCALE]} ({$_CONSTANTS.LOCALE})</option>
+#.     		{loop $locale=$locales}
+#. 
 #. File www/system/templates/configuration_reseller_basic.tpl:40
 #. Context: <select name="config[timezone]" size="1">
 #.     		<option value="127"{if $config.timezone==127} selected="selected"{/if}>{="Server default"} ({$defaulttimezone})</option>
@@ -9156,6 +9167,7 @@ msgstr ""
 #.     		<option value="127"{if $config.timezone==127} selected="selected"{/if}>{="Server default"} ({$defaulttimezone})</option>
 #.     		{loop $description=$timezones}
 #. 
+#: www/system/templates/configuration_reseller_basic.tpl:51
 #: www/system/templates/configuration_reseller_basic.tpl:40
 #: www/system/templates/configuration_client_basic.tpl:159
 #: www/system/templates/configuration_client_basic.tpl:148
