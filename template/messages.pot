@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2017-03-09 17:15-0800\n"
-"PO-Revision-Date: 2017-03-09 17:15-0800\n"
+"POT-Creation-Date: 2017-07-25 13:51-0700\n"
+"PO-Revision-Date: 2017-07-25 13:51-0700\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -473,10 +473,10 @@ msgstr ""
 msgid "This is a brief summary only; refer to the Management Utility Command Reference"
 msgstr ""
 
-#. File system/class_TrackManager.php:568
+#. File system/class_TrackManager.php:570
 #. Arguments: $track['pathname']
 #. 
-#: system/class_TrackManager.php:568
+#: system/class_TrackManager.php:570
 msgid "Track %s is missing; removing"
 msgstr ""
 

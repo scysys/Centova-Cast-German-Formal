@@ -5,27 +5,27 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2017-03-13 12:40+0100\n"
-"PO-Revision-Date: 2017-03-13 12:40+0100\n"
+"POT-Creation-Date: 2017-07-25 13:51-0700\n"
+"PO-Revision-Date: 2017-08-16 12:12+0200\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.0.3\n"
 
 #. File www/client/modules/class_Module_library.php:73
 #.
 #: www/client/modules/class_Module_library.php:73
 msgid "Access denied to selected playlist."
-msgstr "Zugriff auf gew&auml;hlte Abspielliste verweigert"
+msgstr "Zugriff auf gew&auml;hlte Abspielliste verweigert."
 
 #. File www/reseller/modules/class_Module_accounts_base.php:79
 #.
 #: www/reseller/modules/class_Module_accounts_base.php:79
 msgid "account limit reached"
-msgstr "Account Limit wurde erreicht."
+msgstr "Account Limit wurde erreicht"
 
 #. File system/class_ServerControl.php:532
 #.
@@ -33,9 +33,9 @@ msgstr "Account Limit wurde erreicht."
 msgid "An error occurred while copying this file"
 msgstr "Beim kopieren der Datei trat ein Fehler auf"
 
-#. File system/functions.php:265
+#. File system/functions.php:271
 #.
-#: system/functions.php:265
+#: system/functions.php:271
 msgid "An update is currently in progress.  Please try again later."
 msgstr "Ein Update ist Aktuell im gang. Bitte versuchen Sie es später erneut."
 
@@ -56,12 +56,12 @@ msgstr "Anwendung %s ist nicht ausführbar"
 #. File system/class_StreamingSource.php:64
 #. Arguments: $this->type,$this->rpc->get_title()
 #.
-#. File system/class_StreamingServer.php:96
+#. File system/class_StreamingServer.php:112
 #. Arguments: $this->type,$this->rpc->get_title()
 #.
-#: system/class_StreamingSource.php:64 system/class_StreamingServer.php:96
+#: system/class_StreamingSource.php:64 system/class_StreamingServer.php:112
 msgid "Application binary has not been configured for %s on %s"
-msgstr "Anwendungs Binary wurde für %s auf %s nicht konfiguriert."
+msgstr "Anwendungs Binary wurde für %s auf %s nicht konfiguriert"
 
 #. File system/class_ServerControl.php:2770
 #. Arguments: 'Unable to download archive from remote server: ' . $error
@@ -134,7 +134,7 @@ msgstr "Kann Wiedergabeliste nicht &ouml;ffnen."
 #.
 #: system/class_ServerControl.php:2261
 msgid "Cannot operate on administrator account"
-msgstr "Kann nicht über einen Administrator Account betrieben werden."
+msgstr "Kann nicht über einen Administrator Account betrieben werden"
 
 #. File system/class_ServerControl.php:1159
 #.
@@ -262,9 +262,9 @@ msgstr "Fehler beim speichern der Einstellung f&uuml;r den Stream-Server"
 msgid "Error updating account settings"
 msgstr "Fehler beim updaten der Account Einstellungen"
 
-#. File system/class_AccountFields.php:1348
+#. File system/class_AccountFields.php:1372
 #.
-#: system/class_AccountFields.php:1348
+#: system/class_AccountFields.php:1372
 msgid ""
 "invalid characters in password; valid characters are A-Z, a-z, 0-9, and any "
 "symbol except space or any of #%&?+\\"
@@ -282,7 +282,7 @@ msgstr "Ung&uuml;ltiger Zielpfad"
 #.
 #: www/login/modules/class_Module_forgot.php:49
 msgid "Invalid E-mail address."
-msgstr "Ung&uuml;ltige E-Mail-Adresse"
+msgstr "Ung&uuml;ltige E-Mail-Adresse."
 
 #. File www/class_AccountEditor.php:450
 #. Arguments: $ext,$field_name
@@ -294,11 +294,11 @@ msgstr "Ung&uuml;ltige E-Mail-Adresse"
 msgid "Invalid file type (%s) for \"%s\" upload"
 msgstr "Falscher Dateitype (%s) für %s Upload"
 
-#. File system/class_TrackManager.php:906
+#. File system/class_TrackManager.php:908
 #.
 #. File system/class_TrackManager.php:78
 #.
-#: system/class_TrackManager.php:906 system/class_TrackManager.php:78
+#: system/class_TrackManager.php:908 system/class_TrackManager.php:78
 msgid "Invalid media path"
 msgstr "Ung&uuml;ltiger Medienpfad"
 
@@ -306,7 +306,7 @@ msgstr "Ung&uuml;ltiger Medienpfad"
 #.
 #: www/login/modules/class_Module_forgot.php:81
 msgid "Invalid password reset code."
-msgstr "Ung&uuml;ltiger Passwort-Reset Code"
+msgstr "Ung&uuml;ltiger Passwort-Reset Code."
 
 #. File system/AccountManagerDrivers/types/class_ClientType.php:115
 #.
@@ -364,9 +364,9 @@ msgstr ""
 msgid "Must specify a new parent reseller"
 msgstr "Ein neuer übergeordneter Reseller muss angegeben werden"
 
-#. File system/class_AccountFields.php:1355
+#. File system/class_AccountFields.php:1379
 #.
-#: system/class_AccountFields.php:1355
+#: system/class_AccountFields.php:1379
 msgid "must specify a username"
 msgstr "Ein Username muss angegeben werden"
 
@@ -430,9 +430,9 @@ msgstr "Keine &uuml;bereinstimmenden Wiedergabelisten gefunden"
 msgid "No matching tracks found"
 msgstr "Keine &uuml;bereinstimmenden Titel gefunden"
 
-#. File system/class_TrackManager.php:941
+#. File system/class_TrackManager.php:943
 #.
-#: system/class_TrackManager.php:941
+#: system/class_TrackManager.php:943
 msgid "No playlists are active for this account"
 msgstr "Für diesen Account sind keine Wiedergabelisten aktiviert"
 
@@ -442,9 +442,9 @@ msgstr "Für diesen Account sind keine Wiedergabelisten aktiviert"
 msgid "No source is configured for this stream"
 msgstr "Es ist keine Source für diesen Streamserver konfiguriert"
 
-#. File system/class_TrackManager.php:1225
+#. File system/class_TrackManager.php:1227
 #.
-#: system/class_TrackManager.php:1225
+#: system/class_TrackManager.php:1227
 msgid "No tracks exist in the active playlists for this account"
 msgstr ""
 "Es existieren keine Titel in den aktiven Playlisten f&uuml;r dieses Konto"
@@ -497,7 +497,7 @@ msgstr "An Mountpoint %s"
 #.
 #: system/class_StreamingSource.php:192
 msgid "Playlist does not contain any tracks."
-msgstr "Diese Wiedergabeliste enth&auml;lt keine Titel"
+msgstr "Diese Wiedergabeliste enth&auml;lt keine Titel."
 
 #. File system/class_StreamingSource.php:201
 #.
@@ -560,7 +560,7 @@ msgstr "Reseller Account hat das Speicherplatz Limit erreicht"
 #.
 #: system/AccountEditorDrivers/bytype/class_ClientTypeEditor.php:217
 msgid "Reseller account has reached its transfer limit"
-msgstr "Reseller Account hat seinen Datentransfer / Traffic erreicht "
+msgstr "Reseller Account hat seinen Datentransfer / Traffic erreicht"
 
 #. File system/class_ServerControl.php:1245
 #.
@@ -645,11 +645,11 @@ msgid ""
 "type \"%s\" and the application(s) \"%s\""
 msgstr ""
 
-#. File system/class_AccountFields.php:1356
+#. File system/class_AccountFields.php:1380
 #.
-#: system/class_AccountFields.php:1356
+#: system/class_AccountFields.php:1380
 msgid "the specified username is reserved"
-msgstr "Der angegebene Username ist reserviert."
+msgstr "Der angegebene Username ist reserviert"
 
 #. File system/class_ServerControl.php:1416
 #.

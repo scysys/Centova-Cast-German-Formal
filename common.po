@@ -5,15 +5,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2017-03-13 12:40+0100\n"
-"PO-Revision-Date: 2017-03-13 12:40+0100\n"
+"POT-Creation-Date: 2017-07-25 13:51-0700\n"
+"PO-Revision-Date: 2017-08-16 12:12+0200\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.0.3\n"
 
 #. Name of language (in target language, eg: Deutsch for German, Francais for French, etc.)
 msgid "_LANGUAGE"
@@ -67,9 +67,9 @@ msgstr "%s Partner ID"
 msgid "%s API key"
 msgstr "%s API Schlüssel"
 
-#. File system/servers/IceCast/templates/connection_details.tpl:33
+#. File system/servers/IceCast/templates/connection_details.tpl:46
 #. Arguments: $mount.bitrate
-#. Context: er|strtoupper|htmlentities}{/if}</strong></td></tr>{/check}
+#. Context: oder|strtoupper|htmlentities}{/if}</strong></td></tr>{/check}
 #. {if $mount.bitrate!=""}<tr><td>{="Bit rate"}:</td><td><strong>{="%s kbps",$mount.bitrate}</strong></td></tr>{/if}
 #. </table>
 #.
@@ -78,7 +78,7 @@ msgstr "%s API Schlüssel"
 #. Context: der|strtoupper|htmlentities}{/if}</strong></td></tr>{/check}
 #. {if $mount.bitrate!=""}<tr><td>{="Bit rate"}:</td><td><strong>{="%s kbps",$mount.bitrate}</strong></td></tr>{/if}
 #.
-#: system/servers/IceCast/templates/connection_details.tpl:33
+#: system/servers/IceCast/templates/connection_details.tpl:46
 #: system/servers/ShoutCast2/templates/connection_details.tpl:34
 msgid "%s kbps"
 msgstr "%s kbps"
@@ -225,9 +225,9 @@ msgstr ""
 msgid "Account updated"
 msgstr "Konto aktualisiert"
 
-#. File system/class_AccountFields.php:832
+#. File system/class_AccountFields.php:855
 #.
-#: system/class_AccountFields.php:832
+#: system/class_AccountFields.php:855
 msgid "Actiate start page"
 msgstr "Startpage aktivieren"
 
@@ -336,7 +336,7 @@ msgstr ""
 #: system/sources/sctrans/class_Sourcesctrans.php:232
 #: system/sources/sctrans/templates/configuration_source.tpl:18
 msgid "AIM"
-msgstr ""
+msgstr "AIM"
 
 #. File system/albumds/class_AlbumDataSource_amazon.php:406
 #. Arguments: 'Amazon&reg;'
@@ -496,7 +496,7 @@ msgstr "und Sie auf allen Mountpoints senden wollen"
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:611
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:171
 msgid "Application"
-msgstr ""
+msgstr "Anwendung"
 
 #. File system/class_ServerControl.php:1028
 #. Arguments: $app->type
@@ -548,7 +548,7 @@ msgstr "Archiv"
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:174
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 #. File system/sources/sctrans2/class_Sourcesctrans2.php:585
 #.
@@ -630,7 +630,7 @@ msgstr ""
 msgid "Authenticated"
 msgstr "Beglaubigt"
 
-#. File system/sources/ices2/class_Ices2ServerInterface.php:233
+#. File system/sources/ices2/class_Ices2ServerInterface.php:241
 #.
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:4
 #. Context: <fieldset id="autodj_tab">
@@ -644,7 +644,7 @@ msgstr "Beglaubigt"
 #.
 #. File system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:73
 #.
-#: system/sources/ices2/class_Ices2ServerInterface.php:233
+#: system/sources/ices2/class_Ices2ServerInterface.php:241
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:4
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:9
 #: system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:73
@@ -887,7 +887,7 @@ msgstr ""
 #.
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:50
 msgid "CBR"
-msgstr ""
+msgstr "CBR"
 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:29
 #.
@@ -953,15 +953,15 @@ msgstr "Prüfe nach Titel ohne Album Informationen"
 msgid "Client timeout"
 msgstr ""
 
-#. File system/class_AccountFields.php:882
+#. File system/class_AccountFields.php:906
 #.
-#: system/class_AccountFields.php:882
+#: system/class_AccountFields.php:906
 msgid "Cluster"
 msgstr "Cluster"
 
-#. File system/class_AccountFields.php:843
+#. File system/class_AccountFields.php:866
 #.
-#: system/class_AccountFields.php:843
+#: system/class_AccountFields.php:866
 msgid "Cluster host"
 msgstr ""
 
@@ -975,7 +975,7 @@ msgstr ""
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:610
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:161
 msgid "Complexity"
-msgstr ""
+msgstr "Komplexität"
 
 #. File system/class_ServerControl.php:2716
 #. Arguments: basename($archname)
@@ -1064,7 +1064,7 @@ msgstr ""
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:155
 msgid "Constrained"
-msgstr ""
+msgstr "Constraint"
 
 #. File system/servers/ShoutCast/templates/configuration_client_overrides.tpl:4
 #. Context: <tr><td colspan="2">{="Controls the title and URL shown in media players.  Use %s to insert the title/URL provided by the source."}<br /><br /></td></tr>
@@ -1236,11 +1236,11 @@ msgstr ""
 msgid "Determined by source"
 msgstr ""
 
-#. File system/class_AccountFields.php:827
+#. File system/class_AccountFields.php:850
 #.
-#: system/class_AccountFields.php:827
+#: system/class_AccountFields.php:850
 msgid "Diagnostic mode"
-msgstr ""
+msgstr "Abgesicherter Modus"
 
 #. File system/class_ServerControl.php:1055
 #.
@@ -1286,7 +1286,7 @@ msgstr "Zeitüberschreitung beim Verzeichniseintrag"
 #: system/servers/IceCast/class_IceCastConfig.php:120
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:4
 msgid "Directory listings URL"
-msgstr ""
+msgstr "Verzeichnis URL"
 
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:34
 #. Context: <tr>
@@ -1550,7 +1550,7 @@ msgstr ""
 #.
 #: system/class_CastMailer.php:183
 msgid "Error: %s"
-msgstr ""
+msgstr "Fehler: %s"
 
 #. File system/sources/icescc/templates/configuration_source.tpl:8
 #. Context: <select name="config[icescrossmix]" size="1">
@@ -1675,11 +1675,11 @@ msgstr ""
 msgid "File copied successfully"
 msgstr "Datei erfolgreich kopiert"
 
-#. File system/servers/IceCast/templates/connection_details.tpl:38
+#. File system/servers/IceCast/templates/connection_details.tpl:51
 #. Arguments: "<a href='index.php?page=configure'>","</a>"
 #. Context: {="For all mount points, use the 'Source password' value from your %sstream settings%s when prompted for a password","<a href='index.php?page=configure'>","</a>"}.
 #.
-#: system/servers/IceCast/templates/connection_details.tpl:38
+#: system/servers/IceCast/templates/connection_details.tpl:51
 msgid ""
 "For all mount points, use the 'Source password' value from your %sstream "
 "settings%s when prompted for a password"
@@ -1691,7 +1691,7 @@ msgstr ""
 #. Arguments: "<strong>",$mount.mountname,"</strong>"
 #. Context: {loop $mount=$acctconfig.mountpoints}
 #. {="For the %s%s%s mount point","<strong>",$mount.mountname,"</strong>"}:<br /><br />
-#. <table cellspacing="1" cellpadding="1" border="0" style="margin-left:
+#. <table cellspacing="1" cellpadding="1" border="0" style="margin-left: 1
 #.
 #. File system/servers/ShoutCast2/templates/connection_details.tpl:27
 #. Arguments: "<strong>",$mount.streampath,"</strong>"
@@ -1704,18 +1704,18 @@ msgstr ""
 msgid "For the %s%s%s mount point"
 msgstr ""
 
-#. File system/servers/IceCast/templates/connection_details.tpl:32
-#. Context: backmount|htmlentities}{else}{$mount.mountname|htmlentities}{/if}</strong></td></tr>
+#. File system/servers/IceCast/templates/connection_details.tpl:45
+#. Context: </tr>
 #. {check $mount.liqencoder!=""}<tr><td>{="Format"}:</td><td><strong>{if $mount.liqencoder|contains:"aac"}AAC/AAC+{else}{$mount.liqencoder|strtoupper|htmlentities}{/if}</strong>
 #.
 #. File system/servers/ShoutCast2/templates/connection_details.tpl:33
 #. Context: "Server port"}:&nbsp;</td><td><strong>{$account.port|htmlentities}</strong></td></tr>
 #. {check $mount.liqencoder!=""}<tr><td>{="Format"}:</td><td><strong>{if $mount.liqencoder|contains:"aac"}AAC/AAC+{else}{$mount.liqencoder|strtoupper|htmlentities}{/if}</strong>
 #.
-#: system/servers/IceCast/templates/connection_details.tpl:32
+#: system/servers/IceCast/templates/connection_details.tpl:45
 #: system/servers/ShoutCast2/templates/connection_details.tpl:33
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #. File system/class_ServerControl.php:2081
 #.
@@ -1775,11 +1775,11 @@ msgstr "Starke Rotation"
 msgid "Host directory does not exist; aborting"
 msgstr "Host-Verzeichnis existiert nicht, breche ab"
 
-#. File system/class_AccountControl.php:755
+#. File system/class_AccountControl.php:754
 #.
-#: system/class_AccountControl.php:755
+#: system/class_AccountControl.php:754
 msgid "hostname"
-msgstr ""
+msgstr "Hostname"
 
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:25
 #. Context: <tr>
@@ -1794,7 +1794,7 @@ msgstr ""
 #: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:25
 #: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:29
 msgid "Hostname lookups"
-msgstr ""
+msgstr "Hostname-Lookups"
 
 #. File system/class_MIMETypes.php:32
 #.
@@ -1847,11 +1847,11 @@ msgstr ""
 #: system/sources/sctrans/class_Sourcesctrans.php:231
 #: system/sources/sctrans/templates/configuration_source.tpl:15
 msgid "ICQ"
-msgstr ""
+msgstr "ICQ"
 
-#. File system/class_AccountFields.php:814
+#. File system/class_AccountFields.php:837
 #.
-#: system/class_AccountFields.php:814
+#: system/class_AccountFields.php:837
 msgid "Ignore metadata"
 msgstr ""
 
@@ -1886,9 +1886,9 @@ msgstr "Import erfolgreich, suche nach entfernte Musiktitel"
 msgid "Intro clip"
 msgstr "Intro Titel"
 
-#. File system/class_AccountControl.php:1007
+#. File system/class_AccountControl.php:1006
 #.
-#: system/class_AccountControl.php:1007
+#: system/class_AccountControl.php:1006
 msgid "Invalid listener limit"
 msgstr "Falsches Zuhörerlimit"
 
@@ -1907,9 +1907,9 @@ msgstr ""
 msgid "Invalid username or password"
 msgstr "Falscher Username oder Passwort"
 
-#. File system/class_AccountControl.php:755
+#. File system/class_AccountControl.php:754
 #.
-#: system/class_AccountControl.php:755
+#: system/class_AccountControl.php:754
 msgid "IP/port combination"
 msgstr ""
 
@@ -1932,7 +1932,7 @@ msgstr ""
 #: system/sources/sctrans/class_Sourcesctrans.php:233
 #: system/sources/sctrans/templates/configuration_source.tpl:22
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #. File system/class_ReportFormat.php:37
 #.
@@ -1947,7 +1947,7 @@ msgstr ""
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:134
 msgid "Joint Stereo"
-msgstr ""
+msgstr "Joint-Stereo"
 
 #. File system/class_ServerControl.php:1115
 #. Arguments: $linecount
@@ -1981,16 +1981,16 @@ msgstr "Leichte Rotation"
 
 #. File system/class_AccountFields.php:373
 #.
-#. File system/class_AccountFields.php:880
+#. File system/class_AccountFields.php:904
 #.
 #. File www/system/templates/admin_settings.tpl:89
 #. Context: <fieldset>
 #. <legend>{="Limits"}</legend>
 #.
-#: system/class_AccountFields.php:373 system/class_AccountFields.php:880
+#: system/class_AccountFields.php:373 system/class_AccountFields.php:904
 #: www/system/templates/admin_settings.tpl:89
 msgid "Limits"
-msgstr ""
+msgstr "Limits"
 
 #. File system/servers/WindowsMedia/class_ServerWindowsMedia.php:115
 #.
@@ -2043,7 +2043,7 @@ msgstr "Logdateien archiviert"
 #: system/sources/ices2/class_Ices2ServerInterface.php:203
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:40
 msgid "Managed"
-msgstr ""
+msgstr "Manage"
 
 #. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:51
 #. Context: selected="selected"{/if}>{="Always"}</option>
@@ -2073,7 +2073,7 @@ msgstr ""
 #: www/system/templates/admin_rpchost_list.tpl:22
 #: www/system/templates/admin_rpchost_edit.tpl:28
 msgid "Master"
-msgstr ""
+msgstr "Master Server"
 
 #. File system/servers/IceCast/class_IceCastConfig.php:108
 #.
@@ -2189,13 +2189,13 @@ msgstr ""
 #.
 #: system/class_CastMailer.php:194
 msgid "Message: %s"
-msgstr ""
+msgstr "Nachricht: %s"
 
-#. File system/class_AccountFields.php:886
+#. File system/class_AccountFields.php:910
 #.
-#: system/class_AccountFields.php:886
+#: system/class_AccountFields.php:910
 msgid "Metadata"
-msgstr ""
+msgstr "Metadaten"
 
 #. File system/servers/IceCast/class_IceCastConfig.php:48
 #.
@@ -2310,7 +2310,14 @@ msgstr "Minute/en (0 zum deaktivieren)"
 msgid "Mix only (full volume, no fading)"
 msgstr ""
 
-#. File system/class_AccountFields.php:795
+#. File system/class_AccountFields.php:767
+#. Arguments: $mountpoint->get_name()
+#.
+#: system/class_AccountFields.php:767
+msgid "mount point %s"
+msgstr "Mountpoint %s"
+
+#. File system/class_AccountFields.php:818
 #.
 #. File system/class_AccountFields.php:327
 #.
@@ -2326,7 +2333,7 @@ msgstr ""
 #.
 #. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:41
 #.
-#: system/class_AccountFields.php:795 system/class_AccountFields.php:327
+#: system/class_AccountFields.php:818 system/class_AccountFields.php:327
 #: www/system/templates/configuration_client_limits.tpl:199
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:32
 #: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:41
@@ -2379,7 +2386,7 @@ msgstr "Mountpoint Relaying"
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:15
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:38
 msgid "MP3"
-msgstr ""
+msgstr "MP3"
 
 #. File system/sources/sctrans2/class_Sourcesctrans2.php:587
 #.
@@ -2492,7 +2499,7 @@ msgstr "Niemals"
 msgid "New parent account is not a reseller account"
 msgstr ""
 
-#. File system/class_AccountFields.php:812
+#. File system/class_AccountFields.php:835
 #.
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:48
 #. Context: <tr>
@@ -2509,7 +2516,7 @@ msgstr ""
 #. <td>{="Nextsong debug"}:&nbsp;</td>
 #. <td colspan="3">
 #.
-#: system/class_AccountFields.php:812
+#: system/class_AccountFields.php:835
 #: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:48
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:68
 #: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:48
@@ -2532,7 +2539,7 @@ msgstr ""
 #.
 #: system/sources/liquidsoap/templates/configuration_source.tpl:16
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. File system/class_ServerControl.php:36
 #.
@@ -2585,7 +2592,7 @@ msgstr ""
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:78
 #: www/admin/modules/class_Module_about.php:72
 msgid "Off"
-msgstr ""
+msgstr "Aus"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:40
 #. Context: Ogg/Vorbis"}</option>{/if}
@@ -2631,7 +2638,7 @@ msgstr ""
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:79
 #: www/admin/modules/class_Module_about.php:73
 msgid "On"
-msgstr ""
+msgstr "An"
 
 #. File system/class_AccountControl.php:88
 #. Arguments: $dupeitems
@@ -2716,7 +2723,7 @@ msgstr "PDF Datei"
 #.
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:63
 msgid "Performance"
-msgstr ""
+msgstr "Performance"
 
 #. File system/class_ReportFormat.php:43
 #.
@@ -2743,7 +2750,7 @@ msgstr ""
 msgid "Playlist rebuilt"
 msgstr "Wiedergabeliste neu erstellen"
 
-#. File system/class_AccountFields.php:793
+#. File system/class_AccountFields.php:816
 #.
 #. File system/class_AccountFields.php:341
 #.
@@ -2764,7 +2771,7 @@ msgstr "Wiedergabeliste neu erstellen"
 #.
 #. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:42
 #.
-#: system/class_AccountFields.php:793 system/class_AccountFields.php:341
+#: system/class_AccountFields.php:816 system/class_AccountFields.php:341
 #: www/system/templates/configuration_reseller_limits.tpl:150
 #: www/system/templates/configuration_client_limits.tpl:256
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:36
@@ -2883,7 +2890,7 @@ msgstr ""
 #.
 #: system/servers/WindowsMedia/templates/connection_details.tpl:19
 msgid "Pull"
-msgstr ""
+msgstr "Pull"
 
 #. File system/servers/WindowsMedia/templates/connection_details.tpl:8
 #. Context: <table cellspacing="1" cellpadding="1" border="0">
@@ -2892,7 +2899,7 @@ msgstr ""
 #.
 #: system/servers/WindowsMedia/templates/connection_details.tpl:8
 msgid "Push"
-msgstr ""
+msgstr "Push"
 
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:64
 #. Context: <option value="0">{="Performance"}</option>
@@ -2901,7 +2908,7 @@ msgstr ""
 #.
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:64
 msgid "Quality"
-msgstr ""
+msgstr "Qualität"
 
 #. File system/servers/IceCast/class_IceCastConfig.php:113
 #.
@@ -2913,7 +2920,7 @@ msgstr ""
 #: system/servers/IceCast/class_IceCastConfig.php:113
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:35
 msgid "Queue size"
-msgstr ""
+msgstr "Warteschlangen-Größe"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:227
 #. Context: <option value="adif">{="ADIF bitstream format"}</option>
@@ -2921,14 +2928,15 @@ msgstr ""
 #. <option value="latm">{="Audio mux elements (LATM)"}</option>
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:227
+#, fuzzy
 msgid "Raw"
-msgstr ""
+msgstr "Raw"
 
 #. File system/class_ReportFormat.php:47
 #.
 #: system/class_ReportFormat.php:47
 msgid "Raw meta"
-msgstr "RAW Meta"
+msgstr "Raw Metadaten"
 
 #. File system/sources/icescc/templates/configuration_source_mountpoints.tpl:35
 #. Context: <tr>
@@ -2948,9 +2956,9 @@ msgstr "RAW Meta"
 msgid "Re-encoding"
 msgstr "Re-Enkoding"
 
-#. File system/class_AccountFields.php:830
+#. File system/class_AccountFields.php:853
 #.
-#: system/class_AccountFields.php:830
+#: system/class_AccountFields.php:853
 msgid "Rebuild playlist on startup"
 msgstr "Baue Wiedergabeliste beim Start neu auf"
 
@@ -3054,11 +3062,11 @@ msgstr ""
 msgid "Reseller account does not exist in database"
 msgstr "Der Reseller Account existiert nicht in der Datenbank"
 
-#. File system/class_AccountControl.php:956
+#. File system/class_AccountControl.php:955
 #.
 #. File system/AccountEditorDrivers/bytype/class_ClientTypeEditor.php:156
 #.
-#: system/class_AccountControl.php:956
+#: system/class_AccountControl.php:955
 #: system/AccountEditorDrivers/bytype/class_ClientTypeEditor.php:156
 msgid "Reseller account has reached its client account limit"
 msgstr "Das Kundenlimit des Reseller Accounts wurde erreicht"
@@ -3121,9 +3129,9 @@ msgstr "Bezieht die Cover der Musiktitel von Amazon."
 msgid "Retrieves images from the iTunes online store."
 msgstr "Bezieht die Cover der Musiktitel aus dem iTunes Onlinestore."
 
-#. File system/class_AccountFields.php:828
+#. File system/class_AccountFields.php:851
 #.
-#: system/class_AccountFields.php:828
+#: system/class_AccountFields.php:851
 msgid "Royalty reporting mode"
 msgstr "Berichterstattungsmodus"
 
@@ -3172,10 +3180,10 @@ msgstr "Sekunde/n (0 zum deaktivieren)"
 msgid "Server %s is broadcasting at %skbps, exceeding limit of %skbps"
 msgstr ""
 
-#. File system/sysctrl/class_SystemControl_check.php:281
+#. File system/sysctrl/class_SystemControl_check.php:256
 #. Arguments: $account['username']
 #.
-#: system/sysctrl/class_SystemControl_check.php:281
+#: system/sysctrl/class_SystemControl_check.php:256
 msgid ""
 "Server %s is up and autoDJ is deactivated, but no live source is connected; "
 "automatically reactivating autoDJ"
@@ -3241,7 +3249,7 @@ msgstr ""
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:612
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:181
 msgid "Signal"
-msgstr ""
+msgstr "Signal"
 
 #. File system/sources/liquidsoap/templates/configuration_source.tpl:17
 #. Context: ed="selected"{/if}>{="Normal"}</option>
@@ -3250,27 +3258,27 @@ msgstr ""
 #.
 #: system/sources/liquidsoap/templates/configuration_source.tpl:17
 msgid "Smart"
-msgstr ""
+msgstr "Smart"
 
-#. File system/class_AccountFields.php:841
+#. File system/class_AccountFields.php:864
 #.
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:17
 #. Context: <tr>
 #. <td>{="Song length detect limit"}:&nbsp;</td>
 #. <td colspan="3">
 #.
-#: system/class_AccountFields.php:841
+#: system/class_AccountFields.php:864
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:17
 msgid "Song length detect limit"
 msgstr ""
 
-#. File system/class_CCSQL.php:80
+#. File system/class_CCSQL.php:91
 #. Arguments: "\n\n",$e->getMessage()
 #.
 #. File system/backup/export22x/class_CCSQL.php:82
 #. Arguments: "\n\n",$e->getMessage()
 #.
-#: system/class_CCSQL.php:80 system/backup/export22x/class_CCSQL.php:82
+#: system/class_CCSQL.php:91 system/backup/export22x/class_CCSQL.php:82
 msgid ""
 "Sorry, a database connection could not be established.  Please double-check "
 "your configuration and try again.%sDetails: %s"
@@ -3278,11 +3286,11 @@ msgstr ""
 "Sorry, eine Datenbankverbindung konnte nicht hergestellt werden. Bitte "
 "pr&uuml;fen Sie Ihre Konfiguration und versuchen Sie es erneut. %sDetails: %s"
 
-#. File system/class_CCSQL.php:78
+#. File system/class_CCSQL.php:89
 #.
 #. File system/backup/export22x/class_CCSQL.php:80
 #.
-#: system/class_CCSQL.php:78 system/backup/export22x/class_CCSQL.php:80
+#: system/class_CCSQL.php:89 system/backup/export22x/class_CCSQL.php:80
 msgid ""
 "Sorry, this server is currently experiencing heavy load and cannot process "
 "your request at this time.  Please try again later."
@@ -3323,48 +3331,48 @@ msgstr ""
 msgid "Source username"
 msgstr "Source Username"
 
-#. File system/class_AccountControl.php:1013
+#. File system/class_AccountControl.php:1012
 #. Arguments: $requestedbitrate,$limits['maxbitrate']
 #.
-#: system/class_AccountControl.php:1013
+#: system/class_AccountControl.php:1012
 msgid "Specified bit rate exceeds (%d kbps) reseller bitrate limit (%d kbps)"
 msgstr ""
 
-#. File system/class_AccountControl.php:1018
+#. File system/class_AccountControl.php:1017
 #. Arguments: $requestedbandwidth,$limits['maxbandwidth']
 #.
-#: system/class_AccountControl.php:1018
+#: system/class_AccountControl.php:1017
 msgid ""
 "Specified combination of bit rate and listener limit (%d kbps) exceeds "
 "reseller bandwidth limit (%d kbps)"
 msgstr ""
 
-#. File system/class_AccountControl.php:1011
+#. File system/class_AccountControl.php:1010
 #. Arguments: $requesteddiskquota,$limits['diskquota']
 #.
-#: system/class_AccountControl.php:1011
+#: system/class_AccountControl.php:1010
 msgid "Specified disk quota (%d MB) exceeds reseller limits (%d MB remain)"
 msgstr ""
 
-#. File system/class_AccountControl.php:1009
+#. File system/class_AccountControl.php:1008
 #. Arguments: $requestedclients,$limits['maxclients']
 #.
-#: system/class_AccountControl.php:1009
+#: system/class_AccountControl.php:1008
 msgid "Specified listener limit (%d) exceeds reseller limits (%d remain)"
 msgstr ""
 
-#. File system/class_AccountControl.php:1015
+#. File system/class_AccountControl.php:1014
 #. Arguments: $requestedmountlimit,$limits['mountlimit']
 #.
-#: system/class_AccountControl.php:1015
+#: system/class_AccountControl.php:1014
 msgid ""
 "Specified mount point limit (%d) exceeds reseller mount point limit (%d)"
 msgstr ""
 
-#. File system/class_AccountControl.php:1010
+#. File system/class_AccountControl.php:1009
 #. Arguments: $requestedxferlimit,$limits['transferlimit']
 #.
-#: system/class_AccountControl.php:1010
+#: system/class_AccountControl.php:1009
 msgid "Specified transfer limit (%d MB) exceeds reseller limits (%d MB remain)"
 msgstr ""
 
@@ -3383,7 +3391,7 @@ msgstr "Standard Rotation"
 #.
 #: system/class_ReportFormat.php:38
 msgid "Start time"
-msgstr ""
+msgstr "Startzeit"
 
 #. File system/upgradeutil.php:504
 #.
@@ -3639,7 +3647,7 @@ msgstr ""
 #.
 #: system/class_CastMailer.php:185 system/class_CastMailer.php:174
 msgid "Subject: %s"
-msgstr ""
+msgstr "Betreff: %s"
 
 #. File system/sysctrl/class_SystemControl_check.php:131
 #.
@@ -3654,13 +3662,13 @@ msgstr ""
 #: system/sysctrl/class_SystemControl_check.php:48
 #: system/sysctrl/class_SystemControl_check.php:47
 msgid "successful"
-msgstr ""
+msgstr "erfolgreich"
 
 #. File system/class_ReportGenerator.php:656
 #.
 #: system/class_ReportGenerator.php:656
 msgid "Summary"
-msgstr ""
+msgstr "Zusammenfassung"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:143
 #. Context: <option value="full_band">{="Full band"}</option>
@@ -3689,7 +3697,7 @@ msgstr ""
 #.
 #: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:15
 msgid "Template title"
-msgstr ""
+msgstr "Template Titel"
 
 #. File system/class_MIMETypes.php:29
 #.
@@ -3851,7 +3859,7 @@ msgstr ""
 #.
 #: system/class_ReportFormat.php:44
 msgid "TLH"
-msgstr ""
+msgstr "TLH"
 
 #. File system/sources/ices2/class_Ices2ServerInterface.php:190
 #. Arguments: $combinedbitrate,$maxbitrate
@@ -3903,14 +3911,14 @@ msgstr "Musiktitel"
 
 #. File system/class_AccountFields.php:321
 #.
-#. File system/class_AccountFields.php:789
+#. File system/class_AccountFields.php:812
 #.
 #. File www/system/templates/configuration_client_limits.tpl:166
 #. Context: <tr>
 #. <td>{="Transfer limit"}:&nbsp;</td>
 #. <td><input type="text" id="transferlimit" name="config[transferlimit]" size="8" maxlength="8" value="{$config.tr
 #.
-#: system/class_AccountFields.php:321 system/class_AccountFields.php:789
+#: system/class_AccountFields.php:321 system/class_AccountFields.php:812
 #: www/system/templates/configuration_client_limits.tpl:166
 msgid "Transfer limit"
 msgstr "Datentransfer Limit"
@@ -3956,15 +3964,15 @@ msgstr ""
 msgid "Unknown/Binary File"
 msgstr "Unbekannte oder bin&auml;re Datei"
 
-#. File system/class_AccountControl.php:1005
+#. File system/class_AccountControl.php:1004
 #.
-#: system/class_AccountControl.php:1005
+#: system/class_AccountControl.php:1004
 msgid "Unlimited disk quota not permitted for this reseller account"
 msgstr ""
 
-#. File system/class_AccountControl.php:1006
+#. File system/class_AccountControl.php:1005
 #.
-#: system/class_AccountControl.php:1006
+#: system/class_AccountControl.php:1005
 msgid "Unlimited transfer not permitted for this reseller account"
 msgstr ""
 
@@ -3977,9 +3985,9 @@ msgstr ""
 msgid "Unlock code details and purchase information %savailable here%s."
 msgstr "Lizenz Code und Schlüssel sind %shier verfügbar%s."
 
-#. File system/class_AccountFields.php:805
+#. File system/class_AccountFields.php:828
 #.
-#: system/class_AccountFields.php:805
+#: system/class_AccountFields.php:828
 msgid "Unspecified"
 msgstr "Undefiniert"
 
@@ -4008,7 +4016,7 @@ msgstr ""
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:597
 #: www/system/templates/admin_remoteserver_list.tpl:21
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. File system/sources/sctrans2/class_Sourcesctrans2.php:522
 #.
@@ -4055,7 +4063,7 @@ msgstr ""
 msgid "Use autoDJ"
 msgstr "Aktiviere AutoDJ"
 
-#. File system/class_AccountFields.php:811
+#. File system/class_AccountFields.php:834
 #.
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:39
 #. Context: <tr>
@@ -4072,7 +4080,7 @@ msgstr "Aktiviere AutoDJ"
 #. <td>{="Use server"}:&nbsp;</td>
 #. <td>
 #.
-#: system/class_AccountFields.php:811
+#: system/class_AccountFields.php:834
 #: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:39
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:59
 #: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:39
@@ -4110,14 +4118,14 @@ msgstr "Verwende YP V2"
 
 #. File system/class_AccountControl.php:84
 #.
-#. File system/class_AccountControl.php:754
+#. File system/class_AccountControl.php:753
 #.
 #. File system/include_console.php:5
 #.
-#: system/class_AccountControl.php:84 system/class_AccountControl.php:754
+#: system/class_AccountControl.php:84 system/class_AccountControl.php:753
 #: system/include_console.php:5
 msgid "username"
-msgstr ""
+msgstr "Benutzername"
 
 #. File system/class_CastMailer.php:184
 #. Arguments: strlen($this->settings['smtphost']) ? 'Yes' : 'No'
@@ -4225,7 +4233,7 @@ msgstr "Videodatei"
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:185
 msgid "Voice"
-msgstr ""
+msgstr "Voice"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:175
 #. Context: <option value="audio">{="Audio"}</option>
@@ -4234,7 +4242,7 @@ msgstr ""
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:175
 msgid "VOIP"
-msgstr ""
+msgstr "VOIP"
 
 #. File system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:29
 #. Context: <br />
@@ -4251,9 +4259,9 @@ msgstr ""
 "unvorhergesehenen Ausfall Ihres Streamservers kommen. Sollten Sie ein "
 "solches Verhalten feststellen, deaktivieren Sie diese Einstellung testweise."
 
-#. File system/class_AccountFields.php:813
+#. File system/class_AccountFields.php:836
 #.
-#: system/class_AccountFields.php:813
+#: system/class_AccountFields.php:836
 msgid "Web player"
 msgstr "Webplayer"
 
@@ -4276,7 +4284,7 @@ msgstr "W&ouml;chentlicher Top 10 Countdown"
 
 #. File system/class_AccountFields.php:332
 #.
-#. File system/class_AccountFields.php:797
+#. File system/class_AccountFields.php:820
 #.
 #. File www/system/templates/configuration_reseller_limits.tpl:129
 #. Context: <tr>
@@ -4288,7 +4296,7 @@ msgstr "W&ouml;chentlicher Top 10 Countdown"
 #. <td>{="When disk quota is exceeded"}:&nbsp;</td>
 #. <td>
 #.
-#: system/class_AccountFields.php:332 system/class_AccountFields.php:797
+#: system/class_AccountFields.php:332 system/class_AccountFields.php:820
 #: www/system/templates/configuration_reseller_limits.tpl:129
 #: www/system/templates/configuration_client_limits.tpl:227
 msgid "When disk quota is exceeded"
@@ -4321,10 +4329,10 @@ msgstr "Wenn der %sAutoDJ nicht läuft%s"
 msgid "When the %sautoDJ is running%s"
 msgstr "Wenn der %sAutoDJ läuft%s"
 
-#. File system/servers/IceCast/templates/connection_details.tpl:40
+#. File system/servers/IceCast/templates/connection_details.tpl:53
 #. Context: {="Note"}: {="When the autoDJ is not running, DJ accounts cannot be used, and each mount point must be sourced separately"}.
 #.
-#: system/servers/IceCast/templates/connection_details.tpl:40
+#: system/servers/IceCast/templates/connection_details.tpl:53
 msgid ""
 "When the autoDJ is not running, DJ accounts cannot be used, and each mount "
 "point must be sourced separately"
@@ -4344,7 +4352,7 @@ msgstr ""
 
 #. File system/class_AccountFields.php:333
 #.
-#. File system/class_AccountFields.php:798
+#. File system/class_AccountFields.php:821
 #.
 #. File www/system/templates/configuration_reseller_limits.tpl:119
 #. Context: <tr>
@@ -4356,7 +4364,7 @@ msgstr ""
 #. <td>{="When transfer limit is exceeded"}:&nbsp;</td>
 #. <td>
 #.
-#: system/class_AccountFields.php:333 system/class_AccountFields.php:798
+#: system/class_AccountFields.php:333 system/class_AccountFields.php:821
 #: www/system/templates/configuration_reseller_limits.tpl:119
 #: www/system/templates/configuration_client_limits.tpl:217
 msgid "When transfer limit is exceeded"

@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2017-03-09 17:15-0800\n"
-"PO-Revision-Date: 2017-03-09 17:15-0800\n"
+"POT-Creation-Date: 2017-07-25 13:51-0700\n"
+"PO-Revision-Date: 2017-07-25 13:51-0700\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -32,9 +32,9 @@ msgstr ""
 msgid "An error occurred while copying this file"
 msgstr ""
 
-#. File system/functions.php:265
+#. File system/functions.php:271
 #. 
-#: system/functions.php:265
+#: system/functions.php:271
 msgid "An update is currently in progress.  Please try again later."
 msgstr ""
 
@@ -55,11 +55,11 @@ msgstr ""
 #. File system/class_StreamingSource.php:64
 #. Arguments: $this->type,$this->rpc->get_title()
 #. 
-#. File system/class_StreamingServer.php:96
+#. File system/class_StreamingServer.php:112
 #. Arguments: $this->type,$this->rpc->get_title()
 #. 
 #: system/class_StreamingSource.php:64
-#: system/class_StreamingServer.php:96
+#: system/class_StreamingServer.php:112
 msgid "Application binary has not been configured for %s on %s"
 msgstr ""
 
@@ -252,9 +252,9 @@ msgstr ""
 msgid "Error updating account settings"
 msgstr ""
 
-#. File system/class_AccountFields.php:1348
+#. File system/class_AccountFields.php:1372
 #. 
-#: system/class_AccountFields.php:1348
+#: system/class_AccountFields.php:1372
 msgid "invalid characters in password; valid characters are A-Z, a-z, 0-9, and any symbol except space or any of #%&?+\\"
 msgstr ""
 
@@ -281,11 +281,11 @@ msgstr ""
 msgid "Invalid file type (%s) for \"%s\" upload"
 msgstr ""
 
-#. File system/class_TrackManager.php:906
+#. File system/class_TrackManager.php:908
 #. 
 #. File system/class_TrackManager.php:78
 #. 
-#: system/class_TrackManager.php:906
+#: system/class_TrackManager.php:908
 #: system/class_TrackManager.php:78
 msgid "Invalid media path"
 msgstr ""
@@ -351,9 +351,9 @@ msgstr ""
 msgid "Must specify a new parent reseller"
 msgstr ""
 
-#. File system/class_AccountFields.php:1355
+#. File system/class_AccountFields.php:1379
 #. 
-#: system/class_AccountFields.php:1355
+#: system/class_AccountFields.php:1379
 msgid "must specify a username"
 msgstr ""
 
@@ -417,9 +417,9 @@ msgstr ""
 msgid "No matching tracks found"
 msgstr ""
 
-#. File system/class_TrackManager.php:941
+#. File system/class_TrackManager.php:943
 #. 
-#: system/class_TrackManager.php:941
+#: system/class_TrackManager.php:943
 msgid "No playlists are active for this account"
 msgstr ""
 
@@ -429,9 +429,9 @@ msgstr ""
 msgid "No source is configured for this stream"
 msgstr ""
 
-#. File system/class_TrackManager.php:1225
+#. File system/class_TrackManager.php:1227
 #. 
-#: system/class_TrackManager.php:1225
+#: system/class_TrackManager.php:1227
 msgid "No tracks exist in the active playlists for this account"
 msgstr ""
 
@@ -620,9 +620,9 @@ msgstr ""
 msgid "The specified region does not host any available servers with the server type \"%s\" and the application(s) \"%s\""
 msgstr ""
 
-#. File system/class_AccountFields.php:1356
+#. File system/class_AccountFields.php:1380
 #. 
-#: system/class_AccountFields.php:1356
+#: system/class_AccountFields.php:1380
 msgid "the specified username is reserved"
 msgstr ""
 

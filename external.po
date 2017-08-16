@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2017-03-13 12:40+0100\n"
-"PO-Revision-Date: 2017-03-13 12:40+0100\n"
+"POT-Creation-Date: 2017-07-25 13:51-0700\n"
+"PO-Revision-Date: 2017-08-16 12:17+0200\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.0.3\n"
 
-#. File www/class_StreamStatus.php:551
+#. File www/class_StreamStatus.php:565
 #. Arguments: $this->str($this->bitrate)
 #.
 #. File www/class_CCTemplate.php:574
@@ -30,7 +30,7 @@ msgstr ""
 #. File www/client/class_ClientApplication.php:157
 #. Arguments: $this->streamstatus->bitrate
 #.
-#: www/class_StreamStatus.php:551 www/class_CCTemplate.php:574
+#: www/class_StreamStatus.php:565 www/class_CCTemplate.php:574
 #: www/system/templates/index_heading.tpl:3
 #: www/client/class_ClientApplication.php:157
 msgid "%d Kbps"
@@ -124,13 +124,13 @@ msgstr ""
 #: www/menu.php:11 www/menu.php:129 www/system/templates/admin_accounts.tpl:143
 #: www/system/templates/admin_sessions.tpl:12
 msgid "Accounts"
-msgstr ""
+msgstr "Accounts"
 
 #. File www/menu.php:302
 #.
 #: www/menu.php:302
 msgid "Admin"
-msgstr ""
+msgstr "Admin"
 
 #. File www/class_WebApplication.php:206
 #.
@@ -148,7 +148,7 @@ msgstr ""
 #: www/system/templates/admin_accounts_javascript.tpl:19
 #: www/system/templates/admin_sessions.tpl:47
 msgid "Administrator"
-msgstr ""
+msgstr "Administrator"
 
 #. File www/class_RPCApplication.php:150
 #.
@@ -174,7 +174,7 @@ msgstr ""
 #.
 #: www/class_Template.php:1632
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #. File www/class_CCTemplate.php:94
 #.
@@ -182,7 +182,7 @@ msgstr ""
 #.
 #: www/class_CCTemplate.php:94 www/class_Template.php:1529
 msgid "Apr"
-msgstr ""
+msgstr "Apr"
 
 #. File www/class_CCTemplate.php:94
 #.
@@ -233,7 +233,7 @@ msgstr "Aug"
 #.
 #. File system/sources/icessingleencoder/class_Sourceices.php:323
 #.
-#. File system/sources/ices2/class_Ices2ServerInterface.php:213
+#. File system/sources/ices2/class_Ices2ServerInterface.php:221
 #.
 #. File system/sources/ices2/class_Sourceices2.php:196
 #.
@@ -262,7 +262,7 @@ msgstr "Aug"
 #: system/sources/sctrans2/class_Sourcesctrans2.php:534
 #: system/sources/liquidsoap/class_Sourceliquidsoap.php:177
 #: system/sources/icessingleencoder/class_Sourceices.php:323
-#: system/sources/ices2/class_Ices2ServerInterface.php:213
+#: system/sources/ices2/class_Ices2ServerInterface.php:221
 #: system/sources/ices2/class_Sourceices2.php:196
 #: system/sources/ices/srvintf/class_SingleMountIcesServerInterface.php:47
 #: system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:53
@@ -270,20 +270,20 @@ msgstr "Aug"
 #: system/sources/ezstream/class_Sourceezstream.php:332
 #: www/system/templates/admin_settings.tpl:211
 msgid "AutoDJ"
-msgstr ""
+msgstr "AutoDJ"
 
 #. File www/class_NextSongApplication.php:38
 #.
 #: www/class_NextSongApplication.php:38
 msgid "Bad username or secret."
-msgstr ""
+msgstr "Unsicherer Benutzername oder Passwort."
 
 #. File www/external/rpc/class_RPCrecenttracks.php:35
 #.
-#. File www/client/modules/class_Module_widgets.php:114
+#. File www/client/modules/class_Module_widgets.php:113
 #.
 #: www/external/rpc/class_RPCrecenttracks.php:35
-#: www/client/modules/class_Module_widgets.php:114
+#: www/client/modules/class_Module_widgets.php:113
 msgid "Buy this album"
 msgstr "Kaufe dieses Album"
 
@@ -294,7 +294,7 @@ msgstr "Kaufe dieses Album"
 #.
 #: www/system/templates/login_head.tpl:46
 msgid "Caps lock warning"
-msgstr ""
+msgstr "Caps Lock Warnung"
 
 #. File www/class_WebApplication.php:208
 #.
@@ -308,7 +308,7 @@ msgstr "Kunde"
 #.
 #: www/class_RPCApplication.php:152
 msgid "client authentication required"
-msgstr ""
+msgstr "Kunden-Authentifizierung erforderlich"
 
 #. File www/menu.php:219
 #.
@@ -453,16 +453,16 @@ msgstr "Aktuelle Standorte der Zuhörer"
 #.
 #: www/class_CCTemplate.php:94 www/class_Template.php:1537
 msgid "Dec"
-msgstr ""
+msgstr "Dez"
 
 #. File www/system/templates/startpage_index.tpl:22
 #. Context: ="cc_req_title_{$username|htmlentities}{$charset|htmlentities}" name="request[title]" size="40" maxlength="127" /><br />
 #. {="Dedicated to"}: <input type="text" id="cc_req_dedi_{$username|htmlentities}{$charset|htmlentities}" name="request[dedication]" size="40" max
 #.
-#. File www/client/modules/class_Module_widgets.php:165
+#. File www/client/modules/class_Module_widgets.php:164
 #.
 #: www/system/templates/startpage_index.tpl:22
-#: www/client/modules/class_Module_widgets.php:165
+#: www/client/modules/class_Module_widgets.php:164
 msgid "Dedicated to"
 msgstr "Widmung"
 
@@ -544,7 +544,7 @@ msgstr "DJ Accounts"
 #. <td width="130">{="E-mail address"}:</td>
 #. <td colspan="4"><input type="text" name="config[email]" size="50" maxlength="255" value="{$config.email|htmlentities}"
 #.
-#. File system/class_AccountFields.php:824
+#. File system/class_AccountFields.php:847
 #.
 #. File system/class_AccountFields.php:343
 #.
@@ -552,7 +552,7 @@ msgstr "DJ Accounts"
 #: www/system/templates/staffaccount_edit.tpl:105
 #: www/system/templates/configuration_reseller_basic.tpl:17
 #: www/system/templates/configuration_client_basic.tpl:120
-#: system/class_AccountFields.php:824 system/class_AccountFields.php:343
+#: system/class_AccountFields.php:847 system/class_AccountFields.php:343
 msgid "E-mail address"
 msgstr "E-Mail-Adresse"
 
@@ -569,7 +569,7 @@ msgstr "E-Mails"
 #.
 #: www/system/templates/forgotreset.tpl:8
 msgid "Enter a new password below."
-msgstr "Geben Sie ein neues Passwort ein"
+msgstr "Geben Sie ein neues Passwort ein."
 
 #. File www/theme/templates/quick_links.tpl:26
 #. Context: {box title="FTP Client Connections"}
@@ -694,7 +694,7 @@ msgstr "Fehler"
 #.
 #: www/class_WebApplication.php:315
 msgid "Error loading %s module."
-msgstr "Fehler beim laden des Moduls %s"
+msgstr "Fehler beim laden des Moduls %s."
 
 #. File www/class_CCTemplate.php:94
 #.
@@ -706,13 +706,13 @@ msgstr "Feb"
 
 #. File www/menu.php:337
 #.
-#. File system/class_AccountFields.php:884
+#. File system/class_AccountFields.php:908
 #.
 #. File system/servers/WindowsMedia/class_WindowsMediaConfig.php:25
 #.
 #. File system/servers/IceCast/class_IceCastConfig.php:69
 #.
-#: www/menu.php:337 system/class_AccountFields.php:884
+#: www/menu.php:337 system/class_AccountFields.php:908
 #: system/servers/WindowsMedia/class_WindowsMediaConfig.php:25
 #: system/servers/IceCast/class_IceCastConfig.php:69
 msgid "Files"
@@ -865,7 +865,7 @@ msgstr "Streamserver by"
 #.
 #: www/menu.php:62
 msgid "Hosts"
-msgstr ""
+msgstr "Hosts"
 
 #. File www/system/templates/forgotsent.tpl:4
 #. Arguments: "<br />"
@@ -879,12 +879,12 @@ msgstr ""
 
 #. File www/class_RPCApplication.php:168
 #.
-#. File www/client/rpc/class_RPClibrary.php:805
+#. File www/client/rpc/class_RPClibrary.php:807
 #.
-#. File www/client/rpc/class_RPClibrary.php:737
+#. File www/client/rpc/class_RPClibrary.php:739
 #.
-#: www/class_RPCApplication.php:168 www/client/rpc/class_RPClibrary.php:805
-#: www/client/rpc/class_RPClibrary.php:737
+#: www/class_RPCApplication.php:168 www/client/rpc/class_RPClibrary.php:807
+#: www/client/rpc/class_RPClibrary.php:739
 msgid "insufficient DJ privileges"
 msgstr ""
 
@@ -946,7 +946,7 @@ msgstr "Juli"
 #.
 #: www/class_CCTemplate.php:94 www/class_Template.php:1531
 msgid "Jun"
-msgstr ""
+msgstr "Jun"
 
 #. File www/class_CCTemplate.php:581
 #.
@@ -975,7 +975,7 @@ msgstr ""
 #: www/system/templates/configuration_client_limits.tpl:156
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:12
 msgid "Kbps"
-msgstr ""
+msgstr "Kbps"
 
 #. File www/menu.php:357
 #.
@@ -1066,17 +1066,17 @@ msgstr "Zuhörer"
 #. <li>{="Loading"} ...</li>
 #. </ul>
 #.
-#. File www/client/modules/class_Module_widgets.php:200
+#. File www/client/modules/class_Module_widgets.php:199
 #.
-#. File www/client/modules/class_Module_widgets.php:127
+#. File www/client/modules/class_Module_widgets.php:126
 #.
-#. File www/client/modules/class_Module_widgets.php:102
+#. File www/client/modules/class_Module_widgets.php:101
 #.
-#. File www/client/modules/class_Module_widgets.php:186
+#. File www/client/modules/class_Module_widgets.php:185
 #.
-#. File www/client/modules/class_Module_widgets.php:91
+#. File www/client/modules/class_Module_widgets.php:90
 #.
-#. File www/client/modules/class_Module_widgets.php:151
+#. File www/client/modules/class_Module_widgets.php:150
 #.
 #. File www/system/templates/admin_serverstatus.tpl:24
 #. Context: <tbody id="rowcontainer">
@@ -1097,17 +1097,17 @@ msgstr "Zuhörer"
 #: www/system/templates/upload_single.tpl:44
 #: www/system/templates/library.tpl:122 www/system/templates/library.tpl:179
 #: www/system/templates/m/index.tpl:15
-#: www/client/modules/class_Module_widgets.php:200
-#: www/client/modules/class_Module_widgets.php:127
-#: www/client/modules/class_Module_widgets.php:102
-#: www/client/modules/class_Module_widgets.php:186
-#: www/client/modules/class_Module_widgets.php:91
-#: www/client/modules/class_Module_widgets.php:151
+#: www/client/modules/class_Module_widgets.php:199
+#: www/client/modules/class_Module_widgets.php:126
+#: www/client/modules/class_Module_widgets.php:101
+#: www/client/modules/class_Module_widgets.php:185
+#: www/client/modules/class_Module_widgets.php:90
+#: www/client/modules/class_Module_widgets.php:150
 #: www/system/templates/admin_serverstatus.tpl:24
 #: www/system/templates/admin_accounts_javascript.tpl:55
 #: www/system/templates/admin_accounts_javascript.tpl:27
 msgid "Loading"
-msgstr ""
+msgstr "Lade"
 
 #. File www/menu.php:350
 #.
@@ -1167,7 +1167,7 @@ msgstr "Anmelden"
 #: www/menu.php:459 www/menu.php:259 www/menu.php:94
 #: www/client/modules/class_Module_logs.php:12
 msgid "Logs"
-msgstr ""
+msgstr "Logs"
 
 #. File www/menu.php:134
 #.
@@ -1185,7 +1185,7 @@ msgstr "Verwalten"
 msgid "Manage your media library and add tracks to playlists."
 msgstr ""
 "Verwalten Sie Ihre Bibliothek und f&uuml;gen Sie Titel zu den "
-"Wiedergabelisten hinzu"
+"Wiedergabelisten hinzu."
 
 #. File www/menu.php:56
 #.
@@ -1208,7 +1208,7 @@ msgstr ""
 #: www/admin/modules/class_Module_remoteservers.php:17
 #: www/admin/modules/class_Module_rpchosts.php:18
 msgid "Management"
-msgstr ""
+msgstr "Verwaltung"
 
 #. File www/menu.php:63
 #.
@@ -1313,9 +1313,9 @@ msgstr "Montag"
 msgid "Music"
 msgstr "Musik"
 
-#. File www/class_StreamStatus.php:551
+#. File www/class_StreamStatus.php:565
 #.
-#: www/class_StreamStatus.php:551
+#: www/class_StreamStatus.php:565
 msgid "n/a"
 msgstr "n/a"
 
@@ -1334,9 +1334,9 @@ msgstr "n/a"
 #: www/menu.php:74 www/system/templates/news.tpl:6
 #: www/system/templates/admin_index.tpl:2
 msgid "News"
-msgstr ""
+msgstr "Neuigkeiten"
 
-#. File www/class_StreamStatus.php:554
+#. File www/class_StreamStatus.php:568
 #.
 #. File www/system/templates/configuration_client_widgets.tpl:14
 #. Context: tpage>0} selected="selected"{/if}>{="Yes"}</option>
@@ -1606,7 +1606,7 @@ msgstr ""
 #. <option value="0"{if $centovacast_account.startserver==0} selected="selected"{/if}>{="No"}</option>
 #. </select> ({="only used for non-autoDJ streams"})
 #.
-#: www/class_StreamStatus.php:554
+#: www/class_StreamStatus.php:568
 #: www/system/templates/configuration_client_widgets.tpl:14
 #: www/system/templates/configuration_client_source.tpl:62
 #: www/system/templates/configuration_client_source.tpl:53
@@ -1670,7 +1670,7 @@ msgstr "Nein"
 #.
 #: www/external/rpc/class_RPCondemand.php:134
 msgid "No on-demand content is available at this time."
-msgstr "Keine Inhalte verf&uuml;gbar"
+msgstr "Keine Inhalte verf&uuml;gbar."
 
 #. File www/external/rpc/class_RPCrecenttracks.php:37
 #.
@@ -1680,7 +1680,7 @@ msgstr "Es sind keine Tracks verfügbar"
 
 #. File www/external/rpc/class_RPCrequest.php:23
 #.
-#. File www/class_StreamStatus.php:534
+#. File www/class_StreamStatus.php:548
 #.
 #. File www/system/templates/statistics_downloads.tpl:24
 #. Context: <tbody>
@@ -1780,7 +1780,7 @@ msgstr "Es sind keine Tracks verfügbar"
 #.
 #. File system/class_Statistics.php:494
 #.
-#: www/external/rpc/class_RPCrequest.php:23 www/class_StreamStatus.php:534
+#: www/external/rpc/class_RPCrequest.php:23 www/class_StreamStatus.php:548
 #: www/system/templates/statistics_downloads.tpl:24
 #: www/system/templates/new_account_form.tpl:101
 #: www/system/templates/livestats.tpl:100 www/system/templates/livestats.tpl:82
@@ -1816,13 +1816,13 @@ msgstr ""
 #.
 #: www/system/templates/startpage_disabled.tpl:1
 msgid "Not found"
-msgstr ""
+msgstr "Nichts gefunden"
 
 #. File www/class_WebApplication.php:212
 #.
 #: www/class_WebApplication.php:212
 msgid "Not logged in"
-msgstr ""
+msgstr "Nicht angemeldet"
 
 #. File www/class_RPCApplication.php:175
 #.
@@ -1836,7 +1836,7 @@ msgstr ""
 #.
 #: www/class_CCTemplate.php:94 www/class_Template.php:1536
 msgid "Nov"
-msgstr "Nov."
+msgstr "Nov"
 
 #. File www/system/templates/startpage_nowplaying.tpl:4
 #. Context: <div style="white-space: nowrap; overflow: hidden; margin-right: 8px">
@@ -1869,13 +1869,13 @@ msgstr "Spielt gerade"
 msgid "Oct"
 msgstr "Okt"
 
-#. File www/class_StreamStatus.php:552
+#. File www/class_StreamStatus.php:566
 #.
-#. File www/class_StreamStatus.php:553
+#. File www/class_StreamStatus.php:567
 #.
 #. File www/external/rpc/class_RPCaccountinfo.php:47
 #.
-#. File www/class_StreamStatus.php:543
+#. File www/class_StreamStatus.php:557
 #.
 #. File www/theme/templates/m/page.tpl:24
 #. Context: } else {
@@ -1888,8 +1888,8 @@ msgstr "Okt"
 #.
 #. File www/client/class_ClientApplication.php:157
 #.
-#: www/class_StreamStatus.php:552 www/class_StreamStatus.php:553
-#: www/external/rpc/class_RPCaccountinfo.php:47 www/class_StreamStatus.php:543
+#: www/class_StreamStatus.php:566 www/class_StreamStatus.php:567
+#: www/external/rpc/class_RPCaccountinfo.php:47 www/class_StreamStatus.php:557
 #: www/theme/templates/m/page.tpl:24
 #: www/external/rpc/class_RPCaccountinfo.php:48
 #: www/client/class_ClientApplication.php:159
@@ -1901,10 +1901,10 @@ msgstr "Getrennt"
 #. Context: {check $account.allowondemand>0}
 #. <h3>{="On-demand Content"}</h3>
 #.
-#. File www/client/modules/class_Module_widgets.php:146
+#. File www/client/modules/class_Module_widgets.php:145
 #.
 #: www/system/templates/startpage_index.tpl:33
-#: www/client/modules/class_Module_widgets.php:146
+#: www/client/modules/class_Module_widgets.php:145
 msgid "On-demand Content"
 msgstr "Inhalte Auf Abruf"
 
@@ -1912,13 +1912,13 @@ msgstr "Inhalte Auf Abruf"
 #.
 #: www/external/rpc/class_RPCondemand.php:30
 msgid "On-demand content has been disabled for this stream."
-msgstr "inhalte auf Abruf wurde f&uuml;r diesen Stream deaktiviert."
+msgstr "Inhalte auf Abruf wurde für diesen Stream deaktiviert."
 
-#. File www/class_StreamStatus.php:553
+#. File www/class_StreamStatus.php:567
 #.
 #. File www/external/rpc/class_RPCaccountinfo.php:47
 #.
-#. File www/class_StreamStatus.php:552
+#. File www/class_StreamStatus.php:566
 #.
 #. File www/external/rpc/class_RPCaccountinfo.php:48
 #.
@@ -1926,8 +1926,8 @@ msgstr "inhalte auf Abruf wurde f&uuml;r diesen Stream deaktiviert."
 #.
 #. File www/client/class_ClientApplication.php:157
 #.
-#: www/class_StreamStatus.php:553 www/external/rpc/class_RPCaccountinfo.php:47
-#: www/class_StreamStatus.php:552 www/external/rpc/class_RPCaccountinfo.php:48
+#: www/class_StreamStatus.php:567 www/external/rpc/class_RPCaccountinfo.php:47
+#: www/class_StreamStatus.php:566 www/external/rpc/class_RPCaccountinfo.php:48
 #: www/client/class_ClientApplication.php:159
 #: www/client/class_ClientApplication.php:157
 msgid "Online"
@@ -2070,7 +2070,7 @@ msgstr "Passwort"
 #.
 #: www/login/modules/class_Module_forgot.php:89
 msgid "Password do not match."
-msgstr "Passw&ouml;rter stimmen nicht &uuml;berein"
+msgstr "Passw&ouml;rter stimmen nicht &uuml;berein."
 
 #. File www/login/modules/class_Module_forgot.php:87
 #.
@@ -2215,11 +2215,11 @@ msgstr "Informationen"
 #. Context: <fieldset>
 #. <legend>{="Recent Tracks"}</legend>
 #.
-#. File www/client/modules/class_Module_widgets.php:122
+#. File www/client/modules/class_Module_widgets.php:121
 #.
 #: www/system/templates/startpage_recenttracks.tpl:2
 #: www/system/templates/configuration_client_widgets.tpl:94
-#: www/client/modules/class_Module_widgets.php:122
+#: www/client/modules/class_Module_widgets.php:121
 msgid "Recent Tracks"
 msgstr "Zuletzt gespielte Musiktitel"
 
@@ -2234,10 +2234,10 @@ msgstr ""
 "Die Liste der zuletzt gespielten Titel wurde f&uuml;r diesen Stream "
 "daktiviert."
 
-#. File www/class_RPCApplication.php:320
+#. File www/class_RPCApplication.php:321
 #. Arguments: $classname
 #.
-#: www/class_RPCApplication.php:320
+#: www/class_RPCApplication.php:321
 msgid "Reference to unknown class: %s"
 msgstr ""
 
@@ -2304,7 +2304,7 @@ msgstr "Musiktitel wünschen"
 #: www/system/templates/admin_accounts.tpl:119
 #: www/system/templates/admin_accounts_javascript.tpl:22
 msgid "Reseller"
-msgstr ""
+msgstr "Reseller"
 
 #. File www/class_RPCApplication.php:151
 #.
@@ -2322,7 +2322,7 @@ msgstr ""
 #: www/system/templates/forgotform.tpl:20
 #: www/system/templates/forgotreset.tpl:19
 msgid "Reset password"
-msgstr ""
+msgstr "Passwort zurücksetzen"
 
 #. File www/menu.php:400
 #.
@@ -2404,7 +2404,7 @@ msgstr "Sept"
 #: www/system/templates/admin_serverstatus.tpl:15
 #: www/system/templates/admin_accounts.tpl:155
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #. File www/menu.php:345
 #.
@@ -2462,7 +2462,7 @@ msgstr "Einstellungen"
 #.
 #: www/menu.php:467 www/theme/templates/m/role-footer.tpl:8
 msgid "Setup"
-msgstr ""
+msgstr "Setup"
 
 #. File www/login/modules/class_Module_index.php:79
 #.
@@ -2474,10 +2474,10 @@ msgstr "Einzelanmeldung wurde f&uuml;r diesen Server deaktiviert."
 #. Context: <form>
 #. {="Song artist"}: <input type="text" id="cc_req_artist_{$username|htmlentities}{$charset|htmlentities}" name="request[artist]" size="40" maxle
 #.
-#. File www/client/modules/class_Module_widgets.php:163
+#. File www/client/modules/class_Module_widgets.php:162
 #.
 #: www/system/templates/startpage_index.tpl:20
-#: www/client/modules/class_Module_widgets.php:163
+#: www/client/modules/class_Module_widgets.php:162
 msgid "Song artist"
 msgstr "Künstler"
 
@@ -2485,10 +2485,10 @@ msgstr "Künstler"
 #. Context: cc_req_artist_{$username|htmlentities}{$charset|htmlentities}" name="request[artist]" size="40" maxlength="127" /><br />
 #. {="Song title"}: <input type="text" id="cc_req_title_{$username|htmlentities}{$charset|htmlentities}" name="request[title]" size="40" maxleng
 #.
-#. File www/client/modules/class_Module_widgets.php:164
+#. File www/client/modules/class_Module_widgets.php:163
 #.
 #: www/system/templates/startpage_index.tpl:21
-#: www/client/modules/class_Module_widgets.php:164
+#: www/client/modules/class_Module_widgets.php:163
 msgid "Song title"
 msgstr "Musiktitel"
 
@@ -2513,7 +2513,7 @@ msgstr ""
 #.
 #: www/menu.php:28 www/system/templates/admin_sessions.tpl:47
 msgid "Staff"
-msgstr ""
+msgstr "Mitarbeiter"
 
 #. File www/menu.php:272
 #.
@@ -2534,7 +2534,7 @@ msgstr ""
 #: www/system/templates/autodj_control.tpl:13
 #: www/system/templates/admin_accounts.tpl:85
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #. File www/menu.php:414
 #.
@@ -2632,7 +2632,7 @@ msgstr "Statistiken"
 #: www/system/templates/admin_servertype_list.tpl:19
 #: www/system/templates/admin_sourcetype_list.tpl:19
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #. File www/menu.php:279
 #.
@@ -2670,10 +2670,10 @@ msgstr "AutoDJ stoppen"
 #. <input type="button" id="cc_req_button_{$username|htmlentities}{$charset|htmlentities}" class="cc_request_form" value="{="Submit song request"}" /><br />
 #. </form>
 #.
-#. File www/client/modules/class_Module_widgets.php:168
+#. File www/client/modules/class_Module_widgets.php:167
 #.
 #: www/system/templates/startpage_index.tpl:25
-#: www/client/modules/class_Module_widgets.php:168
+#: www/client/modules/class_Module_widgets.php:167
 msgid "Submit song request"
 msgstr "Musikwunsch abschicken"
 
@@ -2713,7 +2713,7 @@ msgstr "Sonntag"
 #: www/menu.php:83 www/system/templates/logmanager.tpl:15
 #: www/admin/modules/class_Module_logs.php:8
 msgid "System"
-msgstr ""
+msgstr "System"
 
 #. File www/menu.php:169
 #.
@@ -2721,7 +2721,7 @@ msgstr ""
 #.
 #: www/menu.php:169 www/menu.php:68
 msgid "Templates"
-msgstr ""
+msgstr "Templates"
 
 #. File www/external/rpc/class_RPCstreamlist.php:28
 #.
@@ -2750,7 +2750,7 @@ msgstr "Die angeforderte Seite konnte nicht gefunden werden."
 #.
 #: www/external/rpc/class_RPCstreamlist.php:13
 msgid "This feature is not enabled."
-msgstr ""
+msgstr "Diese Funktion ist nicht aktiviert."
 
 #. File www/menu.php:394
 #.
@@ -2891,13 +2891,13 @@ msgstr ""
 #. unknown: '{="Unknown"}',
 #. user_agent: '{="User agent: %s%s%s, type: %s%s%s"}',
 #.
-#. File system/class_TrackManager.php:650
+#. File system/class_TrackManager.php:652
 #.
 #. File system/class_Statistics.php:656
 #.
 #. File system/class_Statistics.php:754
 #.
-#. File system/class_TrackManager.php:722
+#. File system/class_TrackManager.php:724
 #.
 #. File system/class_RecentTracks.php:131
 #.
@@ -2937,8 +2937,8 @@ msgstr ""
 #: www/system/templates/playlist_list.tpl:40
 #: www/system/templates/statistics_listeners.tpl:181
 #: www/system/templates/statistics_listeners.tpl:5
-#: system/class_TrackManager.php:650 system/class_Statistics.php:656
-#: system/class_Statistics.php:754 system/class_TrackManager.php:722
+#: system/class_TrackManager.php:652 system/class_Statistics.php:656
+#: system/class_Statistics.php:754 system/class_TrackManager.php:724
 #: system/class_RecentTracks.php:131 system/class_RecentTracks.php:132
 #: system/class_Statistics.php:770 system/class_Statistics.php:638
 #: www/system/templates/admin_accounts_javascript.tpl:14
@@ -3009,7 +3009,7 @@ msgstr "Hochladen / Löschen von Dateien in Ihrer Medienbibliothek."
 #. <tr><td>{="Username"}:</td><td style="font-weight: bold">{$account.username}</td></tr>
 #. {if $account.reseller==0}
 #.
-#. File system/class_AccountFields.php:782
+#. File system/class_AccountFields.php:805
 #.
 #. File system/class_AccountFields.php:315
 #.
@@ -3053,7 +3053,7 @@ msgstr "Hochladen / Löschen von Dateien in Ihrer Medienbibliothek."
 #: www/system/templates/djaccount_list.tpl:23
 #: www/system/templates/djaccount_edit.tpl:37
 #: www/system/templates/account_created_details_basic.tpl:3
-#: system/class_AccountFields.php:782 system/class_AccountFields.php:315
+#: system/class_AccountFields.php:805 system/class_AccountFields.php:315
 #: www/system/templates/admin_accounts.tpl:153
 #: www/system/templates/admin_accounts.tpl:119
 #: www/system/templates/admin_sessions.tpl:23
@@ -3069,7 +3069,7 @@ msgstr "Benutzername"
 #.
 #: www/menu.php:100 www/admin/modules/class_Module_utilities.php:11
 msgid "Utilities"
-msgstr ""
+msgstr "Werkzeuge"
 
 #. File www/class_CCTemplate.php:136
 #.
@@ -3092,7 +3092,7 @@ msgstr ""
 #: www/system/templates/playlist_edit.tpl:195
 #: www/system/templates/configfile_editor.tpl:27
 msgid "Warning"
-msgstr ""
+msgstr "Warnung"
 
 #. File www/class_RPCApplication.php:121
 #.
@@ -3142,15 +3142,15 @@ msgstr "Mittwoch"
 #.
 #. File system/class_StreamingSource.php:283
 #.
-#. File system/class_AccountFields.php:881
+#. File system/class_AccountFields.php:905
 #.
 #: www/menu.php:478 www/menu.php:230
 #: www/client/modules/class_Module_widgets.php:15
-#: system/class_StreamingSource.php:283 system/class_AccountFields.php:881
+#: system/class_StreamingSource.php:283 system/class_AccountFields.php:905
 msgid "Widgets"
 msgstr "Widgets"
 
-#. File www/class_StreamStatus.php:554
+#. File www/class_StreamStatus.php:568
 #.
 #. File www/system/templates/configuration_client_widgets.tpl:22
 #. Context: <select name="config[allowondemand]" size="1">
@@ -3418,7 +3418,7 @@ msgstr "Widgets"
 #. <option value="1"{if $centovacast_account.startserver>0} selected="selected"{/if}>{="Yes"}</option>
 #. <option value="0"{if $centovacast_account.startserver==0} selected="selected"{/if}>{="No"}</option>
 #.
-#: www/class_StreamStatus.php:554
+#: www/class_StreamStatus.php:568
 #: www/system/templates/configuration_client_widgets.tpl:22
 #: www/system/templates/configuration_reseller_options.tpl:56
 #: www/system/templates/configuration_client_source.tpl:61
@@ -3501,7 +3501,7 @@ msgstr ""
 #.
 #: www/external/rpc/class_RPCondemand.php:133
 msgid "You must select at least one item."
-msgstr "Sie m&uuml;ssen mindestens einen Eintrag ausw&auml;hlen"
+msgstr "Sie m&uuml;ssen mindestens einen Eintrag ausw&auml;hlen."
 
 #. File www/theme/templates/quick_links.tpl:31
 #. Context: name"}:&nbsp;</td><td><strong>{$account.username|htmlentities}</strong></td></tr>
@@ -3528,10 +3528,10 @@ msgstr ""
 #. Context: cc_req_sender_{$username|htmlentities}{$charset|htmlentities}" name="request[sender]" size="40" maxlength="127" /><br />
 #. {="Your E-mail"}: <input type="text" id="cc_req_email_{$username|htmlentities}{$charset|htmlentities}" name="request[email]" size="40" maxleng
 #.
-#. File www/client/modules/class_Module_widgets.php:167
+#. File www/client/modules/class_Module_widgets.php:166
 #.
 #: www/system/templates/startpage_index.tpl:24
-#: www/client/modules/class_Module_widgets.php:167
+#: www/client/modules/class_Module_widgets.php:166
 msgid "Your E-mail"
 msgstr "Deine E-Mail"
 
@@ -3539,16 +3539,16 @@ msgstr "Deine E-Mail"
 #.
 #: www/external/rpc/class_RPCgooglemaps.php:46
 msgid "Your location"
-msgstr ""
+msgstr "Dein Standort"
 
 #. File www/system/templates/startpage_index.tpl:23
 #. Context: _req_dedi_{$username|htmlentities}{$charset|htmlentities}" name="request[dedication]" size="40" maxlength="127" /><br />
 #. {="Your name"}: <input type="text" id="cc_req_sender_{$username|htmlentities}{$charset|htmlentities}" name="request[sender]" size="40" maxle
 #.
-#. File www/client/modules/class_Module_widgets.php:166
+#. File www/client/modules/class_Module_widgets.php:165
 #.
 #: www/system/templates/startpage_index.tpl:23
-#: www/client/modules/class_Module_widgets.php:166
+#: www/client/modules/class_Module_widgets.php:165
 msgid "Your name"
 msgstr "Dein Name"
 

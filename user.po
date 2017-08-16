@@ -5,15 +5,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2017-03-13 12:41+0100\n"
-"PO-Revision-Date: 2017-03-13 12:41+0100\n"
+"POT-Creation-Date: 2017-07-25 13:51-0700\n"
+"PO-Revision-Date: 2017-08-16 13:00+0200\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.0.3\n"
 
 #. File www/system/templates/statistics_listeners.tpl:190
 #. Arguments: $listener.bandwidth|div:1024
@@ -375,10 +375,10 @@ msgstr "%s KB"
 msgid "%s Kbps"
 msgstr "%s Kbps"
 
-#. File www/client/modules/class_Module_widgets.php:134
+#. File www/client/modules/class_Module_widgets.php:133
 #. Arguments: 'Google Maps*(R)'
 #.
-#: www/client/modules/class_Module_widgets.php:134
+#: www/client/modules/class_Module_widgets.php:133
 msgid "%s Listener Map"
 msgstr "%s Zuhörerkarte"
 
@@ -1105,7 +1105,7 @@ msgstr "Administrator Login"
 #. <td>{="Administrator password"}:</td>
 #. <td colspan="4"><input type="password" name="config[adminpassword]" size="15" maxlength="32" value="{$config.adminpass
 #.
-#. File system/class_AccountFields.php:821
+#. File system/class_AccountFields.php:844
 #.
 #. File www/system/templates/admin_remoteserver_edit.tpl:21
 #. Context: <tr>
@@ -1117,7 +1117,7 @@ msgstr "Administrator Login"
 #. <tr><td>{="Administrator password"}:</td><td><input type="password" name="settings[password1]" value="{$settings.password1|htmlentities}" size="12" maxlength="32
 #.
 #: www/system/templates/configuration_client_basic.tpl:139
-#: system/class_AccountFields.php:821
+#: system/class_AccountFields.php:844
 #: www/system/templates/admin_remoteserver_edit.tpl:21
 #: www/system/templates/installer_form.tpl:15
 msgid "Administrator password"
@@ -1201,7 +1201,7 @@ msgstr "Type"
 #.
 #: www/system/templates/statistics_tracks.tpl:118
 msgid "Airtime"
-msgstr ""
+msgstr "Airtime"
 
 #. File www/system/templates/library.tpl:18
 #. Context: albums_text: '{="Albums"}',
@@ -1224,9 +1224,9 @@ msgstr ""
 "Albumcovers werden in aktueller Anordnung abgefragt. Verschieben um "
 "Anordnung zu ändern."
 
-#. File www/client/modules/class_Module_widgets.php:114
+#. File www/client/modules/class_Module_widgets.php:113
 #.
-#: www/client/modules/class_Module_widgets.php:114
+#: www/client/modules/class_Module_widgets.php:113
 msgid "Album image"
 msgstr "Albumcover"
 
@@ -1253,14 +1253,14 @@ msgstr "Album Name"
 #.
 #. File system/class_AccountFields.php:374
 #.
-#. File system/class_AccountFields.php:885
+#. File system/class_AccountFields.php:909
 #.
 #. File www/system/templates/admin_settings.tpl:307
 #. Context: <fieldset>
 #. <legend>{="Albums"}</legend>
 #.
 #: www/system/templates/library.tpl:116 www/system/templates/library.tpl:17
-#: system/class_AccountFields.php:374 system/class_AccountFields.php:885
+#: system/class_AccountFields.php:374 system/class_AccountFields.php:909
 #: www/system/templates/admin_settings.tpl:307
 msgid "Albums"
 msgstr "Alben"
@@ -1314,7 +1314,7 @@ msgstr "Zeige jedes Genre"
 #.
 #: www/system/templates/logs.tpl:39
 msgid "All logs"
-msgstr ""
+msgstr "Alle Logs"
 
 #. File www/system/templates/configuration_reseller_options.tpl:10
 #. Context: </tr>
@@ -1506,7 +1506,7 @@ msgstr ""
 #: www/system/templates/staffaccount_edit.tpl:154
 #: system/class_StaffAccount.php:128
 msgid "API access"
-msgstr ""
+msgstr "API Zugriff"
 
 #. File www/client/modules/class_Module_statistics.php:29
 #.
@@ -1667,6 +1667,26 @@ msgstr ""
 msgid "August"
 msgstr "August"
 
+#. File www/system/templates/configuration_client_basic.tpl:106
+#. Context: d width="40">{="Port"}:</td>
+#. <td style="font-weight: bold; padding: 3px" colspan="2">{if ($creating) || ($template_editor)}({="auto"}){else}{$config.port|htmlentities}{/if}</td>
+#. </tr>
+#.
+#. File www/system/templates/configuration_client_basic.tpl:104
+#. Context: <td>{="IP address"}:</td>
+#. <td style="font-weight: bold; padding: 3px">{if $creating}({="auto"}){else}{$config.ipaddress|htmlentities}{/if}</td>
+#. <td width="40">{="Port"}:</td>
+#.
+#. File www/system/templates/configuration_client_basic.tpl:99
+#. Context: <td width="40">{="Port"}:</td>
+#. <td colspan="2">{if $template_editor}({="auto"}){else}<input type="text" name="config[port]" size="6" maxlength="5" value="{$config.port|htmlentities}" onfocus="field_tip(th
+#.
+#: www/system/templates/configuration_client_basic.tpl:106
+#: www/system/templates/configuration_client_basic.tpl:104
+#: www/system/templates/configuration_client_basic.tpl:99
+msgid "auto"
+msgstr "Automatisch"
+
 #. File www/system/templates/configuration_client_source.tpl:107
 #. Context: <select name="config[samplerate]" size="1">
 #. <option value="0"{if $config.samplerate==0} selected="selected"{/if}>{="Auto"}</option>
@@ -1693,26 +1713,6 @@ msgstr "August"
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:67
 msgid "Auto"
 msgstr "Automatisch"
-
-#. File www/system/templates/configuration_client_basic.tpl:106
-#. Context: d width="40">{="Port"}:</td>
-#. <td style="font-weight: bold; padding: 3px" colspan="2">{if ($creating) || ($template_editor)}({="auto"}){else}{$config.port|htmlentities}{/if}</td>
-#. </tr>
-#.
-#. File www/system/templates/configuration_client_basic.tpl:104
-#. Context: <td>{="IP address"}:</td>
-#. <td style="font-weight: bold; padding: 3px">{if $creating}({="auto"}){else}{$config.ipaddress|htmlentities}{/if}</td>
-#. <td width="40">{="Port"}:</td>
-#.
-#. File www/system/templates/configuration_client_basic.tpl:99
-#. Context: <td width="40">{="Port"}:</td>
-#. <td colspan="2">{if $template_editor}({="auto"}){else}<input type="text" name="config[port]" size="6" maxlength="5" value="{$config.port|htmlentities}" onfocus="field_tip(th
-#.
-#: www/system/templates/configuration_client_basic.tpl:106
-#: www/system/templates/configuration_client_basic.tpl:104
-#: www/system/templates/configuration_client_basic.tpl:99
-msgid "auto"
-msgstr ""
 
 #. File www/system/templates/logs.tpl:36
 #. Context: e!="error"}<a href="{$pageself}&type=error">{="Error Log"}</a>{/if}
@@ -1794,16 +1794,16 @@ msgstr ""
 #. <td width="140">{="AutoDJ status"}:&nbsp;</td>
 #. <td colspan="3">
 #.
-#. File www/client/modules/class_Module_widgets.php:108
+#. File www/client/modules/class_Module_widgets.php:107
 #.
-#. File system/class_AccountFields.php:826
+#. File system/class_AccountFields.php:849
 #.
 #. File system/class_AccountFields.php:340
 #.
 #: www/system/templates/streamstatus.tpl:10
 #: www/system/templates/configuration_client_source.tpl:10
-#: www/client/modules/class_Module_widgets.php:108
-#: system/class_AccountFields.php:826 system/class_AccountFields.php:340
+#: www/client/modules/class_Module_widgets.php:107
+#: system/class_AccountFields.php:849 system/class_AccountFields.php:340
 msgid "AutoDJ status"
 msgstr "AutoDJ Status"
 
@@ -1841,10 +1841,10 @@ msgstr "Automatisch beste wählen"
 #. <td>{="Automatically queue requests"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:818
+#. File system/class_AccountFields.php:841
 #.
 #: www/system/templates/configuration_client_widgets.tpl:57
-#: system/class_AccountFields.php:818
+#: system/class_AccountFields.php:841
 msgid "Automatically queue requests"
 msgstr "Automatische Verarbeitung des Musikwunsches"
 
@@ -1970,7 +1970,7 @@ msgid ""
 "autoDJ will not activate when the stream is started."
 msgstr ""
 
-#. File www/client/modules/class_Module_widgets.php:104
+#. File www/client/modules/class_Module_widgets.php:103
 #.
 #. File www/system/templates/autodj_mountpoint_lang.tpl:5
 #. Context: The maximum bandwidth for your stream is %s kbps.  This leaves %s kbps available for the current mount point."}',
@@ -1997,8 +1997,8 @@ msgstr ""
 #.
 #. File system/sources/ices2/class_Ices2ServerInterface.php:199
 #.
-#. File system/servers/IceCast/templates/connection_details.tpl:33
-#. Context: }AAC/AAC+{else}{$mount.liqencoder|strtoupper|htmlentities}{/if}</strong></td></tr>{/check}
+#. File system/servers/IceCast/templates/connection_details.tpl:46
+#. Context: c"}AAC/AAC+{else}{$mount.liqencoder|strtoupper|htmlentities}{/if}</strong></td></tr>{/check}
 #. {if $mount.bitrate!=""}<tr><td>{="Bit rate"}:</td><td><strong>{="%s kbps",$mount.bitrate}</strong></td></tr>{/if}
 #. </table>
 #.
@@ -2045,7 +2045,7 @@ msgstr ""
 #. <td>{="Bit rate"}:&nbsp;</td>
 #. <td>{bitrate_field name="{$mpfieldname}[icesbitrate]" class="list_editor_field mpbitrate encoder_option" value
 #.
-#: www/client/modules/class_Module_widgets.php:104
+#: www/client/modules/class_Module_widgets.php:103
 #: www/system/templates/autodj_mountpoint_lang.tpl:5
 #: www/system/templates/configuration_client_source.tpl:70
 #: system/servers/ShoutCast2/templates/connection_details.tpl:12
@@ -2053,7 +2053,7 @@ msgstr ""
 #: system/servers/ShoutCast2/templates/connection_details.tpl:34
 #: system/servers/IceCast/class_IceCastConfig.php:32
 #: system/sources/ices2/class_Ices2ServerInterface.php:199
-#: system/servers/IceCast/templates/connection_details.tpl:33
+#: system/servers/IceCast/templates/connection_details.tpl:46
 #: system/servers/IceCast/templates/connection_details.tpl:12
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:38
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:58
@@ -2082,7 +2082,7 @@ msgstr "Ende"
 #.
 #: www/system/templates/configuration_reseller_options.tpl:1
 msgid "Branding"
-msgstr ""
+msgstr "Branding"
 
 #. File www/system/templates/library.tpl:48
 #. Context: import_m3u: '{="Import M3U playlist"}',
@@ -2286,7 +2286,7 @@ msgstr "Alles abbrechen"
 #: www/system/templates/upload_multiple.tpl:6
 #: www/system/templates/upload_single.tpl:6
 msgid "Cancelled"
-msgstr ""
+msgstr "Storniert"
 
 #. File www/system/templates/configuration_client_source.tpl:27
 #. Context: {/check}
@@ -2305,14 +2305,6 @@ msgstr "kann nicht geändert werden, während der Streamserver Online ist"
 #: www/system/templates/staffaccount_edit.tpl:131
 #: system/class_StaffAccount.php:69
 msgid "Change account statuses"
-msgstr ""
-
-#. File www/system/templates/account_rename.tpl:1
-#. Context: {box title="Change Account Username"}
-#. <form method="get" action="index.php">
-#.
-#: www/system/templates/account_rename.tpl:1
-msgid "Change Account Username"
 msgstr ""
 
 #. File www/system/templates/account_rename.tpl:27
@@ -2338,6 +2330,14 @@ msgstr ""
 msgid "Change account username"
 msgstr ""
 
+#. File www/system/templates/account_rename.tpl:1
+#. Context: {box title="Change Account Username"}
+#. <form method="get" action="index.php">
+#.
+#: www/system/templates/account_rename.tpl:1
+msgid "Change Account Username"
+msgstr ""
+
 #. File www/system/templates/configuration_form.tpl:53
 #. Context: {check ($reseller_editor>0) && ($creating==0) && ($template_editor==0)}
 #. <input type="button" value="{="Change password"}" onclick="window.location='index.php?page=resellerpassword{if $admin}&username={$config.username|htmlentities}{/if}'" />
@@ -2345,7 +2345,7 @@ msgstr ""
 #.
 #: www/system/templates/configuration_form.tpl:53
 msgid "Change password"
-msgstr ""
+msgstr "Passwort ändern"
 
 #. File www/system/templates/change_password.tpl:27
 #. Arguments: "<strong>",$reseller_username,"</strong>"
@@ -2369,7 +2369,7 @@ msgstr ""
 #. <td>{="Channels"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:800
+#. File system/class_AccountFields.php:823
 #.
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:24
 #. Context: <tr>
@@ -2407,7 +2407,7 @@ msgstr ""
 #: www/system/templates/configuration_client_source.tpl:90
 #: system/sources/sctrans2/class_Sourcesctrans2.php:525
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:14
-#: system/class_AccountFields.php:800
+#: system/class_AccountFields.php:823
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:24
 #: system/sources/ices2/class_Ices2ServerInterface.php:201
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:600
@@ -2432,17 +2432,17 @@ msgstr "Channel"
 #.
 #. File www/system/templates/configuration_client_basic.tpl:167
 #. Context: <tr>
-#. <td>{="Character encoding"}:&nbsp;</td>
+#. <td>{="Character encoding"}:</td>
 #. <td colspan="4">
 #.
-#. File system/class_AccountFields.php:808
+#. File system/class_AccountFields.php:831
 #.
 #. File system/class_AccountFields.php:337
 #.
 #: www/system/templates/configuration_reseller_basic.tpl:59
 #: www/system/templates/widgets.tpl:44
 #: www/system/templates/configuration_client_basic.tpl:167
-#: system/class_AccountFields.php:808 system/class_AccountFields.php:337
+#: system/class_AccountFields.php:831 system/class_AccountFields.php:337
 msgid "Character encoding"
 msgstr "Zeichenkodierung"
 
@@ -2602,7 +2602,7 @@ msgstr ""
 #.
 #: www/system/templates/library.tpl:42
 msgid "Comments"
-msgstr ""
+msgstr "Kommentare"
 
 #. File www/system/templates/configuration_reseller_basic.tpl:21
 #. Context: <tr>
@@ -2614,13 +2614,13 @@ msgstr ""
 #. <td>{="Company/organization"}:</td>
 #. <td colspan="4"><input type="text" name="config[organization]" size="50" maxlength="255" value="{$config.organization|
 #.
-#. File system/class_AccountFields.php:838
+#. File system/class_AccountFields.php:861
 #.
 #. File system/class_AccountFields.php:351
 #.
 #: www/system/templates/configuration_reseller_basic.tpl:21
 #: www/system/templates/configuration_client_basic.tpl:124
-#: system/class_AccountFields.php:838 system/class_AccountFields.php:351
+#: system/class_AccountFields.php:861 system/class_AccountFields.php:351
 msgid "Company/organization"
 msgstr "Firma / Organisation"
 
@@ -2673,7 +2673,7 @@ msgstr "Vollständig"
 #.
 #: www/system/templates/upload_multiple.tpl:5
 msgid "Complete."
-msgstr ""
+msgstr "Vollständig."
 
 #. File www/system/templates/configfile_editor.tpl:36
 #. Context: <div id="confeditorui" style="display: none">
@@ -2747,7 +2747,7 @@ msgstr "Playlisten konfigurieren"
 #.
 #: www/system/templates/change_password.tpl:41
 msgid "Confirm new password"
-msgstr ""
+msgstr "Neues Passwort bestätigen"
 
 #. File www/system/templates/statistics_tracks.tpl:58
 #. Context: <th style="text-align: right" width="70">{="Net Conn."}</th>
@@ -2870,7 +2870,7 @@ msgstr "Erstellen"
 #: www/reseller/modules/class_Module_accounts_base.php:38
 #: www/reseller/modules/class_Module_accounts_base.php:30
 msgid "Create a new account"
-msgstr ""
+msgstr "Neuen Account erstellen"
 
 #. File www/reseller/modules/class_Module_accounts_base.php:46
 #.
@@ -2885,7 +2885,7 @@ msgstr ""
 #.
 #: www/system/templates/configuration_client_cluster.tpl:4
 msgid "Create account on"
-msgstr ""
+msgstr "Erstelle Account auf"
 
 #. File www/system/templates/staffaccount_edit.tpl:132
 #. Context: s_create"{if $staffaccount.permissions|contains:"accounts_create"} checked="checked"{/if}> <label for="perm_accounts_create">{="Create accounts"}</label><br />
@@ -2949,14 +2949,14 @@ msgstr ""
 #.
 #: www/system/templates/filemanager.tpl:29
 msgid "Creating folder"
-msgstr ""
+msgstr "Erstelle Ordner"
 
 #. File www/system/templates/configuration_client_source.tpl:119
 #. Context: <tr>
 #. <td>{="Crossfade length"}:&nbsp;</td>
 #. <td colspan="3"><input type="text" name="config[crossfade]" size="5" maxlength="5" value="{$config.crossfade|htm
 #.
-#. File system/class_AccountFields.php:802
+#. File system/class_AccountFields.php:825
 #.
 #. File system/sources/sctrans2/class_Sourcesctrans2.php:576
 #.
@@ -2966,7 +2966,7 @@ msgstr ""
 #. <td colspan="3"><input type="text" name="config[crossfade]" size="5" maxlength="5" value="{$config.crossfade|htm
 #.
 #: www/system/templates/configuration_client_source.tpl:119
-#: system/class_AccountFields.php:802
+#: system/class_AccountFields.php:825
 #: system/sources/sctrans2/class_Sourcesctrans2.php:576
 #: system/sources/sctrans2/templates/configuration_source.tpl:3
 msgid "Crossfade length"
@@ -2991,11 +2991,11 @@ msgstr ""
 #. <div id="listenermeter" {tip addclass="headermeter" title="Current listeners"}{="This is the total number of listeners which are currently tuned in to your stream."}{/tip}>
 #. <img src="../system/ima
 #.
-#. File www/client/modules/class_Module_widgets.php:105
+#. File www/client/modules/class_Module_widgets.php:104
 #.
 #: www/system/templates/index_header.tpl:3
 #: www/system/templates/index_header.tpl:2
-#: www/client/modules/class_Module_widgets.php:105
+#: www/client/modules/class_Module_widgets.php:104
 msgid "Current listeners"
 msgstr "Aktuelle Zuh&ouml;rer"
 
@@ -3006,17 +3006,17 @@ msgstr "Aktuelle Zuh&ouml;rer"
 #.
 #: www/system/templates/change_password.tpl:32
 msgid "Current password"
-msgstr ""
+msgstr "Aktuelles Passwort"
 
-#. File www/client/modules/class_Module_widgets.php:111
+#. File www/client/modules/class_Module_widgets.php:110
 #.
-#: www/client/modules/class_Module_widgets.php:111
+#: www/client/modules/class_Module_widgets.php:110
 msgid "Current playlist"
 msgstr "Aktuelle Playliste"
 
-#. File www/client/modules/class_Module_widgets.php:102
+#. File www/client/modules/class_Module_widgets.php:101
 #.
-#: www/client/modules/class_Module_widgets.php:102
+#: www/client/modules/class_Module_widgets.php:101
 msgid "Current song"
 msgstr "Aktueller Musiktitel"
 
@@ -3242,7 +3242,7 @@ msgstr ""
 #.
 #: www/system/templates/logmanager.tpl:17
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
 #. File www/system/templates/units_lang.tpl:4
 #. Context: abbr_weeks:		'{="wks"}',
@@ -3251,7 +3251,7 @@ msgstr ""
 #.
 #: www/system/templates/units_lang.tpl:4
 msgid "day"
-msgstr ""
+msgstr "Tag"
 
 #. File www/system/templates/units_lang.tpl:5
 #. Context: abbr_day:		'{="day"}',
@@ -3260,13 +3260,13 @@ msgstr ""
 #.
 #: www/system/templates/units_lang.tpl:5
 msgid "days"
-msgstr ""
+msgstr "Tage"
 
 #. File www/client/modules/class_Module_control.php:217
 #.
 #: www/client/modules/class_Module_control.php:217
 msgid "deactivated"
-msgstr ""
+msgstr "deaktiviert"
 
 #. File www/client/modules/class_Module_statistics.php:31
 #.
@@ -3296,7 +3296,7 @@ msgstr ""
 #: www/system/templates/widgets.tpl:26
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:132
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
 #. File www/system/templates/filemanager.tpl:36
 #. Context: tpaste: '{="Paste"}',
@@ -3353,7 +3353,7 @@ msgstr "Löschen"
 #: www/system/templates/djaccount_list.tpl:39
 #: www/reseller/modules/class_Module_manageaccount_base.php:28
 msgid "Delete Account"
-msgstr "L&ouml;sche Konto"
+msgstr "Lösche Account"
 
 #. File www/reseller/modules/class_Module_manageaccount_base.php:28
 #. Arguments: strip_tags($_REQUEST['delusername'])
@@ -3388,7 +3388,7 @@ msgstr ""
 #.
 #: www/system/templates/playlist_list.tpl:48
 msgid "Delete playlist"
-msgstr "L&ouml;sche Wiedergabeliste"
+msgstr "Lösche Wiedergabeliste"
 
 #. File www/system/templates/account_delete_confirm.tpl:31
 #. Context: n" name="delusername" value="{$username|htmlentities}" />
@@ -3550,7 +3550,7 @@ msgstr ""
 #.
 #: www/system/templates/staffaccount_list.tpl:38
 msgid "Disable account"
-msgstr ""
+msgstr "Deaktiviere Account"
 
 #. File www/system/templates/djaccount_list.tpl:40
 #. Context: tatus&id={$djaccount.id}&status={if $djaccount.status=="enabled"}0{else}1{/if}"><img title="{if $djaccount.status=="enabled"}{="Disable DJ account"}{else}{="Enable DJ account"}{/if}" src="../system/images/icons/{if $djaccount.status=="enabled"}disable{else}enable{/if}.png"
@@ -3683,7 +3683,7 @@ msgstr ""
 #. {="Disk quota"}: {$errors.diskquota|checkerror}
 #. </td>
 #.
-#. File system/class_AccountFields.php:790
+#. File system/class_AccountFields.php:813
 #.
 #. File system/class_AccountFields.php:323
 #.
@@ -3701,7 +3701,7 @@ msgstr ""
 #. <td>
 #.
 #: www/system/templates/djaccount_edit.tpl:102
-#: system/class_AccountFields.php:790 system/class_AccountFields.php:323
+#: system/class_AccountFields.php:813 system/class_AccountFields.php:323
 #: www/system/templates/configuration_reseller_limits.tpl:87
 #: www/system/templates/admin_settings.tpl:137
 #: www/system/templates/configuration_client_limits.tpl:181
@@ -3805,7 +3805,7 @@ msgstr "Kalender anzeigen"
 #.
 #: www/client/class_ClientApplication.php:57
 msgid "DJ"
-msgstr ""
+msgstr "DJ"
 
 #. File www/system/templates/djaccount_update.tpl:3
 #. Context: {check $saved}
@@ -3943,12 +3943,12 @@ msgstr ""
 #. <td>{="E-mail unknown requests"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:819
+#. File system/class_AccountFields.php:842
 #.
 #: www/system/templates/configuration_client_widgets.tpl:81
-#: system/class_AccountFields.php:819
+#: system/class_AccountFields.php:842
 msgid "E-mail unknown requests"
-msgstr "E-Mail bei unbekannten Musikwünschen?"
+msgstr "E-Mail bei unbekannten Musikwünschen"
 
 #. File www/system/templates/reportformat_list.tpl:36
 #. Context: icons/delete.png" border="0" align="absmiddle" /></a>
@@ -3988,7 +3988,7 @@ msgstr "E-Mail bei unbekannten Musikwünschen?"
 #: www/system/templates/admin_accounts_javascript.tpl:124
 #: www/system/templates/admin_sessions.tpl:60
 msgid "Edit"
-msgstr ""
+msgstr "Editieren"
 
 #. File www/system/templates/staffaccount_list.tpl:39
 #. Context: }enable{/if}.png" border="0" align="absmiddle" /></a>
@@ -4022,14 +4022,6 @@ msgstr "Bearbeite Account"
 msgid "Edit account %s"
 msgstr "Bearbeite Account: %s"
 
-#. File www/system/templates/account_template_updated.tpl:1
-#. Context: {box title="Edit Account Template"}
-#. {="Account template updated successfully."}<br /><br />
-#.
-#: www/system/templates/account_template_updated.tpl:1
-msgid "Edit Account Template"
-msgstr ""
-
 #. File www/system/templates/account_template_list.tpl:46
 #. Context: ns/delete.png" border="0" align="absmiddle" /></a>
 #. <a href="{$indexself}&action=edit&id={$accounttemplate.id}"><img title="{="Edit account template"}" src="../system/images/icons/edit.png" border="0" align="absmiddle" /></a>
@@ -4037,6 +4029,14 @@ msgstr ""
 #.
 #: www/system/templates/account_template_list.tpl:46
 msgid "Edit account template"
+msgstr ""
+
+#. File www/system/templates/account_template_updated.tpl:1
+#. Context: {box title="Edit Account Template"}
+#. {="Account template updated successfully."}<br /><br />
+#.
+#: www/system/templates/account_template_updated.tpl:1
+msgid "Edit Account Template"
 msgstr ""
 
 #. File www/system/templates/staffaccount_edit.tpl:133
@@ -4073,7 +4073,7 @@ msgstr "Wiedergabeliste bearbeiten"
 #.
 #: www/system/templates/library.tpl:65
 msgid "Empty playlist"
-msgstr ""
+msgstr "Leere Playlist"
 
 #. File www/system/templates/staffaccount_list.tpl:38
 #. Context: {if $staffaccount.status=="enabled"}0{else}1{/if}"><img title="{if $staffaccount.status=="enabled"}{="Disable account"}{else}{="Enable account"}{/if}" src="../system/images/icons/{if $staffaccount.status=="enabled"}disable{else}enable{/if}.png" border="0" align="absmidd
@@ -4101,7 +4101,7 @@ msgstr ""
 #. <td width="200">{="Enable Google Maps%s widget","&reg;"}:</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:836
+#. File system/class_AccountFields.php:859
 #. Arguments: '&reg;'
 #.
 #. File system/class_AccountFields.php:346
@@ -4115,7 +4115,7 @@ msgstr ""
 #.
 #: www/system/templates/configuration_client_widgets.tpl:28
 #: www/system/templates/configuration_reseller_options.tpl:53
-#: system/class_AccountFields.php:836 system/class_AccountFields.php:346
+#: system/class_AccountFields.php:859 system/class_AccountFields.php:346
 #: www/system/templates/admin_settings.tpl:286
 msgid "Enable Google Maps%s widget"
 msgstr "Aktiviere Google Maps%s Widget"
@@ -4125,10 +4125,10 @@ msgstr "Aktiviere Google Maps%s Widget"
 #. <td>{="Enable on-demand content widget"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:834
+#. File system/class_AccountFields.php:857
 #.
 #: www/system/templates/configuration_client_widgets.tpl:19
-#: system/class_AccountFields.php:834
+#: system/class_AccountFields.php:857
 msgid "Enable on-demand content widget"
 msgstr "Inhalte auf Abruf aktivieren"
 
@@ -4144,10 +4144,10 @@ msgstr ""
 #. <td>{="Enable recent tracks widget"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:835
+#. File system/class_AccountFields.php:858
 #.
 #: www/system/templates/configuration_client_widgets.tpl:98
-#: system/class_AccountFields.php:835
+#: system/class_AccountFields.php:858
 msgid "Enable recent tracks widget"
 msgstr "Letzte Titel - Widget aktivieren"
 
@@ -4156,10 +4156,10 @@ msgstr "Letzte Titel - Widget aktivieren"
 #. <td>{="Enable song request widget"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:833
+#. File system/class_AccountFields.php:856
 #.
 #: www/system/templates/configuration_client_widgets.tpl:48
-#: system/class_AccountFields.php:833
+#: system/class_AccountFields.php:856
 msgid "Enable song request widget"
 msgstr "Musikwunsch Widget aktivieren"
 
@@ -4363,7 +4363,7 @@ msgstr "Abends"
 #.
 #: www/system/templates/logmanager.tpl:13
 msgid "Event Log"
-msgstr ""
+msgstr "Ereignisprotokoll"
 
 #. File www/system/templates/connection_details.tpl:11
 #. Arguments: "<strong>","</strong>"
@@ -4403,10 +4403,10 @@ msgstr ""
 #. <td>{="Fallback file"}:</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:840
+#. File system/class_AccountFields.php:863
 #.
 #: www/system/templates/configuration_client_files.tpl:30
-#: system/class_AccountFields.php:840
+#: system/class_AccountFields.php:863
 msgid "Fallback file"
 msgstr "Backup Datei"
 
@@ -4665,16 +4665,7 @@ msgstr "Vollmodus"
 #: www/reseller/modules/class_Module_configure.php:15
 #: www/admin/modules/class_Module_settings.php:10
 msgid "General Configuration"
-msgstr ""
-
-#. File www/system/templates/playlist_edit.tpl:119
-#. Context: change="update_panes()" id="playlisttype">
-#. <option value="general"{if $playlist.type=="general"} selected="selected"{/if}>{="General rotation"}</option>
-#. <option value="scheduled"{if $playlist.type=="scheduled"} selected="selected"{/if}>{="Scheduled"}</option>
-#.
-#: www/system/templates/playlist_edit.tpl:119
-msgid "General rotation"
-msgstr "Allgemeine Rotation"
+msgstr "Allgemeine Einstellungen"
 
 #. File www/system/templates/playlist_list.tpl:35
 #. Context: <td class="row{$_loop.oetxt}{$_loop.lasttxt}">
@@ -4683,6 +4674,15 @@ msgstr "Allgemeine Rotation"
 #.
 #: www/system/templates/playlist_list.tpl:35
 msgid "General Rotation"
+msgstr "Allgemeine Rotation"
+
+#. File www/system/templates/playlist_edit.tpl:119
+#. Context: change="update_panes()" id="playlisttype">
+#. <option value="general"{if $playlist.type=="general"} selected="selected"{/if}>{="General rotation"}</option>
+#. <option value="scheduled"{if $playlist.type=="scheduled"} selected="selected"{/if}>{="Scheduled"}</option>
+#.
+#: www/system/templates/playlist_edit.tpl:119
+msgid "General rotation"
 msgstr "Allgemeine Rotation"
 
 #. File www/system/templates/playlist_edit.tpl:146
@@ -4744,7 +4744,7 @@ msgstr ""
 #. <td>{="Genre"}:&nbsp;</td>
 #. <td colspan="3"><input type="text" name="config[genre]" size="30" maxlength="127" value="{$config.genre|htmlenti
 #.
-#. File system/class_AccountFields.php:805
+#. File system/class_AccountFields.php:828
 #.
 #. File system/class_ReportFormat.php:50
 #.
@@ -4768,7 +4768,7 @@ msgstr ""
 #. <td colspan="3"><input type="text" name="{$mpfieldname}[icesgenre]" class="list_editor_field" size="32" maxlen
 #.
 #: www/system/templates/configuration_client_source.tpl:75
-#: system/class_AccountFields.php:805 system/class_ReportFormat.php:50
+#: system/class_AccountFields.php:828 system/class_ReportFormat.php:50
 #: system/servers/IceCast/class_IceCastConfig.php:47
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:156
 #: system/sources/ices/srvintf/class_IcesServerInterface.php:170
@@ -4786,7 +4786,7 @@ msgstr "Genre"
 #: www/system/templates/configuration_reseller_options.tpl:49
 #: www/system/templates/admin_settings.tpl:282
 msgid "Google Maps"
-msgstr ""
+msgstr "Google Maps"
 
 #. File www/system/templates/configuration_reseller_options.tpl:62
 #. Context: <tr>
@@ -4804,7 +4804,7 @@ msgstr ""
 #: system/class_AccountFields.php:347
 #: www/system/templates/admin_settings.tpl:295
 msgid "Google Maps API Key"
-msgstr ""
+msgstr "Google Maps API-Schlüssel"
 
 #. File www/system/templates/configuration_reseller_options.tpl:66
 #. Context: <tr>
@@ -4879,7 +4879,7 @@ msgstr "Dr&uuml;cke STRG um mehrere %s auszuw&auml;hlen."
 #. <td>{="Host"}:</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:883
+#. File system/class_AccountFields.php:907
 #.
 #. File www/system/templates/admin_accounts.tpl:120
 #. Context: <option value="parentresellerid">{="Reseller"}/{="Username"}</option>
@@ -4894,12 +4894,12 @@ msgstr "Dr&uuml;cke STRG um mehrere %s auszuw&auml;hlen."
 #. File www/admin/rpc/class_RPClogmanager.php:212
 #.
 #: www/system/templates/new_account_form.tpl:61
-#: system/class_AccountFields.php:883
+#: system/class_AccountFields.php:907
 #: www/system/templates/admin_accounts.tpl:120
 #: www/system/templates/admin_accounts_javascript.tpl:23
 #: www/admin/rpc/class_RPClogmanager.php:212
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 #. File www/system/templates/configuration_client_cluster.tpl:21
 #. Context: <tr>
@@ -4920,7 +4920,7 @@ msgstr ""
 #. <td>{="Hostname"}:</td>
 #. <td colspan="4">
 #.
-#. File system/class_AccountFields.php:784
+#. File system/class_AccountFields.php:807
 #.
 #. File www/system/templates/admin_rpchost_edit.tpl:14
 #. Context: <tr>
@@ -4934,7 +4934,7 @@ msgstr ""
 #.
 #: www/system/templates/account_created_details.tpl:4
 #: www/system/templates/configuration_client_basic.tpl:84
-#: system/class_AccountFields.php:784
+#: system/class_AccountFields.php:807
 #: www/system/templates/admin_rpchost_edit.tpl:14
 #: www/system/templates/admin_about.tpl:113
 msgid "Hostname"
@@ -5171,7 +5171,7 @@ msgstr ""
 #.
 #: www/system/templates/import_m3u_result.tpl:1
 msgid "Import Results"
-msgstr ""
+msgstr "Importiere Ergebnisse"
 
 #. File www/system/templates/reportformat_edit.tpl:42
 #. Context: <div style="float: left; width: 30%">
@@ -5209,7 +5209,7 @@ msgstr ""
 #: www/system/templates/library.tpl:58 www/system/templates/logs.tpl:10
 #: www/system/templates/admin_utilities.tpl:7
 msgid "Initializing"
-msgstr ""
+msgstr "Initialisiere"
 
 #. File www/system/templates/autodj_mountpoint_lang.tpl:2
 #. Context: {language}
@@ -5226,7 +5226,7 @@ msgstr ""
 #.
 #: www/system/templates/uncaught_exception.tpl:49
 msgid "Internal Error"
-msgstr ""
+msgstr "Interner Fehler"
 
 #. File www/system/templates/playlist_edit.tpl:288
 #. Context: <tr id="row_scheduled_interruptible">
@@ -5286,10 +5286,10 @@ msgstr ""
 #. <td width="110">{="Introduction file"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:839
+#. File system/class_AccountFields.php:862
 #.
 #: www/system/templates/configuration_client_files.tpl:9
-#: system/class_AccountFields.php:839
+#: system/class_AccountFields.php:862
 msgid "Introduction file"
 msgstr "Intro Datei"
 
@@ -5356,7 +5356,7 @@ msgstr "IP-Adresse"
 #. <h1>{="IP address"}</h1>
 #. {="Set this to 'auto' (recommended) to use the default IP address configured for the target host."}
 #.
-#. File system/class_AccountFields.php:785
+#. File system/class_AccountFields.php:808
 #.
 #. File www/system/templates/admin_rpchost_edit.tpl:7
 #. Context: <tr>
@@ -5368,7 +5368,7 @@ msgstr "IP-Adresse"
 #: www/system/templates/configuration_client_basic.tpl:96
 #: www/system/templates/account_created_details_basic.tpl:5
 #: www/system/templates/configuration_client_basic.tpl:31
-#: system/class_AccountFields.php:785
+#: system/class_AccountFields.php:808
 #: www/system/templates/admin_rpchost_edit.tpl:7
 msgid "IP address"
 msgstr "IP-Adresse"
@@ -5677,16 +5677,16 @@ msgstr "Broadcasting Daten"
 #.
 #. File www/system/templates/configuration_client_basic.tpl:156
 #. Context: <tr>
-#. <td>{="Locale"}:&nbsp;</td>
+#. <td>{="Locale"}:</td>
 #. <td colspan="4">
 #.
-#. File system/class_AccountFields.php:809
+#. File system/class_AccountFields.php:832
 #.
 #. File system/class_AccountFields.php:338
 #.
 #: www/system/templates/configuration_reseller_basic.tpl:48
 #: www/system/templates/configuration_client_basic.tpl:156
-#: system/class_AccountFields.php:809 system/class_AccountFields.php:338
+#: system/class_AccountFields.php:832 system/class_AccountFields.php:338
 msgid "Locale"
 msgstr "Sprache"
 
@@ -5757,7 +5757,7 @@ msgstr "Login Beschränkungen"
 #.
 #: www/system/templates/configuration_form.tpl:59
 msgid "Login to this account"
-msgstr ""
+msgstr "In diesen Account einloggen"
 
 #. File www/system/templates/configuration_reseller_options.tpl:13
 #. Context: <tr>
@@ -5769,7 +5769,7 @@ msgstr ""
 #: www/system/templates/configuration_reseller_options.tpl:13
 #: system/class_AccountFields.php:352
 msgid "Logo image"
-msgstr ""
+msgstr "Logo-Bilddatei"
 
 #. File www/system/templates/statistics_historical.tpl:145
 #. Context: ey}" colspan="7" style="text-align: center; background-color: #ffca86">0</td>{/loop}</tr>
@@ -5961,7 +5961,7 @@ msgstr "M&auml;rz"
 #.
 #. File system/class_AccountFields.php:335
 #.
-#. File system/class_AccountFields.php:803
+#. File system/class_AccountFields.php:826
 #.
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:70
 #. Context: <tr>
@@ -5999,7 +5999,7 @@ msgstr "M&auml;rz"
 #: www/system/templates/connection_details.tpl:18
 #: www/system/templates/connection_details.tpl:38
 #: www/system/templates/reseller_index.tpl:55
-#: system/class_AccountFields.php:335 system/class_AccountFields.php:803
+#: system/class_AccountFields.php:335 system/class_AccountFields.php:826
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:70
 #: system/servers/WindowsMedia/templates/connection_details.tpl:11
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:606
@@ -6010,9 +6010,9 @@ msgstr "M&auml;rz"
 msgid "Maximum bit rate"
 msgstr "Maximale Bitrate"
 
-#. File www/client/modules/class_Module_widgets.php:106
+#. File www/client/modules/class_Module_widgets.php:105
 #.
-#. File system/class_AccountFields.php:788
+#. File system/class_AccountFields.php:811
 #.
 #. File system/class_AccountFields.php:317
 #.
@@ -6037,8 +6037,8 @@ msgstr "Maximale Bitrate"
 #.
 #. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:35
 #.
-#: www/client/modules/class_Module_widgets.php:106
-#: system/class_AccountFields.php:788 system/class_AccountFields.php:317
+#: www/client/modules/class_Module_widgets.php:105
+#: system/class_AccountFields.php:811 system/class_AccountFields.php:317
 #: system/servers/IceCast/class_IceCastConfig.php:40
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:121
 #: www/system/templates/configuration_client_limits.tpl:144
@@ -6065,7 +6065,16 @@ msgstr "maximal %d"
 #.
 #: www/system/templates/djaccount_edit.tpl:105
 msgid "MB"
-msgstr ""
+msgstr "MB"
+
+#. File www/system/templates/m/index.tpl:23
+#. Context: <ul data-role="listview" id="recent_tracks_list">
+#. <li><a href="index.php?page=library">{="Media library"}</a></li>
+#. <li><a href="index.php?page=playlists">{="Configure playlists"}</a></li>
+#.
+#: www/system/templates/m/index.tpl:23
+msgid "Media library"
+msgstr "Medienbibliothek"
 
 #. File www/system/templates/playlist.tpl:2
 #. Context: <form action="{$_SERVER.REQUEST_URI|htmlentities}" method="post">
@@ -6086,16 +6095,7 @@ msgstr ""
 #: www/system/templates/playlist_list.tpl:65
 #: www/system/templates/library.tpl:16
 msgid "Media Library"
-msgstr "Bibliothek"
-
-#. File www/system/templates/m/index.tpl:23
-#. Context: <ul data-role="listview" id="recent_tracks_list">
-#. <li><a href="index.php?page=library">{="Media library"}</a></li>
-#. <li><a href="index.php?page=playlists">{="Configure playlists"}</a></li>
-#.
-#: www/system/templates/m/index.tpl:23
-msgid "Media library"
-msgstr ""
+msgstr "Medienbibliothek"
 
 #. File www/system/templates/library.tpl:55
 #. Context: library_update: {
@@ -6119,7 +6119,7 @@ msgstr "Medienbibliothek Update"
 #.
 #: www/client/modules/class_Module_reportdownloads.php:38
 msgid "Meta tag: %s"
-msgstr ""
+msgstr "Metatag: %s"
 
 #. File www/system/templates/statistics_listeners.tpl:28
 #. Context: <tr>
@@ -6381,9 +6381,10 @@ msgstr "Meist geh&ouml;rte Musiktitel"
 #. <td width="130">{="Mount point"}:</td>
 #. <td><input type="text" name="mountpoints_field[mountname]" id="activempname" class="list_editor_field" size="30" val
 #.
-#. File system/servers/IceCast/templates/connection_details.tpl:31
-#. Context: <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port|htmlentities}</strong></td></tr>
-#. <tr><td>{="Mount point"}:&nbsp;</td><td><strong>{if ($mount.fallbackmount=="/live") or ($mount.fallbackmount|substr:-5=="_live")}{$mount.fallbackmount
+#. File system/servers/IceCast/templates/connection_details.tpl:32
+#. Context: <tr>
+#. <td>{="Mount point"}:&nbsp;</td>
+#. <td>
 #.
 #. File system/sources/ezstream/templates/configuration_source.tpl:6
 #. Context: <tr>
@@ -6401,7 +6402,7 @@ msgstr "Meist geh&ouml;rte Musiktitel"
 #: system/sources/ezstream/class_Sourceezstream.php:360
 #: system/sources/icessingleencoder/class_Sourceices.php:368
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:37
-#: system/servers/IceCast/templates/connection_details.tpl:31
+#: system/servers/IceCast/templates/connection_details.tpl:32
 #: system/sources/ezstream/templates/configuration_source.tpl:6
 msgid "Mount point"
 msgstr "Mountpoint"
@@ -6420,7 +6421,7 @@ msgstr "Mountpoint"
 #.
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:43
 #.
-#. File system/sources/ices2/class_Ices2ServerInterface.php:222
+#. File system/sources/ices2/class_Ices2ServerInterface.php:230
 #.
 #. File system/sources/liquidsoap/class_Sourceliquidsoap.php:184
 #.
@@ -6432,7 +6433,7 @@ msgstr "Mountpoint"
 #: www/system/templates/configuration_form.tpl:15
 #: system/servers/IceCast/class_IceCastConfig.php:65
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:43
-#: system/sources/ices2/class_Ices2ServerInterface.php:222
+#: system/sources/ices2/class_Ices2ServerInterface.php:230
 #: system/sources/liquidsoap/class_Sourceliquidsoap.php:184
 #: system/sources/sctrans2/class_Sourcesctrans2.php:541
 #: system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:62
@@ -6570,13 +6571,6 @@ msgstr "Neuer Account"
 msgid "New account"
 msgstr "Neues Konto"
 
-#. File www/system/templates/account_template_created.tpl:1
-#. Context: {box title="New Account Template"}
-#.
-#: www/system/templates/account_template_created.tpl:1
-msgid "New Account Template"
-msgstr ""
-
 #. File www/system/templates/new_account_form.tpl:10
 #. Context: <h1>{="Feature Management"}</h1>
 #. <h2>{="New account template"}</h2>
@@ -6584,7 +6578,14 @@ msgstr ""
 #.
 #: www/system/templates/new_account_form.tpl:10
 msgid "New account template"
-msgstr ""
+msgstr "Neues Account Template"
+
+#. File www/system/templates/account_template_created.tpl:1
+#. Context: {box title="New Account Template"}
+#.
+#: www/system/templates/account_template_created.tpl:1
+msgid "New Account Template"
+msgstr "Neues Account Template"
 
 #. File www/system/templates/filemanager.tpl:26
 #. Context: deleting_items: '{="Deleting %s item(s) from %s"}',
@@ -6601,7 +6602,7 @@ msgstr ""
 #.
 #: www/system/templates/filemanager.tpl:111
 msgid "New folder"
-msgstr ""
+msgstr "Neuer Ordner"
 
 #. File www/system/templates/filemanager.tpl:83
 #. Context: name"}" /> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -6657,7 +6658,7 @@ msgstr "Neues Template"
 #.
 #: www/system/templates/account_rename.tpl:17
 msgid "New username"
-msgstr ""
+msgstr "Neuer Username"
 
 #. File www/system/templates/logmanager.tpl:54
 #. Context: e="1"><option value="0">{="Page"} ...</option></select> &nbsp;
@@ -6677,7 +6678,7 @@ msgstr "Weiter"
 #.
 #: www/client/rpc/class_RPClibrary.php:451
 msgid "No artists were modified."
-msgstr ""
+msgstr "Keine Künstler wurden modifiziert."
 
 #. File www/system/templates/configuration_client_source.tpl:2
 #. Context: {language}
@@ -6686,7 +6687,7 @@ msgstr ""
 #.
 #: www/system/templates/configuration_client_source.tpl:2
 msgid "No autoDJ mount points"
-msgstr ""
+msgstr "Keine AutoDJ Mountpoints"
 
 #. File www/system/templates/account_ads_form.tpl:11
 #. Context: {else}
@@ -6738,7 +6739,7 @@ msgstr "Keine Zuhörer"
 #.
 #: www/system/templates/reportformat_list.tpl:15
 msgid "No report types have been created"
-msgstr ""
+msgstr "Es wurden keine Berichte angelegt"
 
 #. File www/system/templates/account_reparent.tpl:7
 #. Context: <select name="targetreseller" size="1">
@@ -6811,7 +6812,7 @@ msgstr ""
 #.
 #: www/system/templates/playlist_edit.tpl:291
 msgid "No, always play to completion or stop time"
-msgstr "Nein, immer zuende Spielen oder nach der Angegebenen Zeit stoppen."
+msgstr "Nein, immer zuende Spielen oder nach der Angegebenen Zeit stoppen"
 
 #. File www/client/rpc/class_RPCplaylist.php:311
 #.
@@ -6829,13 +6830,13 @@ msgstr "Nein, immer zuende Spielen oder nach der Angegebenen Zeit stoppen."
 #: www/client/rpc/class_RPCplaylist.php:42
 #: system/class_PlaylistFileImporter.php:68
 msgid "Not authorized to access playlist."
-msgstr "Der Zugriff auf diese Wiedergabeliste wurde verweigert"
+msgstr "Der Zugriff auf diese Wiedergabeliste wurde verweigert."
 
-#. File www/client/modules/class_Module_widgets.php:248
+#. File www/client/modules/class_Module_widgets.php:247
 #.
-#: www/client/modules/class_Module_widgets.php:248
+#: www/client/modules/class_Module_widgets.php:247
 msgid "Not available for your stream type"
-msgstr ""
+msgstr "Nicht verfügbar für Ihren Streamtyp"
 
 #. File www/system/templates/not_running.tpl:1
 #. Context: {box title="Not running"}
@@ -6843,7 +6844,7 @@ msgstr ""
 #.
 #: www/system/templates/not_running.tpl:1
 msgid "Not running"
-msgstr ""
+msgstr "Läuft nicht"
 
 #. File www/system/templates/staffaccount_edit.tpl:50
 #. Context: });
@@ -6858,7 +6859,7 @@ msgstr ""
 #. Context: {box title="Note"}
 #. {="Note that SHOUTcast DNAS does not support reloading its configuration without interrupting your stream.  This reload oper
 #.
-#. File system/servers/IceCast/templates/connection_details.tpl:40
+#. File system/servers/IceCast/templates/connection_details.tpl:53
 #. Context: {="Note"}: {="When the autoDJ is not running, DJ accounts cannot be used, and each mount point must be sourced separately"}.
 #.
 #. File system/servers/ShoutCast2/templates/connection_details.tpl:49
@@ -6867,10 +6868,10 @@ msgstr ""
 #: www/system/templates/staffaccount_edit.tpl:50
 #: www/system/templates/staffaccount_edit.tpl:36
 #: www/system/templates/reload_shoutcast.tpl:1
-#: system/servers/IceCast/templates/connection_details.tpl:40
+#: system/servers/IceCast/templates/connection_details.tpl:53
 #: system/servers/ShoutCast2/templates/connection_details.tpl:49
 msgid "Note"
-msgstr ""
+msgstr "Hinweis"
 
 #. File www/system/templates/account_updated.tpl:11
 #. Arguments: "<a href='index.php?page=importmedia&full=1'>","</a>"
@@ -6995,7 +6996,7 @@ msgstr ""
 #: www/reseller/modules/class_Module_reselleremails.php:10
 #: www/admin/modules/class_Module_emails.php:12
 msgid "Notification E-mail configuration"
-msgstr ""
+msgstr "Benachrichtigung E-Mail-Konfiguration"
 
 #. File www/client/modules/class_Module_statistics.php:31
 #.
@@ -7017,10 +7018,10 @@ msgstr "Jetzt l&auml;uft"
 #. <td>{="Number of recent tracks"}:</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:806
+#. File system/class_AccountFields.php:829
 #.
 #: www/system/templates/configuration_client_widgets.tpl:107
-#: system/class_AccountFields.php:806
+#: system/class_AccountFields.php:829
 msgid "Number of recent tracks"
 msgstr "Anzahl der neuen Titel"
 
@@ -7074,7 +7075,7 @@ msgstr "Oktober"
 #: www/system/templates/admin_accounts.tpl:29
 #: system/class_ServerControl.php:1635
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #. File www/system/templates/client_head.tpl:23
 #. Context: nowplaying: '{="Now Playing"}',
@@ -7239,7 +7240,7 @@ msgstr "Seite"
 #: www/admin/modules/class_Module_adminpassword.php:11
 #: www/admin/modules/class_Module_resellerpassword.php:12
 msgid "Password Change"
-msgstr "Passwort &auml;ndern"
+msgstr "Passwort ändern"
 
 #. File www/system/templates/password_field.tpl:6
 #. Context: {language}
@@ -7248,7 +7249,7 @@ msgstr "Passwort &auml;ndern"
 #.
 #: www/system/templates/password_field.tpl:6
 msgid "Password error"
-msgstr ""
+msgstr "Passwortfehler"
 
 #. File www/system/templates/password_field.tpl:9
 #. Context: ers in password; valid characters are A-Z, a-z, 0-9, and any symbol except backslash or space"}',
@@ -7265,11 +7266,11 @@ msgstr ""
 #. password_error_length: '{="password too short; a minimum of %d characters is required, and 8 or more is strongly recommended"}',
 #. password_error_chars: '{="invalid characters in password; valid characters are A-Z, a-z, 0-9, and any symbol except backsl
 #.
-#. File system/class_AccountFields.php:1338
+#. File system/class_AccountFields.php:1362
 #. Arguments: MIN_PASSWORD_LENGTH
 #.
 #: www/system/templates/password_field.tpl:7
-#: system/class_AccountFields.php:1338
+#: system/class_AccountFields.php:1362
 msgid ""
 "password too short; a minimum of %d characters is required, and 8 or more is "
 "strongly recommended"
@@ -7282,7 +7283,7 @@ msgstr ""
 #.
 #: www/system/templates/change_password.tpl:16
 msgid "Password updated successfully."
-msgstr "Passwort wurde erfolgreich geupdate.t"
+msgstr "Passwort wurde erfolgreich geupdatet."
 
 #. File www/system/templates/filemanager.tpl:80
 #. Context: te_clipboard(false)" value="{="Cut"}" />
@@ -7498,9 +7499,9 @@ msgstr "Erlaubt und aktiviert"
 msgid "Permitted, but disabled"
 msgstr "Erlaubt, aber deaktiviert"
 
-#. File www/client/modules/class_Module_widgets.php:100
+#. File www/client/modules/class_Module_widgets.php:99
 #.
-#: www/client/modules/class_Module_widgets.php:100
+#: www/client/modules/class_Module_widgets.php:99
 msgid ""
 "Place the following code (or any combination of the following <span> "
 "elements) on your web page wherever you would like the corresponding "
@@ -7510,24 +7511,24 @@ msgstr ""
 "folgenden <span>-Elemente) auf Ihrer Webseite, wo die gewünschten "
 "Informationen erscheinen sollen:"
 
-#. File www/client/modules/class_Module_widgets.php:187
+#. File www/client/modules/class_Module_widgets.php:186
 #.
-#. File www/client/modules/class_Module_widgets.php:202
+#. File www/client/modules/class_Module_widgets.php:201
 #.
-#. File www/client/modules/class_Module_widgets.php:170
+#. File www/client/modules/class_Module_widgets.php:169
 #.
-#. File www/client/modules/class_Module_widgets.php:152
+#. File www/client/modules/class_Module_widgets.php:151
 #.
-#. File www/client/modules/class_Module_widgets.php:128
+#. File www/client/modules/class_Module_widgets.php:127
 #.
-#. File www/client/modules/class_Module_widgets.php:92
+#. File www/client/modules/class_Module_widgets.php:91
 #.
-#: www/client/modules/class_Module_widgets.php:187
-#: www/client/modules/class_Module_widgets.php:202
-#: www/client/modules/class_Module_widgets.php:170
-#: www/client/modules/class_Module_widgets.php:152
-#: www/client/modules/class_Module_widgets.php:128
-#: www/client/modules/class_Module_widgets.php:92
+#: www/client/modules/class_Module_widgets.php:186
+#: www/client/modules/class_Module_widgets.php:201
+#: www/client/modules/class_Module_widgets.php:169
+#: www/client/modules/class_Module_widgets.php:151
+#: www/client/modules/class_Module_widgets.php:127
+#: www/client/modules/class_Module_widgets.php:91
 msgid ""
 "Place the following code at the bottom of the web page, just before your </"
 "body> tag"
@@ -7535,17 +7536,17 @@ msgstr ""
 "Platzieren Sie den folgenden Code im unteren Bereich Ihrer Webseite. Bevor "
 "dem schließenden </body> Tag"
 
-#. File www/client/modules/class_Module_widgets.php:140
+#. File www/client/modules/class_Module_widgets.php:139
 #.
-#: www/client/modules/class_Module_widgets.php:140
+#: www/client/modules/class_Module_widgets.php:139
 msgid ""
 "Place the following code at the bottom of the web page, just before your </"
 "body> tag, replacing YOUR_API_KEY with your Google Maps API key"
 msgstr ""
 
-#. File www/client/modules/class_Module_widgets.php:116
+#. File www/client/modules/class_Module_widgets.php:115
 #.
-#: www/client/modules/class_Module_widgets.php:116
+#: www/client/modules/class_Module_widgets.php:115
 msgid ""
 "Place the following code at the bottom of the web page, just before your </"
 "body> tag:"
@@ -7553,37 +7554,37 @@ msgstr ""
 "Platzieren Sie den folgenden Code im unteren Bereich Ihrer Webseite. Bevor "
 "dem schließenden </body> Tag:"
 
-#. File www/client/modules/class_Module_widgets.php:178
+#. File www/client/modules/class_Module_widgets.php:177
 #.
-#: www/client/modules/class_Module_widgets.php:178
+#: www/client/modules/class_Module_widgets.php:177
 msgid ""
 "Place the following code on your web page wherever you would like the tune-"
 "in links to appear:"
 msgstr ""
 "Platzieren Sie den folgenden Code irgendwo auf Ihrer Webseite um die "
-"Playerlinks anzeigen zu lassen."
+"Playerlinks anzeigen zu lassen:"
 
-#. File www/client/modules/class_Module_widgets.php:185
+#. File www/client/modules/class_Module_widgets.php:184
 #.
-#. File www/client/modules/class_Module_widgets.php:201
+#. File www/client/modules/class_Module_widgets.php:200
 #.
-#. File www/client/modules/class_Module_widgets.php:160
+#. File www/client/modules/class_Module_widgets.php:159
 #.
-#. File www/client/modules/class_Module_widgets.php:149
+#. File www/client/modules/class_Module_widgets.php:148
 #.
-#. File www/client/modules/class_Module_widgets.php:125
+#. File www/client/modules/class_Module_widgets.php:124
 #.
-#. File www/client/modules/class_Module_widgets.php:137
+#. File www/client/modules/class_Module_widgets.php:136
 #.
-#. File www/client/modules/class_Module_widgets.php:90
+#. File www/client/modules/class_Module_widgets.php:89
 #.
-#: www/client/modules/class_Module_widgets.php:185
-#: www/client/modules/class_Module_widgets.php:201
-#: www/client/modules/class_Module_widgets.php:160
-#: www/client/modules/class_Module_widgets.php:149
-#: www/client/modules/class_Module_widgets.php:125
-#: www/client/modules/class_Module_widgets.php:137
-#: www/client/modules/class_Module_widgets.php:90
+#: www/client/modules/class_Module_widgets.php:184
+#: www/client/modules/class_Module_widgets.php:200
+#: www/client/modules/class_Module_widgets.php:159
+#: www/client/modules/class_Module_widgets.php:148
+#: www/client/modules/class_Module_widgets.php:124
+#: www/client/modules/class_Module_widgets.php:136
+#: www/client/modules/class_Module_widgets.php:89
 msgid ""
 "Place the following code on your web page wherever you would like the widget "
 "to appear"
@@ -7793,7 +7794,7 @@ msgstr "Playlisten Sortierung"
 #.
 #: www/system/templates/playlist_update.tpl:1
 msgid "Playlist Update"
-msgstr ""
+msgstr "Playlist aktualisieren"
 
 #. File www/system/templates/client_directory_error.tpl:31
 #. Context: {="Please consult the manual for your streaming server for additional information about this error."}
@@ -7830,7 +7831,7 @@ msgstr "Bitte korrigieren Sie die Angaben und versuchen es erneut."
 #.
 #: www/system/templates/filemanager.tpl:15
 msgid "Please select a file or folder first."
-msgstr ""
+msgstr "Bitte zuerst eine Datei oder einen Ordner auswählen."
 
 #. File www/system/templates/filemanager.tpl:14
 #. Context: upload_here: '{="Upload here"}',
@@ -7839,7 +7840,7 @@ msgstr ""
 #.
 #: www/system/templates/filemanager.tpl:14
 msgid "Please select one or more files or folders first."
-msgstr ""
+msgstr "Bitte wählen Sie zuerst eine oder mehrere Dateien oder Ordner aus."
 
 #. File www/system/templates/upload_single.tpl:45
 #. Context: <div class="upload_file_name">{="Loading"} ...</div>
@@ -7882,7 +7883,7 @@ msgstr "Bitte warten"
 #. <h1>{="Port"}</h1>
 #. {="Set this to 'auto' (recommended) to automatically choose an available port from the target host.  Note that specifyi
 #.
-#. File system/class_AccountFields.php:786
+#. File system/class_AccountFields.php:809
 #.
 #. File www/system/templates/admin_rpchost_edit.tpl:18
 #. Context: <tr>
@@ -7903,12 +7904,12 @@ msgstr "Bitte warten"
 #: www/system/templates/configuration_client_basic.tpl:98
 #: www/system/templates/configuration_client_basic.tpl:105
 #: www/system/templates/configuration_client_basic.tpl:35
-#: system/class_AccountFields.php:786
+#: system/class_AccountFields.php:809
 #: www/system/templates/admin_rpchost_edit.tpl:18
 #: www/system/templates/admin_accounts.tpl:124
 #: www/system/templates/admin_accounts.tpl:156
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #. File www/system/templates/configuration_client_widgets.tpl:120
 #. Context: <tr>
@@ -7993,7 +7994,7 @@ msgstr "Berechtigungen"
 #.
 #: www/system/templates/configfile_editor.tpl:31
 msgid "Proceed with caution."
-msgstr ""
+msgstr "Mit Vorsicht fortfahren."
 
 #. File www/system/templates/upload_multiple.tpl:4
 #. Context: xfer_uploading: '{="Uploading..."}',
@@ -8008,7 +8009,7 @@ msgstr ""
 #: www/system/templates/upload_multiple.tpl:4
 #: www/system/templates/upload_single.tpl:4
 msgid "Processing upload..."
-msgstr ""
+msgstr "Verarbeite uploads..."
 
 #. File www/system/templates/configuration_client_source.tpl:13
 #. Context: {check $stream_is_up>0}
@@ -8091,7 +8092,7 @@ msgstr "Projizierter Datentransfer"
 #. File system/servers/IceCast/templates/connection_details.tpl:28
 #. Context: <table cellspacing="1" cellpadding="1" border="0" style="margin-left: 15px">
 #. <tr><td>{="Protocol"}:&nbsp;</td><td><strong>{$account.servertype|htmlentities}</strong></td></tr>
-#. <tr><td>{="Server hostname"}:&nbsp;</td><td><
+#. <tr><td>{="Server hostname"}:&nbsp;</td><td><st
 #.
 #. File system/servers/IceCast/templates/connection_details.tpl:9
 #. Context: <table cellspacing="1" cellpadding="1" border="0">
@@ -8158,26 +8159,26 @@ msgstr "Warteschlange"
 #.
 #: www/system/templates/playlist_edit.tpl:138
 msgid "Random (shuffled)"
-msgstr "Zuf&auml;llig (gemischt)"
+msgstr "Zufällig (gemischt)"
 
 #. File www/system/templates/configuration_client_source.tpl:58
 #. Context: <tr>
 #. <td>{="Randomize playlist"}:&nbsp;</td>
 #. <td colspan="3">
 #.
-#. File system/class_AccountFields.php:831
+#. File system/class_AccountFields.php:854
 #.
 #: www/system/templates/configuration_client_source.tpl:58
-#: system/class_AccountFields.php:831
+#: system/class_AccountFields.php:854
 msgid "Randomize playlist"
-msgstr ""
+msgstr "Zufällige Playlist"
 
 #. File www/system/templates/configuration_form.tpl:64
 #. Context: {check ($reseller_editor==0) && ($rawconfigpermitted>0)}
 #. <input type="button" value="{="Raw configuration"}" onclick="window.location='index.php?page=confeditor'" />
 #. {/check}
 #.
-#. File system/class_AccountFields.php:794
+#. File system/class_AccountFields.php:817
 #.
 #. File system/class_AccountFields.php:342
 #.
@@ -8192,11 +8193,11 @@ msgstr ""
 #. <td>
 #.
 #: www/system/templates/configuration_form.tpl:64
-#: system/class_AccountFields.php:794 system/class_AccountFields.php:342
+#: system/class_AccountFields.php:817 system/class_AccountFields.php:342
 #: www/system/templates/configuration_reseller_limits.tpl:140
 #: www/system/templates/configuration_client_limits.tpl:242
 msgid "Raw configuration"
-msgstr ""
+msgstr "Rohkonfiguration"
 
 #. File www/client/modules/class_Module_logs.php:13
 #.
@@ -8204,9 +8205,9 @@ msgstr ""
 msgid "Raw data from your streaming server"
 msgstr "Raw Daten zu Ihren Streamserver"
 
-#. File www/client/modules/class_Module_widgets.php:113
+#. File www/client/modules/class_Module_widgets.php:112
 #.
-#: www/client/modules/class_Module_widgets.php:113
+#: www/client/modules/class_Module_widgets.php:112
 msgid "Raw metadata"
 msgstr "Raw Metadaten"
 
@@ -8258,7 +8259,7 @@ msgstr "Anzeigename"
 #.
 #: www/system/templates/configuration_client_source.tpl:49
 msgid "Rebuild playlist"
-msgstr ""
+msgstr "Playliste neu erstellen"
 
 #. File www/system/templates/filemanager.tpl:45
 #. Context: recalculate_quota_title: '{="Updating usage"}',
@@ -8313,7 +8314,7 @@ msgstr "Rückgängig"
 #: www/system/templates/admin_rpchost_edit.tpl:59
 #: www/admin/modules/class_Module_regions.php:38
 msgid "Region"
-msgstr ""
+msgstr "Region"
 
 #. File www/client/modules/class_Module_control.php:93
 #.
@@ -8366,6 +8367,8 @@ msgstr "Entfernen"
 #: www/system/templates/import_m3u.tpl:32
 msgid "Remove any existing (non-duplicate) tracks in target playlist"
 msgstr ""
+"Entferne alle vorhandenen (nicht duplizierten) Titel in der angegebenen "
+"Playliste"
 
 #. File www/system/templates/library.tpl:33
 #. Context: edit_album: '{="Edit album details"}',
@@ -8401,7 +8404,7 @@ msgstr "Entferne Intro Datei"
 #.
 #: www/system/templates/configuration_reseller_options.tpl:24
 msgid "Remove logo image"
-msgstr ""
+msgstr "Logo-Bilddatei entfernen"
 
 #. File www/system/templates/filemanager.tpl:82
 #. Context: lete_selected()" value="{="Delete"}" />
@@ -8451,7 +8454,7 @@ msgstr "Datei umbennen"
 #.
 #: www/system/templates/filemanager.tpl:28
 msgid "Renaming file %s to %s"
-msgstr ""
+msgstr "Umbenennen von Datei %s zu %s"
 
 #. File www/system/templates/account_reparent.tpl:1
 #. Context: {box title="Reparent account"}
@@ -8515,7 +8518,7 @@ msgstr "Berichtsformate"
 #.
 #: www/system/templates/reportformat_edit.tpl:21
 msgid "Report Settings"
-msgstr ""
+msgstr "Berichtseinstellungen"
 
 #. File www/client/modules/class_Module_reportdownloads.php:17
 #.
@@ -8551,10 +8554,10 @@ msgstr ""
 #. <td>{="Request delay"}:</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:817
+#. File system/class_AccountFields.php:840
 #.
 #: www/system/templates/configuration_client_widgets.tpl:67
-#: system/class_AccountFields.php:817
+#: system/class_AccountFields.php:840
 msgid "Request delay"
 msgstr "Anfrageverzögerung"
 
@@ -8563,10 +8566,10 @@ msgstr "Anfrageverzögerung"
 #. <td>{="Request probability"}:</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:816
+#. File system/class_AccountFields.php:839
 #.
 #: www/system/templates/configuration_client_widgets.tpl:74
-#: system/class_AccountFields.php:816
+#: system/class_AccountFields.php:839
 msgid "Request probability"
 msgstr "Anfragewahrscheinlichkeit"
 
@@ -8595,7 +8598,7 @@ msgstr ""
 #: www/client/modules/class_Module_confeditor.php:75
 #: system/class_ServerControl.php:2561
 msgid "reseller"
-msgstr ""
+msgstr "Reseller"
 
 #. File www/reseller/modules/class_Module_resellerpassword.php:10
 #.
@@ -8809,7 +8812,7 @@ msgstr ""
 #.
 #: www/system/templates/library.tpl:155
 msgid "Revert"
-msgstr ""
+msgstr "Rückgängig machen"
 
 #. File www/system/templates/statistics_listeners.tpl:179
 #. Context: cons/ua-ripper.png" alt="{="Ripper"}" align="absmiddle" {tip}{="User agent: %s%s%s","<strong>",$listener.agent,"</strong>"} ({="Ripper"}){/tip} />
@@ -8847,7 +8850,7 @@ msgstr ""
 #. Context: <td width="130" align="right">{="Sample rate"}:&nbsp;</td>
 #. <td>
 #.
-#. File system/class_AccountFields.php:801
+#. File system/class_AccountFields.php:824
 #.
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:33
 #. Context: <tr>
@@ -8883,7 +8886,7 @@ msgstr ""
 #: www/system/templates/configuration_client_source.tpl:100
 #: system/sources/sctrans2/class_Sourcesctrans2.php:526
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:22
-#: system/class_AccountFields.php:801
+#: system/class_AccountFields.php:824
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:33
 #: system/sources/ices2/class_Ices2ServerInterface.php:202
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:614
@@ -9005,7 +9008,7 @@ msgstr "Speichern"
 #.
 #: www/system/templates/configfile_editor.tpl:38
 msgid "Save changes"
-msgstr ""
+msgstr "Änderungen übernehmen"
 
 #. File www/system/templates/library.tpl:180
 #. Context: <span id="panelloading_load">{="Loading"} ...</span>
@@ -9014,7 +9017,7 @@ msgstr ""
 #.
 #: www/system/templates/library.tpl:180
 msgid "Saving, please wait"
-msgstr ""
+msgstr "Speichern, bitte warten"
 
 #. File www/client/modules/class_Module_playlists.php:22
 #.
@@ -9041,7 +9044,7 @@ msgstr "Planen Sie Ihr Programm"
 #: www/system/templates/library.tpl:24
 #: www/system/templates/playlist_edit.tpl:120
 msgid "Scheduled"
-msgstr "geplant"
+msgstr "Geplant"
 
 #. File www/system/templates/playlist_edit.tpl:271
 #. Context: d="scheduled_monthdays" size="1">
@@ -9056,7 +9059,7 @@ msgstr "geplant"
 #: www/system/templates/playlist_edit.tpl:271
 #: www/system/templates/playlist_edit.tpl:211
 msgid "Scheduled date"
-msgstr "geplantes Datum"
+msgstr "Geplantes Datum"
 
 #. File www/system/templates/playlist_edit.tpl:202
 #. Context: {box title="Scheduled playlist details" id="scheduled_options"}
@@ -9221,7 +9224,7 @@ msgstr "Wähle"
 #.
 #: www/system/templates/account_reparent.tpl:4
 msgid "Select a new reseller for account %s"
-msgstr ""
+msgstr "Wählen Sie einen neuen Reseller für den Account %s aus"
 
 #. File www/system/templates/statistics.tpl:41
 #. Context: </div>
@@ -9285,7 +9288,7 @@ msgstr "Wähle einen AutoDJ Type..."
 #.
 #: www/system/templates/new_account_form.tpl:64
 msgid "Select cluster host..."
-msgstr ""
+msgstr "Clusterhost auswählen..."
 
 #. File www/system/templates/upload_multiple.tpl:45
 #. Context: <div>
@@ -9294,7 +9297,7 @@ msgstr ""
 #.
 #: www/system/templates/upload_multiple.tpl:45
 msgid "Select file"
-msgstr ""
+msgstr "Wähle Datei"
 
 #. File www/system/templates/upload_multiple.tpl:45
 #. Context: <div>
@@ -9422,7 +9425,7 @@ msgstr "Server Fehler Log"
 #. File system/servers/IceCast/templates/connection_details.tpl:29
 #. Context: <tr><td>{="Protocol"}:&nbsp;</td><td><strong>{$account.servertype|htmlentities}</strong></td></tr>
 #. <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
-#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{
+#. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$a
 #.
 #. File system/servers/ShoutCast2/templates/connection_details.tpl:31
 #. Context: <tr><td>{="Protocol"}:&nbsp;</td><td><strong>SHOUTcast (v1)</strong></td></tr>
@@ -9456,7 +9459,7 @@ msgstr "Server Hostname"
 #.
 #: www/system/templates/logmanager.tpl:14
 msgid "Server Logs"
-msgstr ""
+msgstr "Server-Logs"
 
 #. File www/system/templates/streamstatus.tpl:22
 #. Context: ="streamstatus">
@@ -9471,7 +9474,7 @@ msgstr ""
 #: www/system/templates/streamstatus.tpl:22
 #: www/system/templates/streamstatus.tpl:3
 msgid "Server offline"
-msgstr ""
+msgstr "Server offline"
 
 #. File www/system/templates/streamstatus.tpl:22
 #. Context: <div class="streamstatus">
@@ -9486,7 +9489,7 @@ msgstr ""
 #: www/system/templates/streamstatus.tpl:22
 #: www/system/templates/streamstatus.tpl:2
 msgid "Server online"
-msgstr ""
+msgstr "Server online"
 
 #. File www/system/templates/connection_details.tpl:8
 #. Context: {if $account.port!=0}
@@ -9501,7 +9504,7 @@ msgstr ""
 #. File system/servers/IceCast/templates/connection_details.tpl:30
 #. Context: <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
 #. <tr><td>{="Server port"}:&nbsp;</td><td><strong>{$account.port|htmlentities}</strong></td></tr>
-#. <tr><td>{="Mount point"}:&nbsp;</td><td><strong>{if
+#. <tr>
 #.
 #. File system/servers/IceCast/templates/connection_details.tpl:11
 #. Context: <tr><td>{="Server hostname"}:&nbsp;</td><td><strong>{$serverhostname|htmlentities}</strong></td></tr>
@@ -9544,10 +9547,10 @@ msgstr "Server Neustart"
 #. <div style="float: right; color: #808080; margin-left: 15px">{="Server software"}: <strong>{$servertype.title}</strong></div>
 #. <input type="text" name="config[hostname]" size="35" maxlength="255" value="{$c
 #.
-#. File system/class_AccountFields.php:873
+#. File system/class_AccountFields.php:897
 #.
 #: www/system/templates/configuration_client_basic.tpl:86
-#: system/class_AccountFields.php:873
+#: system/class_AccountFields.php:897
 msgid "Server software"
 msgstr "Server Software"
 
@@ -9570,10 +9573,10 @@ msgstr "Serverstatus Verwaltung"
 #. Context: server_status: '{="Server status"}',
 #. autodj_status: '{="AutoDJ status"}',
 #.
-#. File www/client/modules/class_Module_widgets.php:107
+#. File www/client/modules/class_Module_widgets.php:106
 #.
 #: www/system/templates/streamstatus.tpl:9
-#: www/client/modules/class_Module_widgets.php:107
+#: www/client/modules/class_Module_widgets.php:106
 msgid "Server status"
 msgstr "Serverstatus"
 
@@ -9602,7 +9605,7 @@ msgstr "Server gestoppt"
 #: www/system/templates/admin_accounts.tpl:121
 #: www/system/templates/admin_accounts_javascript.tpl:24
 msgid "Server type"
-msgstr ""
+msgstr "Servertyp"
 
 #. File www/system/templates/statistics_listeners.tpl:45
 #. Context: ven">{="Average data transfer"}</td>
@@ -9611,7 +9614,7 @@ msgstr ""
 #.
 #: www/system/templates/statistics_listeners.tpl:45
 msgid "session"
-msgstr ""
+msgstr "Sitzung"
 
 #. File www/system/templates/statistics_recent.tpl:65
 #. Context: <td class="roweven">&nbsp;</td>
@@ -9712,7 +9715,7 @@ msgstr "Informationen zur Verwendung Ihres Streamservers"
 #: www/admin/modules/class_Module_diagnostics.php:11
 #: www/admin/modules/class_Module_emails.php:11
 msgid "Settings Management"
-msgstr ""
+msgstr "Einstellungen verwalten"
 
 #. File www/system/templates/statistics_listeners.tpl:207
 #. Context: <form>
@@ -9787,7 +9790,7 @@ msgstr "Überspringe den Aktuellen Titel und starte den nächsten"
 #.
 #: www/system/templates/autodj_control.tpl:12
 msgid "Skip this song."
-msgstr "Musiktitel überspringen"
+msgstr "Musiktitel überspringen."
 
 #. File www/system/templates/import_m3u.tpl:23
 #. Context: <option value="0">{="Add duplicate tracks to target playlist"}</option>
@@ -9812,12 +9815,12 @@ msgstr ""
 #. request: '{="Song Requests"}'
 #. },
 #.
-#. File www/client/modules/class_Module_widgets.php:157
+#. File www/client/modules/class_Module_widgets.php:156
 #.
 #: www/system/templates/configuration_client_widgets.tpl:44
 #: www/system/templates/playlist_list.tpl:39
 #: www/system/templates/library.tpl:27
-#: www/client/modules/class_Module_widgets.php:157
+#: www/client/modules/class_Module_widgets.php:156
 msgid "Song Requests"
 msgstr "Musikwünsche"
 
@@ -9901,11 +9904,11 @@ msgstr ""
 #. source_connected: '{="Source connected"}',
 #. no_source_connected: '{="No source connected"}',
 #.
-#. File www/client/modules/class_Module_widgets.php:109
+#. File www/client/modules/class_Module_widgets.php:108
 #.
 #: www/system/templates/streamstatus.tpl:24
 #: www/system/templates/streamstatus.tpl:6
-#: www/client/modules/class_Module_widgets.php:109
+#: www/client/modules/class_Module_widgets.php:108
 msgid "Source connected"
 msgstr "Source verbunden"
 
@@ -9914,7 +9917,7 @@ msgstr "Source verbunden"
 #. <td>{="Source password"}:</td>
 #. <td colspan="4"><input type="password" name="config[sourcepassword]" size="15" maxlength="32" value="{$config.sourcepa
 #.
-#. File system/class_AccountFields.php:822
+#. File system/class_AccountFields.php:845
 #.
 #. File system/servers/IceCast/class_IceCastConfig.php:39
 #.
@@ -9924,7 +9927,7 @@ msgstr "Source verbunden"
 #. <td><input type="text" name="mountpoints_field[password]" class="list_editor_field" size="15" value="" /> ({="blank
 #.
 #: www/system/templates/configuration_client_basic.tpl:134
-#: system/class_AccountFields.php:822
+#: system/class_AccountFields.php:845
 #: system/servers/IceCast/class_IceCastConfig.php:39
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:117
 msgid "Source password"
@@ -10067,9 +10070,9 @@ msgstr "gestartet"
 msgid "Station is offline"
 msgstr "Station ist Offline"
 
-#. File www/client/modules/class_Module_widgets.php:110
+#. File www/client/modules/class_Module_widgets.php:109
 #.
-#: www/client/modules/class_Module_widgets.php:110
+#: www/client/modules/class_Module_widgets.php:109
 msgid "Station time"
 msgstr "Streamserver Uhrzeit"
 
@@ -10091,7 +10094,7 @@ msgstr ""
 #.
 #: www/system/templates/statistics.tpl:31
 msgid "Statistics for reporting period:"
-msgstr "Statistikzeitraum"
+msgstr "Statistikzeitraum:"
 
 #. File www/system/templates/state_changed.tpl:1
 #. Context: {box title="Status change"}
@@ -10203,6 +10206,12 @@ msgstr ""
 msgid "Stop your streaming server"
 msgstr "Stoppen Ihres Streamservers"
 
+#. File www/client/modules/class_Module_control.php:176
+#.
+#: www/client/modules/class_Module_control.php:176
+msgid "stopped"
+msgstr "gestoppt"
+
 #. File www/system/templates/upload_multiple.tpl:7
 #. Context: xfer_cancelled: '{="Cancelled"}',
 #. xfer_stopped: '{="Stopped"}',
@@ -10218,12 +10227,6 @@ msgstr "Stoppen Ihres Streamservers"
 msgid "Stopped"
 msgstr "Gestoppt"
 
-#. File www/client/modules/class_Module_control.php:176
-#.
-#: www/client/modules/class_Module_control.php:176
-msgid "stopped"
-msgstr "gestoppt"
-
 #. File www/client/modules/class_Module_control.php:193
 #.
 #. File www/client/modules/class_Module_control.php:184
@@ -10232,25 +10235,25 @@ msgstr "gestoppt"
 #.
 #. File www/client/modules/class_Module_control.php:168
 #.
-#. File system/class_AccountFields.php:879
+#. File system/class_AccountFields.php:903
 #.
 #: www/client/modules/class_Module_control.php:193
 #: www/client/modules/class_Module_control.php:184
 #: www/client/modules/class_Module_control.php:176
 #: www/client/modules/class_Module_control.php:168
-#: system/class_AccountFields.php:879
+#: system/class_AccountFields.php:903
 msgid "Stream"
-msgstr ""
+msgstr "Stream"
 
-#. File www/client/modules/class_Module_widgets.php:97
+#. File www/client/modules/class_Module_widgets.php:96
 #.
-#: www/client/modules/class_Module_widgets.php:97
+#: www/client/modules/class_Module_widgets.php:96
 msgid "Stream Details"
 msgstr "Streamserver Details"
 
-#. File www/client/modules/class_Module_widgets.php:197
+#. File www/client/modules/class_Module_widgets.php:196
 #.
-#: www/client/modules/class_Module_widgets.php:197
+#: www/client/modules/class_Module_widgets.php:196
 msgid "Stream Directory"
 msgstr "Streamserver Verzeichnis"
 
@@ -10280,9 +10283,9 @@ msgstr "Streamserver Optionen und Einstellungen"
 msgid "Stream status"
 msgstr "Streamserver Status"
 
-#. File www/client/modules/class_Module_widgets.php:87
+#. File www/client/modules/class_Module_widgets.php:86
 #.
-#: www/client/modules/class_Module_widgets.php:87
+#: www/client/modules/class_Module_widgets.php:86
 msgid "Stream Status Summary"
 msgstr "Streamserver Zusammenfassung"
 
@@ -10291,13 +10294,13 @@ msgstr "Streamserver Zusammenfassung"
 #. <td width="130">{="Stream title"}:</td>
 #. <td colspan="4"><input type="text" name="config[title]" size="50" maxlength="255" value="{$config.title|htmlentities}"
 #.
-#. File www/client/modules/class_Module_widgets.php:103
+#. File www/client/modules/class_Module_widgets.php:102
 #.
-#. File system/class_AccountFields.php:823
+#. File system/class_AccountFields.php:846
 #.
 #: www/system/templates/configuration_client_basic.tpl:116
-#: www/client/modules/class_Module_widgets.php:103
-#: system/class_AccountFields.php:823
+#: www/client/modules/class_Module_widgets.php:102
+#: system/class_AccountFields.php:846
 msgid "Stream title"
 msgstr "Streamserver Titel"
 
@@ -10315,7 +10318,7 @@ msgstr "Sonntag"
 #: www/system/templates/staffaccount_edit.tpl:127
 #: system/class_StaffAccount.php:63
 msgid "Superuser (unrestricted access)"
-msgstr ""
+msgstr "Superuser (uneingeschränkter Zugang)"
 
 #. File www/system/templates/topbar.tpl:4
 #. Context: min>0}/admin/{else}/reseller/{/if}">{="Home"}</a>{if $admin>0} | <a target="_blank" href="http://www.centova.com/pages/cast">{="Support"}</a> | <a href="{$selfuri}?page=about">{="About"}</a>{/if}
@@ -10356,7 +10359,7 @@ msgstr "Template"
 #: www/system/templates/configuration_reseller_basic.tpl:30
 #: www/system/templates/configuration_client_basic.tpl:68
 msgid "Template description"
-msgstr "Template Beschreibung"
+msgstr "Template-Beschreibung"
 
 #. File www/system/templates/configuration_reseller_basic.tpl:26
 #. Context: <tr>
@@ -10374,7 +10377,7 @@ msgstr "Template Beschreibung"
 #: www/system/templates/configuration_client_basic.tpl:64
 #: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:14
 msgid "Template name"
-msgstr ""
+msgstr "Template-Name"
 
 #. File www/system/templates/connection_details.tpl:31
 #. Arguments: "<a href='index.php?page=configure'>","</a>"
@@ -10493,7 +10496,7 @@ msgstr ""
 msgid "The start page for this stream (if enabled) is available at: "
 msgstr ""
 "Die Startseite f&uuml;r diesen Streamserver (insoweit aktiviert), ist "
-"erreichbar unter:"
+"erreichbar unter: "
 
 #. File www/system/templates/client_directory_error.tpl:26
 #. Context: <p>
@@ -10543,9 +10546,9 @@ msgid ""
 "colon"
 msgstr ""
 "Der Username und das Passwort eines Ihrer %sDJ Accounts%s. Bei der "
-"Verbindung im SHOUTcast V2 Protokoll tragen Sie einfach in Ihren Boradcaster "
+"Verbindung im SHOUTcast V2 Protokoll tragen Sie einfach in Ihren Broadcaster "
 "beim Feld Username Ihren \"DJ Name\" und beim Passwort, dass \"DJ Passwort\" "
-"des angelegten DJs ein."
+"des angelegten DJs ein"
 
 #. File www/system/templates/account_rename.tpl:6
 #. Context: <ul>
@@ -10557,7 +10560,7 @@ msgid ""
 "The username for an account can only be changed when its stream is offline"
 msgstr ""
 "Der Username für einen Account kann nur geändert werden, wenn der "
-"Streamserver ausgeschaltet ist."
+"Streamserver ausgeschaltet ist"
 
 #. File www/system/templates/livestats_nolisteners.tpl:2
 #. Context: {box title="No listeners"}{="There are currently no listeners tuned-in to your stream."}{/box}
@@ -10606,7 +10609,7 @@ msgstr ""
 "Diese Funktion kann verwendet werden, um die Wiedergabe eines Wunschtitels "
 "durch einen Zufallsintervall zu verzögern. Eine Angabe von 100 gibt an, dass "
 "der Wunschtitel möglichst sofort wiedergegeben wird, wenn die "
-"Anfrageverzögerung abgelaufen ist; Die Reduzierung des Prozentsatzes "
+"Anfrageverzögerung abgelaufen ist. Die Reduzierung des Prozentsatzes "
 "verursacht eine weitere Verzögerung entsprechend einer Zufallszahl von "
 "Musiktitel."
 
@@ -10704,9 +10707,9 @@ msgstr "Der Server l&auml;uft nicht."
 msgid "This system folder cannot be altered."
 msgstr ""
 
-#. File www/client/modules/class_Module_widgets.php:98
+#. File www/client/modules/class_Module_widgets.php:97
 #.
-#: www/client/modules/class_Module_widgets.php:98
+#: www/client/modules/class_Module_widgets.php:97
 msgid ""
 "This widget is similar to the above, but it allows you to control the exact "
 "placement of various information about your stream through the use of "
@@ -10715,9 +10718,9 @@ msgstr ""
 "Dieses Stückchen ist der Streamserver Zusammenfassung ähnlich, erlaubt aber "
 "die Platzierung der einzelnen Informationen separat zu bestimmen."
 
-#. File www/client/modules/class_Module_widgets.php:183
+#. File www/client/modules/class_Module_widgets.php:182
 #.
-#: www/client/modules/class_Module_widgets.php:183
+#: www/client/modules/class_Module_widgets.php:182
 msgid ""
 "This widget provides an audio player for your stream that can be embedded in "
 "a web page."
@@ -10725,9 +10728,9 @@ msgstr ""
 "Mit diesem Widget können Sie einen direkten Webplayer in Ihrer Webseite "
 "integrieren."
 
-#. File www/client/modules/class_Module_widgets.php:147
+#. File www/client/modules/class_Module_widgets.php:146
 #.
-#: www/client/modules/class_Module_widgets.php:147
+#: www/client/modules/class_Module_widgets.php:146
 msgid ""
 "This widget will display a browser for your on-demand content, and allow "
 "your visitors to listen to and create playlists for your content."
@@ -10740,9 +10743,9 @@ msgstr ""
 "Land nutzen dürfen. Die Bereitstellung von OnDemand Content kann zumeist "
 "auch in Deutschland Ihre Abgaben der GEMA / GVL Lizenzen erhöhen."
 
-#. File www/client/modules/class_Module_widgets.php:158
+#. File www/client/modules/class_Module_widgets.php:157
 #.
-#: www/client/modules/class_Module_widgets.php:158
+#: www/client/modules/class_Module_widgets.php:157
 msgid ""
 "This widget will display a form with which users can submit song requests.  "
 "Song requests are either processed automatically or E-mailed to the stream "
@@ -10752,9 +10755,9 @@ msgstr ""
 "eingehene Musikwünsche völlig automatisch und spielt Sie den Zuhörern "
 "entsprechend ab."
 
-#. File www/client/modules/class_Module_widgets.php:123
+#. File www/client/modules/class_Module_widgets.php:122
 #.
-#: www/client/modules/class_Module_widgets.php:123
+#: www/client/modules/class_Module_widgets.php:122
 msgid ""
 "This widget will display a list of recently played tracks (including "
 "affiliate links and album cover images if available)."
@@ -10762,9 +10765,9 @@ msgstr ""
 "Dieses Widget zeigt die zuletzt gespielten Musiktitel. (Inklusive der "
 "Albumcover soweit verfügbar)"
 
-#. File www/client/modules/class_Module_widgets.php:88
+#. File www/client/modules/class_Module_widgets.php:87
 #.
-#: www/client/modules/class_Module_widgets.php:88
+#: www/client/modules/class_Module_widgets.php:87
 msgid ""
 "This widget will display the current song title and artist on your web page, "
 "refreshing once every minute."
@@ -10772,10 +10775,10 @@ msgstr ""
 "Dieses Widget zeigt den jeweils aktuellen Songtitel, Künstler auf Ihrer "
 "Webseite. Die Aktualisierung erfolgt im Minutentakt."
 
-#. File www/client/modules/class_Module_widgets.php:135
+#. File www/client/modules/class_Module_widgets.php:134
 #. Arguments: "Google Maps*(R)"
 #.
-#: www/client/modules/class_Module_widgets.php:135
+#: www/client/modules/class_Module_widgets.php:134
 msgid ""
 "This widget will plot the geographical locations of your current listeners "
 "on a geographical map using the %s mapping service."
@@ -10783,16 +10786,16 @@ msgstr ""
 "Dieses Widget erzeugt eine Geographische Karte mit dem aktuellen Standort "
 "Ihrer Zuhörer. Dieses Widget verwendet den Google Maps® Service."
 
-#. File www/client/modules/class_Module_widgets.php:198
+#. File www/client/modules/class_Module_widgets.php:197
 #.
-#: www/client/modules/class_Module_widgets.php:198
+#: www/client/modules/class_Module_widgets.php:197
 msgid "This widget will provide a list of streams hosted on the server."
 msgstr ""
 "Dieses Widget gibt eine Übersicht aller Streamserver auf diesen Server aus."
 
-#. File www/client/modules/class_Module_widgets.php:176
+#. File www/client/modules/class_Module_widgets.php:175
 #.
-#: www/client/modules/class_Module_widgets.php:176
+#: www/client/modules/class_Module_widgets.php:175
 msgid ""
 "This widget will provide a set of tune-in links for various media players."
 msgstr ""
@@ -10809,9 +10812,9 @@ msgid ""
 "large media library, this may take a very long time.  Proceed?"
 msgstr ""
 "Diese Aktion wird alle Ihre Benutzerdefinierten Einstellungen löschen. "
-"Cover / Artists / Album und benutzerdefinierte titelnamen welche Sie über "
-"das Centova Interface gesetzt haben, gehen unwiederruflich verloren. Je nach "
-"größe Ihrer Musikbibliothek, kann dieser Vorgang einige Zeit dauern."
+"Cover / Artists / Album und benutzerdefinierte Titelnamen welche Sie über "
+"das Centova Interface gesetzt haben, gehen unwiderruflich verloren. Je nach "
+"Größe Ihrer Musikbibliothek, kann dieser Vorgang einige Zeit dauern."
 
 #. File www/system/templates/playlist.tpl:12
 #. Context: {$playlistid}" />
@@ -10849,13 +10852,13 @@ msgstr "Zeit"
 #. <td>{="Time zone"}:</td>
 #. <td colspan="4">
 #.
-#. File system/class_AccountFields.php:807
+#. File system/class_AccountFields.php:830
 #.
 #. File system/class_AccountFields.php:339
 #.
 #: www/system/templates/configuration_reseller_basic.tpl:37
 #: www/system/templates/configuration_client_basic.tpl:145
-#: system/class_AccountFields.php:807 system/class_AccountFields.php:339
+#: system/class_AccountFields.php:830 system/class_AccountFields.php:339
 msgid "Time zone"
 msgstr "Zeitzone"
 
@@ -10966,7 +10969,7 @@ msgstr ""
 #: www/system/templates/admin_sourcetype_list.tpl:18
 #: www/system/templates/admin_remoteserver_list.tpl:20
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #. File www/system/templates/logmanager.tpl:44
 #. Context: <option value="6mo">{="to 6 months"}</option>
@@ -10975,7 +10978,7 @@ msgstr ""
 #.
 #: www/system/templates/logmanager.tpl:44
 msgid "to 1 month"
-msgstr ""
+msgstr "bis 1 Monat"
 
 #. File www/system/templates/logmanager.tpl:42
 #. Context: <select id="logtrimretain">
@@ -10984,7 +10987,7 @@ msgstr ""
 #.
 #: www/system/templates/logmanager.tpl:42
 msgid "to 1 year"
-msgstr ""
+msgstr "bis 1 Jahr"
 
 #. File www/system/templates/logmanager.tpl:45
 #. Context: <option value="1mo">{="to 1 month"}</option>
@@ -10993,7 +10996,7 @@ msgstr ""
 #.
 #: www/system/templates/logmanager.tpl:45
 msgid "to 2 weeks"
-msgstr ""
+msgstr "bis 2 Wochen"
 
 #. File www/system/templates/logmanager.tpl:43
 #. Context: <option value="1yr">{="to 1 year"}</option>
@@ -11002,7 +11005,7 @@ msgstr ""
 #.
 #: www/system/templates/logmanager.tpl:43
 msgid "to 6 months"
-msgstr ""
+msgstr "bis 6 Monate"
 
 #. File www/system/templates/playlist_list.tpl:85
 #. Context: {="To add your media to the playlists you've created above, launch your media library below."}<br /><br />
@@ -11436,10 +11439,10 @@ msgstr "Titelbild"
 #. Context: edit_track: '{="Track details"}',
 #. track_name: '{="Track name"}',
 #.
-#. File www/client/modules/class_Module_widgets.php:112
+#. File www/client/modules/class_Module_widgets.php:111
 #.
 #: www/system/templates/library.tpl:40
-#: www/client/modules/class_Module_widgets.php:112
+#: www/client/modules/class_Module_widgets.php:111
 msgid "Track details"
 msgstr "Titeldetails"
 
@@ -11519,10 +11522,10 @@ msgstr "Dienstag"
 #. <strong{if $serviceonline==0} class="transparent"{/if}>{="Tune In"}:</strong>&nbsp; {$tunein}
 #. </div>
 #.
-#. File www/client/modules/class_Module_widgets.php:175
+#. File www/client/modules/class_Module_widgets.php:174
 #.
 #: www/system/templates/topbar.tpl:9
-#: www/client/modules/class_Module_widgets.php:175
+#: www/client/modules/class_Module_widgets.php:174
 msgid "Tune In"
 msgstr "Tune In"
 
@@ -11593,7 +11596,7 @@ msgstr "Typ"
 #.
 #: www/client/modules/class_Module_logs.php:59
 msgid "Unable to access log file: %s"
-msgstr "Auf Log-Datei %s kann nicht zugrgriffen werden."
+msgstr "Auf Log-Datei %s kann nicht zugegriffen werden"
 
 #. File www/system/templates/configfile_editor.tpl:43
 #. Context: toolbutton"><div id="tboutdent" title="{="Decrease indent"}"></div></div>
@@ -11602,7 +11605,7 @@ msgstr "Auf Log-Datei %s kann nicht zugrgriffen werden."
 #.
 #: www/system/templates/configfile_editor.tpl:43
 msgid "Undo"
-msgstr ""
+msgstr "Rückgängig"
 
 #. File www/system/templates/statistics_listeners.tpl:58
 #. Context: <td class="roweven">{="Unique countries"}</td>
@@ -11682,7 +11685,7 @@ msgstr "Einzigartige Musiktitel"
 #: www/system/templates/admin_index.tpl:20
 #: www/system/templates/admin_accounts_javascript.tpl:7
 msgid "UNL"
-msgstr ""
+msgstr "UNL"
 
 #. File www/system/templates/filemanager.tpl:40
 #. Context: unlimited: '{="Unlimited"}',
@@ -11744,7 +11747,7 @@ msgstr "Unbegrenzt"
 #.
 #: www/system/templates/autodj_mountpoint_lang.tpl:6
 msgid "Unlock key required"
-msgstr ""
+msgstr "MP3 Lizenzcode erforderlich"
 
 #. File www/system/templates/statistics_listeners.tpl:92
 #. Context: 0">{="%.2f%%",$zero}</span> <img id="listeners_trend30_img" src="../system/images/icons/trend-up.png" align="absmiddle" alt="{="Up"}/{="Down"}" /></td>
@@ -11877,7 +11880,7 @@ msgstr "Speichern"
 #: www/system/templates/admin_email.tpl:89
 #: www/system/templates/admin_rpchost_form.tpl:13
 msgid "Update Failed"
-msgstr ""
+msgstr "Aktualisierung fehlgeschlagen"
 
 #. File www/system/templates/change_password.tpl:49
 #. Context: {/if}
@@ -11886,7 +11889,7 @@ msgstr ""
 #.
 #: www/system/templates/change_password.tpl:49
 msgid "Update password"
-msgstr ""
+msgstr "Passwort aktualisieren"
 
 #. File www/system/templates/importmedia.tpl:36
 #. Context: <form>
@@ -11910,7 +11913,7 @@ msgstr "Update Fortschritt"
 #: www/system/templates/change_password.tpl:16
 #: www/system/templates/admin_settings.tpl:28
 msgid "Update Successful"
-msgstr ""
+msgstr "Aktualisierung erfolgreich"
 
 #. File www/client/modules/class_Module_importmedia.php:49
 #.
@@ -11944,14 +11947,14 @@ msgstr ""
 #: www/system/templates/filemanager.tpl:32
 #: www/system/templates/import_m3u.tpl:40
 msgid "Upload"
-msgstr ""
+msgstr "Upload"
 
 #. File www/client/modules/class_Module_importm3u.php:17
 #. Arguments: '.M3U/.PLS'
 #.
 #: www/client/modules/class_Module_importm3u.php:17
 msgid "Upload and import a %s playlist"
-msgstr ""
+msgstr "Laden und importieren Sie eine %s Playlist"
 
 #. File www/system/templates/upload_multiple.tpl:8
 #. Context: xfer_stopped: '{="Stopped"}',
@@ -11966,7 +11969,7 @@ msgstr ""
 #: www/system/templates/upload_multiple.tpl:8
 #: www/system/templates/upload_single.tpl:8
 msgid "Upload Failed"
-msgstr ""
+msgstr "Upload fehlgeschlagen"
 
 #. File www/system/templates/upload_multiple.tpl:10
 #. Context: xfer_totals: '{="%s file(s) uploaded"}.',
@@ -11981,7 +11984,7 @@ msgstr ""
 #: www/system/templates/upload_multiple.tpl:10
 #: www/system/templates/upload_single.tpl:10
 msgid "Upload file"
-msgstr ""
+msgstr "Datei hochladen"
 
 #. File www/system/templates/upload_multiple.tpl:11
 #. Context: upload_file: '{="Upload file"}',
@@ -12080,7 +12083,7 @@ msgstr "User Agent"
 #: www/system/templates/statistics_listeners.tpl:179
 #: www/system/templates/statistics_listeners.tpl:178
 msgid "User agent: %s%s%s"
-msgstr ""
+msgstr "User Agent: %s%s%s"
 
 #. File www/system/templates/statistics_listeners.tpl:6
 #. Context: unknown: '{="Unknown"}',
@@ -12089,7 +12092,7 @@ msgstr ""
 #.
 #: www/system/templates/statistics_listeners.tpl:6
 msgid "User agent: %s%s%s, type: %s%s%s"
-msgstr ""
+msgstr "User Agent: %s%s%s, Type: %s%s%s"
 
 #. File www/client/modules/class_Module_statistics.php:63
 #.
@@ -12104,7 +12107,7 @@ msgstr "User-Agents"
 #.
 #: www/system/templates/account_renamed.tpl:5
 msgid "Username could not be updated"
-msgstr ""
+msgstr "Benutzername konnte nicht aktualisiert werden"
 
 #. File www/system/templates/account_renamed.tpl:3
 #. Arguments: "<strong>",$old_username,"</strong>","<strong>",$new_username,"</strong>"
@@ -12114,7 +12117,7 @@ msgstr ""
 #.
 #: www/system/templates/account_renamed.tpl:3
 msgid "Username for account %s%s%s successfully changed to %s%s%s"
-msgstr ""
+msgstr "Benutzername für Account %s%s%s wurde erfolgreich in %s%s%s geändert"
 
 #. File www/system/templates/statistics_listeners.tpl:31
 #. Context: <th width="30%">{="Metric"}</th>
@@ -12182,7 +12185,7 @@ msgstr "Zeige"
 #: www/system/templates/staffaccount_edit.tpl:149
 #: system/class_StaffAccount.php:114
 msgid "View active user sessions"
-msgstr ""
+msgstr "Aktive Sitzungen angelegter Accounts anzeigen"
 
 #. File www/system/templates/djaccount_edit.tpl:94
 #. Context: tion>
@@ -12218,7 +12221,7 @@ msgstr "Zeige Logs"
 #: www/system/templates/staffaccount_edit.tpl:137
 #: system/class_StaffAccount.php:87
 msgid "View master statistics"
-msgstr ""
+msgstr "Masterstatistiken anzeigen"
 
 #. File www/system/templates/staffaccount_edit.tpl:146
 #. Context: m_serverstatus"{if $staffaccount.permissions|contains:"serverstatus"} checked="checked"{/if}> <label for="perm_serverstatus">{="View server status"}</label><br />
@@ -12229,7 +12232,7 @@ msgstr ""
 #: www/system/templates/staffaccount_edit.tpl:146
 #: system/class_StaffAccount.php:105
 msgid "View server status"
-msgstr ""
+msgstr "Serverstatus anzeigen"
 
 #. File www/system/templates/djaccount_edit.tpl:93
 #. Context: ck}
@@ -12252,9 +12255,9 @@ msgid ""
 "associated configuration data."
 msgstr ""
 
-#. File www/client/modules/class_Module_widgets.php:182
+#. File www/client/modules/class_Module_widgets.php:181
 #.
-#: www/client/modules/class_Module_widgets.php:182
+#: www/client/modules/class_Module_widgets.php:181
 msgid "Web Player"
 msgstr "Webplayer"
 
@@ -12263,10 +12266,10 @@ msgstr "Webplayer"
 #. <td>{="Website URL"}:</td>
 #. <td colspan="4"><input type="text" name="config[url]" size="50" maxlength="255" value="{$config.url|htmlentities}" />
 #.
-#. File system/class_AccountFields.php:810
+#. File system/class_AccountFields.php:833
 #.
 #: www/system/templates/configuration_client_basic.tpl:128
-#: system/class_AccountFields.php:810
+#: system/class_AccountFields.php:833
 msgid "Website URL"
 msgstr "Webseite URL"
 
@@ -12307,7 +12310,7 @@ msgstr "Widgets zum einbinden in Ihrer Webseite"
 #.
 #: www/system/templates/units_lang.tpl:2
 msgid "wk"
-msgstr ""
+msgstr "wk"
 
 #. File www/system/templates/units_lang.tpl:3
 #. Context: abbr_week:		'{="wk"}',
@@ -12316,7 +12319,7 @@ msgstr ""
 #.
 #: www/system/templates/units_lang.tpl:3
 msgid "wks"
-msgstr ""
+msgstr "wks"
 
 #. File www/system/templates/statistics_agents.tpl:37
 #. Context: <th></th>
@@ -12343,7 +12346,7 @@ msgstr ""
 #: www/system/templates/statistics_listeners.tpl:167
 #: www/system/templates/statistics_listeners.tpl:144
 msgid "Xfer"
-msgstr ""
+msgstr "Xfer"
 
 #. File www/system/templates/playlist_edit.tpl:243
 #. Context: cted"{/if}>{="Monthly"}</option>
@@ -12352,7 +12355,7 @@ msgstr ""
 #.
 #: www/system/templates/playlist_edit.tpl:243
 msgid "Yearly"
-msgstr "J&auml;hrlich"
+msgstr "Jährlich"
 
 #. File www/system/templates/configuration_client_source.tpl:52
 #. Context: <select name="config[autorebuildlist]" size="1">
@@ -12372,7 +12375,7 @@ msgstr ""
 msgid "Yes, terminate if another scheduled playlist is due to begin"
 msgstr ""
 "Ja, diese Playliste unterbrechen, wenn eine andere Playliste zu einer "
-"Uhrzeit geplant wurde."
+"Uhrzeit geplant wurde"
 
 #. File www/system/templates/configuration_client_source.tpl:3
 #. Context: set_autodj_mounts_title: '{="No autoDJ mount points"}',

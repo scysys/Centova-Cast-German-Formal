@@ -5,15 +5,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2017-03-13 12:39+0100\n"
-"PO-Revision-Date: 2017-03-13 12:39+0100\n"
+"POT-Creation-Date: 2017-07-25 13:51-0700\n"
+"PO-Revision-Date: 2017-08-16 11:58+0200\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.0.3\n"
 
 #. File www/system/templates/admin_accounts.tpl:196
 #. Arguments: 100
@@ -485,7 +485,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_rpchost_edit.tpl:39
 msgid "Both"
-msgstr ""
+msgstr "Beide"
 
 #. File www/system/templates/admin_about.tpl:119
 #. Context: </td>	<td class="rowodd" style="font-weight: bold">{$systeminfo.memfree|bytes}</td></tr>
@@ -494,7 +494,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_about.tpl:119
 msgid "Buffers"
-msgstr ""
+msgstr "Buffer"
 
 #. File www/system/templates/admin_about.tpl:112
 #. Context: number"}</td>	<td class="roweven" style="font-weight: bold">{$_CONSTANTS.PRODUCT_REVISION}</td></tr>
@@ -512,7 +512,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_about.tpl:120
 msgid "Cached"
-msgstr ""
+msgstr "Gecacht"
 
 #. File www/system/templates/admin_about.tpl:138
 #. Context: <tr><th colspan="2">{="Web Interface Configuration"}</th></tr>
@@ -676,7 +676,7 @@ msgstr ""
 #: www/system/templates/admin_accounts.tpl:158
 #: www/system/templates/admin_accounts.tpl:125
 msgid "Clients"
-msgstr ""
+msgstr "Mandanten"
 
 #. File www/admin/modules/class_Module_rpchosts.php:19
 #.
@@ -705,7 +705,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_newsarticle_edit.tpl:16
 msgid "Content"
-msgstr ""
+msgstr "Inhalt"
 
 #. File www/system/templates/admin_accounts.tpl:73
 #. Context: delete">{="Delete the client accounts"}</label><br /><br />
@@ -751,7 +751,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_newsarticle_list.tpl:21
 msgid "Created"
-msgstr ""
+msgstr "Erstellt"
 
 #. File www/system/templates/admin_utilities.tpl:35
 #. Context: <table cellsacing="0" cellpadding="0" border="0">
@@ -768,7 +768,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_sessions.tpl:47
 msgid "current session"
-msgstr ""
+msgstr "aktuelle Sitzung"
 
 #. File www/admin/modules/class_Module_sessions.php:13
 #.
@@ -813,7 +813,7 @@ msgstr "Datentransfer"
 #.
 #: www/system/templates/admin_utilities.tpl:37
 msgid "Database"
-msgstr ""
+msgstr "Datenbank"
 
 #. File www/system/templates/admin_emails.tpl:17
 #. Context: <td class="row{$_loop.oetxt}{$_loop.lasttxt}">{$email.title|htmlentities}{if $email.readonly} <span style="color: #909090">({="default"})</span>{/if}</td>
@@ -821,7 +821,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_emails.tpl:17
 msgid "default"
-msgstr ""
+msgstr "Standard"
 
 #. File www/system/templates/admin_settings.tpl:224
 #. Context: <tr>
@@ -979,7 +979,7 @@ msgstr ""
 #: www/system/templates/admin_settings.tpl:62
 #: www/system/templates/admin_sessions.tpl:25
 msgid "E-mail"
-msgstr ""
+msgstr "E-Mail"
 
 #. File www/system/templates/admin_smtp_test.tpl:1
 #. Context: {box title="E-mail connectivity test"}
@@ -1003,7 +1003,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_accounts_javascript.tpl:46
 msgid "Edit account"
-msgstr ""
+msgstr "Konto bearbeiten"
 
 #. File www/system/templates/admin_rpchost_list.tpl:38
 #. Context: ages/icons/delete.png" border="0" align="absmiddle" /></a>
@@ -1039,7 +1039,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_region_list.tpl:34
 msgid "Edit region"
-msgstr ""
+msgstr "Bearbeite Region"
 
 #. File www/system/templates/admin_remoteserver_list.tpl:33
 #. Context: icons/delete.png" border="0" align="absmiddle" /></a>
@@ -1118,7 +1118,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_license_error.tpl:7
 msgid "expires in %s"
-msgstr ""
+msgstr "läuft ab in %s"
 
 #. File www/system/templates/admin_license_test.tpl:8
 #. Context: {else}
@@ -1137,7 +1137,7 @@ msgstr ""
 #: www/system/templates/admin_smtp_test.tpl:7
 #: www/system/templates/admin_ads_test.tpl:9
 msgid "FAILED"
-msgstr ""
+msgstr "FEHLGESCHLAGEN"
 
 #. File www/system/templates/admin_settings.tpl:254
 #. Context: <fieldset>
@@ -1235,7 +1235,7 @@ msgstr "F&uuml;r UnterstÃŒtzung und Updates besuchen Sie %s"
 #.
 #: www/system/templates/admin_email.tpl:98
 msgid "From"
-msgstr ""
+msgstr "Von"
 
 #. File www/system/templates/admin_accounts_javascript.tpl:21
 #. Context: group_key: {
@@ -1244,7 +1244,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_accounts_javascript.tpl:21
 msgid "Group"
-msgstr ""
+msgstr "Gruppe"
 
 #. File www/system/templates/admin_newsarticle_edit.tpl:12
 #. Context: <tr>
@@ -1253,7 +1253,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_newsarticle_edit.tpl:12
 msgid "Headline"
-msgstr ""
+msgstr "Überschrift"
 
 #. File www/system/templates/admin_index.tpl:3
 #. Context: dex.php?page=accounts&hidenews=1"><img src="../system/images/icons/close.png" border="0" alt="{="Hide this news box."}" {tip}{="Hide this news box."}{/tip}/></a></div>
@@ -1364,7 +1364,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_email.tpl:105
 msgid "HTML Preview"
-msgstr ""
+msgstr "HTML Vorschau"
 
 #. File www/system/templates/admin_rpchost_edit.tpl:40
 #. Context: <strong>{="Both"}</strong><br />
@@ -1454,7 +1454,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_license_error.tpl:7
 msgid "inactive"
-msgstr ""
+msgstr "inaktiv"
 
 #. File www/system/templates/admin_remoteserver_edit.tpl:26
 #. Context: <tr>
@@ -1523,7 +1523,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_accounts.tpl:128
 msgid "Limit"
-msgstr ""
+msgstr "Limit"
 
 #. File www/system/templates/configuration_reseller_limits.tpl:82
 #. Context: <tr>
@@ -1541,7 +1541,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_serverstatus.tpl:18
 msgid "Load"
-msgstr ""
+msgstr "Lieferadresse laden"
 
 #. File www/system/templates/admin_accounts_javascript.tpl:28
 #. Context: loading: '{="Loading"}',
@@ -1606,14 +1606,14 @@ msgstr ""
 #.
 #: www/system/templates/admin_sessions.tpl:26
 msgid "Login Time"
-msgstr ""
+msgstr "Anmeldenzeit"
 
 #. File www/system/templates/admin_settings.tpl:168
 #. Context: <h1>{="Logins"}</h1>
 #.
 #: www/system/templates/admin_settings.tpl:168
 msgid "Logins"
-msgstr ""
+msgstr "Anmeldungen"
 
 #. File www/system/templates/admin_about.tpl:115
 #. Context: <td class="rowodd" style="font-weight: bold">{$systeminfo.osbrief} {$systeminfo.osdetails}</td></tr>
@@ -1621,7 +1621,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_about.tpl:115
 msgid "Machine"
-msgstr ""
+msgstr "Maschine"
 
 #. File www/system/templates/admin_utilities.tpl:37
 #. Context: <tr><td colspan="2"><br /></td></tr>
@@ -1695,7 +1695,7 @@ msgstr "HTML-Nachricht (optional)"
 #.
 #: www/system/templates/admin_email.tpl:128
 msgid "Message text"
-msgstr ""
+msgstr "Nachrichtentext"
 
 #. File www/system/templates/configuration_client_limits.tpl:200
 #. Context: ue="{$config.mountlimit|htmlentities}" {if $config.mountlimit==0}disabled="disabled" {/if}/> {$errors.mountlimit|checkerror} {="mount points"}&nbsp;</td>
@@ -1726,7 +1726,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_newsarticle_list.tpl:5
 msgid "News articles"
-msgstr ""
+msgstr "Nachrichtenartikel"
 
 #. File www/admin/modules/class_Module_news.php:19
 #.
@@ -2013,7 +2013,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_rpchost_edit.tpl:15
 msgid "optional"
-msgstr ""
+msgstr "optional"
 
 #. File www/system/templates/admin_serverstatus.tpl:16
 #. Context: <th>{="Server"}</th>
@@ -2022,7 +2022,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_serverstatus.tpl:16
 msgid "OS"
-msgstr ""
+msgstr "OS"
 
 #. File www/system/templates/configuration_reseller_limits.tpl:96
 #. Context: heckbox" id="overselldata" name="config[overselldata]" value="1" {compare $config.overselldata,0,"","checked='checked' "} /> {="Oversell"}</td>
@@ -2056,7 +2056,7 @@ msgstr ""
 #: www/system/templates/admin_smtp_test.tpl:5
 #: www/system/templates/admin_ads_test.tpl:7
 msgid "PASSED"
-msgstr ""
+msgstr "BESTANDEN"
 
 #. File www/system/templates/configuration_reseller_limits.tpl:132
 #. Context: select name="config[quotaexceed]" size="1">
@@ -2252,7 +2252,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_newsarticle_edit.tpl:22
 msgid "Publish date"
-msgstr ""
+msgstr "Veröffentlicht am"
 
 #. File www/system/templates/admin_newsarticle_list.tpl:22
 #. Context: <th width="150" style="text-align: center">{="Created"}</th>
@@ -2261,7 +2261,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_newsarticle_list.tpl:22
 msgid "Published"
-msgstr ""
+msgstr "Veröffentlicht"
 
 #. File www/system/templates/admin_accounts.tpl:130
 #. Context: <option value="cacheddiskusage">{="Disk Space"} ({="Used"})</option>
@@ -2270,7 +2270,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_accounts.tpl:130
 msgid "Quota"
-msgstr ""
+msgstr "Kontingent"
 
 #. File www/system/templates/admin_utilities.tpl:49
 #. Context: {box title="Experimental Features"}
@@ -2294,7 +2294,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_region_edit.tpl:7
 msgid "Region name"
-msgstr ""
+msgstr "Name des Gebiets"
 
 #. File www/system/templates/admin_region_edit.tpl:3
 #. Context: <tr>
@@ -2323,7 +2323,7 @@ msgstr ""
 #: www/system/templates/admin_rpchost_edit.tpl:29
 #: www/system/templates/admin_rpchost_list.tpl:23
 msgid "Relay"
-msgstr ""
+msgstr "Relay"
 
 #. File www/system/templates/admin_remoteserver_edit.tpl:10
 #. Context: {box title="Remote Server"}
@@ -2331,7 +2331,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_remoteserver_edit.tpl:10
 msgid "Remote Server"
-msgstr ""
+msgstr "Remote-Server"
 
 #. File www/admin/modules/class_Module_remoteservers.php:18
 #.
@@ -2384,7 +2384,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_newsarticle_edit.tpl:53
 msgid "Resellers"
-msgstr ""
+msgstr "Resellers"
 
 #. File www/system/templates/admin_rpchost_edit.tpl:26
 #. Context: <tr>
@@ -2393,7 +2393,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_rpchost_edit.tpl:26
 msgid "Role"
-msgstr ""
+msgstr "Rolle"
 
 #. File www/system/templates/admin_emails.tpl:2
 #. Context: <div class="tabletitle">
@@ -2415,7 +2415,7 @@ msgstr ""
 #.
 #: www/admin/modules/class_Module_settings.php:10
 msgid "Server Settings"
-msgstr ""
+msgstr "Server-Einstellungen"
 
 #. File www/admin/modules/class_Module_servertypes.php:17
 #.
@@ -2424,7 +2424,7 @@ msgstr ""
 #: www/admin/modules/class_Module_servertypes.php:17
 #: www/admin/modules/class_Module_rpchosts.php:46
 msgid "Server Software"
-msgstr ""
+msgstr "Server Software"
 
 #. File www/system/templates/admin_rpchost_edit.tpl:3
 #. Context: <tr>
@@ -2490,7 +2490,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_settings.tpl:40
 msgid "Site name"
-msgstr ""
+msgstr "Name der Webseite"
 
 #. File www/system/templates/configuration_client_limits.tpl:145
 #. Context: ut type="text" id="maxclients" name="config[maxclients]" size="5" maxlength="5" value="{$config.maxclients|htmlentities}" /> {="slots"} {$errors.maxclients|checkerror}</td>
@@ -2534,7 +2534,7 @@ msgstr "SMTP Server"
 #.
 #: www/system/templates/admin_settings.tpl:77
 msgid "SMTP username"
-msgstr ""
+msgstr "SMTP-Benutzername"
 
 #. File www/admin/modules/class_Module_sourcetypes.php:16
 #.
@@ -2543,7 +2543,7 @@ msgstr ""
 #: www/admin/modules/class_Module_sourcetypes.php:16
 #: www/admin/modules/class_Module_servertypes.php:16
 msgid "Software Management"
-msgstr ""
+msgstr "Softwareverwaltung"
 
 #. File www/system/templates/admin_accounts_javascript.tpl:13
 #. Context: all_servertypes: '{="All server types"}',
@@ -2552,7 +2552,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_accounts_javascript.tpl:13
 msgid "Sort"
-msgstr ""
+msgstr "Sortierung"
 
 #. File www/system/templates/admin_accounts.tpl:118
 #. Context: <select class="acct_view_sort acct_view_field">
@@ -2830,7 +2830,7 @@ msgstr "Sperre Accounts..."
 #.
 #: www/system/templates/admin_serverstatus.tpl:20
 msgid "Swap"
-msgstr ""
+msgstr "Swap"
 
 #. File www/system/templates/admin_about.tpl:122
 #. Context: }</td><td class="rowodd" style="font-weight: bold">{$systeminfo.memavail|bytes}</td></tr>
@@ -2847,7 +2847,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_about.tpl:125
 msgid "System load"
-msgstr ""
+msgstr "System Load"
 
 #. File www/system/templates/admin_utilities.tpl:30
 #. Context: {box title="System Management Utilities"}
@@ -2873,7 +2873,7 @@ msgstr ""
 #: www/admin/modules/class_Module_utilities.php:11
 #: www/admin/modules/class_Module_utilities.php:10
 msgid "System Utilities"
-msgstr ""
+msgstr "Systemsoftware"
 
 #. File www/system/templates/admin_region_edit.tpl:26
 #. Context: <tr id="region_targethost">
@@ -2882,7 +2882,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_region_edit.tpl:26
 msgid "Target host"
-msgstr ""
+msgstr "Ziel-Host"
 
 #. File www/system/templates/admin_ads_form.tpl:10
 #. Arguments: $ads.title
@@ -2909,7 +2909,7 @@ msgstr ""
 #: www/system/templates/admin_smtp_test.tpl:3
 #: www/system/templates/admin_ads_test.tpl:4
 msgid "Test result"
-msgstr ""
+msgstr "Prüfergebnis"
 
 #. File www/system/templates/admin_email.tpl:111
 #. Context: <div class="preview_info">
@@ -3337,7 +3337,7 @@ msgstr "Laufzeit"
 #: www/system/templates/admin_accounts.tpl:129
 #: www/system/templates/admin_accounts.tpl:127
 msgid "Used"
-msgstr ""
+msgstr "Benutzt"
 
 #. File www/system/templates/admin_about.tpl:111
 #. Context: <tr><th colspan="2">{="Web Interface System Information"}</th></tr>
@@ -3346,7 +3346,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_about.tpl:111
 msgid "Version number"
-msgstr ""
+msgstr "Versionsnummer"
 
 #. File www/system/templates/admin_newsarticle_edit.tpl:34
 #. Context: <tr>
@@ -3355,7 +3355,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_newsarticle_edit.tpl:34
 msgid "Visible"
-msgstr ""
+msgstr "Sichtbar"
 
 #. File www/system/templates/admin_utilities.tpl:31
 #. Context: {box title="System Management Utilities"}
