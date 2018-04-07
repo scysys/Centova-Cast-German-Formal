@@ -5308,13 +5308,13 @@ msgstr ""
 #.
 #: www/client/modules/class_Module_importm3u.php:32
 msgid "Invalid playlist ID"
-msgstr ""
+msgstr "Ungültige Playlisten-ID"
 
 #. File www/client/rpc/class_RPCplaylist.php:165
 #.
 #: www/client/rpc/class_RPCplaylist.php:165
 msgid "Invalid track addition request"
-msgstr "Ung&uuml;ltige Titel-hinzuf&uuml;ge-Operation"
+msgstr "Ungültige Anforderung"
 
 #. File www/system/templates/livestats.tpl:52
 #. Context: <th colspan="2">{="Location"}</th>
