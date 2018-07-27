@@ -6,46 +6,46 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
 "POT-Creation-Date: 2017-07-25 13:51-0700\n"
-"PO-Revision-Date: 2017-08-16 12:23+0200\n"
-"Last-Translator: Support <support at centova dot com>\n"
+"PO-Revision-Date: 2018-07-27 17:21+0200\n"
+"Last-Translator: scysys <scysys@outlook.com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. File system/class_ServerControl.php:2556
 #. Arguments: ($this->application->usersession->actual_identity()->is_reseller() ? __('reseller') : ($this->application->usersession->actual_identity()->is_admin() ? __('administrator') : 'user'))
 #.
 #: system/class_ServerControl.php:2556
 msgid "Account imported by %s"
-msgstr ""
+msgstr "Account importiert von %s"
 
 #. File system/class_SystemControl.php:1997
 #.
 #: system/class_SystemControl.php:1997
 msgid "Account is already in specified state"
-msgstr ""
+msgstr "Account ist bereits im angegebenen Zustand"
 
 #. File system/class_ServerControl.php:2556
 #. Arguments: ($this->application->usersession->actual_identity()->is_reseller() ? __('reseller') : ($this->application->usersession->actual_identity()->is_admin() ? __('administrator') : 'user'))
 #.
 #: system/class_ServerControl.php:2556
 msgid "Account settings modified by %s"
-msgstr ""
+msgstr "Kontoeinstellungen geändert durch %s"
 
 #. File system/include_console.php:32
 #.
 #: system/include_console.php:32
 msgid "activate or deactivate the autoDJ for an account"
-msgstr ""
+msgstr "autoDJ für ein Konto aktivieren oder deaktivieren"
 
 #. File system/include_console.php:41
 #.
 #: system/include_console.php:41
 msgid "activate or deactivate the playlist"
-msgstr ""
+msgstr "Aktivieren oder Deaktivieren der Playlist"
 
 #. File system/include_console.php:35
 #.
@@ -65,27 +65,27 @@ msgstr "f&uuml;ge neue Medien zur Wiedergabeliste mit der angegebenen ID hinzu"
 #.
 #: system/include_console.php:42
 msgid "add/remove tracks to/from the playlist"
-msgstr ""
+msgstr "Hinzufügen/Entfernen von Tracks zur/aus der Playlist"
 
 #. File system/class_ServerControl.php:1457
 #. Arguments: count($newtracks), $intoplaylist
 #.
 #: system/class_ServerControl.php:1457
 msgid "Added %s new tracks to playlist %d."
-msgstr ""
+msgstr "%s neue Tracks zur Playlist %d hinzugefügt."
 
 #. File system/sysctrl/class_SystemControl_check.php:111
 #. Arguments: $app->type, $account['username']
 #.
 #: system/sysctrl/class_SystemControl_check.php:111
 msgid "Application process %s for %s is down and should be up; restarting"
-msgstr ""
+msgstr "Anwendungsprozess %s für %s ist AUS und sollte AN sein; Neustart"
 
 #. File system/include_console.php:33
 #.
 #: system/include_console.php:33
 msgid "autoDJ status"
-msgstr ""
+msgstr "autoDJ-Status"
 
 #. File system/class_ServerControl.php:1988
 #.
@@ -97,7 +97,7 @@ msgstr ""
 #.
 #: system/include_console.php:9
 msgid "checks/restarts crashed servers (normally performed by cron job)"
-msgstr ""
+msgstr "prüft/neustartet abgestürzte Server (normalerweise durch cron-Job)"
 
 #. File system/include_console.php:5
 #.
@@ -109,14 +109,14 @@ msgstr "Befehl"
 #.
 #: system/include_console.php:20
 msgid "displays the Centova Cast version"
-msgstr ""
+msgstr "zeigt die Centova Cast Version an"
 
 #. File system/class_DiskUsage.php:144
 #. Arguments: $djusername,$djusage->usage_mb
 #.
 #: system/class_DiskUsage.php:144
 msgid "DJ %s disk usage: %0.02f MB"
-msgstr ""
+msgstr "DJ %s Festplattennutzung: %0.02f MB"
 
 #. File system/ccmanage.php:173
 #. Arguments: $username
@@ -135,7 +135,7 @@ msgstr "Administrator Passwort eingeben"
 #.
 #: system/class_TrackManager.php:405
 msgid "Error reading track tags"
-msgstr ""
+msgstr "Fehler beim Lesen von Track-Tags"
 
 #. File system/class_TrackManager.php:146
 #. Arguments: $pathnames[0],$pathcount-1
@@ -410,7 +410,7 @@ msgstr "Streamserver wurde erfolgreich gestoppt"
 #.
 #: system/include_console.php:13
 msgid "sets the status of an account (enabled/disabled)"
-msgstr ""
+msgstr "setzt den Status eines Kontos (aktiviert/deaktiviert)"
 
 #. File system/include_console.php:49
 #.
@@ -422,19 +422,19 @@ msgstr "Zeige diese Hilfezusammenfassung"
 #.
 #: system/include_console.php:31
 msgid "skips to the next song on a stream"
-msgstr ""
+msgstr "springt zum nächsten Song auf einem Stream"
 
 #. File system/class_ServerControl.php:1723
 #.
 #: system/class_ServerControl.php:1723
 msgid "Song skipped"
-msgstr "Titel &uuml;bersprungen"
+msgstr "Titel übersprungen"
 
 #. File system/class_ServerControl.php:1370
 #.
 #: system/class_ServerControl.php:1370
 msgid "Source state changed"
-msgstr ""
+msgstr "Quellzustand geändert"
 
 #. File system/include_console.php:14
 #.
@@ -446,31 +446,31 @@ msgstr "spezifiert neuen Kontostatus"
 #.
 #: system/include_console.php:23
 msgid "start a stream"
-msgstr ""
+msgstr "starte ein Streamserver"
 
 #. File system/include_console.php:24
 #.
 #: system/include_console.php:24
 msgid "stop a stream"
-msgstr ""
+msgstr "stoppe ein Streamserver"
 
 #. File system/sysctrl/class_SystemControl_check.php:196
 #.
 #: system/sysctrl/class_SystemControl_check.php:196
 msgid "stopping stream"
-msgstr ""
+msgstr "stoppe Streamserver"
 
 #. File system/class_SystemControl.php:2346
 #.
 #: system/class_SystemControl.php:2346
 msgid "Tables optimized"
-msgstr ""
+msgstr "Tabellen optimiert"
 
 #. File system/include_console.php:12
 #.
 #: system/include_console.php:12
 msgid "terminates (deletes) an existing account"
-msgstr ""
+msgstr "beendet (löscht) ein bestehendes Konto"
 
 #. File system/include_console.php:59
 #.
@@ -479,6 +479,8 @@ msgid ""
 "This is a brief summary only; refer to the Management Utility Command "
 "Reference"
 msgstr ""
+"Dies ist nur eine kurze Zusammenfassung; siehe Referenz des Management-"
+"Dienstprogramms."
 
 #. File system/class_TrackManager.php:570
 #. Arguments: $track['pathname']
@@ -491,44 +493,44 @@ msgstr ""
 #.
 #: system/include_console.php:46
 msgid "tracks by artists whose names match TEXT"
-msgstr "Medien nach Interpret deren Namen mit TEXT &uuml;bereinstimmen"
+msgstr "Tracks von Künstlern, deren Namen mit TEXT übereinstimmen."
 
 #. File system/include_console.php:45
 #.
 #: system/include_console.php:45
 msgid "tracks from albums whose names match TEXT"
-msgstr "Medien aus Alben deren Namen mit TEXT &uuml;bereinstimmen"
+msgstr "Tracks von Alben, deren Namen mit TEXT übereinstimmen"
 
 #. File system/class_ServerControl.php:1468
 #.
 #: system/class_ServerControl.php:1468
 msgid "Tracks reindexed"
-msgstr "Musiktitel wurden neu indexiert"
+msgstr "Tracks neu indiziert"
 
 #. File system/include_console.php:44
 #.
 #: system/include_console.php:44
 msgid "tracks whose filesystem paths match TEXT"
-msgstr "Medien deren Dateipfad mit TEXT &uuml;bereinstimmen"
+msgstr "Medien deren Dateipfad mit TEXT übereinstimmen"
 
 #. File system/include_console.php:43
 #.
 #: system/include_console.php:43
 msgid "tracks whose titles match TEXT"
-msgstr "Medien deren Titel mit TEXT &uuml;bereinstimmen"
+msgstr "Tracks, deren Titel mit TEXT übereinstimmen"
 
 #. File www/client/modules/class_Module_importmedia.php:61
 #. Arguments: $res->getMessage()
 #.
 #: www/client/modules/class_Module_importmedia.php:61
 msgid "Update completed successfully: %s"
-msgstr "Update erfolgreich abgeschlossen. %s"
+msgstr "Update erfolgreich abgeschlossen: %s"
 
 #. File system/class_ServerControl.php:2004
 #.
 #: system/class_ServerControl.php:2004
 msgid "Updated"
-msgstr "Geupdatet"
+msgstr "Aktualisiert"
 
 #. File www/client/modules/class_Module_importmedia.php:65
 #. Arguments: $res->getMessage()
@@ -541,7 +543,7 @@ msgstr "Update fehlgeschlagen: %s"
 #.
 #: system/class_ServerControl.php:1394
 msgid "Updating disk usage"
-msgstr "Update Festplattennutzung"
+msgstr "Aktualisieren der Festplattennutzung"
 
 #. File system/include_console.php:5
 #.
@@ -553,34 +555,34 @@ msgstr "Nutzung"
 #.
 #: system/include_console.php:39
 msgid "use first playlist matching TEXT"
-msgstr "nutze die erste Wiedergabeliste die mit TEXT &uuml;bereinstimmt"
+msgstr "nutze die erste Wiedergabeliste die mit TEXT übereinstimmt"
 
 #. File system/include_console.php:40
 #.
 #: system/include_console.php:40
 msgid "use first playlist with specified ID"
-msgstr ""
+msgstr "erste Playlist mit angegebener ID verwenden"
 
 #. File system/include_console.php:7
 #.
 #: system/include_console.php:7
 msgid "Valid administrator commands include:"
-msgstr "G&uuml;ltige Administratorbefehle enthalten:"
+msgstr "Gültige Administratorbefehle sind u.a:"
 
 #. File system/include_console.php:48
 #.
 #: system/include_console.php:48
 msgid "Valid options include:"
-msgstr "G&uuml;ltige Operationen enthalten:"
+msgstr "Gültige Optionen sind u.a:"
 
 #. File system/include_console.php:18
 #.
 #: system/include_console.php:18
 msgid "Valid passwordless commands include:"
-msgstr "G&uuml;ltige Passwortlose Befehle enthalten:"
+msgstr "Gültige passwortlose Befehle beinhalten:"
 
 #. File system/include_console.php:22
 #.
 #: system/include_console.php:22
 msgid "Valid user commands include"
-msgstr "G&uuml;ltige Benutzerbefehle enthalten"
+msgstr "Gültige Benutzerbefehle sind"

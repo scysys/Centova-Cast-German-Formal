@@ -6,14 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
 "POT-Creation-Date: 2017-07-25 13:51-0700\n"
-"PO-Revision-Date: 2017-08-16 12:12+0200\n"
-"Last-Translator: Support <support at centova dot com>\n"
+"PO-Revision-Date: 2018-07-27 17:07+0200\n"
+"Last-Translator: scysys <scysys@outlook.com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. Name of language (in target language, eg: Deutsch for German, Francais for French, etc.)
 msgid "_LANGUAGE"
@@ -2928,7 +2928,6 @@ msgstr "Warteschlangen-Größe"
 #. <option value="latm">{="Audio mux elements (LATM)"}</option>
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:227
-#, fuzzy
 msgid "Raw"
 msgstr "Raw"
 

@@ -6,14 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
 "POT-Creation-Date: 2017-07-25 13:51-0700\n"
-"PO-Revision-Date: 2017-08-16 13:00+0200\n"
-"Last-Translator: Support <support at centova dot com>\n"
+"PO-Revision-Date: 2018-07-27 17:46+0200\n"
+"Last-Translator: scysys <scysys@outlook.com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. File www/system/templates/statistics_listeners.tpl:190
 #. Arguments: $listener.bandwidth|div:1024
@@ -627,7 +627,7 @@ msgstr "%s%.1f%%%s der Gesamtminuten"
 #.
 #: www/system/templates/statistics_listeners.tpl:9
 msgid "%s%d%s minutes, comprising %s%.1f%%%s of %s%d%s total minutes"
-msgstr ""
+msgstr "%s%d%s Minuten, bestehend aus %s%.1f%%%s von %s%d%s Gesamtminuten"
 
 #. File www/system/templates/statistics_listeners.tpl:8
 #. Context: mb: '{="%.1f MB"}',
@@ -637,6 +637,7 @@ msgstr ""
 #: www/system/templates/statistics_listeners.tpl:8
 msgid "%s%d%s sessions, comprising %s%.1f%%%s of %s%d%s total sessions"
 msgstr ""
+"%s%d%s Sitzungen, bestehend aus %s%.1f%%%s von %s%d%s Sitzungen insgesamt"
 
 #. File www/system/templates/import_m3u_result.tpl:8
 #. Arguments: "<strong>",$deletedtracks,"</strong>","<strong>",$playlist.title,"</strong>"
@@ -647,6 +648,7 @@ msgstr ""
 #: www/system/templates/import_m3u_result.tpl:8
 msgid "%s%s%s existing track(s) were deleted from the %s%s%s playlist"
 msgstr ""
+"%s%s%s%s vorhandene Titel wurden aus der Wiedergabeliste von %s%s%s gelöscht."
 
 #. File www/system/templates/livestats.tpl:11
 #. Context: other: 			'{="Other"}',
@@ -666,6 +668,8 @@ msgid ""
 "%s%s%s of your total listener sessions during the selected period were %s%s"
 "%s in length."
 msgstr ""
+"%s%s%s Ihrer gesamten Hörer-Sessions während des ausgewählten Zeitraums "
+"waren %s%s%s in der Länge."
 
 #. File www/system/templates/import_m3u_result.tpl:13
 #. Arguments: "<strong>",$badtracks|count,"</strong>"
@@ -677,6 +681,8 @@ msgid ""
 "%s%s%s track(s) were not found in the media library and could not be "
 "imported:"
 msgstr ""
+"%s%s%s Titel wurden nicht in der Mediathek gefunden und konnten nicht "
+"importiert werden:"
 
 #. File www/system/templates/import_m3u_result.tpl:7
 #. Arguments: "<strong>",$skippedtracks,"</strong>","<strong>",$playlist.title,"</strong>"
@@ -689,6 +695,8 @@ msgid ""
 "%s%s%s track(s) were skipped because they already existed in the %s%s%s "
 "playlist"
 msgstr ""
+"%s%s%s Titel wurden übersprungen, weil sie bereits in der Wiedergabeliste %s"
+"%s%s existierten."
 
 #. File www/system/templates/import_m3u_result.tpl:6
 #. Arguments: "<strong>",$goodtracks,"</strong>","<strong>",$playlist.title,"</strong>"
@@ -698,7 +706,7 @@ msgstr ""
 #.
 #: www/system/templates/import_m3u_result.tpl:6
 msgid "%s%s%s tracks(s) were successfully imported into the %s%s%s playlist"
-msgstr ""
+msgstr "%s%s%s  Titel wurden erfolgreich in die %s%s%s Playlist importiert."
 
 #. File www/system/templates/reseller_index.tpl:43
 #. Arguments: $allocated.usedusers,$account.resellerusers
@@ -944,7 +952,7 @@ msgstr "Konnte nicht gel&ouml;scht werden"
 #.
 #: www/system/templates/account_created.tpl:3
 msgid "Account created successfully."
-msgstr "Konto erfolgreich erstellt"
+msgstr "Account wurde erfolgreich erstellt."
 
 #. File www/system/templates/account_deleted.tpl:3
 #. Context: {check $successful}
@@ -953,7 +961,7 @@ msgstr "Konto erfolgreich erstellt"
 #.
 #: www/system/templates/account_deleted.tpl:3
 msgid "Account deleted successfully."
-msgstr "Konto erfolgreich gel&ouml;scht"
+msgstr "Account wurde erfolgreich gelöscht."
 
 #. File www/client/modules/class_Module_quicklinks.php:12
 #.
@@ -1074,7 +1082,7 @@ msgstr "Aktiv bis"
 #.
 #: www/system/templates/import_m3u.tpl:22
 msgid "Add duplicate tracks to target playlist"
-msgstr ""
+msgstr "Hinzufügen von doppelten Tracks zur Ziel-Playlist"
 
 #. File www/client/modules/class_Module_confeditor.php:75
 #.
@@ -1330,7 +1338,7 @@ msgstr "Alle Logs"
 #: www/system/templates/admin_settings.tpl:56
 msgid "All outbound messages will use the above as a return address."
 msgstr ""
-"Alle ausgehenden Nachrichten verwenden die obige Adresse als Absender-Adresse"
+"Alle ausgehenden Nachrichten werden diese als Absenderadresse verwenden."
 
 #. File www/system/templates/djaccount_edit.tpl:138
 #. Context: <tr>
@@ -1424,7 +1432,7 @@ msgstr "Alternatives Charakter Enkoding"
 #: system/class_ServerControl.php:1629
 #: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:46
 msgid "An error occurred while attempting to save this update"
-msgstr ""
+msgstr "Beim Versuch, dieses Update zu speichern, ist ein Fehler aufgetreten."
 
 #. File www/system/templates/djaccount_edit.tpl:31
 #. Context: {elseif $error}
@@ -1521,7 +1529,7 @@ msgstr "April"
 #.
 #: www/system/templates/logs.tpl:8
 msgid "Archiving logs"
-msgstr ""
+msgstr "Protokolle archivieren"
 
 #. File www/system/templates/filemanager.tpl:23
 #. Context: moving_items: '{="Moving %s item(s) to %s"}',
@@ -1530,7 +1538,7 @@ msgstr ""
 #.
 #: www/system/templates/filemanager.tpl:23
 msgid "Are you sure you want to delete %s item(s) from %s?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie %s Items aus %s löschen möchten?"
 
 #. File www/system/templates/account_delete_confirm.tpl:6
 #. Arguments: "<strong>1</strong>"
@@ -1546,6 +1554,8 @@ msgstr ""
 #: www/system/templates/admin_accounts.tpl:13
 msgid "Are you sure you want to permanently delete the %s selected account(s)?"
 msgstr ""
+"Sind Sie sicher, dass Sie die ausgewählten %s-Konten dauerhaft löschen "
+"möchten?"
 
 #. File www/system/templates/staffaccount_list.tpl:37
 #. Context: etxt}{$_loop.lasttxt}" align="center">
@@ -1572,7 +1582,7 @@ msgstr ""
 #: www/system/templates/reportformat_list.tpl:35
 #: www/system/templates/djaccount_list.tpl:39
 msgid "Are you sure you want to permanently delete this item?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie diesen Inhalt dauerhaft löschen möchten?"
 
 #. File www/system/templates/library.tpl:34
 #. Context: remove_cover_image: '{="Remove cover image"}',
@@ -1581,7 +1591,7 @@ msgstr ""
 #.
 #: www/system/templates/library.tpl:34
 msgid "Are you sure you want to permanently remove this album cover image?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie dieses Albumcover entfernen möchten?"
 
 #. File www/system/templates/library.tpl:14
 #. Context: t.  Click OK to discard your changes, or Cancel to return to this playlist to save your changes."}',
@@ -1631,6 +1641,10 @@ msgid ""
 "been disabled for this reason, and will not be affected by any changes you "
 "make."
 msgstr ""
+"Als Mitarbeiter dürfen Sie keine Berechtigungen erteilen oder widerrufen, "
+"die Sie selbst nicht besitzen.  Die oben angegebenen Berechtigungen %s sind "
+"aus diesem Grund deaktiviert und werden von den von Ihnen vorgenommenen "
+"Änderungen nicht beeinflusst."
 
 #. File www/system/templates/staffaccount_edit.tpl:36
 #. Context: .css({ color: '#990000' });
@@ -1642,6 +1656,8 @@ msgid ""
 "As a staff member you are not permitted to modify your own account "
 "permissions"
 msgstr ""
+"Als Mitarbeiter sind Sie nicht berechtigt, Ihre eigenen Kontoberechtigungen "
+"zu ändern."
 
 #. File www/system/templates/client_head.tpl:24
 #. Context: onstream: '{="on %s"}',
@@ -1659,7 +1675,7 @@ msgstr "bei %skbps"
 #.
 #: www/system/templates/streamstatus.tpl:11
 msgid "Audio source"
-msgstr ""
+msgstr "Audio-Quelle"
 
 #. File www/client/modules/class_Module_statistics.php:30
 #.
@@ -1722,19 +1738,19 @@ msgstr "Automatisch"
 #.
 #: www/system/templates/logs.tpl:36 www/client/modules/class_Module_logs.php:70
 msgid "AutoDJ (Source) Log"
-msgstr ""
+msgstr "AutoDJ (Quelle) Protokoll"
 
 #. File www/client/modules/class_Module_control.php:226
 #.
 #: www/client/modules/class_Module_control.php:226
 msgid "autoDJ is already running"
-msgstr ""
+msgstr "autoDJ läuft bereits"
 
 #. File www/client/modules/class_Module_control.php:226
 #.
 #: www/client/modules/class_Module_control.php:226
 msgid "autoDJ is already stopped"
-msgstr ""
+msgstr "autoDJ ist bereits gestoppt"
 
 #. File www/client/modules/class_Module_importmedia.php:11
 #.
@@ -1746,13 +1762,13 @@ msgstr ""
 #: www/client/modules/class_Module_playlists.php:19
 #: www/client/modules/class_Module_importm3u.php:14
 msgid "AutoDJ Management"
-msgstr "AutoDJ Verwaltung"
+msgstr "AutoDJ-Verwaltung"
 
 #. File www/client/modules/class_Module_library.php:14
 #.
 #: www/client/modules/class_Module_library.php:14
 msgid "AutoDJ management and settings"
-msgstr ""
+msgstr "AutoDJ Verwaltung und Einstellungen"
 
 #. File www/system/templates/streamstatus.tpl:23
 #. Context: .png" />{/check}
@@ -1767,7 +1783,7 @@ msgstr ""
 #: www/system/templates/streamstatus.tpl:23
 #: www/system/templates/streamstatus.tpl:5
 msgid "AutoDJ offline"
-msgstr ""
+msgstr "AutoDJ offline"
 
 #. File www/system/templates/streamstatus.tpl:23
 #. Context: online}up{else}down{/if}.png" />{/check}
@@ -1782,7 +1798,7 @@ msgstr ""
 #: www/system/templates/streamstatus.tpl:23
 #: www/system/templates/streamstatus.tpl:4
 msgid "AutoDJ online"
-msgstr ""
+msgstr "AutoDJ online"
 
 #. File www/system/templates/streamstatus.tpl:10
 #. Context: server_status: '{="Server status"}',
@@ -1805,7 +1821,7 @@ msgstr ""
 #: www/client/modules/class_Module_widgets.php:107
 #: system/class_AccountFields.php:849 system/class_AccountFields.php:340
 msgid "AutoDJ status"
-msgstr "AutoDJ Status"
+msgstr "AutoDJ-Status"
 
 #. File www/system/templates/new_account_form.tpl:97
 #. Context: <tr id="newacct_sourcerow">
@@ -1814,7 +1830,7 @@ msgstr "AutoDJ Status"
 #.
 #: www/system/templates/new_account_form.tpl:97
 msgid "AutoDJ type"
-msgstr ""
+msgstr "AutoDJ-Typ"
 
 #. File www/system/templates/new_account_form.tpl:65
 #. Context: <option value="">{="Select cluster host..."}</option>
@@ -1846,7 +1862,7 @@ msgstr "Automatisch beste wählen"
 #: www/system/templates/configuration_client_widgets.tpl:57
 #: system/class_AccountFields.php:841
 msgid "Automatically queue requests"
-msgstr "Automatische Verarbeitung des Musikwunsches"
+msgstr "Automatische Warteschlangenanfragen"
 
 #. File www/system/templates/reportformat_edit.tpl:45
 #. Context: <div style="float: left; width: 60%">
@@ -1944,6 +1960,8 @@ msgid ""
 "Bandwidth allocated: %s%s (%.1f%%)%s.%sThis is the combined total of the "
 "bandwidth (in Kbps) you have allocated to your clients.%s"
 msgstr ""
+"Zugewiesene Bandbreite: %s%s (%.1f%%)%s.%s Dies ist die Summe der Bandbreite "
+"(in Kbps), die Sie Ihren Kunden zugewiesen haben.%s"
 
 #. File www/system/templates/reseller_index.tpl:6
 #. Arguments: "<strong>",$bandwidthlimit|bytes::1048576,"</strong>","<br />"
@@ -1969,6 +1987,8 @@ msgid ""
 "Be sure to configure at least one on the Mount Points tab, otherwise your "
 "autoDJ will not activate when the stream is started."
 msgstr ""
+"Stellen Sie sicher, dass Sie mindestens einen der Mountpoints konfigurieren, "
+"sonst wird Ihr autoDJ nicht starten, wenn der Streamserver gestartet wird."
 
 #. File www/client/modules/class_Module_widgets.php:103
 #.
@@ -2075,7 +2095,7 @@ msgstr "Bitrate"
 #.
 #: www/system/templates/library.tpl:162
 msgid "Bottom"
-msgstr "Ende"
+msgstr "Unten"
 
 #. File www/system/templates/configuration_reseller_options.tpl:1
 #. Context: <h1>{="Branding"}</h1>
@@ -2305,7 +2325,7 @@ msgstr "kann nicht geändert werden, während der Streamserver Online ist"
 #: www/system/templates/staffaccount_edit.tpl:131
 #: system/class_StaffAccount.php:69
 msgid "Change account statuses"
-msgstr ""
+msgstr "Kontostände ändern"
 
 #. File www/system/templates/account_rename.tpl:27
 #. Context: <input type="hidden" name="username" value="{$old_username|htmlentities}" />
@@ -2328,7 +2348,7 @@ msgstr ""
 #: www/system/templates/configuration_form.tpl:60
 #: www/reseller/modules/class_Module_manageaccount_base.php:20
 msgid "Change account username"
-msgstr ""
+msgstr "Konto-Benutzername ändern"
 
 #. File www/system/templates/account_rename.tpl:1
 #. Context: {box title="Change Account Username"}
@@ -2336,7 +2356,7 @@ msgstr ""
 #.
 #: www/system/templates/account_rename.tpl:1
 msgid "Change Account Username"
-msgstr ""
+msgstr "Konto-Benutzername ändern"
 
 #. File www/system/templates/configuration_form.tpl:53
 #. Context: {check ($reseller_editor>0) && ($creating==0) && ($template_editor==0)}
@@ -2355,7 +2375,7 @@ msgstr "Passwort ändern"
 #.
 #: www/system/templates/change_password.tpl:27
 msgid "Changing password for reseller: %s%s%s"
-msgstr ""
+msgstr "Passwort für Reseller ändern: %s%s%s"
 
 #. File www/system/templates/configuration_client_source.tpl:90
 #. Context: <tr>
@@ -2453,7 +2473,7 @@ msgstr "Zeichenkodierung"
 #.
 #: www/system/templates/configuration_reseller_options.tpl:36
 msgid "Character encoding for new accounts"
-msgstr ""
+msgstr "Zeichenkodierung für neue Konten"
 
 #. File www/system/templates/muses_skin_selector.tpl:4
 #. Context: title: '{="%s Skins","Muses"}',
@@ -2473,6 +2493,9 @@ msgid ""
 "Choose the columns to include in the report.  Drag column titles to add, "
 "remove, or reorder them."
 msgstr ""
+"Wählen Sie die Spalten aus, die in den Bericht aufgenommen werden sollen.  "
+"Ziehen Sie Spaltenüberschriften, um sie hinzuzufügen, zu entfernen oder neu "
+"anzuordnen."
 
 #. File www/system/templates/widgets.tpl:66
 #. Context: {box title="Choose Widget"}
@@ -2496,6 +2519,7 @@ msgstr "Wähle ein Widget"
 #: www/system/templates/upload_single.tpl:12
 msgid "Click 'Select file' to select a file to upload."
 msgstr ""
+"Klicken Sie auf'Datei auswählen', um eine Datei zum Hochladen auszuwählen."
 
 #. File www/system/templates/upload_multiple.tpl:13
 #. Context: select_file: "{="Click 'Select file' to select a file to upload."}",
@@ -2576,7 +2600,7 @@ msgstr "Schließen"
 #.
 #: www/system/templates/client_directory_error.tpl:29
 msgid "Code %d: %s%s%s"
-msgstr ""
+msgstr "Code %d: %s%s%s"
 
 #. File www/reseller/modules/class_Module_accountstats.php:13
 #.
@@ -2593,7 +2617,7 @@ msgstr ""
 #: www/system/templates/staffaccount_edit.tpl:153
 #: system/class_StaffAccount.php:123
 msgid "Command-line access"
-msgstr ""
+msgstr "Kommandozeilen-Zugriff"
 
 #. File www/system/templates/library.tpl:42
 #. Context: track_name: '{="Track name"}',
@@ -2685,7 +2709,7 @@ msgstr "Vollständig."
 #: www/system/templates/configfile_editor.tpl:36
 #: www/client/modules/class_Module_confeditor.php:13
 msgid "Configuration Editor"
-msgstr ""
+msgstr "Konfigurations-Editor"
 
 #. File www/system/templates/configfile_editor.tpl:16
 #. Context: {box title="Configuration File"}
@@ -2693,7 +2717,7 @@ msgstr ""
 #.
 #: www/system/templates/configfile_editor.tpl:16
 msgid "Configuration File"
-msgstr ""
+msgstr "Konfigurationsdatei"
 
 #. File www/client/modules/class_Module_confeditor.php:73
 #. Arguments: $configfile,
@@ -2701,7 +2725,7 @@ msgstr ""
 #.
 #: www/client/modules/class_Module_confeditor.php:73
 msgid "Configuration file %s modified by %s"
-msgstr ""
+msgstr "Konfigurationsdatei %s geändert durch %s"
 
 #. File www/system/templates/account_updated.tpl:3
 #. Context: {="Configuration updated successfully."}
@@ -2792,7 +2816,7 @@ msgstr "Kopieren"
 #.
 #: www/system/templates/filemanager.tpl:21
 msgid "Copying %s item(s) to %s"
-msgstr ""
+msgstr "Kopieren von %s Inhalt(en) nach %s"
 
 #. File www/system/templates/filemanager.tpl:19
 #. Context: source_dest_same: '{="Source and destination folders are the same."}',
@@ -2801,7 +2825,7 @@ msgstr ""
 #.
 #: www/system/templates/filemanager.tpl:19
 msgid "Copying files"
-msgstr ""
+msgstr "Kopiere Dateien"
 
 #. File www/client/rpc/class_RPCplaylist.php:315
 #.
@@ -2876,7 +2900,7 @@ msgstr "Neuen Account erstellen"
 #.
 #: www/reseller/modules/class_Module_accounts_base.php:46
 msgid "Create a reseller account"
-msgstr ""
+msgstr "Erstellen Sie ein Reseller-Konto"
 
 #. File www/system/templates/configuration_client_cluster.tpl:4
 #. Context: <tr>
@@ -2932,7 +2956,7 @@ msgstr "Playliste erstellen"
 #.
 #: www/system/templates/staffaccount_list.tpl:3
 msgid "Create staff account"
-msgstr ""
+msgstr "Mitarbeiterkonto erstellen"
 
 #. File www/system/templates/filemanager.tpl:30
 #. Context: creating_folder: '{="Creating folder"}',
@@ -2940,7 +2964,7 @@ msgstr ""
 #.
 #: www/system/templates/filemanager.tpl:30
 msgid "Createing new folder %s"
-msgstr ""
+msgstr "Erstellen eines neuen Ordners %s"
 
 #. File www/system/templates/filemanager.tpl:29
 #. Context: renaming_file_to: '{="Renaming file %s to %s"}',
@@ -2979,7 +3003,7 @@ msgstr "Crossfade Länge"
 #.
 #: www/system/templates/googlemaps_body.tpl:18
 msgid "Current geographic listener locations (click markers for details)"
-msgstr ""
+msgstr "Aktuelle geographische Hörerstandorte (Klick-Marker für Details)"
 
 #. File www/system/templates/index_header.tpl:3
 #. Context: e currently tuned in to your stream."}{/tip}>
@@ -2997,7 +3021,7 @@ msgstr ""
 #: www/system/templates/index_header.tpl:2
 #: www/client/modules/class_Module_widgets.php:104
 msgid "Current listeners"
-msgstr "Aktuelle Zuh&ouml;rer"
+msgstr "Aktuelle Zuhörer"
 
 #. File www/system/templates/change_password.tpl:32
 #. Context: <tr>
@@ -3088,7 +3112,7 @@ msgstr "Benutzerdefiniert"
 #.
 #: www/system/templates/configuration_reseller_options.tpl:23
 msgid "Custom logo is active."
-msgstr ""
+msgstr "Benutzerdefiniertes Logo ist aktiv."
 
 #. File www/system/templates/reportformat_update.tpl:3
 #. Context: {check $saved}
@@ -3097,7 +3121,7 @@ msgstr ""
 #.
 #: www/system/templates/reportformat_update.tpl:3
 msgid "Custom report format saved successfully."
-msgstr ""
+msgstr "Benutzerdefiniertes Berichtsformat erfolgreich gespeichert."
 
 #. File www/system/templates/reportformat_update.tpl:1
 #. Context: {box title="Custom Report Format Update"}
@@ -3105,7 +3129,7 @@ msgstr ""
 #.
 #: www/system/templates/reportformat_update.tpl:1
 msgid "Custom Report Format Update"
-msgstr ""
+msgstr "Aktualisierung des benutzerdefinierten Berichtsformats"
 
 #. File www/system/templates/filemanager.tpl:79
 #. Context: pboard(true)" value="{="Copy"}" />
@@ -3129,7 +3153,7 @@ msgstr "Ausschneiden"
 #.
 #: www/system/templates/playlist_edit.tpl:240
 msgid "Daily"
-msgstr "T&auml;glich"
+msgstr "Täglich"
 
 #. File www/system/templates/reseller_index.tpl:4
 #. Context: : 50px; margin-bottom: 10px; float: left; border-right: 1px solid #E0E0E0; padding-right: 15px; margin-right: 15px" {tip title="Data transfer"}
@@ -3200,6 +3224,8 @@ msgid ""
 "Data transfer allocated: %s%s (%.1f%%)%s.%sThis is the total data transfer "
 "you have allocated to your clients.%s"
 msgstr ""
+"Datentransfer zugewiesen: %s%s (%.1f%%)%s.%s Dies ist der gesamte "
+"Datentransfer, den Sie Ihren Kunden zugewiesen haben.%s"
 
 #. File www/system/templates/reseller_index.tpl:16
 #. Context: 8a'>",$allocated.usedxfer|bytes::1048576,$allocated.usedxfer|mul:100|div:$transferlimit,"</strong>","<br />","<br /><br />"}
@@ -3234,6 +3260,8 @@ msgid ""
 "Data transfer used: %s%s (%.1f%%)%s.%sThis is the total data transfer "
 "actually used by your clients.%s"
 msgstr ""
+"Datenübernahme verwendet: %s%s (%.1f%%)%s.%s Dies ist der gesamte "
+"Datentransfer, der von Ihren Kunden tatsächlich genutzt wird.%s"
 
 #. File www/system/templates/logmanager.tpl:17
 #. Context: account: '{="Account"}',
@@ -3281,7 +3309,7 @@ msgstr "Dezember"
 #.
 #: www/system/templates/configfile_editor.tpl:42
 msgid "Decrease indent"
-msgstr ""
+msgstr "Einzug verringern"
 
 #. File www/system/templates/widgets.tpl:26
 #. Context: <select name="mountpoint" size="1" onchange="this.form.submit()">
@@ -3360,7 +3388,7 @@ msgstr "Lösche Account"
 #.
 #: www/reseller/modules/class_Module_manageaccount_base.php:28
 msgid "Delete account %s"
-msgstr ""
+msgstr "Konto löschen %s"
 
 #. File www/system/templates/account_template_list.tpl:45
 #. Context: w{$_loop.oetxt}{$_loop.lasttxt}" align="center">
@@ -3369,7 +3397,7 @@ msgstr ""
 #.
 #: www/system/templates/account_template_list.tpl:45
 msgid "Delete account template"
-msgstr ""
+msgstr "Kontovorlage löschen"
 
 #. File www/system/templates/staffaccount_edit.tpl:134
 #. Context: s_delete"{if $staffaccount.permissions|contains:"accounts_delete"} checked="checked"{/if}> <label for="perm_accounts_delete">{="Delete accounts"}</label><br />
@@ -3380,7 +3408,7 @@ msgstr ""
 #: www/system/templates/staffaccount_edit.tpl:134
 #: system/class_StaffAccount.php:78
 msgid "Delete accounts"
-msgstr ""
+msgstr "Konten löschen"
 
 #. File www/system/templates/playlist_list.tpl:48
 #. Context: elete&id={$playlist.id}" onclick="return confirm('{="Are you sure you want to permanently delete this item?"}')"><img title="{="Delete playlist"}" src="../system/images/icons/delete.png" border="0" align="absmiddle" /></a>
@@ -3397,7 +3425,7 @@ msgstr "Lösche Wiedergabeliste"
 #.
 #: www/system/templates/account_delete_confirm.tpl:31
 msgid "Delete reseller account"
-msgstr ""
+msgstr "Reseller-Account löschen"
 
 #. File www/system/templates/account_delete_confirm.tpl:22
 #. Context: </td></tr>
@@ -3411,7 +3439,7 @@ msgstr ""
 #: www/system/templates/account_delete_confirm.tpl:22
 #: www/system/templates/admin_accounts.tpl:72
 msgid "Delete the client accounts"
-msgstr ""
+msgstr "Löschen der Kundenkonten"
 
 #. File www/client/rpc/class_RPCfilemanager.php:491
 #. Arguments: $sourcefile
@@ -3422,7 +3450,7 @@ msgstr ""
 #: www/client/rpc/class_RPCfilemanager.php:491
 #: www/client/rpc/class_RPCfilemanager.php:474
 msgid "Deleting %s"
-msgstr ""
+msgstr "Löschen von %s"
 
 #. File www/system/templates/filemanager.tpl:25
 #. Context: deleting_files: '{="Deleting files"}',
@@ -3431,7 +3459,7 @@ msgstr ""
 #.
 #: www/system/templates/filemanager.tpl:25
 msgid "Deleting %s item(s) from %s"
-msgstr ""
+msgstr "Löschen von %s Inhalt(en) aus %s"
 
 #. File www/system/templates/filemanager.tpl:24
 #. Context: delete_confirm: '{="Are you sure you want to delete %s item(s) from %s?"}',
@@ -3440,7 +3468,7 @@ msgstr ""
 #.
 #: www/system/templates/filemanager.tpl:24
 msgid "Deleting files"
-msgstr ""
+msgstr "Löschen von Dateien"
 
 #. File www/system/templates/account_template_list.tpl:34
 #. Context: <th width="120">{="Name"}</th>
@@ -3543,7 +3571,7 @@ msgstr "Diagnose"
 #.
 #: www/system/templates/client_directory_error.tpl:24
 msgid "Directory warning"
-msgstr ""
+msgstr "Verzeichnis-Warnung"
 
 #. File www/system/templates/staffaccount_list.tpl:38
 #. Context: {$staffaccount.id}&status={if $staffaccount.status=="enabled"}0{else}1{/if}"><img title="{if $staffaccount.status=="enabled"}{="Disable account"}{else}{="Enable account"}{/if}" src="../system/images/icons/{if $staffaccount.status=="enabled"}disable{else}enable{/if}.png"
@@ -3557,7 +3585,7 @@ msgstr "Deaktiviere Account"
 #.
 #: www/system/templates/djaccount_list.tpl:40
 msgid "Disable DJ account"
-msgstr ""
+msgstr "DJ-Konto deaktivieren"
 
 #. File www/system/templates/playlist_list.tpl:50
 #. Context: n=status&id={$playlist.id}&status={if $playlist.status=="enabled"}0{else}1{/if}"><img title="{if $playlist.status=="enabled"}{="Disable playlist"}{else}{="Enable playlist"}{/if}" src="../system/images/icons/{if $playlist.status=="enabled"}disable{else}enable{/if}.png" bor
@@ -3676,7 +3704,7 @@ msgstr "Ausschuss"
 #.
 #: www/system/templates/statistics_tracks.tpl:78
 msgid "Discon./Min"
-msgstr ""
+msgstr "Diskont/Min."
 
 #. File www/system/templates/djaccount_edit.tpl:102
 #. Context: <td valign="top">
@@ -3718,6 +3746,8 @@ msgid ""
 "Disk space allocated: %s%s (%.1f%%)%s.%sThis is the total disk space you "
 "have allocated to your clients.%s"
 msgstr ""
+"Zugewiesener Speicherplatz: %s%s (%.1f%%)%s.%s Dies ist der gesamte "
+"Speicherplatz, den Sie Ihren Kunden zugewiesen haben.%s"
 
 #. File www/system/templates/reseller_index.tpl:26
 #. Arguments: "<strong>",$diskquota|bytes::1048576,"</strong>","<br />"
@@ -3730,6 +3760,8 @@ msgid ""
 "Disk space limit: %s%s%s.%sThis is the maximum disk space permitted for your "
 "account."
 msgstr ""
+"Speicherplatzbegrenzung: %s%s%s.%s Dies ist der maximal zulässige "
+"Speicherplatz für Ihr Konto."
 
 #. File www/system/templates/reseller_index.tpl:24
 #. Arguments: "<strong style='color: #ff7b00'>",$currentdisk|bytes::1048576,$currentdisk|mul:100|div:$diskquota,"</strong>","<br />","<br /><br />"
@@ -3741,6 +3773,8 @@ msgid ""
 "Disk space used: %s%s (%.1f%%)%s.%sThis is the total disk space actually "
 "used by your clients.%s"
 msgstr ""
+"Belegter Speicherplatz: %s%s (%.1f%%)%s.%s Dies ist der gesamte von Ihren "
+"Kunden tatsächlich genutzte Speicherplatz.%s"
 
 #. File www/system/templates/filemanager.tpl:42
 #. Context: disk_usage: '{="Disk usage"}',
@@ -3814,7 +3848,7 @@ msgstr "DJ"
 #.
 #: www/system/templates/djaccount_update.tpl:3
 msgid "DJ Account saved successfully."
-msgstr ""
+msgstr "DJ Account erfolgreich gespeichert."
 
 #. File www/system/templates/djaccount_edit.tpl:34
 #. Context: {box title="DJ Account Settings"}
@@ -3830,7 +3864,7 @@ msgstr "DJ Account: Einstellungen"
 #.
 #: www/system/templates/djaccount_update.tpl:1
 msgid "DJ Account Update"
-msgstr ""
+msgstr "DJ-Konto Update"
 
 #. File www/system/templates/djaccount_list.tpl:6
 #. Context: </div>
@@ -3839,7 +3873,7 @@ msgstr ""
 #.
 #: www/system/templates/djaccount_list.tpl:6
 msgid "DJ Accounts"
-msgstr ""
+msgstr "DJ-Konten"
 
 #. File www/client/modules/class_Module_djaccounts.php:20
 #.
@@ -3869,7 +3903,7 @@ msgstr "DJ / Moderatoren Verwaltung"
 #: www/system/templates/statistics_listeners.tpl:84
 #: www/system/templates/library.tpl:161
 msgid "Down"
-msgstr ""
+msgstr "Runter"
 
 #. File www/system/templates/statistics_historical.tpl:35
 #. Context: 666666" href='#' onclick="window.stats.get_page({$stats_tabid}).launch_period_csv('get_historical_listeners'); return false">{="Download"}</a> <img align="absmiddle" src="/system/images/csv.png" /></div>
@@ -3936,7 +3970,7 @@ msgstr ""
 #: www/reseller/modules/class_Module_reselleremails.php:10
 #: www/admin/modules/class_Module_emails.php:12
 msgid "E-mail management"
-msgstr ""
+msgstr "E-Mail-Verwaltung"
 
 #. File www/system/templates/configuration_client_widgets.tpl:81
 #. Context: <tr>
@@ -4029,7 +4063,7 @@ msgstr "Bearbeite Account: %s"
 #.
 #: www/system/templates/account_template_list.tpl:46
 msgid "Edit account template"
-msgstr ""
+msgstr "Kontovorlage bearbeiten"
 
 #. File www/system/templates/account_template_updated.tpl:1
 #. Context: {box title="Edit Account Template"}
@@ -4037,7 +4071,7 @@ msgstr ""
 #.
 #: www/system/templates/account_template_updated.tpl:1
 msgid "Edit Account Template"
-msgstr ""
+msgstr "Kontovorlage bearbeiten"
 
 #. File www/system/templates/staffaccount_edit.tpl:133
 #. Context: ccounts_edit"{if $staffaccount.permissions|contains:"accounts_edit"} checked="checked"{/if}> <label for="perm_accounts_edit">{="Edit accounts"}</label><br />
@@ -4048,7 +4082,7 @@ msgstr ""
 #: www/system/templates/staffaccount_edit.tpl:133
 #: system/class_StaffAccount.php:75
 msgid "Edit accounts"
-msgstr ""
+msgstr "Konten bearbeiten"
 
 #. File www/system/templates/library.tpl:32
 #. Context: edit_album: '{="Edit album details"}',
@@ -4080,14 +4114,14 @@ msgstr "Leere Playlist"
 #.
 #: www/system/templates/staffaccount_list.tpl:38
 msgid "Enable account"
-msgstr ""
+msgstr "Konto aktivieren"
 
 #. File www/system/templates/djaccount_list.tpl:40
 #. Context: us={if $djaccount.status=="enabled"}0{else}1{/if}"><img title="{if $djaccount.status=="enabled"}{="Disable DJ account"}{else}{="Enable DJ account"}{/if}" src="../system/images/icons/{if $djaccount.status=="enabled"}disable{else}enable{/if}.png" border="0" align="absmiddle"
 #.
 #: www/system/templates/djaccount_list.tpl:40
 msgid "Enable DJ account"
-msgstr ""
+msgstr "DJ-Konto aktivieren"
 
 #. File www/system/templates/configuration_client_widgets.tpl:28
 #. Arguments: "&reg;"
@@ -4137,7 +4171,7 @@ msgstr "Inhalte auf Abruf aktivieren"
 #.
 #: www/system/templates/playlist_list.tpl:50
 msgid "Enable playlist"
-msgstr ""
+msgstr "Wiedergabeliste aktivieren"
 
 #. File www/system/templates/configuration_client_widgets.tpl:98
 #. Context: <tr>
@@ -4432,7 +4466,7 @@ msgstr "Backup Datei"
 #: www/admin/modules/class_Module_remoteservers.php:17
 #: www/admin/modules/class_Module_news.php:18
 msgid "Feature Management"
-msgstr ""
+msgstr "Feature-Verwaltung"
 
 #. File www/client/modules/class_Module_statistics.php:29
 #.
@@ -4595,7 +4629,7 @@ msgstr "für %s"
 #.
 #: www/reseller/modules/class_Module_accounttemplates_base.php:11
 msgid "For automated account configuration"
-msgstr ""
+msgstr "Für die automatisierte Account-Konfiguration"
 
 #. File www/system/templates/configuration_reseller_basic.tpl:31
 #. Context: "><input type="text" name="config[templatetitle]" size="30" maxlength="255" value="{$config.templatetitle|htmlentities}" /> ({="for your reference only"})
@@ -4608,7 +4642,7 @@ msgstr ""
 #: www/system/templates/configuration_reseller_basic.tpl:31
 #: www/system/templates/configuration_client_basic.tpl:69
 msgid "for your reference only"
-msgstr ""
+msgstr "nur zu Ihrer Information"
 
 #. File www/client/modules/class_Module_statistics.php:34
 #.
@@ -4822,7 +4856,7 @@ msgstr "Google Maps API-Schlüssel"
 #: system/class_AccountFields.php:348
 #: www/system/templates/admin_settings.tpl:299
 msgid "Google Maps Client ID"
-msgstr ""
+msgstr "Google Maps Client ID"
 
 #. File www/system/templates/statistics_historical.tpl:143
 #. Context: <table cellspacing="1" cellpadding="3" border="0">
@@ -4872,7 +4906,7 @@ msgstr "History"
 #: www/system/templates/djaccount_edit.tpl:79
 #: www/system/templates/admin_newsarticle_edit.tpl:47
 msgid "Hold Ctrl to%sselect multiple."
-msgstr "Dr&uuml;cke STRG um mehrere %s auszuw&auml;hlen."
+msgstr "Halten Sie die Strg-Taste gedrückt, um mehrere zu wählen."
 
 #. File www/system/templates/new_account_form.tpl:61
 #. Context: <tr id="newacct_clusterrow">
@@ -4908,7 +4942,7 @@ msgstr "Host"
 #.
 #: www/system/templates/configuration_client_cluster.tpl:21
 msgid "Hosted on"
-msgstr ""
+msgstr "Gehostet auf"
 
 #. File www/system/templates/account_created_details.tpl:4
 #. Context: <tr><td>{="Username"}:</td><td style="font-weight: bold">{$account.username}</td></tr>
@@ -5007,6 +5041,19 @@ msgid ""
 "detailed and may not contain sufficient information for royalty reporting "
 "purposes."
 msgstr ""
+"Wenn aktiviert, enthält der autoDJ einen kleinen Tracking-Code am Ende der "
+"Titel, die in den Media-Playern Ihrer Hörer angezeigt werden.  Zum Beispiel, "
+"statt:<br /><br /><strong>Künstlername - Musiktitel</strong><br /><br />Sie "
+"sollten in etwas folgendes sehen:<br /><br /><strong>Künstlername - "
+"Musiktitel [C51B]</strong><br /><br /> />Dies hilft sicherzustellen, dass "
+"korrekte Albumcover in Centova Cast angezeigt werden, und ermöglicht die "
+"Erstellung detaillierter Berichte (auf der Registerkarte ‚Musiktitel‘ der "
+"Seite ‚Statistiken‘), die die meisten Informationen enthalten, die für die "
+"Erstellung von Berichten an die entsprechenden Entitäten zur Bestimmung der "
+"Lizenzgebühren benötigt werden. Wenn diese Option deaktiviert ist, kann die "
+"Genauigkeit des Albumcovers verringert werden, und die generierten "
+"Lizenzberichte sind viel weniger detailliert und enthalten möglicherweise "
+"keine ausreichenden Informationen für die Lizenzberichterstattung."
 
 #. File www/system/templates/configuration_client_widgets.tpl:63
 #. Context: </select>
@@ -5045,6 +5092,8 @@ msgid ""
 "If provided, this logo will be displayed in the upper-left corner of the "
 "control panel when any of your clients log in."
 msgstr ""
+"Falls vorhanden, wird dieses Logo in der oberen linken Ecke des Control "
+"Panels angezeigt, wenn sich einer Ihrer Kunden einloggt."
 
 #. File www/system/templates/account_rename.tpl:7
 #. Context: <li>{="The username for an account can only be changed when its stream is offline"}.</li>
@@ -5057,6 +5106,9 @@ msgid ""
 "immediately after changing the username, and the user will need to log in "
 "again."
 msgstr ""
+"Wenn der Benutzer gerade angemeldet ist, verfallen alle seine "
+"Anmeldesitzungen sofort nach der Änderung des Benutzernamens, und der "
+"Benutzer muss sich erneut anmelden."
 
 #. File www/system/templates/widgets.tpl:19
 #. Context: {box title="Mount Points"}
@@ -5068,6 +5120,9 @@ msgid ""
 "mount point here and all of the widgets on this page will be updated to "
 "refer specifically to the selected mount point."
 msgstr ""
+"Wenn Sie mehrere Mountpoints für Ihren Stream erstellt haben, können Sie "
+"hier einen Mountpoint auswählen und alle Widgets auf dieser Seite werden "
+"aktualisiert, um sich speziell auf den ausgewählten Mountpoint zu beziehen."
 
 #. File www/system/templates/reload_shoutcast.tpl:5
 #. Context: {="If you wish to apply any configuration changes to your SHOUTcast server itself, you will need to use the Restart Server option instead."}
@@ -5078,6 +5133,8 @@ msgid ""
 "If you wish to apply any configuration changes to your SHOUTcast server "
 "itself, you will need to use the Restart Server option instead."
 msgstr ""
+"Wenn Sie Konfigurationsänderungen an Ihrem SHOUTcast-Server selbst vornehmen "
+"möchten, müssen Sie stattdessen die Option Server neu starten verwenden."
 
 #. File www/system/templates/configuration_client_metadata.tpl:2
 #. Context: {="Ignore metadata containing any of these substrings (one per line)"}:
@@ -5133,6 +5190,8 @@ msgid ""
 "Immediate playlists are unavailable because the %s streaming source is in "
 "use, which does not support scheduling."
 msgstr ""
+"Sofortige Wiedergabelisten sind nicht verfügbar, da die %s-Streaming-Quelle "
+"verwendet wird und keine Zeitplanung unterstützt."
 
 #. File www/system/templates/import_m3u_result.tpl:27
 #. Context: "/system/images/icons/models/playlist.png" align="absmiddle" /> <a href="index.php?page=importm3u&playlistid={$playlist.id}">{="Import another playlist"}</a><br />
@@ -5140,13 +5199,13 @@ msgstr ""
 #.
 #: www/system/templates/import_m3u_result.tpl:27
 msgid "Import another playlist"
-msgstr ""
+msgstr "Eine andere Wiedergabeliste importieren"
 
 #. File www/client/modules/class_Module_importm3u.php:16
 #.
 #: www/client/modules/class_Module_importm3u.php:16
 msgid "Import External Playlist"
-msgstr ""
+msgstr "Externe Wiedergabeliste importieren"
 
 #. File www/system/templates/import_m3u.tpl:3
 #. Context: {box title="Import M3U playlist"}
@@ -5158,13 +5217,13 @@ msgstr ""
 #.
 #: www/system/templates/import_m3u.tpl:3 www/system/templates/library.tpl:47
 msgid "Import M3U playlist"
-msgstr ""
+msgstr "M3U-Wiedergabeliste importieren"
 
 #. File www/client/modules/class_Module_importmedia.php:14
 #.
 #: www/client/modules/class_Module_importmedia.php:14
 msgid "Import new media for the AutoDJ"
-msgstr ""
+msgstr "Neue Medien für den AutoDJ importieren"
 
 #. File www/system/templates/import_m3u_result.tpl:1
 #. Context: {box title="Import Results"}
@@ -5189,7 +5248,7 @@ msgstr "Vorhandene Spalten"
 #.
 #: www/system/templates/configfile_editor.tpl:41
 msgid "Increase indent"
-msgstr ""
+msgstr "Gebotslimit erhöhen"
 
 #. File www/system/templates/library.tpl:58
 #. Context: complete: '{="Complete"}',
@@ -5218,7 +5277,7 @@ msgstr "Initialisiere"
 #.
 #: www/system/templates/autodj_mountpoint_lang.tpl:2
 msgid "Insufficient remaining bandwidth"
-msgstr ""
+msgstr "Unzureichende Restbandbreite"
 
 #. File www/system/templates/uncaught_exception.tpl:49
 #. Context: <div class="ctip" id="msg">
@@ -5303,6 +5362,8 @@ msgid ""
 "invalid characters in password; valid characters are A-Z, a-z, 0-9, and any "
 "symbol except backslash or space"
 msgstr ""
+"ungültige Zeichen im Passwort; gültige Zeichen sind A-Z, a-z, 0-9 und jedes "
+"Symbol außer Backslash oder Leerzeichen."
 
 #. File www/client/modules/class_Module_importm3u.php:32
 #.
@@ -5380,7 +5441,7 @@ msgstr "IP-Adresse"
 #.
 #: www/system/templates/filemanager.tpl:16
 msgid "item(s) on clipboard"
-msgstr ""
+msgstr "Items in der Zwischenablage"
 
 #. File www/client/modules/class_Module_statistics.php:29
 #.
@@ -5499,7 +5560,7 @@ msgstr "Beliebteste Titel"
 #.
 #: www/system/templates/import_m3u.tpl:31
 msgid "Leave any existing (non-duplicate) tracks in target playlist"
-msgstr ""
+msgstr "Vorhandene (nicht doppelte) Tracks in der Ziel-Playlist belassen"
 
 #. File www/system/templates/staffaccount_edit.tpl:94
 #. Context: e="staffaccount[password1]" size="16" maxlength="32" value="{$staffaccount.password1|htmlentities}" /> {if $staffaccount.id}({="leave blank to remain unchanged"}){/if}</td>
@@ -5542,7 +5603,7 @@ msgstr "Geringere Frequenz"
 #: www/system/templates/configuration_reseller_basic.tpl:27
 #: www/system/templates/configuration_client_basic.tpl:65
 msgid "letters and numbers only"
-msgstr ""
+msgstr "nur Buchstaben und Zahlen"
 
 #. File www/system/templates/staffaccount_edit.tpl:130
 #. Context: nts" id="perm_accounts"{if $staffaccount.permissions|contains:"accounts"} checked="checked"{/if}> <label for="perm_accounts">{="List accounts"}</label><br />
@@ -5553,7 +5614,7 @@ msgstr ""
 #: www/system/templates/staffaccount_edit.tpl:130
 #: system/class_StaffAccount.php:66
 msgid "List accounts"
-msgstr ""
+msgstr "Konten auflisten"
 
 #. File www/system/templates/livestats.tpl:58
 #. Context: {check $showduration>0}
@@ -5788,7 +5849,7 @@ msgstr "Mittags"
 #.
 #: www/client/modules/class_Module_importm3u.php:48
 msgid "M3U file not received."
-msgstr ""
+msgstr "M3U-Datei nicht empfangen."
 
 #. File www/system/templates/import_m3u.tpl:14
 #. Context: <tr>
@@ -5797,7 +5858,7 @@ msgstr ""
 #.
 #: www/system/templates/import_m3u.tpl:14
 msgid "M3U playlist file"
-msgstr ""
+msgstr "M3U Wiedergabelistendatei"
 
 #. File www/client/modules/class_Module_configure.php:14
 #.
@@ -5836,7 +5897,7 @@ msgstr "Verwalte E-Mails"
 #: www/system/templates/staffaccount_edit.tpl:143
 #: system/class_StaffAccount.php:96
 msgid "Manage hosts"
-msgstr ""
+msgstr "Hosts verwalten"
 
 #. File www/system/templates/djaccount_edit.tpl:89
 #. Context: </option>
@@ -5856,7 +5917,7 @@ msgstr "Verwaltung der Musiktitel"
 #: www/system/templates/staffaccount_edit.tpl:145
 #: system/class_StaffAccount.php:102
 msgid "Manage news articles"
-msgstr ""
+msgstr "Nachrichtenartikel verwalten"
 
 #. File www/system/templates/djaccount_edit.tpl:87
 #. Context: >
@@ -5885,7 +5946,7 @@ msgstr "Playlisten verwalten"
 #: www/system/templates/staffaccount_edit.tpl:138
 #: system/class_StaffAccount.php:90
 msgid "Manage settings"
-msgstr ""
+msgstr "Einstellungen verwalten"
 
 #. File www/system/templates/staffaccount_edit.tpl:151
 #. Context: value="staff" id="perm_staff"{if $staffaccount.permissions|contains:"staff"} checked="checked"{/if}> <label for="perm_staff">{="Manage staff accounts"}</label><br />
@@ -6774,7 +6835,7 @@ msgstr "Keine Reverse-DNS verfügbar"
 #: www/system/templates/streamstatus.tpl:24
 #: www/system/templates/streamstatus.tpl:7
 msgid "No source connected"
-msgstr ""
+msgstr "Keine Quelle angeschlossen"
 
 #. File www/system/templates/no_such_report.tpl:2
 #. Context: {box title="Error"}
@@ -6782,7 +6843,7 @@ msgstr ""
 #.
 #: www/system/templates/no_such_report.tpl:2
 msgid "No such track report was found."
-msgstr ""
+msgstr "Es wurde kein solcher Titelbericht gefunden."
 
 #. File www/system/templates/upload_multiple.tpl:67
 #. Context: <div class="progressplaceholder">
@@ -6804,6 +6865,9 @@ msgid ""
 "incorrect modifications will cause your stream to cease to operate.  Changes "
 "cannot be reverted or undone."
 msgstr ""
+"Centova Cast führt keine Validierung von Benutzeränderungen durch, und "
+"falsche Änderungen führen dazu, dass Ihr Stream nicht mehr funktioniert.  "
+"Änderungen können nicht rückgängig gemacht werden."
 
 #. File www/system/templates/playlist_edit.tpl:291
 #. Context: d="scheduled_interruptible" size="1">
@@ -7260,6 +7324,9 @@ msgid ""
 "password is insecure; strong passwords are not based on dictionary words, "
 "and use a variety of digits, symbols, and upper and lower-case letters"
 msgstr ""
+"Passwort ist unsicher; starke Passwörter basieren nicht auf Wörterbüchern "
+"und verwenden eine Vielzahl von Ziffern, Symbolen sowie Groß- und "
+"Kleinbuchstaben."
 
 #. File www/system/templates/password_field.tpl:7
 #. Context: password_error: '{="Password error"}',
@@ -8837,7 +8904,7 @@ msgstr "Rückgängig machen"
 #: www/system/templates/statistics_listeners.tpl:3
 #: www/system/templates/livestats.tpl:14
 msgid "Ripper"
-msgstr ""
+msgstr "Ripper"
 
 #. File www/system/templates/configuration_client_source.tpl:100
 #. Context: <tr>
@@ -9675,6 +9742,9 @@ msgid ""
 "from the target host.  Note that specifying a port that is already in use "
 "will cause the stream to fail to start."
 msgstr ""
+"Setzen Sie dies auf 'auto' (empfohlen), um automatisch einen verfügbaren "
+"Port vom Ziel-Host zu wählen.  Beachten Sie, dass die Angabe eines bereits "
+"verwendeten Ports dazu führt, dass der Stream nicht startet."
 
 #. File www/system/templates/configuration_client_basic.tpl:32
 #. Context: <h1>{="IP address"}</h1>
@@ -9686,6 +9756,8 @@ msgid ""
 "Set this to 'auto' (recommended) to use the default IP address configured "
 "for the target host."
 msgstr ""
+"Setzen Sie dies auf 'auto' (empfohlen), um die für den Ziel-Host "
+"konfigurierte Standard-IP-Adresse zu verwenden."
 
 #. File www/client/modules/class_Module_quicklinks.php:15
 #.
@@ -9799,7 +9871,7 @@ msgstr "Musiktitel überspringen."
 #.
 #: www/system/templates/import_m3u.tpl:23
 msgid "Skip tracks that already exist in target playlist"
-msgstr ""
+msgstr "Tracks überspringen, die bereits in der Ziel-Playlist vorhanden sind"
 
 #. File www/system/templates/configuration_client_widgets.tpl:44
 #. Context: <fieldset>
@@ -9856,6 +9928,8 @@ msgstr "Titel"
 #: www/system/templates/reportformat_update.tpl:5
 msgid "Sorry, an error occurred while attempting to update this custom report"
 msgstr ""
+"Beim Versuch, diesen benutzerdefinierten Bericht zu aktualisieren, ist ein "
+"Fehler aufgetreten."
 
 #. File www/system/templates/djaccount_update.tpl:5
 #. Context: {otherwise}
@@ -9865,6 +9939,8 @@ msgstr ""
 #: www/system/templates/djaccount_update.tpl:5
 msgid "Sorry, an error occurred while attempting to update this DJ account"
 msgstr ""
+"Sorry, es ist ein Fehler beim Versuch, dieses DJ-Konto zu aktualisieren, "
+"aufgetreten."
 
 #. File www/system/templates/staffaccount_update.tpl:5
 #. Context: {otherwise}
@@ -9874,6 +9950,8 @@ msgstr ""
 #: www/system/templates/staffaccount_update.tpl:5
 msgid "Sorry, an error occurred while attempting to update this staff account"
 msgstr ""
+"Sorry, es ist ein Fehler beim Versuch, dieses Mitarbeiterkonto zu "
+"aktualisieren, aufgetreten."
 
 #. File www/system/templates/playlist_update.tpl:5
 #. Context: {otherwise}
@@ -9892,7 +9970,7 @@ msgstr ""
 #.
 #: www/system/templates/filemanager.tpl:18
 msgid "Source and destination folders are the same."
-msgstr ""
+msgstr "Quell- und Zielordner sind gleich."
 
 #. File www/system/templates/streamstatus.tpl:24
 #. Context: /status/autodj{if $sourceonline}up{else}down{/if}.png" />{/check}
@@ -9981,7 +10059,7 @@ msgstr ""
 #.
 #: www/system/templates/staffaccount_update.tpl:3
 msgid "Staff account saved successfully."
-msgstr ""
+msgstr "Mitarbeiterkonto erfolgreich gespeichert."
 
 #. File www/system/templates/staffaccount_edit.tpl:79
 #. Context: {box title="Staff Account Settings"}
@@ -9989,7 +10067,7 @@ msgstr ""
 #.
 #: www/system/templates/staffaccount_edit.tpl:79
 msgid "Staff Account Settings"
-msgstr ""
+msgstr "Einstellungen des Mitarbeiterkontos"
 
 #. File www/system/templates/staffaccount_update.tpl:1
 #. Context: {box title="Staff Account Update"}
@@ -9997,7 +10075,7 @@ msgstr ""
 #.
 #: www/system/templates/staffaccount_update.tpl:1
 msgid "Staff Account Update"
-msgstr ""
+msgstr "Aktualisierung des Mitarbeiterkontos"
 
 #. File www/system/templates/staffaccount_list.tpl:5
 #. Context: </div>
@@ -10006,19 +10084,19 @@ msgstr ""
 #.
 #: www/system/templates/staffaccount_list.tpl:5
 msgid "Staff Accounts"
-msgstr ""
+msgstr "Mitarbeiterkonten"
 
 #. File www/client/modules/class_Module_control.php:104
 #.
 #: www/client/modules/class_Module_control.php:104
 msgid "Start autoDJ"
-msgstr ""
+msgstr "Starte autoDJ"
 
 #. File www/client/modules/class_Module_control.php:104
 #.
 #: www/client/modules/class_Module_control.php:104
 msgid "Start the autoDJ for automated streaming"
-msgstr ""
+msgstr "Starten des autoDJ für automatisiertes Streaming"
 
 #. File www/client/modules/class_Module_control.php:80
 #.
@@ -10192,13 +10270,13 @@ msgstr "Stop nach"
 #.
 #: www/client/modules/class_Module_control.php:106
 msgid "Stop autoDJ"
-msgstr ""
+msgstr "Stopp autoDJ"
 
 #. File www/client/modules/class_Module_control.php:106
 #.
 #: www/client/modules/class_Module_control.php:106
 msgid "Stop the autoDJ for live streaming"
-msgstr ""
+msgstr "Stoppen des autoDJ für Live-Streaming"
 
 #. File www/client/modules/class_Module_control.php:113
 #.
@@ -10335,7 +10413,7 @@ msgstr "Support"
 #.
 #: www/system/templates/import_m3u.tpl:9
 msgid "Target playlist"
-msgstr ""
+msgstr "Ziel-Wiedergabeliste"
 
 #. File www/system/templates/new_account_form.tpl:44
 #. Context: <tr id="newacct_templaterow">
@@ -10457,6 +10535,8 @@ msgid ""
 "The maximum bandwidth for your stream is %s kbps.  This leaves %s kbps "
 "available for the current mount point."
 msgstr ""
+"Die maximale Bandbreite für Ihren Stream beträgt %s kbps.  Dadurch bleibt %s "
+"kbps für den aktuellen Mountpoint verfügbar."
 
 #. File www/system/templates/client_head.tpl:28
 #. Context: retrieving: '{="Retrieving current song..."}',
@@ -10468,8 +10548,8 @@ msgid ""
 "The server is not currently running.  Please start the server, then try "
 "again."
 msgstr ""
-"Der Server l&auml;uft momentan nicht. Bitte starten Sie den Server und "
-"versuchen es anschlie&szlig;end erneut."
+"Der Server läuft derzeit nicht.  Bitte starten Sie den Server und versuchen "
+"Sie es erneut."
 
 #. File www/system/templates/invalid_account.tpl:2
 #. Context: {box title="Error"}
@@ -10480,12 +10560,14 @@ msgid ""
 "The specified account does not exist, or your do not have permission to "
 "access it."
 msgstr ""
+"Das angegebene Konto existiert nicht oder Sie haben keine Berechtigung, "
+"darauf zuzugreifen."
 
 #. File www/reseller/modules/class_Module_emails_base.php:38
 #.
 #: www/reseller/modules/class_Module_emails_base.php:38
 msgid "The specified E-mail does not exist."
-msgstr ""
+msgstr "Die angegebene E-Mail existiert nicht."
 
 #. File www/system/templates/configuration_client_widgets.tpl:142
 #. Context: <br />
@@ -10495,8 +10577,7 @@ msgstr ""
 #: www/system/templates/configuration_client_widgets.tpl:142
 msgid "The start page for this stream (if enabled) is available at: "
 msgstr ""
-"Die Startseite f&uuml;r diesen Streamserver (insoweit aktiviert), ist "
-"erreichbar unter: "
+"Die Startseite für diesen Stream (falls aktiviert) ist verfügbar unter:"
 
 #. File www/system/templates/client_directory_error.tpl:26
 #. Context: <p>
@@ -10508,6 +10589,8 @@ msgid ""
 "The streaming server reports that your station could not be listed in the "
 "stream directory due to the following problem"
 msgstr ""
+"Der Streaming-Server meldet, dass Ihre Station aufgrund des folgenden "
+"Problems nicht im Stream-Verzeichnis aufgeführt werden konnte"
 
 #. File www/system/templates/autodj_mountpoint_lang.tpl:3
 #. Context: insufficient_bandwidth: '{="Insufficient remaining bandwidth"}',
@@ -10519,6 +10602,8 @@ msgid ""
 "The sum of the bit rates you have configured for your other autoDJ mount "
 "points is %s kbps:"
 msgstr ""
+"Die Summe der Bitraten, die Sie für Ihre anderen Mountpoints konfiguriert "
+"haben, ist %s kbps:"
 
 #. File www/system/templates/connection_details.tpl:10
 #. Arguments: "<a href='index.php?page=djaccounts'>","</a>"
@@ -10579,8 +10664,8 @@ msgid ""
 "These reports provide the track name, air time, and number of listeners for "
 "each track broadcasted during the reporting period."
 msgstr ""
-"Diese Berichte enthalten die Titelnamen, Sendezeit und Anzahl der Listener "
-"für jeden Musiktitel welcher im Berichtszeitraum gesendet wurde."
+"Diese Berichte enthalten den Titelnamen, die Sendezeit und die Anzahl der "
+"Zuhörer für jeden im Berichtszeitraum ausgestrahlten Titel."
 
 #. File www/system/templates/configfile_editor.tpl:29
 #. Context: <div style="width: 300px; padding: 10px">
@@ -10592,6 +10677,9 @@ msgid ""
 "This editor allows advanced users to directly modified the raw configuration "
 "files for the underlying streaming software."
 msgstr ""
+"Dieser Editor ermöglicht es fortgeschrittenen Benutzern, die "
+"Rohkonfigurationsdateien für die zugrundeliegende Streaming-Software direkt "
+"zu modifizieren."
 
 #. File www/system/templates/configuration_client_widgets.tpl:77
 #. Context: $config.requestprobability|htmlentities}" /> {="percent (0-100)"} {$errors.requestprobability|checkerror}
@@ -10620,7 +10708,7 @@ msgstr ""
 #.
 #: www/system/templates/reseller_index.tpl:16
 msgid "This is the maximum data transfer permitted for your account."
-msgstr ""
+msgstr "Dies ist der maximal zulässige Datentransfer für Ihr Konto."
 
 #. File www/system/templates/index_header.tpl:2
 #. Context: <div class="headermetergroup">
@@ -10673,6 +10761,8 @@ msgid ""
 "This reseller account currently owns %s%s%s client accounts.  How would you "
 "like to handle these accounts?"
 msgstr ""
+"Dieses Reseller-Konto besitzt derzeit %s%s%s Kundenkonten.  Wie möchten Sie "
+"mit diesen Konten umgehen?"
 
 #. File www/system/templates/already_running.tpl:2
 #. Context: {box title="Already running"}
@@ -10683,7 +10773,7 @@ msgstr ""
 #: www/system/templates/already_running.tpl:2
 #: system/class_ServerControl.php:860
 msgid "This server is already running."
-msgstr "Der Server l&auml;uft bereits."
+msgstr "Dieser Server läuft bereits."
 
 #. File www/system/templates/not_running.tpl:2
 #. Context: {box title="Not running"}
@@ -10693,7 +10783,7 @@ msgstr "Der Server l&auml;uft bereits."
 #.
 #: www/system/templates/not_running.tpl:2 system/class_ServerControl.php:1326
 msgid "This server is not running."
-msgstr "Der Server l&auml;uft nicht."
+msgstr "Dieser Server läuft nicht."
 
 #. File www/client/rpc/class_RPCfilemanager.php:539
 #.
@@ -10705,7 +10795,7 @@ msgstr "Der Server l&auml;uft nicht."
 #: www/client/rpc/class_RPCfilemanager.php:474
 #: www/client/rpc/class_RPCfilemanager.php:369
 msgid "This system folder cannot be altered."
-msgstr ""
+msgstr "Dieser Systemordner kann nicht geändert werden."
 
 #. File www/client/modules/class_Module_widgets.php:97
 #.
@@ -10811,10 +10901,11 @@ msgid ""
 "artist/album/track names, and related data will be lost.  If you have a "
 "large media library, this may take a very long time.  Proceed?"
 msgstr ""
-"Diese Aktion wird alle Ihre Benutzerdefinierten Einstellungen löschen. "
-"Cover / Artists / Album und benutzerdefinierte Titelnamen welche Sie über "
-"das Centova Interface gesetzt haben, gehen unwiderruflich verloren. Je nach "
-"Größe Ihrer Musikbibliothek, kann dieser Vorgang einige Zeit dauern."
+"Dadurch werden alle Medieninformationen aus Ihrer Bibliothek gelöscht und "
+"alle Titel wieder importiert.  Alle Anpassungen, die Sie vorgenommen haben, "
+"einschließlich benutzerdefinierter Cover, Künstler-/Album-/Track-Namen und "
+"verwandter Daten, gehen verloren.  Wenn Sie eine große Mediathek haben, kann "
+"dies sehr lange dauern.  Fortfahren?"
 
 #. File www/system/templates/playlist.tpl:12
 #. Context: {$playlistid}" />
@@ -10826,6 +10917,10 @@ msgid ""
 "changes you have made to this playlist will be lost.  Click OK to proceed to "
 "the full editor, or Cancel to return."
 msgstr ""
+"Dadurch wird zum vollständigen (Drag-and-Drop) Playlist-Editor gewechselt.  "
+"Alle nicht gespeicherten Änderungen, die Sie an dieser Wiedergabeliste "
+"vorgenommen haben, gehen verloren.  Klicken Sie auf OK, um zum vollständigen "
+"Editor zu gelangen, oder auf Abbrechen, um zurückzukehren."
 
 #. File www/client/modules/class_Module_statistics.php:34
 #.
@@ -11015,8 +11110,8 @@ msgid ""
 "To add your media to the playlists you've created above, launch your media "
 "library below."
 msgstr ""
-"Um Ihre Medien den Titellisten hinzuzuf&uuml;gen, die Sie oben erstellt "
-"haben, starten Sie Ihre Bibliothek unten."
+"Um Ihre Medien zu den oben erstellten Wiedergabelisten hinzuzufügen, starten "
+"Sie unten Ihre Medienbibliothek."
 
 #. File www/client/modules/class_Module_control.php:249
 #.
@@ -11025,6 +11120,8 @@ msgid ""
 "To perform a normal startup, please try again in normal (non-diagnostic) "
 "mode."
 msgstr ""
+"Um einen normalen Start durchzuführen, versuchen Sie es bitte erneut im "
+"normalen (nicht-diagnostischen) Modus."
 
 #. File www/system/templates/logmanager.tpl:46
 #. Context: <option value="2wk" selected="selected">{="to 2 weeks"}</option>
@@ -11040,7 +11137,9 @@ msgstr "bis Heute"
 #.
 #: www/system/templates/playlist_list.tpl:73
 msgid "To upload media for use on your stream, launch the file manager below."
-msgstr "Um Ihre Musikdateien hochzuladen, starten sie den Dateimanager."
+msgstr ""
+"Um Medien zur Verwendung auf Ihrem Stream hochzuladen, starten Sie den "
+"Dateimanager unten."
 
 #. File www/system/templates/library.tpl:159
 #. Context: <input disabled="disabled" type="button" id="btn_top" name="movetop" value="{="Top"}" />
@@ -11373,6 +11472,8 @@ msgid ""
 "Total: %s%.1f%%%s.%sThis is the combined total of the listener limits you "
 "have assigned to all of your client accounts."
 msgstr ""
+"Gesamt: %s%.1f%%%s.%s Dies ist die Summe der Hörerlimits, die Sie allen "
+"Ihren Kundenkonten zugewiesen haben."
 
 #. File www/system/templates/reseller_index.tpl:41
 #. Arguments: "<strong>",$allocated.usedusers|mul:100|div:$account.resellerusers,"</strong>","<br />"
@@ -11385,6 +11486,8 @@ msgid ""
 "Total: %s%.1f%%%s.%sThis is the total number of client accounts you have "
 "created."
 msgstr ""
+"Gesamt: %s%.1f%%%s.%s Dies ist die Gesamtzahl der Kundenkonten, die Sie "
+"erstellt haben."
 
 #. File www/system/templates/statistics_recent.tpl:96
 #. Context: <td class="roweven">&nbsp;</td>
@@ -11928,7 +12031,7 @@ msgstr "Aktualisiere Bibliothek. Bitte warten..."
 #.
 #: www/system/templates/filemanager.tpl:44
 msgid "Updating usage"
-msgstr ""
+msgstr "Verwendung aktualisieren"
 
 #. File www/system/templates/filemanager.tpl:85
 #. Context: {check $canupload}
@@ -12254,6 +12357,8 @@ msgid ""
 "Warning: This will permanently delete the %s%s%s reseller account and all "
 "associated configuration data."
 msgstr ""
+"Warnung: Dadurch werden das %s%s%s Reseller-Konto und alle zugehörigen "
+"Konfigurationsdaten dauerhaft gelöscht."
 
 #. File www/client/modules/class_Module_widgets.php:181
 #.
@@ -12286,7 +12391,7 @@ msgstr "Mittwoch"
 #.
 #: www/system/templates/playlist_edit.tpl:241
 msgid "Weekly"
-msgstr "W&ouml;chentlich"
+msgstr "Wöchentlich"
 
 #. File www/system/templates/account_rename.tpl:3
 #. Context: <form method="get" action="index.php">
@@ -12296,6 +12401,7 @@ msgstr "W&ouml;chentlich"
 msgid ""
 "When changing the username for an account, please be aware of the following"
 msgstr ""
+"Wenn Sie den Benutzernamen für ein Konto ändern, beachten Sie bitte Folgendes"
 
 #. File www/client/modules/class_Module_widgets.php:16
 #.
@@ -12364,7 +12470,7 @@ msgstr "Jährlich"
 #.
 #: www/system/templates/configuration_client_source.tpl:52
 msgid "Yes, rebuild playlist on each stream startup"
-msgstr ""
+msgstr "Ja, Wiedergabeliste bei jedem Streamstart neu erstellen"
 
 #. File www/system/templates/playlist_edit.tpl:292
 #. Context: to completion or stop time"}</option>
@@ -12408,7 +12514,7 @@ msgstr ""
 #.
 #: www/system/templates/new_account_form.tpl:37
 msgid "You have reached your account creation limits - %s."
-msgstr ""
+msgstr "Sie haben Ihre Kontoeröffnungslimits erreicht - %s."
 
 #. File www/system/templates/streamstatus.tpl:14
 #. Context: server_offline_tip: '{="Your streaming server is currently offline."}',
@@ -12417,7 +12523,7 @@ msgstr ""
 #.
 #: www/system/templates/streamstatus.tpl:14
 msgid "Your autoDJ is currently active and operational."
-msgstr ""
+msgstr "Ihr autoDJ ist derzeit aktiv und betriebsbereit."
 
 #. File www/system/templates/streamstatus.tpl:15
 #. Context: autodj_online_tip: '{="Your autoDJ is currently active and operational."}',
@@ -12426,7 +12532,7 @@ msgstr ""
 #.
 #: www/system/templates/streamstatus.tpl:15
 msgid "Your autoDJ is currently offline."
-msgstr ""
+msgstr "Ihr autoDJ ist derzeit offline."
 
 #. File www/system/templates/account_updated.tpl:10
 #. Context: <br /><br />
@@ -12435,7 +12541,7 @@ msgstr ""
 #.
 #: www/system/templates/account_updated.tpl:10
 msgid "Your preferred character encoding has also been changed."
-msgstr ""
+msgstr "Ihre bevorzugte Zeichenkodierung wurde ebenfalls geändert."
 
 #. File www/client/rpc/class_RPClibrary.php:389
 #. Arguments: MAX_TRACK_RESULTS,MAX_TRACK_RESULTS

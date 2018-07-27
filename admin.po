@@ -6,14 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
 "POT-Creation-Date: 2017-07-25 13:51-0700\n"
-"PO-Revision-Date: 2017-08-16 11:58+0200\n"
-"Last-Translator: Support <support at centova dot com>\n"
+"PO-Revision-Date: 2018-07-27 17:12+0200\n"
+"Last-Translator: scysys <scysys@outlook.com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. File www/system/templates/admin_accounts.tpl:196
 #. Arguments: 100
@@ -682,7 +682,7 @@ msgstr "Mandanten"
 #.
 #: www/admin/modules/class_Module_rpchosts.php:19
 msgid "Cluster host management"
-msgstr ""
+msgstr "Cluster-Host-Verwaltung"
 
 #. File www/system/templates/admin_utilities.tpl:44
 #. Context: {box title="Legacy Features"}
@@ -690,13 +690,13 @@ msgstr ""
 #.
 #: www/system/templates/admin_utilities.tpl:44
 msgid "Configure single sign-on"
-msgstr ""
+msgstr "Single Sign-On konfigurieren"
 
 #. File www/admin/modules/class_Module_staffaccounts.php:25
 #.
 #: www/admin/modules/class_Module_staffaccounts.php:25
 msgid "Configure staff access to Centova Cast"
-msgstr ""
+msgstr "Mitarbeiterzugang zu Centova Cast konfigurieren"
 
 #. File www/system/templates/admin_newsarticle_edit.tpl:16
 #. Context: <tr>
@@ -742,7 +742,7 @@ msgstr "Fortsetzen"
 #: www/admin/rpc/class_RPClogmanager.php:175
 #: www/admin/rpc/class_RPClogmanager.php:168 system/class_ServerControl.php:588
 msgid "Could not access log file"
-msgstr ""
+msgstr "Konnte nicht auf die Protokolldatei zugreifen"
 
 #. File www/system/templates/admin_newsarticle_list.tpl:21
 #. Context: <th>{="Title"}</th>
@@ -760,7 +760,7 @@ msgstr "Erstellt"
 #.
 #: www/system/templates/admin_utilities.tpl:35
 msgid "Current login sessions"
-msgstr ""
+msgstr "Aktuelle Login-Sitzungen"
 
 #. File www/system/templates/admin_sessions.tpl:47
 #. Context: rname=="admin"}{="Administrator"}{else}{$session.organization|htmlentities}{/if}{if $session.sessionid==$current_sessionid} ({="current session"}){/if}</td>
@@ -774,7 +774,7 @@ msgstr "aktuelle Sitzung"
 #.
 #: www/admin/modules/class_Module_sessions.php:13
 msgid "Current Users"
-msgstr ""
+msgstr "Aktuelle Benutzer"
 
 #. File www/system/templates/admin_accounts_javascript.tpl:72
 #. Context: <div id="rowovertab_offline">
@@ -783,7 +783,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_accounts_javascript.tpl:72
 msgid "Currently offline"
-msgstr ""
+msgstr "Derzeit offline"
 
 #. File www/system/templates/admin_accounts.tpl:160
 #. Context: 5" style="text-align: right" class="hdg_bitr">{="Bitrate"}</th>
@@ -1499,7 +1499,7 @@ msgstr ""
 #.
 #: www/system/templates/admin_utilities.tpl:43
 msgid "Legacy Features"
-msgstr ""
+msgstr "Legacy-Funktionen"
 
 #. File www/system/templates/admin_settings.tpl:333
 #. Context: <fieldset>
@@ -1986,7 +1986,7 @@ msgstr "des Festplattenplatzes wird genutzt"
 #.
 #: www/system/templates/admin_about.tpl:114
 msgid "Operating system"
-msgstr ""
+msgstr "Betriebssystem"
 
 #. File www/system/templates/admin_utilities.tpl:38
 #. Context: target="_blank">{="Manage database"}</a></td></tr>
