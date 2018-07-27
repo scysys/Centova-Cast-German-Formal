@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
 "POT-Creation-Date: 2017-07-25 13:51-0700\n"
-"PO-Revision-Date: 2018-07-27 17:07+0200\n"
+"PO-Revision-Date: 2018-07-27 18:14+0200\n"
 "Last-Translator: scysys <scysys@outlook.com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
@@ -217,7 +217,7 @@ msgstr "Dieser Account ist nicht autorisiert diese Aktion auszuführen"
 #.
 #: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:51
 msgid "Account template saved successfully."
-msgstr ""
+msgstr "Kontovorlage erfolgreich gespeichert."
 
 #. File system/class_ServerControl.php:2565
 #.
@@ -347,7 +347,7 @@ msgstr "AIM"
 #: system/albumds/class_AlbumDataSource_amazon.php:406
 #: system/albumds/class_AlbumDataSource_amazon.php:397
 msgid "Allow client-specified %s affiliate IDs"
-msgstr ""
+msgstr "Kundenspezifische %s-Affiliate-IDs zulassen"
 
 #. File system/servers/ShoutCast/class_ShoutCastConfig.php:49
 #.
@@ -451,7 +451,7 @@ msgstr "Zuhörer immer trennen nach"
 #.
 #: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:27
 msgid "An account template with this name already exists."
-msgstr ""
+msgstr "Eine Kontovorlage mit diesem Namen existiert bereits."
 
 #. File system/class_DJManager.php:73
 #.
@@ -459,7 +459,7 @@ msgstr ""
 #.
 #: system/class_DJManager.php:73 system/class_StaffManager.php:65
 msgid "An account with the specified username already exists"
-msgstr ""
+msgstr "Ein Konto mit dem angegebenen Benutzernamen existiert bereits."
 
 #. File system/class_ServerControl.php:1167
 #.
@@ -506,14 +506,14 @@ msgstr "Anwendung"
 #.
 #: system/class_ServerControl.php:1028 system/class_ServerControl.php:1013
 msgid "Application %s exited immediately after startup"
-msgstr ""
+msgstr "Anwendung %s wurde sofort nach dem Start beendet"
 
 #. File system/class_ServerControl.php:945
 #. Arguments: $app->type
 #.
 #: system/class_ServerControl.php:945
 msgid "Application %s is already running"
-msgstr ""
+msgstr "Anwendung %s läuft bereits"
 
 #. File system/sources/sctrans2/class_Sourcesctrans2.php:578
 #.
@@ -533,7 +533,7 @@ msgstr ""
 #: system/sources/liquidsoap/class_LiquidSoapSettingsConnector.php:460
 #: system/sources/liquidsoap/templates/configuration_source.tpl:23
 msgid "Apply replay gain"
-msgstr "Replay Gain anwenden"
+msgstr "Lautstärkeanpassung anwenden"
 
 #. File system/class_MIMETypes.php:44
 #.
@@ -592,7 +592,7 @@ msgstr "Audiodatei"
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:228
 msgid "Audio mux elements (LATM)"
-msgstr ""
+msgstr "Audio-Mux-Elemente (LATM)"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:229
 #. Context: <option value="latm">{="Audio mux elements (LATM)"}</option>
@@ -601,7 +601,7 @@ msgstr ""
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:229
 msgid "Audio mux elements (LATM), out-of-band"
-msgstr ""
+msgstr "Audio-Mux-Elemente (LATM), Out-of-Band"
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:620
 #.
@@ -613,7 +613,7 @@ msgstr ""
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:620
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:209
 msgid "Audio object type"
-msgstr ""
+msgstr "Audio-Objekttyp"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:230
 #. Context: <option value="latm_out_of_band">{="Audio mux elements (LATM), out-of-band"}</option>
@@ -622,13 +622,13 @@ msgstr ""
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:230
 msgid "Audio sync stream (LOAS)"
-msgstr ""
+msgstr "Audio-Sync-Stream (LOAS)"
 
 #. File system/class_ServerControl.php:2682
 #.
 #: system/class_ServerControl.php:2682
 msgid "Authenticated"
-msgstr "Beglaubigt"
+msgstr "Authentifiziert"
 
 #. File system/sources/ices2/class_Ices2ServerInterface.php:241
 #.
@@ -688,7 +688,7 @@ msgstr "Automatisch (Vom Streamserver gesteuert) EMPFOHLEN"
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:53
 msgid "Average bitrate based encoding (ABR)"
-msgstr ""
+msgstr "Durchschnittliche Bitrate basierte Kodierung (ABR)"
 
 #. File system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:77
 #. Context: <select name="mountpoints_field[cdnslave]" class="list_editor_field" size="1">
@@ -703,7 +703,7 @@ msgstr ""
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:77
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:67
 msgid "based on master CDN mode setting"
-msgstr ""
+msgstr "basierend auf der Einstellung des Master-CDN-Modus"
 
 #. File system/class_AccountFields.php:372
 #.
@@ -819,7 +819,7 @@ msgstr "Erstelle Dateiliste"
 #: system/servers/IceCast/class_IceCastConfig.php:117
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:47
 msgid "Burst on connect"
-msgstr ""
+msgstr "Burst beim Verbinden"
 
 #. File system/servers/IceCast/class_IceCastConfig.php:118
 #.
@@ -831,7 +831,7 @@ msgstr ""
 #: system/servers/IceCast/class_IceCastConfig.php:118
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:54
 msgid "Burst size"
-msgstr ""
+msgstr "Burst-Größe"
 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:130
 #. Context: </td>
@@ -840,7 +840,7 @@ msgstr ""
 #.
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:130
 msgid "byte(s)"
-msgstr ""
+msgstr "Byte(s)"
 
 #. File system/servers/WindowsMedia/class_WindowsMediaConfig.php:34
 #.
@@ -852,7 +852,7 @@ msgstr ""
 #: system/servers/WindowsMedia/class_WindowsMediaConfig.php:34
 #: system/servers/WindowsMedia/templates/configuration_client_advanced.tpl:11
 msgid "Cache delivery rate"
-msgstr ""
+msgstr "Cache-Lieferrate"
 
 #. File system/sources/sctrans2/class_Sourcesctrans2.php:579
 #.
@@ -863,13 +863,13 @@ msgstr ""
 #: system/sources/sctrans2/class_Sourcesctrans2.php:579
 #: system/sources/sctrans2/templates/configuration_source.tpl:43
 msgid "Calculate replay gain"
-msgstr "Kalkuliere Replay Gain"
+msgstr "Lautstärkeanpassung kalkulieren"
 
 #. File system/class_MIMETypes.php:30
 #.
 #: system/class_MIMETypes.php:30
 msgid "Calendar File"
-msgstr "Kalenderdatei"
+msgstr "Kalender-Datei"
 
 #. File system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:55
 #. Context: xt" name="mountpoints_field[streamrelayurl]" class="list_editor_field" size="50" value="" />
@@ -879,6 +879,8 @@ msgstr "Kalenderdatei"
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:55
 msgid "Cannot simultaneously relay a remote stream and use the autoDJ."
 msgstr ""
+"Kann nicht gleichzeitig einen Remote-Stream weiterleiten und den autoDJ "
+"verwenden."
 
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:50
 #. Context: <select name="mountpoints_field[sctmp3mode]" class="list_editor_field" size="1">
@@ -899,7 +901,7 @@ msgstr "CBR"
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:29
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:64
 msgid "CDN Master"
-msgstr ""
+msgstr "CDN-Master"
 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:81
 #.
@@ -911,7 +913,7 @@ msgstr ""
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:81
 #: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:45
 msgid "CDN mode"
-msgstr ""
+msgstr "CDN-Modus"
 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:30
 #.
@@ -923,7 +925,7 @@ msgstr ""
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:30
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:74
 msgid "CDN Slave"
-msgstr ""
+msgstr "CDN-Slave"
 
 #. File system/class_SystemControl.php:2050
 #. Arguments: $username,
@@ -933,7 +935,7 @@ msgstr ""
 #.
 #: system/class_SystemControl.php:2050
 msgid "Changed status for account %s from %s to %s%s"
-msgstr ""
+msgstr "Geänderter Status für Konto %s von %s zu %s%s"
 
 #. File system/class_TrackManager.php:167
 #.
@@ -951,7 +953,7 @@ msgstr "Prüfe nach Titel ohne Album Informationen"
 #: system/servers/IceCast/class_IceCastConfig.php:114
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:37
 msgid "Client timeout"
-msgstr ""
+msgstr "Client-Timeout"
 
 #. File system/class_AccountFields.php:906
 #.
@@ -963,7 +965,7 @@ msgstr "Cluster"
 #.
 #: system/class_AccountFields.php:866
 msgid "Cluster host"
-msgstr ""
+msgstr "Cluster-Host"
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:610
 #.
@@ -1009,6 +1011,8 @@ msgid ""
 "Configured for server type %s, but that server type does not exist or is not "
 "enabled"
 msgstr ""
+"Konfiguriert für Servertyp %s, aber dieser Servertyp existiert nicht oder "
+"ist nicht aktiviert."
 
 #. File system/servers/ShoutCast/templates/configuration_client_relay.tpl:26
 #. Context: <tr><td colspan="2"><br /><br /></td></tr>
@@ -1019,6 +1023,8 @@ msgid ""
 "Configures relaying of other streams by your server.  The remote server will "
 "act as a source for your stream."
 msgstr ""
+"Konfiguriert die Weiterleitung anderer Streams durch Ihren Server.  Der "
+"Remote-Server dient als Quelle für Ihren Stream."
 
 #. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:10
 #. Context: <tr><td colspan="2">{="Configures relaying of your stream by other servers, where your stream will act as a source for the remote server."}<br /><br /></td></tr>
@@ -1039,6 +1045,8 @@ msgid ""
 "Configures relaying of your stream by other servers.  Your stream will act "
 "as a source for the remote server."
 msgstr ""
+"Konfiguriert die Weiterleitung Ihres Streams durch andere Server.  Ihr "
+"Stream dient als Quelle für den Remote-Server."
 
 #. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:42
 #. Arguments: "<a href='http://wiki.shoutcast.com/wiki/SHOUTcast_Server_CDN_Features' target='_blank'>","</a>"
@@ -1055,7 +1063,7 @@ msgstr "Konfiguriert die CDN Features Ihres SHOUTcast Servers. (%sdetails%s)"
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:51
 msgid "Constant bitrate encoding (CBR)"
-msgstr ""
+msgstr "Konstante Bitrate (CBR)"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:155
 #. Context: <option value="none">{="None"}</option>
@@ -1086,7 +1094,7 @@ msgstr ""
 #.
 #: system/class_ServerControl.php:1003
 msgid "Could not start %s application"
-msgstr ""
+msgstr "%s Anwendung konnte nicht gestartet werden"
 
 #. File system/class_ServerControl.php:871
 #.
@@ -1119,7 +1127,7 @@ msgstr "Neu erstellen"
 #: system/sources/liquidsoap/class_LiquidSoapSettingsConnector.php:457
 #: system/sources/liquidsoap/templates/configuration_source.tpl:5
 msgid "Crossfade fade-in"
-msgstr ""
+msgstr "Überblendung einblenden"
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettingsConnector.php:458
 #.
@@ -1131,7 +1139,7 @@ msgstr ""
 #: system/sources/liquidsoap/class_LiquidSoapSettingsConnector.php:458
 #: system/sources/liquidsoap/templates/configuration_source.tpl:9
 msgid "Crossfade fade-out"
-msgstr ""
+msgstr "Überblendung ausblenden"
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettingsConnector.php:459
 #.
@@ -1152,7 +1160,7 @@ msgstr ""
 #: system/sources/sctrans/class_Sourcesctrans.php:234
 #: system/sources/sctrans/templates/configuration_source.tpl:4
 msgid "Crossfade mode"
-msgstr ""
+msgstr "Überblendmodus"
 
 #. File system/sources/icescc/templates/configuration_source.tpl:5
 #. Context: <tr>
@@ -1161,7 +1169,7 @@ msgstr ""
 #.
 #: system/sources/icescc/templates/configuration_source.tpl:5
 msgid "Crossfade style"
-msgstr ""
+msgstr "Überblendstil"
 
 #. File system/sources/sctrans2/class_Sourcesctrans2.php:577
 #.
@@ -1201,7 +1209,7 @@ msgstr "Aktuelle Mountpoints"
 #: system/albumds/class_AlbumDataSource_amazon.php:411
 #: system/albumds/class_AlbumDataSource_amazon.php:392
 msgid "Default %s affiliate ID"
-msgstr ""
+msgstr "Standard %s Partner-ID"
 
 #. File system/class_AccountFields.php:345
 #.
@@ -1213,19 +1221,19 @@ msgstr ""
 #: system/class_AccountFields.php:345
 #: www/system/templates/admin_settings.tpl:199
 msgid "Default character encoding for new servers"
-msgstr "Standard-Zeichenkodierung f&uuml;r neue Server"
+msgstr "Standardzeichenkodierung für neue Server"
 
 #. File system/class_ReportFormat.php:27
 #.
 #: system/class_ReportFormat.php:27
 msgid "Default performance report"
-msgstr ""
+msgstr "Standard-Leistungsbericht"
 
 #. File system/class_ReportFormat.php:26
 #.
 #: system/class_ReportFormat.php:26
 msgid "Default playlist report"
-msgstr ""
+msgstr "Standard-Playlist-Bericht"
 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:106
 #. Context: _field[public]" size="1" class="list_editor_field">
@@ -1234,7 +1242,7 @@ msgstr ""
 #.
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:106
 msgid "Determined by source"
-msgstr ""
+msgstr "Ermittelt nach Quelle"
 
 #. File system/class_AccountFields.php:850
 #.
@@ -1246,7 +1254,7 @@ msgstr "Abgesicherter Modus"
 #.
 #: system/class_ServerControl.php:1055
 msgid "Diagnostic output from streaming software:"
-msgstr ""
+msgstr "Diagnoseausgabe von Streaming-Software:"
 
 #. File system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:60
 #. Context: <h1>{="Directory listings"}</h1>
@@ -1420,7 +1428,7 @@ msgstr ""
 #.
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:79
 msgid "DNS lookups"
-msgstr ""
+msgstr "DNS-Abfragen"
 
 #. File system/class_ReportFormat.php:41
 #.
@@ -1522,7 +1530,7 @@ msgstr "Endzeit"
 #.
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:607
 msgid "Enforce minimal bit rate"
-msgstr ""
+msgstr "Minimale Bitrate erzwingen"
 
 #. File system/pluginapi/class_PluginHooks.php:106
 #. Arguments: $pluginname
@@ -1543,7 +1551,7 @@ msgstr "Fehler beim laden des Accounts: %s"
 #.
 #: system/class_CastMailer.php:179
 msgid "Error sending message from %s to %s"
-msgstr ""
+msgstr "Fehler beim Senden der Nachricht von %s nach %s"
 
 #. File system/class_CastMailer.php:183
 #. Arguments: $message->error
@@ -1559,7 +1567,7 @@ msgstr "Fehler: %s"
 #.
 #: system/sources/icescc/templates/configuration_source.tpl:8
 msgid "Fade current track out, fade next in"
-msgstr ""
+msgstr "Aktuellen Titel ausblenden und nächste einblenden"
 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:50
 #. Context: <tr>
@@ -1577,7 +1585,7 @@ msgstr "Backup Titel"
 #.
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:7
 msgid "Fallback clip assigned"
-msgstr ""
+msgstr "Fallback-Clip zugeordnet"
 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:65
 #. Context: <fieldset>
@@ -1623,6 +1631,10 @@ msgid ""
 "source is connected to this mount point.  Be sure to create the mount point "
 "to be used as a fallback before entering it here."
 msgstr ""
+"Fallback-Mounts werden verwendet, um Hörer zu einem alternativen Mount-Punkt "
+"zu bewegen, wenn keine Quelle an diesem Mountpoint angeschlossen ist.  "
+"Stellen Sie sicher, dass Sie den Mountpoint, der als Fallback verwendet "
+"werden soll, erstellt haben, bevor Sie ihn hier eingeben."
 
 #. File system/servers/IceCast/class_IceCastConfig.php:34
 #.
@@ -1634,7 +1646,7 @@ msgstr ""
 #: system/servers/IceCast/class_IceCastConfig.php:34
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:79
 msgid "Fallback override"
-msgstr ""
+msgstr "Fallback-Override"
 
 #. File system/servers/IceCast/class_IceCastConfig.php:35
 #.
@@ -1646,7 +1658,7 @@ msgstr ""
 #: system/servers/IceCast/class_IceCastConfig.php:35
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:88
 msgid "Fallback when full"
-msgstr ""
+msgstr "Fallback wenn voll"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:43
 #. Context: ="AAC+"}</option>{/if}
@@ -1655,7 +1667,7 @@ msgstr ""
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:43
 msgid "FDK-AAC"
-msgstr ""
+msgstr "FDK-AAC"
 
 #. File system/servers/WindowsMedia/class_WindowsMediaConfig.php:35
 #.
@@ -1667,7 +1679,7 @@ msgstr ""
 #: system/servers/WindowsMedia/class_WindowsMediaConfig.php:35
 #: system/servers/WindowsMedia/templates/configuration_client_advanced.tpl:15
 msgid "FEC packet span"
-msgstr ""
+msgstr "FEC-Paketbreite"
 
 #. File system/class_ServerControl.php:535
 #.
@@ -1702,7 +1714,7 @@ msgstr ""
 #: system/servers/IceCast/templates/connection_details.tpl:26
 #: system/servers/ShoutCast2/templates/connection_details.tpl:27
 msgid "For the %s%s%s mount point"
-msgstr ""
+msgstr "Für den %s%s%s Mountpoint"
 
 #. File system/servers/IceCast/templates/connection_details.tpl:45
 #. Context: </tr>
@@ -1738,7 +1750,7 @@ msgstr "Häufigkeit"
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:142
 msgid "Full band"
-msgstr ""
+msgstr "Volles Band"
 
 #. File system/class_MIMETypes.php:51
 #.
@@ -1756,7 +1768,7 @@ msgstr "GZIP Archiv"
 #: system/servers/IceCast/class_IceCastConfig.php:115
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:41
 msgid "Header timeout"
-msgstr ""
+msgstr "Header-Timeout"
 
 #. File system/upgradeutil.php:459
 #.
@@ -1810,6 +1822,8 @@ msgid ""
 "Hybrid mode; all streams serve as CDN master by default; need to be manually "
 "configured to work as a CDN slave"
 msgstr ""
+"Hybrid-Modus; alle Streams dienen standardmäßig als CDN-Master; müssen "
+"manuell konfiguriert werden, um als CDN-Slave zu arbeiten."
 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:20
 #. Arguments: "<br /><br />"
@@ -1827,6 +1841,14 @@ msgid ""
 "ensure that if any song 'appears' to last longer than a certain number of "
 "minutes, it will not be included in the track statistics."
 msgstr ""
+"Die Logs von IceCast enthalten nur die Startzeit der einzelnen Tracks; sie "
+"geben keine Auskunft über die Länge der einzelnen Songs.  Daher muss Centova "
+"Cast die Länge bestimmen, indem es die Dauer zwischen den Startzeiten jedes "
+"Songs überprüft.  Wenn der Server jedoch zwischen den Songs angehalten wird, "
+"scheint der Song für die Dauer des Ausfalls zu halten.%sDiese Begrenzung "
+"wird verwendet, um sicherzustellen, dass ein Song, der länger als eine "
+"bestimmte Anzahl von Minuten dauert, nicht in die Track-Statistik "
+"aufgenommen wird."
 
 #. File system/sources/sctrans2/class_Sourcesctrans2.php:572
 #.
@@ -1853,7 +1875,7 @@ msgstr "ICQ"
 #.
 #: system/class_AccountFields.php:837
 msgid "Ignore metadata"
-msgstr ""
+msgstr "Metadaten ignorieren"
 
 #. File system/class_MIMETypes.php:37
 #.
@@ -1897,7 +1919,7 @@ msgstr "Falsches Zuhörerlimit"
 #.
 #: system/class_ApplicationList.php:86
 msgid "Invalid software application type: %s"
-msgstr ""
+msgstr "Ungültiger Software-Anwendungstyp: %s"
 
 #. File system/class_UserSession.php:734
 #.
@@ -1911,7 +1933,7 @@ msgstr "Falscher Username oder Passwort"
 #.
 #: system/class_AccountControl.php:754
 msgid "IP/port combination"
-msgstr ""
+msgstr "IP/Port-Kombination"
 
 #. File system/sources/sctrans2/class_Sourcesctrans2.php:574
 #.
@@ -1938,7 +1960,7 @@ msgstr "IRC"
 #.
 #: system/class_ReportFormat.php:37
 msgid "ISRC"
-msgstr ""
+msgstr "ISRC"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:134
 #. Context: <option value="stereo">{="Stereo"}</option>
@@ -1954,7 +1976,7 @@ msgstr "Joint-Stereo"
 #.
 #: system/class_ServerControl.php:1115
 msgid "Last %d lines from the relevant log file:"
-msgstr ""
+msgstr "Letzte %d Zeilen aus der entsprechenden Protokolldatei:"
 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:34
 #.
@@ -1966,7 +1988,7 @@ msgstr ""
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:34
 #: system/servers/ShoutCast2/templates/configuration_client_mountpoints.tpl:38
 msgid "Legacy source port"
-msgstr ""
+msgstr "Veralteter Quellport"
 
 #. File system/upgradeutil.php:489
 #.
@@ -1996,7 +2018,7 @@ msgstr "Limits"
 #.
 #: system/servers/WindowsMedia/class_ServerWindowsMedia.php:115
 msgid "Live Broadcast"
-msgstr ""
+msgstr "Live-Übertragung"
 
 #. File system/servers/IceCast/class_IceCastConfig.php:99
 #.
@@ -2019,13 +2041,16 @@ msgid ""
 "inability to run the external application.  Consult the Centova Cast "
 "%sknowledge base."
 msgstr ""
+"Das Protokoll wurde nicht erstellt, was auf ein Berechtigungsproblem oder "
+"die Unfähigkeit von %san, die externe Anwendung auszuführen, hinweisen "
+"kann.  Konsultieren Sie die Centova Cast %Wissensbasis."
 
 #. File system/class_CastMailer.php:187
 #. Arguments: "\n\n".$message->debuglog
 #.
 #: system/class_CastMailer.php:187
 msgid "Log: %s"
-msgstr ""
+msgstr "Protokoll: %s"
 
 #. File system/class_ServerControl.php:2780
 #.
@@ -2139,7 +2164,7 @@ msgstr "Master Update-Intervall"
 #: system/class_AccountFields.php:319
 #: www/system/templates/configuration_reseller_limits.tpl:77
 msgid "Maximum accounts"
-msgstr ""
+msgstr "Maximale Konten"
 
 #. File system/class_AccountFields.php:325
 #.
@@ -2154,7 +2179,7 @@ msgstr ""
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:613
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:139
 msgid "Maximum bandwidth"
-msgstr ""
+msgstr "Maximale Bandbreite"
 
 #. File system/servers/IceCast/class_IceCastConfig.php:111
 #.
@@ -2166,7 +2191,7 @@ msgstr ""
 #: system/servers/IceCast/class_IceCastConfig.php:111
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:29
 msgid "Maximum sources"
-msgstr ""
+msgstr "Maximale Quellen"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:145
 #. Context: <option value="wide_band">{="Wide band"}</option>
@@ -2175,14 +2200,14 @@ msgstr ""
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:145
 msgid "Medium band"
-msgstr ""
+msgstr "Mittleres Band"
 
 #. File system/class_CastMailer.php:172
 #. Arguments: $this->settings['senderemail'],$firstrecipient
 #.
 #: system/class_CastMailer.php:172
 msgid "Message sent from %s to %s"
-msgstr ""
+msgstr "Nachricht von %s an %s gesendet"
 
 #. File system/class_CastMailer.php:194
 #. Arguments: $message->text
@@ -2207,7 +2232,7 @@ msgstr "Metadaten"
 #: system/servers/IceCast/class_IceCastConfig.php:48
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:133
 msgid "Metadata charset"
-msgstr ""
+msgstr "Metadaten-Zeichensatz"
 
 #. File system/servers/IceCast/class_IceCastConfig.php:43
 #.
@@ -2234,6 +2259,7 @@ msgstr "Metadaten überschreiben"
 #: system/class_ReportFormat.php:70
 msgid "Method by which the track metadata was identified (see manual)"
 msgstr ""
+"Methode, mit der die Track-Metadaten identifiziert wurden (siehe Handbuch)"
 
 #. File system/class_MIMETypes.php:47
 #.
@@ -2251,7 +2277,7 @@ msgstr "Microsoft Powerpoint Datei"
 #.
 #: system/class_MIMETypes.php:46
 msgid "Microsoft Word File"
-msgstr ""
+msgstr "Microsoft Word-Datei"
 
 #. File system/servers/IceCast/class_IceCastConfig.php:37
 #.
@@ -2308,7 +2334,7 @@ msgstr "Minute/en (0 zum deaktivieren)"
 #.
 #: system/sources/icescc/templates/configuration_source.tpl:9
 msgid "Mix only (full volume, no fading)"
-msgstr ""
+msgstr "Nur Mix (volle Lautstärke, kein Fading)"
 
 #. File system/class_AccountFields.php:767
 #. Arguments: $mountpoint->get_name()
@@ -2449,19 +2475,19 @@ msgstr "MP3 Lizenz Name"
 #.
 #: system/class_ServerControl.php:2462 system/class_SystemControl.php:1258
 msgid "Must specify a valid %s value"
-msgstr ""
+msgstr "Muss einen gültigen %s-Wert angeben"
 
 #. File system/class_ReportFormat.php:60
 #.
 #: system/class_ReportFormat.php:60
 msgid "Name of the track album"
-msgstr ""
+msgstr "Name des Track-Albums"
 
 #. File system/class_ReportFormat.php:59
 #.
 #: system/class_ReportFormat.php:59
 msgid "Name of the track artist"
-msgstr ""
+msgstr "Name des Trackkünstlers"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:146
 #. Context: <option value="medium_band">{="Medium band"}</option>
@@ -2470,7 +2496,7 @@ msgstr ""
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:146
 msgid "Narrow band"
-msgstr ""
+msgstr "Schmalband"
 
 #. File system/servers/ShoutCast/templates/configuration_client_overrides.tpl:22
 #. Context: omatic (determined by source)"}</option>
@@ -2491,13 +2517,13 @@ msgstr ""
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:108
 #: system/servers/ShoutCast2/templates/configuration_client_overrides.tpl:22
 msgid "Never"
-msgstr "Niemals"
+msgstr "Nie"
 
 #. File system/class_AccountControl.php:264
 #.
 #: system/class_AccountControl.php:264
 msgid "New parent account is not a reseller account"
-msgstr ""
+msgstr "Neues Elternkonto ist kein Reseller-Konto"
 
 #. File system/class_AccountFields.php:835
 #.
@@ -2521,7 +2547,7 @@ msgstr ""
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:68
 #: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:48
 msgid "Nextsong debug"
-msgstr ""
+msgstr "Nextsong Debug"
 
 #. File system/sources/ices2/templates/configuration_source_mountpoints.tpl:43
 #. Context: editor_field encoder_option" size="1">
@@ -2530,7 +2556,7 @@ msgstr ""
 #.
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:43
 msgid "No (disables bitrate enforcement)"
-msgstr ""
+msgstr "Nein (deaktiviert die Bitratenerzwingung)"
 
 #. File system/sources/liquidsoap/templates/configuration_source.tpl:16
 #. Context: me="config[crossfade_mode]" size="1">
@@ -2545,7 +2571,7 @@ msgstr "Normal"
 #.
 #: system/class_ServerControl.php:36
 msgid "Not applicable to this account type"
-msgstr ""
+msgstr "Nicht anwendbar auf diese Kontoart"
 
 #. File system/class_ServerControl.php:928
 #. Arguments: $sourcetype
@@ -2553,18 +2579,19 @@ msgstr ""
 #: system/class_ServerControl.php:928
 msgid "Not starting source %s with no autoDJ-based mount points configured"
 msgstr ""
+"Nicht startende Quelle %s ohne konfigurierte autoDJ-basierte Mountpoints"
 
 #. File system/class_ReportFormat.php:68
 #.
 #: system/class_ReportFormat.php:68
 msgid "Number of times the track was heard by an individual listener"
-msgstr ""
+msgstr "Häufigkeit wie ein einzelner Zuhörer den Track gehört hat."
 
 #. File system/class_ReportFormat.php:67
 #.
 #: system/class_ReportFormat.php:67
 msgid "Number of times the track was played"
-msgstr ""
+msgstr "Anzahl der Wiederholungen des Titels"
 
 #. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:54
 #. Context: {tip type="icon"}<strong>{="Off"}</strong> - {="Disabled"}<br /><strong>{="On"}</strong> - {="Disabled by default; can be enabled per-mount point"}<br /><stron
@@ -2601,7 +2628,7 @@ msgstr "Aus"
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:40
 msgid "Ogg/Opus"
-msgstr ""
+msgstr "Ogg/Opus"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:39
 #. Context: {="MP3"}</option>{/if}
@@ -2610,7 +2637,7 @@ msgstr ""
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:39
 msgid "Ogg/Vorbis"
-msgstr ""
+msgstr "Ogg/Vorbis"
 
 #. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:54
 #. Context: {tip type="icon"}<strong>{="Off"}</strong> - {="Disabled"}<br /><strong>{="On"}</strong> - {="Disabled by default; can be enabled per-mount point"}<br /><strong>{="Always"}</strong> - {="Enabled by default
@@ -2648,7 +2675,7 @@ msgstr "An"
 #.
 #: system/class_AccountControl.php:88 system/class_AccountControl.php:84
 msgid "One or more accounts already exist with the specified %s"
-msgstr ""
+msgstr "Es existieren bereits ein oder mehrere Konten mit den angegebenen %s"
 
 #. File system/sources/sctrans2/class_Sourcesctrans2.php:528
 #.
@@ -2679,7 +2706,7 @@ msgstr "oder Sie auf %skeinen AutoDJ Mointpoint senden wollen%s"
 #.
 #: system/class_ReportFormat.php:71
 msgid "Other comments associated with this track"
-msgstr ""
+msgstr "Weitere Kommentare zu diesem Track"
 
 #. File system/class_ReportFormat.php:49
 #.
@@ -2735,14 +2762,14 @@ msgstr "Performance"
 #.
 #: system/class_UserSession.php:106
 msgid "Permitted login period for this DJ account has ended."
-msgstr ""
+msgstr "Der erlaubte Login-Zeitraum für diesen DJ-Account ist abgelaufen."
 
 #. File system/sysctrl/class_SystemControl_check.php:191
 #. Arguments: PluginHooks::get_error_string()
 #.
 #: system/sysctrl/class_SystemControl_check.php:191
 msgid "permitted to continue by plugin: %s"
-msgstr ""
+msgstr "die durch das Plugin fortgesetzt werden dürfen: %s"
 
 #. File system/class_ServerControl.php:1649
 #.
@@ -3054,6 +3081,9 @@ msgid ""
 "Replace 'secret' with the 'Source password' value from your %sstream settings"
 "%s, followed by a colon (:), a hash mark (#) and the number %d."
 msgstr ""
+"Ersetzen Sie 'secret' durch den Wert' Source password' aus Ihren %sstream "
+"settings%s, gefolgt von einem Doppelpunkt (:), einem Hashzeichen (#) und der "
+"Zahl %d."
 
 #. File system/class_AccountControl.php:263
 #.
@@ -3156,6 +3186,10 @@ msgid ""
 "a license key to broadcast in MP3 format.  If you have purchased an MP3 "
 "broadcasting license key, enter the unlock name and code here."
 msgstr ""
+"sc_trans v2 erlaubt die kostenlose Ausstrahlung im AAC+-Format, erfordert "
+"aber einen Lizenzschlüssel für die Ausstrahlung im MP3-Format.  Wenn Sie "
+"einen MP3-Lizenzschlüssel erworben haben, geben Sie hier den Namen und den "
+"Freischaltcode ein."
 
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:15
 #. Context: td>
@@ -3177,7 +3211,7 @@ msgstr "Sekunde/n (0 zum deaktivieren)"
 #.
 #: system/sysctrl/class_SystemControl_check.php:184
 msgid "Server %s is broadcasting at %skbps, exceeding limit of %skbps"
-msgstr ""
+msgstr "Server %s sendet mit %skbps und überschreitet die Grenze von %skbps."
 
 #. File system/sysctrl/class_SystemControl_check.php:256
 #. Arguments: $account['username']
@@ -3187,6 +3221,8 @@ msgid ""
 "Server %s is up and autoDJ is deactivated, but no live source is connected; "
 "automatically reactivating autoDJ"
 msgstr ""
+"Server %s ist eingeschaltet und autoDJ ist deaktiviert, aber es ist keine "
+"Live-Quelle angeschlossen; autoDJ wird automatisch reaktiviert."
 
 #. File system/class_ServerControl.php:882
 #.
@@ -3210,7 +3246,7 @@ msgstr "Server Überschreiben"
 #.
 #: system/servers/WindowsMedia/templates/connection_details.tpl:20
 msgid "Server pulls from"
-msgstr ""
+msgstr "Server zieht von"
 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:100
 #. Context: <fieldset>
@@ -3236,7 +3272,7 @@ msgstr ""
 #.
 #: system/servers/ShoutCast2/templates/configuration_client_relay.tpl:38
 msgid "SHOUTcast CDN"
-msgstr ""
+msgstr "SHOUTcast CDN"
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:612
 #.
@@ -3269,7 +3305,7 @@ msgstr "Smart"
 #: system/class_AccountFields.php:864
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:17
 msgid "Song length detect limit"
-msgstr ""
+msgstr "Songlänge-Erkennungsgrenze"
 
 #. File system/class_CCSQL.php:91
 #. Arguments: "\n\n",$e->getMessage()
@@ -3294,6 +3330,8 @@ msgid ""
 "Sorry, this server is currently experiencing heavy load and cannot process "
 "your request at this time.  Please try again later."
 msgstr ""
+"Leider ist dieser Server derzeit stark ausgelastet und kann Ihre Anfrage zur "
+"Zeit nicht bearbeiten.  Bitte versuchen Sie es später noch einmal."
 
 #. File system/class_ServerControl.php:1138
 #.
@@ -3304,7 +3342,7 @@ msgstr ""
 #: system/class_ServerControl.php:1138 system/class_ServerControl.php:1256
 #: system/class_ServerControl.php:1195
 msgid "Source is not running"
-msgstr "SQuelle l&auml;uft nicht"
+msgstr "Quelle läuft nicht"
 
 #. File system/servers/IceCast/class_IceCastConfig.php:116
 #.
@@ -3316,7 +3354,7 @@ msgstr "SQuelle l&auml;uft nicht"
 #: system/servers/IceCast/class_IceCastConfig.php:116
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:43
 msgid "Source timeout"
-msgstr ""
+msgstr "Quellen-Timeout"
 
 #. File system/servers/IceCast/class_IceCastConfig.php:38
 #.
@@ -3328,7 +3366,7 @@ msgstr ""
 #: system/servers/IceCast/class_IceCastConfig.php:38
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:113
 msgid "Source username"
-msgstr "Source Username"
+msgstr "Quell-Benutzername"
 
 #. File system/class_AccountControl.php:1012
 #. Arguments: $requestedbitrate,$limits['maxbitrate']
@@ -3336,6 +3374,7 @@ msgstr "Source Username"
 #: system/class_AccountControl.php:1012
 msgid "Specified bit rate exceeds (%d kbps) reseller bitrate limit (%d kbps)"
 msgstr ""
+"Spezifizierte Bitrate überschreitet (%d kbps) Reseller-Bitrate (%d kbps)"
 
 #. File system/class_AccountControl.php:1017
 #. Arguments: $requestedbandwidth,$limits['maxbandwidth']
@@ -3345,6 +3384,8 @@ msgid ""
 "Specified combination of bit rate and listener limit (%d kbps) exceeds "
 "reseller bandwidth limit (%d kbps)"
 msgstr ""
+"Spezifizierte Kombination von Bitrate und Zuhörer Limit (%d kbps) "
+"überschreitet Reseller-Bandbreite Limit (%d kbps)"
 
 #. File system/class_AccountControl.php:1010
 #. Arguments: $requesteddiskquota,$limits['diskquota']
@@ -3352,6 +3393,8 @@ msgstr ""
 #: system/class_AccountControl.php:1010
 msgid "Specified disk quota (%d MB) exceeds reseller limits (%d MB remain)"
 msgstr ""
+"Spezifizierte Festplattenquote (%d MB) überschreitet Reseller-Limits (%d MB "
+"verbleiben)"
 
 #. File system/class_AccountControl.php:1008
 #. Arguments: $requestedclients,$limits['maxclients']
@@ -3359,6 +3402,7 @@ msgstr ""
 #: system/class_AccountControl.php:1008
 msgid "Specified listener limit (%d) exceeds reseller limits (%d remain)"
 msgstr ""
+"Spezifiziertes Hörerlimit (%d) überschreitet Reseller-Limits (%d bleiben)"
 
 #. File system/class_AccountControl.php:1014
 #. Arguments: $requestedmountlimit,$limits['mountlimit']
@@ -3367,6 +3411,8 @@ msgstr ""
 msgid ""
 "Specified mount point limit (%d) exceeds reseller mount point limit (%d)"
 msgstr ""
+"Der angegebene Mountpoint (%d) überschreitet die Mountpoint Limits des "
+"Resellers (%d)."
 
 #. File system/class_AccountControl.php:1009
 #. Arguments: $requestedxferlimit,$limits['transferlimit']
@@ -3374,6 +3420,8 @@ msgstr ""
 #: system/class_AccountControl.php:1009
 msgid "Specified transfer limit (%d MB) exceeds reseller limits (%d MB remain)"
 msgstr ""
+"Spezifiziertes Übertragungslimit (%d MB) überschreitet Reseller-Limits (%d "
+"MB verbleiben)"
 
 #. File system/upgradeutil.php:474
 #.
@@ -3420,7 +3468,7 @@ msgstr "Stereo Mode"
 #.
 #: system/class_ServerControl.php:1069
 msgid "Stream control issue detected (%s); log attached"
-msgstr ""
+msgstr "Stream Control Problem erkannt (%s); Protokoll angehängt"
 
 #. File system/servers/IceCast/class_IceCastConfig.php:45
 #.
@@ -3624,19 +3672,19 @@ msgstr "Streamserver Username"
 #.
 #: system/class_ServerControl.php:1043
 msgid "Streaming applications started successfully"
-msgstr ""
+msgstr "Streaming-Anwendungen erfolgreich gestartet"
 
 #. File system/class_ServerControl.php:901
 #.
 #: system/class_ServerControl.php:901
 msgid "Streaming server started successfully"
-msgstr ""
+msgstr "Streaming Server erfolgreich gestartet"
 
 #. File system/class_ServerControl.php:954
 #.
 #: system/class_ServerControl.php:954
 msgid "Streaming source not enabled"
-msgstr ""
+msgstr "Streamingquelle nicht aktiviert"
 
 #. File system/class_CastMailer.php:185
 #. Arguments: $message->subject
@@ -3676,7 +3724,7 @@ msgstr "Zusammenfassung"
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:143
 msgid "Super wide band"
-msgstr ""
+msgstr "Superbreitband"
 
 #. File system/class_SystemControl.php:2044
 #.
@@ -3690,7 +3738,7 @@ msgstr "Deaktiviert"
 #.
 #: system/class_ServerControl.php:2077 system/class_ServerControl.php:1923
 msgid "suspended until further notice"
-msgstr ""
+msgstr "bis auf weiteres ausgesetzt"
 
 #. File system/AccountManagerDrivers/mutators/class_TemplateMutator.php:15
 #.
@@ -3719,7 +3767,7 @@ msgstr "Textdatei"
 #: system/servers/WindowsMedia/templates/connection_details.tpl:22
 #: system/servers/WindowsMedia/templates/connection_details.tpl:12
 msgid "The 'Administrator password' value from your %sstream settings%s"
-msgstr ""
+msgstr "Der Wert' Administrator Passwort' aus Ihren %sstream settings%s"
 
 #. File system/servers/WindowsMedia/templates/connection_details.tpl:3
 #. Context: {if $acctconfig.path|contains:"nextsong?username"}
@@ -3730,6 +3778,9 @@ msgid ""
 "The autoDJ is currently enabled so live encoder connections cannot be made.  "
 "Stop the autoDJ if you want to begin a live broadcast."
 msgstr ""
+"Der autoDJ ist derzeit aktiviert, so dass keine Live-Encoderverbindungen "
+"hergestellt werden können.  Stoppen Sie den autoDJ, wenn Sie eine Live-"
+"Übertragung starten möchten."
 
 #. File system/servers/IceCast/templates/configuration_client_relaymaster.tpl:3
 #. Context: <table cellspacing="1" cellpadding="0" border="0">
@@ -3768,13 +3819,15 @@ msgstr ""
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:460
 #: system/class_SystemControl.php:1208
 msgid "the next available port is %d"
-msgstr ""
+msgstr "der nächste verfügbare Port ist %d"
 
 #. File system/class_ReportFormat.php:72
 #.
 #: system/class_ReportFormat.php:72
 msgid "The raw metadata string provided by the streaming server for this track"
 msgstr ""
+"Der rohe Metadaten-String, der vom Streaming-Server für diesen Track "
+"bereitgestellt wird."
 
 #. File system/class_UserSession.php:747
 #.
@@ -3782,7 +3835,7 @@ msgstr ""
 #.
 #: system/class_UserSession.php:747 system/class_UserSession.php:685
 msgid "This account has been suspended"
-msgstr ""
+msgstr "Dieses Konto wurde gesperrt."
 
 #. File system/class_CastMailer.php:90
 #.
@@ -3791,6 +3844,9 @@ msgid ""
 "This message was sent as part of the Centova Cast E-mail test.  If you are "
 "receiving this message, your Centova Cast server can send E-mail correctly."
 msgstr ""
+"Diese Nachricht wurde im Rahmen des Centova Cast E-Mail-Tests gesendet.  "
+"Wenn Sie diese Nachricht erhalten, kann Ihr Centova Cast-Server E-Mails "
+"korrekt senden."
 
 #. File system/servers/IceCast/class_IceCastConfig.php:112
 #.
@@ -3808,13 +3864,13 @@ msgstr ""
 #.
 #: system/class_ReportFormat.php:64
 msgid "Time at which playback ended"
-msgstr ""
+msgstr "Zeit, zu der die Wiedergabe beendet wurde"
 
 #. File system/class_ReportFormat.php:63
 #.
 #: system/class_ReportFormat.php:63
 msgid "Time at which the track began playback"
-msgstr ""
+msgstr "Uhrzeit, zu der die Wiedergabe des Tracks begann"
 
 #. File system/sources/sctrans2/templates/configuration_source.tpl:59
 #. Arguments: "<a href='#' onclick='go_mp_tab(); return false'>","</a>"
@@ -3832,7 +3888,7 @@ msgid ""
 "Tip: Use the %sMount Points%s tab to configure settings for your individual "
 "autoDJ encoders."
 msgstr ""
-"Tip: Verwenden Sie den %sMountpoints%s Tab um Ihren AutoDJ individuell zu "
+"Tip: Verwenden Sie den %sMount Points%s Tab um Ihren AutoDJ individuell zu "
 "konfigurieren."
 
 #. File system/servers/ShoutCast2/templates/configuration_client_relay.tpl:33
@@ -3845,14 +3901,14 @@ msgid ""
 "Tip: Use the %sMount Points%s tab to configure your server to relay a remote "
 "stream."
 msgstr ""
-"Tip: Verwenden Sie den %sMountpoints%s Tab um Ihren Streamserver als Relay "
+"Tip: Verwenden Sie den %sMount Points%s Tab um Ihren Streamserver als Relay "
 "einzurichten."
 
 #. File system/class_ReportFormat.php:61
 #.
 #: system/class_ReportFormat.php:61
 msgid "Title of the track"
-msgstr ""
+msgstr "Titel des Tracks"
 
 #. File system/class_ReportFormat.php:44
 #.
@@ -3880,6 +3936,8 @@ msgid ""
 "Total combined bit rate of mount points is %dkbps, which exceeds the stream "
 "limit of %dkbps"
 msgstr ""
+"Die gesamte kombinierte Bitrate der Mountpoints ist %dkbps, was die "
+"Streamgrenze von %dkbps überschreitet."
 
 #. File system/class_DiskUsage.php:205
 #. Arguments: $usage->usage_mb
@@ -3895,12 +3953,14 @@ msgid ""
 "Total listening hours for the track (sum of the duration for which listeners "
 "heard the track)"
 msgstr ""
+"Gesamte Hördauer des Tracks (Summe der Dauer, für die die Zuhörer den Track "
+"gehört haben)"
 
 #. File system/class_ReportFormat.php:65
 #.
 #: system/class_ReportFormat.php:65
 msgid "Total number of listeners who heard any portion of the track"
-msgstr ""
+msgstr "Gesamtzahl der Zuhörer, die einen Teil des Tracks gehört haben"
 
 #. File system/class_ReportFormat.php:36
 #.
@@ -3932,19 +3992,19 @@ msgstr "Datentransfer Limit"
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:621
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:222
 msgid "Transport type"
-msgstr ""
+msgstr "Transportart"
 
 #. File system/class_SystemControl.php:2054
 #.
 #: system/class_SystemControl.php:2054
 msgid "triggered by reseller status change"
-msgstr ""
+msgstr "ausgelöst durch Statusänderung des Reseller"
 
 #. File system/class_ServerControl.php:1223
 #.
 #: system/class_ServerControl.php:1223
 msgid "Unable to restart server"
-msgstr ""
+msgstr "Server kann nicht neu gestartet werden"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:156
 #. Context: <option value="constrained">{="Constrained"}</option>
@@ -3953,7 +4013,7 @@ msgstr ""
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:156
 msgid "Unconstrained"
-msgstr ""
+msgstr "Uneingeschränkt"
 
 #. File system/class_MIMETypes.php:50
 #.
@@ -3961,19 +4021,20 @@ msgstr ""
 #.
 #: system/class_MIMETypes.php:50 system/class_MIMETypes.php:28
 msgid "Unknown/Binary File"
-msgstr "Unbekannte oder bin&auml;re Datei"
+msgstr "Unbekannt/Binärdatei"
 
 #. File system/class_AccountControl.php:1004
 #.
 #: system/class_AccountControl.php:1004
 msgid "Unlimited disk quota not permitted for this reseller account"
 msgstr ""
+"Unbegrenztes Plattenkontingent für diesen Reseller-Account nicht erlaubt"
 
 #. File system/class_AccountControl.php:1005
 #.
 #: system/class_AccountControl.php:1005
 msgid "Unlimited transfer not permitted for this reseller account"
-msgstr ""
+msgstr "Unbegrenzter Transfer für dieses Reseller-Konto nicht erlaubt"
 
 #. File system/sources/sctrans2/templates/configuration_source.tpl:21
 #. Arguments: "<a style='color: #909090' href='http://wiki.winamp.com/wiki/SHOUTcast_DNAS_Transcoder_2#Registering_for_MP3_Stream_Encoding' target='_blank'>","</a>"
@@ -4003,7 +4064,7 @@ msgstr "Undefiniert"
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:54
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:46
 msgid "Upload a file ..."
-msgstr ""
+msgstr "Datei hochladen ...."
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:597
 #.
@@ -4084,7 +4145,7 @@ msgstr "Aktiviere AutoDJ"
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:59
 #: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:39
 msgid "Use server"
-msgstr ""
+msgstr "Server verwenden"
 
 #. File system/servers/WindowsMedia/templates/connection_details.tpl:17
 #. Context: {else}
@@ -4102,6 +4163,8 @@ msgid ""
 "Use this information in your Windows Media encoder software to perform a "
 "live broadcast"
 msgstr ""
+"Verwenden Sie diese Informationen in Ihrer Windows Media-Encoder-Software, "
+"um eine Live-Übertragung durchzuführen."
 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:83
 #.
@@ -4134,7 +4197,7 @@ msgstr "Benutzername"
 #.
 #: system/class_CastMailer.php:184 system/class_CastMailer.php:173
 msgid "Using SMTP: %s"
-msgstr ""
+msgstr "Verwendung von SMTP: %s"
 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:77
 #.
@@ -4146,7 +4209,7 @@ msgstr ""
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:77
 #: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:5
 msgid "UVOX cipher key"
-msgstr ""
+msgstr "UVOX-Chiffrierschlüssel"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:52
 #. Context: <option value="cbr">{="Constant bitrate encoding (CBR)"}</option>
@@ -4155,7 +4218,7 @@ msgstr ""
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:52
 msgid "Variable bitrate encoding (VBR)"
-msgstr ""
+msgstr "Variable Bitratenkodierung (VBR)"
 
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:51
 #. Context: <option value="0">{="CBR"}</option>
@@ -4164,7 +4227,7 @@ msgstr ""
 #.
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:51
 msgid "VBR High"
-msgstr ""
+msgstr "VBR Hoch"
 
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:55
 #. Context: <option value="4">{="VBR Medium-Low"}</option>
@@ -4173,7 +4236,7 @@ msgstr ""
 #.
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:55
 msgid "VBR Low"
-msgstr ""
+msgstr "VBR Niedrig"
 
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:53
 #. Context: <option value="2">{="VBR Medium-High"}</option>
@@ -4182,7 +4245,7 @@ msgstr ""
 #.
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:53
 msgid "VBR Medium"
-msgstr ""
+msgstr "VBR mittel"
 
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:52
 #. Context: <option value="1">{="VBR High"}</option>
@@ -4191,7 +4254,7 @@ msgstr ""
 #.
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:52
 msgid "VBR Medium-High"
-msgstr ""
+msgstr "VBR Mittel-Hoch"
 
 #. File system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:54
 #. Context: <option value="3">{="VBR Medium"}</option>
@@ -4200,7 +4263,7 @@ msgstr ""
 #.
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:54
 msgid "VBR Medium-Low"
-msgstr ""
+msgstr "VBR Mittel-Niedrig"
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:609
 #.
@@ -4212,7 +4275,7 @@ msgstr ""
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:609
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:151
 msgid "VBR mode"
-msgstr ""
+msgstr "VBR-Modus"
 
 #. File system/class_MIMETypes.php:43
 #.
@@ -4223,7 +4286,7 @@ msgstr ""
 #: system/class_MIMETypes.php:43 system/class_MIMETypes.php:42
 #: system/class_MIMETypes.php:41
 msgid "Video File"
-msgstr "Videodatei"
+msgstr "Video-Datei"
 
 #. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:185
 #. Context: <option value="music">{="Music"}</option>
@@ -4279,7 +4342,7 @@ msgstr "Web Proxy"
 #: system/upgradeutil.php:519 system/upgrade/updates/2.0.0b1.inc.php:66
 #: system/class_AccountControl.php:201
 msgid "Weekly Top 10 Countdown"
-msgstr "W&ouml;chentlicher Top 10 Countdown"
+msgstr "Wöchentlicher Top-10-Countdown"
 
 #. File system/class_AccountFields.php:332
 #.
@@ -4299,7 +4362,7 @@ msgstr "W&ouml;chentlicher Top 10 Countdown"
 #: www/system/templates/configuration_reseller_limits.tpl:129
 #: www/system/templates/configuration_client_limits.tpl:227
 msgid "When disk quota is exceeded"
-msgstr ""
+msgstr "Bei Überschreitung des Plattenkontingents"
 
 #. File system/servers/IceCast/templates/connection_details.tpl:20
 #. Arguments: "<strong>","</strong>"
@@ -4376,19 +4439,19 @@ msgstr ""
 #.
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:144
 msgid "Wide band"
-msgstr ""
+msgstr "Breitband"
 
 #. File system/class_MIMETypes.php:49
 #.
 #: system/class_MIMETypes.php:49
 msgid "Windows Binary File"
-msgstr "Windows bin&auml;re Datei"
+msgstr "Windows Binärdatei"
 
 #. File system/class_ReportFormat.php:73
 #.
 #: system/class_ReportFormat.php:73
 msgid "Year in which the track was released"
-msgstr ""
+msgstr "Jahr, in dem der Track veröffentlicht wurde"
 
 #. File system/servers/WindowsMedia/templates/connection_details.tpl:26
 #. Arguments: "<a href='index.php?page=configure'>","</a>"
@@ -4408,6 +4471,8 @@ msgid ""
 "You can change your broadcast method on the Encoder tab in your %sstream "
 "settings%s."
 msgstr ""
+"Sie können Ihre Broadcast-Methode auf der Registerkarte Encoder in den "
+"%sstream settings%s ändern."
 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:90
 #.

@@ -6,14 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
 "POT-Creation-Date: 2017-07-25 13:51-0700\n"
-"PO-Revision-Date: 2017-08-16 12:17+0200\n"
-"Last-Translator: Support <support at centova dot com>\n"
+"PO-Revision-Date: 2018-07-27 17:53+0200\n"
+"Last-Translator: scysys <scysys@outlook.com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. File www/class_StreamStatus.php:565
 #. Arguments: $this->str($this->bitrate)
@@ -41,7 +41,7 @@ msgstr "%d Kbps"
 #.
 #: www/external/rpc/class_RPCstreamlist.php:27
 msgid "%d listeners"
-msgstr ""
+msgstr "%d Zuhörer"
 
 #. File www/external/rpc/class_RPCrequest.php:46
 #. Arguments: $request['sender'],$request['email'],
@@ -50,7 +50,7 @@ msgstr ""
 #.
 #: www/external/rpc/class_RPCrequest.php:46
 msgid "%s (%s) requested \"%s - %s\"; queued track \"%s - %s\""
-msgstr ""
+msgstr "%s (%s) angefordert \"%s - %s\"; Warteschlange \"%s - %s\"."
 
 #. File www/external/rpc/class_RPCrequest.php:59
 #. Arguments: $request['sender'],$request['email'],
@@ -58,21 +58,21 @@ msgstr ""
 #.
 #: www/external/rpc/class_RPCrequest.php:59
 msgid "%s (%s) requested \"%s - %s\"; unable to find corresponding track"
-msgstr ""
+msgstr "%s (%s) angefordert \"%s - %s\"; keine entsprechende Titel gefunden"
 
 #. File www/external/modules/class_Module_start.php:73
 #. Arguments: $account['maxbitrate']
 #.
 #: www/external/modules/class_Module_start.php:73
 msgid "%s Kbps stream"
-msgstr ""
+msgstr "%s Kbps Stream"
 
 #. File www/external/modules/class_Module_recentfeed.php:57
 #. Arguments: $account['title']
 #.
 #: www/external/modules/class_Module_recentfeed.php:57
 msgid "%s Recent Tracks"
-msgstr ""
+msgstr "%s Aktuelle Tracks"
 
 #. File www/system/templates/login_form.tpl:29
 #. Arguments: "Centova Cast","Internet Explorer 7.0"
@@ -83,6 +83,7 @@ msgstr ""
 #: www/system/templates/login_form.tpl:29
 msgid "%s requires %s or greater, or another standards-compliant browser."
 msgstr ""
+"%s erfordert %s oder höher oder einen anderen standardkonformen Browser."
 
 #. File www/class_RPCApplication.php:129
 #. Arguments: $exceptiontype,$message,$e->getFile(),$e->getLine()
@@ -92,7 +93,7 @@ msgstr ""
 #.
 #: www/class_RPCApplication.php:129 system/class_Application.php:215
 msgid "%s: %s in %s:%i"
-msgstr ""
+msgstr "%s: %s in %s:%i"
 
 #. File www/theme/templates/quick_links.tpl:37
 #. Context: {box title="Manuals"}
@@ -106,7 +107,7 @@ msgstr "Hilfreiche verweise sowie nützliche Links die Ihnen helfen könnten"
 #.
 #: www/menu.php:101
 msgid "Access various system utilities."
-msgstr ""
+msgstr "Zugriff auf verschiedene System-Utilities."
 
 #. File www/menu.php:11
 #.
@@ -154,7 +155,7 @@ msgstr "Administrator"
 #.
 #: www/class_RPCApplication.php:150
 msgid "administrator privileges required"
-msgstr ""
+msgstr "Administratorrechte erforderlich"
 
 #. File www/menu.php:303
 #.
@@ -169,6 +170,8 @@ msgstr "Erlaubt Ihnen Ihren Server direkt zu verwalten."
 #: www/menu.php:484 www/menu.php:236
 msgid "Allows you to provide limited stream control to your DJs."
 msgstr ""
+"Ermöglicht es Ihnen, Ihren DJs eine eingeschränkte Stream-Kontrolle zu "
+"bieten."
 
 #. File www/class_Template.php:1632
 #.
@@ -334,7 +337,7 @@ msgstr "Konfiguration"
 #.
 #: www/menu.php:158
 msgid "Configures the E-mail messages sent by your account."
-msgstr ""
+msgstr "Konfiguriert die von Ihrem Konto gesendeten E-Mail-Nachrichten."
 
 #. File www/menu.php:48
 #.
@@ -346,7 +349,7 @@ msgstr "Vom Server verschickbare E-Mail Nachrichten konfigurieren."
 #.
 #: www/menu.php:153
 msgid "Configures the settings for your account."
-msgstr ""
+msgstr "Konfiguriert die Einstellungen für Ihr Konto."
 
 #. File www/menu.php:42
 #.
@@ -386,14 +389,14 @@ msgstr "Ruft die Konfiguration Ihres Streamservers auf."
 #: www/system/templates/staffaccount_edit.tpl:97
 #: www/system/templates/installer_form.tpl:16
 msgid "Confirm password"
-msgstr "Passwort best&auml;tigen"
+msgstr "Passwort bestätigen"
 
 #. File www/login/modules/class_Module_index.php:172
 #. Arguments: $_SERVER['REMOTE_ADDR'], $_SERVER['HTTP_USER_AGENT']
 #.
 #: www/login/modules/class_Module_index.php:172
 msgid "Connecting client at %s (via %s)."
-msgstr ""
+msgstr "Verbinden des Clients mit %s (über %s)."
 
 #. File www/theme/templates/login.tpl:23
 #. Context: <a href="index.php?page=forgot">{="Forgot password?"}</a><br />
@@ -472,7 +475,7 @@ msgstr "Widmung"
 #.
 #: www/menu.php:448 www/menu.php:248
 msgid "Displays a statistics report for your stream."
-msgstr ""
+msgstr "Zeigt einen Statistikbericht für Ihren Streamserver an."
 
 #. File www/menu.php:208
 #.
@@ -486,13 +489,13 @@ msgstr "Zeigt eine Übersicht Ihre Streamservers."
 #.
 #: www/menu.php:454 www/menu.php:254
 msgid "Displays current listener statistics for your stream."
-msgstr ""
+msgstr "Zeigt die aktuellen Zuhörer-Statistiken für Ihren Streamserver an."
 
 #. File www/menu.php:95
 #.
 #: www/menu.php:95
 msgid "Displays the Centova Cast system logs."
-msgstr ""
+msgstr "Zeigt die Centova Cast-Systemprotokolle an."
 
 #. File www/menu.php:140
 #.
@@ -506,7 +509,7 @@ msgstr "Zeigt die Statistiken f&uuml;r alle Server."
 #.
 #: www/menu.php:89
 msgid "Displays the status of your servers."
-msgstr ""
+msgstr "Zeigt den Status Ihrer Server an."
 
 #. File www/menu.php:460
 #.
@@ -886,25 +889,25 @@ msgstr ""
 #: www/class_RPCApplication.php:168 www/client/rpc/class_RPClibrary.php:807
 #: www/client/rpc/class_RPClibrary.php:739
 msgid "insufficient DJ privileges"
-msgstr ""
+msgstr "unzureichende DJ-Privilegien"
 
 #. File www/class_RPCApplication.php:159
 #.
 #: www/class_RPCApplication.php:159
 msgid "insufficient staff privileges"
-msgstr ""
+msgstr "unzureichende Mitarbeiterrechte"
 
 #. File www/external/modules/class_Module_start.php:33
 #.
 #: www/external/modules/class_Module_start.php:33
 msgid "Invalid account"
-msgstr ""
+msgstr "Ungültiges Konto"
 
 #. File www/login/modules/class_Module_index.php:90
 #.
 #: www/login/modules/class_Module_index.php:90
 msgid "Invalid sign-on token."
-msgstr "Ung&uuml;ltiges Anmelde-Token."
+msgstr "Ungültiges Anmelde-Token."
 
 #. File www/external/modules/class_Module_recentfeed.php:36
 #.
@@ -922,7 +925,7 @@ msgstr "Ung&uuml;ltiges Anmelde-Token."
 #: system/AccountManagerDrivers/mutators/class_AccountMutator.php:82
 #: system/AccountManagerDrivers/mutators/class_AccountMutator.php:77
 msgid "Invalid username"
-msgstr "Ung&uuml;ltiger Benutzername"
+msgstr "Ungültiger Benutzername"
 
 #. File www/class_CCTemplate.php:94
 #.
@@ -981,13 +984,14 @@ msgstr "Kbps"
 #.
 #: www/menu.php:357
 msgid "Leaves this account and returns to the account list."
-msgstr ""
+msgstr "Verlässt dieses Konto und kehrt zur Kontenliste zurück."
 
 #. File www/menu.php:189
 #.
 #: www/menu.php:189
 msgid "Leaves this account and returns to the administrator account list."
 msgstr ""
+"Verlässt dieses Konto und kehrt zur Liste der Administratorkonten zurück."
 
 #. File www/menu.php:253
 #.
@@ -1214,13 +1218,13 @@ msgstr "Verwaltung"
 #.
 #: www/menu.php:63
 msgid "Manages host servers in your cluster."
-msgstr ""
+msgstr "Verwaltet Hostserver in Ihrem Cluster."
 
 #. File www/menu.php:75
 #.
 #: www/menu.php:75
 msgid "Manages news displayed to clients."
-msgstr ""
+msgstr "Verwaltet Nachrichten, die den Kunden angezeigt werden."
 
 #. File www/menu.php:170
 #.
@@ -1228,13 +1232,13 @@ msgstr ""
 #.
 #: www/menu.php:170 www/menu.php:69
 msgid "Manages templates for creation of new accounts."
-msgstr ""
+msgstr "Verwaltet Vorlagen für die Erstellung neuer Konten."
 
 #. File www/menu.php:29
 #.
 #: www/menu.php:29
 msgid "Manages your staff accounts."
-msgstr ""
+msgstr "Verwaltet Ihre Mitarbeiterkonten."
 
 #. File www/menu.php:135
 #.
@@ -1810,6 +1814,7 @@ msgstr "Keine Daten"
 #: www/rpc/class_RPCServer.php:218
 msgid "Not authenticated%s.  Please login again to continue."
 msgstr ""
+"Nicht authentifiziert%s.  Bitte melden Sie sich erneut an, um fortzufahren."
 
 #. File www/system/templates/startpage_disabled.tpl:1
 #. Context: <h3>{="Not found"}</h3>
@@ -1828,7 +1833,7 @@ msgstr "Nicht angemeldet"
 #.
 #: www/class_RPCApplication.php:175
 msgid "not logged in or session timed out"
-msgstr ""
+msgstr "nicht angemeldet oder Session-Timeout"
 
 #. File www/class_CCTemplate.php:94
 #.
@@ -2239,7 +2244,7 @@ msgstr ""
 #.
 #: www/class_RPCApplication.php:321
 msgid "Reference to unknown class: %s"
-msgstr ""
+msgstr "Verweis auf unbekannte Klasse: %s"
 
 #. File www/menu.php:393
 #.
@@ -2310,7 +2315,7 @@ msgstr "Reseller"
 #.
 #: www/class_RPCApplication.php:151
 msgid "reseller privileges required"
-msgstr ""
+msgstr "Reseller-Privilegien erforderlich"
 
 #. File www/system/templates/forgotform.tpl:20
 #. Context: <input type="submit" name="login" value="{="Reset password"}" />
@@ -2348,13 +2353,13 @@ msgstr ""
 #.
 #: www/menu.php:356
 msgid "Return to accounts"
-msgstr ""
+msgstr "Zurück zu den Konten"
 
 #. File www/menu.php:188
 #.
 #: www/menu.php:188
 msgid "Return to admin"
-msgstr ""
+msgstr "Zurück zum Admin"
 
 #. File www/class_CCTemplate.php:95
 #.
@@ -2468,7 +2473,7 @@ msgstr "Setup"
 #.
 #: www/login/modules/class_Module_index.php:79
 msgid "Single sign-on has not been enabled for this server."
-msgstr "Einzelanmeldung wurde f&uuml;r diesen Server deaktiviert."
+msgstr "Single Sign-On ist für diesen Server nicht aktiviert."
 
 #. File www/system/templates/startpage_index.tpl:20
 #. Context: <form>
@@ -2496,14 +2501,13 @@ msgstr "Musiktitel"
 #.
 #: www/external/rpc/class_RPCrequest.php:18
 msgid "Sorry, song requests have been disabled for this stream."
-msgstr ""
-"Entschuldigung. Musikw&uuml;nsche sind f&uuml;r diesen Stream deaktiviert."
+msgstr "Sorry, die Musikwünsche wurden für diesen Streamserver deaktiviert."
 
 #. File www/external/rpc/class_RPCrequest.php:69
 #.
 #: www/external/rpc/class_RPCrequest.php:69
 msgid "Sorry, the song you requested is not available."
-msgstr ""
+msgstr "Der von Ihnen gewünschte Song ist leider nicht verfügbar."
 
 #. File www/menu.php:28
 #.
@@ -2544,7 +2548,7 @@ msgstr "Start"
 #.
 #: www/menu.php:414 www/system/templates/autodj_control.tpl:13
 msgid "Start the autoDJ"
-msgstr ""
+msgstr "Starten Sie den autoDJ"
 
 #. File www/menu.php:242
 #.
@@ -2682,7 +2686,7 @@ msgstr "Musikwunsch abschicken"
 #.
 #: www/login/modules/class_Module_index.php:205
 msgid "Successful login for account %s."
-msgstr ""
+msgstr "Erfolgreiche Anmeldung für Konto %s."
 
 #. File www/class_CCTemplate.php:95
 #.
@@ -2801,7 +2805,7 @@ msgstr ""
 #.
 #: www/menu.php:379 www/menu.php:273
 msgid "This will start your server"
-msgstr ""
+msgstr "Dadurch wird Ihr Server gestartet."
 
 #. File www/class_CCTemplate.php:95
 #.
@@ -2862,7 +2866,7 @@ msgstr "Dienstag"
 #.
 #: www/theme/templates/quick_links.tpl:11
 msgid "Tune-In Links"
-msgstr ""
+msgstr "Tune-In Links"
 
 #. File www/class_NextSongApplication.php:82
 #.
@@ -3109,13 +3113,15 @@ msgid ""
 "We apologize for the inconvenience, but an internal error has occurred.  "
 "Please try again later."
 msgstr ""
+"Wir entschuldigen uns für die Unannehmlichkeiten, aber es ist ein interner "
+"Fehler aufgetreten.  Bitte versuchen Sie es später noch einmal."
 
 #. File www/system/templates/startpage_index.tpl:1
 #. Context: <h3>{="Web Audio Player"}</h3>
 #.
 #: www/system/templates/startpage_index.tpl:1
 msgid "Web Audio Player"
-msgstr ""
+msgstr "Web-Audio-Player"
 
 #. File www/class_CCTemplate.php:95
 #.
@@ -3495,7 +3501,7 @@ msgstr "Gestern"
 #.
 #: www/system/templates/forgotcomplete.tpl:6
 msgid "You may now %slogin%s."
-msgstr ""
+msgstr "Sie können jetzt %slogin%s."
 
 #. File www/external/rpc/class_RPCondemand.php:133
 #.
@@ -3523,6 +3529,10 @@ msgid ""
 "are case-sensitive so you may need to turn off caps lock in order to log in "
 "successfully."
 msgstr ""
+"Ihre Feststelltaste scheint eingeschaltet zu sein.  Beachten Sie, dass die "
+"Passwörter in Centova Cast zwischen Groß- und Kleinschreibung unterscheiden, "
+"daher müssen Sie eventuell die Groß- und Kleinschreibung deaktivieren, um "
+"sich erfolgreich anzumelden."
 
 #. File www/system/templates/startpage_index.tpl:24
 #. Context: cc_req_sender_{$username|htmlentities}{$charset|htmlentities}" name="request[sender]" size="40" maxlength="127" /><br />
