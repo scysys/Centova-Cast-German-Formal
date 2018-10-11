@@ -5,15 +5,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2017-07-25 13:51-0700\n"
-"PO-Revision-Date: 2018-07-27 18:14+0200\n"
+"POT-Creation-Date: 2018-10-08 17:24-0700\n"
+"PO-Revision-Date: 2018-10-11 21:33+0200\n"
 "Last-Translator: scysys <scysys@outlook.com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. Name of language (in target language, eg: Deutsch for German, Francais for French, etc.)
 msgid "_LANGUAGE"
@@ -127,7 +127,8 @@ msgstr "Ein Datenbank Fehler ist aufgetreten"
 #: system/class_AccountControl.php:332 system/class_AccountControl.php:318
 #: system/class_AccountControl.php:272 system/class_AccountControl.php:234
 msgid "A database error occurred while updating this account"
-msgstr "Ein Datenbankfehler ist während den ändern des Kontos aufgetreten."
+msgstr ""
+"Bei der Aktualisierung dieses Kontos ist ein Datenbankfehler aufgetreten"
 
 #. File system/servers/IceCast/templates/configuration_client_mountpoints.tpl:8
 #. Context: fallback_file_set_title: '{="Fallback clip assigned"}',
@@ -219,15 +220,15 @@ msgstr "Dieser Account ist nicht autorisiert diese Aktion auszuführen"
 msgid "Account template saved successfully."
 msgstr "Kontovorlage erfolgreich gespeichert."
 
-#. File system/class_ServerControl.php:2565
+#. File system/class_ServerControl.php:2567
 #.
-#: system/class_ServerControl.php:2565
+#: system/class_ServerControl.php:2567
 msgid "Account updated"
 msgstr "Konto aktualisiert"
 
-#. File system/class_AccountFields.php:855
+#. File system/class_AccountFields.php:858
 #.
-#: system/class_AccountFields.php:855
+#: system/class_AccountFields.php:858
 msgid "Actiate start page"
 msgstr "Startpage aktivieren"
 
@@ -459,13 +460,13 @@ msgstr "Eine Kontovorlage mit diesem Namen existiert bereits."
 #.
 #: system/class_DJManager.php:73 system/class_StaffManager.php:65
 msgid "An account with the specified username already exists"
-msgstr "Ein Konto mit dem angegebenen Benutzernamen existiert bereits."
+msgstr "Ein Konto mit dem angegebenen Benutzernamen existiert bereits"
 
-#. File system/class_ServerControl.php:1167
+#. File system/class_ServerControl.php:1169
 #.
 #. File system/class_UserSession.php:558
 #.
-#: system/class_ServerControl.php:1167 system/class_UserSession.php:558
+#: system/class_ServerControl.php:1169 system/class_UserSession.php:558
 msgid "and"
 msgstr "und"
 
@@ -498,20 +499,20 @@ msgstr "und Sie auf allen Mountpoints senden wollen"
 msgid "Application"
 msgstr "Anwendung"
 
-#. File system/class_ServerControl.php:1028
+#. File system/class_ServerControl.php:1030
 #. Arguments: $app->type
 #.
-#. File system/class_ServerControl.php:1013
+#. File system/class_ServerControl.php:1015
 #. Arguments: $app->type
 #.
-#: system/class_ServerControl.php:1028 system/class_ServerControl.php:1013
+#: system/class_ServerControl.php:1030 system/class_ServerControl.php:1015
 msgid "Application %s exited immediately after startup"
 msgstr "Anwendung %s wurde sofort nach dem Start beendet"
 
-#. File system/class_ServerControl.php:945
+#. File system/class_ServerControl.php:947
 #. Arguments: $app->type
 #.
-#: system/class_ServerControl.php:945
+#: system/class_ServerControl.php:947
 msgid "Application %s is already running"
 msgstr "Anwendung %s läuft bereits"
 
@@ -624,9 +625,9 @@ msgstr "Audio-Objekttyp"
 msgid "Audio sync stream (LOAS)"
 msgstr "Audio-Sync-Stream (LOAS)"
 
-#. File system/class_ServerControl.php:2682
+#. File system/class_ServerControl.php:2684
 #.
-#: system/class_ServerControl.php:2682
+#: system/class_ServerControl.php:2684
 msgid "Authenticated"
 msgstr "Authentifiziert"
 
@@ -955,15 +956,15 @@ msgstr "Prüfe nach Titel ohne Album Informationen"
 msgid "Client timeout"
 msgstr "Client-Timeout"
 
-#. File system/class_AccountFields.php:906
+#. File system/class_AccountFields.php:909
 #.
-#: system/class_AccountFields.php:906
+#: system/class_AccountFields.php:909
 msgid "Cluster"
 msgstr "Cluster"
 
-#. File system/class_AccountFields.php:866
+#. File system/class_AccountFields.php:869
 #.
-#: system/class_AccountFields.php:866
+#: system/class_AccountFields.php:869
 msgid "Cluster host"
 msgstr "Cluster-Host"
 
@@ -979,26 +980,26 @@ msgstr "Cluster-Host"
 msgid "Complexity"
 msgstr "Komplexität"
 
-#. File system/class_ServerControl.php:2716
+#. File system/class_ServerControl.php:2718
 #. Arguments: basename($archname)
 #.
-#: system/class_ServerControl.php:2716
+#: system/class_ServerControl.php:2718
 msgid "Compressing %s ..."
 msgstr "Komprimiere %s..."
 
-#. File system/class_ServerControl.php:1174
+#. File system/class_ServerControl.php:1176
 #. Arguments: $make_text_list($successes),$make_text_list($failures)
 #.
-#: system/class_ServerControl.php:1174
+#: system/class_ServerControl.php:1176
 msgid ""
 "Configuration reloaded gracefully for %s, but %s requires a full restart."
 msgstr ""
 "Die Konfiguration für Ihren %s Server, wurde neu eingespielt. %s benötigt "
 "jedoch einen kompletten Neustart Ihre Streamservers."
 
-#. File system/class_ServerControl.php:1176
+#. File system/class_ServerControl.php:1178
 #.
-#: system/class_ServerControl.php:1176
+#: system/class_ServerControl.php:1178
 msgid "Configuration reloaded gracefully."
 msgstr ""
 "Die Konfiguration für Ihren Streamserver, wurde erfolgreich neu eingespielt."
@@ -1011,8 +1012,8 @@ msgid ""
 "Configured for server type %s, but that server type does not exist or is not "
 "enabled"
 msgstr ""
-"Konfiguriert für Servertyp %s, aber dieser Servertyp existiert nicht oder "
-"ist nicht aktiviert."
+"Für den Servertyp %s konfiguriert, aber dieser Servertyp existiert nicht "
+"oder ist nicht aktiviert"
 
 #. File system/servers/ShoutCast/templates/configuration_client_relay.tpl:26
 #. Context: <tr><td colspan="2"><br /><br /></td></tr>
@@ -1089,18 +1090,18 @@ msgstr ""
 "Steuert die Titel und die URL Anzeige im MediaPlayer. Verwenden Sie %s, um "
 "den Titel oder die URL vom Streamserver einzufügen."
 
-#. File system/class_ServerControl.php:1003
+#. File system/class_ServerControl.php:1005
 #. Arguments: $app->type
 #.
-#: system/class_ServerControl.php:1003
+#: system/class_ServerControl.php:1005
 msgid "Could not start %s application"
 msgstr "%s Anwendung konnte nicht gestartet werden"
 
-#. File system/class_ServerControl.php:871
+#. File system/class_ServerControl.php:873
 #.
-#. File system/class_ServerControl.php:860
+#. File system/class_ServerControl.php:862
 #.
-#: system/class_ServerControl.php:871 system/class_ServerControl.php:860
+#: system/class_ServerControl.php:873 system/class_ServerControl.php:862
 msgid "Could not start server"
 msgstr "Konnte Server nicht starten"
 
@@ -1244,15 +1245,15 @@ msgstr "Standard-Playlist-Bericht"
 msgid "Determined by source"
 msgstr "Ermittelt nach Quelle"
 
-#. File system/class_AccountFields.php:850
+#. File system/class_AccountFields.php:853
 #.
-#: system/class_AccountFields.php:850
+#: system/class_AccountFields.php:853
 msgid "Diagnostic mode"
 msgstr "Abgesicherter Modus"
 
-#. File system/class_ServerControl.php:1055
+#. File system/class_ServerControl.php:1057
 #.
-#: system/class_ServerControl.php:1055
+#: system/class_ServerControl.php:1057
 msgid "Diagnostic output from streaming software:"
 msgstr "Diagnoseausgabe von Streaming-Software:"
 
@@ -1387,10 +1388,10 @@ msgstr "Trennen Sie Zuhörer nach"
 msgid "Disconnect listeners if source disconnects"
 msgstr "Trennen der Zuhörer, wenn Streamserver Offline"
 
-#. File system/class_ServerControl.php:2097
+#. File system/class_ServerControl.php:2099
 #. Arguments: $action
 #.
-#: system/class_ServerControl.php:2097
+#: system/class_ServerControl.php:2099
 msgid "Disk quota exceeded; account has been automatically %s"
 msgstr ""
 
@@ -1681,9 +1682,9 @@ msgstr "FDK-AAC"
 msgid "FEC packet span"
 msgstr "FEC-Paketbreite"
 
-#. File system/class_ServerControl.php:535
+#. File system/class_ServerControl.php:537
 #.
-#: system/class_ServerControl.php:535
+#: system/class_ServerControl.php:537
 msgid "File copied successfully"
 msgstr "Datei erfolgreich kopiert"
 
@@ -1697,7 +1698,7 @@ msgid ""
 "settings%s when prompted for a password"
 msgstr ""
 "Für alle Mountpoints, nutzen Sie immer das 'Source Passwort' aus Ihren "
-"%sStreamserver Einstellungen%s wenn Sie nach einem Passwort gefragt werden."
+"%sstream settings%s  wenn Sie nach einem Passwort gefragt werden"
 
 #. File system/servers/IceCast/templates/connection_details.tpl:26
 #. Arguments: "<strong>",$mount.mountname,"</strong>"
@@ -1729,11 +1730,11 @@ msgstr "Für den %s%s%s Mountpoint"
 msgid "Format"
 msgstr "Format"
 
-#. File system/class_ServerControl.php:2081
+#. File system/class_ServerControl.php:2083
 #.
-#. File system/class_ServerControl.php:1927
+#. File system/class_ServerControl.php:1929
 #.
-#: system/class_ServerControl.php:2081 system/class_ServerControl.php:1927
+#: system/class_ServerControl.php:2083 system/class_ServerControl.php:1929
 msgid "forwarded to an administrator for review"
 msgstr "An einen Administrator weitergeleitet"
 
@@ -1823,7 +1824,7 @@ msgid ""
 "configured to work as a CDN slave"
 msgstr ""
 "Hybrid-Modus; alle Streams dienen standardmäßig als CDN-Master; müssen "
-"manuell konfiguriert werden, um als CDN-Slave zu arbeiten."
+"manuell konfiguriert werden, um als CDN-Slave zu arbeiten"
 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:20
 #. Arguments: "<br /><br />"
@@ -1871,9 +1872,9 @@ msgstr ""
 msgid "ICQ"
 msgstr "ICQ"
 
-#. File system/class_AccountFields.php:837
+#. File system/class_AccountFields.php:840
 #.
-#: system/class_AccountFields.php:837
+#: system/class_AccountFields.php:840
 msgid "Ignore metadata"
 msgstr "Metadaten ignorieren"
 
@@ -1971,10 +1972,10 @@ msgstr "ISRC"
 msgid "Joint Stereo"
 msgstr "Joint-Stereo"
 
-#. File system/class_ServerControl.php:1115
+#. File system/class_ServerControl.php:1117
 #. Arguments: $linecount
 #.
-#: system/class_ServerControl.php:1115
+#: system/class_ServerControl.php:1117
 msgid "Last %d lines from the relevant log file:"
 msgstr "Letzte %d Zeilen aus der entsprechenden Protokolldatei:"
 
@@ -2003,13 +2004,13 @@ msgstr "Leichte Rotation"
 
 #. File system/class_AccountFields.php:373
 #.
-#. File system/class_AccountFields.php:904
+#. File system/class_AccountFields.php:907
 #.
 #. File www/system/templates/admin_settings.tpl:89
 #. Context: <fieldset>
 #. <legend>{="Limits"}</legend>
 #.
-#: system/class_AccountFields.php:373 system/class_AccountFields.php:904
+#: system/class_AccountFields.php:373 system/class_AccountFields.php:907
 #: www/system/templates/admin_settings.tpl:89
 msgid "Limits"
 msgstr "Limits"
@@ -2032,10 +2033,10 @@ msgstr "Live-Übertragung"
 msgid "Local mount point"
 msgstr "Lokaler Mountpoint"
 
-#. File system/class_ServerControl.php:1099
+#. File system/class_ServerControl.php:1101
 #. Arguments: "\n", "\n"
 #.
-#: system/class_ServerControl.php:1099
+#: system/class_ServerControl.php:1101
 msgid ""
 "Log has not been created, which may indicate a permissions problem or %san "
 "inability to run the external application.  Consult the Centova Cast "
@@ -2052,9 +2053,9 @@ msgstr ""
 msgid "Log: %s"
 msgstr "Protokoll: %s"
 
-#. File system/class_ServerControl.php:2780
+#. File system/class_ServerControl.php:2782
 #.
-#: system/class_ServerControl.php:2780
+#: system/class_ServerControl.php:2782
 msgid "Logs archived"
 msgstr "Logdateien archiviert"
 
@@ -2216,9 +2217,9 @@ msgstr "Nachricht von %s an %s gesendet"
 msgid "Message: %s"
 msgstr "Nachricht: %s"
 
-#. File system/class_AccountFields.php:910
+#. File system/class_AccountFields.php:913
 #.
-#: system/class_AccountFields.php:910
+#: system/class_AccountFields.php:913
 msgid "Metadata"
 msgstr "Metadaten"
 
@@ -2336,14 +2337,14 @@ msgstr "Minute/en (0 zum deaktivieren)"
 msgid "Mix only (full volume, no fading)"
 msgstr "Nur Mix (volle Lautstärke, kein Fading)"
 
-#. File system/class_AccountFields.php:767
+#. File system/class_AccountFields.php:770
 #. Arguments: $mountpoint->get_name()
 #.
-#: system/class_AccountFields.php:767
+#: system/class_AccountFields.php:770
 msgid "mount point %s"
 msgstr "Mountpoint %s"
 
-#. File system/class_AccountFields.php:818
+#. File system/class_AccountFields.php:821
 #.
 #. File system/class_AccountFields.php:327
 #.
@@ -2359,7 +2360,7 @@ msgstr "Mountpoint %s"
 #.
 #. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:41
 #.
-#: system/class_AccountFields.php:818 system/class_AccountFields.php:327
+#: system/class_AccountFields.php:821 system/class_AccountFields.php:327
 #: www/system/templates/configuration_client_limits.tpl:199
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:32
 #: billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:41
@@ -2459,7 +2460,7 @@ msgstr "MP3 Lizenzcode"
 msgid "MP3 unlock name"
 msgstr "MP3 Lizenz Name"
 
-#. File system/class_ServerControl.php:2462
+#. File system/class_ServerControl.php:2464
 #. Arguments: sprintf(
 #. '%s (%s)',
 #. $firstbadfield->text,
@@ -2473,7 +2474,7 @@ msgstr "MP3 Lizenz Name"
 #. $firstbadfield->name
 #. )
 #.
-#: system/class_ServerControl.php:2462 system/class_SystemControl.php:1258
+#: system/class_ServerControl.php:2464 system/class_SystemControl.php:1258
 msgid "Must specify a valid %s value"
 msgstr "Muss einen gültigen %s-Wert angeben"
 
@@ -2525,7 +2526,7 @@ msgstr "Nie"
 msgid "New parent account is not a reseller account"
 msgstr "Neues Elternkonto ist kein Reseller-Konto"
 
-#. File system/class_AccountFields.php:835
+#. File system/class_AccountFields.php:838
 #.
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:48
 #. Context: <tr>
@@ -2542,7 +2543,7 @@ msgstr "Neues Elternkonto ist kein Reseller-Konto"
 #. <td>{="Nextsong debug"}:&nbsp;</td>
 #. <td colspan="3">
 #.
-#: system/class_AccountFields.php:835
+#: system/class_AccountFields.php:838
 #: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:48
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:68
 #: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:48
@@ -2573,10 +2574,10 @@ msgstr "Normal"
 msgid "Not applicable to this account type"
 msgstr "Nicht anwendbar auf diese Kontoart"
 
-#. File system/class_ServerControl.php:928
+#. File system/class_ServerControl.php:930
 #. Arguments: $sourcetype
 #.
-#: system/class_ServerControl.php:928
+#: system/class_ServerControl.php:930
 msgid "Not starting source %s with no autoDJ-based mount points configured"
 msgstr ""
 "Nicht startende Quelle %s ohne konfigurierte autoDJ-basierte Mountpoints"
@@ -2585,7 +2586,7 @@ msgstr ""
 #.
 #: system/class_ReportFormat.php:68
 msgid "Number of times the track was heard by an individual listener"
-msgstr "Häufigkeit wie ein einzelner Zuhörer den Track gehört hat."
+msgstr "Häufigkeit wie ein einzelner Zuhörer den Track gehört hat"
 
 #. File system/class_ReportFormat.php:67
 #.
@@ -2771,13 +2772,13 @@ msgstr "Der erlaubte Login-Zeitraum für diesen DJ-Account ist abgelaufen."
 msgid "permitted to continue by plugin: %s"
 msgstr "die durch das Plugin fortgesetzt werden dürfen: %s"
 
-#. File system/class_ServerControl.php:1649
+#. File system/class_ServerControl.php:1651
 #.
-#: system/class_ServerControl.php:1649
+#: system/class_ServerControl.php:1651
 msgid "Playlist rebuilt"
 msgstr "Wiedergabeliste neu erstellen"
 
-#. File system/class_AccountFields.php:816
+#. File system/class_AccountFields.php:819
 #.
 #. File system/class_AccountFields.php:341
 #.
@@ -2798,7 +2799,7 @@ msgstr "Wiedergabeliste neu erstellen"
 #.
 #. File billing/ihost/centovacast/packagetypes/class_PackageType_centovacast_account.php:42
 #.
-#: system/class_AccountFields.php:816 system/class_AccountFields.php:341
+#: system/class_AccountFields.php:819 system/class_AccountFields.php:341
 #: www/system/templates/configuration_reseller_limits.tpl:150
 #: www/system/templates/configuration_client_limits.tpl:256
 #: billing/ihost/centovacast/templates/centovacast_account_package_settings.tpl:36
@@ -2806,9 +2807,9 @@ msgstr "Wiedergabeliste neu erstellen"
 msgid "Port 80 proxy"
 msgstr "Port 80 Proxy"
 
-#. File system/class_ServerControl.php:1398
+#. File system/class_ServerControl.php:1400
 #.
-#: system/class_ServerControl.php:1398
+#: system/class_ServerControl.php:1400
 msgid "Preparing to import"
 msgstr "Import vorbereiten"
 
@@ -2982,9 +2983,9 @@ msgstr "Raw Metadaten"
 msgid "Re-encoding"
 msgstr "Re-Enkoding"
 
-#. File system/class_AccountFields.php:853
+#. File system/class_AccountFields.php:856
 #.
-#: system/class_AccountFields.php:853
+#: system/class_AccountFields.php:856
 msgid "Rebuild playlist on startup"
 msgstr "Baue Wiedergabeliste beim Start neu auf"
 
@@ -3144,7 +3145,7 @@ msgstr ""
 #.
 #: system/albumds/class_AlbumDataSource_lastfm.php:18
 msgid "Retrieves images from last.fm."
-msgstr "Bezieht die Cover der Musiktitel von last.fm"
+msgstr "Bezieht die Cover der Musiktitel von last.fm."
 
 #. File system/albumds/class_AlbumDataSource_amazon.php:27
 #.
@@ -3158,9 +3159,9 @@ msgstr "Bezieht die Cover der Musiktitel von Amazon."
 msgid "Retrieves images from the iTunes online store."
 msgstr "Bezieht die Cover der Musiktitel aus dem iTunes Onlinestore."
 
-#. File system/class_AccountFields.php:851
+#. File system/class_AccountFields.php:854
 #.
-#: system/class_AccountFields.php:851
+#: system/class_AccountFields.php:854
 msgid "Royalty reporting mode"
 msgstr "Berichterstattungsmodus"
 
@@ -3211,7 +3212,7 @@ msgstr "Sekunde/n (0 zum deaktivieren)"
 #.
 #: system/sysctrl/class_SystemControl_check.php:184
 msgid "Server %s is broadcasting at %skbps, exceeding limit of %skbps"
-msgstr "Server %s sendet mit %skbps und überschreitet die Grenze von %skbps."
+msgstr "Server %s sendet mit %skbps und überschreitet die Grenze von %skbps"
 
 #. File system/sysctrl/class_SystemControl_check.php:256
 #. Arguments: $account['username']
@@ -3222,11 +3223,11 @@ msgid ""
 "automatically reactivating autoDJ"
 msgstr ""
 "Server %s ist eingeschaltet und autoDJ ist deaktiviert, aber es ist keine "
-"Live-Quelle angeschlossen; autoDJ wird automatisch reaktiviert."
+"Live-Quelle angeschlossen; autoDJ wird automatisch reaktiviert"
 
-#. File system/class_ServerControl.php:882
+#. File system/class_ServerControl.php:884
 #.
-#: system/class_ServerControl.php:882
+#: system/class_ServerControl.php:884
 msgid "Server exited immediately after startup"
 msgstr "Server unittelbar nach dem Start beendet"
 
@@ -3295,14 +3296,14 @@ msgstr "Signal"
 msgid "Smart"
 msgstr "Smart"
 
-#. File system/class_AccountFields.php:864
+#. File system/class_AccountFields.php:867
 #.
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:17
 #. Context: <tr>
 #. <td>{="Song length detect limit"}:&nbsp;</td>
 #. <td colspan="3">
 #.
-#: system/class_AccountFields.php:864
+#: system/class_AccountFields.php:867
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:17
 msgid "Song length detect limit"
 msgstr "Songlänge-Erkennungsgrenze"
@@ -3333,14 +3334,14 @@ msgstr ""
 "Leider ist dieser Server derzeit stark ausgelastet und kann Ihre Anfrage zur "
 "Zeit nicht bearbeiten.  Bitte versuchen Sie es später noch einmal."
 
-#. File system/class_ServerControl.php:1138
+#. File system/class_ServerControl.php:1140
 #.
-#. File system/class_ServerControl.php:1256
+#. File system/class_ServerControl.php:1258
 #.
-#. File system/class_ServerControl.php:1195
+#. File system/class_ServerControl.php:1197
 #.
-#: system/class_ServerControl.php:1138 system/class_ServerControl.php:1256
-#: system/class_ServerControl.php:1195
+#: system/class_ServerControl.php:1140 system/class_ServerControl.php:1258
+#: system/class_ServerControl.php:1197
 msgid "Source is not running"
 msgstr "Quelle läuft nicht"
 
@@ -3463,10 +3464,10 @@ msgstr "Identifizierung"
 msgid "Stereo mode"
 msgstr "Stereo Mode"
 
-#. File system/class_ServerControl.php:1069
+#. File system/class_ServerControl.php:1071
 #. Arguments: $error_message
 #.
-#: system/class_ServerControl.php:1069
+#: system/class_ServerControl.php:1071
 msgid "Stream control issue detected (%s); log attached"
 msgstr "Stream Control Problem erkannt (%s); Protokoll angehängt"
 
@@ -3668,21 +3669,21 @@ msgstr "URL Format"
 msgid "Stream username"
 msgstr "Streamserver Username"
 
-#. File system/class_ServerControl.php:1043
+#. File system/class_ServerControl.php:1045
 #.
-#: system/class_ServerControl.php:1043
+#: system/class_ServerControl.php:1045
 msgid "Streaming applications started successfully"
 msgstr "Streaming-Anwendungen erfolgreich gestartet"
 
-#. File system/class_ServerControl.php:901
+#. File system/class_ServerControl.php:903
 #.
-#: system/class_ServerControl.php:901
+#: system/class_ServerControl.php:903
 msgid "Streaming server started successfully"
 msgstr "Streaming Server erfolgreich gestartet"
 
-#. File system/class_ServerControl.php:954
+#. File system/class_ServerControl.php:956
 #.
-#: system/class_ServerControl.php:954
+#: system/class_ServerControl.php:956
 msgid "Streaming source not enabled"
 msgstr "Streamingquelle nicht aktiviert"
 
@@ -3732,11 +3733,11 @@ msgstr "Superbreitband"
 msgid "suspended"
 msgstr "Deaktiviert"
 
-#. File system/class_ServerControl.php:2077
+#. File system/class_ServerControl.php:2079
 #.
-#. File system/class_ServerControl.php:1923
+#. File system/class_ServerControl.php:1925
 #.
-#: system/class_ServerControl.php:2077 system/class_ServerControl.php:1923
+#: system/class_ServerControl.php:2079 system/class_ServerControl.php:1925
 msgid "suspended until further notice"
 msgstr "bis auf weiteres ausgesetzt"
 
@@ -3806,7 +3807,7 @@ msgstr ""
 "Die folgenden Relay Einstellungen kontrollieren einen spezifischen "
 "Mountpoint auf einen entfernten Server."
 
-#. File system/class_ServerControl.php:2439
+#. File system/class_ServerControl.php:2441
 #. Arguments: $nextport
 #.
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:460
@@ -3815,7 +3816,7 @@ msgstr ""
 #. File system/class_SystemControl.php:1208
 #. Arguments: $nextport
 #.
-#: system/class_ServerControl.php:2439
+#: system/class_ServerControl.php:2441
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:460
 #: system/class_SystemControl.php:1208
 msgid "the next available port is %d"
@@ -3826,8 +3827,8 @@ msgstr "der nächste verfügbare Port ist %d"
 #: system/class_ReportFormat.php:72
 msgid "The raw metadata string provided by the streaming server for this track"
 msgstr ""
-"Der rohe Metadaten-String, der vom Streaming-Server für diesen Track "
-"bereitgestellt wird."
+"Der Rohdaten Metadaten-String, der vom Streaming-Server für diesen Track "
+"bereitgestellt wird"
 
 #. File system/class_UserSession.php:747
 #.
@@ -3835,7 +3836,7 @@ msgstr ""
 #.
 #: system/class_UserSession.php:747 system/class_UserSession.php:685
 msgid "This account has been suspended"
-msgstr "Dieses Konto wurde gesperrt."
+msgstr "Dieser Account wurde gesperrt"
 
 #. File system/class_CastMailer.php:90
 #.
@@ -3937,7 +3938,7 @@ msgid ""
 "limit of %dkbps"
 msgstr ""
 "Die gesamte kombinierte Bitrate der Mountpoints ist %dkbps, was die "
-"Streamgrenze von %dkbps überschreitet."
+"Streamgrenze von %dkbps überschreitet"
 
 #. File system/class_DiskUsage.php:205
 #. Arguments: $usage->usage_mb
@@ -3970,14 +3971,14 @@ msgstr "Musiktitel"
 
 #. File system/class_AccountFields.php:321
 #.
-#. File system/class_AccountFields.php:812
+#. File system/class_AccountFields.php:815
 #.
 #. File www/system/templates/configuration_client_limits.tpl:166
 #. Context: <tr>
 #. <td>{="Transfer limit"}:&nbsp;</td>
 #. <td><input type="text" id="transferlimit" name="config[transferlimit]" size="8" maxlength="8" value="{$config.tr
 #.
-#: system/class_AccountFields.php:321 system/class_AccountFields.php:812
+#: system/class_AccountFields.php:321 system/class_AccountFields.php:815
 #: www/system/templates/configuration_client_limits.tpl:166
 msgid "Transfer limit"
 msgstr "Datentransfer Limit"
@@ -4000,9 +4001,9 @@ msgstr "Transportart"
 msgid "triggered by reseller status change"
 msgstr "ausgelöst durch Statusänderung des Reseller"
 
-#. File system/class_ServerControl.php:1223
+#. File system/class_ServerControl.php:1225
 #.
-#: system/class_ServerControl.php:1223
+#: system/class_ServerControl.php:1225
 msgid "Unable to restart server"
 msgstr "Server kann nicht neu gestartet werden"
 
@@ -4045,9 +4046,9 @@ msgstr "Unbegrenzter Transfer für dieses Reseller-Konto nicht erlaubt"
 msgid "Unlock code details and purchase information %savailable here%s."
 msgstr "Lizenz Code und Schlüssel sind %shier verfügbar%s."
 
-#. File system/class_AccountFields.php:828
+#. File system/class_AccountFields.php:831
 #.
-#: system/class_AccountFields.php:828
+#: system/class_AccountFields.php:831
 msgid "Unspecified"
 msgstr "Undefiniert"
 
@@ -4123,7 +4124,7 @@ msgstr "URL"
 msgid "Use autoDJ"
 msgstr "Aktiviere AutoDJ"
 
-#. File system/class_AccountFields.php:834
+#. File system/class_AccountFields.php:837
 #.
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:39
 #. Context: <tr>
@@ -4140,7 +4141,7 @@ msgstr "Aktiviere AutoDJ"
 #. <td>{="Use server"}:&nbsp;</td>
 #. <td>
 #.
-#: system/class_AccountFields.php:834
+#: system/class_AccountFields.php:837
 #: system/servers/ShoutCast/templates/configuration_client_advanced.tpl:39
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:59
 #: system/servers/ShoutCast2/templates/configuration_client_advanced.tpl:39
@@ -4164,7 +4165,7 @@ msgid ""
 "live broadcast"
 msgstr ""
 "Verwenden Sie diese Informationen in Ihrer Windows Media-Encoder-Software, "
-"um eine Live-Übertragung durchzuführen."
+"um eine Live-Übertragung durchzuführen"
 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:83
 #.
@@ -4321,9 +4322,9 @@ msgstr ""
 "unvorhergesehenen Ausfall Ihres Streamservers kommen. Sollten Sie ein "
 "solches Verhalten feststellen, deaktivieren Sie diese Einstellung testweise."
 
-#. File system/class_AccountFields.php:836
+#. File system/class_AccountFields.php:839
 #.
-#: system/class_AccountFields.php:836
+#: system/class_AccountFields.php:839
 msgid "Web player"
 msgstr "Webplayer"
 
@@ -4346,7 +4347,7 @@ msgstr "Wöchentlicher Top-10-Countdown"
 
 #. File system/class_AccountFields.php:332
 #.
-#. File system/class_AccountFields.php:820
+#. File system/class_AccountFields.php:823
 #.
 #. File www/system/templates/configuration_reseller_limits.tpl:129
 #. Context: <tr>
@@ -4358,7 +4359,7 @@ msgstr "Wöchentlicher Top-10-Countdown"
 #. <td>{="When disk quota is exceeded"}:&nbsp;</td>
 #. <td>
 #.
-#: system/class_AccountFields.php:332 system/class_AccountFields.php:820
+#: system/class_AccountFields.php:332 system/class_AccountFields.php:823
 #: www/system/templates/configuration_reseller_limits.tpl:129
 #: www/system/templates/configuration_client_limits.tpl:227
 msgid "When disk quota is exceeded"
@@ -4414,7 +4415,7 @@ msgstr ""
 
 #. File system/class_AccountFields.php:333
 #.
-#. File system/class_AccountFields.php:821
+#. File system/class_AccountFields.php:824
 #.
 #. File www/system/templates/configuration_reseller_limits.tpl:119
 #. Context: <tr>
@@ -4426,7 +4427,7 @@ msgstr ""
 #. <td>{="When transfer limit is exceeded"}:&nbsp;</td>
 #. <td>
 #.
-#: system/class_AccountFields.php:333 system/class_AccountFields.php:821
+#: system/class_AccountFields.php:333 system/class_AccountFields.php:824
 #: www/system/templates/configuration_reseller_limits.tpl:119
 #: www/system/templates/configuration_client_limits.tpl:217
 msgid "When transfer limit is exceeded"

@@ -1,12 +1,12 @@
 # Centova Cast translation - admin interface
-# Copyright 2017, Centova Technologies Inc.
+# Copyright 2018, Centova Technologies Inc.
 # This file is distributed under the same license terms as Centova Cast.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2017-07-25 13:51-0700\n"
-"PO-Revision-Date: 2017-07-25 13:51-0700\n"
+"POT-Creation-Date: 2018-10-08 17:24-0700\n"
+"PO-Revision-Date: 2018-10-08 17:24-0700\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -38,30 +38,30 @@ msgstr ""
 msgid "%d accounts"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:148
+#. File www/system/templates/admin_about.tpl:41
 #. Arguments: "SHOUTcast","Radionomy Group"
 #. Context: {="%s is a registered trademark of %s","SHOUTcast","Radionomy Group"}<br />
 #.     {="%s was designed by %s.","Icon set","<a style='font-weight: normal; text-decoration: no
 #. 
-#: www/system/templates/admin_about.tpl:148
+#: www/system/templates/admin_about.tpl:41
 msgid "%s is a registered trademark of %s"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:150
+#. File www/system/templates/admin_about.tpl:43
 #. Arguments: "Flag icon set","<a style='font-weight: normal; text-decoration: none' target='_blank' href='http://famfamfam.com/'>Mark James</a>"
 #. Context: t-weight: normal; text-decoration: none' target='_blank' href='http://p.yusukekamiyamane.com/'>Yusuke Kamiyamane</a>"}<br />
 #.     {="%s was designed by %s","Flag icon set","<a style='font-weight: normal; text-decoration: none' target='_blank' href='http://famfamfam.com/'>Mark James
 #. 
-#: www/system/templates/admin_about.tpl:150
+#: www/system/templates/admin_about.tpl:43
 msgid "%s was designed by %s"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:149
+#. File www/system/templates/admin_about.tpl:42
 #. Arguments: "Icon set","<a style='font-weight: normal; text-decoration: none' target='_blank' href='http://p.yusukekamiyamane.com/'>Yusuke Kamiyamane</a>"
 #. Context: {="%s is a registered trademark of %s","SHOUTcast","Radionomy Group"}<br />
 #.     {="%s was designed by %s.","Icon set","<a style='font-weight: normal; text-decoration: none' target='_blank' href='http://p.yusukekamiyamane.com/'>Yusuke
 #. 
-#: www/system/templates/admin_about.tpl:149
+#: www/system/templates/admin_about.tpl:42
 msgid "%s was designed by %s."
 msgstr ""
 
@@ -122,12 +122,12 @@ msgstr ""
 msgid "Accounts:"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:128
+#. File www/system/templates/admin_about.tpl:21
 #. Context: tal accounts"}</td>				<td class="rowodd" style="font-weight: bold">{$systeminfo.accounts}</td></tr>
 #.     <tr><td class="roweven">{="Active accounts"}</td>			<td class="roweven" style="font-weight: bold">{$systeminfo.activeaccounts}</td></tr>
 #.     {loop $other=$systeminfo.other}
 #. 
-#: www/system/templates/admin_about.tpl:128
+#: www/system/templates/admin_about.tpl:21
 msgid "Active accounts"
 msgstr ""
 
@@ -396,12 +396,12 @@ msgstr ""
 msgid "Automatically unsuspend it the following month"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:121
+#. File www/system/templates/admin_about.tpl:14
 #. Context: d>		<td class="roweven" style="font-weight: bold">{$systeminfo.memcached|bytes}</td></tr>
 #.     <tr><td class="rowodd">&nbsp;&nbsp;{="Available memory"}</td><td class="rowodd" style="font-weight: bold">{$systeminfo.memavail|bytes}</td></tr>
 #.     <tr><td class="rowodd">&nbsp;&nbsp;{=
 #. 
-#: www/system/templates/admin_about.tpl:121
+#: www/system/templates/admin_about.tpl:14
 msgid "Available memory"
 msgstr ""
 
@@ -469,39 +469,39 @@ msgstr ""
 msgid "Both"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:119
+#. File www/system/templates/admin_about.tpl:12
 #. Context: </td>	<td class="rowodd" style="font-weight: bold">{$systeminfo.memfree|bytes}</td></tr>
 #.     <tr><td class="roweven">&nbsp;&nbsp;{="Buffers"}</td>		<td class="roweven" style="font-weight: bold">{$systeminfo.buffers|bytes}</td></tr>
 #.     <tr><td class="roweven">&nbsp;&nbsp
 #. 
-#: www/system/templates/admin_about.tpl:119
+#: www/system/templates/admin_about.tpl:12
 msgid "Buffers"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:112
+#. File www/system/templates/admin_about.tpl:5
 #. Context: number"}</td>	<td class="roweven" style="font-weight: bold">{$_CONSTANTS.PRODUCT_REVISION}</td></tr>
 #.     <tr><td class="rowodd">{="Build date"}</td>	<td class="rowodd" style="font-weight: bold">{$_CONSTANTS.BUILD_DATE}</td></tr>
 #.     <tr><td class="roweven">{="Hostname"}</t
 #. 
-#: www/system/templates/admin_about.tpl:112
+#: www/system/templates/admin_about.tpl:5
 msgid "Build date"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:120
+#. File www/system/templates/admin_about.tpl:13
 #. Context: td>		<td class="roweven" style="font-weight: bold">{$systeminfo.buffers|bytes}</td></tr>
 #.     <tr><td class="roweven">&nbsp;&nbsp;{="Cached"}</td>		<td class="roweven" style="font-weight: bold">{$systeminfo.memcached|bytes}</td></tr>
 #.     <tr><td class="rowodd">&nbsp;&nbs
 #. 
-#: www/system/templates/admin_about.tpl:120
+#: www/system/templates/admin_about.tpl:13
 msgid "Cached"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:138
+#. File www/system/templates/admin_about.tpl:31
 #. Context: <tr><th colspan="2">{="Web Interface Configuration"}</th></tr>
 #.     <tr><td width="150" class="rowodd">{="CAST_PATH"}</td>			<td class="rowodd" style="font-weight: bold">{$_CONSTANTS.CAST_PATH}</td></tr>
 #.     {loop $value=$config}
 #. 
-#: www/system/templates/admin_about.tpl:138
+#: www/system/templates/admin_about.tpl:31
 msgid "CAST_PATH"
 msgstr ""
 
@@ -694,11 +694,11 @@ msgstr ""
 #. 
 #. File www/admin/rpc/class_RPClogmanager.php:168
 #. 
-#. File system/class_ServerControl.php:588
+#. File system/class_ServerControl.php:590
 #. 
 #: www/admin/rpc/class_RPClogmanager.php:175
 #: www/admin/rpc/class_RPClogmanager.php:168
-#: system/class_ServerControl.php:588
+#: system/class_ServerControl.php:590
 msgid "Could not access log file"
 msgstr ""
 
@@ -1165,12 +1165,12 @@ msgstr ""
 msgid "For standalone configurations (or for the master in master/slave configurations), this will usually be '127.0.0.1'.  For slave servers in master/slave configurations, this will usually be the slave server's primary IP address."
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:151
+#. File www/system/templates/admin_about.tpl:44
 #. Arguments: "<a href='http://www.centova.com' target='_blank'>www.centova.com</a>."
 #. Context: style='font-weight: normal; text-decoration: none' target='_blank' href='http://famfamfam.com/'>Mark James</a>"}<br /><br />
 #.     {="For support and updates, please visit %s","<a href='http://www.centova.com' target='_blank'>www.centova.com</a>."}
 #. 
-#: www/system/templates/admin_about.tpl:151
+#: www/system/templates/admin_about.tpl:44
 msgid "For support and updates, please visit %s"
 msgstr ""
 
@@ -1398,11 +1398,11 @@ msgstr ""
 msgid "Incorrect use of these utilities is likely to permanently damage your Centova Cast installation."
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:126
+#. File www/system/templates/admin_about.tpl:19
 #. Context: ="System load"}</td>				<td class="rowodd" style="font-weight: bold">{$systeminfo.cpuload}</td></tr>
 #.     <tr><td class="roweven">{="Last cron job"}</td>				<td class="roweven" style="font-weight: bold">{="Started %s, completed %s",$settings.lastcjstart,$settings.lastcjcomp
 #. 
-#: www/system/templates/admin_about.tpl:126
+#: www/system/templates/admin_about.tpl:19
 msgid "Last cron job"
 msgstr ""
 
@@ -1476,10 +1476,10 @@ msgstr ""
 
 #. File www/admin/rpc/class_RPClogmanager.php:155
 #. 
-#. File system/class_ServerControl.php:577
+#. File system/class_ServerControl.php:579
 #. 
 #: www/admin/rpc/class_RPClogmanager.php:155
-#: system/class_ServerControl.php:577
+#: system/class_ServerControl.php:579
 msgid "Log file does not exist"
 msgstr ""
 
@@ -1538,11 +1538,11 @@ msgstr ""
 msgid "Logins"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:115
+#. File www/system/templates/admin_about.tpl:8
 #. Context: <td class="rowodd" style="font-weight: bold">{$systeminfo.osbrief} {$systeminfo.osdetails}</td></tr>
 #.     <tr><td class="rowodd">{="Machine"}</td>					<td class="rowodd" style="font-weight: bold">{$systeminfo.machine}</td></tr>
 #. 
-#: www/system/templates/admin_about.tpl:115
+#: www/system/templates/admin_about.tpl:8
 msgid "Machine"
 msgstr ""
 
@@ -1886,12 +1886,12 @@ msgstr ""
 msgid "of disk quota is used"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:114
+#. File www/system/templates/admin_about.tpl:7
 #. Context: lass="roweven">{="Hostname"}</td>	<td class="roweven" style="font-weight: bold">{$hostname}</td></tr>
 #.     <tr><td class="rowodd">{="Operating system"}</td>			<td class="rowodd" style="font-weight: bold">{$systeminfo.osbrief} {$systeminfo.osdetails}</td></tr>
 #.     <tr><td class="ro
 #. 
-#: www/system/templates/admin_about.tpl:114
+#: www/system/templates/admin_about.tpl:7
 msgid "Operating system"
 msgstr ""
 
@@ -2570,13 +2570,13 @@ msgstr ""
 msgid "Start the %s selected stream(s) now?"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:126
+#. File www/system/templates/admin_about.tpl:19
 #. Arguments: $settings.lastcjstart,$settings.lastcjcomplete
 #. Context: steminfo.cpuload}</td></tr>
 #.     <tr><td class="roweven">{="Last cron job"}</td>				<td class="roweven" style="font-weight: bold">{="Started %s, completed %s",$settings.lastcjstart,$settings.lastcjcomplete}</td></tr>
 #.     <tr><td class="rowodd">{="Total accounts"}</td>				<td class="rowodd
 #. 
-#: www/system/templates/admin_about.tpl:126
+#: www/system/templates/admin_about.tpl:19
 msgid "Started %s, completed %s"
 msgstr ""
 
@@ -2705,20 +2705,20 @@ msgstr ""
 msgid "Swap"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:122
+#. File www/system/templates/admin_about.tpl:15
 #. Context: }</td><td class="rowodd" style="font-weight: bold">{$systeminfo.memavail|bytes}</td></tr>
 #.     <tr><td class="rowodd">&nbsp;&nbsp;{="Swap free"}</td>		<td class="rowodd" style="font-weight: bold">{$systeminfo.swapfree|bytes}/{$systeminfo.swaptotal|bytes}</td></tr>
 #. 
-#: www/system/templates/admin_about.tpl:122
+#: www/system/templates/admin_about.tpl:15
 msgid "Swap free"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:125
+#. File www/system/templates/admin_about.tpl:18
 #. Context: en">{="Uptime"}</td>					<td class="roweven" style="font-weight: bold">{$systeminfo.uptime}</td></tr>
 #.     <tr><td class="rowodd">{="System load"}</td>				<td class="rowodd" style="font-weight: bold">{$systeminfo.cpuload}</td></tr>
 #.     <tr><td class="roweven">{="Last cron job
 #. 
-#: www/system/templates/admin_about.tpl:125
+#: www/system/templates/admin_about.tpl:18
 msgid "System load"
 msgstr ""
 
@@ -2938,12 +2938,12 @@ msgstr ""
 msgid "To text"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:127
+#. File www/system/templates/admin_about.tpl:20
 #. Context: -weight: bold">{="Started %s, completed %s",$settings.lastcjstart,$settings.lastcjcomplete}</td></tr>
 #.     <tr><td class="rowodd">{="Total accounts"}</td>				<td class="rowodd" style="font-weight: bold">{$systeminfo.accounts}</td></tr>
 #.     <tr><td class="roweven">{="Active accou
 #. 
-#: www/system/templates/admin_about.tpl:127
+#: www/system/templates/admin_about.tpl:20
 msgid "Total accounts"
 msgstr ""
 
@@ -2971,11 +2971,11 @@ msgstr ""
 msgid "Total listener slots"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:117
+#. File www/system/templates/admin_about.tpl:10
 #. Context: <tr><td class="roweven">{="Total memory"}</td>				<td class="roweven" style="font-weight: bold">{$systeminfo.memtotal|bytes}</td></tr>
 #.     <tr><td class="rowodd">&nbsp;&nb
 #. 
-#: www/system/templates/admin_about.tpl:117
+#: www/system/templates/admin_about.tpl:10
 msgid "Total memory"
 msgstr ""
 
@@ -3126,12 +3126,12 @@ msgstr ""
 msgid "Unsuspending accounts ..."
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:118
+#. File www/system/templates/admin_about.tpl:11
 #. Context: >				<td class="roweven" style="font-weight: bold">{$systeminfo.memtotal|bytes}</td></tr>
 #.     <tr><td class="rowodd">&nbsp;&nbsp;{="Unused memory"}</td>	<td class="rowodd" style="font-weight: bold">{$systeminfo.memfree|bytes}</td></tr>
 #.     <tr><td class="roweven">&nbsp;&nbsp;{
 #. 
-#: www/system/templates/admin_about.tpl:118
+#: www/system/templates/admin_about.tpl:11
 msgid "Unused memory"
 msgstr ""
 
@@ -3140,12 +3140,12 @@ msgstr ""
 #.         <th width="55" style="text-align: center">{="Uptime"}</th>
 #.         <th width="55" style="text-align: center">{="Load"}</th>
 #. 
-#. File www/system/templates/admin_about.tpl:124
+#. File www/system/templates/admin_about.tpl:17
 #. Context: <tr><td class="roweven">{="Uptime"}</td>					<td class="roweven" style="font-weight: bold">{$systeminfo.uptime}</td></tr>
 #.     <tr><td class="rowodd">{="System load"}
 #. 
 #: www/system/templates/admin_serverstatus.tpl:17
-#: www/system/templates/admin_about.tpl:124
+#: www/system/templates/admin_about.tpl:17
 msgid "Uptime"
 msgstr ""
 
@@ -3164,12 +3164,12 @@ msgstr ""
 msgid "Used"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:111
+#. File www/system/templates/admin_about.tpl:4
 #. Context: <tr><th colspan="2">{="Web Interface System Information"}</th></tr>
 #.     <tr><td width="150" class="roweven">{="Version number"}</td>	<td class="roweven" style="font-weight: bold">{$_CONSTANTS.PRODUCT_REVISION}</td></tr>
 #.     <tr><td class="rowodd">{="Build d
 #. 
-#: www/system/templates/admin_about.tpl:111
+#: www/system/templates/admin_about.tpl:4
 msgid "Version number"
 msgstr ""
 
@@ -3209,21 +3209,21 @@ msgstr ""
 msgid "WARNING: This account was suspended because it exceeded its resource limits.  If you unsuspend this account now, and its further resource consumption causes you to exceed the limits of your reseller account, your entire reseller account (including all of your client accounts) will be suspended as a result.  Are you sure you want to unsuspend this account?"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:137
+#. File www/system/templates/admin_about.tpl:30
 #. Context: <table class="listtable" width="100%" cellspacing="1" cellpadding="2">
 #.     <tr><th colspan="2">{="Web Interface Configuration"}</th></tr>
 #.     <tr><td width="150" class="rowodd">{="CAST_PATH"}</td>			<td class="rowodd" style="font-weight: bold">{$_CONSTANTS.
 #. 
-#: www/system/templates/admin_about.tpl:137
+#: www/system/templates/admin_about.tpl:30
 msgid "Web Interface Configuration"
 msgstr ""
 
-#. File www/system/templates/admin_about.tpl:110
+#. File www/system/templates/admin_about.tpl:3
 #. Context: <table class="listtable" width="100%" cellspacing="1" cellpadding="2">
 #.     <tr><th colspan="2">{="Web Interface System Information"}</th></tr>
 #.     <tr><td width="150" class="roweven">{="Version number"}</td>	<td class="roweven" style="font-weight: bold">{$_CONST
 #. 
-#: www/system/templates/admin_about.tpl:110
+#: www/system/templates/admin_about.tpl:3
 msgid "Web Interface System Information"
 msgstr ""
 

@@ -5,20 +5,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2017-07-25 13:51-0700\n"
-"PO-Revision-Date: 2018-07-27 17:21+0200\n"
+"POT-Creation-Date: 2018-10-08 17:24-0700\n"
+"PO-Revision-Date: 2018-10-11 21:35+0200\n"
 "Last-Translator: scysys <scysys@outlook.com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
-#. File system/class_ServerControl.php:2556
+#. File system/class_ServerControl.php:2558
 #. Arguments: ($this->application->usersession->actual_identity()->is_reseller() ? __('reseller') : ($this->application->usersession->actual_identity()->is_admin() ? __('administrator') : 'user'))
 #.
-#: system/class_ServerControl.php:2556
+#: system/class_ServerControl.php:2558
 msgid "Account imported by %s"
 msgstr "Account importiert von %s"
 
@@ -28,10 +28,10 @@ msgstr "Account importiert von %s"
 msgid "Account is already in specified state"
 msgstr "Account ist bereits im angegebenen Zustand"
 
-#. File system/class_ServerControl.php:2556
+#. File system/class_ServerControl.php:2558
 #. Arguments: ($this->application->usersession->actual_identity()->is_reseller() ? __('reseller') : ($this->application->usersession->actual_identity()->is_admin() ? __('administrator') : 'user'))
 #.
-#: system/class_ServerControl.php:2556
+#: system/class_ServerControl.php:2558
 msgid "Account settings modified by %s"
 msgstr "Kontoeinstellungen geändert durch %s"
 
@@ -67,10 +67,10 @@ msgstr "f&uuml;ge neue Medien zur Wiedergabeliste mit der angegebenen ID hinzu"
 msgid "add/remove tracks to/from the playlist"
 msgstr "Hinzufügen/Entfernen von Tracks zur/aus der Playlist"
 
-#. File system/class_ServerControl.php:1457
+#. File system/class_ServerControl.php:1459
 #. Arguments: count($newtracks), $intoplaylist
 #.
-#: system/class_ServerControl.php:1457
+#: system/class_ServerControl.php:1459
 msgid "Added %s new tracks to playlist %d."
 msgstr "%s neue Tracks zur Playlist %d hinzugefügt."
 
@@ -87,9 +87,9 @@ msgstr "Anwendungsprozess %s für %s ist AUS und sollte AN sein; Neustart"
 msgid "autoDJ status"
 msgstr "autoDJ-Status"
 
-#. File system/class_ServerControl.php:1988
+#. File system/class_ServerControl.php:1990
 #.
-#: system/class_ServerControl.php:1988
+#: system/class_ServerControl.php:1990
 msgid "Automatically unsuspending account after suspension from previous month"
 msgstr ""
 
@@ -163,10 +163,10 @@ msgstr ""
 msgid "modify playlists for an account"
 msgstr ""
 
-#. File system/class_ServerControl.php:1942
+#. File system/class_ServerControl.php:1944
 #. Arguments: $action
 #.
-#: system/class_ServerControl.php:1942
+#: system/class_ServerControl.php:1944
 msgid "Monthly data transfer limit exceeded; account has been automatically %s"
 msgstr ""
 
@@ -181,7 +181,7 @@ msgstr ""
 #.
 #: system/class_SystemControl.php:2332
 msgid "Optimizing %s ..."
-msgstr ""
+msgstr "Optimiere %s …"
 
 #. File system/include_console.php:5
 #.
@@ -269,11 +269,11 @@ msgstr ""
 msgid "re-index known files even if unchanged"
 msgstr ""
 
-#. File system/class_ServerControl.php:1430
+#. File system/class_ServerControl.php:1432
 #.
-#. File system/class_ServerControl.php:1414
+#. File system/class_ServerControl.php:1416
 #.
-#: system/class_ServerControl.php:1430 system/class_ServerControl.php:1414
+#: system/class_ServerControl.php:1432 system/class_ServerControl.php:1416
 msgid ""
 "Re-indexing media without import as destination playlist does not exist..."
 msgstr ""
@@ -388,21 +388,21 @@ msgstr ""
 msgid "Server %s is down and should be up; restarting"
 msgstr "Server %s ist aus, sollte an sein. Starte Server neu"
 
-#. File system/class_ServerControl.php:1219
+#. File system/class_ServerControl.php:1221
 #.
-#: system/class_ServerControl.php:1219
+#: system/class_ServerControl.php:1221
 msgid "Server restarted successfully"
 msgstr "Streamserver wurde erfolgreich neu gestartet"
 
-#. File system/class_ServerControl.php:841
+#. File system/class_ServerControl.php:843
 #.
-#: system/class_ServerControl.php:841
+#: system/class_ServerControl.php:843
 msgid "Server started successfully"
 msgstr "Server wurde erfolgreich gestartet"
 
-#. File system/class_ServerControl.php:1264
+#. File system/class_ServerControl.php:1266
 #.
-#: system/class_ServerControl.php:1264
+#: system/class_ServerControl.php:1266
 msgid "Server stopped"
 msgstr "Streamserver wurde erfolgreich gestoppt"
 
@@ -424,15 +424,15 @@ msgstr "Zeige diese Hilfezusammenfassung"
 msgid "skips to the next song on a stream"
 msgstr "springt zum nächsten Song auf einem Stream"
 
-#. File system/class_ServerControl.php:1723
+#. File system/class_ServerControl.php:1725
 #.
-#: system/class_ServerControl.php:1723
+#: system/class_ServerControl.php:1725
 msgid "Song skipped"
 msgstr "Titel übersprungen"
 
-#. File system/class_ServerControl.php:1370
+#. File system/class_ServerControl.php:1372
 #.
-#: system/class_ServerControl.php:1370
+#: system/class_ServerControl.php:1372
 msgid "Source state changed"
 msgstr "Quellzustand geändert"
 
@@ -480,7 +480,7 @@ msgid ""
 "Reference"
 msgstr ""
 "Dies ist nur eine kurze Zusammenfassung; siehe Referenz des Management-"
-"Dienstprogramms."
+"Dienstprogramms"
 
 #. File system/class_TrackManager.php:570
 #. Arguments: $track['pathname']
@@ -493,7 +493,7 @@ msgstr ""
 #.
 #: system/include_console.php:46
 msgid "tracks by artists whose names match TEXT"
-msgstr "Tracks von Künstlern, deren Namen mit TEXT übereinstimmen."
+msgstr "Tracks von Künstlern, deren Namen mit TEXT übereinstimmen"
 
 #. File system/include_console.php:45
 #.
@@ -501,9 +501,9 @@ msgstr "Tracks von Künstlern, deren Namen mit TEXT übereinstimmen."
 msgid "tracks from albums whose names match TEXT"
 msgstr "Tracks von Alben, deren Namen mit TEXT übereinstimmen"
 
-#. File system/class_ServerControl.php:1468
+#. File system/class_ServerControl.php:1470
 #.
-#: system/class_ServerControl.php:1468
+#: system/class_ServerControl.php:1470
 msgid "Tracks reindexed"
 msgstr "Tracks neu indiziert"
 
@@ -526,9 +526,9 @@ msgstr "Tracks, deren Titel mit TEXT übereinstimmen"
 msgid "Update completed successfully: %s"
 msgstr "Update erfolgreich abgeschlossen: %s"
 
-#. File system/class_ServerControl.php:2004
+#. File system/class_ServerControl.php:2006
 #.
-#: system/class_ServerControl.php:2004
+#: system/class_ServerControl.php:2006
 msgid "Updated"
 msgstr "Aktualisiert"
 
@@ -539,9 +539,9 @@ msgstr "Aktualisiert"
 msgid "Updated failed: %s"
 msgstr "Update fehlgeschlagen: %s"
 
-#. File system/class_ServerControl.php:1394
+#. File system/class_ServerControl.php:1396
 #.
-#: system/class_ServerControl.php:1394
+#: system/class_ServerControl.php:1396
 msgid "Updating disk usage"
 msgstr "Aktualisieren der Festplattennutzung"
 

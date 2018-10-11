@@ -1,12 +1,12 @@
 # Centova Cast translation - messages interface
-# Copyright 2017, Centova Technologies Inc.
+# Copyright 2018, Centova Technologies Inc.
 # This file is distributed under the same license terms as Centova Cast.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2017-07-25 13:51-0700\n"
-"PO-Revision-Date: 2017-07-25 13:51-0700\n"
+"POT-Creation-Date: 2018-10-08 17:24-0700\n"
+"PO-Revision-Date: 2018-10-08 17:24-0700\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -14,10 +14,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. File system/class_ServerControl.php:2556
+#. File system/class_ServerControl.php:2558
 #. Arguments: ($this->application->usersession->actual_identity()->is_reseller() ? __('reseller') : ($this->application->usersession->actual_identity()->is_admin() ? __('administrator') : 'user'))
 #. 
-#: system/class_ServerControl.php:2556
+#: system/class_ServerControl.php:2558
 msgid "Account imported by %s"
 msgstr ""
 
@@ -27,10 +27,10 @@ msgstr ""
 msgid "Account is already in specified state"
 msgstr ""
 
-#. File system/class_ServerControl.php:2556
+#. File system/class_ServerControl.php:2558
 #. Arguments: ($this->application->usersession->actual_identity()->is_reseller() ? __('reseller') : ($this->application->usersession->actual_identity()->is_admin() ? __('administrator') : 'user'))
 #. 
-#: system/class_ServerControl.php:2556
+#: system/class_ServerControl.php:2558
 msgid "Account settings modified by %s"
 msgstr ""
 
@@ -64,10 +64,10 @@ msgstr ""
 msgid "add/remove tracks to/from the playlist"
 msgstr ""
 
-#. File system/class_ServerControl.php:1457
+#. File system/class_ServerControl.php:1459
 #. Arguments: count($newtracks), $intoplaylist
 #. 
-#: system/class_ServerControl.php:1457
+#: system/class_ServerControl.php:1459
 msgid "Added %s new tracks to playlist %d."
 msgstr ""
 
@@ -84,9 +84,9 @@ msgstr ""
 msgid "autoDJ status"
 msgstr ""
 
-#. File system/class_ServerControl.php:1988
+#. File system/class_ServerControl.php:1990
 #. 
-#: system/class_ServerControl.php:1988
+#: system/class_ServerControl.php:1990
 msgid "Automatically unsuspending account after suspension from previous month"
 msgstr ""
 
@@ -160,10 +160,10 @@ msgstr ""
 msgid "modify playlists for an account"
 msgstr ""
 
-#. File system/class_ServerControl.php:1942
+#. File system/class_ServerControl.php:1944
 #. Arguments: $action
 #. 
-#: system/class_ServerControl.php:1942
+#: system/class_ServerControl.php:1944
 msgid "Monthly data transfer limit exceeded; account has been automatically %s"
 msgstr ""
 
@@ -266,12 +266,12 @@ msgstr ""
 msgid "re-index known files even if unchanged"
 msgstr ""
 
-#. File system/class_ServerControl.php:1430
+#. File system/class_ServerControl.php:1432
 #. 
-#. File system/class_ServerControl.php:1414
+#. File system/class_ServerControl.php:1416
 #. 
-#: system/class_ServerControl.php:1430
-#: system/class_ServerControl.php:1414
+#: system/class_ServerControl.php:1432
+#: system/class_ServerControl.php:1416
 msgid "Re-indexing media without import as destination playlist does not exist..."
 msgstr ""
 
@@ -383,21 +383,21 @@ msgstr ""
 msgid "Server %s is down and should be up; restarting"
 msgstr ""
 
-#. File system/class_ServerControl.php:1219
+#. File system/class_ServerControl.php:1221
 #. 
-#: system/class_ServerControl.php:1219
+#: system/class_ServerControl.php:1221
 msgid "Server restarted successfully"
 msgstr ""
 
-#. File system/class_ServerControl.php:841
+#. File system/class_ServerControl.php:843
 #. 
-#: system/class_ServerControl.php:841
+#: system/class_ServerControl.php:843
 msgid "Server started successfully"
 msgstr ""
 
-#. File system/class_ServerControl.php:1264
+#. File system/class_ServerControl.php:1266
 #. 
-#: system/class_ServerControl.php:1264
+#: system/class_ServerControl.php:1266
 msgid "Server stopped"
 msgstr ""
 
@@ -419,15 +419,15 @@ msgstr ""
 msgid "skips to the next song on a stream"
 msgstr ""
 
-#. File system/class_ServerControl.php:1723
+#. File system/class_ServerControl.php:1725
 #. 
-#: system/class_ServerControl.php:1723
+#: system/class_ServerControl.php:1725
 msgid "Song skipped"
 msgstr ""
 
-#. File system/class_ServerControl.php:1370
+#. File system/class_ServerControl.php:1372
 #. 
-#: system/class_ServerControl.php:1370
+#: system/class_ServerControl.php:1372
 msgid "Source state changed"
 msgstr ""
 
@@ -492,9 +492,9 @@ msgstr ""
 msgid "tracks from albums whose names match TEXT"
 msgstr ""
 
-#. File system/class_ServerControl.php:1468
+#. File system/class_ServerControl.php:1470
 #. 
-#: system/class_ServerControl.php:1468
+#: system/class_ServerControl.php:1470
 msgid "Tracks reindexed"
 msgstr ""
 
@@ -517,9 +517,9 @@ msgstr ""
 msgid "Update completed successfully: %s"
 msgstr ""
 
-#. File system/class_ServerControl.php:2004
+#. File system/class_ServerControl.php:2006
 #. 
-#: system/class_ServerControl.php:2004
+#: system/class_ServerControl.php:2006
 msgid "Updated"
 msgstr ""
 
@@ -530,9 +530,9 @@ msgstr ""
 msgid "Updated failed: %s"
 msgstr ""
 
-#. File system/class_ServerControl.php:1394
+#. File system/class_ServerControl.php:1396
 #. 
-#: system/class_ServerControl.php:1394
+#: system/class_ServerControl.php:1396
 msgid "Updating disk usage"
 msgstr ""
 

@@ -6,14 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
 "POT-Creation-Date: 2017-07-25 13:51-0700\n"
-"PO-Revision-Date: 2018-07-27 17:53+0200\n"
+"PO-Revision-Date: 2018-10-11 21:34+0200\n"
 "Last-Translator: scysys <scysys@outlook.com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. File www/class_StreamStatus.php:565
 #. Arguments: $this->str($this->bitrate)
@@ -2805,7 +2805,7 @@ msgstr ""
 #.
 #: www/menu.php:379 www/menu.php:273
 msgid "This will start your server"
-msgstr "Dadurch wird Ihr Server gestartet."
+msgstr "Dadurch wird Ihr Server gestartet"
 
 #. File www/class_CCTemplate.php:95
 #.

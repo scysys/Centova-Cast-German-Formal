@@ -1,12 +1,12 @@
 # Centova Cast translation - external interface
-# Copyright 2017, Centova Technologies Inc.
+# Copyright 2018, Centova Technologies Inc.
 # This file is distributed under the same license terms as Centova Cast.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2017-07-25 13:51-0700\n"
-"PO-Revision-Date: 2017-07-25 13:51-0700\n"
+"POT-Creation-Date: 2018-10-08 17:24-0700\n"
+"PO-Revision-Date: 2018-10-08 17:24-0700\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -84,13 +84,13 @@ msgstr ""
 msgid "%s requires %s or greater, or another standards-compliant browser."
 msgstr ""
 
-#. File www/class_RPCApplication.php:129
+#. File www/class_RPCApplication.php:132
 #. Arguments: $exceptiontype,$message,$e->getFile(),$e->getLine()
 #. 
 #. File system/class_Application.php:215
 #. Arguments: $exceptiontype,$message,$e->getFile(),$e->getLine()
 #. 
-#: www/class_RPCApplication.php:129
+#: www/class_RPCApplication.php:132
 #: system/class_Application.php:215
 msgid "%s: %s in %s:%i"
 msgstr ""
@@ -153,9 +153,9 @@ msgstr ""
 msgid "Administrator"
 msgstr ""
 
-#. File www/class_RPCApplication.php:150
+#. File www/class_RPCApplication.php:153
 #. 
-#: www/class_RPCApplication.php:150
+#: www/class_RPCApplication.php:153
 msgid "administrator privileges required"
 msgstr ""
 
@@ -174,27 +174,27 @@ msgstr ""
 msgid "Allows you to provide limited stream control to your DJs."
 msgstr ""
 
-#. File www/class_Template.php:1632
+#. File www/class_Template.php:1551
 #. 
-#: www/class_Template.php:1632
+#: www/class_Template.php:1551
 msgid "AM"
 msgstr ""
 
 #. File www/class_CCTemplate.php:94
 #. 
-#. File www/class_Template.php:1529
+#. File www/class_Template.php:1448
 #. 
 #: www/class_CCTemplate.php:94
-#: www/class_Template.php:1529
+#: www/class_Template.php:1448
 msgid "Apr"
 msgstr ""
 
 #. File www/class_CCTemplate.php:94
 #. 
-#. File www/class_Template.php:1533
+#. File www/class_Template.php:1452
 #. 
 #: www/class_CCTemplate.php:94
-#: www/class_Template.php:1533
+#: www/class_Template.php:1452
 msgid "Aug"
 msgstr ""
 
@@ -235,7 +235,7 @@ msgstr ""
 #. 
 #. File system/sources/sctrans2/class_Sourcesctrans2.php:534
 #. 
-#. File system/sources/liquidsoap/class_Sourceliquidsoap.php:177
+#. File system/sources/liquidsoap/class_Sourceliquidsoap.php:224
 #. 
 #. File system/sources/icessingleencoder/class_Sourceices.php:323
 #. 
@@ -268,7 +268,7 @@ msgstr ""
 #: www/client/modules/class_Module_importm3u.php:14
 #: system/sources/sctrans/class_Sourcesctrans.php:202
 #: system/sources/sctrans2/class_Sourcesctrans2.php:534
-#: system/sources/liquidsoap/class_Sourceliquidsoap.php:177
+#: system/sources/liquidsoap/class_Sourceliquidsoap.php:224
 #: system/sources/icessingleencoder/class_Sourceices.php:323
 #: system/sources/ices2/class_Ices2ServerInterface.php:221
 #: system/sources/ices2/class_Sourceices2.php:196
@@ -313,9 +313,9 @@ msgstr ""
 msgid "Client"
 msgstr ""
 
-#. File www/class_RPCApplication.php:152
+#. File www/class_RPCApplication.php:155
 #. 
-#: www/class_RPCApplication.php:152
+#: www/class_RPCApplication.php:155
 msgid "client authentication required"
 msgstr ""
 
@@ -463,10 +463,10 @@ msgstr ""
 
 #. File www/class_CCTemplate.php:94
 #. 
-#. File www/class_Template.php:1537
+#. File www/class_Template.php:1456
 #. 
 #: www/class_CCTemplate.php:94
-#: www/class_Template.php:1537
+#: www/class_Template.php:1456
 msgid "Dec"
 msgstr ""
 
@@ -564,7 +564,7 @@ msgstr ""
 #.     	<td width="130">{="E-mail address"}:</td>
 #.     	<td colspan="4"><input type="text" name="config[email]" size="50" maxlength="255" value="{$config.email|htmlentities}"
 #. 
-#. File system/class_AccountFields.php:847
+#. File system/class_AccountFields.php:850
 #. 
 #. File system/class_AccountFields.php:343
 #. 
@@ -572,7 +572,7 @@ msgstr ""
 #: www/system/templates/staffaccount_edit.tpl:105
 #: www/system/templates/configuration_reseller_basic.tpl:17
 #: www/system/templates/configuration_client_basic.tpl:120
-#: system/class_AccountFields.php:847
+#: system/class_AccountFields.php:850
 #: system/class_AccountFields.php:343
 msgid "E-mail address"
 msgstr ""
@@ -716,23 +716,23 @@ msgstr ""
 
 #. File www/class_CCTemplate.php:94
 #. 
-#. File www/class_Template.php:1527
+#. File www/class_Template.php:1446
 #. 
 #: www/class_CCTemplate.php:94
-#: www/class_Template.php:1527
+#: www/class_Template.php:1446
 msgid "Feb"
 msgstr ""
 
 #. File www/menu.php:337
 #. 
-#. File system/class_AccountFields.php:908
+#. File system/class_AccountFields.php:911
 #. 
 #. File system/servers/WindowsMedia/class_WindowsMediaConfig.php:25
 #. 
 #. File system/servers/IceCast/class_IceCastConfig.php:69
 #. 
 #: www/menu.php:337
-#: system/class_AccountFields.php:908
+#: system/class_AccountFields.php:911
 #: system/servers/WindowsMedia/class_WindowsMediaConfig.php:25
 #: system/servers/IceCast/class_IceCastConfig.php:69
 msgid "Files"
@@ -898,21 +898,21 @@ msgstr ""
 msgid "Instructions for resetting your password%shave been sent via E-mail to"
 msgstr ""
 
-#. File www/class_RPCApplication.php:168
+#. File www/class_RPCApplication.php:171
 #. 
 #. File www/client/rpc/class_RPClibrary.php:807
 #. 
 #. File www/client/rpc/class_RPClibrary.php:739
 #. 
-#: www/class_RPCApplication.php:168
+#: www/class_RPCApplication.php:171
 #: www/client/rpc/class_RPClibrary.php:807
 #: www/client/rpc/class_RPClibrary.php:739
 msgid "insufficient DJ privileges"
 msgstr ""
 
-#. File www/class_RPCApplication.php:159
+#. File www/class_RPCApplication.php:162
 #. 
-#: www/class_RPCApplication.php:159
+#: www/class_RPCApplication.php:162
 msgid "insufficient staff privileges"
 msgstr ""
 
@@ -948,28 +948,28 @@ msgstr ""
 
 #. File www/class_CCTemplate.php:94
 #. 
-#. File www/class_Template.php:1526
+#. File www/class_Template.php:1445
 #. 
 #: www/class_CCTemplate.php:94
-#: www/class_Template.php:1526
+#: www/class_Template.php:1445
 msgid "Jan"
 msgstr ""
 
 #. File www/class_CCTemplate.php:94
 #. 
-#. File www/class_Template.php:1532
+#. File www/class_Template.php:1451
 #. 
 #: www/class_CCTemplate.php:94
-#: www/class_Template.php:1532
+#: www/class_Template.php:1451
 msgid "Jul"
 msgstr ""
 
 #. File www/class_CCTemplate.php:94
 #. 
-#. File www/class_Template.php:1531
+#. File www/class_Template.php:1450
 #. 
 #: www/class_CCTemplate.php:94
-#: www/class_Template.php:1531
+#: www/class_Template.php:1450
 msgid "Jun"
 msgstr ""
 
@@ -1290,20 +1290,20 @@ msgstr ""
 
 #. File www/class_CCTemplate.php:94
 #. 
-#. File www/class_Template.php:1528
+#. File www/class_Template.php:1447
 #. 
 #: www/class_CCTemplate.php:94
-#: www/class_Template.php:1528
+#: www/class_Template.php:1447
 msgid "Mar"
 msgstr ""
 
-#. File www/class_Template.php:1530
+#. File www/class_Template.php:1449
 #. 
 #. File www/class_CCTemplate.php:94
 #. 
 #. File www/client/modules/class_Module_statistics.php:30
 #. 
-#: www/class_Template.php:1530
+#: www/class_Template.php:1449
 #: www/class_CCTemplate.php:94
 #: www/client/modules/class_Module_statistics.php:30
 msgid "May"
@@ -1868,18 +1868,18 @@ msgstr ""
 msgid "Not logged in"
 msgstr ""
 
-#. File www/class_RPCApplication.php:175
+#. File www/class_RPCApplication.php:178
 #. 
-#: www/class_RPCApplication.php:175
+#: www/class_RPCApplication.php:178
 msgid "not logged in or session timed out"
 msgstr ""
 
 #. File www/class_CCTemplate.php:94
 #. 
-#. File www/class_Template.php:1536
+#. File www/class_Template.php:1455
 #. 
 #: www/class_CCTemplate.php:94
-#: www/class_Template.php:1536
+#: www/class_Template.php:1455
 msgid "Nov"
 msgstr ""
 
@@ -1908,10 +1908,10 @@ msgstr ""
 
 #. File www/class_CCTemplate.php:94
 #. 
-#. File www/class_Template.php:1535
+#. File www/class_Template.php:1454
 #. 
 #: www/class_CCTemplate.php:94
-#: www/class_Template.php:1535
+#: www/class_Template.php:1454
 msgid "Oct"
 msgstr ""
 
@@ -2019,9 +2019,9 @@ msgstr ""
 msgid "Other"
 msgstr ""
 
-#. File www/class_RPCApplication.php:163
+#. File www/class_RPCApplication.php:166
 #. 
-#: www/class_RPCApplication.php:163
+#: www/class_RPCApplication.php:166
 msgid "outside of permitted DJ login times"
 msgstr ""
 
@@ -2216,9 +2216,9 @@ msgstr ""
 msgid "Please wait..."
 msgstr ""
 
-#. File www/class_Template.php:1633
+#. File www/class_Template.php:1552
 #. 
-#: www/class_Template.php:1633
+#: www/class_Template.php:1552
 msgid "PM"
 msgstr ""
 
@@ -2285,10 +2285,10 @@ msgstr ""
 msgid "Recent tracks list has been disabled for this stream."
 msgstr ""
 
-#. File www/class_RPCApplication.php:321
+#. File www/class_RPCApplication.php:324
 #. Arguments: $classname
 #. 
-#: www/class_RPCApplication.php:321
+#: www/class_RPCApplication.php:324
 msgid "Reference to unknown class: %s"
 msgstr ""
 
@@ -2359,9 +2359,9 @@ msgstr ""
 msgid "Reseller"
 msgstr ""
 
-#. File www/class_RPCApplication.php:151
+#. File www/class_RPCApplication.php:154
 #. 
-#: www/class_RPCApplication.php:151
+#: www/class_RPCApplication.php:154
 msgid "reseller privileges required"
 msgstr ""
 
@@ -2427,10 +2427,10 @@ msgstr ""
 
 #. File www/class_CCTemplate.php:94
 #. 
-#. File www/class_Template.php:1534
+#. File www/class_Template.php:1453
 #. 
 #: www/class_CCTemplate.php:94
-#: www/class_Template.php:1534
+#: www/class_Template.php:1453
 msgid "Sep"
 msgstr ""
 
@@ -2902,9 +2902,9 @@ msgstr ""
 msgid "Tip"
 msgstr ""
 
-#. File www/class_Template.php:1406
+#. File www/class_Template.php:1321
 #. 
-#: www/class_Template.php:1406
+#: www/class_Template.php:1321
 msgid "Today"
 msgstr ""
 
@@ -3094,7 +3094,7 @@ msgstr ""
 #.     	<tr><td>{="Username"}:</td><td style="font-weight: bold">{$account.username}</td></tr>
 #.     	{if $account.reseller==0}
 #. 
-#. File system/class_AccountFields.php:805
+#. File system/class_AccountFields.php:808
 #. 
 #. File system/class_AccountFields.php:315
 #. 
@@ -3138,7 +3138,7 @@ msgstr ""
 #: www/system/templates/djaccount_list.tpl:23
 #: www/system/templates/djaccount_edit.tpl:37
 #: www/system/templates/account_created_details_basic.tpl:3
-#: system/class_AccountFields.php:805
+#: system/class_AccountFields.php:808
 #: system/class_AccountFields.php:315
 #: www/system/templates/admin_accounts.tpl:153
 #: www/system/templates/admin_accounts.tpl:119
@@ -3181,7 +3181,7 @@ msgstr ""
 msgid "Warning"
 msgstr ""
 
-#. File www/class_RPCApplication.php:121
+#. File www/class_RPCApplication.php:124
 #. 
 #. File www/system/templates/uncaught_exception.tpl:54
 #. Context: {otherwise}
@@ -3189,7 +3189,7 @@ msgstr ""
 #. 
 #. File system/class_Application.php:214
 #. 
-#: www/class_RPCApplication.php:121
+#: www/class_RPCApplication.php:124
 #: www/system/templates/uncaught_exception.tpl:54
 #: system/class_Application.php:214
 msgid "We apologize for the inconvenience, but an internal error has occurred.  Please try again later."
@@ -3228,13 +3228,13 @@ msgstr ""
 #. 
 #. File system/class_StreamingSource.php:283
 #. 
-#. File system/class_AccountFields.php:905
+#. File system/class_AccountFields.php:908
 #. 
 #: www/menu.php:478
 #: www/menu.php:230
 #: www/client/modules/class_Module_widgets.php:15
 #: system/class_StreamingSource.php:283
-#: system/class_AccountFields.php:905
+#: system/class_AccountFields.php:908
 msgid "Widgets"
 msgstr ""
 
@@ -3566,14 +3566,14 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#. File www/class_Template.php:1407
+#. File www/class_Template.php:1322
 #. 
 #. File www/system/templates/statistics.tpl:25
 #. Context: <div style="float: right">
 #.     					<a href="#" onclick="set_period(1); return false">{="Yesterday"}</a> |
 #.     					<a href="#" onclick="set_period(7); return false">{="%s days",7}</a> |
 #. 
-#: www/class_Template.php:1407
+#: www/class_Template.php:1322
 #: www/system/templates/statistics.tpl:25
 msgid "Yesterday"
 msgstr ""
