@@ -9862,7 +9862,7 @@ msgstr "Überspringe den Aktuellen Titel und starte den nächsten"
 #.
 #: www/system/templates/autodj_control.tpl:12
 msgid "Skip this song."
-msgstr "Musiktitel überspringen."
+msgstr "Musiktitel überspringen"
 
 #. File www/system/templates/import_m3u.tpl:23
 #. Context: <option value="0">{="Add duplicate tracks to target playlist"}</option>
@@ -10276,7 +10276,7 @@ msgstr "Stopp autoDJ"
 #.
 #: www/client/modules/class_Module_control.php:106
 msgid "Stop the autoDJ for live streaming"
-msgstr "Stoppen des autoDJ für Live-Streaming"
+msgstr "Stoppen des AutoDJ für Live-Streaming"
 
 #. File www/client/modules/class_Module_control.php:113
 #.

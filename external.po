@@ -2548,7 +2548,7 @@ msgstr "Start"
 #.
 #: www/menu.php:414 www/system/templates/autodj_control.tpl:13
 msgid "Start the autoDJ"
-msgstr "Starten Sie den autoDJ"
+msgstr "AutoDJ starten"
 
 #. File www/menu.php:242
 #.
