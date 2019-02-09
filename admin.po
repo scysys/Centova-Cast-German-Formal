@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
-"POT-Creation-Date: 2018-10-08 17:24-0700\n"
-"PO-Revision-Date: 2018-10-11 21:29+0200\n"
+"POT-Creation-Date: 2018-11-08 13:30-0800\n"
+"PO-Revision-Date: 2019-02-09 02:37+0100\n"
 "Last-Translator: scysys <scysys@outlook.com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
@@ -707,40 +707,14 @@ msgstr "Mitarbeiterzugang zu Centova Cast konfigurieren"
 msgid "Content"
 msgstr "Inhalt"
 
-#. File www/system/templates/admin_accounts.tpl:73
-#. Context: delete">{="Delete the client accounts"}</label><br /><br />
-#. <input type="button" id="resellerdeletedialog_continue" value="{="Continue"}" /> <input type="button" id="resellerdeletedialog_cancel" value="{="Cancel"}" />
-#. </form>
-#.
-#. File www/system/templates/admin_accounts.tpl:57
-#. Context: <input type="button" id="confirmdialog_continue" value="{="Continue"}" /> <input type="button" id="confirmdialog_cancel" value="{="Cancel"}" />
-#. </form>
-#.
-#. File www/system/templates/installation_diagnostics_complete.tpl:4
-#. Context: <input type="hidden" name="step" value="settings" />
-#. <input type="submit" value="{="Continue"} &gt;" {if $errors>0}disabled="disabled" {/if}/>
-#. </form>
-#.
-#. File www/system/templates/installation_welcome.tpl:15
-#. Context: <input type="hidden" name="step" value="settings" />
-#. <input type="submit" value="{="Continue"} &gt;"/>
-#. </form>
-#.
-#: www/system/templates/admin_accounts.tpl:73
-#: www/system/templates/admin_accounts.tpl:57
-#: www/system/templates/installation_diagnostics_complete.tpl:4
-#: www/system/templates/installation_welcome.tpl:15
-msgid "Continue"
-msgstr "Fortsetzen"
-
 #. File www/admin/rpc/class_RPClogmanager.php:175
 #.
 #. File www/admin/rpc/class_RPClogmanager.php:168
 #.
-#. File system/class_ServerControl.php:590
+#. File system/class_ServerControl.php:591
 #.
 #: www/admin/rpc/class_RPClogmanager.php:175
-#: www/admin/rpc/class_RPClogmanager.php:168 system/class_ServerControl.php:590
+#: www/admin/rpc/class_RPClogmanager.php:168 system/class_ServerControl.php:591
 msgid "Could not access log file"
 msgstr "Konnte nicht auf die Protokolldatei zugreifen"
 
@@ -1554,9 +1528,9 @@ msgstr "Lade Accounts"
 
 #. File www/admin/rpc/class_RPClogmanager.php:155
 #.
-#. File system/class_ServerControl.php:579
+#. File system/class_ServerControl.php:580
 #.
-#: www/admin/rpc/class_RPClogmanager.php:155 system/class_ServerControl.php:579
+#: www/admin/rpc/class_RPClogmanager.php:155 system/class_ServerControl.php:580
 msgid "Log file does not exist"
 msgstr ""
 
@@ -3612,6 +3586,9 @@ msgid ""
 "Your statistics graphs are not working at this time.  Please ensure that "
 "PHP's GD extension is installed (including PNG and FreeType support)."
 msgstr ""
+
+#~ msgid "Continue"
+#~ msgstr "Fortsetzen"
 
 #~ msgid "Notify clients via E-mail when"
 #~ msgstr "Benachrichtige Kunde per E-Mail wenn"

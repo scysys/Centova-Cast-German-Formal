@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2018-10-08 17:24-0700\n"
-"PO-Revision-Date: 2018-10-08 17:24-0700\n"
+"POT-Creation-Date: 2018-11-08 13:30-0800\n"
+"PO-Revision-Date: 2018-11-08 13:30-0800\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -281,7 +281,7 @@ msgstr "%s GB"
 #.     				<option value="{$samplerate}">{="%s Hz",$samplerate}</option>
 #.     				{/loop}
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:115
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:117
 #. Arguments: $samplerate
 #. Context: {loop $samplerate=$samplerates|explode:",":1000}
 #.     				<option value="{$samplerate}">{="%s Hz",$samplerate}</option>
@@ -293,7 +293,7 @@ msgstr "%s GB"
 #.     				<option value="{$samplerate}"{if $config.mountpoints.icessamplerate==$samplerate} selected="selected"{/if}>{="%s Hz",$samplerate}</option>
 #.     				{/loop}
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:101
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:103
 #. Arguments: $samplerate
 #. Context: {loop $samplerate=$opussamplerates|explode:",":1000}
 #.     				<option value="{$samplerate}">{="%s Hz",$samplerate}</option>
@@ -314,9 +314,9 @@ msgstr "%s GB"
 #: www/system/templates/configuration_client_source.tpl:109
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:30
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:41
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:115
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:117
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:61
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:101
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:103
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:61
 #: www/system/templates/admin_settings.tpl:241
 msgid "%s Hz"
@@ -948,12 +948,12 @@ msgstr ""
 msgid "Account Information"
 msgstr ""
 
+#. File www/reseller/modules/class_Module_manageaccount.php:10
+#. 
 #. File www/system/templates/new_account_form.tpl:6
 #. Context: {if $template_editor==0}
 #.         <h1>{="Account Management"}</h1>
 #.         <h2>{="New account"}</h2>
-#. 
-#. File www/reseller/modules/class_Module_manageaccount.php:10
 #. 
 #. File www/reseller/modules/class_Module_accounts_base.php:16
 #. 
@@ -963,18 +963,21 @@ msgstr ""
 #. 
 #. File www/admin/modules/class_Module_accountstats.php:14
 #. 
-#. File www/admin/modules/class_Module_manageaccount.php:12
+#. File www/admin/modules/class_Module_convertaccount.php:11
 #. 
 #. File www/admin/modules/class_Module_resellerpassword.php:11
 #. 
-#: www/system/templates/new_account_form.tpl:6
+#. File www/admin/modules/class_Module_manageaccount.php:12
+#. 
 #: www/reseller/modules/class_Module_manageaccount.php:10
+#: www/system/templates/new_account_form.tpl:6
 #: www/reseller/modules/class_Module_accounts_base.php:16
 #: www/reseller/modules/class_Module_accounts.php:12
 #: www/reseller/modules/class_Module_accountstats.php:12
 #: www/admin/modules/class_Module_accountstats.php:14
-#: www/admin/modules/class_Module_manageaccount.php:12
+#: www/admin/modules/class_Module_convertaccount.php:11
 #: www/admin/modules/class_Module_resellerpassword.php:11
+#: www/admin/modules/class_Module_manageaccount.php:12
 msgid "Account Management"
 msgstr ""
 
@@ -982,6 +985,23 @@ msgstr ""
 #. 
 #: www/client/modules/class_Module_index.php:21
 msgid "Account Overview"
+msgstr ""
+
+#. File www/system/templates/convert_account.tpl:9
+#. Context: {box title="Account Software Change"}
+#.     	<p>
+#. 
+#: www/system/templates/convert_account.tpl:9
+msgid "Account Software Change"
+msgstr ""
+
+#. File www/reseller/modules/class_Module_convertaccount.php:10
+#. 
+#. File www/admin/modules/class_Module_convertaccount.php:12
+#. 
+#: www/reseller/modules/class_Module_convertaccount.php:10
+#: www/admin/modules/class_Module_convertaccount.php:12
+msgid "Account software conversion"
 msgstr ""
 
 #. File www/reseller/modules/class_Module_manageaccount_base.php:24
@@ -1062,10 +1082,10 @@ msgstr ""
 
 #. File www/client/modules/class_Module_confeditor.php:75
 #. 
-#. File system/class_ServerControl.php:2563
+#. File system/class_ServerControl.php:2565
 #. 
 #: www/client/modules/class_Module_confeditor.php:75
-#: system/class_ServerControl.php:2563
+#: system/class_ServerControl.php:2565
 msgid "administrator"
 msgstr ""
 
@@ -1363,6 +1383,15 @@ msgstr ""
 msgid "Alternate Character Encodings"
 msgstr ""
 
+#. File www/system/templates/convert_account.tpl:6
+#. Context: {elseif $failure}
+#.     	{box title="Update Failed"}{="An error occurred while attempting to perform this software change"}:<br><br><span style="color: red">{$error}</span>{/box}
+#.     {/if}
+#. 
+#: www/system/templates/convert_account.tpl:6
+msgid "An error occurred while attempting to perform this software change"
+msgstr ""
+
 #. File www/system/templates/change_password.tpl:18
 #. Context: {elseif $failure}
 #.     {box title="Update Failed"}{="An error occurred while attempting to save this update"}. {="Please correct the fields marked below."}{/box}
@@ -1383,11 +1412,11 @@ msgstr ""
 #.     {box title="Update Failed"}{="An error occurred while attempting to save this update"}.{/box}
 #.     {/if}
 #. 
-#. File system/class_ServerControl.php:1633
+#. File system/class_ServerControl.php:1634
 #. 
 #. File system/AccountManagerDrivers/mutators/class_TemplateMutator.php:117
 #. 
-#. File system/class_ServerControl.php:1631
+#. File system/class_ServerControl.php:1632
 #. 
 #. File system/AccountManagerDrivers/mutators/class_TemplateMutator.php:46
 #. 
@@ -1395,9 +1424,9 @@ msgstr ""
 #: www/system/templates/admin_settings.tpl:30
 #: www/system/templates/admin_servertype_edit.tpl:5
 #: www/system/templates/admin_email.tpl:89
-#: system/class_ServerControl.php:1633
+#: system/class_ServerControl.php:1634
 #: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:117
-#: system/class_ServerControl.php:1631
+#: system/class_ServerControl.php:1632
 #: system/AccountManagerDrivers/mutators/class_TemplateMutator.php:46
 msgid "An error occurred while attempting to save this update"
 msgstr ""
@@ -1965,7 +1994,7 @@ msgstr ""
 #.     			<td>{="Bit rate"}:&nbsp;</td>
 #.     			<td>{bitrate_field name="{$mpfieldname}[icesmaximumbitrate]" size="1" class="list_editor_field mpbitrate encod
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:58
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:60
 #. Context: <tr>
 #.     			<td>{="Bit rate"}:&nbsp;</td>
 #.     			<td>{bitrate_field name="mountpoints_field[liqbitrate]" size="1" class="list_editor_field mpbitrate" value=$co
@@ -1977,7 +2006,7 @@ msgstr ""
 #. 
 #. File system/sources/ices/srvintf/class_IcesServerInterface.php:166
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:62
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:64
 #. Context: <tr>
 #.     			<td>{="Bit rate"}:&nbsp;</td>
 #.     			<td>{bitrate_field name="mountpoints_field[liqopusbitrate]" size="1" class="list_editor_field mpbitrate" value
@@ -2009,10 +2038,10 @@ msgstr ""
 #: system/servers/IceCast/templates/connection_details.tpl:46
 #: system/servers/IceCast/templates/connection_details.tpl:12
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:38
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:58
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:60
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:69
 #: system/sources/ices/srvintf/class_IcesServerInterface.php:166
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:62
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:64
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:604
 #: system/sources/sctrans2/class_Sourcesctrans2.php:524
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:20
@@ -2103,7 +2132,7 @@ msgstr ""
 #.     	<input type="button" value="{="Cancel"}" onclick="window.location='{$indexself}'; return false" />
 #.     {/box}
 #. 
-#. File www/system/templates/configuration_form.tpl:69
+#. File www/system/templates/configuration_form.tpl:70
 #. Context: if $creating}create{else}update{/if}" value="{if $creating}{="Create"}{else}{="Update"}{/if}" />
 #.     <input type="button" value="{="Cancel"}" onclick="window.location='index.php?page={if $template_editor==0}accounts{else}accounttemplates{/if}'; return false" />
 #. 
@@ -2197,7 +2226,7 @@ msgstr ""
 #: www/system/templates/statistics.tpl:49
 #: www/system/templates/filemanager.tpl:118
 #: www/system/templates/djaccount_edit.tpl:154
-#: www/system/templates/configuration_form.tpl:69
+#: www/system/templates/configuration_form.tpl:70
 #: www/system/templates/library.tpl:188
 #: www/system/templates/playlist_edit.tpl:333
 #: www/system/templates/library.tpl:44
@@ -2261,6 +2290,23 @@ msgstr ""
 msgid "Change account statuses"
 msgstr ""
 
+#. File www/system/templates/configuration_form.tpl:61
+#. Context: ation='index.php?page=manageaccount&action=rename&username={$config.username|htmlentities}'" />
+#.     	<input type="button" value="{="Change account type"}" onclick="window.location='index.php?page=convertaccount&username={$config.username|htmlentities}'" />
+#.     {/check}
+#. 
+#: www/system/templates/configuration_form.tpl:61
+msgid "Change account type"
+msgstr ""
+
+#. File www/system/templates/account_rename.tpl:1
+#. Context: {box title="Change Account Username"}
+#.     	<form method="get" action="index.php">
+#. 
+#: www/system/templates/account_rename.tpl:1
+msgid "Change Account Username"
+msgstr ""
+
 #. File www/system/templates/account_rename.tpl:27
 #. Context: <input type="hidden" name="username" value="{$old_username|htmlentities}" />
 #.     		<input type="submit" name="confirm" value="{="Change account username"}" />
@@ -2273,7 +2319,7 @@ msgstr ""
 #. File www/system/templates/configuration_form.tpl:60
 #. Context: w.location='index.php?page=accounts&action=setuid&username={$config.username|htmlentities}'" />
 #.     	<input type="button" value="{="Change account username"}" onclick="window.location='index.php?page=manageaccount&action=rename&username={$config.username|htmlentities}'" />
-#.     {/check}
+#.     	<input t
 #. 
 #. File www/reseller/modules/class_Module_manageaccount_base.php:20
 #. 
@@ -2284,14 +2330,6 @@ msgstr ""
 msgid "Change account username"
 msgstr ""
 
-#. File www/system/templates/account_rename.tpl:1
-#. Context: {box title="Change Account Username"}
-#.     	<form method="get" action="index.php">
-#. 
-#: www/system/templates/account_rename.tpl:1
-msgid "Change Account Username"
-msgstr ""
-
 #. File www/system/templates/configuration_form.tpl:53
 #. Context: {check ($reseller_editor>0) && ($creating==0) && ($template_editor==0)}
 #.     	<input type="button" value="{="Change password"}" onclick="window.location='index.php?page=resellerpassword{if $admin}&username={$config.username|htmlentities}{/if}'" />
@@ -2299,6 +2337,15 @@ msgstr ""
 #. 
 #: www/system/templates/configuration_form.tpl:53
 msgid "Change password"
+msgstr ""
+
+#. File www/system/templates/convert_account.tpl:25
+#. Context: <th>{="Current"}</th>
+#.     		<th>{="Change To"}</th>
+#.     	</tr>
+#. 
+#: www/system/templates/convert_account.tpl:25
+msgid "Change To"
 msgstr ""
 
 #. File www/system/templates/change_password.tpl:27
@@ -2341,12 +2388,12 @@ msgstr ""
 #. 
 #. File system/sources/ices/srvintf/class_IcesServerInterface.php:168
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:76
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:78
 #. Context: <tr>
 #.     			<td>{="Channels"}:&nbsp;</td>
 #.     			<td>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:85
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:87
 #. Context: <tr>
 #.     			<td>{="Channels"}:&nbsp;</td>
 #.     			<td>
@@ -2367,8 +2414,8 @@ msgstr ""
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:600
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:45
 #: system/sources/ices/srvintf/class_IcesServerInterface.php:168
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:76
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:85
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:78
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:87
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:599
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:45
 msgid "Channels"
@@ -2587,11 +2634,11 @@ msgstr ""
 #.     		complete: '{="Complete"}',
 #.     		initializing: '{="Initializing"}',
 #. 
-#. File system/class_ServerControl.php:752
+#. File system/class_ServerControl.php:753
 #. 
-#. File system/class_ServerControl.php:687
+#. File system/class_ServerControl.php:688
 #. 
-#. File system/class_ServerControl.php:476
+#. File system/class_ServerControl.php:477
 #. 
 #. File www/system/templates/admin_accounts.tpl:27
 #. Context: processing_account: '{="Processing account %s ..."}',
@@ -2603,22 +2650,22 @@ msgstr ""
 #.     		complete: '{="Complete"}',
 #.     		initializing: '{="Initializing"}',
 #. 
-#. File system/class_ServerControl.php:771
+#. File system/class_ServerControl.php:772
 #. 
-#. File system/class_ServerControl.php:298
+#. File system/class_ServerControl.php:299
 #. 
-#. File system/class_ServerControl.php:1669
+#. File system/class_ServerControl.php:1670
 #. 
 #: www/system/templates/upload_single.tpl:5
 #: www/system/templates/library.tpl:57
-#: system/class_ServerControl.php:752
-#: system/class_ServerControl.php:687
-#: system/class_ServerControl.php:476
+#: system/class_ServerControl.php:753
+#: system/class_ServerControl.php:688
+#: system/class_ServerControl.php:477
 #: www/system/templates/admin_accounts.tpl:27
 #: www/system/templates/admin_utilities.tpl:6
-#: system/class_ServerControl.php:771
-#: system/class_ServerControl.php:298
-#: system/class_ServerControl.php:1669
+#: system/class_ServerControl.php:772
+#: system/class_ServerControl.php:299
+#: system/class_ServerControl.php:1670
 msgid "Complete"
 msgstr ""
 
@@ -2723,6 +2770,37 @@ msgstr ""
 msgid "Construct your playlist by copying tracks from your media library to your playlist."
 msgstr ""
 
+#. File www/system/templates/convert_account.tpl:31
+#. Context: {box title="Continue"}
+#.     <input type="hidden" name="username" value="{$username|htmlentities}" />
+#. 
+#. File www/system/templates/admin_accounts.tpl:73
+#. Context: delete">{="Delete the client accounts"}</label><br /><br />
+#.     		<input type="button" id="resellerdeletedialog_continue" value="{="Continue"}" /> <input type="button" id="resellerdeletedialog_cancel" value="{="Cancel"}" />
+#.     	</form>
+#. 
+#. File www/system/templates/admin_accounts.tpl:57
+#. Context: <input type="button" id="confirmdialog_continue" value="{="Continue"}" /> <input type="button" id="confirmdialog_cancel" value="{="Cancel"}" />
+#.     	</form>
+#. 
+#. File www/system/templates/installation_diagnostics_complete.tpl:4
+#. Context: <input type="hidden" name="step" value="settings" />
+#.     			<input type="submit" value="{="Continue"} &gt;" {if $errors>0}disabled="disabled" {/if}/>
+#.     			</form>
+#. 
+#. File www/system/templates/installation_welcome.tpl:15
+#. Context: <input type="hidden" name="step" value="settings" />
+#.     			<input type="submit" value="{="Continue"} &gt;"/>
+#.     			</form>
+#. 
+#: www/system/templates/convert_account.tpl:31
+#: www/system/templates/admin_accounts.tpl:73
+#: www/system/templates/admin_accounts.tpl:57
+#: www/system/templates/installation_diagnostics_complete.tpl:4
+#: www/system/templates/installation_welcome.tpl:15
+msgid "Continue"
+msgstr ""
+
 #. File www/system/templates/filemanager.tpl:78
 #. Context: <input type="button" id="btn_copy" onclick="window.fm.populate_clipboard(true)" value="{="Copy"}" />
 #.     			<input type="button" id="btn_cut" onclick="window.fm.populate_clipboard(false)" value="{="Cut"}" />
@@ -2805,13 +2883,13 @@ msgstr ""
 #. Context: <input id="newacct_submit" name="submitdetails" type="{check $cancreate==0}button{otherwise}submit{/check}" value="{="Create"}" />
 #.         <input id="newacct_cancel" type="button" value="{="Cancel"}" />
 #. 
-#. File www/system/templates/configuration_form.tpl:68
+#. File www/system/templates/configuration_form.tpl:69
 #. Context: <input type="submit" name="{if $creating}create{else}update{/if}" value="{if $creating}{="Create"}{else}{="Update"}{/if}" />
 #.     <input type="button" value="{="Cancel"}" onclick="window.location='index.php?page={if $template_edi
 #. 
 #: www/system/templates/filemanager.tpl:117
 #: www/system/templates/new_account_form.tpl:111
-#: www/system/templates/configuration_form.tpl:68
+#: www/system/templates/configuration_form.tpl:69
 msgid "Create"
 msgstr ""
 
@@ -2922,6 +3000,15 @@ msgstr ""
 #: system/sources/sctrans2/class_Sourcesctrans2.php:576
 #: system/sources/sctrans2/templates/configuration_source.tpl:3
 msgid "Crossfade length"
+msgstr ""
+
+#. File www/system/templates/convert_account.tpl:24
+#. Context: <tr>
+#.     		<th>{="Current"}</th>
+#.     		<th>{="Change To"}</th>
+#. 
+#: www/system/templates/convert_account.tpl:24
+msgid "Current"
 msgstr ""
 
 #. File www/system/templates/googlemaps_body.tpl:18
@@ -3236,13 +3323,13 @@ msgstr ""
 #.     			<option value="">{="Default"}</option>
 #.     			{loop $mountpoint=$mountpoints}
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:132
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:134
 #. Context: <select name="mountpoints_field[liqstereo_mode]" class="list_editor_field" size="1">
 #.     					<option value="default">{="Default"}</option>
 #.     					<option value="stereo">{="Stereo"}</option>
 #. 
 #: www/system/templates/widgets.tpl:26
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:132
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:134
 msgid "Default"
 msgstr ""
 
@@ -3966,6 +4053,14 @@ msgstr ""
 msgid "Edit account %s"
 msgstr ""
 
+#. File www/system/templates/account_template_updated.tpl:1
+#. Context: {box title="Edit Account Template"}
+#.     	{="Account template updated successfully."}<br /><br />
+#. 
+#: www/system/templates/account_template_updated.tpl:1
+msgid "Edit Account Template"
+msgstr ""
+
 #. File www/system/templates/account_template_list.tpl:46
 #. Context: ns/delete.png" border="0" align="absmiddle" /></a>
 #.     		<a href="{$indexself}&action=edit&id={$accounttemplate.id}"><img title="{="Edit account template"}" src="../system/images/icons/edit.png" border="0" align="absmiddle" /></a>
@@ -3973,14 +4068,6 @@ msgstr ""
 #. 
 #: www/system/templates/account_template_list.tpl:46
 msgid "Edit account template"
-msgstr ""
-
-#. File www/system/templates/account_template_updated.tpl:1
-#. Context: {box title="Edit Account Template"}
-#.     	{="Account template updated successfully."}<br /><br />
-#. 
-#: www/system/templates/account_template_updated.tpl:1
-msgid "Edit Account Template"
 msgstr ""
 
 #. File www/system/templates/staffaccount_edit.tpl:133
@@ -4454,19 +4541,22 @@ msgstr ""
 #. File www/client/modules/class_Module_index.php:14
 #. Arguments: $account['title']
 #. 
+#. File www/reseller/modules/class_Module_accounts_base.php:16
+#. Arguments: $settings['sitename']
+#. 
 #. File www/reseller/modules/class_Module_accounts.php:12
 #. Arguments: $account['organization']
 #. 
-#. File www/reseller/modules/class_Module_accounts_base.php:16
-#. Arguments: $settings['sitename']
+#. File www/reseller/modules/class_Module_convertaccount.php:9
+#. Arguments: $org
 #. 
 #. File www/reseller/modules/class_Module_resellerpassword.php:9
 #. Arguments: $org
 #. 
-#. File www/reseller/modules/class_Module_accountstats.php:12
+#. File www/reseller/modules/class_Module_manageaccount.php:10
 #. Arguments: $org
 #. 
-#. File www/reseller/modules/class_Module_manageaccount.php:10
+#. File www/reseller/modules/class_Module_accountstats.php:12
 #. Arguments: $org
 #. 
 #. File www/reseller/modules/class_Module_configure.php:12
@@ -4481,13 +4571,16 @@ msgstr ""
 #. File www/admin/modules/class_Module_manageaccount.php:12
 #. Arguments: $settings['sitename']
 #. 
-#. File www/admin/modules/class_Module_utilities.php:10
+#. File www/admin/modules/class_Module_emails.php:11
+#. Arguments: $settings['sitename']
+#. 
+#. File www/admin/modules/class_Module_convertaccount.php:11
 #. Arguments: $settings['sitename']
 #. 
 #. File www/admin/modules/class_Module_diagnostics.php:11
 #. Arguments: $settings['sitename']
 #. 
-#. File www/admin/modules/class_Module_emails.php:11
+#. File www/admin/modules/class_Module_utilities.php:10
 #. Arguments: $settings['sitename']
 #. 
 #. File www/admin/modules/class_Module_settings.php:9
@@ -4503,18 +4596,20 @@ msgstr ""
 #: www/client/modules/class_Module_quicklinks.php:12
 #: www/reseller/modules/class_Module_reselleremails.php:9
 #: www/client/modules/class_Module_index.php:14
-#: www/reseller/modules/class_Module_accounts.php:12
 #: www/reseller/modules/class_Module_accounts_base.php:16
+#: www/reseller/modules/class_Module_accounts.php:12
+#: www/reseller/modules/class_Module_convertaccount.php:9
 #: www/reseller/modules/class_Module_resellerpassword.php:9
-#: www/reseller/modules/class_Module_accountstats.php:12
 #: www/reseller/modules/class_Module_manageaccount.php:10
+#: www/reseller/modules/class_Module_accountstats.php:12
 #: www/reseller/modules/class_Module_configure.php:12
 #: www/admin/modules/class_Module_accountstats.php:14
 #: www/admin/modules/class_Module_sessions.php:12
 #: www/admin/modules/class_Module_manageaccount.php:12
-#: www/admin/modules/class_Module_utilities.php:10
-#: www/admin/modules/class_Module_diagnostics.php:11
 #: www/admin/modules/class_Module_emails.php:11
+#: www/admin/modules/class_Module_convertaccount.php:11
+#: www/admin/modules/class_Module_diagnostics.php:11
+#: www/admin/modules/class_Module_utilities.php:10
 #: www/admin/modules/class_Module_settings.php:9
 #: www/admin/modules/class_Module_adminpassword.php:10
 #: www/admin/modules/class_Module_resellerpassword.php:11
@@ -4597,15 +4692,6 @@ msgstr ""
 msgid "General Configuration"
 msgstr ""
 
-#. File www/system/templates/playlist_list.tpl:35
-#. Context: <td class="row{$_loop.oetxt}{$_loop.lasttxt}">
-#.     		{if $playlist.type=="general"}{="General Rotation"}
-#.     		{elseif $playlist.type=="scheduled"}{="Scheduled"}
-#. 
-#: www/system/templates/playlist_list.tpl:35
-msgid "General Rotation"
-msgstr ""
-
 #. File www/system/templates/playlist_edit.tpl:119
 #. Context: change="update_panes()" id="playlisttype">
 #.     			<option value="general"{if $playlist.type=="general"} selected="selected"{/if}>{="General rotation"}</option>
@@ -4613,6 +4699,15 @@ msgstr ""
 #. 
 #: www/system/templates/playlist_edit.tpl:119
 msgid "General rotation"
+msgstr ""
+
+#. File www/system/templates/playlist_list.tpl:35
+#. Context: <td class="row{$_loop.oetxt}{$_loop.lasttxt}">
+#.     		{if $playlist.type=="general"}{="General Rotation"}
+#.     		{elseif $playlist.type=="scheduled"}{="Scheduled"}
+#. 
+#: www/system/templates/playlist_list.tpl:35
+msgid "General Rotation"
 msgstr ""
 
 #. File www/system/templates/playlist_edit.tpl:146
@@ -5046,6 +5141,16 @@ msgstr ""
 msgid "Included Columns"
 msgstr ""
 
+#. File www/system/templates/convert_account_app.tpl:7
+#. Arguments: $alt.conflict
+#. Context: loop $alt=$app.alternatives}
+#.     	<option value="{$alt.type}"{if $alt.conflict!=""} disabled{/if}>{$alt.type}{if $alt.conflict} ({="incompatible with %s",$alt.conflict}){/if}</option>
+#.     {/loop}
+#. 
+#: www/system/templates/convert_account_app.tpl:7
+msgid "incompatible with %s"
+msgstr ""
+
 #. File www/system/templates/configfile_editor.tpl:41
 #. Context: utton"><div id="tbreplace" title="{="Search and replace"}"></div></div>
 #.     			<div class="toolbutton"><div id="tbindent" title="{="Increase indent"}"></div></div>
@@ -5228,6 +5333,16 @@ msgstr ""
 #: system/class_AccountFields.php:811
 #: www/system/templates/admin_rpchost_edit.tpl:7
 msgid "IP address"
+msgstr ""
+
+#. File www/system/templates/convert_account.tpl:16
+#. Arguments: "<strong>","</strong>"
+#. Context: <p>
+#.     	{="It is strongly recommended that you %sback up the account%s prior to performing a software conversion. Note that aside from restoring from backup, it is not possible to revert the changes made by this utility.","<strong>","</strong>"}
+#.     	</p>
+#. 
+#: www/system/templates/convert_account.tpl:16
+msgid "It is strongly recommended that you %sback up the account%s prior to performing a software conversion. Note that aside from restoring from backup, it is not possible to revert the changes made by this utility."
 msgstr ""
 
 #. File www/system/templates/filemanager.tpl:16
@@ -5822,7 +5937,7 @@ msgstr ""
 #. 
 #. File system/class_AccountFields.php:829
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:70
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:72
 #. Context: <tr>
 #.     			<td>{="Maximum bit rate"}:&nbsp;</td>
 #.     			<td>{bitrate_field name="mountpoints_field[liqmax_bitrate]" size="1" class="list_editor_field mpbitrate mptipl
@@ -5860,7 +5975,7 @@ msgstr ""
 #: www/system/templates/reseller_index.tpl:55
 #: system/class_AccountFields.php:335
 #: system/class_AccountFields.php:829
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:70
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:72
 #: system/servers/WindowsMedia/templates/connection_details.tpl:11
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:606
 #: system/servers/WindowsMedia/templates/connection_details.tpl:21
@@ -5928,15 +6043,6 @@ msgstr ""
 msgid "MB"
 msgstr ""
 
-#. File www/system/templates/m/index.tpl:23
-#. Context: <ul data-role="listview" id="recent_tracks_list">
-#.     			<li><a href="index.php?page=library">{="Media library"}</a></li>
-#.     			<li><a href="index.php?page=playlists">{="Configure playlists"}</a></li>
-#. 
-#: www/system/templates/m/index.tpl:23
-msgid "Media library"
-msgstr ""
-
 #. File www/system/templates/playlist.tpl:2
 #. Context: <form action="{$_SERVER.REQUEST_URI|htmlentities}" method="post">
 #.     	<div id="heading_library">{="Media Library"}</div>
@@ -5956,6 +6062,15 @@ msgstr ""
 #: www/system/templates/playlist_list.tpl:65
 #: www/system/templates/library.tpl:16
 msgid "Media Library"
+msgstr ""
+
+#. File www/system/templates/m/index.tpl:23
+#. Context: <ul data-role="listview" id="recent_tracks_list">
+#.     			<li><a href="index.php?page=library">{="Media library"}</a></li>
+#.     			<li><a href="index.php?page=playlists">{="Configure playlists"}</a></li>
+#. 
+#: www/system/templates/m/index.tpl:23
+msgid "Media library"
 msgstr ""
 
 #. File www/system/templates/library.tpl:55
@@ -6108,7 +6223,7 @@ msgstr ""
 #.     				<option value="1">{="Mono"}</option>
 #.     				</select>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:89
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:91
 #. Context: <option value="true">{="Stereo"}</option>
 #.     				<option value="false">{="Mono"}</option>
 #.     				</select>
@@ -6118,7 +6233,7 @@ msgstr ""
 #.     				<option value="1"{if $config.mountpoints.iceschannels==1} selected="selected"{/if}>{="Mono"}</option>
 #.     				</select>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:80
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:82
 #. Context: <option value="2">{="Stereo"}</option>
 #.     				<option value="1">{="Mono"}</option>
 #.     				</select>
@@ -6136,9 +6251,9 @@ msgstr ""
 #: www/system/templates/configuration_client_source.tpl:95
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:18
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:28
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:89
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:91
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:49
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:80
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:82
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:49
 #: www/system/templates/admin_settings.tpl:228
 msgid "Mono"
@@ -6285,7 +6400,7 @@ msgstr ""
 #. 
 #. File system/sources/ices2/class_Ices2ServerInterface.php:230
 #. 
-#. File system/sources/liquidsoap/class_Sourceliquidsoap.php:231
+#. File system/sources/liquidsoap/class_Sourceliquidsoap.php:244
 #. 
 #. File system/sources/sctrans2/class_Sourcesctrans2.php:541
 #. 
@@ -6296,7 +6411,7 @@ msgstr ""
 #: system/servers/IceCast/class_IceCastConfig.php:65
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:43
 #: system/sources/ices2/class_Ices2ServerInterface.php:230
-#: system/sources/liquidsoap/class_Sourceliquidsoap.php:231
+#: system/sources/liquidsoap/class_Sourceliquidsoap.php:244
 #: system/sources/sctrans2/class_Sourcesctrans2.php:541
 #: system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:62
 msgid "Mount Points"
@@ -6405,19 +6520,6 @@ msgstr ""
 msgid "Never (one time only)"
 msgstr ""
 
-#. File www/system/templates/account_created.tpl:1
-#. Context: {box title="New Account"}
-#. 
-#. File www/reseller/modules/class_Module_accounts_base.php:38
-#. 
-#. File www/reseller/modules/class_Module_accounts_base.php:30
-#. 
-#: www/system/templates/account_created.tpl:1
-#: www/reseller/modules/class_Module_accounts_base.php:38
-#: www/reseller/modules/class_Module_accounts_base.php:30
-msgid "New Account"
-msgstr ""
-
 #. File www/system/templates/new_account_form.tpl:7
 #. Context: <h1>{="Account Management"}</h1>
 #.         <h2>{="New account"}</h2>
@@ -6433,13 +6535,17 @@ msgstr ""
 msgid "New account"
 msgstr ""
 
-#. File www/system/templates/new_account_form.tpl:10
-#. Context: <h1>{="Feature Management"}</h1>
-#.         <h2>{="New account template"}</h2>
-#.         {/if}
+#. File www/system/templates/account_created.tpl:1
+#. Context: {box title="New Account"}
 #. 
-#: www/system/templates/new_account_form.tpl:10
-msgid "New account template"
+#. File www/reseller/modules/class_Module_accounts_base.php:38
+#. 
+#. File www/reseller/modules/class_Module_accounts_base.php:30
+#. 
+#: www/system/templates/account_created.tpl:1
+#: www/reseller/modules/class_Module_accounts_base.php:38
+#: www/reseller/modules/class_Module_accounts_base.php:30
+msgid "New Account"
 msgstr ""
 
 #. File www/system/templates/account_template_created.tpl:1
@@ -6447,6 +6553,15 @@ msgstr ""
 #. 
 #: www/system/templates/account_template_created.tpl:1
 msgid "New Account Template"
+msgstr ""
+
+#. File www/system/templates/new_account_form.tpl:10
+#. Context: <h1>{="Feature Management"}</h1>
+#.         <h2>{="New account template"}</h2>
+#.         {/if}
+#. 
+#: www/system/templates/new_account_form.tpl:10
+msgid "New account template"
 msgstr ""
 
 #. File www/system/templates/filemanager.tpl:26
@@ -6890,7 +7005,7 @@ msgstr ""
 #.     	processing_success: '{="OK"}',
 #.     	account_is_suspended: '{="Account is suspended"}.',
 #. 
-#. File system/class_ServerControl.php:1637
+#. File system/class_ServerControl.php:1638
 #. 
 #: www/system/templates/filemanager.tpl:12
 #: www/system/templates/filemanager.tpl:104
@@ -6899,7 +7014,7 @@ msgstr ""
 #: www/system/templates/library.tpl:188
 #: www/system/templates/logmanager.tpl:11
 #: www/system/templates/admin_accounts.tpl:29
-#: system/class_ServerControl.php:1637
+#: system/class_ServerControl.php:1638
 msgid "OK"
 msgstr ""
 
@@ -7119,12 +7234,6 @@ msgstr ""
 msgid "Paste"
 msgstr ""
 
-#. File www/client/rpc/class_RPCstatistics_base.php:200
-#. 
-#: www/client/rpc/class_RPCstatistics_base.php:200
-msgid "Peak Listeners"
-msgstr ""
-
 #. File www/system/templates/statistics_historical.tpl:25
 #. Context: <tr>
 #.     				<td class="rowodd" width="50%">{="Peak listeners"}:</td>
@@ -7137,6 +7246,12 @@ msgstr ""
 #: www/system/templates/statistics_historical.tpl:25
 #: www/system/templates/statistics_tracks.tpl:19
 msgid "Peak listeners"
+msgstr ""
+
+#. File www/client/rpc/class_RPCstatistics_base.php:200
+#. 
+#: www/client/rpc/class_RPCstatistics_base.php:200
+msgid "Peak Listeners"
 msgstr ""
 
 #. File www/system/templates/statistics_recent.tpl:90
@@ -7185,6 +7300,15 @@ msgstr ""
 #. 
 #: www/system/templates/configuration_client_widgets.tpl:76
 msgid "percent (0-100)"
+msgstr ""
+
+#. File www/system/templates/convert_account.tpl:33
+#. Context: <input type="hidden" name="username" value="{$username|htmlentities}" />
+#.     <input type="submit" name="update" value="{="Perform conversion"}" />
+#.     {/box}
+#. 
+#: www/system/templates/convert_account.tpl:33
+msgid "Perform conversion"
 msgstr ""
 
 #. File www/system/templates/importmedia.tpl:52
@@ -7629,6 +7753,12 @@ msgstr ""
 msgid "Please select a file or folder first."
 msgstr ""
 
+#. File www/reseller/modules/class_Module_convertaccount_base.php:35
+#. 
+#: www/reseller/modules/class_Module_convertaccount_base.php:35
+msgid "Please select a software application to change"
+msgstr ""
+
 #. File www/system/templates/filemanager.tpl:14
 #. Context: upload_here: '{="Upload here"}',
 #.     	select_first: '{="Please select one or more files or folders first."}',
@@ -7971,7 +8101,7 @@ msgstr ""
 msgid "Randomize playlist"
 msgstr ""
 
-#. File www/system/templates/configuration_form.tpl:64
+#. File www/system/templates/configuration_form.tpl:65
 #. Context: {check ($reseller_editor==0) && ($rawconfigpermitted>0)}
 #.     	<input type="button" value="{="Raw configuration"}" onclick="window.location='index.php?page=confeditor'" />
 #.     {/check}
@@ -7990,7 +8120,7 @@ msgstr ""
 #.     	<td>{="Raw configuration"}:</td>
 #.     	<td>
 #. 
-#: www/system/templates/configuration_form.tpl:64
+#: www/system/templates/configuration_form.tpl:65
 #: system/class_AccountFields.php:820
 #: system/class_AccountFields.php:342
 #: www/system/templates/configuration_reseller_limits.tpl:140
@@ -8386,10 +8516,10 @@ msgstr ""
 
 #. File www/client/modules/class_Module_confeditor.php:75
 #. 
-#. File system/class_ServerControl.php:2563
+#. File system/class_ServerControl.php:2565
 #. 
 #: www/client/modules/class_Module_confeditor.php:75
-#: system/class_ServerControl.php:2563
+#: system/class_ServerControl.php:2565
 msgid "reseller"
 msgstr ""
 
@@ -8663,12 +8793,12 @@ msgstr ""
 #. 
 #. File system/sources/ices/srvintf/class_IcesServerInterface.php:169
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:94
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:96
 #. Context: <tr>
 #.     			<td>{="Sample rate"}:&nbsp;</td>
 #.     			<td>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:107
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:109
 #. Context: <tr>
 #.     			<td>{="Sample rate"}:&nbsp;</td>
 #.     			<td>
@@ -8688,8 +8818,8 @@ msgstr ""
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:614
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:53
 #: system/sources/ices/srvintf/class_IcesServerInterface.php:169
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:94
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:107
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:96
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:109
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:602
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:53
 msgid "Sample rate"
@@ -9464,25 +9594,28 @@ msgstr ""
 
 #. File www/reseller/modules/class_Module_reselleremails.php:9
 #. 
+#. File www/reseller/modules/class_Module_resellerpassword.php:9
+#. 
 #. File www/reseller/modules/class_Module_configure.php:12
 #. 
-#. File www/reseller/modules/class_Module_resellerpassword.php:9
+#. File www/reseller/modules/class_Module_convertaccount.php:9
 #. 
 #. File www/admin/modules/class_Module_adminpassword.php:10
 #. 
 #. File www/admin/modules/class_Module_settings.php:9
 #. 
-#. File www/admin/modules/class_Module_diagnostics.php:11
-#. 
 #. File www/admin/modules/class_Module_emails.php:11
 #. 
+#. File www/admin/modules/class_Module_diagnostics.php:11
+#. 
 #: www/reseller/modules/class_Module_reselleremails.php:9
-#: www/reseller/modules/class_Module_configure.php:12
 #: www/reseller/modules/class_Module_resellerpassword.php:9
+#: www/reseller/modules/class_Module_configure.php:12
+#: www/reseller/modules/class_Module_convertaccount.php:9
 #: www/admin/modules/class_Module_adminpassword.php:10
 #: www/admin/modules/class_Module_settings.php:9
-#: www/admin/modules/class_Module_diagnostics.php:11
 #: www/admin/modules/class_Module_emails.php:11
+#: www/admin/modules/class_Module_diagnostics.php:11
 msgid "Settings Management"
 msgstr ""
 
@@ -9568,6 +9701,33 @@ msgstr ""
 #. 
 #: www/system/templates/import_m3u.tpl:23
 msgid "Skip tracks that already exist in target playlist"
+msgstr ""
+
+#. File www/reseller/modules/class_Module_convertaccount.php:10
+#. 
+#. File www/admin/modules/class_Module_convertaccount.php:12
+#. 
+#: www/reseller/modules/class_Module_convertaccount.php:10
+#: www/admin/modules/class_Module_convertaccount.php:12
+msgid "Software Change"
+msgstr ""
+
+#. File www/system/templates/convert_account.tpl:4
+#. Context: {if $successful}
+#.     {box title="Update Successful"}{="Software change performed successfully"}.{/box}
+#.     {elseif $failure}
+#. 
+#: www/system/templates/convert_account.tpl:4
+msgid "Software change performed successfully"
+msgstr ""
+
+#. File www/system/templates/convert_account.tpl:13
+#. Context: ettings being lost%s because not all settings may have direct equivalents in the target software.","<strong>","</strong>"}
+#.     		{="Some manual reconfiguration will likely be necessary after the change."}
+#.     	</p>
+#. 
+#: www/system/templates/convert_account.tpl:13
+msgid "Some manual reconfiguration will likely be necessary after the change."
 msgstr ""
 
 #. File www/system/templates/configuration_client_widgets.tpl:44
@@ -9896,7 +10056,7 @@ msgstr ""
 #.     				<option value="2"{if $config.mountpoints.iceschannels!=1} selected="selected"{/if}>{="Stereo"}</option>
 #.     				<option value="1"{if $config.mountpoints.iceschannels==1} selected="selected"{/if}>{="Mono"}</option>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:133
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:135
 #. Context: <option value="default">{="Default"}</option>
 #.     					<option value="stereo">{="Stereo"}</option>
 #.     					<option value="joint_stereo">{="Joint Stereo"}</option>
@@ -9906,12 +10066,12 @@ msgstr ""
 #.     				<option value="2"{if $config.mountpoints.iceschannels!=1} selected="selected"{/if}>{="Stereo"}</option>
 #.     				<option value="1"{if $config.mountpoints.iceschannels==1} selected="selected"{/if}>{="Mono"}</option>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:79
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:81
 #. Context: <select name="mountpoints_field[liqchannels]" class="list_editor_field" size="1">
 #.     				<option value="2">{="Stereo"}</option>
 #.     				<option value="1">{="Mono"}</option>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:88
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:90
 #. Context: <select name="mountpoints_field[liqstereo]" class="list_editor_field" size="1">
 #.     				<option value="true">{="Stereo"}</option>
 #.     				<option value="false">{="Mono"}</option>
@@ -9925,10 +10085,10 @@ msgstr ""
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:27
 #: system/sources/ices2/templates/configuration_source_mountpoints.tpl:17
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:48
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:133
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:135
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:48
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:79
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:88
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:81
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:90
 #: www/system/templates/admin_settings.tpl:227
 msgid "Stereo"
 msgstr ""
@@ -9960,12 +10120,6 @@ msgstr ""
 msgid "Stop your streaming server"
 msgstr ""
 
-#. File www/client/modules/class_Module_control.php:176
-#. 
-#: www/client/modules/class_Module_control.php:176
-msgid "stopped"
-msgstr ""
-
 #. File www/system/templates/upload_multiple.tpl:7
 #. Context: xfer_cancelled: '{="Cancelled"}',
 #.     	xfer_stopped: '{="Stopped"}',
@@ -9979,6 +10133,12 @@ msgstr ""
 #: www/system/templates/upload_multiple.tpl:7
 #: www/system/templates/upload_single.tpl:7
 msgid "Stopped"
+msgstr ""
+
+#. File www/client/modules/class_Module_control.php:176
+#. 
+#: www/client/modules/class_Module_control.php:176
+msgid "stopped"
 msgstr ""
 
 #. File www/client/modules/class_Module_control.php:193
@@ -10373,10 +10533,10 @@ msgstr ""
 #. Context: {box title="Already running"}
 #.     	{="This server is already running."}<br /><br />
 #. 
-#. File system/class_ServerControl.php:862
+#. File system/class_ServerControl.php:863
 #. 
 #: www/system/templates/already_running.tpl:2
-#: system/class_ServerControl.php:862
+#: system/class_ServerControl.php:863
 msgid "This server is already running."
 msgstr ""
 
@@ -10384,10 +10544,10 @@ msgstr ""
 #. Context: {box title="Not running"}
 #.     	{="This server is not running."}<br /><br />
 #. 
-#. File system/class_ServerControl.php:1328
+#. File system/class_ServerControl.php:1329
 #. 
 #: www/system/templates/not_running.tpl:2
-#: system/class_ServerControl.php:1328
+#: system/class_ServerControl.php:1329
 msgid "This server is not running."
 msgstr ""
 
@@ -11104,15 +11264,6 @@ msgstr ""
 msgid "Tracks"
 msgstr ""
 
-#. File www/system/templates/logmanager.tpl:20
-#. Context: keyword: '{="Keyword"}',
-#.     	trim_log: '{="Trim Log"}',
-#.     	trimming_log: '{="Trimming log file, please wait"} ...'
-#. 
-#: www/system/templates/logmanager.tpl:20
-msgid "Trim Log"
-msgstr ""
-
 #. File www/system/templates/logmanager.tpl:40
 #. Context: <span id="purgelog">
 #.     					<input class="pagenav" type="button" id="logtrim" value="{="Trim log"}" />
@@ -11120,6 +11271,15 @@ msgstr ""
 #. 
 #: www/system/templates/logmanager.tpl:40
 msgid "Trim log"
+msgstr ""
+
+#. File www/system/templates/logmanager.tpl:20
+#. Context: keyword: '{="Keyword"}',
+#.     	trim_log: '{="Trim Log"}',
+#.     	trimming_log: '{="Trimming log file, please wait"} ...'
+#. 
+#: www/system/templates/logmanager.tpl:20
+msgid "Trim Log"
 msgstr ""
 
 #. File www/system/templates/staffaccount_edit.tpl:148
@@ -11228,6 +11388,15 @@ msgstr ""
 #. 
 #: www/client/modules/class_Module_logs.php:59
 msgid "Unable to access log file: %s"
+msgstr ""
+
+#. File www/system/templates/convert_account_app.tpl:5
+#. Context: <select name="convert[{$app.type}]" class="conversion">
+#.     		<option value="">{="Unchanged"}</option>
+#.     {loop $alt=$app.alternatives}
+#. 
+#: www/system/templates/convert_account_app.tpl:5
+msgid "Unchanged"
 msgstr ""
 
 #. File www/system/templates/configfile_editor.tpl:43
@@ -11408,7 +11577,7 @@ msgstr ""
 #. File www/system/templates/statistics.tpl:49
 #. Context: <input type="button" value="{="Update"}" onclick="summarize_period();window.stats.change_period()" /> <input type="button" value="{="Cancel"}" onclick="summarize_per
 #. 
-#. File www/system/templates/configuration_form.tpl:68
+#. File www/system/templates/configuration_form.tpl:69
 #. Context: <input type="submit" name="{if $creating}create{else}update{/if}" value="{if $creating}{="Create"}{else}{="Update"}{/if}" />
 #.     <input type="button" value="{="Cancel"}" onclick="window.location='index.php?page={if $template_editor==0}accounts{e
 #. 
@@ -11422,7 +11591,7 @@ msgstr ""
 #.     </form>
 #. 
 #: www/system/templates/statistics.tpl:49
-#: www/system/templates/configuration_form.tpl:68
+#: www/system/templates/configuration_form.tpl:69
 #: www/system/templates/admin_email.tpl:140
 #: www/system/templates/admin_settings.tpl:365
 msgid "Update"
@@ -11432,6 +11601,10 @@ msgstr ""
 #. Context: {elseif $failure}
 #.     {box title="Update Failed"}{="An error occurred while attempting to save this update"}. {="Please correct the fields marked below."}{/box}
 #.     {/if}
+#. 
+#. File www/system/templates/convert_account.tpl:6
+#. Context: {elseif $failure}
+#.     	{box title="Update Failed"}{="An error occurred while attempting to perform this software change"}:<br><br><span style="color: red">{$error}</span>{/box}
 #. 
 #. File www/system/templates/admin_remoteserver_edit.tpl:6
 #. Context: {elseif $error}
@@ -11446,37 +11619,42 @@ msgstr ""
 #. Context: {if $errors|count}
 #.     {box title="Update Failed"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
 #. 
-#. File www/system/templates/admin_newsarticle_edit.tpl:4
-#. Context: {if $errors|count}
-#.     {box title="Update Failed"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
+#. File www/system/templates/admin_sourcetype_edit.tpl:5
+#. Context: {elseif $error}
+#.     {box title="Update Failed"}{="An error occurred while attempting to save this update."}{/box}
+#.     {/if}
 #. 
 #. File www/system/templates/admin_newsarticle_edit.tpl:6
 #. Context: {elseif $error}
 #.     {box title="Update Failed"}{="An error occurred while attempting to save this update."}{/box}
 #.     {/if}
 #. 
+#. File www/system/templates/admin_newsarticle_edit.tpl:4
+#. Context: {if $errors|count}
+#.     {box title="Update Failed"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
+#. 
 #. File www/system/templates/admin_servertype_edit.tpl:5
 #. Context: {elseif $error}
 #.     {box title="Update Failed"}{="An error occurred while attempting to save this update"}.{/box}
 #.     {/if}
 #. 
-#. File www/system/templates/admin_sourcetype_edit.tpl:5
+#. File www/system/templates/admin_email.tpl:89
+#. Context: {if $failure}
+#.     {box title="Update Failed"}{="An error occurred while attempting to save this update"}.{/box}
+#.     {/if}
+#. 
+#. File www/system/templates/admin_rpchost_form.tpl:15
 #. Context: {elseif $error}
 #.     {box title="Update Failed"}{="An error occurred while attempting to save this update."}{/box}
 #.     {/if}
 #. 
-#. File www/system/templates/admin_servertype_edit.tpl:3
+#. File www/system/templates/admin_rpchost_form.tpl:13
 #. Context: {if $errors|count}
 #.     {box title="Update Failed"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
 #. 
 #. File www/system/templates/admin_settings.tpl:30
 #. Context: {otherwisecheck $failure}
 #.     {box title="Update Failed"}{if $failure_reason!=""}{$failure_reason|htmlentities}{else}{="An error occurred while attempting to save this update"}.{/if}{
-#. 
-#. File www/system/templates/admin_rpchost_form.tpl:15
-#. Context: {elseif $error}
-#.     {box title="Update Failed"}{="An error occurred while attempting to save this update."}{/box}
-#.     {/if}
 #. 
 #. File www/system/templates/admin_region_form.tpl:4
 #. Context: {if $errors|count}
@@ -11487,30 +11665,26 @@ msgstr ""
 #.     {box title="Update Failed"}{="An error occurred while attempting to save this update."}{/box}
 #.     {/if}
 #. 
-#. File www/system/templates/admin_email.tpl:89
-#. Context: {if $failure}
-#.     {box title="Update Failed"}{="An error occurred while attempting to save this update"}.{/box}
-#.     {/if}
-#. 
-#. File www/system/templates/admin_rpchost_form.tpl:13
+#. File www/system/templates/admin_servertype_edit.tpl:3
 #. Context: {if $errors|count}
 #.     {box title="Update Failed"}{="One or more issues were found with your submission.  Please correct the fields marked with asterisks"} (<span class="error"
 #. 
 #: www/system/templates/change_password.tpl:18
+#: www/system/templates/convert_account.tpl:6
 #: www/system/templates/admin_remoteserver_edit.tpl:6
 #: www/system/templates/admin_remoteserver_edit.tpl:4
 #: www/system/templates/admin_sourcetype_edit.tpl:3
-#: www/system/templates/admin_newsarticle_edit.tpl:4
-#: www/system/templates/admin_newsarticle_edit.tpl:6
-#: www/system/templates/admin_servertype_edit.tpl:5
 #: www/system/templates/admin_sourcetype_edit.tpl:5
-#: www/system/templates/admin_servertype_edit.tpl:3
-#: www/system/templates/admin_settings.tpl:30
+#: www/system/templates/admin_newsarticle_edit.tpl:6
+#: www/system/templates/admin_newsarticle_edit.tpl:4
+#: www/system/templates/admin_servertype_edit.tpl:5
+#: www/system/templates/admin_email.tpl:89
 #: www/system/templates/admin_rpchost_form.tpl:15
+#: www/system/templates/admin_rpchost_form.tpl:13
+#: www/system/templates/admin_settings.tpl:30
 #: www/system/templates/admin_region_form.tpl:4
 #: www/system/templates/admin_region_form.tpl:6
-#: www/system/templates/admin_email.tpl:89
-#: www/system/templates/admin_rpchost_form.tpl:13
+#: www/system/templates/admin_servertype_edit.tpl:3
 msgid "Update Failed"
 msgstr ""
 
@@ -11532,6 +11706,11 @@ msgstr ""
 msgid "Update progress"
 msgstr ""
 
+#. File www/system/templates/convert_account.tpl:4
+#. Context: {if $successful}
+#.     {box title="Update Successful"}{="Software change performed successfully"}.{/box}
+#.     {elseif $failure}
+#. 
 #. File www/system/templates/change_password.tpl:16
 #. Context: {if $successful}
 #.     {box title="Update Successful"}{="Password updated successfully."}{/box}
@@ -11542,6 +11721,7 @@ msgstr ""
 #.     {box title="Update Successful"}{="Settings updated successfully."}{/box}<br />
 #.     {otherwisecheck $failure}
 #. 
+#: www/system/templates/convert_account.tpl:4
 #: www/system/templates/change_password.tpl:16
 #: www/system/templates/admin_settings.tpl:28
 msgid "Update Successful"
@@ -11878,6 +12058,15 @@ msgstr ""
 msgid "View statistics"
 msgstr ""
 
+#. File www/system/templates/convert_account.tpl:11
+#. Context: <p>
+#.     		<strong>{="WARNING"}:</strong> 
+#.     		{="While a best-effort attempt will be made to copy as many configuration settings as possible, changing an acco
+#. 
+#: www/system/templates/convert_account.tpl:11
+msgid "WARNING"
+msgstr ""
+
 #. File www/system/templates/account_delete_confirm.tpl:4
 #. Arguments: "<strong>",$username|htmlentities,"</strong>"
 #. Context: {check $deletingreseller}
@@ -11927,6 +12116,16 @@ msgstr ""
 #. 
 #: www/system/templates/account_rename.tpl:3
 msgid "When changing the username for an account, please be aware of the following"
+msgstr ""
+
+#. File www/system/templates/convert_account.tpl:12
+#. Arguments: "<strong>","</strong>"
+#. Context: <strong>{="WARNING"}:</strong> 
+#.     		{="While a best-effort attempt will be made to copy as many configuration settings as possible, changing an account's software type %swill always result in some settings being lost%s because not all settings may have direct equivalents in the target software.","<strong>","</strong>"}
+#.     		{="Some manual reconfiguration will likely be necessary after the change."}
+#. 
+#: www/system/templates/convert_account.tpl:12
+msgid "While a best-effort attempt will be made to copy as many configuration settings as possible, changing an account's software type %swill always result in some settings being lost%s because not all settings may have direct equivalents in the target software."
 msgstr ""
 
 #. File www/client/modules/class_Module_widgets.php:16

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.0\n"
 "POT-Creation-Date: 2018-10-08 17:24-0700\n"
-"PO-Revision-Date: 2018-10-11 21:37+0200\n"
+"PO-Revision-Date: 2019-02-09 02:39+0100\n"
 "Last-Translator: scysys <scysys@outlook.com>\n"
 "Language-Team: Andre Fichtner\n"
 "Language: de_DE\n"
@@ -1082,7 +1082,7 @@ msgstr "Aktiv bis"
 #.
 #: www/system/templates/import_m3u.tpl:22
 msgid "Add duplicate tracks to target playlist"
-msgstr "Hinzufügen von doppelten Tracks zur Ziel-Playlist"
+msgstr "Füge doppelte Dateien zur Ziel-Playliste hinzu"
 
 #. File www/client/modules/class_Module_confeditor.php:75
 #.
@@ -3961,7 +3961,7 @@ msgstr "Downloads"
 #.
 #: www/system/templates/import_m3u.tpl:19
 msgid "Duplicate track handling"
-msgstr ""
+msgstr "Behandlung doppelter Titel"
 
 #. File www/reseller/modules/class_Module_reselleremails.php:10
 #.
@@ -4430,7 +4430,7 @@ msgstr "Beispiel: %susername:passwort%s"
 #.
 #: www/system/templates/import_m3u.tpl:28
 msgid "Existing track handling"
-msgstr ""
+msgstr "Behandlung existierender Dateien"
 
 #. File www/system/templates/configuration_client_files.tpl:30
 #. Context: <tr>
@@ -5199,7 +5199,7 @@ msgstr ""
 #.
 #: www/system/templates/import_m3u_result.tpl:27
 msgid "Import another playlist"
-msgstr "Eine andere Wiedergabeliste importieren"
+msgstr "Eine andere / neue Playliste importieren"
 
 #. File www/client/modules/class_Module_importm3u.php:16
 #.
@@ -5217,7 +5217,7 @@ msgstr "Externe Wiedergabeliste importieren"
 #.
 #: www/system/templates/import_m3u.tpl:3 www/system/templates/library.tpl:47
 msgid "Import M3U playlist"
-msgstr "M3U-Wiedergabeliste importieren"
+msgstr "M3U-Playliste importieren"
 
 #. File www/client/modules/class_Module_importmedia.php:14
 #.
@@ -5230,7 +5230,7 @@ msgstr "Neue Medien für den AutoDJ importieren"
 #.
 #: www/system/templates/import_m3u_result.tpl:1
 msgid "Import Results"
-msgstr "Importiere Ergebnisse"
+msgstr "Import Ergebnisse"
 
 #. File www/system/templates/reportformat_edit.tpl:42
 #. Context: <div style="float: left; width: 30%">
@@ -5248,7 +5248,7 @@ msgstr "Vorhandene Spalten"
 #.
 #: www/system/templates/configfile_editor.tpl:41
 msgid "Increase indent"
-msgstr "Gebotslimit erhöhen"
+msgstr "Einzug vergrößern"
 
 #. File www/system/templates/library.tpl:58
 #. Context: complete: '{="Complete"}',
@@ -5369,7 +5369,7 @@ msgstr ""
 #.
 #: www/client/modules/class_Module_importm3u.php:32
 msgid "Invalid playlist ID"
-msgstr "Ungültige Playlisten-ID"
+msgstr "Ungültige Playlisten-ID oder keine Playliste ausgewählt"
 
 #. File www/client/rpc/class_RPCplaylist.php:165
 #.
@@ -5858,7 +5858,7 @@ msgstr "M3U-Datei nicht empfangen."
 #.
 #: www/system/templates/import_m3u.tpl:14
 msgid "M3U playlist file"
-msgstr "M3U Wiedergabelistendatei"
+msgstr "M3U Datei"
 
 #. File www/client/modules/class_Module_configure.php:14
 #.
@@ -8870,7 +8870,7 @@ msgstr ""
 #.
 #: www/system/templates/import_m3u_result.tpl:28
 msgid "Return to media library"
-msgstr ""
+msgstr "Zurück zur Medienbibliothek"
 
 #. File www/system/templates/library.tpl:155
 #. Context: type="button" id="btn_save" name="save" value="{="Save"}" />
@@ -9338,6 +9338,8 @@ msgid ""
 "Select an M3U playlist file to upload below.  Imported tracks will be added "
 "to the selected target playlist."
 msgstr ""
+"Wählen Sie unten eine M3U-Playlistendatei aus, die hochgeladen werden soll."
+"Importierte Titel werden der ausgewählten Ziel-Playlist hinzugefügt."
 
 #. File www/system/templates/new_account_form.tpl:100
 #. Context: <select id="newacct_source" name="sourcetype">

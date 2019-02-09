@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2018-10-08 17:24-0700\n"
-"PO-Revision-Date: 2018-10-08 17:24-0700\n"
+"POT-Creation-Date: 2018-11-08 13:30-0800\n"
+"PO-Revision-Date: 2018-11-08 13:30-0800\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -46,10 +46,10 @@ msgstr "M d"
 msgid "%s access key ID"
 msgstr ""
 
-#. File system/class_SystemControl.php:2138
+#. File system/class_SystemControl.php:2174
 #. Arguments: $total
 #. 
-#: system/class_SystemControl.php:2138
+#: system/class_SystemControl.php:2174
 msgid "%s account(s)"
 msgstr ""
 
@@ -141,12 +141,12 @@ msgstr ""
 msgid "A fallback clip has already been assigned for this mount point.  If you configure a fallback mount point instead, the fallback clip will be removed."
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:41
-#. Context: >{="Ogg/Opus"}</option>{/if}
-#.     				{if ($source_config=="") or ($source_config|explode:","|contains:"aac")}<option value="aac">{="AAC"}</option>{/if}
-#.     				{if ($source_config=="") or ($source_config|explode:","|contains:"aacplus")}<option value="aacplus">{="AAC+
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:42
+#. Context: oap_format=="opus")}<option value="opus">{="Ogg/Opus"}</option>{/if}
+#.     				{if ($liquidsoap_format=="aac")}<option value="aac">{="AAC"}</option>{/if}
+#.     				{if ($liquidsoap_format=="aacplus")}<option value="aacplus">{="AAC+"}</option>{/if}
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:41
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:42
 msgid "AAC"
 msgstr ""
 
@@ -155,25 +155,25 @@ msgstr ""
 #.     				<option value="aacp">{="AAC+"}</option>
 #.     				<option value="mp3">{="MP3"}</option>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:42
-#. Context: "AAC"}</option>{/if}
-#.     				{if ($source_config=="") or ($source_config|explode:","|contains:"aacplus")}<option value="aacplus">{="AAC+"}</option>{/if}
-#.     				{if ($source_config=="") or ($source_config|explode:","|contains:"fdkaac")}<option value="fdkaac">{="FDK-AA
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:43
+#. Context: ap_format=="aac")}<option value="aac">{="AAC"}</option>{/if}
+#.     				{if ($liquidsoap_format=="aacplus")}<option value="aacplus">{="AAC+"}</option>{/if}
+#.     				{if ($liquidsoap_format=="fdkaac")}<option value="fdkaac">{="FDK-AAC"}</option>{/if}
 #. 
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:14
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:42
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:43
 msgid "AAC+"
 msgstr ""
 
-#. File system/class_SystemControl.php:1515
+#. File system/class_SystemControl.php:1551
 #. 
-#: system/class_SystemControl.php:1515
+#: system/class_SystemControl.php:1551
 msgid "Account created"
 msgstr ""
 
-#. File system/class_SystemControl.php:1515
+#. File system/class_SystemControl.php:1551
 #. 
-#: system/class_SystemControl.php:1515
+#: system/class_SystemControl.php:1551
 msgid "Account created successfully, but stream could not be started"
 msgstr ""
 
@@ -219,9 +219,9 @@ msgstr ""
 msgid "Account template saved successfully."
 msgstr ""
 
-#. File system/class_ServerControl.php:2567
+#. File system/class_ServerControl.php:2569
 #. 
-#: system/class_ServerControl.php:2567
+#: system/class_ServerControl.php:2569
 msgid "Account updated"
 msgstr ""
 
@@ -231,33 +231,33 @@ msgstr ""
 msgid "Actiate start page"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:226
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:228
 #. Context: <option value="adts">{="ADTS bitstream format"}</option>
 #.     					<option value="adif">{="ADIF bitstream format"}</option>
 #.     					<option value="raw">{="Raw"}</option>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:226
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:228
 msgid "ADIF bitstream format"
 msgstr ""
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:617
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:190
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:192
 #. Context: <tr>
 #.     				<td>{="ADTS"}:&nbsp;</td>
 #.     				<td>
 #. 
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:617
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:190
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:192
 msgid "ADTS"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:225
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:227
 #. Context: <select name="mountpoints_field[liqfdktransmux]" class="list_editor_field" size="1">
 #.     					<option value="adts">{="ADTS bitstream format"}</option>
 #.     					<option value="adif">{="ADIF bitstream format"}</option>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:225
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:227
 msgid "ADTS bitstream format"
 msgstr ""
 
@@ -276,12 +276,12 @@ msgstr ""
 msgid "Advanced"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:124
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:126
 #. Context: {check $modify_encoder_settings>0}
 #.     		<div id="advancedbtn" class="advancedbtn">{="Advanced settings"}</div>
 #.     		<div id="liqadvanced" style="display: none">
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:124
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:126
 msgid "Advanced settings"
 msgstr ""
 
@@ -308,13 +308,13 @@ msgstr ""
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:619
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:200
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:202
 #. Context: <tr>
 #.     				<td>{="Afterburner"}:&nbsp;</td>
 #.     				<td>
 #. 
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:619
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:200
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:202
 msgid "Afterburner"
 msgstr ""
 
@@ -461,11 +461,11 @@ msgstr ""
 msgid "An account with the specified username already exists"
 msgstr ""
 
-#. File system/class_ServerControl.php:1169
+#. File system/class_ServerControl.php:1170
 #. 
 #. File system/class_UserSession.php:558
 #. 
-#: system/class_ServerControl.php:1169
+#: system/class_ServerControl.php:1170
 #: system/class_UserSession.php:558
 msgid "and"
 msgstr ""
@@ -488,31 +488,31 @@ msgstr ""
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:611
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:171
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:173
 #. Context: <tr>
 #.     				<td>{="Application"}:&nbsp;</td>
 #.     				<td>
 #. 
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:611
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:171
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:173
 msgid "Application"
 msgstr ""
 
-#. File system/class_ServerControl.php:1030
+#. File system/class_ServerControl.php:1031
 #. Arguments: $app->type
 #. 
-#. File system/class_ServerControl.php:1015
+#. File system/class_ServerControl.php:1016
 #. Arguments: $app->type
 #. 
-#: system/class_ServerControl.php:1030
-#: system/class_ServerControl.php:1015
+#: system/class_ServerControl.php:1031
+#: system/class_ServerControl.php:1016
 msgid "Application %s exited immediately after startup"
 msgstr ""
 
-#. File system/class_ServerControl.php:947
+#. File system/class_ServerControl.php:948
 #. Arguments: $app->type
 #. 
-#: system/class_ServerControl.php:947
+#: system/class_ServerControl.php:948
 msgid "Application %s is already running"
 msgstr ""
 
@@ -542,12 +542,12 @@ msgstr ""
 msgid "Archive"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:174
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:176
 #. Context: <select name="mountpoints_field[liqopusapplication]" class="list_editor_field" size="1">
 #.     					<option value="audio">{="Audio"}</option>
 #.     					<option value="voip">{="VOIP"}</option>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:174
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:176
 msgid "Audio"
 msgstr ""
 
@@ -587,48 +587,48 @@ msgstr ""
 msgid "Audio File"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:228
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:230
 #. Context: <option value="raw">{="Raw"}</option>
 #.     					<option value="latm">{="Audio mux elements (LATM)"}</option>
 #.     					<option value="latm_out_of_band">{="Audio mux elements (LATM), out-of-band"}</option>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:228
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:230
 msgid "Audio mux elements (LATM)"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:229
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:231
 #. Context: <option value="latm">{="Audio mux elements (LATM)"}</option>
 #.     					<option value="latm_out_of_band">{="Audio mux elements (LATM), out-of-band"}</option>
 #.     					<option value="loas">{="Audio sync stream (LOAS)"}</option>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:229
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:231
 msgid "Audio mux elements (LATM), out-of-band"
 msgstr ""
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:620
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:209
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:211
 #. Context: <tr>
 #.     				<td>{="Audio object type"}:&nbsp;</td>
 #.     				<td>
 #. 
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:620
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:209
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:211
 msgid "Audio object type"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:230
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:232
 #. Context: <option value="latm_out_of_band">{="Audio mux elements (LATM), out-of-band"}</option>
 #.     					<option value="loas">{="Audio sync stream (LOAS)"}</option>
 #.     					</select>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:230
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:232
 msgid "Audio sync stream (LOAS)"
 msgstr ""
 
-#. File system/class_ServerControl.php:2684
+#. File system/class_ServerControl.php:2686
 #. 
-#: system/class_ServerControl.php:2684
+#: system/class_ServerControl.php:2686
 msgid "Authenticated"
 msgstr ""
 
@@ -683,12 +683,12 @@ msgstr ""
 msgid "Automatic (determined by source)"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:53
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:55
 #. Context: <option value="vbr">{="Variable bitrate encoding (VBR)"}</option>
 #.     				<option value="abr">{="Average bitrate based encoding (ABR)"}</option>
 #.     				</select>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:53
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:55
 msgid "Average bitrate based encoding (ABR)"
 msgstr ""
 
@@ -927,13 +927,13 @@ msgstr ""
 msgid "CDN Slave"
 msgstr ""
 
-#. File system/class_SystemControl.php:2050
+#. File system/class_SystemControl.php:2086
 #. Arguments: $username,
 #.     __($acctstatus),
 #.     __($options['status']),
 #.     ($options['cascading'] ? ' (' . __('triggered by reseller status change') . ')' : '')
 #. 
-#: system/class_SystemControl.php:2050
+#: system/class_SystemControl.php:2086
 msgid "Changed status for account %s from %s to %s%s"
 msgstr ""
 
@@ -969,33 +969,33 @@ msgstr ""
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:610
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:161
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:163
 #. Context: <tr>
 #.     				<td>{="Complexity"}:&nbsp;</td>
 #.     				<td>
 #. 
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:610
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:161
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:163
 msgid "Complexity"
 msgstr ""
 
-#. File system/class_ServerControl.php:2718
+#. File system/class_ServerControl.php:2720
 #. Arguments: basename($archname)
 #. 
-#: system/class_ServerControl.php:2718
+#: system/class_ServerControl.php:2720
 msgid "Compressing %s ..."
 msgstr ""
 
-#. File system/class_ServerControl.php:1176
+#. File system/class_ServerControl.php:1177
 #. Arguments: $make_text_list($successes),$make_text_list($failures)
 #. 
-#: system/class_ServerControl.php:1176
+#: system/class_ServerControl.php:1177
 msgid "Configuration reloaded gracefully for %s, but %s requires a full restart."
 msgstr ""
 
-#. File system/class_ServerControl.php:1178
+#. File system/class_ServerControl.php:1179
 #. 
-#: system/class_ServerControl.php:1178
+#: system/class_ServerControl.php:1179
 msgid "Configuration reloaded gracefully."
 msgstr ""
 
@@ -1036,21 +1036,21 @@ msgstr ""
 msgid "Configures SHOUTcast Server CDN features (%sdetails%s)."
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:51
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:53
 #. Context: _editor_field{check $modify_encoder_settings==0} not_modifiable{/check}" size="1" id="liq_encoding">
 #.     				<option value="cbr">{="Constant bitrate encoding (CBR)"}</option>
 #.     				<option value="vbr">{="Variable bitrate encoding (VBR)"}</option>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:51
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:53
 msgid "Constant bitrate encoding (CBR)"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:155
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:157
 #. Context: <option value="none">{="None"}</option>
 #.     					<option value="constrained">{="Constrained"}</option>
 #.     					<option value="unconstrained">{="Unconstrained"}</option>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:155
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:157
 msgid "Constrained"
 msgstr ""
 
@@ -1065,19 +1065,19 @@ msgstr ""
 msgid "Controls the title and URL shown in media players.  Use %s to insert the title/URL provided by the source."
 msgstr ""
 
-#. File system/class_ServerControl.php:1005
+#. File system/class_ServerControl.php:1006
 #. Arguments: $app->type
 #. 
-#: system/class_ServerControl.php:1005
+#: system/class_ServerControl.php:1006
 msgid "Could not start %s application"
 msgstr ""
 
-#. File system/class_ServerControl.php:873
+#. File system/class_ServerControl.php:874
 #. 
-#. File system/class_ServerControl.php:862
+#. File system/class_ServerControl.php:863
 #. 
-#: system/class_ServerControl.php:873
-#: system/class_ServerControl.php:862
+#: system/class_ServerControl.php:874
+#: system/class_ServerControl.php:863
 msgid "Could not start server"
 msgstr ""
 
@@ -1227,9 +1227,9 @@ msgstr ""
 msgid "Diagnostic mode"
 msgstr ""
 
-#. File system/class_ServerControl.php:1057
+#. File system/class_ServerControl.php:1058
 #. 
-#: system/class_ServerControl.php:1057
+#: system/class_ServerControl.php:1058
 msgid "Diagnostic output from streaming software:"
 msgstr ""
 
@@ -1241,8 +1241,6 @@ msgstr ""
 msgid "Directory listings"
 msgstr ""
 
-#. File system/servers/ShoutCast/class_ShoutCastConfig.php:53
-#. 
 #. File system/servers/IceCast/class_IceCastConfig.php:121
 #. 
 #. File system/servers/IceCast/templates/configuration_client_advanced.tpl:8
@@ -1250,7 +1248,6 @@ msgstr ""
 #.     	<td>{="Directory listings timeout"}:</td>
 #.     	<td><input type="text" name="config[directorytimeout]" size="6" value="{$config.directorytimeout|htmlentities}" /> {$e
 #. 
-#: system/servers/ShoutCast/class_ShoutCastConfig.php:53
 #: system/servers/IceCast/class_IceCastConfig.php:121
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:8
 msgid "Directory listings timeout"
@@ -1271,6 +1268,12 @@ msgstr ""
 msgid "Directory listings URL"
 msgstr ""
 
+#. File system/servers/ShoutCast/class_ShoutCastConfig.php:53
+#. 
+#: system/servers/ShoutCast/class_ShoutCastConfig.php:53
+msgid "Directory name lookups"
+msgstr ""
+
 #. File system/servers/ShoutCast/templates/configuration_client_advanced.tpl:34
 #. Context: <tr>
 #.     	<td>{="Directory port (Yport)"}:</td>
@@ -1280,9 +1283,9 @@ msgstr ""
 msgid "Directory port (Yport)"
 msgstr ""
 
-#. File system/class_SystemControl.php:2044
+#. File system/class_SystemControl.php:2080
 #. 
-#: system/class_SystemControl.php:2044
+#: system/class_SystemControl.php:2080
 msgid "disabled"
 msgstr ""
 
@@ -1362,10 +1365,10 @@ msgstr ""
 msgid "Disconnect listeners if source disconnects"
 msgstr ""
 
-#. File system/class_ServerControl.php:2099
+#. File system/class_ServerControl.php:2100
 #. Arguments: $action
 #. 
-#: system/class_ServerControl.php:2099
+#: system/class_ServerControl.php:2100
 msgid "Disk quota exceeded; account has been automatically %s"
 msgstr ""
 
@@ -1435,9 +1438,9 @@ msgstr ""
 msgid "Embedded (ID3/metadata)"
 msgstr ""
 
-#. File system/class_SystemControl.php:2044
+#. File system/class_SystemControl.php:2080
 #. 
-#: system/class_SystemControl.php:2044
+#: system/class_SystemControl.php:2080
 msgid "enabled"
 msgstr ""
 
@@ -1482,13 +1485,13 @@ msgstr ""
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:592
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:48
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:50
 #. Context: <tr>
 #.     			<td>{="Encoding type"}:&nbsp;</td>
 #.     			<td>
 #. 
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:592
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:48
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:50
 msgid "Encoding type"
 msgstr ""
 
@@ -1621,12 +1624,12 @@ msgstr ""
 msgid "Fallback when full"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:43
-#. Context: ="AAC+"}</option>{/if}
-#.     				{if ($source_config=="") or ($source_config|explode:","|contains:"fdkaac")}<option value="fdkaac">{="FDK-AAC"}</option>{/if}
-#.     				</select>
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:44
+#. Context: at=="aacplus")}<option value="aacplus">{="AAC+"}</option>{/if}
+#.     				{if ($liquidsoap_format=="fdkaac")}<option value="fdkaac">{="FDK-AAC"}</option>{/if}
+#.     				{/loop}
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:43
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:44
 msgid "FDK-AAC"
 msgstr ""
 
@@ -1642,9 +1645,9 @@ msgstr ""
 msgid "FEC packet span"
 msgstr ""
 
-#. File system/class_ServerControl.php:537
+#. File system/class_ServerControl.php:538
 #. 
-#: system/class_ServerControl.php:537
+#: system/class_ServerControl.php:538
 msgid "File copied successfully"
 msgstr ""
 
@@ -1686,12 +1689,12 @@ msgstr ""
 msgid "Format"
 msgstr ""
 
-#. File system/class_ServerControl.php:2083
+#. File system/class_ServerControl.php:2084
 #. 
-#. File system/class_ServerControl.php:1929
+#. File system/class_ServerControl.php:1930
 #. 
-#: system/class_ServerControl.php:2083
-#: system/class_ServerControl.php:1929
+#: system/class_ServerControl.php:2084
+#: system/class_ServerControl.php:1930
 msgid "forwarded to an administrator for review"
 msgstr ""
 
@@ -1701,12 +1704,12 @@ msgstr ""
 msgid "Frequency"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:142
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:144
 #. Context: <select name="mountpoints_field[liqopusmax_bandwidth]" class="list_editor_field" size="1">
 #.     					<option value="full_band">{="Full band"}</option>
 #.     					<option value="super_wide_band">{="Super wide band"}</option>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:142
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:144
 msgid "Full band"
 msgstr ""
 
@@ -1905,19 +1908,19 @@ msgstr ""
 msgid "ISRC"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:134
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:136
 #. Context: <option value="stereo">{="Stereo"}</option>
 #.     					<option value="joint_stereo">{="Joint Stereo"}</option>
 #.     					</select>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:134
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:136
 msgid "Joint Stereo"
 msgstr ""
 
-#. File system/class_ServerControl.php:1117
+#. File system/class_ServerControl.php:1118
 #. Arguments: $linecount
 #. 
-#: system/class_ServerControl.php:1117
+#: system/class_ServerControl.php:1118
 msgid "Last %d lines from the relevant log file:"
 msgstr ""
 
@@ -1977,10 +1980,10 @@ msgstr ""
 msgid "Local mount point"
 msgstr ""
 
-#. File system/class_ServerControl.php:1101
+#. File system/class_ServerControl.php:1102
 #. Arguments: "\n", "\n"
 #. 
-#: system/class_ServerControl.php:1101
+#: system/class_ServerControl.php:1102
 msgid "Log has not been created, which may indicate a permissions problem or %san inability to run the external application.  Consult the Centova Cast %sknowledge base."
 msgstr ""
 
@@ -1991,9 +1994,9 @@ msgstr ""
 msgid "Log: %s"
 msgstr ""
 
-#. File system/class_ServerControl.php:2782
+#. File system/class_ServerControl.php:2784
 #. 
-#: system/class_ServerControl.php:2782
+#: system/class_ServerControl.php:2784
 msgid "Logs archived"
 msgstr ""
 
@@ -2109,14 +2112,14 @@ msgstr ""
 #. 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:613
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:139
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:141
 #. Context: <tr>
 #.     				<td>{="Maximum bandwidth"}:&nbsp;</td>
 #.     				<td>
 #. 
 #: system/class_AccountFields.php:325
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:613
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:139
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:141
 msgid "Maximum bandwidth"
 msgstr ""
 
@@ -2132,12 +2135,12 @@ msgstr ""
 msgid "Maximum sources"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:145
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:147
 #. Context: <option value="wide_band">{="Wide band"}</option>
 #.     					<option value="medium_band">{="Medium band"}</option>
 #.     					<option value="narrow_band">{="Narrow band"}</option>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:145
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:147
 msgid "Medium band"
 msgstr ""
 
@@ -2231,13 +2234,13 @@ msgstr ""
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:605
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:66
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:68
 #. Context: <tr>
 #.     			<td>{="Minimum bit rate"}:&nbsp;</td>
 #.     			<td>{bitrate_field name="mountpoints_field[liqmin_bitrate]" size="1" class="list_editor_field mpbitrate mptipl
 #. 
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:605
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:66
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:68
 msgid "Minimum bit rate"
 msgstr ""
 
@@ -2343,13 +2346,13 @@ msgstr ""
 #.     				<option value="mp3">{="MP3"}</option>
 #.     				</select>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:38
-#. Context: " size="1" id="liq_encoder">
-#.     				{if ($source_config=="") or ($source_config|explode:","|contains:"mp3")}<option value="mp3">{="MP3"}</option>{/if}
-#.     				{if ($source_config=="") or ($source_config|explode:","|contains:"vorbis")}<option value="vorbis">{="Ogg/Vo
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:39
+#. Context: {loop $liquidsoap_format=$liquidsoap_formats}
+#.     				{if ($liquidsoap_format=="mp3")}<option value="mp3">{="MP3"}</option>{/if}
+#.     				{if ($liquidsoap_format=="vorbis")}<option value="vorbis">{="Ogg/Vorbis"}</option>{/if}
 #. 
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:15
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:38
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:39
 msgid "MP3"
 msgstr ""
 
@@ -2398,22 +2401,22 @@ msgstr ""
 msgid "MP3 unlock name"
 msgstr ""
 
-#. File system/class_ServerControl.php:2464
+#. File system/class_ServerControl.php:2466
 #. Arguments: sprintf(
 #.     '%s (%s)',
 #.     $firstbadfield->text,
 #.     $firstbadfield->name
 #.     )
 #. 
-#. File system/class_SystemControl.php:1258
+#. File system/class_SystemControl.php:1333
 #. Arguments: sprintf(
 #.     '%s (%s)',
 #.     $firstbadfield->text,
 #.     $firstbadfield->name
 #.     )
 #. 
-#: system/class_ServerControl.php:2464
-#: system/class_SystemControl.php:1258
+#: system/class_ServerControl.php:2466
+#: system/class_SystemControl.php:1333
 msgid "Must specify a valid %s value"
 msgstr ""
 
@@ -2429,12 +2432,12 @@ msgstr ""
 msgid "Name of the track artist"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:146
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:148
 #. Context: <option value="medium_band">{="Medium band"}</option>
 #.     					<option value="narrow_band">{="Narrow band"}</option>
 #.     					</select>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:146
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:148
 msgid "Narrow band"
 msgstr ""
 
@@ -2513,10 +2516,10 @@ msgstr ""
 msgid "Not applicable to this account type"
 msgstr ""
 
-#. File system/class_ServerControl.php:930
+#. File system/class_ServerControl.php:931
 #. Arguments: $sourcetype
 #. 
-#: system/class_ServerControl.php:930
+#: system/class_ServerControl.php:931
 msgid "Not starting source %s with no autoDJ-based mount points configured"
 msgstr ""
 
@@ -2560,21 +2563,21 @@ msgstr ""
 msgid "Off"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:40
-#. Context: Ogg/Vorbis"}</option>{/if}
-#.     				{if ($source_config=="") or ($source_config|explode:","|contains:"opus")}<option value="opus">{="Ogg/Opus"}</option>{/if}
-#.     				{if ($source_config=="") or ($source_config|explode:","|contains:"aac")}<option value="aac">{="AAC"}</optio
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:41
+#. Context: at=="vorbis")}<option value="vorbis">{="Ogg/Vorbis"}</option>{/if}
+#.     				{if ($liquidsoap_format=="opus")}<option value="opus">{="Ogg/Opus"}</option>{/if}
+#.     				{if ($liquidsoap_format=="aac")}<option value="aac">{="AAC"}</option>{/if}
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:40
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:41
 msgid "Ogg/Opus"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:39
-#. Context: {="MP3"}</option>{/if}
-#.     				{if ($source_config=="") or ($source_config|explode:","|contains:"vorbis")}<option value="vorbis">{="Ogg/Vorbis"}</option>{/if}
-#.     				{if ($source_config=="") or ($source_config|explode:","|contains:"opus")}<option value="opus">{="Ogg/Opus"}
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:40
+#. Context: soap_format=="mp3")}<option value="mp3">{="MP3"}</option>{/if}
+#.     				{if ($liquidsoap_format=="vorbis")}<option value="vorbis">{="Ogg/Vorbis"}</option>{/if}
+#.     				{if ($liquidsoap_format=="opus")}<option value="opus">{="Ogg/Opus"}</option>{/if}
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:39
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:40
 msgid "Ogg/Vorbis"
 msgstr ""
 
@@ -2711,9 +2714,9 @@ msgstr ""
 msgid "permitted to continue by plugin: %s"
 msgstr ""
 
-#. File system/class_ServerControl.php:1651
+#. File system/class_ServerControl.php:1652
 #. 
-#: system/class_ServerControl.php:1651
+#: system/class_ServerControl.php:1652
 msgid "Playlist rebuilt"
 msgstr ""
 
@@ -2747,9 +2750,9 @@ msgstr ""
 msgid "Port 80 proxy"
 msgstr ""
 
-#. File system/class_ServerControl.php:1400
+#. File system/class_ServerControl.php:1401
 #. 
-#: system/class_ServerControl.php:1400
+#: system/class_ServerControl.php:1401
 msgid "Preparing to import"
 msgstr ""
 
@@ -2886,12 +2889,12 @@ msgstr ""
 msgid "Queue size"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:227
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:229
 #. Context: <option value="adif">{="ADIF bitstream format"}</option>
 #.     					<option value="raw">{="Raw"}</option>
 #.     					<option value="latm">{="Audio mux elements (LATM)"}</option>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:227
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:229
 msgid "Raw"
 msgstr ""
 
@@ -3044,12 +3047,12 @@ msgstr ""
 msgid "Reseller Options"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:176
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:178
 #. Context: <option value="voip">{="VOIP"}</option>
 #.     					<option value="restricted_lowdelay">{="Restricted/Low Delay"}</option>
 #.     					</select>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:176
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:178
 msgid "Restricted/Low Delay"
 msgstr ""
 
@@ -3097,13 +3100,13 @@ msgstr ""
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:622
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:235
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:237
 #. Context: <tr>
 #.     				<td>{="SBR mode"}:&nbsp;</td>
 #.     				<td>
 #. 
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:622
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:235
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:237
 msgid "SBR mode"
 msgstr ""
 
@@ -3144,9 +3147,9 @@ msgstr ""
 msgid "Server %s is up and autoDJ is deactivated, but no live source is connected; automatically reactivating autoDJ"
 msgstr ""
 
-#. File system/class_ServerControl.php:884
+#. File system/class_ServerControl.php:885
 #. 
-#: system/class_ServerControl.php:884
+#: system/class_ServerControl.php:885
 msgid "Server exited immediately after startup"
 msgstr ""
 
@@ -3195,13 +3198,13 @@ msgstr ""
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:612
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:181
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:183
 #. Context: <tr>
 #.     				<td>{="Signal"}:&nbsp;</td>
 #.     				<td>
 #. 
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:612
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:181
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:183
 msgid "Signal"
 msgstr ""
 
@@ -3246,15 +3249,15 @@ msgstr ""
 msgid "Sorry, this server is currently experiencing heavy load and cannot process your request at this time.  Please try again later."
 msgstr ""
 
-#. File system/class_ServerControl.php:1140
+#. File system/class_ServerControl.php:1141
 #. 
-#. File system/class_ServerControl.php:1258
+#. File system/class_ServerControl.php:1259
 #. 
-#. File system/class_ServerControl.php:1197
+#. File system/class_ServerControl.php:1198
 #. 
-#: system/class_ServerControl.php:1140
-#: system/class_ServerControl.php:1258
-#: system/class_ServerControl.php:1197
+#: system/class_ServerControl.php:1141
+#: system/class_ServerControl.php:1259
+#: system/class_ServerControl.php:1198
 msgid "Source is not running"
 msgstr ""
 
@@ -3356,20 +3359,20 @@ msgstr ""
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:601
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:129
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:131
 #. Context: <tr>
 #.     				<td>{="Stereo mode"}:&nbsp;</td>
 #.     				<td>
 #. 
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:601
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:129
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:131
 msgid "Stereo mode"
 msgstr ""
 
-#. File system/class_ServerControl.php:1071
+#. File system/class_ServerControl.php:1072
 #. Arguments: $error_message
 #. 
-#: system/class_ServerControl.php:1071
+#: system/class_ServerControl.php:1072
 msgid "Stream control issue detected (%s); log attached"
 msgstr ""
 
@@ -3571,21 +3574,21 @@ msgstr ""
 msgid "Stream username"
 msgstr ""
 
-#. File system/class_ServerControl.php:1045
+#. File system/class_ServerControl.php:1046
 #. 
-#: system/class_ServerControl.php:1045
+#: system/class_ServerControl.php:1046
 msgid "Streaming applications started successfully"
 msgstr ""
 
-#. File system/class_ServerControl.php:903
+#. File system/class_ServerControl.php:904
 #. 
-#: system/class_ServerControl.php:903
+#: system/class_ServerControl.php:904
 msgid "Streaming server started successfully"
 msgstr ""
 
-#. File system/class_ServerControl.php:956
+#. File system/class_ServerControl.php:957
 #. 
-#: system/class_ServerControl.php:956
+#: system/class_ServerControl.php:957
 msgid "Streaming source not enabled"
 msgstr ""
 
@@ -3621,27 +3624,27 @@ msgstr ""
 msgid "Summary"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:143
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:145
 #. Context: <option value="full_band">{="Full band"}</option>
 #.     					<option value="super_wide_band">{="Super wide band"}</option>
 #.     					<option value="wide_band">{="Wide band"}</option>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:143
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:145
 msgid "Super wide band"
 msgstr ""
 
-#. File system/class_SystemControl.php:2044
+#. File system/class_SystemControl.php:2080
 #. 
-#: system/class_SystemControl.php:2044
+#: system/class_SystemControl.php:2080
 msgid "suspended"
 msgstr ""
 
-#. File system/class_ServerControl.php:2079
+#. File system/class_ServerControl.php:2080
 #. 
-#. File system/class_ServerControl.php:1925
+#. File system/class_ServerControl.php:1926
 #. 
-#: system/class_ServerControl.php:2079
-#: system/class_ServerControl.php:1925
+#: system/class_ServerControl.php:2080
+#: system/class_ServerControl.php:1926
 msgid "suspended until further notice"
 msgstr ""
 
@@ -3698,18 +3701,18 @@ msgstr ""
 msgid "The following mountpoint relay settings control relaying a single, specific mount point on a remote server."
 msgstr ""
 
-#. File system/class_ServerControl.php:2441
+#. File system/class_ServerControl.php:2443
 #. Arguments: $nextport
 #. 
 #. File system/servers/ShoutCast2/class_ShoutCast2Config.php:460
 #. Arguments: $nextport
 #. 
-#. File system/class_SystemControl.php:1208
+#. File system/class_SystemControl.php:1283
 #. Arguments: $nextport
 #. 
-#: system/class_ServerControl.php:2441
+#: system/class_ServerControl.php:2443
 #: system/servers/ShoutCast2/class_ShoutCast2Config.php:460
-#: system/class_SystemControl.php:1208
+#: system/class_SystemControl.php:1283
 msgid "the next available port is %d"
 msgstr ""
 
@@ -3855,34 +3858,34 @@ msgstr ""
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:621
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:222
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:224
 #. Context: <tr>
 #.     				<td>{="Transport type"}:&nbsp;</td>
 #.     				<td>
 #. 
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:621
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:222
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:224
 msgid "Transport type"
 msgstr ""
 
-#. File system/class_SystemControl.php:2054
+#. File system/class_SystemControl.php:2090
 #. 
-#: system/class_SystemControl.php:2054
+#: system/class_SystemControl.php:2090
 msgid "triggered by reseller status change"
 msgstr ""
 
-#. File system/class_ServerControl.php:1225
+#. File system/class_ServerControl.php:1226
 #. 
-#: system/class_ServerControl.php:1225
+#: system/class_ServerControl.php:1226
 msgid "Unable to restart server"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:156
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:158
 #. Context: <option value="constrained">{="Constrained"}</option>
 #.     					<option value="unconstrained">{="Unconstrained"}</option>
 #.     					</select>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:156
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:158
 msgid "Unconstrained"
 msgstr ""
 
@@ -4080,12 +4083,12 @@ msgstr ""
 msgid "UVOX cipher key"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:52
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:54
 #. Context: <option value="cbr">{="Constant bitrate encoding (CBR)"}</option>
 #.     				<option value="vbr">{="Variable bitrate encoding (VBR)"}</option>
 #.     				<option value="abr">{="Average bitrate based encoding (ABR)"}</option>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:52
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:54
 msgid "Variable bitrate encoding (VBR)"
 msgstr ""
 
@@ -4136,13 +4139,13 @@ msgstr ""
 
 #. File system/sources/liquidsoap/class_LiquidSoapSettings.php:609
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:151
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:153
 #. Context: <tr>
 #.     				<td>{="VBR mode"}:&nbsp;</td>
 #.     				<td>
 #. 
 #: system/sources/liquidsoap/class_LiquidSoapSettings.php:609
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:151
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:153
 msgid "VBR mode"
 msgstr ""
 
@@ -4158,21 +4161,21 @@ msgstr ""
 msgid "Video File"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:185
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:187
 #. Context: <option value="music">{="Music"}</option>
 #.     					<option value="voice">{="Voice"}</option>
 #.     					</select>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:185
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:187
 msgid "Voice"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:175
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:177
 #. Context: <option value="audio">{="Audio"}</option>
 #.     					<option value="voip">{="VOIP"}</option>
 #.     					<option value="restricted_lowdelay">{="Restricted/Low Delay"}</option>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:175
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:177
 msgid "VOIP"
 msgstr ""
 
@@ -4292,12 +4295,12 @@ msgstr ""
 msgid "When transfer limit is exceeded"
 msgstr ""
 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:144
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:146
 #. Context: <option value="super_wide_band">{="Super wide band"}</option>
 #.     					<option value="wide_band">{="Wide band"}</option>
 #.     					<option value="medium_band">{="Medium band"}</option>
 #. 
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:144
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:146
 msgid "Wide band"
 msgstr ""
 

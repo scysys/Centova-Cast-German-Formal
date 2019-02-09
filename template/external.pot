@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Centova Cast v3.x\n"
-"POT-Creation-Date: 2018-10-08 17:24-0700\n"
-"PO-Revision-Date: 2018-10-08 17:24-0700\n"
+"POT-Creation-Date: 2018-11-08 13:30-0800\n"
+"PO-Revision-Date: 2018-11-08 13:30-0800\n"
 "Last-Translator: Support <support at centova dot com>\n"
 "Language-Team: Support <support at centova dot com>\n"
 "Language: en_US\n"
@@ -235,7 +235,7 @@ msgstr ""
 #. 
 #. File system/sources/sctrans2/class_Sourcesctrans2.php:534
 #. 
-#. File system/sources/liquidsoap/class_Sourceliquidsoap.php:224
+#. File system/sources/liquidsoap/class_Sourceliquidsoap.php:237
 #. 
 #. File system/sources/icessingleencoder/class_Sourceices.php:323
 #. 
@@ -247,7 +247,7 @@ msgstr ""
 #. 
 #. File system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:53
 #. 
-#. File system/class_StreamingSource.php:283
+#. File system/class_StreamingSource.php:284
 #. 
 #. File system/sources/ezstream/class_Sourceezstream.php:332
 #. 
@@ -268,13 +268,13 @@ msgstr ""
 #: www/client/modules/class_Module_importm3u.php:14
 #: system/sources/sctrans/class_Sourcesctrans.php:202
 #: system/sources/sctrans2/class_Sourcesctrans2.php:534
-#: system/sources/liquidsoap/class_Sourceliquidsoap.php:224
+#: system/sources/liquidsoap/class_Sourceliquidsoap.php:237
 #: system/sources/icessingleencoder/class_Sourceices.php:323
 #: system/sources/ices2/class_Ices2ServerInterface.php:221
 #: system/sources/ices2/class_Sourceices2.php:196
 #: system/sources/ices/srvintf/class_SingleMountIcesServerInterface.php:47
 #: system/sources/ices/srvintf/class_MultiMountIcesServerInterface.php:53
-#: system/class_StreamingSource.php:283
+#: system/class_StreamingSource.php:284
 #: system/sources/ezstream/class_Sourceezstream.php:332
 #: www/system/templates/admin_settings.tpl:211
 msgid "AutoDJ"
@@ -1344,13 +1344,13 @@ msgstr ""
 
 #. File www/external/modules/class_Module_recentfeed.php:64
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:184
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:186
 #. Context: <select name="mountpoints_field[liqopussignal]" class="list_editor_field" size="1">
 #.     					<option value="music">{="Music"}</option>
 #.     					<option value="voice">{="Voice"}</option>
 #. 
 #: www/external/modules/class_Module_recentfeed.php:64
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:184
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:186
 msgid "Music"
 msgstr ""
 
@@ -1495,7 +1495,7 @@ msgstr ""
 #. Context: <td colspan="3"><select name="{$mpfieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
 #.     		</tr>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:238
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:240
 #. Context: <select name="mountpoints_field[liqfdksbr_mode]" class="list_editor_field" size="1">
 #.     					<option value="false">{="No"}</option>
 #.     					<option value="true">{="Yes"}</option>
@@ -1519,7 +1519,7 @@ msgstr ""
 #. Context: <td colspan="3"><select name="{$mpfieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
 #.     		</tr>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:194
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:196
 #. Context: <option value="true">{="Yes"}</option>
 #.     					<option value="false">{="No"}</option>
 #.     					</select>
@@ -1529,7 +1529,7 @@ msgstr ""
 #.     			<td><select name="mountpoints_field[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
 #.     		</tr>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:203
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:205
 #. Context: <select name="mountpoints_field[liqfdkafterburner]" class="list_editor_field" size="1">
 #.     					<option value="false">{="No"}</option>
 #.     					<option value="true">{="Yes"}</option>
@@ -1674,14 +1674,14 @@ msgstr ""
 #: system/servers/IceCast/templates/configuration_client_relaymaster.tpl:26
 #: system/servers/IceCast/templates/configuration_client_advanced.tpl:51
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:9
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:238
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:240
 #: system/sources/liquidsoap/templates/configuration_source.tpl:27
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:8
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:28
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:9
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:194
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:196
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:13
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:203
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:205
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:28
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:29
 #: system/sources/sctrans2/templates/configuration_source.tpl:33
@@ -1808,7 +1808,7 @@ msgstr ""
 #.         <tr><td class="rowodd" colspan="6" style="text-align: center">{="None"}</td></tr>
 #.     </tbody>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:154
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:156
 #. Context: <select name="mountpoints_field[liqopusvbr]" class="list_editor_field" size="1">
 #.     					<option value="none">{="None"}</option>
 #.     					<option value="constrained">{="Constrained"}</option>
@@ -1841,7 +1841,7 @@ msgstr ""
 #: www/system/templates/statistics_tracks.tpl:104
 #: www/system/templates/statistics_tracks.tpl:122
 #: www/system/templates/statistics_countries.tpl:19
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:154
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:156
 #: system/class_Statistics.php:492
 #: system/sources/sctrans/templates/configuration_source.tpl:7
 #: system/class_Statistics.php:494
@@ -2976,9 +2976,9 @@ msgstr ""
 #. 
 #. File system/class_TrackManager.php:724
 #. 
-#. File system/class_RecentTracks.php:131
+#. File system/class_RecentTracks.php:134
 #. 
-#. File system/class_RecentTracks.php:132
+#. File system/class_RecentTracks.php:135
 #. 
 #. File system/class_Statistics.php:770
 #. 
@@ -3021,8 +3021,8 @@ msgstr ""
 #: system/class_Statistics.php:656
 #: system/class_Statistics.php:754
 #: system/class_TrackManager.php:724
-#: system/class_RecentTracks.php:131
-#: system/class_RecentTracks.php:132
+#: system/class_RecentTracks.php:134
+#: system/class_RecentTracks.php:135
 #: system/class_Statistics.php:770
 #: system/class_Statistics.php:638
 #: www/system/templates/admin_accounts_javascript.tpl:14
@@ -3226,14 +3226,14 @@ msgstr ""
 #. 
 #. File www/client/modules/class_Module_widgets.php:15
 #. 
-#. File system/class_StreamingSource.php:283
+#. File system/class_StreamingSource.php:284
 #. 
 #. File system/class_AccountFields.php:908
 #. 
 #: www/menu.php:478
 #: www/menu.php:230
 #: www/client/modules/class_Module_widgets.php:15
-#: system/class_StreamingSource.php:283
+#: system/class_StreamingSource.php:284
 #: system/class_AccountFields.php:908
 msgid "Widgets"
 msgstr ""
@@ -3355,7 +3355,7 @@ msgstr ""
 #. Context: fieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
 #.     		</tr>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:239
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:241
 #. Context: <option value="false">{="No"}</option>
 #.     					<option value="true">{="Yes"}</option>
 #.     					</select>
@@ -3378,7 +3378,7 @@ msgstr ""
 #. Context: fieldname}[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
 #.     		</tr>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:193
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:195
 #. Context: <select name="mountpoints_field[liqaacadts]" class="list_editor_field" size="1">
 #.     					<option value="true">{="Yes"}</option>
 #.     					<option value="false">{="No"}</option>
@@ -3387,7 +3387,7 @@ msgstr ""
 #. Context: ints_field[useautodj]" class="list_editor_field" size="1" id="useautodj"><option value="0">{="No"}</option><option value="1">{="Yes"}</option></select></td>
 #.     		</tr>
 #. 
-#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:204
+#. File system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:206
 #. Context: <option value="false">{="No"}</option>
 #.     					<option value="true">{="Yes"}</option>
 #.     					</select>
@@ -3532,14 +3532,14 @@ msgstr ""
 #: system/servers/IceCast/templates/configuration_client_relaymount.tpl:42
 #: system/servers/IceCast/templates/configuration_client_mountpoints.tpl:92
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:9
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:239
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:241
 #: system/sources/liquidsoap/templates/configuration_source.tpl:26
 #: system/sources/sctrans2/templates/configuration_source_mountpoints.tpl:8
 #: system/sources/ices/templates/configuration_source_mountpoints.tpl:29
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:9
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:193
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:195
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:13
-#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:204
+#: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:206
 #: system/sources/icescc/templates/configuration_source_mountpoints.tpl:29
 #: system/sources/liquidsoap/templates/configuration_source_mountpoints.tpl:30
 #: system/sources/sctrans2/templates/configuration_source.tpl:34
