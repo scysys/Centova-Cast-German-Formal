@@ -1,0 +1,25 @@
+# Centova Cast translation - util interface
+# Copyright 2015, Centova Technologies Inc.
+# This file is distributed under the same license terms as Centova Cast.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Centova Cast v3.0\n"
+"POT-Creation-Date: 2018-10-08 17:24-0700\n"
+"PO-Revision-Date: 2019-02-26 17:46+0100\n"
+"Last-Translator: scysys <scysys@outlook.com>\n"
+"Language-Team: Andre Fichtner\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+
+msgid "To learn how to change your Administrator / Login Password, click here."
+msgstr "Um zu erfahren, wie Sie Ihr Administrator / Login-Passwort ändern können, klicken Sie hier."
+
+msgid "We recommend you to only change your Administrator Password over our Customer Area!"
+msgstr "Wir empfehlen Ihnen, Ihr Administrator-Passwort nur über unseren Kundenbereich zu ändern!"
+
+msgid "To apply the language changes, you must log out and log in again."
+msgstr "Um die Sprachänderungen anzuwenden, müssen Sie sich ausloggen und dann erneut einloggen."
