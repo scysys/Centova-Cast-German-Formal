@@ -23,3 +23,39 @@ msgstr "Wir empfehlen Ihnen, Ihr Administrator-Passwort nur über unseren Kunden
 
 msgid "To apply the language changes, you must log out and log in again."
 msgstr "Um die Sprachänderungen anzuwenden, müssen Sie sich ausloggen und dann erneut einloggen."
+
+msgid "Your personal radio page"
+msgstr "Ihr eigene Radioseite"
+
+msgid "Streamserver (Hostname)"
+msgstr "Streamserver (Hostname)"
+
+msgid "Streamserver (IP-Address)"
+msgstr "Streamserver (IP-Adresse)"
+
+msgid "Web player (Hostname / HTTP)"
+msgstr "Web Player (Hostname / HTTP)"
+
+msgid "Web player (Hostname / HTTPS)"
+msgstr "Web Player (Hostname / HTTPS)"
+
+msgid "Streamserver (IP-Address / HTTP)"
+msgstr "Streamserver (IP-Adresse / HTTP)"
+
+msgid "Solutions for old stream server or for SHOUTcast V2 without an shoutcast.com premiumaccount"
+msgstr "Lösungen für ältere Streamserver die keine SSL-Verbindungen unterstützen oder wenn Sie bei SHOUTcast V2 keinen shoutcast.com Premiumaccount haben"
+
+msgid "SSL Proxy for non supportet streamserver"
+msgstr "SSL Proxy für nicht unterstützte Streamserver"
+
+msgid "SHOUTcast V2 without premium"
+msgstr "SHOUTcast V2 ohne Premium Mitgliedschaft"
+
+msgid "Without real visitor ip"
+msgstr "Ohne Ausgabe der realen IP-Adresse des Zuhörers"
+
+msgid "Learn more here"
+msgstr "Erfahren Sie hier mehr zum Thema"
+
+msgid "On errors with radio directorys read this"
+msgstr "Bei Fehlern mit Radioverzeichnissen, lesen Sie hier weiter"
