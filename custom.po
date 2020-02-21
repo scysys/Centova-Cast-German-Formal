@@ -64,4 +64,4 @@ msgid "On SHOUTcast V2 this is not working without an shoutcast.com premium acco
 msgstr "Bei Fehlern mit Radioverzeichnissen, lesen Sie hier weiter"
 
 msgid "A little further down there is a solution for SHOUTcast V2 users without a premium account"
-msgstr "Etwas weiter unten gibt es eine Lösung für SHOUTcast V2 nutzer ohne Premiumaccount."
+msgstr "Etwas weiter unten gibt es eine Lösung für SHOUTcast V2 nutzer ohne Premiumaccount"
