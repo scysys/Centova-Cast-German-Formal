@@ -27,8 +27,14 @@ msgstr "Um die Sprachänderungen anzuwenden, müssen Sie sich ausloggen und dann
 msgid "Your personal radio page"
 msgstr "Ihr eigene Radioseite"
 
-msgid "Streamserver (Hostname)"
+msgid "Stream server (Hostname)"
 msgstr "Streamserver (Hostname)"
+
+msgid "Stream server (Hostname / HTTP)"
+msgstr "Streamserver (Hostname / HTTP)"
+
+msgid "Stream server (Hostname / HTTPs)"
+msgstr "Streamserver (Hostname / HTTPs)"
 
 msgid "Streamserver (IP-Address)"
 msgstr "Streamserver (IP-Adresse)"
@@ -39,8 +45,8 @@ msgstr "Web Player (Hostname / HTTP)"
 msgid "Web player (Hostname / HTTPS)"
 msgstr "Web Player (Hostname / HTTPS)"
 
-msgid "Streamserver (IP-Address / HTTP)"
-msgstr "Streamserver (IP-Adresse / HTTP)"
+msgid "Web player (IP-Address)"
+msgstr "Webplayer (IP-Adresse)"
 
 msgid "Solutions for old stream server or for SHOUTcast V2 without an shoutcast.com premium account"
 msgstr "Lösungen für ältere Streamserver die keine SSL-Verbindungen unterstützen oder wenn Sie bei SHOUTcast V2 keinen shoutcast.com Premiumaccount haben"
