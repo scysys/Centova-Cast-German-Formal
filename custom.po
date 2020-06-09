@@ -71,3 +71,60 @@ msgstr "Bei Fehlern mit Radioverzeichnissen, lesen Sie hier weiter"
 
 msgid "A little further down there is a solution for SHOUTcast V2 users without a premium account"
 msgstr "Etwas weiter unten gibt es eine Lösung für SHOUTcast V2 nutzer ohne Premiumaccount"
+
+msgid "Search"
+msgstr "Suche"
+
+msgid "Search for..."
+msgstr "Suche nach..."
+
+msgid "No data available in table"
+msgstr "Keine Daten in der Tabelle verfügbar"
+
+msgid "Showing"
+msgstr "Zeige"
+
+msgid "to"
+msgstr "bis"
+
+msgid "of"
+msgstr "von"
+
+msgid "Entries"
+msgstr "Einträge"
+
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Zeige 0 bis 0 von 0 Einträgen"
+
+msgid "Show"
+msgstr "Zeige"
+
+msgid "Loading..."
+msgstr "Wird geladen..."
+
+msgid "Processing..."
+msgstr "Wird bearbeitet..."
+
+msgid "No entries have been found"
+msgstr "Es wurden keine Einträge gefunden"
+
+msgid "First"
+msgstr "Erste"
+
+msgid "Last"
+msgstr "Letzte"
+
+msgid "Next"
+msgstr "Weiter"
+
+msgid "Previous"
+msgstr "Zurück"
+
+msgid "Print"
+msgstr "Drucken"
+
+msgid "Copy"
+msgstr "Kopieren"
+
+msgid "xxx"
+msgstr "xxx"
