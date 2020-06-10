@@ -126,5 +126,8 @@ msgstr "Drucken"
 msgid "Copy"
 msgstr "Kopieren"
 
-msgid "xxx"
-msgstr "xxx"
+msgid "on"
+msgstr "am"
+
+msgid "Daily Playlist"
+msgstr "Tägliche Playlist"
