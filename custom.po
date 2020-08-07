@@ -131,3 +131,70 @@ msgstr "am"
 
 msgid "Daily Playlist"
 msgstr "Tägliche Playlist"
+
+msgid "Stream Server API"
+msgstr "Streamserver API"
+
+msgid "Automatic Wishbox"
+msgstr "Automatische Wunschbox"
+
+msgid "Playback Reports"
+msgstr "Abspielberichte"
+
+msgid "Broadcaster / Sendedaten"
+msgstr "Live Source Connections"
+
+msgid "Informations about the Interface"
+msgstr "Informationen zum Interface"
+
+msgid "This page usually gives you all the data you need. Take your time and take a quick look at all the points."
+msgstr "Diese Seite gibt Ihnen in der Regel alle Daten aus die Sie benötigen. Nehmen Sie sich Zeit und schauen sich alle Punkte kurz in Ruhe an."
+
+msgid ""
+"If you don't get along, %sask us%s."
+msgstr ""
+"Sollten Sie nicht zurecht kommen, %sfragen Sie uns%s."
+
+msgid "We are here to help!"
+msgstr "Wir sind da um Ihnen zu helfen!"
+
+msgid "Tune-In Links"
+msgstr "Tune-In Links"
+
+msgid "Notes on the systems"
+msgstr "Hinweise zu den Systemen"
+
+msgid "Even if you have a SHOUTcast V2 server, your signal is routed via a SHOUTcast V1 source by default. Many broadcasters like the SAM broadcaster still do not support native V2 connections. This type of connection method ensures that you can use SHOUTcast V2 even if your broadcaster is not designed for this at all."
+msgstr "Auch wenn Sie einen SHOUTcast V2 Server haben, wird Ihr Signal im Standard über einer SHOUTcast V1 Source geleitet. Viele Broadcaster wie auch der SAM Broadcaster unterstützen immer noch keine nativen V2 Verbindungen. Mit dieser Art der Verbindungsmethode wird sichergestellt, dass Sie SHOUTcast V2 auch dann einsetzen können, wenn Ihr Broadcaster hierfür überhaupt nicht ausgelegt ist."
+
+msgid "With the Liquidsoap variants, your signal on SHOUTcast V2 / Icecast V2 servers is routed to the server via a SHOUTcast V1 source. This functionality ensures that e.g. Icecast servers with Streampanels can also be operated by broadcasters, which actually do not allow native Icecast connections."
+msgstr "Bei den Liquidsoap varianten wird Ihr Signal bei SHOUTcast V2 / Icecast V2 Servern über eine SHOUTcast V1 Source zum Server geleitet. Diese Funktionalität stellt sicher, dass z.b. Icecast Server bei Streampanel auch von Broadcastern bedient werden können, welche eigentlich keine nativen Icecast Verbindungen erlauben."
+
+msgid "Show Listener Number inside your Broadcaster"
+msgstr "Zuhörerzahlen im Broadcaster ausgeben"
+
+msgid ""
+"Please click %shere%s to find out how you can also output the number of listeners in the broadcaster when using the DJ accounts."
+msgstr ""
+"Bitte klicken Sie %shier%s um zu erfahren, wie Sie beim Einsatz der DJ-Accounts auch die Zuhörerzahlen im Broadcaster ausgeben können."
+
+msgid "FTP Client Connections"
+msgstr "FTP-Verbindungen"
+
+msgid "Upload only inside the Folder 'media'"
+msgstr "Laden Sie Dateien ausschließlich im Ordner 'media'"
+
+msgid "Broadcaster Password"
+msgstr "Broadcaster Passwort"
+
+msgid "Good to know"
+msgstr "Gut zu Wissen"
+
+msgid "Outside the STREAMPANEL Cloud you need to stop & restart your Stream Server to make changes to your DJ-Accounts active."
+msgstr "Ausserhalb der STREAMPANEL Cloud ist es nötig, dass Sie den Server nach jeder Änderung an DJ-Accounts einmal stoppen und dann wieder starten."
+
+msgid "Note"
+msgstr "Hinweis"
+
+msgid "The Permissions are only for the Interface itself. DJ-Accounts can also Login to our Panel and handle based on the Permissions!"
+msgstr "Die Berechtigungen gelten ausschließlich für das Interface. DJ-Accounts können sich ebenfalls im Panel einloggen und anhand ihrer Berechtigungen handeln."
