@@ -198,3 +198,21 @@ msgstr "Hinweis"
 
 msgid "The Permissions are only for the Interface itself. DJ-Accounts can also Login to our Panel and handle based on the Permissions!"
 msgstr "Die Berechtigungen gelten ausschließlich für das Interface. DJ-Accounts können sich ebenfalls im Panel einloggen und anhand ihrer Berechtigungen handeln."
+
+msgid "IP-Address"
+msgstr "IP-Adresse"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Bitrate"
+msgstr "Bitrate"
+
+msgid "Mountpoint"
+msgstr "Mountpoint"
+
+msgid "Broadcast: With active AutoDJ"
+msgstr "Broadcast: Mit aktiven AutoDJ"
+
+msgid "Broadcast: Server only (Without AutoDJ)"
+msgstr "Broadcast: Server (Ohne aktiven AutoDJ)"
