@@ -224,3 +224,8 @@ msgstr "Broadcaster Verbindung"
 
 msgid "DJPassword"
 msgstr "DJPasswort"
+
+msgid ""
+"The 'Administrator password' value from your %sstream settings%s"
+msgstr ""
+"Das 'Administrator Passwort' aus Ihren %sStreamserver Einstellungen%s"
