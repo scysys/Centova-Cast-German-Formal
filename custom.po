@@ -48,12 +48,6 @@ msgstr "Web Player (Hostname / HTTPS)"
 msgid "Web player (IP-Address)"
 msgstr "Webplayer (IP-Adresse)"
 
-msgid "Solutions for old stream server or for SHOUTcast V2 without an shoutcast.com premium account"
-msgstr "Lösungen für ältere Streamserver die keine SSL-Verbindungen unterstützen oder wenn Sie bei SHOUTcast V2 keinen shoutcast.com Premiumaccount haben"
-
-msgid "SSL Proxy for non supportet streamserver"
-msgstr "SSL Proxy für nicht unterstützte Streamserver"
-
 msgid "SHOUTcast V2 without premium"
 msgstr "SHOUTcast V2 ohne Premium Mitgliedschaft"
 
@@ -69,8 +63,8 @@ msgstr "Bei Fehlern mit Radioverzeichnissen, lesen Sie hier weiter"
 msgid "On SHOUTcast V2 this is not working without an shoutcast.com premium account"
 msgstr "Bei Fehlern mit Radioverzeichnissen, lesen Sie hier weiter"
 
-msgid "A little further down there is a solution for SHOUTcast V2 users without a premium account"
-msgstr "Etwas weiter unten gibt es eine Lösung für SHOUTcast V2 nutzer ohne Premiumaccount"
+msgid "Under this text there is a solution for SHOUTcast V2 users without a premium account"
+msgstr "Unter diesen Text gibt es eine Lösung für SHOUTcast V2 Nutzer ohne Premiumaccount"
 
 msgid "Search"
 msgstr "Suche"
