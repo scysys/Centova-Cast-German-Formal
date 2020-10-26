@@ -216,3 +216,17 @@ msgstr "Broadcast: Mit aktiven AutoDJ"
 
 msgid "Broadcast: Server only (Without AutoDJ)"
 msgstr "Broadcast: Server (Ohne aktiven AutoDJ)"
+
+msgid "When entering the connection data in your broadcaster, pay attention to upper and lower case letters in the DJ username or DJ password."
+msgstr "Achten Sie beim DJ-Usernamen oder DJ-Passwort auch auf die Groß und Kleinschreibung bei der Eingabe der Verbindungsdaten in Ihren Broadcaster."
+
+msgid ""
+"If you need more details about your connection, look %shere%s."
+msgstr ""
+"Benötigen Sie weitere Details zur Verbindung, schauen Sie %shier%s."
+
+msgid "Broadcaster Connection"
+msgstr "Broadcaster Verbindung"
+
+msgid "DJPassword"
+msgstr "DJPasswort"
