@@ -229,3 +229,18 @@ msgid ""
 "The 'Administrator password' value from your %sstream settings%s"
 msgstr ""
 "Das 'Administrator Passwort' aus Ihren %sStreamserver Einstellungen%s"
+
+msgid "AutoDJ: Extra"
+msgstr "AutoDJ: Extra"
+
+msgid "AutoDJ Software"
+msgstr "AutoDJ Software"
+
+msgid "Use jPlayer for a working HTML5 Player."
+msgstr "Wählen Sie jPlayer für HTML5 Kompatibilität aus."
+
+msgid "Enter your SHOUTcast V2 API Directory Key here."
+msgstr "Hinterlegen Sie hier Ihren SHOUTcast V2 API Key."
+
+msgid "Create an DJ Account to Broadcast Live!"
+msgstr "Erstellen eines DJ-Account zum Live Senden über einen Broadcaster."
