@@ -244,3 +244,42 @@ msgstr "Hinterlegen Sie hier Ihren SHOUTcast V2 API Key."
 
 msgid "Create an DJ Account to Broadcast Live!"
 msgstr "Erstellen eines DJ-Account zum Live Senden über einen Broadcaster."
+
+msgid "Access Logs"
+msgstr "Zugriffslogs"
+
+msgid "AutoDJ Logs"
+msgstr "AutoDJ Logs"
+
+msgid "Error Logs"
+msgstr "Error Logs"
+
+msgid "Leave empty"
+msgstr "Leerlassen"
+
+msgid "We do not support this Method. Please read the following Article"
+msgstr "Wir unterstützen diese Art Funktion nicht! Bitte lesen Sie den folgenden Artikel"
+
+msgid "This section shows all Artists from your uploaded music files. You can drag and drop Artist with your mouse to your left playlists."
+msgstr "Diese Sektion zeigt alle Artisten aus denn hochgeladenen Musikdateien. Sie können per Drag & Drop einen Artist den linken Playlisten zu weisen."
+
+msgid "This section shows the Album of the selected Artist. You can drag and drop an Album with your mouse to your left playlists."
+msgstr "Diese Sektion zeigt alle Alben des ausgewählten Artisten. Sie können per Drag & Drop ein Album den linken Playlisten zu weisen."
+
+msgid "This section show the Title of the selected Artist and his Album. You can drag and drop Titles with your mouse to your left playlists."
+msgstr "Diese Sektion zeigt Musiktitel des ausgewählten Artist und Albums. Sie können per Drag & Drop einen Musiktitel den linken Playlisten zu weisen."
+
+msgid "This sections contains all the Tracks that you have assigned to this selected playlist."
+msgstr "Diese Sektion listet alle Musikdateien auf, welche Sie dieser Playlist zugewiesen haben."
+
+msgid "This section contains your media library and the playlists you have actually created."
+msgstr "Diese Sektion zeigt zuerst Ihre Medien Bibliothek und listet dann Ihre erstellten Playlisten auf."
+
+msgid "The folder layout is an simplier interface where you can drag and drop multiple folders instead of single files only to you created playlists. Thats only possible when you organize your files in folders on file upload."
+msgstr "Die Ordneransicht ist ein vereinfachtes Benutzerinterface. Strukturieren Sie Ihre Dateien bereits beim Upload in Ordnern und fügen dann über dieser Ansicht einer Playlist gleich ganze Ordner statt einzelne Dateien hinzu."
+
+msgid "This sections shows the folder that are allocated to your account. Your Media files must always be uploaded in the media folder. Ignore the other folders!"
+msgstr "Diese Sektion listet alle nötigen Ordner zu Ihren Account auf. Ihre Musikdateien gehören immer im Ordner media. Ignorieren Sie die anderen Ordner!"
+
+msgid "This section shows your uploaded media files. For easier management organize your uploads in folders."
+msgstr "Diese Sektion zeigt all Ihre hochgeladenen Musikdateien. Organisieren Sie Ihre Musikdateien in beliebig viele Unterordner für eine einfachere Verwaltung."
