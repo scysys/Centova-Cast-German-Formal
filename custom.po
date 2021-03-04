@@ -283,3 +283,9 @@ msgstr "Diese Sektion listet alle nötigen Ordner zu Ihren Account auf. Ihre Mus
 
 msgid "This section shows your uploaded media files. For easier management organize your uploads in folders."
 msgstr "Diese Sektion zeigt all Ihre hochgeladenen Musikdateien. Organisieren Sie Ihre Musikdateien in beliebig viele Unterordner für eine einfachere Verwaltung."
+
+msgid "If you have trouble with your connection to the server, check all your details twice. Any Broadcaster is working with our systems! Contact us, that we can guide you to a successful connection."
+msgstr "Wenn Sie Probleme mit der Verbindung zum Server haben, überprüfen Sie alle Ihre Angaben erneut. Jeder Broadcaster arbeitet mit unseren Systemen! Kontaktieren Sie uns, damit wir Ihnen helfen können Fehler zu beseitigen."
+
+msgid "Icecast V2 with icescc as AutoDJ Source, can not be used with the DJ-Accounts! Our Cloud Version Icecast V2 / Liquidsoap and any other our Stream Servers are supporting the DJ Protocol."
+msgstr "Icecast V2 mit icescc als AutoDJ Source, kann nicht mit den DJ-Accounts verwendet werden! Unsere Cloud-Version Icecast V2 / Liquidsoap und alle anderen unserer Streamserver unterstützen das DJ-Protokoll."
